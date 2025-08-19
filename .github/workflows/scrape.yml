@@ -1,31 +1,28 @@
 name: Scrape and publish data
 
 on:
-  workflow_dispatch:   # manuell starten
+  workflow_dispatch:          # manuelles Ausführen
   schedule:
-    - cron: "0 6 * * *"   # läuft jeden Tag um 06:00 UTC
+    - cron: '0 6 * * *'      # optional: täglich um 06:00 Uhr
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-- name: Checkout repository
-  uses: actions/checkout@v3
-  with:
-    persist-credentials: true
-    fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
-
-      - name: Setup Java
+      - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          java-version: '17'       # passe ggf. an deine Version an
 
-      - name: Run KaderScraper
+      - name: Compile and run KaderScraper
         run: |
-          mkdir -p data
           javac *.java
           java KaderScraper
 
@@ -33,6 +30,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add data/
+          git add data
           git diff --quiet && git diff --staged --quiet || git commit -m "Update scraped data"
           git push
