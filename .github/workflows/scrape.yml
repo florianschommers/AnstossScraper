@@ -19,7 +19,8 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          java-version: '17'       # passe ggf. an deine Version an
+          distribution: 'temurin'   # Java-Distribution
+          java-version: '17'
 
       - name: Compile and run KaderScraper
         run: |
