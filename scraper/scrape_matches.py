@@ -311,9 +311,11 @@ def parse_league_matches(html: str, matchday: int, season: str, league_path: str
     return matches
 
 def scrape_league_matches(league: str, season: str) -> List[Dict]:
-    """Scrapt Matches für eine Liga (Spain, Italy, France)"""
+    """Scrapt Matches für eine Liga (Bundesliga, Spain, Italy, France)"""
     all_matches = []
     league_paths = {
+        'bundesliga1': 'bundesliga',
+        'bundesliga2': '2bundesliga',
         'spain': 'spanien',
         'italy': 'italien',
         'france': 'frankreich'
@@ -505,13 +507,35 @@ def save_matches_json(league: str, season: str, matches: List[Dict], output_dir:
     
     print(f"💾 Gespeichert: {filename} ({len(matches)} Matches)")
 
+def scrape_bundesliga_matches(season: str) -> List[Dict]:
+    """Scrapt Bundesliga-Matches (1. und 2. Bundesliga)"""
+    all_matches = []
+    
+    # Scrape 1. Bundesliga
+    print("\n📊 Scrape 1. Bundesliga...")
+    bl1_matches = scrape_league_matches('bundesliga1', season)
+    all_matches.extend(bl1_matches)
+    
+    # Scrape 2. Bundesliga
+    print("\n📊 Scrape 2. Bundesliga...")
+    bl2_matches = scrape_league_matches('bundesliga2', season)
+    all_matches.extend(bl2_matches)
+    
+    return all_matches
+
 def main():
     """Hauptfunktion"""
     print("🚀 Starte Match-Scraping...")
     
+    season = get_current_season()
+    
+    # Bundesliga (1. und 2. Liga)
+    print("\n📊 Scrape Bundesliga...")
+    bundesliga_matches = scrape_bundesliga_matches(season)
+    save_matches_json('bundesliga', season, bundesliga_matches)
+    
     # England
     print("\n📊 Scrape England...")
-    season = get_current_season()
     england_matches = scrape_england_matches(season)
     save_matches_json('england', season, england_matches)
     
