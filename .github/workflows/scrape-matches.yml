@@ -33,6 +33,8 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          # Pull latest changes first
+          git pull --rebase origin main || git pull origin main
           git add data/matches/*.json
           if ! git diff --staged --quiet; then
             git commit -m "Update match data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
