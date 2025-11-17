@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-17T17:43:50.697239Z",
+  "lastUpdated": "2025-11-17T17:52:46.146224Z",
   "matches": [
     {
       "matchday": 3,
@@ -978,6 +978,16 @@
       "homeTeam": "Intermailand",
       "awayTeam": "Acmailand",
       "dateTime": "2025-11-23T20:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Turin",
+      "awayTeam": "Como",
+      "dateTime": "2025-11-24T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
