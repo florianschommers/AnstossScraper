@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-17T20:00:51.275149Z",
+  "lastUpdated": "2025-11-17T20:31:00.625837Z",
   "matches": [
     {
       "matchday": 3,
@@ -988,6 +988,16 @@
       "homeTeam": "Arsenal",
       "awayTeam": "Tottenham Hotspur",
       "dateTime": "2025-11-23T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Manunited",
+      "awayTeam": "Everton",
+      "dateTime": "2025-11-24T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
