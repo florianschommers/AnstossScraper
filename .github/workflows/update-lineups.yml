@@ -23,8 +23,7 @@ jobs:
       
       - name: Install Dependencies
         run: |
-          cd scraper
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4
       
       - name: Scrape Lineups
         run: |
