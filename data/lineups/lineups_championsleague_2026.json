@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-11-18T10:30:29.021630",
+  "lastUpdated": "2025-11-18T11:06:45.040705",
   "lineups": [
     {
       "homeTeam": "Athbilbao",
@@ -2380,6 +2380,72 @@
       ]
     },
     {
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "Atalanta Bergamo",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Jonathan Burkardt",
+        "Ansgar Knauff",
+        "Fares Chaibi",
+        "Ritsu Doan",
+        "Ellyes Skhiri",
+        "Mahmoud Dahoud",
+        "Nathaniel Brown",
+        "Arthur Theate",
+        "Robin Koch",
+        "Rasmus Kristensen",
+        "Michael Zetterer"
+      ],
+      "awayLineup": [
+        "Nikola Krstovic",
+        "Ademola Lookman",
+        "Lazar Samardzic",
+        "Davide Zappacosta",
+        "Mario Pasalic",
+        "Ederson",
+        "Raoul Bellanova",
+        "Honest Ahanor",
+        "Isak Hien",
+        "Odilon Kossounou",
+        "Marco Carnesecchi"
+      ]
+    },
+    {
+      "homeTeam": "Sporting Lissabon",
+      "awayTeam": "Club Bruegge",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Luis Suarez",
+        "Pedro Goncalves",
+        "Francisco Trincao",
+        "Geny Catamo",
+        "Joao Simoes",
+        "Morten Hjulmand",
+        "Maxi Araujo",
+        "Goncalo Inacio",
+        "Ousmane Diomande",
+        "Ivan Fresneda",
+        "Rui Silva"
+      ],
+      "awayLineup": [
+        "Romeo Vermant",
+        "Christos Tzolis",
+        "Hans Vanaken",
+        "Carlos Forbs",
+        "Raphael Onyedika",
+        "Aleksandar Stankovic",
+        "Joaquin Seys",
+        "Brandon Mechele",
+        "Joel Ordonez",
+        "Kyriani Sabbe",
+        "Nordin Jackers"
+      ]
+    },
+    {
       "homeTeam": "Benfica",
       "awayTeam": "Sscneapel",
       "dateTime": "2025-09-16T21:00:00Z",
@@ -2479,9 +2545,141 @@
       ]
     },
     {
+      "homeTeam": "Fc Barcelona",
+      "awayTeam": "Eintracht Frankfurt",
+      "dateTime": "2025-12-09T21:00:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Marcus Rashford",
+        "Robert Lewandowski",
+        "Lamine Yamal",
+        "Dani Olmo",
+        "Frenkie de Jong",
+        "Fermin Lopez",
+        "Alejandro Balde",
+        "Pau Cubarsi",
+        "Ronald Araujo",
+        "Eric Garcia",
+        "Wojciech Szczesny"
+      ],
+      "awayLineup": [
+        "Jonathan Burkardt",
+        "Ansgar Knauff",
+        "Fares Chaibi",
+        "Ritsu Doan",
+        "Ellyes Skhiri",
+        "Mahmoud Dahoud",
+        "Nathaniel Brown",
+        "Arthur Theate",
+        "Robin Koch",
+        "Rasmus Kristensen",
+        "Michael Zetterer"
+      ]
+    },
+    {
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Aep Paphos Fc",
+      "dateTime": "2025-12-10T21:00:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Dusan Vlahovic",
+        "Kenan Yildiz",
+        "Weston McKennie",
+        "Khephren Thuram",
+        "Manuel Locatelli",
+        "Teun Koopmeiners",
+        "Pierre Kalulu",
+        "Lloyd Kelly",
+        "Bremer",
+        "Federico Gatti",
+        "Michele Di Gregorio"
+      ],
+      "awayLineup": [
+        "Anderson Silva",
+        "Mislav Orsic",
+        "Vlad Dragomir",
+        "Joao Correia",
+        "Ivan Sunjic",
+        "Pepe",
+        "Kostas Pileas",
+        "David Goldar",
+        "Derrick Luckassen",
+        "Bruno",
+        "Neofytos Michail"
+      ]
+    },
+    {
+      "homeTeam": "Benfica Lissabon",
+      "awayTeam": "Ssc Neapel",
+      "dateTime": "2025-12-10T21:00:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Vangelis Pavlidis",
+        "Franjo Ivanovic",
+        "Andreas Schjelderup",
+        "Enzo Barrenechea",
+        "Richard Rios",
+        "Fredrik Aursnes",
+        "Samuel Dahl",
+        "Nicolas Otamendi",
+        "Antonio Silva",
+        "Tomas Araujo",
+        "Anatoliy Trubin"
+      ],
+      "awayLineup": [
+        "Rasmus Hojlund",
+        "Scott McTominay",
+        "Kevin De Bruyne",
+        "Frank Anguissa",
+        "Matteo Politano",
+        "Stanislav Lobotka",
+        "Leonardo Spinazzola",
+        "Alessandro Buongiorno",
+        "Sam Beukema",
+        "Giovanni Di Lorenzo",
+        "Vanja Milinkovic-Savic"
+      ]
+    },
+    {
       "homeTeam": "Juventusturin",
       "awayTeam": "Benfica",
       "dateTime": "2025-09-16T21:00:00Z",
+      "matchday": 7,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Dusan Vlahovic",
+        "Kenan Yildiz",
+        "Weston McKennie",
+        "Khephren Thuram",
+        "Manuel Locatelli",
+        "Teun Koopmeiners",
+        "Pierre Kalulu",
+        "Lloyd Kelly",
+        "Bremer",
+        "Federico Gatti",
+        "Michele Di Gregorio"
+      ],
+      "awayLineup": [
+        "Vangelis Pavlidis",
+        "Franjo Ivanovic",
+        "Andreas Schjelderup",
+        "Enzo Barrenechea",
+        "Richard Rios",
+        "Fredrik Aursnes",
+        "Samuel Dahl",
+        "Nicolas Otamendi",
+        "Antonio Silva",
+        "Tomas Araujo",
+        "Anatoliy Trubin"
+      ]
+    },
+    {
+      "homeTeam": "Juventus Turin",
+      "awayTeam": "Benfica Lissabon",
+      "dateTime": "2026-01-21T21:00:00Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -2542,6 +2740,39 @@
         "Bremer",
         "Federico Gatti",
         "Michele Di Gregorio"
+      ]
+    },
+    {
+      "homeTeam": "Aep Paphos Fc",
+      "awayTeam": "Slavia Prag",
+      "dateTime": "2026-01-28T21:00:00Z",
+      "matchday": 8,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Vlad Dragomir",
+        "Domingos Quina",
+        "Pepe",
+        "Ivan Sunjic",
+        "Mislav Orsic",
+        "Ken Sema",
+        "David Goldar",
+        "David Luiz",
+        "Derrick Luckassen",
+        "Bruno",
+        "Neofytos Michail"
+      ],
+      "awayLineup": [
+        "Tomas Chory",
+        "Youssoupha Sanyang",
+        "Lukas Provod",
+        "Youssoupha Mbodji",
+        "Michal Sadilek",
+        "Christos Zafeiris",
+        "David Moses",
+        "Stepan Chaloupek",
+        "David Zima",
+        "Tomas Vlcek",
+        "Jindrich Stanek"
       ]
     }
   ]
