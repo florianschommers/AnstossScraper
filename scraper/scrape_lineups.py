@@ -216,6 +216,12 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
 
 def load_matches_from_json(file_path: str) -> List[Dict]:
     """Lädt Matches aus JSON-Datei"""
+    # Stelle sicher, dass der Pfad korrekt ist
+    if not os.path.isabs(file_path) and os.path.basename(os.getcwd()) == 'scraper':
+        # Wenn wir im scraper/ Verzeichnis sind und der Pfad relativ ist, gehe nach oben
+        if not file_path.startswith('..'):
+            file_path = os.path.join('..', file_path)
+    
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -234,6 +240,11 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     print(f"\n{'='*60}")
     print(f"🏆 Liga: {league_name} (Saison {season})")
     print(f"{'='*60}")
+    
+    # Stelle sicher, dass das Verzeichnis relativ zum Repository-Root ist
+    # Wenn wir im scraper/ Verzeichnis sind, gehen wir ein Verzeichnis nach oben
+    if os.path.basename(os.getcwd()) == 'scraper':
+        data_dir = os.path.join('..', data_dir)
     
     # Lade Matches
     match_file = os.path.join(data_dir, f"matches_{league_name}_{season}.json")
