@@ -1,0 +1,39 @@
+name: Update Lineups
+
+on:
+  schedule:
+    # Jede Stunde
+    - cron: '0 * * * *'
+  workflow_dispatch:  # Manuell auslösbar
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install Dependencies
+        run: |
+          cd scraper
+          pip install -r requirements.txt
+      
+      - name: Scrape Lineups
+        run: |
+          cd scraper
+          python scrape_lineups.py
+      
+      - name: Upload Lineups to GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python upload_lineups_to_github.py
+
