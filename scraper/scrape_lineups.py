@@ -136,7 +136,7 @@ def is_coach(name: str) -> bool:
 # Team-Name-Konvertierung wird jetzt von team_slug_converter.py übernommen
 
 def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str]]]:
-    """Scrapt Aufstellung für ein einzelnes Spiel - testet alle Spieltage/Runden wenn nötig"""
+    """Scrapt Aufstellung für ein einzelnes Spiel - OPTIMIERT: Testet zuerst nur ±2 Spieltage, dann alle anderen"""
     # Erstelle Team-Slugs mit der korrekten Konvertierungs-Logik
     home_slug = convert_team_to_slug(home_team, liga_id, is_international)
     away_slug = convert_team_to_slug(away_team, liga_id, is_international)
@@ -145,45 +145,35 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
         print(f"    ⚠️ Konnte Team-Slugs nicht erstellen: {home_team} → {home_slug}, {away_team} → {away_slug}")
         return None
     
-    # Bestimme welche Spieltage/Runden zu testen sind (wie in der App)
+    # OPTIMIERT: Teste zuerst nur ±2 Spieltage, dann alle anderen (wie in der App)
+    # Das reduziert die Requests drastisch von 20.808 auf ~3.060 für 306 Spiele
+    
+    # Phase 1: Teste zuerst nur den spezifischen Spieltag ±2
     if is_international:
-        # International: Teste zuerst spezifischen Spieltag, dann andere Phasen
-        rounds_to_test = []
+        # International: Teste zuerst spezifischen Spieltag
+        first_rounds_to_test = []
         if matchday and phase:
-            rounds_to_test.append((phase, matchday))
-        # Teste auch andere Phasen (falls Phase falsch ist)
-        for test_phase in ["gruppenphase", "achtelfinale", "viertelfinale", "halbfinale", "finale"]:
-            if test_phase != phase and matchday:
-                rounds_to_test.append((test_phase, matchday))
+            first_rounds_to_test.append((phase, matchday))
     elif liga_id == 3:  # DFB-Pokal
-        # DFB-Pokal: Teste alle Runden (wie in der App)
-        dfb_rounds = ["1-runde", "2-runde", "achtelfinale", "viertelfinale", "halbfinale", "finale"]
-        rounds_to_test = dfb_rounds.copy()
-        # Stelle sicher, dass die spezifische Runde zuerst getestet wird
-        if matchday and isinstance(matchday, str) and matchday in dfb_rounds:
-            rounds_to_test.remove(matchday)
-            rounds_to_test.insert(0, matchday)
+        # DFB-Pokal: Teste zuerst spezifische Runde
+        first_rounds_to_test = []
+        if matchday and isinstance(matchday, str):
+            dfb_rounds = ["1-runde", "2-runde", "achtelfinale", "viertelfinale", "halbfinale", "finale"]
+            if matchday in dfb_rounds:
+                first_rounds_to_test.append(matchday)
     else:
-        # Normale Ligen: Teste zuerst spezifischen Spieltag ±2, dann alle 1-34 (wie in der App)
-        rounds_to_test = []
+        # Normale Ligen: Teste zuerst nur ±2 Spieltage (5 Spieltage statt 34!)
+        first_rounds_to_test = []
         if matchday:
-            # Teste ±2 Spieltage um den gefundenen Spieltag herum (wie in der App)
             try:
                 base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
                 matchdays_to_test = list(range(max(1, base_matchday - 2), min(35, base_matchday + 3)))
-                rounds_to_test = [str(md) for md in matchdays_to_test]
-                # Füge alle anderen Spieltage hinzu (falls der spezifische falsch ist)
-                all_matchdays = [str(md) for md in range(1, 35) if str(md) not in rounds_to_test]
-                rounds_to_test.extend(all_matchdays)
+                first_rounds_to_test = [str(md) for md in matchdays_to_test]
             except:
-                # Fallback: Teste alle
-                rounds_to_test = [str(md) for md in range(1, 35)]
-        else:
-            # Kein Spieltag: Teste alle (wie in der App)
-            rounds_to_test = [str(md) for md in range(1, 35)]
+                first_rounds_to_test = []
     
-    # Teste alle Spieltage/Runden
-    for round_value in rounds_to_test:
+    # Phase 1: Teste zuerst nur ±2 Spieltage (schnell!)
+    for round_value in first_rounds_to_test:
         if is_international:
             test_phase, test_matchday = round_value
             if test_matchday:
@@ -225,7 +215,78 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                     else:
                         return (gast_start11, heim_start11)
     
-    print(f"    ❌ Keine Aufstellung gefunden nach {len(rounds_to_test)} Spieltagen/Runden")
+    # Phase 2: Nur wenn Phase 1 fehlgeschlagen ist, teste alle anderen Spieltage/Runden
+    if is_international:
+        # International: Teste andere Phasen
+        fallback_rounds = []
+        if matchday:
+            for test_phase in ["gruppenphase", "achtelfinale", "viertelfinale", "halbfinale", "finale"]:
+                if test_phase != phase:
+                    fallback_rounds.append((test_phase, matchday))
+    elif liga_id == 3:  # DFB-Pokal
+        # DFB-Pokal: Teste alle anderen Runden
+        dfb_rounds = ["1-runde", "2-runde", "achtelfinale", "viertelfinale", "halbfinale", "finale"]
+        fallback_rounds = [r for r in dfb_rounds if r not in first_rounds_to_test]
+    else:
+        # Normale Ligen: Teste alle anderen Spieltage (1-34, außer die bereits getesteten)
+        if matchday:
+            try:
+                base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
+                matchdays_tested = list(range(max(1, base_matchday - 2), min(35, base_matchday + 3)))
+                fallback_rounds = [str(md) for md in range(1, 35) if str(md) not in [str(m) for m in matchdays_tested]]
+            except:
+                fallback_rounds = [str(md) for md in range(1, 35)]
+        else:
+            # Kein Spieltag: Teste alle
+            fallback_rounds = [str(md) for md in range(1, 35)]
+    
+    # Phase 2: Teste alle anderen Spieltage/Runden (nur wenn Phase 1 fehlgeschlagen ist)
+    if fallback_rounds:
+        print(f"    ⚠️ Phase 1 fehlgeschlagen, teste jetzt {len(fallback_rounds)} weitere Spieltage/Runden...")
+        for round_value in fallback_rounds:
+            if is_international:
+                test_phase, test_matchday = round_value
+                if test_matchday:
+                    base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{test_phase}/{test_matchday}"
+                else:
+                    base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{test_phase}"
+                urls = [
+                    f"{base_url}/{home_slug}-{away_slug}/aufstellung/",
+                    f"{base_url}/{away_slug}-{home_slug}/aufstellung/"
+                ]
+            else:
+                # Deutsche/ausländische Ligen
+                urls = [
+                    f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{home_slug}-{away_slug}/aufstellung/",
+                    f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{away_slug}-{home_slug}/aufstellung/"
+                ]
+            
+            for url in urls:
+                html = fetch_html(url)
+                
+                if html and "heim-content" in html and "gast-content" in html:
+                    print(f"    ✅ Aufstellungsseite gefunden (Phase 2): {url}")
+                    
+                    heim_html = extract_team_html(html, "heim-content")
+                    gast_html = extract_team_html(html, "gast-content")
+                    
+                    heim_start11 = analyze_start11(extract_start11_area(heim_html))
+                    gast_start11 = analyze_start11(extract_start11_area(gast_html))
+                    
+                    print(f"    🏠 Heim: {len(heim_start11)} Spieler")
+                    print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
+                    
+                    if heim_start11 and gast_start11:
+                        # Bestimme Zuordnung aus URL
+                        is_home_first = f"{home_slug}-{away_slug}" in url
+                        if is_home_first:
+                            return (heim_start11, gast_start11)
+                        else:
+                            return (gast_start11, heim_start11)
+    
+    # Beide Phasen fehlgeschlagen
+    total_tested = len(first_rounds_to_test) + (len(fallback_rounds) if fallback_rounds else 0)
+    print(f"    ❌ Keine Aufstellung gefunden nach {total_tested} Spieltagen/Runden (Phase 1: {len(first_rounds_to_test)}, Phase 2: {len(fallback_rounds) if fallback_rounds else 0})")
     return None
 
 def load_matches_from_json(file_path: str) -> List[Dict]:
