@@ -11,7 +11,7 @@ import os
 import sys
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Union
 import time
 
 # Import Team-Slug-Konverter
@@ -135,7 +135,7 @@ def is_coach(name: str) -> bool:
 
 # Team-Name-Konvertierung wird jetzt von team_slug_converter.py übernommen
 
-def find_matchday_for_match(league_path: str, season: str, home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1, phase: str = '') -> Optional[int]:
+def find_matchday_for_match(league_path: str, season: str, home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1, phase: str = '') -> Optional[Union[int, str]]:
     """
     Findet den richtigen Spieltag für ein Match, indem durch Spieltage iteriert wird
     und geprüft wird, ob Spiele in der Zukunft sind.
