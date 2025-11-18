@@ -256,9 +256,13 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
     # Phase 1: Teste zuerst nur den spezifischen Spieltag ±1 (3 Spieltage: base-1, base, base+1)
     if is_international:
         # International: Teste zuerst spezifischen Spieltag (kein ±1, da Phase wichtig ist)
+        # WICHTIG: Nur die aktuelle Phase verwenden (z.B. gruppenphase 5, nicht alle Phasen)
         first_rounds_to_test = []
         if matchday and phase:
             first_rounds_to_test.append((phase, matchday))
+        elif phase:
+            # Phase ohne Spieltag (z.B. achtelfinale)
+            first_rounds_to_test.append((phase, None))
     elif liga_id == 3:  # DFB-Pokal
         # DFB-Pokal: Teste zuerst spezifische Runde (kein ±1, da Runden-Namen sind)
         first_rounds_to_test = []
@@ -267,14 +271,13 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
             if matchday in dfb_rounds:
                 first_rounds_to_test.append(matchday)
     else:
-        # Normale Ligen: Teste zuerst nur ±1 Spieltag (3 Spieltage: base-1, base, base+1)
+        # Normale Ligen: Teste zuerst nur den spezifischen Spieltag (kein ±1, da wir den richtigen Spieltag haben)
         first_rounds_to_test = []
         if matchday:
             try:
                 base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
-                # ±1 Spieltag: base-1, base, base+1 (nur 3 Spieltage statt 5!)
-                matchdays_to_test = list(range(max(1, base_matchday - 1), min(35, base_matchday + 2)))
-                first_rounds_to_test = [str(md) for md in matchdays_to_test]
+                # OPTIMIERT: Nur den spezifischen Spieltag testen (kein ±1, da find_matchday_for_match den richtigen findet)
+                first_rounds_to_test = [str(base_matchday)]
             except:
                 first_rounds_to_test = []
     
@@ -338,24 +341,22 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                     print(f"    ⚠️ Aufstellungsseite gefunden, aber Parsing fehlgeschlagen (Heim: {len(heim_start11)}, Gast: {len(gast_start11)})")
                 # Wenn Parsing fehlschlägt, versuche nächste URL (aber nicht nächsten Spieltag!)
     
-    # Phase 2: Nur wenn Phase 1 komplett fehlgeschlagen ist, teste ±1 weitere Spieltage
+    # Phase 2: Nur wenn Phase 1 komplett fehlgeschlagen ist, teste ±1 Spieltag
     # (Nur für normale Ligen, nicht für DFB-Pokal oder internationale Ligen)
     if not is_international and liga_id != 3 and matchday:
         try:
             base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
-            # Erweitere ±1 auf ±2 (falls Phase 1 fehlgeschlagen ist)
-            matchdays_tested = list(range(max(1, base_matchday - 1), min(35, base_matchday + 2)))
-            # Teste ±2 (base-2, base+2) - aber nur wenn Phase 1 fehlgeschlagen ist
+            # Teste ±1 (base-1, base+1) - aber nur wenn Phase 1 fehlgeschlagen ist
             fallback_matchdays = []
-            if base_matchday - 2 >= 1 and str(base_matchday - 2) not in first_rounds_to_test:
-                fallback_matchdays.append(str(base_matchday - 2))
-            if base_matchday + 2 < 35 and str(base_matchday + 2) not in first_rounds_to_test:
-                fallback_matchdays.append(str(base_matchday + 2))
+            if base_matchday - 1 >= 1 and str(base_matchday - 1) not in first_rounds_to_test:
+                fallback_matchdays.append(str(base_matchday - 1))
+            if base_matchday + 1 < 35 and str(base_matchday + 1) not in first_rounds_to_test:
+                fallback_matchdays.append(str(base_matchday + 1))
         except:
             fallback_matchdays = []
         
         if fallback_matchdays:
-                print(f"    ⚠️ Phase 1 fehlgeschlagen, teste jetzt ±2 Spieltage: {fallback_matchdays}")
+                print(f"    ⚠️ Phase 1 fehlgeschlagen, teste jetzt ±1 Spieltag: {fallback_matchdays}")
                 for round_value in fallback_matchdays:
                     urls = [
                         f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{home_slug}-{away_slug}/aufstellung/",
