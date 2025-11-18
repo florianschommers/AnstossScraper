@@ -456,6 +456,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     lineups = []
     successful = 0
     failed = 0
+    failed_matches = []  # Sammle fehlgeschlagene Spiele für Analyse
     
     for i, match in enumerate(matches, 1):
         home_team = match.get('homeTeam', '')
@@ -500,6 +501,14 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
             failed += 1
             print(f"  ❌ Aufstellung nicht gefunden für: {home_team} vs {away_team}")
             print(f"     Matchday: {matchday}, Phase: {phase}")
+            # Sammle für spätere Analyse
+            failed_matches.append({
+                "homeTeam": home_team,
+                "awayTeam": away_team,
+                "matchday": matchday,
+                "phase": phase,
+                "dateTime": date_time
+            })
     
     print(f"\n{'='*60}")
     print(f"📊 ZUSAMMENFASSUNG für {league_name} (Saison {season}):")
@@ -508,6 +517,21 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     if failed > 0:
         print(f"\n⚠️ {failed} Spiele konnten nicht gefunden werden!")
         print(f"   Bitte prüfe die Logs oben für Details zu jedem fehlgeschlagenen Spiel.")
+        # Speichere fehlgeschlagene Spiele in Datei für Analyse
+        if os.path.basename(os.getcwd()) == 'scraper':
+            failed_file = os.path.join('..', 'data', 'lineups', f'failed_{league_name}_{season}.json')
+        else:
+            failed_file = os.path.join('data', 'lineups', f'failed_{league_name}_{season}.json')
+        os.makedirs(os.path.dirname(failed_file), exist_ok=True)
+        with open(failed_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "league": league_name,
+                "season": season,
+                "failedCount": failed,
+                "failedMatches": failed_matches,
+                "timestamp": datetime.now().isoformat()
+            }, f, ensure_ascii=False, indent=2)
+        print(f"   💾 Fehlgeschlagene Spiele gespeichert in: {failed_file}")
     print(f"{'='*60}")
     
     return {
