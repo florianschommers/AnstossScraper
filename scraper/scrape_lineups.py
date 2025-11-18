@@ -229,21 +229,21 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     matches = load_matches_from_json(match_file)
     print(f"📊 Gefundene Spiele: {len(matches)}")
     
-    # Bestimme League-Path und ob international
-    league_paths = {
-        "bundesliga": ("bundesliga", False),
-        "2bundesliga": ("2liga", False),
-        "dfbpokal": ("dfb-pokal", False),
-        "championsleague": ("championsleague", True),
-        "europaleague": ("europaleague", True),
-        "conferenceleague": ("conferenceleague", True),
-        "england": ("england", False),
-        "spain": ("spanien", False),
-        "italy": ("italien", False),
-        "france": ("frankreich", False),
+    # Bestimme League-Path, ob international und Liga-ID
+    league_configs = {
+        "bundesliga": ("bundesliga", False, 1),
+        "2bundesliga": ("2liga", False, 2),
+        "dfbpokal": ("dfb-pokal", False, 3),
+        "championsleague": ("championsleague", True, 11),
+        "europaleague": ("europaleague", True, 12),
+        "conferenceleague": ("conferenceleague", True, 13),
+        "england": ("england", False, 51),
+        "spain": ("spanien", False, 41),
+        "italy": ("italien", False, 31),
+        "france": ("frankreich", False, 21),
     }
     
-    league_path, is_international = league_paths.get(league_name, (league_name, False))
+    league_path, is_international, liga_id = league_configs.get(league_name, (league_name, False, 1))
     
     lineups = []
     successful = 0
