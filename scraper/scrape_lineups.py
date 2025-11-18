@@ -1,0 +1,366 @@
+#!/usr/bin/env python3
+"""
+Lineup-Scraper für Anstoss App
+Scrapt Aufstellungen von fussballdaten.de für alle Spiele und speichert sie als JSON auf GitHub
+"""
+
+import requests
+import re
+import json
+import os
+import sys
+from datetime import datetime, timedelta
+from bs4 import BeautifulSoup
+from typing import List, Dict, Optional, Tuple
+import time
+
+# User-Agent für Requests
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
+
+# Rate Limiting: 1 Request pro Sekunde
+REQUEST_DELAY = 1.0
+
+def get_current_season() -> str:
+    """Ermittelt die aktuelle Saison (Juli - Juni)"""
+    now = datetime.now()
+    if now.month >= 7:  # Ab Juli
+        return str(now.year + 1)
+    else:
+        return str(now.year)
+
+def get_international_season() -> str:
+    """Ermittelt die aktuelle internationale Saison (Juli - Juni)"""
+    return get_current_season()
+
+def fetch_html(url: str) -> Optional[str]:
+    """Lädt HTML von einer URL mit Rate Limiting"""
+    try:
+        time.sleep(REQUEST_DELAY)  # Rate Limiting
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        if response.status_code == 200:
+            return response.text
+        else:
+            print(f"  ⚠️ HTTP {response.status_code} für {url}")
+            return None
+    except Exception as e:
+        print(f"  ❌ Fehler beim Laden von {url}: {e}")
+        return None
+
+def extract_team_html(html: str, css_class: str) -> str:
+    """Extrahiert Team-HTML aus dem Gesamt-HTML (heim-content oder gast-content)"""
+    this_class = css_class
+    other_class = "gast-content" if css_class == "heim-content" else "heim-content"
+    
+    # Finde Start-Position
+    start_pattern = re.compile(f'<div[^>]*class="[^"]*{re.escape(this_class)}[^"]*"[^>]*>', re.IGNORECASE)
+    start_match = start_pattern.search(html)
+    if not start_match:
+        return ""
+    
+    content_start = start_match.end()
+    
+    # Finde End-Position (nächstes other_class div)
+    end_pattern = re.compile(f'<div[^>]*class="[^"]*{re.escape(other_class)}[^"]*"[^>]*>', re.IGNORECASE)
+    end_match = end_pattern.search(html, content_start)
+    content_end = end_match.start() if end_match else len(html)
+    
+    if content_start >= 0 and content_start < content_end and content_end <= len(html):
+        return html[content_start:content_end]
+    return ""
+
+def extract_start11_area(team_html: str) -> str:
+    """Extrahiert den Start-11-Bereich (vor Reservebank)"""
+    splitter = ["Reservebank", "Ersatzbank", "Bank"]
+    cut = -1
+    for s in splitter:
+        idx = team_html.find(s)
+        if idx >= 0:
+            cut = idx if cut == -1 else min(cut, idx)
+    return team_html[:cut] if cut > 0 else team_html
+
+def analyze_start11(html_segment: str) -> List[str]:
+    """Analysiert Start-11 nur aus Person-Links (wie in LiveBingo.kt)"""
+    players = []
+    # Pattern: <a[^>]*class="[^"]*name[^"]*"[^>]*href="/person/([^/]+)/"[^>]*>([\s\S]*?)</a>
+    pattern = re.compile(r'<a[^>]*class="[^"]*name[^"]*"[^>]*href="/person/([^/]+)/"[^>]*>([\s\S]*?)</a>', re.IGNORECASE)
+    
+    slug_to_name = {}
+    for match in pattern.finditer(html_segment):
+        if len(slug_to_name) >= 11:
+            break
+        
+        slug = match.group(1).strip()
+        inner = match.group(2)
+        
+        # Versuche title-Attribut zu finden
+        title_match = re.search(r'title="([^"]+)"', inner)
+        title_name = title_match.group(1) if title_match else None
+        
+        # Extrahiere Text (ohne Tags)
+        text_name = re.sub(r'<[^>]+>', ' ', inner).strip()
+        text_name = re.sub(r'\s+', ' ', text_name)
+        
+        best_name = title_name if title_name and title_name.strip() else text_name
+        clean_name = simplify_player_name(best_name)
+        
+        # Filtere Trainer
+        if clean_name and not is_coach(clean_name):
+            slug_to_name[slug] = clean_name
+    
+    return list(slug_to_name.values())
+
+def simplify_player_name(name: str) -> str:
+    """Vereinfacht Spielernamen (wie in LiveBingo.kt)"""
+    if not name:
+        return ""
+    # Entferne HTML-Entities
+    cleaned = name.replace("&amp;", "&").replace("&quot;", '"')
+    # Diakritika entfernen
+    import unicodedata
+    cleaned = unicodedata.normalize('NFD', cleaned)
+    cleaned = ''.join(c for c in cleaned if unicodedata.category(c) != 'Mn')
+    cleaned = cleaned.replace("ß", "ss")
+    # Whitespace normalisieren
+    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
+    return cleaned
+
+def is_coach(name: str) -> bool:
+    """Prüft ob Name ein Trainer ist"""
+    if not name:
+        return False
+    lower_name = name.lower()
+    return "trainer" in lower_name or "head coach" in lower_name or "coach" in lower_name
+
+def simplify_team_name_for_url(team_name: str) -> str:
+    """Vereinfacht Team-Namen für fussballdaten.de URLs"""
+    if not team_name:
+        return ""
+    
+    # Entferne häufige Präfixe
+    name = team_name.replace("1. ", "").replace("2. ", "").replace("FC ", "").replace("SV ", "").replace("VfL ", "").replace("VfB ", "")
+    name = name.replace("SC ", "").replace("TSV ", "").replace("SSV ", "").replace("SG ", "").replace("FSV ", "")
+    
+    # Konvertiere zu Slug
+    slug = name.lower()
+    slug = slug.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
+    slug = slug.replace("&", "und")
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    slug = slug.strip('-')
+    
+    return slug
+
+def convert_international_team_to_slug(team_name: str) -> str:
+    """Konvertiert internationale Team-Namen zu Slugs (vereinfacht)"""
+    # Hier müsste die gleiche Logik wie in LiveBingo.kt implementiert werden
+    # Für jetzt: vereinfachte Version
+    return simplify_team_name_for_url(team_name)
+
+def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False) -> Optional[Tuple[List[str], List[str]]]:
+    """Scrapt Aufstellung für ein einzelnes Spiel"""
+    # Erstelle Team-Slugs
+    if is_international:
+        home_slug = convert_international_team_to_slug(home_team)
+        away_slug = convert_international_team_to_slug(away_team)
+    else:
+        home_slug = simplify_team_name_for_url(home_team)
+        away_slug = simplify_team_name_for_url(away_team)
+    
+    if not home_slug or not away_slug:
+        return None
+    
+    # Konstruiere URL
+    if is_international:
+        # International: /championsleague/2026/gruppenphase/4/psg-bayern/aufstellung/
+        if matchday:
+            base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}"
+        else:
+            base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}"
+        urls = [
+            f"{base_url}/{home_slug}-{away_slug}/aufstellung/",
+            f"{base_url}/{away_slug}-{home_slug}/aufstellung/"
+        ]
+    else:
+        # Deutsche/ausländische Ligen: /bundesliga/2025/1/bayern-dortmund/aufstellung/
+        urls = [
+            f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/{home_slug}-{away_slug}/aufstellung/",
+            f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/{away_slug}-{home_slug}/aufstellung/"
+        ]
+    
+    for url in urls:
+        print(f"    🌐 Teste: {url}")
+        html = fetch_html(url)
+        
+        if html and "heim-content" in html and "gast-content" in html:
+            print(f"    ✅ Aufstellungsseite gefunden!")
+            
+            heim_html = extract_team_html(html, "heim-content")
+            gast_html = extract_team_html(html, "gast-content")
+            
+            heim_start11 = analyze_start11(extract_start11_area(heim_html))
+            gast_start11 = analyze_start11(extract_start11_area(gast_html))
+            
+            print(f"    🏠 Heim: {len(heim_start11)} Spieler")
+            print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
+            
+            if heim_start11 and gast_start11:
+                # Bestimme Zuordnung aus URL
+                is_home_first = f"{home_slug}-{away_slug}" in url
+                if is_home_first:
+                    return (heim_start11, gast_start11)
+                else:
+                    return (gast_start11, heim_start11)
+    
+    return None
+
+def load_matches_from_json(file_path: str) -> List[Dict]:
+    """Lädt Matches aus JSON-Datei"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            if isinstance(data, dict) and 'matches' in data:
+                return data['matches']
+            elif isinstance(data, list):
+                return data
+            else:
+                return []
+    except Exception as e:
+        print(f"❌ Fehler beim Laden von {file_path}: {e}")
+        return []
+
+def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'data/matches') -> Dict:
+    """Scrapt Aufstellungen für alle Spiele einer Liga"""
+    print(f"\n{'='*60}")
+    print(f"🏆 Liga: {league_name} (Saison {season})")
+    print(f"{'='*60}")
+    
+    # Lade Matches
+    match_file = os.path.join(data_dir, f"matches_{league_name}_{season}.json")
+    if not os.path.exists(match_file):
+        print(f"⚠️ Match-Datei nicht gefunden: {match_file}")
+        return {"league": league_name, "season": season, "lineups": []}
+    
+    matches = load_matches_from_json(match_file)
+    print(f"📊 Gefundene Spiele: {len(matches)}")
+    
+    # Bestimme League-Path und ob international
+    league_paths = {
+        "bundesliga": ("bundesliga", False),
+        "2bundesliga": ("2liga", False),
+        "dfbpokal": ("dfb-pokal", False),
+        "championsleague": ("championsleague", True),
+        "europaleague": ("europaleague", True),
+        "conferenceleague": ("conferenceleague", True),
+        "england": ("england", False),
+        "spain": ("spanien", False),
+        "italy": ("italien", False),
+        "france": ("frankreich", False),
+    }
+    
+    league_path, is_international = league_paths.get(league_name, (league_name, False))
+    
+    lineups = []
+    successful = 0
+    failed = 0
+    
+    for i, match in enumerate(matches, 1):
+        home_team = match.get('homeTeam', '')
+        away_team = match.get('awayTeam', '')
+        date_time = match.get('dateTime', '')
+        matchday = match.get('matchday', None)
+        phase = match.get('phase', '')
+        
+        print(f"\n[{i}/{len(matches)}] {home_team} vs {away_team}")
+        
+        # Prüfe ob Phase/Spieltag vorhanden
+        if is_international:
+            if not phase:
+                print(f"  ⚠️ Keine Phase für internationales Spiel")
+                failed += 1
+                continue
+        else:
+            if not matchday:
+                print(f"  ⚠️ Kein Spieltag gefunden")
+                failed += 1
+                continue
+        
+        # Scrapte Aufstellung
+        lineup = scrape_lineup_for_match(
+            league_path, season, phase, matchday,
+            home_team, away_team, is_international
+        )
+        
+        if lineup:
+            lineups.append({
+                "homeTeam": home_team,
+                "awayTeam": away_team,
+                "dateTime": date_time,
+                "matchday": matchday,
+                "phase": phase,
+                "homeLineup": lineup[0],
+                "awayLineup": lineup[1]
+            })
+            successful += 1
+            print(f"  ✅ Aufstellung gescrappt: {len(lineup[0])} Heim, {len(lineup[1])} Auswärts")
+        else:
+            failed += 1
+            print(f"  ❌ Aufstellung nicht gefunden")
+    
+    print(f"\n{'='*60}")
+    print(f"✅ Erfolgreich: {successful}")
+    print(f"❌ Fehlgeschlagen: {failed}")
+    print(f"{'='*60}")
+    
+    return {
+        "league": league_name,
+        "season": season,
+        "lastUpdated": datetime.now().isoformat(),
+        "lineups": lineups
+    }
+
+def save_lineups_json(league_name: str, season: str, lineups_data: Dict, output_dir: str = 'data/lineups'):
+    """Speichert Aufstellungen als JSON"""
+    os.makedirs(output_dir, exist_ok=True)
+    filename = os.path.join(output_dir, f"lineups_{league_name}_{season}.json")
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(lineups_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"💾 Gespeichert: {filename} ({len(lineups_data['lineups'])} Aufstellungen)")
+
+def main():
+    """Hauptfunktion"""
+    print("🚀 Starte Lineup-Scraping für alle Ligen...")
+    
+    season = get_current_season()
+    int_season = get_international_season()
+    
+    # Alle Ligen
+    leagues = [
+        ("bundesliga", season),
+        ("2bundesliga", season),
+        ("dfbpokal", season),
+        ("championsleague", int_season),
+        ("europaleague", int_season),
+        ("conferenceleague", int_season),
+        ("england", season),
+        ("spain", season),
+        ("italy", season),
+        ("france", season),
+    ]
+    
+    for league_name, league_season in leagues:
+        try:
+            lineups_data = scrape_lineups_for_league(league_name, league_season)
+            save_lineups_json(league_name, league_season, lineups_data)
+        except Exception as e:
+            print(f"❌ Fehler bei Liga {league_name}: {e}")
+            import traceback
+            traceback.print_exc()
+    
+    print("\n✅ Scraping abgeschlossen!")
+
+if __name__ == "__main__":
+    main()
+
