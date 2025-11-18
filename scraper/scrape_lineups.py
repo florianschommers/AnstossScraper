@@ -14,13 +14,13 @@ from bs4 import BeautifulSoup
 from typing import List, Dict, Optional, Tuple
 import time
 
+# Import Team-Slug-Konverter
+from team_slug_converter import convert_team_to_slug, REQUEST_DELAY
+
 # User-Agent für Requests
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
-
-# Rate Limiting: 1 Request pro Sekunde
-REQUEST_DELAY = 1.0
 
 def get_current_season() -> str:
     """Ermittelt die aktuelle Saison (Juli - Juni)"""
@@ -133,39 +133,13 @@ def is_coach(name: str) -> bool:
     lower_name = name.lower()
     return "trainer" in lower_name or "head coach" in lower_name or "coach" in lower_name
 
-def simplify_team_name_for_url(team_name: str) -> str:
-    """Vereinfacht Team-Namen für fussballdaten.de URLs"""
-    if not team_name:
-        return ""
-    
-    # Entferne häufige Präfixe
-    name = team_name.replace("1. ", "").replace("2. ", "").replace("FC ", "").replace("SV ", "").replace("VfL ", "").replace("VfB ", "")
-    name = name.replace("SC ", "").replace("TSV ", "").replace("SSV ", "").replace("SG ", "").replace("FSV ", "")
-    
-    # Konvertiere zu Slug
-    slug = name.lower()
-    slug = slug.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue").replace("ß", "ss")
-    slug = slug.replace("&", "und")
-    slug = re.sub(r'[^a-z0-9]+', '-', slug)
-    slug = slug.strip('-')
-    
-    return slug
+# Team-Name-Konvertierung wird jetzt von team_slug_converter.py übernommen
 
-def convert_international_team_to_slug(team_name: str) -> str:
-    """Konvertiert internationale Team-Namen zu Slugs (vereinfacht)"""
-    # Hier müsste die gleiche Logik wie in LiveBingo.kt implementiert werden
-    # Für jetzt: vereinfachte Version
-    return simplify_team_name_for_url(team_name)
-
-def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False) -> Optional[Tuple[List[str], List[str]]]:
+def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str]]]:
     """Scrapt Aufstellung für ein einzelnes Spiel"""
-    # Erstelle Team-Slugs
-    if is_international:
-        home_slug = convert_international_team_to_slug(home_team)
-        away_slug = convert_international_team_to_slug(away_team)
-    else:
-        home_slug = simplify_team_name_for_url(home_team)
-        away_slug = simplify_team_name_for_url(away_team)
+    # Erstelle Team-Slugs mit der korrekten Konvertierungs-Logik
+    home_slug = convert_team_to_slug(home_team, liga_id, is_international)
+    away_slug = convert_team_to_slug(away_team, liga_id, is_international)
     
     if not home_slug or not away_slug:
         return None
@@ -299,7 +273,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         # Scrapte Aufstellung
         lineup = scrape_lineup_for_match(
             league_path, season, phase, matchday,
-            home_team, away_team, is_international
+            home_team, away_team, is_international, liga_id
         )
         
         if lineup:
