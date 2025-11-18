@@ -135,6 +135,102 @@ def is_coach(name: str) -> bool:
 
 # Team-Name-Konvertierung wird jetzt von team_slug_converter.py übernommen
 
+def find_matchday_for_match(league_path: str, season: str, home_team: str, away_team: str, is_international: bool = False, liga_id: int = 3, phase: str = '') -> Optional[int]:
+    """
+    Findet den richtigen Spieltag für ein Match, indem durch Spieltage iteriert wird
+    und geprüft wird, ob Spiele in der Zukunft sind.
+    
+    Beispiel Bundesliga:
+    - Iteriere durch Spieltage 1, 2, 3, ...
+    - Prüfe ob Spiele in der Zukunft sind
+    - Sobald Spiele in der Zukunft gefunden werden, ist das der richtige Spieltag
+    """
+    now = datetime.now()
+    
+    if is_international:
+        # Internationale Ligen: Prüfe Phasen mit Spieltagen
+        if phase in ['gruppenphase', 'league-stage']:
+            for matchday in range(1, 21):
+                url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}/"
+                html = fetch_html(url)
+                if not html or len(html) < 1000:
+                    continue
+                
+                # Prüfe ob Spiele in der Zukunft sind
+                if has_future_matches(html, now):
+                    print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele)")
+                    return matchday
+        else:
+            # Phasen ohne Spieltage (achtelfinale, etc.)
+            return None
+    elif liga_id == 3:  # DFB-Pokal
+        # DFB-Pokal: Prüfe Runden
+        rounds = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
+        for round_name in rounds:
+            url = f"https://www.fussballdaten.de/{league_path}/{season}/{round_name}/"
+            html = fetch_html(url)
+            if not html or len(html) < 1000:
+                continue
+            
+            # Prüfe ob Spiele in der Zukunft sind
+            if has_future_matches(html, now):
+                print(f"    📅 Runde {round_name} gefunden (hat zukünftige Spiele)")
+                return round_name  # Für DFB-Pokal ist matchday der Runden-Name
+    else:
+        # Normale Ligen: Iteriere durch Spieltage 1-34
+        for matchday in range(1, 35):
+            url = f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/"
+            html = fetch_html(url)
+            if not html or len(html) < 1000:
+                continue
+            
+            # Prüfe ob Spiele in der Zukunft sind
+            if has_future_matches(html, now):
+                print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele)")
+                return matchday
+    
+    return None
+
+def has_future_matches(html: str, now: datetime) -> bool:
+    """
+    Prüft ob die HTML-Seite Spiele in der Zukunft enthält.
+    Sucht nach Datums-Patterns im HTML und vergleicht mit jetzt.
+    """
+    # Pattern für zukünftige Spiele: title="... (DD.MM.YYYY) ..." mit Uhrzeit
+    zukunft_pattern = re.compile(
+        r'title="[^"]*\((\d{2})\.(\d{2})\.(\d{4})[^)]*\)[^"]*"[^>]*>[\s\S]*?<span>(\d{2}:\d{2})</span>',
+        re.IGNORECASE
+    )
+    
+    # Pattern für Live-Spiele (sind auch "in der Zukunft" im Sinne von "aktuell")
+    live_pattern = re.compile(
+        r'class="ergebnis\s+live"',
+        re.IGNORECASE
+    )
+    
+    # Prüfe auf Live-Spiele
+    if live_pattern.search(html):
+        return True
+    
+    # Prüfe auf zukünftige Spiele
+    for match in zukunft_pattern.finditer(html):
+        day = int(match.group(1))
+        month = int(match.group(2))
+        year = int(match.group(3))
+        time_str = match.group(4)
+        
+        try:
+            hour, minute = map(int, time_str.split(':'))
+            match_datetime = datetime(year, month, day, hour, minute)
+            
+            # Prüfe ob das Spiel in der Zukunft ist (oder heute)
+            if match_datetime >= now:
+                return True
+        except:
+            continue
+    
+    return False
+
 def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str]]]:
     """Scrapt Aufstellung für ein einzelnes Spiel - OPTIMIERT: Testet zuerst nur ±2 Spieltage, dann alle anderen"""
     # Erstelle Team-Slugs mit der korrekten Konvertierungs-Logik
@@ -343,7 +439,19 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         
         print(f"\n[{i}/{len(matches)}] {home_team} vs {away_team}")
         
-        # Scrapte Aufstellung (testet automatisch alle Spieltage/Runden wenn nötig)
+        # STEP 1: Finde den richtigen Spieltag, wenn nicht vorhanden oder unsicher
+        if not matchday or matchday == 1:  # matchday=1 ist oft falsch (besonders bei DFB-Pokal)
+            print(f"    🔍 Suche richtigen Spieltag...")
+            found_matchday = find_matchday_for_match(
+                league_path, season, home_team, away_team, is_international, liga_id, phase
+            )
+            if found_matchday:
+                matchday = found_matchday
+                print(f"    ✅ Spieltag gefunden: {matchday}")
+            else:
+                print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
+        
+        # Scrapte Aufstellung (testet automatisch ±1 Spieltag)
         lineup = scrape_lineup_for_match(
             league_path, season, phase, matchday,
             home_team, away_team, is_international, liga_id
