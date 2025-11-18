@@ -321,6 +321,10 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
 
 def save_lineups_json(league_name: str, season: str, lineups_data: Dict, output_dir: str = 'data/lineups'):
     """Speichert Aufstellungen als JSON"""
+    # Stelle sicher, dass das Verzeichnis relativ zum Repository-Root ist
+    # Wenn wir im scraper/ Verzeichnis sind, gehen wir ein Verzeichnis nach oben
+    if os.path.basename(os.getcwd()) == 'scraper':
+        output_dir = os.path.join('..', output_dir)
     os.makedirs(output_dir, exist_ok=True)
     filename = os.path.join(output_dir, f"lineups_{league_name}_{season}.json")
     
