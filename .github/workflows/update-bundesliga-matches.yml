@@ -1,0 +1,33 @@
+name: Update Bundesliga Matches
+
+on:
+  schedule:
+    # Alle 5 Minuten
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # Manuell auslösbar
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install Dependencies
+        run: |
+          pip install requests
+      
+      - name: Update Match Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python upload_matches_to_github.py
+
