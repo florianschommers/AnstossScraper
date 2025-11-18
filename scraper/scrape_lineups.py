@@ -237,8 +237,11 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
     home_slug = convert_team_to_slug(home_team, liga_id, is_international)
     away_slug = convert_team_to_slug(away_team, liga_id, is_international)
     
+    print(f"    🔍 Team-Slugs: '{home_team}' → '{home_slug}', '{away_team}' → '{away_slug}'")
+    print(f"    📋 Spieltag: {matchday}, Phase: {phase}, Liga-ID: {liga_id}, International: {is_international}")
+    
     if not home_slug or not away_slug:
-        print(f"    ⚠️ Konnte Team-Slugs nicht erstellen: {home_team} → {home_slug}, {away_team} → {away_slug}")
+        print(f"    ❌ Konnte Team-Slugs nicht erstellen: {home_team} → {home_slug}, {away_team} → {away_slug}")
         return None
     
     # OPTIMIERT: Teste zuerst nur ±1 Spieltag (statt ±2) für maximale Performance
@@ -276,6 +279,7 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                 first_rounds_to_test = []
     
     # Phase 1: Teste zuerst nur ±1 Spieltag (schnell!)
+    print(f"    📅 Phase 1: Teste {len(first_rounds_to_test)} Spieltage/Runden: {first_rounds_to_test}")
     for round_value in first_rounds_to_test:
         if is_international:
             test_phase, test_matchday = round_value
@@ -295,7 +299,19 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
             ]
         
         for url in urls:
+            print(f"    🌐 Teste URL: {url}")
             html = fetch_html(url)
+            
+            if not html:
+                print(f"    ⚠️ HTML ist None/leer für {url}")
+                continue
+            
+            if "heim-content" not in html or "gast-content" not in html:
+                print(f"    ⚠️ HTML hat keine heim-content/gast-content (Länge: {len(html)})")
+                # Prüfe ob es eine 404 oder andere Fehlerseite ist
+                if "404" in html or "nicht gefunden" in html.lower():
+                    print(f"    ❌ 404-Fehler für {url}")
+                continue
             
             if html and "heim-content" in html and "gast-content" in html:
                 # STEP 2: Sofort abbrechen wenn gefunden (keine weiteren Tests!)
@@ -313,10 +329,13 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                 if heim_start11 and gast_start11:
                     # Bestimme Zuordnung aus URL
                     is_home_first = f"{home_slug}-{away_slug}" in url
+                    print(f"    ✅ Aufstellung erfolgreich geparst! (Home-First: {is_home_first})")
                     if is_home_first:
                         return (heim_start11, gast_start11)
                     else:
                         return (gast_start11, heim_start11)
+                else:
+                    print(f"    ⚠️ Aufstellungsseite gefunden, aber Parsing fehlgeschlagen (Heim: {len(heim_start11)}, Gast: {len(gast_start11)})")
                 # Wenn Parsing fehlschlägt, versuche nächste URL (aber nicht nächsten Spieltag!)
     
     # Phase 2: Nur wenn Phase 1 komplett fehlgeschlagen ist, teste ±1 weitere Spieltage
@@ -367,8 +386,14 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                                     return (gast_start11, heim_start11)
     
     # Beide Phasen fehlgeschlagen
-    total_tested = len(first_rounds_to_test)
-    print(f"    ❌ Keine Aufstellung gefunden nach {total_tested} Spieltagen/Runden")
+    total_tested = len(first_rounds_to_test) + (len(fallback_matchdays) if 'fallback_matchdays' in locals() and fallback_matchdays else 0)
+    print(f"    ❌ FEHLER: Keine Aufstellung gefunden!")
+    print(f"    📊 Getestet: {total_tested} Spieltage/Runden")
+    print(f"    📋 Phase 1: {len(first_rounds_to_test)} Spieltage/Runden")
+    if 'fallback_matchdays' in locals() and fallback_matchdays:
+        print(f"    📋 Phase 2: {len(fallback_matchdays)} Spieltage/Runden")
+    print(f"    🏠 Team-Slugs: {home_slug} vs {away_slug}")
+    print(f"    📅 Matchday: {matchday}, Phase: {phase}")
     return None
 
 def load_matches_from_json(file_path: str) -> List[Dict]:
@@ -473,11 +498,16 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
             print(f"  ✅ Aufstellung gescrappt: {len(lineup[0])} Heim, {len(lineup[1])} Auswärts")
         else:
             failed += 1
-            print(f"  ❌ Aufstellung nicht gefunden")
+            print(f"  ❌ Aufstellung nicht gefunden für: {home_team} vs {away_team}")
+            print(f"     Matchday: {matchday}, Phase: {phase}")
     
     print(f"\n{'='*60}")
+    print(f"📊 ZUSAMMENFASSUNG für {league_name} (Saison {season}):")
     print(f"✅ Erfolgreich: {successful}")
     print(f"❌ Fehlgeschlagen: {failed}")
+    if failed > 0:
+        print(f"\n⚠️ {failed} Spiele konnten nicht gefunden werden!")
+        print(f"   Bitte prüfe die Logs oben für Details zu jedem fehlgeschlagenen Spiel.")
     print(f"{'='*60}")
     
     return {
