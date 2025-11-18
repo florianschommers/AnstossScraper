@@ -332,8 +332,10 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                 fallback_matchdays.append(str(base_matchday - 2))
             if base_matchday + 2 < 35 and str(base_matchday + 2) not in first_rounds_to_test:
                 fallback_matchdays.append(str(base_matchday + 2))
-            
-            if fallback_matchdays:
+        except:
+            fallback_matchdays = []
+        
+        if fallback_matchdays:
                 print(f"    ⚠️ Phase 1 fehlgeschlagen, teste jetzt ±2 Spieltage: {fallback_matchdays}")
                 for round_value in fallback_matchdays:
                     urls = [
