@@ -136,56 +136,96 @@ def is_coach(name: str) -> bool:
 # Team-Name-Konvertierung wird jetzt von team_slug_converter.py übernommen
 
 def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str]]]:
-    """Scrapt Aufstellung für ein einzelnes Spiel"""
+    """Scrapt Aufstellung für ein einzelnes Spiel - testet alle Spieltage/Runden wenn nötig"""
     # Erstelle Team-Slugs mit der korrekten Konvertierungs-Logik
     home_slug = convert_team_to_slug(home_team, liga_id, is_international)
     away_slug = convert_team_to_slug(away_team, liga_id, is_international)
     
     if not home_slug or not away_slug:
+        print(f"    ⚠️ Konnte Team-Slugs nicht erstellen: {home_team} → {home_slug}, {away_team} → {away_slug}")
         return None
     
-    # Konstruiere URL
+    # Bestimme welche Spieltage/Runden zu testen sind (wie in der App)
     if is_international:
-        # International: /championsleague/2026/gruppenphase/4/psg-bayern/aufstellung/
-        if matchday:
-            base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}"
-        else:
-            base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}"
-        urls = [
-            f"{base_url}/{home_slug}-{away_slug}/aufstellung/",
-            f"{base_url}/{away_slug}-{home_slug}/aufstellung/"
-        ]
+        # International: Teste zuerst spezifischen Spieltag, dann andere Phasen
+        rounds_to_test = []
+        if matchday and phase:
+            rounds_to_test.append((phase, matchday))
+        # Teste auch andere Phasen (falls Phase falsch ist)
+        for test_phase in ["gruppenphase", "achtelfinale", "viertelfinale", "halbfinale", "finale"]:
+            if test_phase != phase and matchday:
+                rounds_to_test.append((test_phase, matchday))
+    elif liga_id == 3:  # DFB-Pokal
+        # DFB-Pokal: Teste alle Runden (wie in der App)
+        dfb_rounds = ["1-runde", "2-runde", "achtelfinale", "viertelfinale", "halbfinale", "finale"]
+        rounds_to_test = dfb_rounds.copy()
+        # Stelle sicher, dass die spezifische Runde zuerst getestet wird
+        if matchday and isinstance(matchday, str) and matchday in dfb_rounds:
+            rounds_to_test.remove(matchday)
+            rounds_to_test.insert(0, matchday)
     else:
-        # Deutsche/ausländische Ligen: /bundesliga/2025/1/bayern-dortmund/aufstellung/
-        urls = [
-            f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/{home_slug}-{away_slug}/aufstellung/",
-            f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/{away_slug}-{home_slug}/aufstellung/"
-        ]
+        # Normale Ligen: Teste zuerst spezifischen Spieltag ±2, dann alle 1-34 (wie in der App)
+        rounds_to_test = []
+        if matchday:
+            # Teste ±2 Spieltage um den gefundenen Spieltag herum (wie in der App)
+            try:
+                base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
+                matchdays_to_test = list(range(max(1, base_matchday - 2), min(35, base_matchday + 3)))
+                rounds_to_test = [str(md) for md in matchdays_to_test]
+                # Füge alle anderen Spieltage hinzu (falls der spezifische falsch ist)
+                all_matchdays = [str(md) for md in range(1, 35) if str(md) not in rounds_to_test]
+                rounds_to_test.extend(all_matchdays)
+            except:
+                # Fallback: Teste alle
+                rounds_to_test = [str(md) for md in range(1, 35)]
+        else:
+            # Kein Spieltag: Teste alle (wie in der App)
+            rounds_to_test = [str(md) for md in range(1, 35)]
     
-    for url in urls:
-        print(f"    🌐 Teste: {url}")
-        html = fetch_html(url)
+    # Teste alle Spieltage/Runden
+    for round_value in rounds_to_test:
+        if is_international:
+            test_phase, test_matchday = round_value
+            if test_matchday:
+                base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{test_phase}/{test_matchday}"
+            else:
+                base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{test_phase}"
+            urls = [
+                f"{base_url}/{home_slug}-{away_slug}/aufstellung/",
+                f"{base_url}/{away_slug}-{home_slug}/aufstellung/"
+            ]
+        else:
+            # Deutsche/ausländische Ligen
+            urls = [
+                f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{home_slug}-{away_slug}/aufstellung/",
+                f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{away_slug}-{home_slug}/aufstellung/"
+            ]
         
-        if html and "heim-content" in html and "gast-content" in html:
-            print(f"    ✅ Aufstellungsseite gefunden!")
+        for url in urls:
+            html = fetch_html(url)
             
-            heim_html = extract_team_html(html, "heim-content")
-            gast_html = extract_team_html(html, "gast-content")
-            
-            heim_start11 = analyze_start11(extract_start11_area(heim_html))
-            gast_start11 = analyze_start11(extract_start11_area(gast_html))
-            
-            print(f"    🏠 Heim: {len(heim_start11)} Spieler")
-            print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
-            
-            if heim_start11 and gast_start11:
-                # Bestimme Zuordnung aus URL
-                is_home_first = f"{home_slug}-{away_slug}" in url
-                if is_home_first:
-                    return (heim_start11, gast_start11)
-                else:
-                    return (gast_start11, heim_start11)
+            if html and "heim-content" in html and "gast-content" in html:
+                # Stoppe sofort wenn gefunden (muss nicht alle Spieltage testen)
+                print(f"    ✅ Aufstellungsseite gefunden: {url}")
+                
+                heim_html = extract_team_html(html, "heim-content")
+                gast_html = extract_team_html(html, "gast-content")
+                
+                heim_start11 = analyze_start11(extract_start11_area(heim_html))
+                gast_start11 = analyze_start11(extract_start11_area(gast_html))
+                
+                print(f"    🏠 Heim: {len(heim_start11)} Spieler")
+                print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
+                
+                if heim_start11 and gast_start11:
+                    # Bestimme Zuordnung aus URL
+                    is_home_first = f"{home_slug}-{away_slug}" in url
+                    if is_home_first:
+                        return (heim_start11, gast_start11)
+                    else:
+                        return (gast_start11, heim_start11)
     
+    print(f"    ❌ Keine Aufstellung gefunden nach {len(rounds_to_test)} Spieltagen/Runden")
     return None
 
 def load_matches_from_json(file_path: str) -> List[Dict]:
@@ -258,19 +298,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         
         print(f"\n[{i}/{len(matches)}] {home_team} vs {away_team}")
         
-        # Prüfe ob Phase/Spieltag vorhanden
-        if is_international:
-            if not phase:
-                print(f"  ⚠️ Keine Phase für internationales Spiel")
-                failed += 1
-                continue
-        else:
-            if not matchday:
-                print(f"  ⚠️ Kein Spieltag gefunden")
-                failed += 1
-                continue
-        
-        # Scrapte Aufstellung
+        # Scrapte Aufstellung (testet automatisch alle Spieltage/Runden wenn nötig)
         lineup = scrape_lineup_for_match(
             league_path, season, phase, matchday,
             home_team, away_team, is_international, liga_id
