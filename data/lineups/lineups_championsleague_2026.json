@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-11-19T20:26:37.775952",
+  "lastUpdated": "2025-11-19T21:22:57.573858",
   "lineups": [
     {
       "homeTeam": "Bergamo",
@@ -2149,8 +2149,140 @@
       ]
     },
     {
-      "homeTeam": "Eintracht Frankfurt",
-      "awayTeam": "Atalanta Bergamo",
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Julian Alvarez",
+        "Alexander Sørloth",
+        "Alex Baena",
+        "Koke",
+        "Pablo Barrios",
+        "Giuliano Simeone",
+        "Matteo Ruggeri",
+        "David Hancko",
+        "Jose Maria Gimenez",
+        "Marcos Llorente",
+        "Jan Oblak"
+      ],
+      "awayLineup": [
+        "Lautaro Martinez",
+        "Ange-Yoan Bonny",
+        "Federico Dimarco",
+        "Petar Sucic",
+        "Hakan Calhanoglu",
+        "Nicolo Barella",
+        "Denzel Dumfries",
+        "Alessandro Bastoni",
+        "Francesco Acerbi",
+        "Manuel Akanji",
+        "Yann Sommer"
+      ]
+    },
+    {
+      "homeTeam": "Olympiakos",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Ayoub El Kaabi",
+        "Daniel Podence",
+        "Chiquinho",
+        "Gelson Martins",
+        "Diogo Nascimento",
+        "Christos Mouzakitis",
+        "Francisco Ortega",
+        "Lorenzo Pirola",
+        "Panagiotis Retsos",
+        "Rodinei",
+        "Konstantinos Tzolakis"
+      ],
+      "awayLineup": [
+        "Kylian Mbappe",
+        "Vinicius Junior",
+        "Jude Bellingham",
+        "Brahim Diaz",
+        "Eduardo Camavinga",
+        "Arda Guler",
+        "Alvaro Fernandez Carreras",
+        "Dean Huijsen",
+        "Raul Asencio",
+        "Federico Valverde",
+        "Thibaut Courtois"
+      ]
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Eindhoven",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Hugo Ekitike",
+        "Florian Wirtz",
+        "Dominik Szoboszlai",
+        "Mohamed Salah",
+        "Alexis Mac Allister",
+        "Ryan Gravenberch",
+        "Andrew Robertson",
+        "Virgil van Dijk",
+        "Ibrahima Konate",
+        "Conor Bradley",
+        "Giorgi Mamardashvili"
+      ],
+      "awayLineup": [
+        "Guus Til",
+        "Ivan Perisic",
+        "Ismael Saibari",
+        "Dennis Man",
+        "Joey Veerman",
+        "Mauro Junior",
+        "Anass Salah-Eddine",
+        "Yarek Gasiorowski",
+        "Jerdy Schouten",
+        "Sergino Dest",
+        "Matej Kovar"
+      ]
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bayern",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Mikel Merino",
+        "Leandro Trossard",
+        "Eberechi Eze",
+        "Bukayo Saka",
+        "Declan Rice",
+        "Martin Zubimendi",
+        "Riccardo Calafiori",
+        "Gabriel Magalhaes",
+        "William Saliba",
+        "Jurrien Timber",
+        "David Raya"
+      ],
+      "awayLineup": [
+        "Harry Kane",
+        "Luis Diaz",
+        "Serge Gnabry",
+        "Michael Olise",
+        "Leon Goretzka",
+        "Joshua Kimmich",
+        "Josip Stanisic",
+        "Jonathan Tah",
+        "Dayot Upamecano",
+        "Konrad Laimer",
+        "Manuel Neuer"
+      ]
+    },
+    {
+      "homeTeam": "Frankfurt",
+      "awayTeam": "Bergamo",
       "dateTime": "2025-11-26T21:00:00Z",
       "matchday": 5,
       "phase": "gruppenphase",
@@ -2182,8 +2314,41 @@
       ]
     },
     {
-      "homeTeam": "Sporting Lissabon",
-      "awayTeam": "Club Bruegge",
+      "homeTeam": "Psg",
+      "awayTeam": "Tottenham",
+      "dateTime": "2025-11-26T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Khvicha Kvaratskhelia",
+        "Senny Mayulu",
+        "Kang-in Lee",
+        "Fabian Ruiz",
+        "Vitinha",
+        "Joao Neves",
+        "Lucas Hernandez",
+        "Willian Pacho",
+        "Ilya Zabarnyi",
+        "Warren Zaire-Emery",
+        "Lucas Chevalier"
+      ],
+      "awayLineup": [
+        "Randal Kolo Muani",
+        "Richarlison",
+        "Xavi Simons",
+        "Brennan Johnson",
+        "Pape Matar Sarr",
+        "Joao Palhinha",
+        "Djed Spence",
+        "Micky van de Ven",
+        "Cristian Romero",
+        "Pedro Porro",
+        "Guglielmo Vicario"
+      ]
+    },
+    {
+      "homeTeam": "Sporting",
+      "awayTeam": "Clubbruegge",
       "dateTime": "2025-11-26T21:00:00Z",
       "matchday": 5,
       "phase": "gruppenphase",
