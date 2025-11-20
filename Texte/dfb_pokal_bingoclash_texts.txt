@@ -1,0 +1,179 @@
+{
+  "ohne_spieler": {
+    "normal": [
+      "Tor nach Eckball",
+      "Tor nach Freistoß",
+      "Tor nach Elfmeter",
+      "Tor nach Konter",
+      "Tor nach Flanke",
+      "Tor nach Kopfball",
+      "Tor nach Volley",
+      "Tor nach Distanzschuss",
+      "Tor nach Einzelaktion",
+      "Tor nach Kombination",
+      "Eckball",
+      "Freistoß",
+      "Elfmeter",
+      "Abseits",
+      "Ausball",
+      "Gelbe Karte",
+      "Rote Karte",
+      "Verletzung",
+      "Auswechslung",
+      "Nachspielzeit",
+      "\"Das war knapp!\"",
+      "\"Was für ein Spiel!\"",
+      "\"Unglaublich!\"",
+      "\"Das muss ein Tor sein!\"",
+      "\"Wie konnte er das vergeben?\"",
+      "\"Beste Chance des Spiels!\"",
+      "\"Schiedsrichter entscheidet falsch\"",
+      "\"VAR wird eingeschaltet\"",
+      "\"Spiel wird unterbrochen\"",
+      "Eigentor",
+      "Doppelschlag",
+      "Hattrick"
+    ],
+    "ex": [
+      "DFB-Pokal-Hymne ertönt",
+      "Zeitspiel",
+      "Kurzer Abstoß",
+      "Kein Tor in den ersten 15 Min.",
+      "Konter in Überzahl"
+    ],
+    "unendlich": [
+      "Running Gag wird wiederholt",
+      "Endlose Diskussion über VAR",
+      "Gleiche Phrase zum 5. Mal",
+      "Kommentator wiederholt sich",
+      "Dauerschleife Spieltaktik",
+      "Immer wieder Ballbesitz erwähnt",
+      "Ständige Trainer-Diskussion",
+      "Unendliche Replay-Analysen"
+    ]
+  },
+  "mit_spieler": {
+    "normal": {
+      "torwart": [
+        "{SPIELER} hält Elfmeter",
+        "{SPIELER} macht einen Fehler"
+      ],
+      "defensiv": [
+        "{SPIELER} macht ein Tackling",
+        "{SPIELER} bekommt eine gelbe Karte",
+        "{SPIELER} macht ein Foul"
+      ],
+      "mittelfeld": [
+        "{SPIELER} macht ein Tor",
+        "{SPIELER} gibt eine Vorlage",
+        "{SPIELER} macht einen Fehlpass",
+        "{SPIELER} hat eine Torchance"
+      ],
+      "offensiv": [
+        "{SPIELER} schießt ein Tor",
+        "{SPIELER} schießt daneben",
+        "{SPIELER} hat eine Torchance"
+      ]
+    },
+    "ex": {
+      "torwart": [
+        "{SPIELER} hält einen Schuss sicher"
+      ],
+      "defensiv": [
+        "{SPIELER} spielt einen Steilpass"
+      ],
+      "mittelfeld": [
+        "{SPIELER} schießt"
+      ],
+      "offensiv": [
+        "{SPIELER} feiert übertrieben"
+      ]
+    },
+    "unendlich": {
+      "torwart": [
+        "{SPIELER} dribbelt im eigenen Strafraum"
+      ],
+      "defensiv": [
+        "{SPIELER} bekommt eine rote Karte",
+        "{SPIELER} wird ausgewechselt"
+      ],
+      "mittelfeld": [
+        "{SPIELER} bekommt eine gelbe Karte",
+        "{SPIELER} wird ausgewechselt"
+      ],
+      "offensiv": [
+        "{SPIELER} wird ausgewechselt",
+        "{SPIELER} wird verletzt"
+      ]
+    }
+  },
+  "heimmannschaft": {
+    "normal": [
+      "{MANNSCHAFT} führt",
+      "{MANNSCHAFT} hat mehr Ballbesitz",
+      "{MANNSCHAFT} setzt sich fest",
+      "{MANNSCHAFT} erhöht den Druck",
+      "{MANNSCHAFT} kontrolliert das Spiel",
+      "{MANNSCHAFT} dominiert",
+      "Tor in {STADT}",
+      "{STADT} jubelt",
+      "{STADT} dreht auf",
+      "{STADT} unter Druck",
+      "{STADT} macht Dampf",
+      "Tor-Alarm in {STADT}",
+      "{STADT} spielt stark",
+      "{STADT} kämpft",
+      "Chance für {STADT}",
+      "{STADT} ist gefährlich"
+    ],
+    "ex": [
+      "{MANNSCHAFT} spielt auf Zeit",
+      "{MANNSCHAFT} macht einen kurzen Abstoß",
+      "Freistoß für {STADT}",
+      "Ecke in {STADT}",
+      "{STADT} mit Zeitspiel"
+    ],
+    "unendlich": [
+      "{MANNSCHAFT} wird wieder genannt",
+      "Dauerlob für {MANNSCHAFT}",
+      "Stadion in {STADT} tobt",
+      "{STADT} wieder im Fokus",
+      "Schalte nach {STADT}"
+    ]
+  },
+  "auswärtsmannschaft": {
+    "normal": [
+      "{MANNSCHAFT} führt",
+      "{MANNSCHAFT} hat mehr Ballbesitz",
+      "{MANNSCHAFT} setzt sich fest",
+      "{MANNSCHAFT} erhöht den Druck",
+      "{MANNSCHAFT} kontrolliert das Spiel",
+      "{MANNSCHAFT} dominiert",
+      "Tor in {STADT}",
+      "{STADT} jubelt",
+      "{STADT} dreht auf",
+      "{STADT} unter Druck",
+      "{STADT} macht Dampf",
+      "Tor-Alarm in {STADT}",
+      "{STADT} spielt stark",
+      "{STADT} kämpft",
+      "Chance für {STADT}",
+      "{STADT} ist gefährlich"
+    ],
+    "ex": [
+      "{MANNSCHAFT} spielt auf Zeit",
+      "{MANNSCHAFT} macht eine Ecke",
+      "Freistoß für {STADT}",
+      "Ecke in {STADT}",
+      "{STADT} mit Zeitspiel"
+    ],
+    "unendlich": [
+      "{MANNSCHAFT} wird wieder genannt",
+      "Dauerlob für {MANNSCHAFT}",
+      "Stadion in {STADT} tobt",
+      "{STADT} wieder im Fokus",
+      "Schalte nach {STADT}"
+    ]
+  }
+}
+
