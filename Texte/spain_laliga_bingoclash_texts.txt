@@ -1,0 +1,181 @@
+{
+  "ohne_spieler": {
+    "normal": [
+      "Tor fällt in einem Stadion",
+      "Tor nach Eckball",
+      "Tor nach Freistoß",
+      "Tor nach Elfmeter",
+      "Tor nach Konter",
+      "Tor nach Kopfball",
+      "Elfmeter in einem Spiel",
+      "Gelbe Karte gezeigt",
+      "Rote Karte gezeigt",
+      "Auswechslung vorgenommen",
+      "Nachspielzeit angekündigt",
+      "Simultantor in mehreren Stadien",
+      "\"Das war knapp!\"",
+      "\"Tor! Tor! Tor!\"",
+      "\"Unglaublich!\"",
+      "\"Gleichstand!\"",
+      "\"Führungswechsel!\"",
+      "VAR-Einsatz",
+      "Spielunterbrechung",
+      "Eigentor",
+      "Doppelpack eines Spielers",
+      "Drei Tore in unter 10 Minuten",
+      "Konferenz-Kommentator wechselt Stadion"
+    ],
+    "ex": [
+      "Zeitspiel",
+      "Abstoß",
+      "Kein Tor in den ersten 15 Min.",
+      "Konferenz-Schalte zu allen Stadien"
+    ],
+    "unendlich": [
+      "Tabellen-Stand wird eingeblendet",
+      "Gleiche Phrase zum 5. Mal",
+      "Kommentator wiederholt sich",
+      "Ständige Stadion-Wechsel"
+    ]
+  },
+  "mit_spieler": {
+    "normal": {
+      "torwart": [
+        "{SPIELER} hält Elfmeter",
+        "{SPIELER} macht einen Fehler",
+        "{SPIELER} hat Weltklasse-Parade"
+      ],
+      "defensiv": [
+        "{SPIELER} macht ein Tackling",
+        "{SPIELER} bekommt eine gelbe Karte",
+        "{SPIELER} macht ein Foul",
+        "{SPIELER} klärt in letzter Sekunde"
+      ],
+      "mittelfeld": [
+        "{SPIELER} macht ein Tor",
+        "{SPIELER} gibt eine Vorlage",
+        "{SPIELER} macht einen Fehlpass",
+        "{SPIELER} hat eine Torchance",
+        "{SPIELER} wird von Kamera gezeigt"
+      ],
+      "offensiv": [
+        "{SPIELER} schießt ein Tor",
+        "{SPIELER} schießt daneben",
+        "{SPIELER} hat eine Torchance",
+        "{SPIELER} wird von Kamera gezeigt"
+      ]
+    },
+    "ex": {
+      "torwart": [
+        "{SPIELER} spielt den Ball aus der Hand"
+      ],
+      "defensiv": [
+        "{SPIELER} spielt einen Steilpass"
+      ],
+      "mittelfeld": [
+        "{SPIELER} schießt aus der Distanz"
+      ],
+      "offensiv": [
+        "{SPIELER} feiert übertrieben"
+      ]
+    },
+    "unendlich": {
+      "torwart": [
+        "{SPIELER} wird im Konferenz-Gespräch erwähnt"
+      ],
+      "defensiv": [
+        "{SPIELER} bekommt eine rote Karte",
+        "{SPIELER} wird ausgewechselt"
+      ],
+      "mittelfeld": [
+        "{SPIELER} bekommt eine gelbe Karte",
+        "{SPIELER} wird ausgewechselt"
+      ],
+      "offensiv": [
+        "{SPIELER} wird ausgewechselt",
+        "{SPIELER} wird verletzt"
+      ]
+    }
+  },
+  "heimmannschaft": {
+    "normal": [
+      "{MANNSCHAFT} führt",
+      "{MANNSCHAFT} hat Chancen",
+      "{MANNSCHAFT} unter Druck",
+      "{MANNSCHAFT} macht Druck",
+      "{MANNSCHAFT} kontrolliert das Spiel",
+      "{MANNSCHAFT} wird im Konferenz-Fokus gezeigt",
+      "{MANNSCHAFT} erzielt ein Tor",
+      "{MANNSCHAFT} in Unterzahl",
+      "{MANNSCHAFT} bekommt Elfmeter",
+      "{MANNSCHAFT} wechselt aus",
+      "Tor in {STADT}",
+      "{STADT} jubelt",
+      "{STADT} dreht auf",
+      "{STADT} unter Druck",
+      "{STADT} macht Dampf",
+      "Tor-Alarm in {STADT}",
+      "{STADT} spielt stark",
+      "{STADT} kämpft",
+      "Chance für {STADT}",
+      "{STADT} ist gefährlich"
+    ],
+    "ex": [
+      "{MANNSCHAFT} spielt auf Zeit",
+      "{MANNSCHAFT} macht Eckball",
+      "{MANNSCHAFT} bekommt Freistoß",
+      "Freistoß für {STADT}",
+      "Ecke in {STADT}",
+      "{STADT} mit Zeitspiel"
+    ],
+    "unendlich": [
+      "{MANNSCHAFT} wird wieder genannt",
+      "Kamera wechselt zu {MANNSCHAFT}",
+      "Kommentator spricht über {MANNSCHAFT}",
+      "Stadion in {STADT} tobt",
+      "{STADT} wieder im Fokus",
+      "Schalte nach {STADT}"
+    ]
+  },
+  "auswärtsmannschaft": {
+    "normal": [
+      "{MANNSCHAFT} führt",
+      "{MANNSCHAFT} hat Chancen",
+      "{MANNSCHAFT} unter Druck",
+      "{MANNSCHAFT} macht Druck",
+      "{MANNSCHAFT} kontrolliert das Spiel",
+      "{MANNSCHAFT} wird im Konferenz-Fokus gezeigt",
+      "{MANNSCHAFT} erzielt ein Tor",
+      "{MANNSCHAFT} in Unterzahl",
+      "{MANNSCHAFT} bekommt Elfmeter",
+      "{MANNSCHAFT} wechselt aus",
+      "Tor in {STADT}",
+      "{STADT} jubelt",
+      "{STADT} dreht auf",
+      "{STADT} unter Druck",
+      "{STADT} macht Dampf",
+      "Tor-Alarm in {STADT}",
+      "{STADT} spielt stark",
+      "{STADT} kämpft",
+      "Chance für {STADT}",
+      "{STADT} ist gefährlich"
+    ],
+    "ex": [
+      "{MANNSCHAFT} spielt auf Zeit",
+      "{MANNSCHAFT} macht Eckball",
+      "{MANNSCHAFT} bekommt Freistoß",
+      "Freistoß für {STADT}",
+      "Ecke in {STADT}",
+      "{STADT} mit Zeitspiel"
+    ],
+    "unendlich": [
+      "{MANNSCHAFT} wird wieder genannt",
+      "Kamera wechselt zu {MANNSCHAFT}",
+      "Kommentator spricht über {MANNSCHAFT}",
+      "Stadion in {STADT} tobt",
+      "{STADT} wieder im Fokus",
+      "Schalte nach {STADT}"
+    ]
+  }
+}
+
