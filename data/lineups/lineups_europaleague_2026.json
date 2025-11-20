@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2025-11-20T20:29:59.384371",
+  "lastUpdated": "2025-11-20T21:25:08.295894",
   "lineups": [
     {
       "homeTeam": "Fcbasel",
@@ -860,8 +860,8 @@
       ]
     },
     {
-      "homeTeam": "Roter Stern Belgrad",
-      "awayTeam": "Steaua Bukarest",
+      "homeTeam": "Rsbelgrad",
+      "awayTeam": "Steaua",
       "dateTime": "2025-11-27T21:00:00Z",
       "matchday": 5,
       "phase": "gruppenphase",
@@ -893,8 +893,74 @@
       ]
     },
     {
-      "homeTeam": "Panathinaikos Athen",
-      "awayTeam": "Sturm Graz",
+      "homeTeam": "Genk",
+      "awayTeam": "Fcbasel",
+      "dateTime": "2025-11-27T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Hyeon-gyu Oh",
+        "Yaimar Medina",
+        "Daan Heymans",
+        "Konstantinos Karetsas",
+        "Bryan Heynen",
+        "Patrik Hrosovsky",
+        "Adrian Palacios",
+        "Matte Smets",
+        "Mujaid Sadick",
+        "Josue Kongolo",
+        "Hendrik Van Crombrugge"
+      ],
+      "awayLineup": [
+        "Moritz Broschinski",
+        "Xherdan Shaqiri",
+        "Philip Otele",
+        "Leo Leroy",
+        "Metinho",
+        "Benie Traore",
+        "Dominik Schmid",
+        "Flavius Daniliuc",
+        "Adrian Leon Barisic",
+        "Kevin Ruegg",
+        "Marwin Hitz"
+      ]
+    },
+    {
+      "homeTeam": "Realbetis",
+      "awayTeam": "Utrecht",
+      "dateTime": "2025-11-27T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Cucho Hernandez",
+        "Abde Ezzalzouli",
+        "Giovani Lo Celso",
+        "Antony",
+        "Pablo Fornals",
+        "Sofyan Amrabat",
+        "Valentin Gomez",
+        "Natan",
+        "Marc Bartra",
+        "Hector Bellerin",
+        "Alvaro Valles"
+      ],
+      "awayLineup": [
+        "Sebastien Haller",
+        "Adrian Blake",
+        "Dani de Wit",
+        "Miguel Rodriguez",
+        "Gjivai Zechiel",
+        "Alonzo Engwanda",
+        "Souffian El Karouani",
+        "Nick Viergever",
+        "Matisse Didden",
+        "Siebe Horemans",
+        "Vasilios Barkas"
+      ]
+    },
+    {
+      "homeTeam": "Panathinaikos",
+      "awayTeam": "Sturmgraz",
       "dateTime": "2025-11-27T21:00:00Z",
       "matchday": 5,
       "phase": "gruppenphase",
@@ -923,6 +989,138 @@
         "Tim Oermann",
         "Arjan Malic",
         "Oliver Christensen"
+      ]
+    },
+    {
+      "homeTeam": "Bologna",
+      "awayTeam": "Salzburg",
+      "dateTime": "2025-11-27T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Thijs Dallinga",
+        "Jonathan Rowe",
+        "Jens Odgaard",
+        "Riccardo Orsolini",
+        "Tommaso Pobega",
+        "Lewis Ferguson",
+        "Juan Miranda",
+        "Jhon Lucumi",
+        "Torbjorn Heggem",
+        "Emil Holm",
+        "Lukasz Skorupski"
+      ],
+      "awayLineup": [
+        "Petar Ratkov",
+        "Clement Bischoff",
+        "Sota Kitano",
+        "Edmund Baidoo",
+        "Maurits Kjaergaard",
+        "Soumaila Diabate",
+        "Aleksa Terzic",
+        "Jacob Rasmussen",
+        "Jannik Schuster",
+        "Stefan Lainer",
+        "Alexander Schlager"
+      ]
+    },
+    {
+      "homeTeam": "Mtelaviv",
+      "awayTeam": "Lyon",
+      "dateTime": "2025-11-27T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Elad Madmon",
+        "Helio Varela",
+        "Itamar Noy",
+        "Issouf Sissokho",
+        "Dor Peretz",
+        "Osher Davida",
+        "Roy Revivo",
+        "Heitor",
+        "Raz Shlomo",
+        "Tyrese Asante",
+        "Roi Mishpati"
+      ],
+      "awayLineup": [
+        "Rachid Ghezza",
+        "Afonso Moreira",
+        "Khalis Merah",
+        "Ainsley Maitland-Niles",
+        "Tyler Morton",
+        "Tanner Tessmann",
+        "Nicolas Tagliafico",
+        "Moussa Niakhate",
+        "Clinton Mata",
+        "Ruben Kluivert",
+        "Dominik Greif"
+      ]
+    },
+    {
+      "homeTeam": "Nottingham",
+      "awayTeam": "Malmoeff",
+      "dateTime": "2025-11-27T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Igor Jesus",
+        "Nicolas Dominguez",
+        "Morgan Gibbs-White",
+        "Dan Ndoye",
+        "Elliot Anderson",
+        "Ibrahim Sangare",
+        "Neco Williams",
+        "Murillo",
+        "Nikola Milenkovic",
+        "Nicolo Savona",
+        "Matz Sels"
+      ],
+      "awayLineup": [
+        "Emmanuel Ekong",
+        "Daniel Gudjohnsen",
+        "Sead Haksabanovic",
+        "Adrian Skogmar",
+        "Otto Rosengren",
+        "Oscar Lewicki",
+        "Busanello",
+        "Pontus Jansson",
+        "Andrej Djuric",
+        "Jens Stryger Larsen",
+        "Robin Olsen"
+      ]
+    },
+    {
+      "homeTeam": "Deventer",
+      "awayTeam": "Stuttgart",
+      "dateTime": "2025-11-27T21:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        "Milan Smit",
+        "Mathis Suray",
+        "Kenzo Goudmijn",
+        "Richonell Margaret",
+        "Yassir Salah Rahmouni",
+        "Calvin Twigt",
+        "Dean James",
+        "Joris Kramer",
+        "Melle Meulensteen",
+        "Mats Deijl",
+        "Jari De Busser"
+      ],
+      "awayLineup": [
+        "Deniz Undav",
+        "Jamie Leweling",
+        "Bilal El Khannouss",
+        "Badredine Bouanani",
+        "Angelo Stiller",
+        "Atakan Karazor",
+        "Maximilian Mittelstadt",
+        "Dan-Axel Zagadou",
+        "Finn Jeltsch",
+        "Lorenz Assignon",
+        "Alexander Nubel"
       ]
     },
     {
