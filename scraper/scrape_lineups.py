@@ -477,11 +477,39 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     failed_matches = []  # Sammle fehlgeschlagene Spiele für Analyse
     
     for i, match in enumerate(matches, 1):
-        home_team = match.get('homeTeam', '')
-        away_team = match.get('awayTeam', '')
-        date_time = match.get('dateTime', '')
-        matchday = match.get('matchday', None)
-        phase = match.get('phase', '')
+        # OpenLigaDB Format: Team1/Team2 sind Objekte mit TeamName
+        # Andere Formate: homeTeam/awayTeam sind Strings
+        team1 = match.get('Team1') or match.get('team1') or {}
+        team2 = match.get('Team2') or match.get('team2') or {}
+        
+        if isinstance(team1, dict) and isinstance(team2, dict):
+            # OpenLigaDB Format: Extrahiere TeamName aus Objekten
+            home_team = (team1.get('TeamName') or team1.get('teamName') or 
+                        team1.get('name') or team1.get('Name') or '')
+            away_team = (team2.get('TeamName') or team2.get('teamName') or 
+                        team2.get('name') or team2.get('Name') or '')
+            date_time = match.get('MatchDateTime') or match.get('matchDateTime') or match.get('dateTime', '')
+            
+            # OpenLigaDB: Spieltag kann in Group.GroupOrderID oder Matchday sein
+            matchday = None
+            if match.get('Group') and isinstance(match.get('Group'), dict):
+                matchday = match.get('Group').get('GroupOrderID')
+            if not matchday:
+                matchday = match.get('Matchday') or match.get('matchday')
+            
+            # Phase für DFB-Pokal (z.B. "achtelfinale", "viertelfinale")
+            phase = ''
+            if match.get('Group') and isinstance(match.get('Group'), dict):
+                phase = match.get('Group').get('GroupName') or ''
+            if not phase:
+                phase = match.get('phase', '')
+        else:
+            # Andere Formate: Direkte Strings
+            home_team = match.get('homeTeam', '') or (team1 if isinstance(team1, str) else '')
+            away_team = match.get('awayTeam', '') or (team2 if isinstance(team2, str) else '')
+            date_time = match.get('dateTime', '')
+            matchday = match.get('matchday', None)
+            phase = match.get('phase', '')
         
         print(f"\n[{i}/{len(matches)}] {home_team} vs {away_team}")
         
