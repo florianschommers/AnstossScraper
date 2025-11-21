@@ -89,11 +89,11 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
                 print(f"   ⚠️ Match {i} ist kein Dict: {type(match_data)}")
                 continue
                 
-            # Versuche verschiedene mögliche Feldnamen (API verwendet möglicherweise team1/team2 statt Team1/Team2)
-            # Prüfe alle möglichen Varianten
-            team1 = (match_data.get('Team1') or match_data.get('team1') or 
+            # WICHTIG: OpenLigaDB API verwendet 'team1' und 'team2' (kleingeschrieben), nicht 'Team1'/'Team2'
+            # Versuche verschiedene mögliche Feldnamen
+            team1 = (match_data.get('team1') or match_data.get('Team1') or 
                     match_data.get('homeTeam') or match_data.get('HomeTeam') or {})
-            team2 = (match_data.get('Team2') or match_data.get('team2') or 
+            team2 = (match_data.get('team2') or match_data.get('Team2') or 
                     match_data.get('awayTeam') or match_data.get('AwayTeam') or {})
             
             # Debug: Zeige ersten Match
@@ -124,10 +124,11 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
                     continue
                 continue
             
-            # Prüfe verschiedene mögliche Feldnamen für TeamName (API verwendet möglicherweise teamName statt TeamName)
-            team1_name = (team1.get('TeamName') or team1.get('teamName') or team1.get('name') or 
+            # WICHTIG: OpenLigaDB API verwendet 'teamName' (kleingeschrieben), nicht 'TeamName'
+            # Prüfe verschiedene mögliche Feldnamen für TeamName
+            team1_name = (team1.get('teamName') or team1.get('TeamName') or team1.get('name') or 
                          team1.get('Name') or team1.get('shortName') or team1.get('ShortName'))
-            team2_name = (team2.get('TeamName') or team2.get('teamName') or team2.get('name') or 
+            team2_name = (team2.get('teamName') or team2.get('TeamName') or team2.get('name') or 
                          team2.get('Name') or team2.get('shortName') or team2.get('ShortName'))
             
             if not team1_name or not team2_name:
