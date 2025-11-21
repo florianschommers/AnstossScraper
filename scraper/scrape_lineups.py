@@ -562,9 +562,12 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
             team1 = match.get('Team1') or match.get('team1') or {}
             team2 = match.get('Team2') or match.get('team2') or {}
             
+            # Initialisiere Variablen
+            matchday = None
+            phase = ''
+            
             if isinstance(team1, dict) and isinstance(team2, dict):
                 # OpenLigaDB Format: Prüfe verschiedene mögliche Felder für Matchday
-                matchday = None
                 
                 # Versuche Group.GroupOrderID (für Gruppenphasen)
                 if match.get('Group') and isinstance(match.get('Group'), dict):
