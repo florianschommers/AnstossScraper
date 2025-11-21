@@ -145,14 +145,15 @@ def is_coach(name: str) -> bool:
 def find_matchday_for_match(league_path: str, season: str, home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1, phase: str = '') -> Optional[Union[int, str]]:
     """
     Findet den richtigen Spieltag für ein Match, indem durch Spieltage iteriert wird
-    und geprüft wird, ob Spiele in der Zukunft sind.
+    und geprüft wird, ob das spezifische Match auf diesem Spieltag ist.
     
-    Beispiel Bundesliga:
-    - Iteriere durch Spieltage 1, 2, 3, ...
-    - Prüfe ob Spiele in der Zukunft sind
-    - Sobald Spiele in der Zukunft gefunden werden, ist das der richtige Spieltag
+    WICHTIG: Prüft nicht nur, ob es zukünftige Spiele gibt, sondern ob das spezifische Match dort ist!
     """
+    from team_slug_converter import convert_team_to_slug
+    
     now = datetime.now()
+    home_slug = convert_team_to_slug(home_team, liga_id, is_international)
+    away_slug = convert_team_to_slug(away_team, liga_id, is_international)
     
     if is_international:
         # Internationale Ligen: Prüfe Phasen mit Spieltagen
@@ -163,9 +164,15 @@ def find_matchday_for_match(league_path: str, season: str, home_team: str, away_
                 if not html or len(html) < 1000:
                     continue
                 
-                # Prüfe ob Spiele in der Zukunft sind
-                if has_future_matches(html, now):
-                    print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele)")
+                # Prüfe ob das spezifische Match auf diesem Spieltag ist
+                if home_slug and away_slug:
+                    # Prüfe beide Varianten (home-away und away-home)
+                    if (f"{home_slug}-{away_slug}" in html or f"{away_slug}-{home_slug}" in html):
+                        print(f"    📅 Spieltag {matchday} gefunden (Match gefunden auf diesem Spieltag)")
+                        return matchday
+                # Fallback: Prüfe ob Spiele in der Zukunft sind (wenn Team-Slugs nicht gefunden)
+                elif has_future_matches(html, now):
+                    print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele, aber Match nicht verifiziert)")
                     return matchday
         else:
             # Phasen ohne Spieltage (achtelfinale, etc.)
@@ -179,10 +186,15 @@ def find_matchday_for_match(league_path: str, season: str, home_team: str, away_
             if not html or len(html) < 1000:
                 continue
             
-            # Prüfe ob Spiele in der Zukunft sind
-            if has_future_matches(html, now):
-                print(f"    📅 Runde {round_name} gefunden (hat zukünftige Spiele)")
-                return round_name  # Für DFB-Pokal ist matchday der Runden-Name
+            # Prüfe ob das spezifische Match in dieser Runde ist
+            if home_slug and away_slug:
+                if (f"{home_slug}-{away_slug}" in html or f"{away_slug}-{home_slug}" in html):
+                    print(f"    📅 Runde {round_name} gefunden (Match gefunden in dieser Runde)")
+                    return round_name
+            # Fallback: Prüfe ob Spiele in der Zukunft sind
+            elif has_future_matches(html, now):
+                print(f"    📅 Runde {round_name} gefunden (hat zukünftige Spiele, aber Match nicht verifiziert)")
+                return round_name
     else:
         # Normale Ligen: Iteriere durch Spieltage 1-34
         for matchday in range(1, 35):
@@ -191,9 +203,15 @@ def find_matchday_for_match(league_path: str, season: str, home_team: str, away_
             if not html or len(html) < 1000:
                 continue
             
-            # Prüfe ob Spiele in der Zukunft sind
-            if has_future_matches(html, now):
-                print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele)")
+            # Prüfe ob das spezifische Match auf diesem Spieltag ist
+            if home_slug and away_slug:
+                # Prüfe beide Varianten (home-away und away-home)
+                if (f"{home_slug}-{away_slug}" in html or f"{away_slug}-{home_slug}" in html):
+                    print(f"    📅 Spieltag {matchday} gefunden (Match gefunden auf diesem Spieltag)")
+                    return matchday
+            # Fallback: Prüfe ob Spiele in der Zukunft sind (wenn Team-Slugs nicht gefunden)
+            elif has_future_matches(html, now):
+                print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele, aber Match nicht verifiziert)")
                 return matchday
     
     return None
