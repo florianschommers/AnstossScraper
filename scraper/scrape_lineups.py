@@ -463,9 +463,10 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     
     # WICHTIG: Für Scraping-URLs (fussballdaten.de) verwende Saison +1
     # Match-Dateien kommen von OpenLigaDB (Saison -1), aber Scraping verwendet fussballdaten.de (Saison +1)
+    # NUR für 2. Bundesliga und DFB-Pokal (1. Bundesliga bleibt unverändert)
     scraping_season = season
-    if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
-        # Deutsche Ligen: Match-Datei hat OpenLigaDB Saison (-1), aber Scraping braucht fussballdaten.de Saison (+1)
+    if league_name in ["2bundesliga", "dfbpokal"]:
+        # 2. Bundesliga und DFB-Pokal: Match-Datei hat OpenLigaDB Saison (-1), aber Scraping braucht fussballdaten.de Saison (+1)
         season_int = int(season) if season.isdigit() else 2025
         scraping_season = str(season_int + 1)
         print(f"   ℹ️ Match-Datei Saison: {season} (OpenLigaDB), Scraping Saison: {scraping_season} (fussballdaten.de)")
@@ -585,11 +586,12 @@ def main():
     int_season = get_international_season()
     
     # Alle Ligen
-    # Deutsche Ligen: Match-Dateien verwenden OpenLigaDB Saison (-1), Scraping verwendet fussballdaten.de Saison (+1)
+    # NUR 2. Bundesliga und DFB-Pokal verwenden OpenLigaDB Saison (-1) für Match-Dateien
+    # 1. Bundesliga bleibt unverändert (verwendet normale Saison)
     leagues = [
-        ("bundesliga", openligadb_season),  # Match-Datei: OpenLigaDB Saison
-        ("2bundesliga", openligadb_season),  # Match-Datei: OpenLigaDB Saison
-        ("dfbpokal", openligadb_season),  # Match-Datei: OpenLigaDB Saison
+        ("bundesliga", season),  # 1. Bundesliga: normale Saison (unverändert)
+        ("2bundesliga", openligadb_season),  # 2. Bundesliga: Match-Datei OpenLigaDB Saison (-1)
+        ("dfbpokal", openligadb_season),  # DFB-Pokal: Match-Datei OpenLigaDB Saison (-1)
         ("championsleague", int_season),
         ("europaleague", int_season),
         ("conferenceleague", int_season),
