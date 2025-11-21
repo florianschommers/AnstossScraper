@@ -9825,7 +9825,7 @@
   {
     "matchID": 78051,
     "matchDateTime": "2025-11-21T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -9850,14 +9850,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/284px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-21T18:48:15.9",
+    "lastUpdateDateTime": "2025-11-21T19:19:05.527",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120434,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 2,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -9866,13 +9866,38 @@
         "resultID": 120435,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134505,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 25,
+        "goalGetterID": 18440,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134512,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 46,
+        "goalGetterID": 17747,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 409,
       "locationCity": "Bochum",
@@ -9908,7 +9933,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-21T18:48:18.057",
+    "lastUpdateDateTime": "2025-11-21T19:19:22.447",
     "matchIsFinished": false,
     "matchResults": [
       {
