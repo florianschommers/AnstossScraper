@@ -9850,7 +9850,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/284px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-21T19:19:05.527",
+    "lastUpdateDateTime": "2025-11-21T19:52:06.027",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9865,7 +9865,7 @@
       {
         "resultID": 120435,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -9891,6 +9891,18 @@
         "scoreTeam2": 2,
         "matchMinute": 46,
         "goalGetterID": 17747,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134514,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 59,
+        "goalGetterID": 24243,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
