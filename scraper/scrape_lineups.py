@@ -216,6 +216,59 @@ def find_matchday_for_match(league_path: str, season: str, home_team: str, away_
     
     return None
 
+def find_current_matchday(league_path: str, season: str, is_international: bool = False, liga_id: int = 1) -> Optional[Union[int, str]]:
+    """
+    Findet den aktuellen Spieltag, indem durch Spieltage iteriert wird
+    und geprüft wird, ob Spiele in der Zukunft sind.
+    
+    Gibt den ersten Spieltag zurück, der zukünftige Spiele hat.
+    """
+    now = datetime.now()
+    
+    if is_international:
+        # Internationale Ligen: Prüfe Phasen mit Spieltagen
+        phases_with_matchdays = ['gruppenphase', 'league-stage']
+        for phase in phases_with_matchdays:
+            for matchday in range(1, 21):
+                url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}/"
+                html = fetch_html(url)
+                if not html or len(html) < 1000:
+                    continue
+                
+                # Prüfe ob Spiele in der Zukunft sind
+                if has_future_matches(html, now):
+                    print(f"   📅 Aktueller Spieltag gefunden: {phase} {matchday}")
+                    return (phase, matchday)
+        return None
+    elif liga_id == 3:  # DFB-Pokal
+        # DFB-Pokal: Prüfe Runden
+        rounds = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
+        for round_name in rounds:
+            url = f"https://www.fussballdaten.de/{league_path}/{season}/{round_name}/"
+            html = fetch_html(url)
+            if not html or len(html) < 1000:
+                continue
+            
+            # Prüfe ob Spiele in der Zukunft sind
+            if has_future_matches(html, now):
+                print(f"   📅 Aktuelle Runde gefunden: {round_name}")
+                return round_name
+        return None
+    else:
+        # Normale Ligen: Iteriere durch Spieltage 1-34
+        for matchday in range(1, 35):
+            url = f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/"
+            html = fetch_html(url)
+            if not html or len(html) < 1000:
+                continue
+            
+            # Prüfe ob Spiele in der Zukunft sind
+            if has_future_matches(html, now):
+                print(f"   📅 Aktueller Spieltag gefunden: {matchday}")
+                return matchday
+    
+    return None
+
 def has_future_matches(html: str, now: datetime) -> bool:
     """
     Prüft ob die HTML-Seite Spiele in der Zukunft enthält.
@@ -488,6 +541,59 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         season_int = int(season) if season.isdigit() else 2025
         scraping_season = str(season_int + 1)
         print(f"   ℹ️ Match-Datei Saison: {season} (OpenLigaDB), Scraping Saison: {scraping_season} (fussballdaten.de)")
+    
+    # WICHTIG: Finde zuerst den aktuellen Spieltag und filtere Matches danach
+    print(f"\n🔍 Suche aktuellen Spieltag...")
+    current_matchday = find_current_matchday(league_path, scraping_season, is_international, liga_id)
+    
+    if current_matchday:
+        print(f"✅ Aktueller Spieltag: {current_matchday}")
+    else:
+        print(f"⚠️ Kein aktueller Spieltag gefunden, scrapte alle Matches")
+    
+    # Filtere Matches nach aktuellem Spieltag
+    filtered_matches = []
+    if current_matchday:
+        for match in matches:
+            # Extrahiere Matchday aus Match
+            team1 = match.get('Team1') or match.get('team1') or {}
+            team2 = match.get('Team2') or match.get('team2') or {}
+            
+            if isinstance(team1, dict) and isinstance(team2, dict):
+                matchday = None
+                if match.get('Group') and isinstance(match.get('Group'), dict):
+                    matchday = match.get('Group').get('GroupOrderID')
+                if not matchday:
+                    matchday = match.get('Matchday') or match.get('matchday')
+                phase = ''
+                if match.get('Group') and isinstance(match.get('Group'), dict):
+                    phase = match.get('Group').get('GroupName') or ''
+                if not phase:
+                    phase = match.get('phase', '')
+            else:
+                matchday = match.get('matchday', None)
+                phase = match.get('phase', '')
+            
+            # Prüfe ob Match zum aktuellen Spieltag gehört
+            if is_international:
+                # International: current_matchday ist (phase, matchday) Tupel
+                if isinstance(current_matchday, tuple):
+                    current_phase, current_matchday_num = current_matchday
+                    if phase == current_phase and matchday == current_matchday_num:
+                        filtered_matches.append(match)
+            elif liga_id == 3:
+                # DFB-Pokal: current_matchday ist Runden-Name (String)
+                if isinstance(current_matchday, str) and matchday == current_matchday:
+                    filtered_matches.append(match)
+            else:
+                # Normale Ligen: current_matchday ist Integer
+                if isinstance(current_matchday, int) and matchday == current_matchday:
+                    filtered_matches.append(match)
+        
+        matches = filtered_matches
+        print(f"📊 Gefiltert: {len(matches)} Matches für Spieltag {current_matchday} (von {len(matches) + len(filtered_matches) - len(matches)} total)")
+    else:
+        print(f"⚠️ Kein aktueller Spieltag gefunden, verwende alle {len(matches)} Matches")
     
     # Zeige alle Matches zu Beginn aufgelistet
     print(f"\n📋 Alle Matches die gescrappt werden sollen:")
