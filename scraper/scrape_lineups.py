@@ -510,11 +510,8 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         data_dir = os.path.join('..', data_dir)
     
     # Lade Matches
-    # WICHTIG: Deutsche Ligen (bundesliga, 2bundesliga, dfbpokal) verwenden Dateinamen OHNE Saison
-    if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
-        match_file = os.path.join(data_dir, f"matches_{league_name}.json")
-    else:
-        match_file = os.path.join(data_dir, f"matches_{league_name}_{season}.json")
+    # WICHTIG: ALLE Ligen verwenden jetzt Dateinamen OHNE Saison
+    match_file = os.path.join(data_dir, f"matches_{league_name}.json")
     if not os.path.exists(match_file):
         print(f"⚠️ Match-Datei nicht gefunden: {match_file}")
         return {"league": league_name, "season": season if season else get_current_season(), "lineups": []}
@@ -902,25 +899,25 @@ def main():
     """Hauptfunktion"""
     print("🚀 Starte Lineup-Scraping für alle Ligen...")
     
-    # WICHTIG: Deutsche Ligen (bundesliga, 2bundesliga, dfbpokal) verwenden Dateinamen OHNE Saison
+    # WICHTIG: ALLE Ligen verwenden jetzt Dateinamen OHNE Saison
     # fussballdaten.de verwendet Saison +1 (z.B. 2026 statt 2025) für Scraping-URLs
     season = get_current_season()  # Für fussballdaten.de URLs (Scraping)
     int_season = get_international_season()
     
     # Alle Ligen
-    # Deutsche Ligen: season wird nur für Scraping-URLs verwendet, nicht für Dateinamen
-    # Andere Ligen: season wird für Dateinamen verwendet
+    # WICHTIG: season wird nur für Scraping-URLs verwendet, NICHT für Dateinamen
+    # Alle Dateinamen sind OHNE Jahreszahl (matches_england.json, matches_championsleague.json, etc.)
     leagues = [
         ("bundesliga", ""),  # 1. Bundesliga: Dateiname OHNE Saison
         ("2bundesliga", ""),  # 2. Bundesliga: Dateiname OHNE Saison
         ("dfbpokal", ""),  # DFB-Pokal: Dateiname OHNE Saison
-        ("championsleague", int_season),
-        ("europaleague", int_season),
-        ("conferenceleague", int_season),
-        ("england", season),
-        ("spain", season),
-        ("italy", season),
-        ("france", season),
+        ("championsleague", ""),  # Champions League: Dateiname OHNE Saison
+        ("europaleague", ""),  # Europa League: Dateiname OHNE Saison
+        ("conferenceleague", ""),  # Conference League: Dateiname OHNE Saison
+        ("england", ""),  # England: Dateiname OHNE Saison
+        ("spain", ""),  # Spain: Dateiname OHNE Saison
+        ("italy", ""),  # Italy: Dateiname OHNE Saison
+        ("france", ""),  # France: Dateiname OHNE Saison
     ]
     
     for league_name, league_season in leagues:
