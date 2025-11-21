@@ -251,7 +251,30 @@ def upload_file_to_github(repo: str, path: str, content: str, token: str, messag
             response = requests.put(url, headers=get_headers(token), json=data, timeout=30)
             if response.status_code in [200, 201]:
                 print(f"✅ Erfolgreich hochgeladen: {path}")
+                # Prüfe ob die Datei wirklich aktualisiert wurde
+                response_json = response.json()
+                if 'content' in response_json:
+                    print(f"   📝 Commit SHA: {response_json.get('commit', {}).get('sha', 'N/A')}")
                 return True
+            elif response.status_code == 409:
+                # Conflict: Datei wurde zwischenzeitlich geändert, hole neuen SHA
+                print(f"⚠️ Konflikt beim Hochladen von {path} (Datei wurde zwischenzeitlich geändert)")
+                if attempt < max_retries:
+                    # Hole neuen SHA und versuche erneut
+                    new_sha = get_file_sha(repo, path, token)
+                    if new_sha:
+                        data['sha'] = new_sha
+                        print(f"   🔄 Hole neuen SHA und versuche erneut...")
+                        wait_time = attempt * 2
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        print(f"   ❌ Konnte neuen SHA nicht abrufen")
+                        return False
+                else:
+                    print(f"   ❌ Konflikt nach {max_retries} Versuchen")
+                    print(f"   Response: {response.text[:500]}")
+                    return False
             elif response.status_code == 404:
                 print(f"❌ Repository oder Branch nicht gefunden (404) für {path}")
                 print(f"   Stelle sicher, dass das Repository existiert und der Branch 'main' vorhanden ist")
