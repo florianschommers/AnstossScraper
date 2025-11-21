@@ -58,23 +58,53 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
         
         response = requests.get(api_url, headers={'User-Agent': 'Anstoss-App/1.0'}, timeout=30)
         
+        print(f"   📊 HTTP Status: {response.status_code}")
+        print(f"   📏 Response-Länge: {len(response.text)} Zeichen")
+        
         if response.status_code != 200:
             print(f"❌ HTTP {response.status_code} für {api_url}")
+            print(f"   Response: {response.text[:200]}")
             return all_matches
         
         data = response.json()
         
+        print(f"   📦 JSON-Typ: {type(data)}")
+        if isinstance(data, list):
+            print(f"   📋 Array-Länge: {len(data)}")
+        elif isinstance(data, dict):
+            print(f"   📋 Dict-Keys: {list(data.keys())[:10]}")
+        
         if not isinstance(data, list):
-            print(f"⚠️ Unerwartetes Datenformat von API")
-            return all_matches
+            print(f"⚠️ Unerwartetes Datenformat von API (erwartet: list, erhalten: {type(data)})")
+            # Versuche trotzdem zu parsen, falls es ein Dict mit 'matches' Key ist
+            if isinstance(data, dict) and 'matches' in data:
+                print(f"   🔄 Versuche 'matches' Key aus Dict zu extrahieren...")
+                data = data.get('matches', [])
+            else:
+                return all_matches
         
         # Speichere die Original-API-Daten direkt
-        for match_data in data:
+        for i, match_data in enumerate(data):
+            if not isinstance(match_data, dict):
+                print(f"   ⚠️ Match {i} ist kein Dict: {type(match_data)}")
+                continue
+                
             team1 = match_data.get('Team1', {})
             team2 = match_data.get('Team2', {})
+            
+            # Debug: Zeige ersten Match
+            if i == 0:
+                print(f"   🔍 Erster Match-Struktur:")
+                print(f"      Team1: {team1}")
+                print(f"      Team2: {team2}")
+                print(f"      Team1-Typ: {type(team1)}")
+                print(f"      Team2-Typ: {type(team2)}")
+            
             if not isinstance(team1, dict) or not isinstance(team2, dict):
+                print(f"   ⚠️ Match {i}: Team1 oder Team2 ist kein Dict (Team1: {type(team1)}, Team2: {type(team2)})")
                 continue
             if not team1.get('TeamName') or not team2.get('TeamName'):
+                print(f"   ⚠️ Match {i}: Fehlende TeamName (Team1: {team1.get('TeamName')}, Team2: {team2.get('TeamName')})")
                 continue
             
             # Für DFB-Pokal: Prüfe ob Match wirklich DFB-Pokal ist (filtere Bundesliga-Spiele raus)
@@ -96,7 +126,7 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
             
             all_matches.append(match_data)
         
-        print(f"✅ {len(all_matches)} Matches von OpenLigaDB API geladen")
+        print(f"✅ {len(all_matches)} Matches von OpenLigaDB API geladen (von {len(data)} total)")
         
     except Exception as e:
         print(f"❌ Fehler beim Laden von OpenLigaDB API: {e}")
