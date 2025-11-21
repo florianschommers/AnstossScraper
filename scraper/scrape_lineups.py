@@ -562,16 +562,38 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
             team2 = match.get('Team2') or match.get('team2') or {}
             
             if isinstance(team1, dict) and isinstance(team2, dict):
+                # OpenLigaDB Format: Prüfe verschiedene mögliche Felder für Matchday
                 matchday = None
+                
+                # Versuche Group.GroupOrderID (für Gruppenphasen)
                 if match.get('Group') and isinstance(match.get('Group'), dict):
                     matchday = match.get('Group').get('GroupOrderID')
-                if not matchday:
-                    matchday = match.get('Matchday') or match.get('matchday')
-                phase = ''
-                if match.get('Group') and isinstance(match.get('Group'), dict):
                     phase = match.get('Group').get('GroupName') or ''
+                
+                # Versuche direktes Matchday-Feld (verschiedene Schreibweisen)
+                if not matchday:
+                    matchday = (match.get('Matchday') or match.get('matchday') or 
+                               match.get('MatchDay') or match.get('matchDay') or
+                               match.get('GroupOrderID') or match.get('groupOrderID'))
+                
+                # Versuche aus League-Objekt
+                if not matchday and match.get('League') and isinstance(match.get('League'), dict):
+                    matchday = match.get('League').get('GroupOrderID')
+                
+                # Phase extrahieren (falls noch nicht gesetzt)
                 if not phase:
-                    phase = match.get('phase', '')
+                    if match.get('Group') and isinstance(match.get('Group'), dict):
+                        phase = match.get('Group').get('GroupName') or ''
+                    if not phase:
+                        phase = match.get('phase', '')
+                
+                # DEBUG: Zeige Match-Struktur beim ersten Match
+                if len(matchday_counts) == 0:
+                    print(f"   🔍 DEBUG: Erster Match Keys: {list(match.keys())[:15]}")
+                    if match.get('Group'):
+                        print(f"   🔍 DEBUG: Group Keys: {list(match.get('Group').keys()) if isinstance(match.get('Group'), dict) else 'N/A'}")
+                    if match.get('League'):
+                        print(f"   🔍 DEBUG: League Keys: {list(match.get('League').keys()) if isinstance(match.get('League'), dict) else 'N/A'}")
             else:
                 matchday = match.get('matchday', None)
                 phase = match.get('phase', '')
