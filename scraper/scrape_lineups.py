@@ -489,6 +489,58 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         scraping_season = str(season_int + 1)
         print(f"   ℹ️ Match-Datei Saison: {season} (OpenLigaDB), Scraping Saison: {scraping_season} (fussballdaten.de)")
     
+    # Zeige alle Matches zu Beginn aufgelistet
+    print(f"\n📋 Alle Matches die gescrappt werden sollen:")
+    print(f"{'='*60}")
+    parsed_matches_preview = []
+    for i, match in enumerate(matches, 1):
+        # Extrahiere Match-Info (gleiche Logik wie im Loop)
+        team1 = match.get('Team1') or match.get('team1') or {}
+        team2 = match.get('Team2') or match.get('team2') or {}
+        
+        if isinstance(team1, dict) and isinstance(team2, dict):
+            home_team = (team1.get('TeamName') or team1.get('teamName') or 
+                        team1.get('name') or team1.get('Name') or '')
+            away_team = (team2.get('TeamName') or team2.get('teamName') or 
+                        team2.get('name') or team2.get('Name') or '')
+            matchday = None
+            if match.get('Group') and isinstance(match.get('Group'), dict):
+                matchday = match.get('Group').get('GroupOrderID')
+            if not matchday:
+                matchday = match.get('Matchday') or match.get('matchday')
+            phase = ''
+            if match.get('Group') and isinstance(match.get('Group'), dict):
+                phase = match.get('Group').get('GroupName') or ''
+            if not phase:
+                phase = match.get('phase', '')
+        else:
+            home_team = match.get('homeTeam', '') or (team1 if isinstance(team1, str) else '')
+            away_team = match.get('awayTeam', '') or (team2 if isinstance(team2, str) else '')
+            matchday = match.get('matchday', None)
+            phase = match.get('phase', '')
+        
+        if home_team and away_team:
+            match_info = f"  [{i:3d}/{len(matches)}] {home_team} vs {away_team}"
+            if matchday:
+                match_info += f" (Spieltag: {matchday})"
+            if phase:
+                match_info += f" (Phase: {phase})"
+            parsed_matches_preview.append(match_info)
+    
+    # Zeige alle Matches (maximal 50, sonst zusammenfassen)
+    if len(parsed_matches_preview) <= 50:
+        for match_info in parsed_matches_preview:
+            print(match_info)
+    else:
+        # Zeige erste 25 und letzte 25
+        for match_info in parsed_matches_preview[:25]:
+            print(match_info)
+        print(f"  ... ({len(parsed_matches_preview) - 50} weitere Matches ausgelassen) ...")
+        for match_info in parsed_matches_preview[-25:]:
+            print(match_info)
+    
+    print(f"{'='*60}\n")
+    
     lineups = []
     successful = 0
     failed = 0
