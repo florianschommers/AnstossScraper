@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-21T19:53:08.174192Z",
+  "lastUpdated": "2025-11-21T20:12:06.680625Z",
   "matches": [
     {
       "matchday": 3,
@@ -907,11 +907,11 @@
       "matchday": 13,
       "homeTeam": "Nizza",
       "awayTeam": "Olmarseille",
-      "dateTime": "2025-11-21T20:45:00Z",
-      "score": null,
+      "dateTime": "2025-11-21T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 13,
@@ -988,6 +988,16 @@
       "homeTeam": "Lille",
       "awayTeam": "Parisfc",
       "dateTime": "2025-11-23T20:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Fcmetz",
+      "awayTeam": "Rennes",
+      "dateTime": "2025-11-28T20:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
