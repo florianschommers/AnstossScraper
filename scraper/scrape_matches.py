@@ -501,11 +501,8 @@ def save_matches_json(league: str, season: str, matches: List[Dict], output_dir:
         'matches': matches
     }
     
-    # WICHTIG: Deutsche Ligen (bundesliga, 2bundesliga, dfbpokal) OHNE Jahreszahl im Dateinamen
-    if league in ["bundesliga", "2bundesliga", "dfbpokal"]:
-        filename = f"{output_dir}/matches_{league}.json"
-    else:
-        filename = f"{output_dir}/matches_{league}_{season}.json"
+    # WICHTIG: ALLE Ligen OHNE Jahreszahl im Dateinamen - immer aktuell
+    filename = f"{output_dir}/matches_{league}.json"
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     
@@ -516,11 +513,8 @@ def save_matches_json_array(league: str, season: str, matches: List[Dict], outpu
     os.makedirs(output_dir, exist_ok=True)
     
     # Speichere direkt als Array, genau wie die OpenLigaDB API es zurückgibt
-    # WICHTIG: Deutsche Ligen (bundesliga, 2bundesliga, dfbpokal) OHNE Jahreszahl im Dateinamen
-    if league in ["bundesliga", "2bundesliga", "dfbpokal"]:
-        filename = f"{output_dir}/matches_{league}.json"
-    else:
-        filename = f"{output_dir}/matches_{league}_{season}.json"
+    # WICHTIG: ALLE Ligen OHNE Jahreszahl im Dateinamen - immer aktuell
+    filename = f"{output_dir}/matches_{league}.json"
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(matches, f, indent=2, ensure_ascii=False)
     
