@@ -89,16 +89,28 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
                 print(f"   ⚠️ Match {i} ist kein Dict: {type(match_data)}")
                 continue
                 
-            team1 = match_data.get('Team1', {})
-            team2 = match_data.get('Team2', {})
+            # Versuche verschiedene mögliche Feldnamen (API verwendet möglicherweise team1/team2 statt Team1/Team2)
+            team1 = match_data.get('Team1') or match_data.get('team1') or match_data.get('Team1') or {}
+            team2 = match_data.get('Team2') or match_data.get('team2') or match_data.get('Team2') or {}
             
             # Debug: Zeige ersten Match
             if i == 0:
                 print(f"   🔍 Erster Match-Struktur:")
-                print(f"      Team1: {team1}")
-                print(f"      Team2: {team2}")
+                print(f"      Match Keys: {list(match_data.keys())[:20]}")
+                # Prüfe alle möglichen Team-Feldnamen
+                for key in match_data.keys():
+                    if 'team' in key.lower() or 'Team' in key:
+                        print(f"      Gefunden Team-Key: '{key}' = {match_data[key]}")
+                print(f"      Team1 (Team1): {match_data.get('Team1')}")
+                print(f"      Team1 (team1): {match_data.get('team1')}")
+                print(f"      Team2 (Team2): {match_data.get('Team2')}")
+                print(f"      Team2 (team2): {match_data.get('team2')}")
                 print(f"      Team1-Typ: {type(team1)}")
                 print(f"      Team2-Typ: {type(team2)}")
+                if isinstance(team1, dict):
+                    print(f"      Team1 Keys: {list(team1.keys())}")
+                if isinstance(team2, dict):
+                    print(f"      Team2 Keys: {list(team2.keys())}")
             
             if not isinstance(team1, dict) or not isinstance(team2, dict):
                 print(f"   ⚠️ Match {i}: Team1 oder Team2 ist kein Dict (Team1: {type(team1)}, Team2: {type(team2)})")
@@ -109,9 +121,11 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
                     continue
                 continue
             
-            # Prüfe verschiedene mögliche Feldnamen für TeamName
-            team1_name = team1.get('TeamName') or team1.get('teamName') or team1.get('name') or team1.get('Name')
-            team2_name = team2.get('TeamName') or team2.get('teamName') or team2.get('name') or team2.get('Name')
+            # Prüfe verschiedene mögliche Feldnamen für TeamName (API verwendet möglicherweise teamName statt TeamName)
+            team1_name = (team1.get('TeamName') or team1.get('teamName') or team1.get('name') or 
+                         team1.get('Name') or team1.get('shortName') or team1.get('ShortName'))
+            team2_name = (team2.get('TeamName') or team2.get('teamName') or team2.get('name') or 
+                         team2.get('Name') or team2.get('shortName') or team2.get('ShortName'))
             
             if not team1_name or not team2_name:
                 print(f"   ⚠️ Match {i}: Fehlende TeamName")
