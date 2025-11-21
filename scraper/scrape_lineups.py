@@ -554,6 +554,8 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     # Filtere Matches nach aktuellem Spieltag
     filtered_matches = []
     if current_matchday:
+        print(f"   🔍 Filtere Matches für Spieltag {current_matchday}...")
+        matchday_counts = {}  # Debug: Zähle Matchdays
         for match in matches:
             # Extrahiere Matchday aus Match
             team1 = match.get('Team1') or match.get('team1') or {}
@@ -574,6 +576,10 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 matchday = match.get('matchday', None)
                 phase = match.get('phase', '')
             
+            # Debug: Zähle Matchdays
+            matchday_key = str(matchday) if matchday is not None else 'None'
+            matchday_counts[matchday_key] = matchday_counts.get(matchday_key, 0) + 1
+            
             # Prüfe ob Match zum aktuellen Spieltag gehört
             if is_international:
                 # International: current_matchday ist (phase, matchday) Tupel
@@ -587,8 +593,17 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                     filtered_matches.append(match)
             else:
                 # Normale Ligen: current_matchday ist Integer
-                if isinstance(current_matchday, int) and matchday == current_matchday:
-                    filtered_matches.append(match)
+                # Konvertiere matchday zu Integer für Vergleich (kann String oder Integer sein)
+                try:
+                    matchday_int = int(matchday) if matchday is not None else None
+                    if matchday_int is not None and matchday_int == current_matchday:
+                        filtered_matches.append(match)
+                except (ValueError, TypeError):
+                    # Wenn matchday nicht konvertierbar ist, überspringe dieses Match
+                    pass
+        
+        # Debug: Zeige Matchday-Verteilung
+        print(f"   📊 Matchday-Verteilung in Match-Datei: {dict(sorted(matchday_counts.items(), key=lambda x: int(x[0]) if x[0] != 'None' and x[0].isdigit() else 999))}")
         
         original_count = len(matches)
         matches = filtered_matches
