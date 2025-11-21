@@ -553,6 +553,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     
     # Filtere Matches nach aktuellem Spieltag
     filtered_matches = []
+    original_matches = matches.copy()  # Speichere Original-Matches für Fallback
     if current_matchday:
         print(f"   🔍 Filtere Matches für Spieltag {current_matchday}...")
         matchday_counts = {}  # Debug: Zähle Matchdays
@@ -630,6 +631,14 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         original_count = len(matches)
         matches = filtered_matches
         print(f"📊 Gefiltert: {len(matches)} Matches für Spieltag {current_matchday} (von {original_count} total)")
+        
+        # WICHTIG: Wenn keine Matches gefiltert wurden, aber current_matchday gefunden wurde,
+        # dann haben die Matches wahrscheinlich kein Matchday-Feld. In diesem Fall
+        # verwenden wir alle Matches und lassen find_matchday_for_match den Spieltag für jedes Match finden.
+        if len(matches) == 0 and original_count > 0:
+            print(f"⚠️ WARNUNG: Keine Matches mit Matchday-Feld gefunden!")
+            print(f"   → Verwende alle {original_count} Matches und finde Spieltag für jedes Match einzeln")
+            matches = original_matches  # Verwende alle ursprünglichen Matches
     else:
         print(f"⚠️ Kein aktueller Spieltag gefunden, verwende alle {len(matches)} Matches")
     
