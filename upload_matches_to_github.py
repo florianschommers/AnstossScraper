@@ -102,9 +102,23 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
             
             if not isinstance(team1, dict) or not isinstance(team2, dict):
                 print(f"   ⚠️ Match {i}: Team1 oder Team2 ist kein Dict (Team1: {type(team1)}, Team2: {type(team2)})")
+                # Versuche alternative Feldnamen
+                if isinstance(team1, str) or isinstance(team2, str):
+                    print(f"   🔄 Team1/Team2 sind Strings, versuche direkten Zugriff...")
+                    # Wenn Team1/Team2 direkt Strings sind, überspringe diesen Match
+                    continue
                 continue
-            if not team1.get('TeamName') or not team2.get('TeamName'):
-                print(f"   ⚠️ Match {i}: Fehlende TeamName (Team1: {team1.get('TeamName')}, Team2: {team2.get('TeamName')})")
+            
+            # Prüfe verschiedene mögliche Feldnamen für TeamName
+            team1_name = team1.get('TeamName') or team1.get('teamName') or team1.get('name') or team1.get('Name')
+            team2_name = team2.get('TeamName') or team2.get('teamName') or team2.get('name') or team2.get('Name')
+            
+            if not team1_name or not team2_name:
+                print(f"   ⚠️ Match {i}: Fehlende TeamName")
+                print(f"      Team1 Keys: {list(team1.keys()) if isinstance(team1, dict) else 'N/A'}")
+                print(f"      Team2 Keys: {list(team2.keys()) if isinstance(team2, dict) else 'N/A'}")
+                print(f"      Team1: {team1}")
+                print(f"      Team2: {team2}")
                 continue
             
             # Für DFB-Pokal: Prüfe ob Match wirklich DFB-Pokal ist (filtere Bundesliga-Spiele raus)
