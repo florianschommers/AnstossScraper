@@ -209,9 +209,16 @@ def get_file_sha(repo: str, path: str, token: str) -> Optional[str]:
     try:
         response = requests.get(url, headers=get_headers(token), timeout=10)
         if response.status_code == 200:
-            return response.json().get('sha')
+            sha = response.json().get('sha')
+            if sha:
+                print(f"   🔑 SHA-Hash für {path}: {sha[:8]}...")
+            return sha
         elif response.status_code == 404:
             # Datei existiert noch nicht, das ist OK
+            print(f"   ℹ️ Datei {path} existiert noch nicht (wird neu erstellt)")
+            return None
+        else:
+            print(f"   ⚠️ Unerwarteter Status beim Abrufen von {path}: {response.status_code}")
             return None
     except requests.exceptions.Timeout:
         print(f"⚠️ Timeout beim Abrufen der Datei {path}")
@@ -241,7 +248,7 @@ def upload_file_to_github(repo: str, path: str, content: str, token: str, messag
     
     if existing_sha:
         data['sha'] = existing_sha
-        print(f"📝 Aktualisiere vorhandene Datei: {path}")
+        print(f"📝 Aktualisiere vorhandene Datei: {path} (SHA: {existing_sha[:8]}...)")
     else:
         print(f"➕ Erstelle neue Datei: {path}")
     
