@@ -90,8 +90,11 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
                 continue
                 
             # Versuche verschiedene mögliche Feldnamen (API verwendet möglicherweise team1/team2 statt Team1/Team2)
-            team1 = match_data.get('Team1') or match_data.get('team1') or match_data.get('Team1') or {}
-            team2 = match_data.get('Team2') or match_data.get('team2') or match_data.get('Team2') or {}
+            # Prüfe alle möglichen Varianten
+            team1 = (match_data.get('Team1') or match_data.get('team1') or 
+                    match_data.get('homeTeam') or match_data.get('HomeTeam') or {})
+            team2 = (match_data.get('Team2') or match_data.get('team2') or 
+                    match_data.get('awayTeam') or match_data.get('AwayTeam') or {})
             
             # Debug: Zeige ersten Match
             if i == 0:
