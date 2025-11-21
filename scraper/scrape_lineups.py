@@ -732,6 +732,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     failed = 0
     failed_matches = []  # Sammle fehlgeschlagene Spiele für Analyse
     
+    # Speichere current_matchday für Fallback, wenn find_matchday_for_match fehlschlägt
+    saved_current_matchday = current_matchday if current_matchday else None
+    
     for i, match in enumerate(matches, 1):
         # OpenLigaDB Format: Team1/Team2 sind Objekte mit TeamName
         # Andere Formate: homeTeam/awayTeam sind Strings
@@ -780,7 +783,12 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 matchday = found_matchday
                 print(f"    ✅ Spieltag gefunden: {matchday}")
             else:
-                print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
+                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen current_matchday haben, verwende diesen
+                if current_matchday:
+                    matchday = current_matchday
+                    print(f"    ⚠️ Spieltag nicht gefunden, verwende aktuellen Spieltag: {matchday}")
+                else:
+                    print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
         elif matchday == 1 and liga_id == 3:  # Nur für DFB-Pokal: matchday=1 ist oft falsch
             print(f"    🔍 Suche richtigen Spieltag (DFB-Pokal matchday=1 ist oft falsch)...")
             found_matchday = find_matchday_for_match(
@@ -790,7 +798,12 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 matchday = found_matchday
                 print(f"    ✅ Spieltag gefunden: {matchday}")
             else:
-                print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
+                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen current_matchday haben, verwende diesen
+                if current_matchday:
+                    matchday = current_matchday
+                    print(f"    ⚠️ Spieltag nicht gefunden, verwende aktuellen Spieltag: {matchday}")
+                else:
+                    print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
         else:
             # Spieltag ist bereits vorhanden und > 1, verwende ihn direkt
             print(f"    📅 Verwende vorhandenen Spieltag: {matchday}")
