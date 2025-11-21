@@ -498,8 +498,10 @@ def load_matches_from_json(file_path: str) -> List[Dict]:
 
 def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'data/matches') -> Dict:
     """Scrapt Aufstellungen für alle Spiele einer Liga"""
+    # WICHTIG: Deutsche Ligen verwenden leeren season-String für Dateinamen
+    display_season = season if season else "aktuell"
     print(f"\n{'='*60}")
-    print(f"🏆 Liga: {league_name} (Saison {season})")
+    print(f"🏆 Liga: {league_name} (Saison {display_season})")
     print(f"{'='*60}")
     
     # Stelle sicher, dass das Verzeichnis relativ zum Repository-Root ist
@@ -508,10 +510,14 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         data_dir = os.path.join('..', data_dir)
     
     # Lade Matches
-    match_file = os.path.join(data_dir, f"matches_{league_name}_{season}.json")
+    # WICHTIG: Deutsche Ligen (bundesliga, 2bundesliga, dfbpokal) verwenden Dateinamen OHNE Saison
+    if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
+        match_file = os.path.join(data_dir, f"matches_{league_name}.json")
+    else:
+        match_file = os.path.join(data_dir, f"matches_{league_name}_{season}.json")
     if not os.path.exists(match_file):
         print(f"⚠️ Match-Datei nicht gefunden: {match_file}")
-        return {"league": league_name, "season": season, "lineups": []}
+        return {"league": league_name, "season": season if season else get_current_season(), "lineups": []}
     
     matches = load_matches_from_json(match_file)
     print(f"📊 Gefundene Spiele: {len(matches)}")
@@ -533,14 +539,21 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     league_path, is_international, liga_id = league_configs.get(league_name, (league_name, False, 1))
     
     # WICHTIG: Für Scraping-URLs (fussballdaten.de) verwende Saison +1
-    # Match-Dateien kommen von OpenLigaDB (Saison -1), aber Scraping verwendet fussballdaten.de (Saison +1)
-    # NUR für 2. Bundesliga und DFB-Pokal (1. Bundesliga bleibt unverändert)
-    scraping_season = season
-    if league_name in ["2bundesliga", "dfbpokal"]:
-        # 2. Bundesliga und DFB-Pokal: Match-Datei hat OpenLigaDB Saison (-1), aber Scraping braucht fussballdaten.de Saison (+1)
-        season_int = int(season) if season.isdigit() else 2025
-        scraping_season = str(season_int + 1)
-        print(f"   ℹ️ Match-Datei Saison: {season} (OpenLigaDB), Scraping Saison: {scraping_season} (fussballdaten.de)")
+    # Deutsche Ligen: season ist leer für Dateinamen, aber für Scraping-URLs brauchen wir die aktuelle Saison
+    if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
+        # Deutsche Ligen: Hole aktuelle Saison für Scraping-URLs
+        scraping_season = get_current_season()
+        if league_name in ["2bundesliga", "dfbpokal"]:
+            # 2. Bundesliga und DFB-Pokal: Scraping braucht fussballdaten.de Saison (+1)
+            season_int = int(scraping_season) if scraping_season.isdigit() else 2026
+            scraping_season = str(season_int + 1)
+            print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season} (fussballdaten.de)")
+        else:
+            # 1. Bundesliga: Verwendet aktuelle Saison für Scraping
+            print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
+    else:
+        # Andere Ligen: Verwende season wie übergeben
+        scraping_season = season
     
     # WICHTIG: Finde zuerst den aktuellen Spieltag und filtere Matches danach
     print(f"\n🔍 Suche aktuellen Spieltag...")
@@ -889,20 +902,18 @@ def main():
     """Hauptfunktion"""
     print("🚀 Starte Lineup-Scraping für alle Ligen...")
     
-    # WICHTIG: OpenLigaDB verwendet Saison -1 (z.B. 2025 statt 2026)
-    # fussballdaten.de verwendet Saison +1 (z.B. 2026 statt 2025)
-    # Match-Dateien kommen von OpenLigaDB, daher -1 für deutsche Ligen
-    openligadb_season = get_openligadb_season()  # Für Match-Dateien (von OpenLigaDB)
+    # WICHTIG: Deutsche Ligen (bundesliga, 2bundesliga, dfbpokal) verwenden Dateinamen OHNE Saison
+    # fussballdaten.de verwendet Saison +1 (z.B. 2026 statt 2025) für Scraping-URLs
     season = get_current_season()  # Für fussballdaten.de URLs (Scraping)
     int_season = get_international_season()
     
     # Alle Ligen
-    # NUR 2. Bundesliga und DFB-Pokal verwenden OpenLigaDB Saison (-1) für Match-Dateien
-    # 1. Bundesliga bleibt unverändert (verwendet normale Saison)
+    # Deutsche Ligen: season wird nur für Scraping-URLs verwendet, nicht für Dateinamen
+    # Andere Ligen: season wird für Dateinamen verwendet
     leagues = [
-        ("bundesliga", season),  # 1. Bundesliga: normale Saison (unverändert)
-        ("2bundesliga", openligadb_season),  # 2. Bundesliga: Match-Datei OpenLigaDB Saison (-1)
-        ("dfbpokal", openligadb_season),  # DFB-Pokal: Match-Datei OpenLigaDB Saison (-1)
+        ("bundesliga", ""),  # 1. Bundesliga: Dateiname OHNE Saison
+        ("2bundesliga", ""),  # 2. Bundesliga: Dateiname OHNE Saison
+        ("dfbpokal", ""),  # DFB-Pokal: Dateiname OHNE Saison
         ("championsleague", int_season),
         ("europaleague", int_season),
         ("conferenceleague", int_season),
@@ -915,7 +926,9 @@ def main():
     for league_name, league_season in leagues:
         try:
             lineups_data = scrape_lineups_for_league(league_name, league_season)
-            save_lineups_json(league_name, league_season, lineups_data)
+            # Für deutsche Ligen: Verwende aktuelle Saison für Lineup-Dateinamen
+            save_season = league_season if league_season else get_current_season()
+            save_lineups_json(league_name, save_season, lineups_data)
         except Exception as e:
             print(f"❌ Fehler bei Liga {league_name}: {e}")
             import traceback
