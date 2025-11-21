@@ -357,49 +357,41 @@ def main():
     print("✅ Repository ist zugänglich\n")
     
     # WICHTIG: OpenLigaDB verwendet Saison -1 (z.B. 2025 statt 2026)
-    # fussballdaten.de verwendet Saison +1 (z.B. 2026 statt 2025)
-    # ABER: 1. Bundesliga verwendet normale Saison (nicht -1), da sie nicht von OpenLigaDB kommt
-    from datetime import datetime
-    now = datetime.now()
-    if now.month >= 7:  # Ab Juli
-        current_season = str(now.year + 1)
-    else:
-        current_season = str(now.year)
-    
-    season = get_openligadb_season()  # Für OpenLigaDB: aktuell -1
+    # Alle Dateien werden EINHEITLICH mit der OpenLigaDB-Saison benannt (z.B. 2025)
+    # Die App und das Scraping-Script verwenden dann auch 2025
+    season = get_openligadb_season()  # Für OpenLigaDB: aktuell -1 (z.B. 2025)
     season_int = int(season) if season.isdigit() else 2025
     
-    # 1. Bundesliga (verwendet normale Saison, nicht OpenLigaDB)
-    # WICHTIG: Datei wird IMMER mit current_season benannt (z.B. 2026), auch wenn Daten von vorheriger Saison kommen
+    # 1. Bundesliga (verwendet jetzt auch OpenLigaDB-Saison für Dateinamen)
+    # WICHTIG: Verwende IMMER die OpenLigaDB-Saison für den Dateinamen (z.B. 2025)
+    bl1_season_for_filename = season  # Für Dateinamen: IMMER OpenLigaDB-Saison (2025)
     print("\n📊 Lade 1. Bundesliga von OpenLigaDB API...")
-    print(f"   ℹ️ Verwende Saison: {current_season} (normale Saison für 1. Bundesliga)")
-    bl1_matches = fetch_openligadb_matches('bl1', current_season)
+    print(f"   ℹ️ Verwende OpenLigaDB Saison: {season} (einheitlich für alle Ligen)")
+    bl1_matches = fetch_openligadb_matches('bl1', season)
     
     # Fallback auf vorherige Saison wenn leer
-    bl1_season_for_api = current_season
-    if len(bl1_matches) == 0:
-        current_season_int = int(current_season) if current_season.isdigit() else 2026
-        if current_season_int > 2020:
-            previous_season = str(current_season_int - 1)
-            print(f"⚠️ Keine Matches für Saison {current_season}, versuche {previous_season}...")
-            bl1_matches = fetch_openligadb_matches('bl1', previous_season)
-            if len(bl1_matches) > 0:
-                bl1_season_for_api = previous_season
-                print(f"   ℹ️ Verwende Daten von Saison {previous_season}, speichere aber als {current_season}")
+    bl1_season_for_api = season
+    if len(bl1_matches) == 0 and season_int > 2020:
+        previous_season = str(season_int - 1)
+        print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
+        bl1_matches = fetch_openligadb_matches('bl1', previous_season)
+        if len(bl1_matches) > 0:
+            bl1_season_for_api = previous_season
+            # WICHTIG: Dateiname verwendet IMMER die ursprüngliche OpenLigaDB-Saison (2025), nicht previous_season (2024)
+            print(f"   ℹ️ Verwende Daten von API-Saison {previous_season}, speichere als {bl1_season_for_filename}")
     
     if len(bl1_matches) > 0:
-        # WICHTIG: Speichere IMMER mit current_season (z.B. 2026), auch wenn Daten von 2025 kommen
-        # Die App erwartet matches_bundesliga_2026.json
+        # Speichere OHNE Saison im Dateinamen - immer aktuell
         json_content = json.dumps(bl1_matches, indent=2, ensure_ascii=False)
-        file_path = f"data/matches/matches_bundesliga_{current_season}.json"
-        message = f"Update 1. Bundesliga matches for season {current_season} (data from API season {bl1_season_for_api})"
+        file_path = f"data/matches/matches_bundesliga.json"
+        message = f"Update 1. Bundesliga matches (API season {bl1_season_for_api})"
         upload_file_to_github(GITHUB_REPO, file_path, json_content, GITHUB_TOKEN, message)
     else:
         print("⚠️ Keine 1. Bundesliga Matches gefunden")
     
     # 2. Bundesliga
     print("\n📊 Lade 2. Bundesliga von OpenLigaDB API...")
-    print(f"   ℹ️ Verwende OpenLigaDB Saison: {season} (fussballdaten.de würde {int(season) + 1} verwenden)")
+    print(f"   ℹ️ Verwende OpenLigaDB Saison: {season} (einheitlich für alle Ligen)")
     bl2_matches = fetch_openligadb_matches('bl2', season)
     
     # Fallback auf vorherige Saison wenn leer
@@ -411,17 +403,17 @@ def main():
             season = previous_season
     
     if len(bl2_matches) > 0:
-        # Speichere als JSON-Array (Original-API-Format)
+        # Speichere OHNE Saison im Dateinamen - immer aktuell
         json_content = json.dumps(bl2_matches, indent=2, ensure_ascii=False)
-        file_path = f"data/matches/matches_2bundesliga_{season}.json"
-        message = f"Update 2. Bundesliga matches for season {season}"
+        file_path = f"data/matches/matches_2bundesliga.json"
+        message = f"Update 2. Bundesliga matches (API season {season})"
         upload_file_to_github(GITHUB_REPO, file_path, json_content, GITHUB_TOKEN, message)
     else:
         print("⚠️ Keine 2. Bundesliga Matches gefunden")
     
     # DFB-Pokal (verwendet auch OpenLigaDB, daher gleiche Saison)
     print("\n📊 Lade DFB-Pokal von OpenLigaDB API...")
-    print(f"   ℹ️ Verwende OpenLigaDB Saison: {season} (fussballdaten.de würde {int(season) + 1} verwenden)")
+    print(f"   ℹ️ Verwende OpenLigaDB Saison: {season} (einheitlich für alle Ligen)")
     dfb_matches = fetch_openligadb_matches('dfb', season)
     
     # Fallback auf vorherige Saison wenn leer
@@ -433,10 +425,10 @@ def main():
             season = previous_season
     
     if len(dfb_matches) > 0:
-        # Speichere als JSON-Array (Original-API-Format)
+        # Speichere OHNE Saison im Dateinamen - immer aktuell
         json_content = json.dumps(dfb_matches, indent=2, ensure_ascii=False)
-        file_path = f"data/matches/matches_dfbpokal_{season}.json"
-        message = f"Update DFB-Pokal matches for season {season}"
+        file_path = f"data/matches/matches_dfbpokal.json"
+        message = f"Update DFB-Pokal matches (API season {season})"
         upload_file_to_github(GITHUB_REPO, file_path, json_content, GITHUB_TOKEN, message)
     else:
         print("⚠️ Keine DFB-Pokal Matches gefunden")
