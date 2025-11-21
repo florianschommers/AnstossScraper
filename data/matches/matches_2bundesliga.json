@@ -9933,7 +9933,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-21T19:19:22.447",
+    "lastUpdateDateTime": "2025-11-21T19:46:14.61",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9948,14 +9948,27 @@
       {
         "resultID": 120437,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134513,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 56,
+        "goalGetterID": 20279,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 22,
       "locationCity": "Berlin",
