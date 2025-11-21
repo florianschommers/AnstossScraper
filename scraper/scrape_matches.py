@@ -315,7 +315,7 @@ def scrape_league_matches(league: str, season: str) -> List[Dict]:
     all_matches = []
     league_paths = {
         'bundesliga1': 'bundesliga',
-        'bundesliga2': '2bundesliga',
+        'bundesliga2': '2liga',  # Korrekte URL-Struktur auf fussballdaten.de
         'spain': 'spanien',
         'italy': 'italien',
         'france': 'frankreich'
@@ -491,7 +491,7 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
     return matches
 
 def save_matches_json(league: str, season: str, matches: List[Dict], output_dir: str = 'data/matches'):
-    """Speichert Matches als JSON-Datei"""
+    """Speichert Matches als JSON-Datei (Wrapper-Format für normale Ligen)"""
     os.makedirs(output_dir, exist_ok=True)
     
     output_data = {
@@ -507,63 +507,226 @@ def save_matches_json(league: str, season: str, matches: List[Dict], output_dir:
     
     print(f"💾 Gespeichert: {filename} ({len(matches)} Matches)")
 
-def scrape_bundesliga_matches(season: str) -> List[Dict]:
-    """Scrapt Bundesliga-Matches (1. und 2. Bundesliga)"""
+def save_matches_json_array(league: str, season: str, matches: List[Dict], output_dir: str = 'data/matches'):
+    """Speichert Matches als JSON-Array (Original-API-Format für Bundesliga-Ligen)"""
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Speichere direkt als Array, genau wie die OpenLigaDB API es zurückgibt
+    filename = f"{output_dir}/matches_{league}_{season}.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(matches, f, indent=2, ensure_ascii=False)
+    
+    print(f"💾 Gespeichert (Array-Format): {filename} ({len(matches)} Matches)")
+
+def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
+    """Holt Match-Daten von der OpenLigaDB API und speichert sie im Original-Format"""
     all_matches = []
     
-    # Scrape 1. Bundesliga
-    print("\n📊 Scrape 1. Bundesliga...")
-    bl1_matches = scrape_league_matches('bundesliga1', season)
-    all_matches.extend(bl1_matches)
+    try:
+        api_url = f"https://api.openligadb.de/getmatchdata/{league_shortcut}/{season}"
+        print(f"🔍 Lade von OpenLigaDB API: {api_url}")
+        
+        response = requests.get(api_url, headers=HEADERS, timeout=30)
+        
+        if response.status_code != 200:
+            print(f"❌ HTTP {response.status_code} für {api_url}")
+            return all_matches
+        
+        data = response.json()
+        
+        if not isinstance(data, list):
+            print(f"⚠️ Unerwartetes Datenformat von API")
+            return all_matches
+        
+        # Speichere die Original-API-Daten direkt (ohne Konvertierung)
+        # Das ist identisch mit dem Format, das die App direkt von der API bekommt
+        for match_data in data:
+            # Prüfe ob Match gültig ist (hat Team1 und Team2)
+            team1 = match_data.get('Team1', {})
+            team2 = match_data.get('Team2', {})
+            if not isinstance(team1, dict) or not isinstance(team2, dict):
+                continue
+            if not team1.get('TeamName') or not team2.get('TeamName'):
+                continue
+            
+            # Speichere das Original-Format direkt
+            all_matches.append(match_data)
+        
+        print(f"✅ {len(all_matches)} Matches von OpenLigaDB API geladen (Original-Format)")
+        
+        # Debug: Zeige erste paar Matches
+        if len(all_matches) > 0:
+            first_match = all_matches[0]
+            team1_name = first_match.get('Team1', {}).get('TeamName', '')
+            team2_name = first_match.get('Team2', {}).get('TeamName', '')
+            match_date = first_match.get('MatchDateTime', '')
+            print(f"   📝 Beispiel: {team1_name} vs {team2_name} am {match_date}")
+        
+    except Exception as e:
+        print(f"❌ Fehler beim Laden von OpenLigaDB API: {e}")
+        import traceback
+        traceback.print_exc()
     
-    # Scrape 2. Bundesliga
-    print("\n📊 Scrape 2. Bundesliga...")
-    bl2_matches = scrape_league_matches('bundesliga2', season)
-    all_matches.extend(bl2_matches)
+    return all_matches
+
+def scrape_dfbpokal_matches(season: str) -> List[Dict]:
+    """Scrapt DFB-Pokal-Matches"""
+    all_matches = []
+    league_path = 'dfb-pokal'
+    
+    # DFB-Pokal hat Runden statt Spieltage
+    # Typische Runden: 1. Runde, 2. Runde, Achtelfinale, Viertelfinale, Halbfinale, Finale
+    # Versuche verschiedene Runden-Namen (kann je nach Saison variieren)
+    rounds = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
+    
+    for round_name in rounds:
+        url = f"https://www.fussballdaten.de/{league_path}/{season}/{round_name}/"
+        print(f"🔍 Versuche DFB-Pokal: {url}")
+        html = fetch_html(url)
+        
+        if not html or len(html) < 1000:
+            print(f"⚠️ Keine Daten für {round_name}")
+            continue
+        
+        matches = parse_league_matches(html, 1, season, league_path)  # matchday=1 für alle Runden
+        all_matches.extend(matches)
+        
+        print(f"✅ DFB-Pokal {round_name}: {len(matches)} Spiele gefunden")
+    
+    if len(all_matches) == 0:
+        print("⚠️ Keine DFB-Pokal-Spiele gefunden. Möglicherweise noch keine Spiele festgelegt oder falsche Runden-Namen.")
     
     return all_matches
 
 def main():
     """Hauptfunktion"""
+    errors = []
     print("🚀 Starte Match-Scraping...")
     
-    season = get_current_season()
-    
-    # Bundesliga (1. und 2. Liga)
-    print("\n📊 Scrape Bundesliga...")
-    bundesliga_matches = scrape_bundesliga_matches(season)
-    save_matches_json('bundesliga', season, bundesliga_matches)
-    
-    # England
-    print("\n📊 Scrape England...")
-    england_matches = scrape_england_matches(season)
-    save_matches_json('england', season, england_matches)
-    
-    # Spain
-    print("\n📊 Scrape Spain...")
-    spain_matches = scrape_league_matches('spain', season)
-    save_matches_json('spain', season, spain_matches)
-    
-    # Italy
-    print("\n📊 Scrape Italy...")
-    italy_matches = scrape_league_matches('italy', season)
-    save_matches_json('italy', season, italy_matches)
-    
-    # France
-    print("\n📊 Scrape France...")
-    france_matches = scrape_league_matches('france', season)
-    save_matches_json('france', season, france_matches)
-    
-    # International
-    int_season = get_international_season()
-    print(f"\n📊 Scrape International (Saison {int_season})...")
-    
-    for league in ['championsleague', 'europaleague', 'conferenceleague']:
-        print(f"\n  📊 Scrape {league}...")
-        int_matches = scrape_international_matches(league, int_season)
-        save_matches_json(league, int_season, int_matches)
-    
-    print("\n✅ Scraping abgeschlossen!")
+    try:
+        season = get_current_season()
+        season_int = int(season) if season.isdigit() else 2025
+        
+        # 1. Bundesliga (von OpenLigaDB API) - speichere als Array (Original-API-Format)
+        try:
+            print("\n📊 Lade 1. Bundesliga von OpenLigaDB API...")
+            bl1_matches = fetch_openligadb_matches('bl1', season)
+            # Fallback auf vorherige Saison wenn leer
+            if len(bl1_matches) == 0 and season_int > 2020:
+                previous_season = str(season_int - 1)
+                print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
+                bl1_matches = fetch_openligadb_matches('bl1', previous_season)
+            save_matches_json_array('bundesliga', season, bl1_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei 1. Bundesliga: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # 2. Bundesliga (von OpenLigaDB API) - speichere als Array (Original-API-Format)
+        try:
+            print("\n📊 Lade 2. Bundesliga von OpenLigaDB API...")
+            bl2_matches = fetch_openligadb_matches('bl2', season)
+            # Fallback auf vorherige Saison wenn leer
+            if len(bl2_matches) == 0 and season_int > 2020:
+                previous_season = str(season_int - 1)
+                print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
+                bl2_matches = fetch_openligadb_matches('bl2', previous_season)
+            save_matches_json_array('2bundesliga', season, bl2_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei 2. Bundesliga: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # DFB-Pokal (von OpenLigaDB API) - speichere als Array (Original-API-Format)
+        try:
+            print("\n📊 Lade DFB-Pokal von OpenLigaDB API...")
+            dfb_matches = fetch_openligadb_matches('dfb', season)
+            # Fallback auf vorherige Saison wenn leer
+            if len(dfb_matches) == 0 and season_int > 2020:
+                previous_season = str(season_int - 1)
+                print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
+                dfb_matches = fetch_openligadb_matches('dfb', previous_season)
+            save_matches_json_array('dfbpokal', season, dfb_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei DFB-Pokal: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # England
+        try:
+            print("\n📊 Scrape England...")
+            england_matches = scrape_england_matches(season)
+            save_matches_json('england', season, england_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei England: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # Spain
+        try:
+            print("\n📊 Scrape Spain...")
+            spain_matches = scrape_league_matches('spain', season)
+            save_matches_json('spain', season, spain_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei Spain: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # Italy
+        try:
+            print("\n📊 Scrape Italy...")
+            italy_matches = scrape_league_matches('italy', season)
+            save_matches_json('italy', season, italy_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei Italy: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # France
+        try:
+            print("\n📊 Scrape France...")
+            france_matches = scrape_league_matches('france', season)
+            save_matches_json('france', season, france_matches)
+        except Exception as e:
+            error_msg = f"Fehler bei France: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        # International
+        try:
+            int_season = get_international_season()
+            print(f"\n📊 Scrape International (Saison {int_season})...")
+            
+            for league in ['championsleague', 'europaleague', 'conferenceleague']:
+                try:
+                    print(f"\n  📊 Scrape {league}...")
+                    int_matches = scrape_international_matches(league, int_season)
+                    save_matches_json(league, int_season, int_matches)
+                except Exception as e:
+                    error_msg = f"Fehler bei {league}: {e}"
+                    print(f"❌ {error_msg}")
+                    errors.append(error_msg)
+        except Exception as e:
+            error_msg = f"Fehler bei International: {e}"
+            print(f"❌ {error_msg}")
+            errors.append(error_msg)
+        
+        if errors:
+            print(f"\n⚠️ Scraping abgeschlossen mit {len(errors)} Fehler(n):")
+            for error in errors:
+                print(f"  - {error}")
+            # Exit mit Code 0, auch wenn einzelne Ligen fehlgeschlagen sind
+            # (nur kritische Fehler sollten exit(1) verursachen)
+            print("ℹ️ Workflow wird fortgesetzt, da nicht alle Ligen kritisch sind")
+        else:
+            print("\n✅ Scraping abgeschlossen ohne Fehler!")
+            
+    except Exception as e:
+        print(f"\n❌ Kritischer Fehler beim Scraping: {e}")
+        import traceback
+        traceback.print_exc()
+        # Nur bei wirklich kritischen Fehlern exit(1)
+        exit(1)
 
 if __name__ == '__main__':
     main()
