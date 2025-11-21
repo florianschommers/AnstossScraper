@@ -8441,7 +8441,7 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-21T20:41:23.643",
+    "lastUpdateDateTime": "2025-11-21T22:09:41.387",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -8456,7 +8456,7 @@
       {
         "resultID": 120465,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -8470,6 +8470,18 @@
         "scoreTeam2": 1,
         "matchMinute": 9,
         "goalGetterID": 20086,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134568,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
