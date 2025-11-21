@@ -888,9 +888,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         print(f"   Bitte prüfe die Logs oben für Details zu jedem fehlgeschlagenen Spiel.")
         # Speichere fehlgeschlagene Spiele in Datei für Analyse
         if os.path.basename(os.getcwd()) == 'scraper':
-            failed_file = os.path.join('..', 'data', 'lineups', f'failed_{league_name}_{season}.json')
+            failed_file = os.path.join('..', 'data', 'lineups', f'failed_{league_name}.json')
         else:
-            failed_file = os.path.join('data', 'lineups', f'failed_{league_name}_{season}.json')
+            failed_file = os.path.join('data', 'lineups', f'failed_{league_name}.json')
         os.makedirs(os.path.dirname(failed_file), exist_ok=True)
         with open(failed_file, 'w', encoding='utf-8') as f:
             json.dump({
@@ -917,7 +917,7 @@ def save_lineups_json(league_name: str, season: str, lineups_data: Dict, output_
     if os.path.basename(os.getcwd()) == 'scraper':
         output_dir = os.path.join('..', output_dir)
     os.makedirs(output_dir, exist_ok=True)
-    filename = os.path.join(output_dir, f"lineups_{league_name}_{season}.json")
+    filename = os.path.join(output_dir, f"lineups_{league_name}.json")
     
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(lineups_data, f, ensure_ascii=False, indent=2)
