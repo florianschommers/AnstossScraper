@@ -783,9 +783,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 matchday = found_matchday
                 print(f"    ✅ Spieltag gefunden: {matchday}")
             else:
-                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen current_matchday haben, verwende diesen
-                if current_matchday:
-                    matchday = current_matchday
+                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen saved_current_matchday haben, verwende diesen
+                if saved_current_matchday:
+                    matchday = saved_current_matchday
                     print(f"    ⚠️ Spieltag nicht gefunden, verwende aktuellen Spieltag: {matchday}")
                 else:
                     print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
@@ -798,9 +798,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 matchday = found_matchday
                 print(f"    ✅ Spieltag gefunden: {matchday}")
             else:
-                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen current_matchday haben, verwende diesen
-                if current_matchday:
-                    matchday = current_matchday
+                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen saved_current_matchday haben, verwende diesen
+                if saved_current_matchday:
+                    matchday = saved_current_matchday
                     print(f"    ⚠️ Spieltag nicht gefunden, verwende aktuellen Spieltag: {matchday}")
                 else:
                     print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
