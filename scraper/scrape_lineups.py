@@ -540,14 +540,8 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
         # Deutsche Ligen: Hole aktuelle Saison für Scraping-URLs
         scraping_season = get_current_season()
-        if league_name in ["2bundesliga", "dfbpokal"]:
-            # 2. Bundesliga und DFB-Pokal: Scraping braucht fussballdaten.de Saison (+1)
-            season_int = int(scraping_season) if scraping_season.isdigit() else 2026
-            scraping_season = str(season_int + 1)
-            print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season} (fussballdaten.de)")
-        else:
-            # 1. Bundesliga: Verwendet aktuelle Saison für Scraping
-            print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
+        # WICHTIG: Alle deutschen Ligen verwenden die aktuelle Saison für Scraping-URLs (kein +1 mehr)
+        print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
     elif league_name in ["championsleague", "europaleague", "conferenceleague"]:
         # Internationale Ligen: Verwende internationale Saison für Scraping-URLs
         scraping_season = get_international_season()
