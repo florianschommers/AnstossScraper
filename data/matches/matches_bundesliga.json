@@ -8416,7 +8416,7 @@
   {
     "matchID": 77348,
     "matchDateTime": "2025-11-21T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -8441,14 +8441,14 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-21T22:09:41.387",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-21T22:33:08.82",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120464,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -8480,8 +8480,8 @@
         "goalID": 134568,
         "scoreTeam1": 1,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 76,
+        "goalGetterID": 24258,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
