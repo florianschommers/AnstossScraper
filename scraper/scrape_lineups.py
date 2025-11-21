@@ -283,7 +283,7 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
         if matchday:
             try:
                 base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
-                # OPTIMIERT: Nur den spezifischen Spieltag testen (kein ±1, da find_matchday_for_match den richtigen findet)
+                # OPTIMIERT: Nur den spezifischen Spieltag testen (kein ±1, da matchday bereits korrekt ist)
                 first_rounds_to_test = [str(base_matchday)]
             except:
                 first_rounds_to_test = []
@@ -348,58 +348,13 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                     print(f"    ⚠️ Aufstellungsseite gefunden, aber Parsing fehlgeschlagen (Heim: {len(heim_start11)}, Gast: {len(gast_start11)})")
                 # Wenn Parsing fehlschlägt, versuche nächste URL (aber nicht nächsten Spieltag!)
     
-    # Phase 2: Nur wenn Phase 1 komplett fehlgeschlagen ist, teste ±1 Spieltag
-    # (Nur für normale Ligen, nicht für DFB-Pokal oder internationale Ligen)
-    if not is_international and liga_id != 3 and matchday:
-        try:
-            base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
-            # Teste ±1 (base-1, base+1) - aber nur wenn Phase 1 fehlgeschlagen ist
-            fallback_matchdays = []
-            if base_matchday - 1 >= 1 and str(base_matchday - 1) not in first_rounds_to_test:
-                fallback_matchdays.append(str(base_matchday - 1))
-            if base_matchday + 1 < 35 and str(base_matchday + 1) not in first_rounds_to_test:
-                fallback_matchdays.append(str(base_matchday + 1))
-        except:
-            fallback_matchdays = []
-        
-        if fallback_matchdays:
-                print(f"    ⚠️ Phase 1 fehlgeschlagen, teste jetzt ±1 Spieltag: {fallback_matchdays}")
-                for round_value in fallback_matchdays:
-                    urls = [
-                        f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{home_slug}-{away_slug}/aufstellung/",
-                        f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{away_slug}-{home_slug}/aufstellung/"
-                    ]
-                    
-                    for url in urls:
-                        html = fetch_html(url)
-                        
-                        if html and "heim-content" in html and "gast-content" in html:
-                            print(f"    ✅ Aufstellungsseite gefunden (Phase 2): {url}")
-                            
-                            heim_html = extract_team_html(html, "heim-content")
-                            gast_html = extract_team_html(html, "gast-content")
-                            
-                            heim_start11 = analyze_start11(extract_start11_area(heim_html))
-                            gast_start11 = analyze_start11(extract_start11_area(gast_html))
-                            
-                            print(f"    🏠 Heim: {len(heim_start11)} Spieler")
-                            print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
-                            
-                            if heim_start11 and gast_start11:
-                                # STEP 2: Sofort abbrechen wenn gefunden!
-                                is_home_first = f"{home_slug}-{away_slug}" in url
-                                if is_home_first:
-                                    return (heim_start11, gast_start11)
-                                else:
-                                    return (gast_start11, heim_start11)
+    # Phase 2: ENTFERNT - Wenn Spieltag bereits bekannt ist, testen wir nur diesen Spieltag
+    # Kein ±1 mehr, da wir den korrekten Spieltag aus den Match-Daten haben
     
-    # Beide Phasen fehlgeschlagen
-    total_tested = len(first_rounds_to_test) + (len(fallback_matchdays) if 'fallback_matchdays' in locals() and fallback_matchdays else 0)
+    # Phase 1 fehlgeschlagen
     print(f"    ❌ FEHLER: Keine Aufstellung gefunden!")
-    print(f"    📊 Getestet: {total_tested} Spieltage/Runden")
+    print(f"    📊 Getestet: {len(first_rounds_to_test)} Spieltage/Runden")
     print(f"    📋 Phase 1: {len(first_rounds_to_test)} Spieltage/Runden")
-    if 'fallback_matchdays' in locals() and fallback_matchdays:
-        print(f"    📋 Phase 2: {len(fallback_matchdays)} Spieltage/Runden")
     print(f"    🏠 Team-Slugs: {home_slug} vs {away_slug}")
     print(f"    📅 Matchday: {matchday}, Phase: {phase}")
     return None
@@ -513,8 +468,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         
         print(f"\n[{i}/{len(matches)}] {home_team} vs {away_team}")
         
-        # STEP 1: Finde den richtigen Spieltag, wenn nicht vorhanden oder unsicher
-        if not matchday or matchday == 1:  # matchday=1 ist oft falsch (besonders bei DFB-Pokal)
+        # STEP 1: Finde den richtigen Spieltag, NUR wenn nicht vorhanden oder unsicher
+        # WICHTIG: Wenn matchday bereits vorhanden und > 1, verwende ihn direkt (nicht neu suchen!)
+        if not matchday:
             print(f"    🔍 Suche richtigen Spieltag...")
             found_matchday = find_matchday_for_match(
                 league_path, scraping_season, home_team, away_team, is_international, liga_id, phase
@@ -524,6 +480,19 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 print(f"    ✅ Spieltag gefunden: {matchday}")
             else:
                 print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
+        elif matchday == 1 and liga_id == 3:  # Nur für DFB-Pokal: matchday=1 ist oft falsch
+            print(f"    🔍 Suche richtigen Spieltag (DFB-Pokal matchday=1 ist oft falsch)...")
+            found_matchday = find_matchday_for_match(
+                league_path, scraping_season, home_team, away_team, is_international, liga_id, phase
+            )
+            if found_matchday:
+                matchday = found_matchday
+                print(f"    ✅ Spieltag gefunden: {matchday}")
+            else:
+                print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
+        else:
+            # Spieltag ist bereits vorhanden und > 1, verwende ihn direkt
+            print(f"    📅 Verwende vorhandenen Spieltag: {matchday}")
         
         # Scrapte Aufstellung (testet automatisch ±1 Spieltag)
         # WICHTIG: Verwende scraping_season für fussballdaten.de URLs
