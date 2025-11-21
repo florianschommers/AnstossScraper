@@ -615,50 +615,8 @@ def main():
         season = get_current_season()
         season_int = int(season) if season.isdigit() else 2025
         
-        # 1. Bundesliga (von OpenLigaDB API) - speichere als Array (Original-API-Format)
-        try:
-            print("\n📊 Lade 1. Bundesliga von OpenLigaDB API...")
-            bl1_matches = fetch_openligadb_matches('bl1', season)
-            # Fallback auf vorherige Saison wenn leer
-            if len(bl1_matches) == 0 and season_int > 2020:
-                previous_season = str(season_int - 1)
-                print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
-                bl1_matches = fetch_openligadb_matches('bl1', previous_season)
-            save_matches_json_array('bundesliga', season, bl1_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei 1. Bundesliga: {e}"
-            print(f"❌ {error_msg}")
-            errors.append(error_msg)
-        
-        # 2. Bundesliga (von OpenLigaDB API) - speichere als Array (Original-API-Format)
-        try:
-            print("\n📊 Lade 2. Bundesliga von OpenLigaDB API...")
-            bl2_matches = fetch_openligadb_matches('bl2', season)
-            # Fallback auf vorherige Saison wenn leer
-            if len(bl2_matches) == 0 and season_int > 2020:
-                previous_season = str(season_int - 1)
-                print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
-                bl2_matches = fetch_openligadb_matches('bl2', previous_season)
-            save_matches_json_array('2bundesliga', season, bl2_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei 2. Bundesliga: {e}"
-            print(f"❌ {error_msg}")
-            errors.append(error_msg)
-        
-        # DFB-Pokal (von OpenLigaDB API) - speichere als Array (Original-API-Format)
-        try:
-            print("\n📊 Lade DFB-Pokal von OpenLigaDB API...")
-            dfb_matches = fetch_openligadb_matches('dfb', season)
-            # Fallback auf vorherige Saison wenn leer
-            if len(dfb_matches) == 0 and season_int > 2020:
-                previous_season = str(season_int - 1)
-                print(f"⚠️ Keine Matches für Saison {season}, versuche {previous_season}...")
-                dfb_matches = fetch_openligadb_matches('dfb', previous_season)
-            save_matches_json_array('dfbpokal', season, dfb_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei DFB-Pokal: {e}"
-            print(f"❌ {error_msg}")
-            errors.append(error_msg)
+        # WICHTIG: Deutsche Ligen (1. BL, 2. BL, DFB-Pokal) werden von upload_matches_to_github.py erstellt
+        # Hier werden sie NICHT mehr gescrappt, um Dopplung zu vermeiden
         
         # England
         try:
