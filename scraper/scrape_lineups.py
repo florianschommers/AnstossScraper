@@ -536,7 +536,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     league_path, is_international, liga_id = league_configs.get(league_name, (league_name, False, 1))
     
     # WICHTIG: Für Scraping-URLs (fussballdaten.de) verwende Saison +1
-    # Deutsche Ligen: season ist leer für Dateinamen, aber für Scraping-URLs brauchen wir die aktuelle Saison
+    # ALLE Ligen: season ist leer für Dateinamen, aber für Scraping-URLs brauchen wir die aktuelle Saison
     if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
         # Deutsche Ligen: Hole aktuelle Saison für Scraping-URLs
         scraping_season = get_current_season()
@@ -548,9 +548,14 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         else:
             # 1. Bundesliga: Verwendet aktuelle Saison für Scraping
             print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
+    elif league_name in ["championsleague", "europaleague", "conferenceleague"]:
+        # Internationale Ligen: Verwende internationale Saison für Scraping-URLs
+        scraping_season = get_international_season()
+        print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
     else:
-        # Andere Ligen: Verwende season wie übergeben
-        scraping_season = season
+        # Andere Ligen (england, spain, italy, france): Verwende aktuelle Saison für Scraping-URLs
+        scraping_season = get_current_season()
+        print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
     
     # WICHTIG: Finde zuerst den aktuellen Spieltag und filtere Matches danach
     print(f"\n🔍 Suche aktuellen Spieltag...")
