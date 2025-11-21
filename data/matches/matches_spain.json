@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-21T21:53:22.960075Z",
+  "lastUpdated": "2025-11-21T22:12:20.499903Z",
   "matches": [
     {
       "matchday": 3,
@@ -1007,17 +1007,7 @@
       "matchday": 13,
       "homeTeam": "Valencia",
       "awayTeam": "Levante",
-      "dateTime": "2025-11-21T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Alaves",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2025-11-22T14:00:00Z",
+      "dateTime": "2025-11-21T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1100,6 +1090,16 @@
       "dateTime": "2025-11-24T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Valencia",
+      "awayTeam": "Levante",
+      "dateTime": "2025-11-21T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
