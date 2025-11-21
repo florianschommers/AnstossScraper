@@ -568,11 +568,13 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
             
             if isinstance(team1, dict) and isinstance(team2, dict):
                 # OpenLigaDB Format: Prüfe verschiedene mögliche Felder für Matchday
+                # WICHTIG: OpenLigaDB verwendet 'group' (kleingeschrieben), nicht 'Group'!
                 
-                # Versuche Group.GroupOrderID (für Gruppenphasen)
-                if match.get('Group') and isinstance(match.get('Group'), dict):
-                    matchday = match.get('Group').get('GroupOrderID')
-                    phase = match.get('Group').get('GroupName') or ''
+                # Versuche group.groupOrderID (für OpenLigaDB - kleingeschrieben!)
+                group_obj = match.get('group') or match.get('Group')
+                if group_obj and isinstance(group_obj, dict):
+                    matchday = group_obj.get('groupOrderID') or group_obj.get('GroupOrderID')
+                    phase = group_obj.get('groupName') or group_obj.get('GroupName') or ''
                 
                 # Versuche direktes Matchday-Feld (verschiedene Schreibweisen)
                 if not matchday:
@@ -581,23 +583,28 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                                match.get('GroupOrderID') or match.get('groupOrderID'))
                 
                 # Versuche aus League-Objekt
-                if not matchday and match.get('League') and isinstance(match.get('League'), dict):
-                    matchday = match.get('League').get('GroupOrderID')
+                if not matchday:
+                    league_obj = match.get('League') or match.get('league')
+                    if league_obj and isinstance(league_obj, dict):
+                        matchday = league_obj.get('GroupOrderID') or league_obj.get('groupOrderID')
                 
                 # Phase extrahieren (falls noch nicht gesetzt)
                 if not phase:
-                    if match.get('Group') and isinstance(match.get('Group'), dict):
-                        phase = match.get('Group').get('GroupName') or ''
+                    group_obj = match.get('group') or match.get('Group')
+                    if group_obj and isinstance(group_obj, dict):
+                        phase = group_obj.get('groupName') or group_obj.get('GroupName') or ''
                     if not phase:
                         phase = match.get('phase', '')
                 
                 # DEBUG: Zeige Match-Struktur beim ersten Match
                 if len(matchday_counts) == 0:
                     print(f"   🔍 DEBUG: Erster Match Keys: {list(match.keys())[:15]}")
-                    if match.get('Group'):
-                        print(f"   🔍 DEBUG: Group Keys: {list(match.get('Group').keys()) if isinstance(match.get('Group'), dict) else 'N/A'}")
-                    if match.get('League'):
-                        print(f"   🔍 DEBUG: League Keys: {list(match.get('League').keys()) if isinstance(match.get('League'), dict) else 'N/A'}")
+                    group_obj = match.get('group') or match.get('Group')
+                    if group_obj:
+                        print(f"   🔍 DEBUG: group Keys: {list(group_obj.keys()) if isinstance(group_obj, dict) else 'N/A'}")
+                    league_obj = match.get('League') or match.get('league')
+                    if league_obj:
+                        print(f"   🔍 DEBUG: League Keys: {list(league_obj.keys()) if isinstance(league_obj, dict) else 'N/A'}")
             else:
                 matchday = match.get('matchday', None)
                 phase = match.get('phase', '')
@@ -637,11 +644,34 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         
         # WICHTIG: Wenn keine Matches gefiltert wurden, aber current_matchday gefunden wurde,
         # dann haben die Matches wahrscheinlich kein Matchday-Feld. In diesem Fall
-        # verwenden wir alle Matches und lassen find_matchday_for_match den Spieltag für jedes Match finden.
+        # filtern wir die Matches, indem wir für jedes Match prüfen, ob es zum aktuellen Spieltag gehört.
         if len(matches) == 0 and original_count > 0:
             print(f"⚠️ WARNUNG: Keine Matches mit Matchday-Feld gefunden!")
-            print(f"   → Verwende alle {original_count} Matches und finde Spieltag für jedes Match einzeln")
-            matches = original_matches  # Verwende alle ursprünglichen Matches
+            print(f"   → Prüfe für jedes Match, ob es zu Spieltag {current_matchday} gehört...")
+            filtered_by_matchday_check = []
+            for match in original_matches[:10]:  # Teste erstmal nur die ersten 10
+                team1 = match.get('Team1') or match.get('team1') or {}
+                team2 = match.get('Team2') or match.get('team2') or {}
+                if isinstance(team1, dict) and isinstance(team2, dict):
+                    home_team = (team1.get('TeamName') or team1.get('teamName') or 
+                                team1.get('name') or team1.get('Name') or '')
+                    away_team = (team2.get('TeamName') or team2.get('teamName') or 
+                                team2.get('name') or team2.get('Name') or '')
+                    if home_team and away_team:
+                        # Prüfe ob dieses Match zum aktuellen Spieltag gehört
+                        found_matchday = find_matchday_for_match(
+                            league_path, scraping_season, home_team, away_team, is_international, liga_id, ''
+                        )
+                        if found_matchday == current_matchday:
+                            filtered_by_matchday_check.append(match)
+            
+            if len(filtered_by_matchday_check) > 0:
+                print(f"   ✅ {len(filtered_by_matchday_check)} Matches gefunden, die zu Spieltag {current_matchday} gehören")
+                print(f"   → Scrapte nur diese Matches (nicht alle {original_count})")
+                matches = filtered_by_matchday_check
+            else:
+                print(f"   ⚠️ Keine Matches zu Spieltag {current_matchday} gefunden, verwende alle {original_count} Matches")
+                matches = original_matches
     else:
         print(f"⚠️ Kein aktueller Spieltag gefunden, verwende alle {len(matches)} Matches")
     
