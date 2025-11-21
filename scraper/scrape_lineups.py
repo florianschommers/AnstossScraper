@@ -590,8 +590,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 if isinstance(current_matchday, int) and matchday == current_matchday:
                     filtered_matches.append(match)
         
+        original_count = len(matches)
         matches = filtered_matches
-        print(f"📊 Gefiltert: {len(matches)} Matches für Spieltag {current_matchday} (von {len(matches) + len(filtered_matches) - len(matches)} total)")
+        print(f"📊 Gefiltert: {len(matches)} Matches für Spieltag {current_matchday} (von {original_count} total)")
     else:
         print(f"⚠️ Kein aktueller Spieltag gefunden, verwende alle {len(matches)} Matches")
     
