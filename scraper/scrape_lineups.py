@@ -30,6 +30,13 @@ def get_current_season() -> str:
     else:
         return str(now.year)
 
+def get_openligadb_season() -> str:
+    """Ermittelt die Saison für OpenLigaDB API (aktuell -1, da OpenLigaDB eine Saison zurück ist)
+    Wird für Match-Dateien verwendet, die von OpenLigaDB kommen (bundesliga, 2bundesliga, dfbpokal)"""
+    current = get_current_season()
+    season_int = int(current) if current.isdigit() else 2025
+    return str(season_int - 1)
+
 def get_international_season() -> str:
     """Ermittelt die aktuelle internationale Saison (Juli - Juni)"""
     return get_current_season()
@@ -454,6 +461,15 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     
     league_path, is_international, liga_id = league_configs.get(league_name, (league_name, False, 1))
     
+    # WICHTIG: Für Scraping-URLs (fussballdaten.de) verwende Saison +1
+    # Match-Dateien kommen von OpenLigaDB (Saison -1), aber Scraping verwendet fussballdaten.de (Saison +1)
+    scraping_season = season
+    if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
+        # Deutsche Ligen: Match-Datei hat OpenLigaDB Saison (-1), aber Scraping braucht fussballdaten.de Saison (+1)
+        season_int = int(season) if season.isdigit() else 2025
+        scraping_season = str(season_int + 1)
+        print(f"   ℹ️ Match-Datei Saison: {season} (OpenLigaDB), Scraping Saison: {scraping_season} (fussballdaten.de)")
+    
     lineups = []
     successful = 0
     failed = 0
@@ -472,7 +488,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         if not matchday or matchday == 1:  # matchday=1 ist oft falsch (besonders bei DFB-Pokal)
             print(f"    🔍 Suche richtigen Spieltag...")
             found_matchday = find_matchday_for_match(
-                league_path, season, home_team, away_team, is_international, liga_id, phase
+                league_path, scraping_season, home_team, away_team, is_international, liga_id, phase
             )
             if found_matchday:
                 matchday = found_matchday
@@ -481,8 +497,9 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
         
         # Scrapte Aufstellung (testet automatisch ±1 Spieltag)
+        # WICHTIG: Verwende scraping_season für fussballdaten.de URLs
         lineup = scrape_lineup_for_match(
-            league_path, season, phase, matchday,
+            league_path, scraping_season, phase, matchday,
             home_team, away_team, is_international, liga_id
         )
         
@@ -560,14 +577,19 @@ def main():
     """Hauptfunktion"""
     print("🚀 Starte Lineup-Scraping für alle Ligen...")
     
-    season = get_current_season()
+    # WICHTIG: OpenLigaDB verwendet Saison -1 (z.B. 2025 statt 2026)
+    # fussballdaten.de verwendet Saison +1 (z.B. 2026 statt 2025)
+    # Match-Dateien kommen von OpenLigaDB, daher -1 für deutsche Ligen
+    openligadb_season = get_openligadb_season()  # Für Match-Dateien (von OpenLigaDB)
+    season = get_current_season()  # Für fussballdaten.de URLs (Scraping)
     int_season = get_international_season()
     
     # Alle Ligen
+    # Deutsche Ligen: Match-Dateien verwenden OpenLigaDB Saison (-1), Scraping verwendet fussballdaten.de Saison (+1)
     leagues = [
-        ("bundesliga", season),
-        ("2bundesliga", season),
-        ("dfbpokal", season),
+        ("bundesliga", openligadb_season),  # Match-Datei: OpenLigaDB Saison
+        ("2bundesliga", openligadb_season),  # Match-Datei: OpenLigaDB Saison
+        ("dfbpokal", openligadb_season),  # Match-Datei: OpenLigaDB Saison
         ("championsleague", int_season),
         ("europaleague", int_season),
         ("conferenceleague", int_season),
