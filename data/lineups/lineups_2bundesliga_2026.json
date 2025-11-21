@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "",
-  "lastUpdated": "2025-11-21T17:09:49.941411",
+  "lastUpdated": "2025-11-21T17:27:42.017842",
   "lineups": [
     {
       "homeTeam": "VfL Bochum",
@@ -19,20 +19,20 @@
         "Maximilian Wittek",
         "Philipp Strompf",
         "Noah Loosli",
-        "Leandro Morgalla",
+        "Felix Passlack",
         "Timo Horn"
       ],
       "awayLineup": [
-        "Christoph Daferner",
-        "Dominik Kother",
         "Vincent Vermeij",
-        "Nils Froling",
+        "Luca Herrmann",
         "Niklas Hauptmann",
+        "Jakob Lemmer",
+        "Friedrich Muller",
         "Kofi Amoako",
         "Alexander Rossipal",
-        "Lars Bunning",
+        "Julian Pauli",
         "Lukas Boeder",
-        "Jan-Hendrik Marx",
+        "Konrad Faber",
         "Lennart Grill"
       ]
     },
@@ -44,28 +44,28 @@
       "phase": "",
       "homeLineup": [
         "Luca Schuler",
-        "Marten Winkler",
-        "Michael Cuisance",
         "Fabian Reese",
+        "Michael Cuisance",
+        "Marten Winkler",
         "Paul Seguin",
-        "Kennet Eichhorn",
-        "Niklas Kolbe",
+        "Diego Demme",
+        "Michal Karbownik",
         "Marton Dardai",
         "Toni Leistner",
-        "Michal Karbownik",
+        "Linus Gechter",
         "Tjark Ernst"
       ],
       "awayLineup": [
         "Sidi Guessor Sane",
         "Leon Bell Bell",
-        "Robin Heusser",
         "Christian Conteh",
-        "Florian Flick",
-        "Max Marie",
         "Fabio Di Michele Sanchez",
-        "Salomon Patrick Amougou Nkoa",
         "Sven Kohler",
-        "Johan Gomez",
+        "Florian Flick",
+        "Mehmet Aydin",
+        "Lukas Frenkert",
+        "Salomon Patrick Amougou Nkoa",
+        "Kevin Ehlers",
         "Ron-Thorben Hoffmann"
       ]
     },
@@ -100,6 +100,39 @@
         "Boris Tomiak",
         "Ime Okon",
         "Nahuel Noll"
+      ]
+    },
+    {
+      "homeTeam": "Fortuna Düsseldorf",
+      "awayTeam": "1. FC Magdeburg",
+      "dateTime": "2025-11-22T13:00:00",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Cedric Itten",
+        "Florent Muslija",
+        "Anouar El Azzouzi",
+        "Christian Rasmussen",
+        "Kenneth Schmidt",
+        "Tim Breithaupt",
+        "Emmanuel Iyoha",
+        "Jesper Daland",
+        "Tim Oberdorf",
+        "Matthias Zimmermann",
+        "Florian Kastenmeier"
+      ],
+      "awayLineup": [
+        "Laurin Ulrich",
+        "Alexander Ahl-Holmstrom",
+        "Rayan Ghrieb",
+        "Alexander Nollenberger",
+        "Falko Michel",
+        "Silas Gnaka",
+        "Lubambo Musonda",
+        "Max Geschwill",
+        "Luka Hyrylainen",
+        "Marcus Mathisen",
+        "Dominik Reimann"
       ]
     },
     {
@@ -232,6 +265,38 @@
         "Lukas Pinckert",
         "Jan Gyamerah",
         "Nicolas Kristof"
+      ]
+    },
+    {
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "Arminia Bielefeld",
+      "dateTime": "2025-11-23T13:30:00",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Artem Stepanov",
+        "Rafael Lubach",
+        "Adam Markhiev",
+        "Finn Becker",
+        "Julian Justvan",
+        "Berkay Yilmaz",
+        "Robin Knoche",
+        "Fabio Gruber",
+        "Tim Janisch",
+        "Jan Reichert"
+      ],
+      "awayLineup": [
+        "Noah Sarenren Bazee",
+        "Joel Grodowski",
+        "Monju Momuluh",
+        "Tim Handwerker",
+        "Marius Worl",
+        "Mael Corboz",
+        "Benjamin Boakye",
+        "Joel Felix",
+        "Maximilian Grosser",
+        "Leon Schneider",
+        "Jonas Kersken"
       ]
     }
   ]
