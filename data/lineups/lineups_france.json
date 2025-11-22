@@ -1,12 +1,45 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-11-22T20:34:28.787212",
+  "lastUpdated": "2025-11-22T21:27:30.429328",
   "lineups": [
+    {
+      "homeTeam": "Psg",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2025-11-22T00:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Ibrahim Mbaye",
+        "Goncalo Ramos",
+        "Kang-in Lee",
+        "Joao Neves",
+        "Vitinha",
+        "Senny Mayulu",
+        "Nuno Mendes",
+        "Lucas Beraldo",
+        "Ilya Zabarnyi",
+        "Warren Zaire-Emery",
+        "Lucas Chevalier"
+      ],
+      "awayLineup": [
+        "Yassine Kechta",
+        "Issa Soumare",
+        "Simon Ebonog",
+        "Rassoul Ndiaye",
+        "Abdoulaye Toure",
+        "Ayumu Seko",
+        "Yanis Zouaoui",
+        "Gautier Lloris",
+        "Arouna Sangante",
+        "Loic Nego",
+        "Mory Diaw"
+      ]
+    },
     {
       "homeTeam": "Lens",
       "awayTeam": "Strassburg",
-      "dateTime": "2025-11-22T21:05:00Z",
+      "dateTime": "2025-11-22T15:00:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
@@ -34,39 +67,6 @@
         "Mamadou Sarr",
         "Lucas Hogsberg",
         "Mike Penders"
-      ]
-    },
-    {
-      "homeTeam": "Nizza",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2025-11-21T15:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Sofiane Diop",
-        "Terem Igobor Moffi",
-        "Mohamed-Ali Cho",
-        "Melvin Bard",
-        "Salis Abdul Samed",
-        "Charles Vanhoutte",
-        "Jonathan Clauss",
-        "Kojo Peprah Oppong",
-        "Juma Bah",
-        "Antoine Mendy",
-        "Yehvann Diouf"
-      ],
-      "awayLineup": [
-        "Pierre-Emerick Aubameyang",
-        "Igor Paixao",
-        "Angel Gomes",
-        "Mason Greenwood",
-        "Arthur Vermeeren",
-        "Geoffrey Kondogbia",
-        "Emerson",
-        "Leonardo Balerdi",
-        "Benjamin Pavard",
-        "Timothy Weah",
-        "Jeffrey de Lange"
       ]
     },
     {
