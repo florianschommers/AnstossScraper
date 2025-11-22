@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-22T20:14:48.477893Z",
+  "lastUpdated": "2025-11-22T20:33:59.572943Z",
   "matches": [
     {
       "matchday": 3,
@@ -1038,6 +1038,16 @@
       "homeTeam": "Everton",
       "awayTeam": "Newcastle",
       "dateTime": "2025-11-29T18:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Fulham",
+      "dateTime": "2025-11-29T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
