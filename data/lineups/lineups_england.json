@@ -1,41 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-22T19:24:33.488538",
+  "lastUpdated": "2025-11-22T20:33:06.987023",
   "lineups": [
-    {
-      "homeTeam": "Newcastle",
-      "awayTeam": "Manchester City",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Nick Woltemade",
-        "Harvey Barnes",
-        "Joelinton",
-        "Bruno Guimaraes",
-        "Sandro Tonali",
-        "Jacob Murphy",
-        "Lewis Hall",
-        "Fabian Schar",
-        "Malick Thiaw",
-        "Tino Livramento",
-        "Nick Pope"
-      ],
-      "awayLineup": [
-        "Erling Haaland",
-        "Jeremy Doku",
-        "Rayan Cherki",
-        "Bernardo Silva",
-        "Nico Gonzalez",
-        "Phil Foden",
-        "Nico O&#039;Reilly",
-        "Josko Gvardiol",
-        "Ruben Dias",
-        "Matheus Nunes",
-        "Gianluigi Donnarumma"
-      ]
-    },
     {
       "homeTeam": "Burnley",
       "awayTeam": "Chelsea",
@@ -330,6 +297,39 @@
         "Nikola Milenkovic",
         "Nicolo Savona",
         "Matz Sels"
+      ]
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester City",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Nick Woltemade",
+        "Harvey Barnes",
+        "Joelinton",
+        "Bruno Guimaraes",
+        "Sandro Tonali",
+        "Jacob Murphy",
+        "Lewis Hall",
+        "Fabian Schar",
+        "Malick Thiaw",
+        "Tino Livramento",
+        "Nick Pope"
+      ],
+      "awayLineup": [
+        "Erling Haaland",
+        "Jeremy Doku",
+        "Rayan Cherki",
+        "Bernardo Silva",
+        "Nico Gonzalez",
+        "Phil Foden",
+        "Nico O&#039;Reilly",
+        "Josko Gvardiol",
+        "Ruben Dias",
+        "Matheus Nunes",
+        "Gianluigi Donnarumma"
       ]
     }
   ]
