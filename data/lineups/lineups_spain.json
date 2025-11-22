@@ -1,12 +1,45 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-11-22T15:30:40.405823",
+  "lastUpdated": "2025-11-22T16:32:53.459670",
   "lineups": [
+    {
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-11-22T00:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Ferran Torres",
+        "Robert Lewandowski",
+        "Lamine Yamal",
+        "Dani Olmo",
+        "Eric Garcia",
+        "Fermin Lopez",
+        "Alejandro Balde",
+        "Gerard Martin",
+        "Pau Cubarsi",
+        "Jules Kounde",
+        "Joan Garcia"
+      ],
+      "awayLineup": [
+        "Unai Gomez",
+        "Nico Williams",
+        "Oihan Sancet",
+        "Alex Berenguer",
+        "Mikel Jauregizar",
+        "Inigo Ruiz de Galarreta",
+        "Yuri Berchiche",
+        "Aymeric Laporte",
+        "Dani Vivian",
+        "Andoni Gorosabel",
+        "Unai Simon"
+      ]
+    },
     {
       "homeTeam": "Alaves",
       "awayTeam": "Celtavigo",
-      "dateTime": "2025-11-22T00:00:00Z",
+      "dateTime": "2025-11-22T18:30:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
@@ -34,72 +67,6 @@
         "Carl Starfelt",
         "Javi Rodriguez",
         "Ionut Radu"
-      ]
-    },
-    {
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2025-11-22T16:15:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Alejandro Balde",
-        "Robert Lewandowski",
-        "Lamine Yamal",
-        "Ferran Torres",
-        "Dani Olmo",
-        "Fermin Lopez",
-        "Gerard Martin",
-        "Eric Garcia",
-        "Pau Cubarsi",
-        "Jules Kounde",
-        "Joan Garcia"
-      ],
-      "awayLineup": [
-        "Unai Gomez",
-        "Nico Williams",
-        "Oihan Sancet",
-        "Alex Berenguer",
-        "Mikel Jauregizar",
-        "Inigo Ruiz de Galarreta",
-        "Yuri Berchiche",
-        "Aymeric Laporte",
-        "Dani Vivian",
-        "Andoni Gorosabel",
-        "Unai Simon"
-      ]
-    },
-    {
-      "homeTeam": "Osasuna",
-      "awayTeam": "Realsociedad",
-      "dateTime": "2025-11-22T18:30:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Raul Garcia",
-        "Kike Barja",
-        "Victor Munoz",
-        "Ruben Garcia",
-        "Moi Gomez",
-        "Iker Munoz",
-        "Abel Bretones",
-        "Catena",
-        "Enzo Boyomo",
-        "Moncayola",
-        "Sergio Herrera"
-      ],
-      "awayLineup": [
-        "Mikel Oyarzabal",
-        "Goncalo Guedes",
-        "Carlos Soler",
-        "Brais Mendez",
-        "Takefusa Kubo",
-        "Jon Gorrotxategi",
-        "Sergio Gomez",
-        "Igor Zubeldia",
-        "Jon Martin",
-        "Jon Aramburu",
-        "Alex Remiro"
       ]
     },
     {
@@ -298,6 +265,39 @@
         "Tanguy Nianzou",
         "Jose Angel Carmona",
         "Odysseas Vlachodimos"
+      ]
+    },
+    {
+      "homeTeam": "Alaves",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Lucas Boye",
+        "Toni Martinez",
+        "Carles Alena",
+        "Denis Suarez",
+        "Antonio Blanco",
+        "Carlos Vicente",
+        "Youssef Enriquez",
+        "Jon Pacheco",
+        "Nahuel Tenaglia",
+        "Jonny Otto",
+        "Antonio Sivera"
+      ],
+      "awayLineup": [
+        "Bryan Zaragoza",
+        "Pablo Duran",
+        "Iago Aspas",
+        "Sergio Carreira",
+        "Ilaix Moriba",
+        "Fran Beltran",
+        "Javi Rueda",
+        "Marcos Alonso",
+        "Carl Starfelt",
+        "Javi Rodriguez",
+        "Ionut Radu"
       ]
     },
     {
