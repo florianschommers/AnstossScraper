@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-22T14:30:18.293293Z",
+  "lastUpdated": "2025-11-22T14:42:14.570886Z",
   "matches": [
     {
       "matchday": 3,
@@ -907,16 +907,6 @@
       "matchday": 12,
       "homeTeam": "Burnley",
       "awayTeam": "Chelsea",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 12,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "Crystalpalace",
       "dateTime": "2025-11-22T16:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1000,6 +990,16 @@
       "dateTime": "2025-11-24T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Burnley",
+      "awayTeam": "Chelsea",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     }
