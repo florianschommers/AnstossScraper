@@ -1,41 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-11-22T19:25:40.090864",
+  "lastUpdated": "2025-11-22T20:34:28.787212",
   "lineups": [
-    {
-      "homeTeam": "Rennes",
-      "awayTeam": "Monaco",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Breel Embolo",
-        "Esteban Lepaul",
-        "Mousa Tamari",
-        "Djaoui Cisse",
-        "Valentin Rongier",
-        "Mahdi Camara",
-        "Przemyslaw Frankowski",
-        "Lilian Brassier",
-        "Jeremy Jacquet",
-        "Abdelhamid Ait Boudlal",
-        "Brice Samba"
-      ],
-      "awayLineup": [
-        "George Ilenikhena",
-        "Ansu Fati",
-        "Maghnes Akliouche",
-        "Kassoum Ouattara",
-        "Mamadou Coulibaly",
-        "Denis Zakaria",
-        "Krepin Diatta",
-        "Mohammed Salisu",
-        "Thilo Kehrer",
-        "Jordan Teze",
-        "Lukas Hradecky"
-      ]
-    },
     {
       "homeTeam": "Lens",
       "awayTeam": "Strassburg",
@@ -265,6 +232,39 @@
         "Mamadou Sarr",
         "Lucas Hogsberg",
         "Mike Penders"
+      ]
+    },
+    {
+      "homeTeam": "Rennes",
+      "awayTeam": "Monaco",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Breel Embolo",
+        "Esteban Lepaul",
+        "Mousa Tamari",
+        "Djaoui Cisse",
+        "Valentin Rongier",
+        "Mahdi Camara",
+        "Przemyslaw Frankowski",
+        "Lilian Brassier",
+        "Jeremy Jacquet",
+        "Abdelhamid Ait Boudlal",
+        "Brice Samba"
+      ],
+      "awayLineup": [
+        "George Ilenikhena",
+        "Ansu Fati",
+        "Maghnes Akliouche",
+        "Kassoum Ouattara",
+        "Mamadou Coulibaly",
+        "Denis Zakaria",
+        "Krepin Diatta",
+        "Mohammed Salisu",
+        "Thilo Kehrer",
+        "Jordan Teze",
+        "Lukas Hradecky"
       ]
     },
     {
