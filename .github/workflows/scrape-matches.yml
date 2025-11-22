@@ -9,15 +9,26 @@ on:
 permissions:
   contents: write
 
+# WICHTIG: Verhindert, dass mehrere Workflows gleichzeitig laufen
+concurrency:
+  group: scrape-workflows
+  cancel-in-progress: false  # Laufende Workflows nicht abbrechen, sondern warten
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          # Explizit das aktuelle Repository verwenden
+          repository: ${{ github.repository }}
+          ref: main
+          token: ${{ secrets.ANSTOSS_SCRAPER_TOKEN || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Hole vollständige Historie für bessere Git-Operationen
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
@@ -26,20 +37,211 @@ jobs:
           pip install -r scraper/requirements.txt
       
       - name: Run Scraper
+        continue-on-error: false
         run: |
-          python scraper/scrape_matches.py
+          python scraper/scrape_matches.py || {
+            echo "⚠️ Scraper beendet mit Fehler, prüfe Logs oben"
+            exit 1
+          }
       
       - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.ANSTOSS_SCRAPER_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          # Pull latest changes first
-          git pull --rebase origin main || git pull origin main
-          git add data/matches/*.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Update match data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
-            git push
+          
+          # Setze Remote URL mit Token für alle Git-Operationen
+          REPO_URL="https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git remote set-url origin "$REPO_URL"
+          
+          # Zeige aktuelle Remote-URL (ohne Token für Sicherheit)
+          echo "📦 Repository: ${{ github.repository }}"
+          echo "🔗 Remote URL gesetzt"
+          
+          # Pull latest changes first (mit Retry-Logik für temporäre Fehler)
+          # WICHTIG: Pull muss erfolgreich sein, bevor wir pushen können
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          PULL_SUCCESS=false
+          
+          # WICHTIG: Stashe uncommitted Änderungen vor Pull (löst "unstaged changes" Problem)
+          echo "💾 Prüfe auf uncommitted Änderungen..."
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "📦 Stashe uncommitted Änderungen..."
+            git stash push -m "Auto-stash before pull - $(date +'%Y-%m-%d %H:%M:%S UTC')" || true
+            STASHED=true
           else
-            echo "No changes to commit"
+            STASHED=false
+          fi
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            echo "🔄 Git pull (Versuch $((RETRY_COUNT + 1))/$MAX_RETRIES)..."
+            
+            # Fetch zuerst, um sicherzustellen, dass wir die neuesten Änderungen haben
+            if git fetch origin main 2>&1; then
+              echo "✅ Git fetch erfolgreich"
+              
+              # Versuche Rebase (bevorzugt, da es eine saubere Historie behält)
+              if git rebase origin/main 2>&1; then
+                echo "✅ Git rebase erfolgreich"
+                PULL_SUCCESS=true
+                break
+              # Fallback: Merge wenn Rebase fehlschlägt
+              elif git merge origin/main --no-edit 2>&1; then
+                echo "✅ Git merge erfolgreich"
+                PULL_SUCCESS=true
+                break
+              else
+                echo "⚠️ Rebase/Merge fehlgeschlagen, versuche Reset..."
+                # Bei Konflikten: Reset auf origin/main (verwirft lokale Änderungen, die nicht committed sind)
+                git reset --hard origin/main 2>&1 || true
+                PULL_SUCCESS=true
+                break
+              fi
+            else
+              echo "⚠️ Git fetch fehlgeschlagen"
+            fi
+            
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+              WAIT_TIME=$((RETRY_COUNT * 3))
+              echo "⏳ Warte ${WAIT_TIME}s vor erneutem Versuch..."
+              sleep $WAIT_TIME
+            fi
+          done
+          
+          # WICHTIG: Stash wieder anwenden nach erfolgreichem Pull
+          if [ "$STASHED" = true ]; then
+            echo "📦 Wende gestashte Änderungen wieder an..."
+            if git stash pop 2>&1; then
+              echo "✅ Stash erfolgreich angewendet"
+            else
+              echo "⚠️ Stash konnte nicht angewendet werden (möglicherweise Konflikte)"
+              # Bei Konflikten: Stash behalten, aber fortfahren
+              git stash list
+            fi
+          fi
+          
+          if [ "$PULL_SUCCESS" = false ]; then
+            echo "❌ Git pull fehlgeschlagen nach $MAX_RETRIES Versuchen"
+            echo "⚠️ Versuche trotzdem fortzufahren, aber Push könnte fehlschlagen..."
+          fi
+          
+          # Prüfe ob data/matches Verzeichnis existiert
+          if [ ! -d "data/matches" ]; then
+            echo "⚠️ Verzeichnis data/matches existiert nicht - erstelle es"
+            mkdir -p data/matches
+          fi
+          
+          # Prüfe ob JSON-Dateien vorhanden sind
+          if ls data/matches/*.json 1> /dev/null 2>&1; then
+            echo "📁 Gefundene JSON-Dateien:"
+            ls -lh data/matches/*.json
+            
+            # Add Dateien (mit Fehlerbehandlung)
+            if git add data/matches/*.json; then
+              echo "✅ Dateien zu Git hinzugefügt"
+              
+              # Prüfe ob es Änderungen gibt
+              if ! git diff --staged --quiet; then
+                echo "📝 Committe Änderungen..."
+                git commit -m "Update match data - $(date +'%Y-%m-%d %H:%M:%S UTC')" || {
+                  echo "⚠️ Commit fehlgeschlagen (möglicherweise keine Änderungen)"
+                  exit 0
+                }
+                
+                # Push mit Retry-Logik - bei jedem Versuch Pull vorher
+                RETRY_COUNT=0
+                PUSH_SUCCESS=false
+                MAX_PUSH_RETRIES=10
+                
+                while [ $RETRY_COUNT -lt $MAX_PUSH_RETRIES ]; do
+                  # IMMER vor jedem Push-Versuch: Hole neueste Änderungen
+                  echo "🔄 Hole neueste Änderungen vor Push (Versuch $((RETRY_COUNT + 1))/$MAX_PUSH_RETRIES)..."
+                  
+                  # Fetch zuerst, um die neuesten Änderungen zu holen
+                  if ! git fetch origin main 2>&1; then
+                    echo "⚠️ Git fetch fehlgeschlagen, versuche trotzdem zu pushen..."
+                  fi
+                  
+                  # Prüfe ob es lokale Commits gibt, die nicht auf Remote sind
+                  LOCAL_COMMITS=$(git rev-list HEAD...origin/main --count 2>/dev/null || echo "0")
+                  
+                  if [ "$LOCAL_COMMITS" -gt 0 ]; then
+                    echo "📝 Gefunden: $LOCAL_COMMITS lokale Commits, die nicht auf Remote sind"
+                    
+                    # Versuche Rebase (bevorzugt)
+                    if git rebase origin/main 2>&1; then
+                      echo "✅ Rebase erfolgreich"
+                    # Fallback: Merge
+                    elif git merge origin/main --no-edit 2>&1; then
+                      echo "✅ Merge erfolgreich"
+                    else
+                      echo "⚠️ Rebase/Merge fehlgeschlagen, versuche Reset und neu committen..."
+                      # Bei Konflikten: Reset auf origin/main und neu committen
+                      if [ $RETRY_COUNT -lt $((MAX_PUSH_RETRIES - 1)) ]; then
+                        echo "🔄 Reset auf origin/main und neu committen..."
+                        git reset --hard origin/main 2>&1
+                        # Dateien wieder hinzufügen und committen
+                        git add data/matches/*.json 2>&1
+                        git commit -m "Update match data - $(date +'%Y-%m-%d %H:%M:%S UTC')" 2>&1
+                      fi
+                    fi
+                  else
+                    echo "ℹ️ Keine lokalen Commits, die nicht auf Remote sind"
+                  fi
+                  
+                  echo "🚀 Git push (Versuch $((RETRY_COUNT + 1))/$MAX_PUSH_RETRIES)..."
+                  PUSH_OUTPUT=$(git push origin HEAD:main 2>&1)
+                  PUSH_EXIT_CODE=$?
+                  
+                  if [ $PUSH_EXIT_CODE -eq 0 ]; then
+                    echo "✅ Git push erfolgreich"
+                    PUSH_SUCCESS=true
+                    break
+                  else
+                    echo "$PUSH_OUTPUT"
+                    RETRY_COUNT=$((RETRY_COUNT + 1))
+                    if [ $RETRY_COUNT -lt $MAX_PUSH_RETRIES ]; then
+                      # Prüfe ob es ein "rejected" Fehler ist (Remote hat neue Commits)
+                      if echo "$PUSH_OUTPUT" | grep -q "rejected\|fetch first"; then
+                        WAIT_TIME=$((RETRY_COUNT * 2))
+                        echo "⚠️ Push abgelehnt - Remote hat neue Commits"
+                        echo "⏳ Warte ${WAIT_TIME}s und hole dann neueste Änderungen..."
+                        sleep $WAIT_TIME
+                        # Hole neueste Änderungen und versuche erneut
+                        git fetch origin main 2>&1
+                        git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
+                          echo "🔄 Reset auf origin/main und neu committen..."
+                          git reset --hard origin/main 2>&1
+                          git add data/matches/*.json 2>&1
+                          git commit -m "Update match data - $(date +'%Y-%m-%d %H:%M:%S UTC')" 2>&1
+                        }
+                      else
+                        WAIT_TIME=$((RETRY_COUNT * 3))
+                        echo "⚠️ Push fehlgeschlagen, warte ${WAIT_TIME}s..."
+                        sleep $WAIT_TIME
+                      fi
+                    fi
+                  fi
+                done
+                
+                if [ "$PUSH_SUCCESS" = false ]; then
+                  echo "❌ Git push fehlgeschlagen nach $MAX_PUSH_RETRIES Versuchen"
+                  echo "⚠️ Der nächste Workflow-Lauf wird es erneut versuchen"
+                  exit 1
+                fi
+              else
+                echo "ℹ️ Keine Änderungen zum Committen"
+              fi
+            else
+              echo "⚠️ Git add fehlgeschlagen"
+              exit 0  # Nicht kritisch, wenn keine Dateien hinzugefügt werden können
+            fi
+          else
+            echo "⚠️ Keine JSON-Dateien in data/matches gefunden"
+            echo "ℹ️ Möglicherweise hat der Scraper keine Daten erzeugt"
+            exit 0  # Nicht kritisch, wenn keine Dateien vorhanden sind
           fi
 
