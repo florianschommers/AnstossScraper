@@ -10227,7 +10227,7 @@
   {
     "matchID": 78058,
     "matchDateTime": "2025-11-22T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10252,14 +10252,14 @@
       "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-22T22:17:43.113",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-22T22:35:25.343",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120532,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
