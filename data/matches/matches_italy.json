@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-22T14:11:32.534704Z",
+  "lastUpdated": "2025-11-22T14:31:07.869718Z",
   "matches": [
     {
       "matchday": 3,
@@ -907,21 +907,21 @@
       "matchday": 12,
       "homeTeam": "Cagliari",
       "awayTeam": "Cfcgenua",
-      "dateTime": "2025-11-22T15:00:00Z",
-      "score": null,
+      "dateTime": "2025-11-22T00:00:00Z",
+      "score": "0:1",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:1"
     },
     {
       "matchday": 12,
       "homeTeam": "Udinese",
       "awayTeam": "Bologna",
-      "dateTime": "2025-11-22T15:00:00Z",
-      "score": null,
+      "dateTime": "2025-11-22T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 12,
@@ -1008,6 +1008,26 @@
       "homeTeam": "Como",
       "awayTeam": "Sassuolo",
       "dateTime": "2025-11-28T20:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Hverona",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Parma",
+      "awayTeam": "Udinese",
+      "dateTime": "2025-11-29T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
