@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-22T19:35:45.286918Z",
+  "lastUpdated": "2025-11-22T19:44:52.167336Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Newcastle",
-      "awayTeam": "Manchester City",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 12,
       "homeTeam": "Burnley",
       "awayTeam": "Chelsea",
       "dateTime": "2025-11-22T15:00:00Z",
@@ -999,6 +989,16 @@
       "awayTeam": "Nottingham",
       "dateTime": "2025-11-22T15:00:00Z",
       "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Manchester City",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
