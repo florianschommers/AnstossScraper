@@ -1,41 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-22T18:36:30.146432",
+  "lastUpdated": "2025-11-22T19:25:18.342594",
   "lineups": [
-    {
-      "homeTeam": "Acflorenz",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Moise Kean",
-        "Roberto Piccoli",
-        "Fabiano Parisi",
-        "Simon Sohm",
-        "Nicolo Fagioli",
-        "Rolando Mandragora",
-        "Dodo",
-        "Luca Ranieri",
-        "Pablo Mari",
-        "Marin Pongracic",
-        "David de Gea"
-      ],
-      "awayLineup": [
-        "Dusan Vlahovic",
-        "Kenan Yildiz",
-        "Weston McKennie",
-        "Filip Kostic",
-        "Khephren Thuram",
-        "Manuel Locatelli",
-        "Andrea Cambiaso",
-        "Teun Koopmeiners",
-        "Lloyd Kelly",
-        "Pierre Kalulu",
-        "Michele Di Gregorio"
-      ]
-    },
     {
       "homeTeam": "Cagliari",
       "awayTeam": "Cfcgenua",
@@ -331,6 +298,39 @@
         "Nicolo Casale",
         "Lorenzo De Silvestri",
         "Federico Ravaglia"
+      ]
+    },
+    {
+      "homeTeam": "Acflorenz",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Moise Kean",
+        "Roberto Piccoli",
+        "Fabiano Parisi",
+        "Simon Sohm",
+        "Nicolo Fagioli",
+        "Rolando Mandragora",
+        "Dodo",
+        "Luca Ranieri",
+        "Pablo Mari",
+        "Marin Pongracic",
+        "David de Gea"
+      ],
+      "awayLineup": [
+        "Dusan Vlahovic",
+        "Kenan Yildiz",
+        "Weston McKennie",
+        "Filip Kostic",
+        "Khephren Thuram",
+        "Manuel Locatelli",
+        "Andrea Cambiaso",
+        "Teun Koopmeiners",
+        "Lloyd Kelly",
+        "Pierre Kalulu",
+        "Michele Di Gregorio"
       ]
     }
   ]
