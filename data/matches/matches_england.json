@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-22T17:31:38.993474Z",
+  "lastUpdated": "2025-11-22T17:42:12.006509Z",
   "matches": [
     {
       "matchday": 3,
@@ -1028,6 +1028,16 @@
       "homeTeam": "Sunderland",
       "awayTeam": "AFC Bournemouth",
       "dateTime": "2025-11-29T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "dateTime": "2025-11-29T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
