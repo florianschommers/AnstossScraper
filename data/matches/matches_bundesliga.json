@@ -9059,7 +9059,7 @@
       "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-22T19:52:15.833",
+    "lastUpdateDateTime": "2025-11-22T19:55:45.21",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9075,7 +9075,7 @@
         "resultID": 120529,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 3,
+        "pointsTeam2": 4,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -9122,8 +9122,20 @@
         "goalID": 134645,
         "scoreTeam1": 1,
         "scoreTeam2": 3,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 60,
+        "goalGetterID": 19126,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134646,
+        "scoreTeam1": 1,
+        "scoreTeam2": 4,
+        "matchMinute": 63,
+        "goalGetterID": 19126,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
