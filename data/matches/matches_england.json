@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-22T16:30:22.149137Z",
+  "lastUpdated": "2025-11-22T16:46:26.996022Z",
   "matches": [
     {
       "matchday": 3,
@@ -908,16 +908,6 @@
       "homeTeam": "Wolverhampton",
       "awayTeam": "Crystalpalace",
       "dateTime": "2025-11-22T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 12,
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "West Ham United",
-      "dateTime": "2025-11-22T00:00:00Z",
       "score": "0:2",
       "isFinished": false,
       "isLive": true,
@@ -925,13 +915,23 @@
     },
     {
       "matchday": 12,
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "West Ham United",
+      "dateTime": "2025-11-22T00:00:00Z",
+      "score": "1:2",
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:2"
+    },
+    {
+      "matchday": 12,
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Brentford",
       "dateTime": "2025-11-22T00:00:00Z",
-      "score": "0:1",
+      "score": "1:1",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:1"
+      "liveScore": "1:1"
     },
     {
       "matchday": 12,
@@ -948,10 +948,10 @@
       "homeTeam": "Liverpool",
       "awayTeam": "Nottingham",
       "dateTime": "2025-11-22T00:00:00Z",
-      "score": "0:1",
+      "score": "0:2",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:1"
+      "liveScore": "0:2"
     },
     {
       "matchday": 12,
