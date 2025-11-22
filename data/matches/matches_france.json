@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-22T23:25:50.351640Z",
+  "lastUpdated": "2025-11-22T23:39:15.129188Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,9 +905,9 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Lens",
-      "awayTeam": "Strassburg",
-      "dateTime": "2025-11-22T15:00:00Z",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lyon",
+      "dateTime": "2025-11-23T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -955,6 +955,16 @@
     },
     {
       "matchday": 13,
+      "homeTeam": "Nizza",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2025-11-21T15:00:00Z",
+      "score": "1:5",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
       "homeTeam": "Lens",
       "awayTeam": "Strassburg",
       "dateTime": "2025-11-22T15:00:00Z",
@@ -979,16 +989,6 @@
       "awayTeam": "Aclehavre",
       "dateTime": "2025-11-22T15:00:00Z",
       "score": "3:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Nizza",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2025-11-21T15:00:00Z",
-      "score": "1:5",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
