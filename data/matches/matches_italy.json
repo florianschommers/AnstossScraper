@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-22T21:41:50.763374Z",
+  "lastUpdated": "2025-11-22T21:51:26.434350Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Bergamo",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "score": "3:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1"
-    },
-    {
-      "matchday": 12,
       "homeTeam": "Cagliari",
       "awayTeam": "Cfcgenua",
       "dateTime": "2025-11-22T12:30:00Z",
@@ -999,6 +989,16 @@
       "awayTeam": "Juventusturin",
       "dateTime": "2025-11-22T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "score": "3:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
