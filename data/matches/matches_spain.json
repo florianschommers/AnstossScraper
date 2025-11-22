@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-22T15:09:06.117813Z",
+  "lastUpdated": "2025-11-22T15:28:31.654145Z",
   "matches": [
     {
       "matchday": 3,
@@ -1007,16 +1007,6 @@
       "matchday": 13,
       "homeTeam": "Alaves",
       "awayTeam": "Celtavigo",
-      "dateTime": "2025-11-22T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Athbilbao",
       "dateTime": "2025-11-22T16:15:00Z",
       "score": null,
       "isFinished": false,
@@ -1090,6 +1080,16 @@
       "dateTime": "2025-11-24T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Alaves",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-11-22T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
