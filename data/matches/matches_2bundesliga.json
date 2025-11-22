@@ -10016,7 +10016,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-22T15:05:59.857",
+    "lastUpdateDateTime": "2025-11-22T20:41:19.273",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -10043,8 +10043,8 @@
         "goalID": 134577,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 20,
+        "goalGetterID": 23549,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10099,7 +10099,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-22T15:06:12.177",
+    "lastUpdateDateTime": "2025-11-22T20:40:20.827",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -10126,8 +10126,8 @@
         "goalID": 134579,
         "scoreTeam1": 1,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 37,
+        "goalGetterID": 16850,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10138,8 +10138,8 @@
         "goalID": 134580,
         "scoreTeam1": 1,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 88,
+        "goalGetterID": 24243,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10150,12 +10150,12 @@
         "goalID": 134581,
         "scoreTeam1": 2,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 95,
+        "goalGetterID": 16850,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
-        "isOvertime": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
