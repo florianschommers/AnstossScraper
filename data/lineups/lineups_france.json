@@ -1,107 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-11-23T18:40:40.150727",
+  "lastUpdated": "2025-11-23T19:26:17.898677",
   "lineups": [
-    {
-      "homeTeam": "Brest",
-      "awayTeam": "Fcmetz",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Ludovic Ajorque",
-        "Pathe Mboup",
-        "Kamory Doumbia",
-        "Romain Del Castillo",
-        "Hugo Magnetti",
-        "Joris Chotard",
-        "Daouda Guindo",
-        "Soumaila Coulibaly",
-        "Brendan Chardonnet",
-        "Kenny Lala",
-        "Gregoire Coudert"
-      ],
-      "awayLineup": [
-        "Joel Asoro",
-        "Giorgi Tsitaishvili",
-        "Gauthier Hein",
-        "Cheikh Sabaly",
-        "Jessy Deminguet",
-        "Alpha Toure",
-        "Maxime Colin",
-        "Terry Yegbe",
-        "Jean-Philippe Gbamin",
-        "Koffi Kouao",
-        "Jonathan Fischer"
-      ]
-    },
-    {
-      "homeTeam": "Nantes",
-      "awayTeam": "Lorient",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Matthis Abline",
-        "Youssef El Arabi",
-        "Mayckel Lahdo",
-        "Junior Mwanga",
-        "Hyeok-kyu Kwon",
-        "Dehmaine Tabibou",
-        "Nicolas Cozza",
-        "Tylel Tati",
-        "Chidozie Awaziem",
-        "Kelvin Amian",
-        "Anthony Lopes"
-      ],
-      "awayLineup": [
-        "Sambou Soumano",
-        "Karim Dermane",
-        "Aiyegun Tosin",
-        "Arsene Kouassi",
-        "Noah Doriann Cadiou",
-        "Arthur Avom",
-        "Theo Le Bris",
-        "Darlin Yongwa",
-        "Montassar Talbi",
-        "Bamo Meite",
-        "Yvon Mvogo"
-      ]
-    },
-    {
-      "homeTeam": "Toulouse",
-      "awayTeam": "Angers",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        "Emersonn",
-        "Yann Gboho",
-        "Frank Magri",
-        "Dayann Methalie",
-        "Alexis Vossah",
-        "Cristian Casseres Jr.",
-        "Aron Dønnum",
-        "Rasmus Nicolaisen",
-        "Charlie Cresswell",
-        "Mark McKenzie",
-        "Guillaume Restes"
-      ],
-      "awayLineup": [
-        "Sidiki Cherif",
-        "Amine Sbai",
-        "Louis Mouton",
-        "Yassin Belkhdim",
-        "Himad Abdelli",
-        "Haris Belkebla",
-        "Jacques Ekomie",
-        "Jordan Lefort",
-        "Ousmane Camara",
-        "Lilian Raolisoa",
-        "Herve Koffi"
-      ]
-    },
     {
       "homeTeam": "Auxerre",
       "awayTeam": "Lyon",
@@ -166,6 +67,105 @@
         "Clinton Mata",
         "Ainsley Maitland-Niles",
         "Dominik Greif"
+      ]
+    },
+    {
+      "homeTeam": "Brest",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Ludovic Ajorque",
+        "Pathe Mboup",
+        "Kamory Doumbia",
+        "Romain Del Castillo",
+        "Hugo Magnetti",
+        "Joris Chotard",
+        "Daouda Guindo",
+        "Soumaila Coulibaly",
+        "Brendan Chardonnet",
+        "Kenny Lala",
+        "Gregoire Coudert"
+      ],
+      "awayLineup": [
+        "Joel Asoro",
+        "Giorgi Tsitaishvili",
+        "Gauthier Hein",
+        "Cheikh Sabaly",
+        "Jessy Deminguet",
+        "Alpha Toure",
+        "Maxime Colin",
+        "Terry Yegbe",
+        "Jean-Philippe Gbamin",
+        "Koffi Kouao",
+        "Jonathan Fischer"
+      ]
+    },
+    {
+      "homeTeam": "Nantes",
+      "awayTeam": "Lorient",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Matthis Abline",
+        "Youssef El Arabi",
+        "Mayckel Lahdo",
+        "Junior Mwanga",
+        "Hyeok-kyu Kwon",
+        "Dehmaine Tabibou",
+        "Nicolas Cozza",
+        "Tylel Tati",
+        "Chidozie Awaziem",
+        "Kelvin Amian",
+        "Anthony Lopes"
+      ],
+      "awayLineup": [
+        "Sambou Soumano",
+        "Karim Dermane",
+        "Aiyegun Tosin",
+        "Arsene Kouassi",
+        "Noah Doriann Cadiou",
+        "Arthur Avom",
+        "Theo Le Bris",
+        "Darlin Yongwa",
+        "Montassar Talbi",
+        "Bamo Meite",
+        "Yvon Mvogo"
+      ]
+    },
+    {
+      "homeTeam": "Toulouse",
+      "awayTeam": "Angers",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        "Emersonn",
+        "Yann Gboho",
+        "Frank Magri",
+        "Dayann Methalie",
+        "Alexis Vossah",
+        "Cristian Casseres Jr.",
+        "Aron Dønnum",
+        "Rasmus Nicolaisen",
+        "Charlie Cresswell",
+        "Mark McKenzie",
+        "Guillaume Restes"
+      ],
+      "awayLineup": [
+        "Sidiki Cherif",
+        "Amine Sbai",
+        "Louis Mouton",
+        "Yassin Belkhdim",
+        "Himad Abdelli",
+        "Haris Belkebla",
+        "Jacques Ekomie",
+        "Jordan Lefort",
+        "Ousmane Camara",
+        "Lilian Raolisoa",
+        "Herve Koffi"
       ]
     },
     {
