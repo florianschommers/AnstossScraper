@@ -9198,7 +9198,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-23T15:31:28.18",
+    "lastUpdateDateTime": "2025-11-23T17:10:10.86",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9213,14 +9213,39 @@
       {
         "resultID": 120566,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134723,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 63,
+        "goalGetterID": 2698,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134728,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 80,
+        "goalGetterID": 18725,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
