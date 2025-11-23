@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-23T15:54:04.594579Z",
+  "lastUpdated": "2025-11-23T16:15:27.243791Z",
   "matches": [
     {
       "matchday": 3,
@@ -907,16 +907,6 @@
       "matchday": 13,
       "homeTeam": "Auxerre",
       "awayTeam": "Lyon",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Brest",
-      "awayTeam": "Fcmetz",
       "dateTime": "2025-11-23T17:15:00Z",
       "score": null,
       "isFinished": false,
@@ -950,6 +940,16 @@
       "dateTime": "2025-11-23T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lyon",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
