@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-23T19:18:26.860057Z",
+  "lastUpdated": "2025-11-23T19:28:52.955960Z",
   "matches": [
     {
       "matchday": 3,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Getafe",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Oviedo",
       "awayTeam": "Vallecano",
       "dateTime": "2025-11-23T21:00:00Z",
@@ -1049,6 +1039,16 @@
       "awayTeam": "Girona",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Getafe",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
