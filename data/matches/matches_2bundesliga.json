@@ -10502,7 +10502,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/150px-SV_Elversberg_Logo_2021.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-23T14:31:23.163",
+    "lastUpdateDateTime": "2025-11-23T14:52:28.903",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10517,7 +10517,7 @@
       {
         "resultID": 120551,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -10531,6 +10531,18 @@
         "scoreTeam2": 1,
         "matchMinute": 26,
         "goalGetterID": 23685,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134688,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 20533,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10573,7 +10585,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-23T13:39:11.97",
+    "lastUpdateDateTime": "2025-11-23T14:51:42.14",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10588,14 +10600,39 @@
       {
         "resultID": 120553,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134686,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 49,
+        "goalGetterID": 23640,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134687,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 56,
+        "goalGetterID": 17824,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1111,
       "locationCity": "Nürnberg",
