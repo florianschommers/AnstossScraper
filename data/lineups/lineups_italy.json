@@ -1,12 +1,45 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-23T17:28:58.549852",
+  "lastUpdated": "2025-11-23T18:40:13.625586",
   "lineups": [
+    {
+      "homeTeam": "Laziorom",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-11-23T00:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Mattia Zaccagni",
+        "Boulaye Dia",
+        "Gustav Isaksen",
+        "Toma Basic",
+        "Danilo Cataldi",
+        "Matteo Guendouzi",
+        "Luca Pellegrini",
+        "Alessio Romagnoli",
+        "Mario Gila",
+        "Adam Marusic",
+        "Ivan Provedel"
+      ],
+      "awayLineup": [
+        "Francesco Camarda",
+        "Riccardo Sottil",
+        "Medon Berisha",
+        "Tete Morente",
+        "Lassana Coulibaly",
+        "Ylber Ramadani",
+        "Antonino Gallo",
+        "Tiago Gabriel",
+        "Kialonda Gaspar",
+        "Danilo Veiga",
+        "Wladimiro Falcone"
+      ]
+    },
     {
       "homeTeam": "Hverona",
       "awayTeam": "Parma",
-      "dateTime": "2025-11-23T18:00:00Z",
+      "dateTime": "2025-11-23T20:45:00Z",
       "matchday": 12,
       "phase": "",
       "homeLineup": [
@@ -34,39 +67,6 @@
         "Mariano Troilo",
         "Enrico Delprato",
         "Edoardo Corvi"
-      ]
-    },
-    {
-      "homeTeam": "Intermailand",
-      "awayTeam": "Acmailand",
-      "dateTime": "2025-11-23T20:45:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Lautaro Martinez",
-        "Ange-Yoan Bonny",
-        "Federico Dimarco",
-        "Petar Sucic",
-        "Hakan Calhanoglu",
-        "Nicolo Barella",
-        "Denzel Dumfries",
-        "Alessandro Bastoni",
-        "Francesco Acerbi",
-        "Manuel Akanji",
-        "Yann Sommer"
-      ],
-      "awayLineup": [
-        "Rafael Leao",
-        "Christopher Nkunku",
-        "Pervis Estupinan",
-        "Samuele Ricci",
-        "Luka Modric",
-        "Youssouf Fofana",
-        "Alexis Saelemaekers",
-        "Strahinja Pavlovic",
-        "Matteo Gabbia",
-        "Koni De Winter",
-        "Mike Maignan"
       ]
     },
     {
