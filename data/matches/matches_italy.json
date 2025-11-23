@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-23T13:31:25.138064Z",
+  "lastUpdated": "2025-11-23T13:42:34.395182Z",
   "matches": [
     {
       "matchday": 3,
@@ -907,16 +907,6 @@
       "matchday": 12,
       "homeTeam": "Hverona",
       "awayTeam": "Parma",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 12,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Asrom",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": null,
       "isFinished": false,
@@ -960,6 +950,16 @@
       "dateTime": "2025-11-24T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Hverona",
+      "awayTeam": "Parma",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
