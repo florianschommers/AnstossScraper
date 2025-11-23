@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-23T21:49:49.045580Z",
+  "lastUpdated": "2025-11-23T21:59:34.184658Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Lille",
-      "awayTeam": "Parisfc",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "4:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "4:2"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Auxerre",
       "awayTeam": "Lyon",
       "dateTime": "2025-11-23T15:00:00Z",
@@ -949,6 +939,16 @@
       "awayTeam": "Angers",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Lille",
+      "awayTeam": "Parisfc",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "4:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
