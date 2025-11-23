@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-23T23:23:46.590798Z",
+  "lastUpdated": "2025-11-23T23:36:16.916021Z",
   "matches": [
     {
       "matchday": 3,
@@ -1005,51 +1005,11 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-11-23T21:00:00Z",
+      "homeTeam": "Espanyol",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-11-24T21:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-11-23T15:00:00Z",
-      "score": "0:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Realbetis",
-      "awayTeam": "Girona",
-      "dateTime": "2025-11-23T15:00:00Z",
-      "score": "1:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Getafe",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2025-11-23T15:00:00Z",
-      "score": "0:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Elche",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2025-11-23T15:00:00Z",
-      "score": "2:2",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1099,6 +1059,46 @@
       "awayTeam": "Mallorca",
       "dateTime": "2025-11-22T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Oviedo",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Realbetis",
+      "awayTeam": "Girona",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Getafe",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Elche",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
