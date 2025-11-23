@@ -9277,7 +9277,7 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-23T17:31:05.31",
+    "lastUpdateDateTime": "2025-11-23T18:15:25.817",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9293,13 +9293,26 @@
         "resultID": 120583,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134737,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 44,
+        "goalGetterID": 20089,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
