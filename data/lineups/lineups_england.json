@@ -1,12 +1,45 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-23T16:33:40.161116",
+  "lastUpdated": "2025-11-23T17:28:06.074970",
   "lineups": [
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2025-11-23T00:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Mikel Merino",
+        "Leandro Trossard",
+        "Eberechi Eze",
+        "Bukayo Saka",
+        "Declan Rice",
+        "Martin Zubimendi",
+        "Riccardo Calafiori",
+        "Piero Hincapie",
+        "William Saliba",
+        "Jurrien Timber",
+        "David Raya"
+      ],
+      "awayLineup": [
+        "Richarlison",
+        "Wilson Odobert",
+        "Mohammed Kudus",
+        "Destiny Udogie",
+        "Rodrigo Bentancur",
+        "Joao Palhinha",
+        "Djed Spence",
+        "Micky van de Ven",
+        "Cristian Romero",
+        "Kevin Danso",
+        "Guglielmo Vicario"
+      ]
+    },
     {
       "homeTeam": "Leedsunited",
       "awayTeam": "Astonvilla",
-      "dateTime": "2025-11-23T17:30:00Z",
+      "dateTime": "2025-11-23T21:00:00Z",
       "matchday": 12,
       "phase": "",
       "homeLineup": [
@@ -34,39 +67,6 @@
         "Ezri Konsa",
         "Matty Cash",
         "Emiliano Martinez"
-      ]
-    },
-    {
-      "homeTeam": "Burnley",
-      "awayTeam": "Chelsea",
-      "dateTime": "2025-11-22T21:00:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Jaidon Anthony",
-        "Zian Flemming",
-        "Loum Tchaouna",
-        "Florentino",
-        "Josh Cullen",
-        "Chimuanya Ugochukwu",
-        "Quilindschy Hartman",
-        "Maxime Esteve",
-        "Axel Tuanzebe",
-        "Kyle Walker",
-        "Martin Dubravka"
-      ],
-      "awayLineup": [
-        "Liam Delap",
-        "Jamie Gittens",
-        "Joao Pedro",
-        "Pedro Neto",
-        "Andrey Santos",
-        "Enzo Fernandez",
-        "Marc Cucurella",
-        "Trevoh Chalobah",
-        "Tosin Adarabioyo",
-        "Reece James",
-        "Robert Sanchez"
       ]
     },
     {
