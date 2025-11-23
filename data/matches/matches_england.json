@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-23T16:38:03.190339Z",
+  "lastUpdated": "2025-11-23T16:50:44.300577Z",
   "matches": [
     {
       "matchday": 3,
@@ -1088,6 +1088,16 @@
       "homeTeam": "West Ham United",
       "awayTeam": "Liverpool",
       "dateTime": "2025-11-30T15:05:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Arsenal",
+      "dateTime": "2025-11-30T17:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
