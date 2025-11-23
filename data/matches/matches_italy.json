@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-23T17:24:28.382452Z",
+  "lastUpdated": "2025-11-23T17:37:26.429554Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,18 +905,18 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Hverona",
-      "awayTeam": "Parma",
-      "dateTime": "2025-11-23T18:00:00Z",
-      "score": null,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-11-23T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 12,
-      "homeTeam": "Intermailand",
-      "awayTeam": "Acmailand",
+      "homeTeam": "Hverona",
+      "awayTeam": "Parma",
       "dateTime": "2025-11-23T20:45:00Z",
       "score": null,
       "isFinished": false,
