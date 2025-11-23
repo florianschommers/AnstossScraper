@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-23T19:50:28.637681Z",
+  "lastUpdated": "2025-11-23T19:59:14.300150Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,19 +905,19 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Hverona",
-      "awayTeam": "Parma",
-      "dateTime": "2025-11-23T20:45:00Z",
-      "score": null,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Acmailand",
+      "dateTime": "2025-11-23T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 12,
-      "homeTeam": "Cagliari",
-      "awayTeam": "Cfcgenua",
-      "dateTime": "2025-11-22T18:30:00Z",
+      "homeTeam": "Hverona",
+      "awayTeam": "Parma",
+      "dateTime": "2025-11-23T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1078,6 +1078,16 @@
       "homeTeam": "Bergamo",
       "awayTeam": "Acflorenz",
       "dateTime": "2025-11-30T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Asrom",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2025-11-30T20:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
