@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-23T18:27:11.696632Z",
+  "lastUpdated": "2025-11-23T18:47:55.873109Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Arsenal",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "4:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "4:1"
-    },
-    {
-      "matchday": 12,
       "homeTeam": "Leedsunited",
       "awayTeam": "Astonvilla",
       "dateTime": "2025-11-23T21:00:00Z",
@@ -929,6 +919,16 @@
       "awayTeam": "Astonvilla",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "4:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

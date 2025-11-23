@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-23T18:27:58.728333Z",
+  "lastUpdated": "2025-11-23T18:48:52.586572Z",
   "matches": [
     {
       "matchday": 3,
@@ -905,36 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Brest",
-      "awayTeam": "Fcmetz",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Nantes",
-      "awayTeam": "Lorient",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Toulouse",
-      "awayTeam": "Angers",
-      "dateTime": "2025-11-23T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Auxerre",
       "awayTeam": "Lyon",
       "dateTime": "2025-11-23T20:45:00Z",
@@ -949,6 +919,36 @@
       "awayTeam": "Lyon",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Brest",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Nantes",
+      "awayTeam": "Lorient",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Angers",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
