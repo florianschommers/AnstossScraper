@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-24T22:13:37.353467Z",
+  "lastUpdated": "2025-11-24T22:34:39.396257Z",
   "matches": [
     {
       "matchday": 4,
@@ -807,11 +807,11 @@
       "matchday": 12,
       "homeTeam": "Manunited",
       "awayTeam": "Everton",
-      "dateTime": "2025-11-24T00:00:00Z",
+      "dateTime": "2025-11-24T15:00:00Z",
       "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
     },
     {
       "matchday": 12,

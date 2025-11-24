@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-24T22:13:54.351047Z",
+  "lastUpdated": "2025-11-24T22:35:02.963465Z",
   "matches": [
     {
       "matchday": 4,
@@ -907,11 +907,11 @@
       "matchday": 13,
       "homeTeam": "Espanyol",
       "awayTeam": "Sevilla",
-      "dateTime": "2025-11-24T00:00:00Z",
+      "dateTime": "2025-11-24T15:00:00Z",
       "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
     },
     {
       "matchday": 13,
