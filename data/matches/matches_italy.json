@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-24T21:32:35.300213Z",
+  "lastUpdated": "2025-11-24T21:44:38.706647Z",
   "matches": [
     {
       "matchday": 4,
@@ -805,20 +805,20 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Pisa",
-      "dateTime": "2025-11-24T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 12,
       "homeTeam": "Turin",
       "awayTeam": "Como",
       "dateTime": "2025-11-24T15:00:00Z",
       "score": "1:5",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Pisa",
+      "dateTime": "2025-11-24T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
