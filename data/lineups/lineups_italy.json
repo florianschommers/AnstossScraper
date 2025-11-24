@@ -1,12 +1,45 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-24T19:24:30.976168",
+  "lastUpdated": "2025-11-24T20:36:51.164867",
   "lineups": [
+    {
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Pisa",
+      "dateTime": "2025-11-24T00:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Alieu Fadera",
+        "Andrea Pinamonti",
+        "Domenico Berardi",
+        "Ismael Kone",
+        "Nemanja Matic",
+        "Kristian Thorstvedt",
+        "Fali Cande",
+        "Tarik Muharemovic",
+        "Jay Idzes",
+        "Sebastian Walukiewicz",
+        "Arijanet Muric"
+      ],
+      "awayLineup": [
+        "M&#039;Bala Nzola",
+        "Matteo Tramoni",
+        "Mehdi Leris",
+        "Michel Aebischer",
+        "Gabriele Piccinini",
+        "Idrissa Toure",
+        "Samuele Angori",
+        "Simone Canestrelli",
+        "Antonio Caracciolo",
+        "Arturo Calabresi",
+        "Adrian Semper"
+      ]
+    },
     {
       "homeTeam": "Turin",
       "awayTeam": "Como",
-      "dateTime": "2025-11-24T00:00:00Z",
+      "dateTime": "2025-11-24T15:00:00Z",
       "matchday": 12,
       "phase": "",
       "homeLineup": [
@@ -33,39 +66,6 @@
         "Jacobo Ramon",
         "Ivan Smolcic",
         "Jean Butez"
-      ]
-    },
-    {
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Pisa",
-      "dateTime": "2025-11-24T20:45:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Alieu Fadera",
-        "Andrea Pinamonti",
-        "Domenico Berardi",
-        "Kristian Thorstvedt",
-        "Nemanja Matic",
-        "Ismael Kone",
-        "Fali Cande",
-        "Tarik Muharemovic",
-        "Jay Idzes",
-        "Sebastian Walukiewicz",
-        "Arijanet Muric"
-      ],
-      "awayLineup": [
-        "M&#039;Bala Nzola",
-        "Mehdi Leris",
-        "Matteo Tramoni",
-        "Samuele Angori",
-        "Gabriele Piccinini",
-        "Michel Aebischer",
-        "Idrissa Toure",
-        "Simone Canestrelli",
-        "Antonio Caracciolo",
-        "Arturo Calabresi",
-        "Adrian Semper"
       ]
     },
     {
