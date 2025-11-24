@@ -1,105 +1,39 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-23T23:30:09.765473",
+  "lastUpdated": "2025-11-24T01:53:34.997966",
   "lineups": [
     {
-      "homeTeam": "Leedsunited",
-      "awayTeam": "Astonvilla",
-      "dateTime": "2025-11-23T21:00:00Z",
+      "homeTeam": "Manunited",
+      "awayTeam": "Everton",
+      "dateTime": "2025-11-24T21:00:00Z",
       "matchday": 12,
       "phase": "",
       "homeLineup": [
-        "Noah Okafor",
-        "Lukas Nmecha",
-        "Brenden Aaronson",
-        "Anton Stach",
-        "Ethan Ampadu",
-        "Sean Longstaff",
-        "Gabriel Gudmundsson",
-        "Pascal Struijk",
-        "Joe Rodon",
-        "Jayden Bogle",
-        "Lucas Perri"
+        "Matheus Cunha",
+        "Bryan Mbeumo",
+        "Amad Diallo",
+        "Patrick Dorgu",
+        "Bruno Fernandes",
+        "Casemiro",
+        "Noussair Mazraoui",
+        "Luke Shaw",
+        "Harry Maguire",
+        "Matthijs de Ligt",
+        "Senne Lammens"
       ],
       "awayLineup": [
-        "Ollie Watkins",
-        "Morgan Rogers",
-        "Emiliano Buendia",
-        "Youri Tielemans",
-        "Boubacar Kamara",
-        "John McGinn",
-        "Lucas Digne",
-        "Pau Torres",
-        "Ezri Konsa",
-        "Matty Cash",
-        "Emiliano Martinez"
-      ]
-    },
-    {
-      "homeTeam": "Leedsunited",
-      "awayTeam": "Astonvilla",
-      "dateTime": "2025-11-23T15:00:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Noah Okafor",
-        "Lukas Nmecha",
-        "Brenden Aaronson",
-        "Anton Stach",
-        "Ethan Ampadu",
-        "Sean Longstaff",
-        "Gabriel Gudmundsson",
-        "Pascal Struijk",
-        "Joe Rodon",
-        "Jayden Bogle",
-        "Lucas Perri"
-      ],
-      "awayLineup": [
-        "Ollie Watkins",
-        "Morgan Rogers",
-        "Emiliano Buendia",
-        "Youri Tielemans",
-        "Boubacar Kamara",
-        "John McGinn",
-        "Lucas Digne",
-        "Pau Torres",
-        "Ezri Konsa",
-        "Matty Cash",
-        "Emiliano Martinez"
-      ]
-    },
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2025-11-23T15:00:00Z",
-      "matchday": 12,
-      "phase": "",
-      "homeLineup": [
-        "Mikel Merino",
-        "Leandro Trossard",
-        "Eberechi Eze",
-        "Bukayo Saka",
-        "Declan Rice",
-        "Martin Zubimendi",
-        "Riccardo Calafiori",
-        "Piero Hincapie",
-        "William Saliba",
-        "Jurrien Timber",
-        "David Raya"
-      ],
-      "awayLineup": [
-        "Richarlison",
-        "Wilson Odobert",
-        "Mohammed Kudus",
-        "Destiny Udogie",
-        "Rodrigo Bentancur",
-        "Joao Palhinha",
-        "Djed Spence",
-        "Micky van de Ven",
-        "Cristian Romero",
-        "Kevin Danso",
-        "Guglielmo Vicario"
+        "Thierno Barry",
+        "Jack Grealish",
+        "Kiernan Dewsbury-Hall",
+        "Iliman Ndiaye",
+        "Idrissa Gueye",
+        "Tim Iroegbunam",
+        "Vitaliy Mykolenko",
+        "Michael Keane",
+        "James Tarkowski",
+        "James Garner",
+        "Jordan Pickford"
       ]
     },
     {
@@ -330,6 +264,72 @@
         "Ruben Dias",
         "Matheus Nunes",
         "Gianluigi Donnarumma"
+      ]
+    },
+    {
+      "homeTeam": "Leedsunited",
+      "awayTeam": "Astonvilla",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Noah Okafor",
+        "Lukas Nmecha",
+        "Brenden Aaronson",
+        "Anton Stach",
+        "Ethan Ampadu",
+        "Sean Longstaff",
+        "Gabriel Gudmundsson",
+        "Pascal Struijk",
+        "Joe Rodon",
+        "Jayden Bogle",
+        "Lucas Perri"
+      ],
+      "awayLineup": [
+        "Ollie Watkins",
+        "Morgan Rogers",
+        "Emiliano Buendia",
+        "Youri Tielemans",
+        "Boubacar Kamara",
+        "John McGinn",
+        "Lucas Digne",
+        "Pau Torres",
+        "Ezri Konsa",
+        "Matty Cash",
+        "Emiliano Martinez"
+      ]
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2025-11-23T15:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        "Mikel Merino",
+        "Leandro Trossard",
+        "Eberechi Eze",
+        "Bukayo Saka",
+        "Declan Rice",
+        "Martin Zubimendi",
+        "Riccardo Calafiori",
+        "Piero Hincapie",
+        "William Saliba",
+        "Jurrien Timber",
+        "David Raya"
+      ],
+      "awayLineup": [
+        "Richarlison",
+        "Wilson Odobert",
+        "Mohammed Kudus",
+        "Destiny Udogie",
+        "Rodrigo Bentancur",
+        "Joao Palhinha",
+        "Djed Spence",
+        "Micky van de Ven",
+        "Cristian Romero",
+        "Kevin Danso",
+        "Guglielmo Vicario"
       ]
     }
   ]
