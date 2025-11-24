@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-24T23:18:34.143501Z",
+  "lastUpdated": "2025-11-24T23:33:24.191283Z",
   "matches": [
     {
       "matchday": 4,
@@ -805,26 +805,6 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Turin",
-      "awayTeam": "Como",
-      "dateTime": "2025-11-24T15:00:00Z",
-      "score": "1:5",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 12,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Pisa",
-      "dateTime": "2025-11-24T15:00:00Z",
-      "score": "2:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 12,
       "homeTeam": "Cagliari",
       "awayTeam": "Cfcgenua",
       "dateTime": "2025-11-22T15:00:00Z",
@@ -899,6 +879,26 @@
       "awayTeam": "Acmailand",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Turin",
+      "awayTeam": "Como",
+      "dateTime": "2025-11-24T15:00:00Z",
+      "score": "1:5",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Pisa",
+      "dateTime": "2025-11-24T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

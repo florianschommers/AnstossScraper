@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-24T23:17:54.357193Z",
+  "lastUpdated": "2025-11-24T23:32:55.362601Z",
   "matches": [
     {
       "matchday": 4,
@@ -805,16 +805,6 @@
     },
     {
       "matchday": 12,
-      "homeTeam": "Manunited",
-      "awayTeam": "Everton",
-      "dateTime": "2025-11-24T15:00:00Z",
-      "score": "0:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 12,
       "homeTeam": "Burnley",
       "awayTeam": "Chelsea",
       "dateTime": "2025-11-22T15:00:00Z",
@@ -899,6 +889,16 @@
       "awayTeam": "Tottenham Hotspur",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Manunited",
+      "awayTeam": "Everton",
+      "dateTime": "2025-11-24T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

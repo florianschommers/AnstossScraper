@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-24T23:18:14.254192Z",
+  "lastUpdated": "2025-11-24T23:33:10.096818Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Sevilla",
-      "dateTime": "2025-11-24T15:00:00Z",
-      "score": "2:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Valencia",
       "awayTeam": "Levante",
       "dateTime": "2025-11-21T15:00:00Z",
@@ -999,6 +989,16 @@
       "awayTeam": "Realmadrid",
       "dateTime": "2025-11-23T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-11-24T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
