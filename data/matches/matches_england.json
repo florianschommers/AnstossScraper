@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-25T20:37:42.502580Z",
+  "lastUpdated": "2025-11-25T20:50:28.697874Z",
   "matches": [
     {
       "matchday": 4,
@@ -1018,6 +1018,16 @@
       "homeTeam": "Fulham",
       "awayTeam": "Manchester City",
       "dateTime": "2025-12-02T20:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2025-12-02T21:15:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
