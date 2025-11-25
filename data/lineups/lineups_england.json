@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-25T22:29:32.329128",
+  "lastUpdated": "2025-11-25T22:45:20.466882",
   "lineups": [
     {
       "homeTeam": "Brentford",
@@ -10,30 +10,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Igor Thiago",
-        "Kevin Schade",
-        "Mikkel Damsgaard",
-        "Dango Ouattara",
-        "Yegor Yarmolyuk",
-        "Jordan Henderson",
-        "Kristoffer Ajer",
-        "Sepp van den Berg",
-        "Nathan Collins",
-        "Michael Kayode",
-        "Caoimhin Kelleher"
+        {
+          "name": "Igor Thiago",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kevin Schade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mikkel Damsgaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dango Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yegor Yarmolyuk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Henderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sepp van den Berg",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Collins",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Kayode",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Caoimhin Kelleher",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Jaidon Anthony",
-        "Zian Flemming",
-        "Loum Tchaouna",
-        "Florentino",
-        "Josh Cullen",
-        "Chimuanya Ugochukwu",
-        "Quilindschy Hartman",
-        "Maxime Esteve",
-        "Axel Tuanzebe",
-        "Kyle Walker",
-        "Martin Dubravka"
+        {
+          "name": "Jaidon Anthony",
+          "position": "Angriff"
+        },
+        {
+          "name": "Zian Flemming",
+          "position": "Angriff"
+        },
+        {
+          "name": "Loum Tchaouna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florentino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Cullen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chimuanya Ugochukwu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Esteve",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kyle Walker",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Martin Dubravka",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -43,30 +109,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Savinho",
-        "Omar Marmoush",
-        "Oscar Bobb",
-        "Tijjani Reijnders",
-        "Nico Gonzalez",
-        "Rico Lewis",
-        "Rayan Ait-Nouri",
-        "Nathan Ake",
-        "John Stones",
-        "Abdukodir Khusanov",
-        "James Trafford"
+        {
+          "name": "Savinho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Omar Marmoush",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oscar Bobb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tijjani Reijnders",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rico Lewis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Ait-Nouri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathan Ake",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John Stones",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Trafford",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Noah Okafor",
-        "Lukas Nmecha",
-        "Brenden Aaronson",
-        "Anton Stach",
-        "Ethan Ampadu",
-        "Sean Longstaff",
-        "Gabriel Gudmundsson",
-        "Pascal Struijk",
-        "Joe Rodon",
-        "Jayden Bogle",
-        "Lucas Perri"
+        {
+          "name": "Noah Okafor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lukas Nmecha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Brenden Aaronson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anton Stach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sean Longstaff",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pascal Struijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Rodon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Perri",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -76,29 +208,92 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Wilson Isidor",
-        "Enzo Le Fee",
-        "Noah Sadiki",
-        "Granit Xhaka",
-        "Bertrand Traore",
-        "Reinildo Mandava",
-        "Lutsharel Geertruida",
-        "Dan Ballard",
-        "Nordi Mukiele",
-        "Trai Hume",
-        "Robin Roefs"
+        {
+          "name": "Wilson Isidor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Enzo Le Fee",
+          "position": "Angriff"
+        },
+        {
+          "name": "Noah Sadiki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bertrand Traore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reinildo Mandava",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lutsharel Geertruida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Ballard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nordi Mukiele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trai Hume",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Roefs",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Evanilson",
-        "Marcus Tavernier",
-        "Eli Kroupi",
-        "David Brooks",
-        "Tyler Adams",
-        "Alex Scott",
-        "Marcos Senesi",
-        "Bafode Diakite",
-        "Lewis Cook",
-        "Djordje Petrovic"
+        {
+          "name": "Evanilson",
+          "position": ""
+        },
+        {
+          "name": "Marcus Tavernier",
+          "position": ""
+        },
+        {
+          "name": "Eli Kroupi",
+          "position": ""
+        },
+        {
+          "name": "David Brooks",
+          "position": ""
+        },
+        {
+          "name": "Tyler Adams",
+          "position": ""
+        },
+        {
+          "name": "Alex Scott",
+          "position": ""
+        },
+        {
+          "name": "Marcos Senesi",
+          "position": ""
+        },
+        {
+          "name": "Bafode Diakite",
+          "position": ""
+        },
+        {
+          "name": "Lewis Cook",
+          "position": ""
+        },
+        {
+          "name": "Djordje Petrovic",
+          "position": ""
+        }
       ]
     },
     {
@@ -108,30 +303,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Thierno Barry",
-        "Jack Grealish",
-        "Kiernan Dewsbury-Hall",
-        "Iliman Ndiaye",
-        "Idrissa Gueye",
-        "James Garner",
-        "Vitaliy Mykolenko",
-        "Michael Keane",
-        "James Tarkowski",
-        "Seamus Coleman",
-        "Jordan Pickford"
+        {
+          "name": "Thierno Barry",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jack Grealish",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kiernan Dewsbury-Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Idrissa Gueye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James Garner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaliy Mykolenko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Keane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Tarkowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Seamus Coleman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Pickford",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Anthony Gordon",
-        "Harvey Barnes",
-        "Joe Willock",
-        "Tino Livramento",
-        "Bruno Guimaraes",
-        "Sandro Tonali",
-        "Jacob Murphy",
-        "Dan Burn",
-        "Fabian Schar",
-        "Malick Thiaw",
-        "Nick Pope"
+        {
+          "name": "Anthony Gordon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Harvey Barnes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Joe Willock",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tino Livramento",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Guimaraes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacob Murphy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Burn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabian Schar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nick Pope",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -141,30 +402,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Richarlison",
-        "Wilson Odobert",
-        "Mohammed Kudus",
-        "Destiny Udogie",
-        "Rodrigo Bentancur",
-        "Joao Palhinha",
-        "Djed Spence",
-        "Micky van de Ven",
-        "Cristian Romero",
-        "Kevin Danso",
-        "Guglielmo Vicario"
+        {
+          "name": "Richarlison",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wilson Odobert",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Destiny Udogie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Palhinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djed Spence",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Danso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Raul Jimenez",
-        "Kevin",
-        "Josh King",
-        "Harry Wilson",
-        "Alex Iwobi",
-        "Sander Berge",
-        "Ryan Sessegnon",
-        "Calvin Bassey",
-        "Joachim Andersen",
-        "Kenny Tete",
-        "Bernd Leno"
+        {
+          "name": "Raul Jimenez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kevin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Josh King",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Sessegnon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joachim Andersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernd Leno",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -174,30 +501,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Yeremy Pino",
-        "Jean-Philippe Mateta",
-        "Ismaila Sarr",
-        "Tyrick Mitchell",
-        "Daichi Kamada",
-        "Adam Wharton",
-        "Daniel Munoz",
-        "Marc Guehi",
-        "Maxence Lacroix",
-        "Chris Richards",
-        "Dean Henderson"
+        {
+          "name": "Yeremy Pino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jean-Philippe Mateta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ismaila Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrick Mitchell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daichi Kamada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Wharton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Guehi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Chris Richards",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dean Henderson",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Joshua Zirkzee",
-        "Amad Diallo",
-        "Bryan Mbeumo",
-        "Patrick Dorgu",
-        "Casemiro",
-        "Bruno Fernandes",
-        "Noussair Mazraoui",
-        "Luke Shaw",
-        "Matthijs de Ligt",
-        "Leny Yoro",
-        "Senne Lammens"
+        {
+          "name": "Joshua Zirkzee",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Dorgu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Casemiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luke Shaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leny Yoro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Senne Lammens",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -207,30 +600,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Igor Jesus",
-        "Nicolas Dominguez",
-        "Morgan Gibbs-White",
-        "Dan Ndoye",
-        "Elliot Anderson",
-        "Ibrahim Sangare",
-        "Neco Williams",
-        "Murillo",
-        "Nikola Milenkovic",
-        "Nicolo Savona",
-        "Matz Sels"
+        {
+          "name": "Igor Jesus",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolas Dominguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Morgan Gibbs-White",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Neco Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Milenkovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolo Savona",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matz Sels",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Danny Welbeck",
-        "Diego Gomez",
-        "Georginio Rutter",
-        "Yankuba Minteh",
-        "Yasin Ayari",
-        "Carlos Baleba",
-        "Ferdi Kadioglu",
-        "Olivier Boscagli",
-        "Jan Paul van Hecke",
-        "Mats Wieffer",
-        "Bart Verbruggen"
+        {
+          "name": "Danny Welbeck",
+          "position": "Angriff"
+        },
+        {
+          "name": "Diego Gomez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Georginio Rutter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yankuba Minteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yasin Ayari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Baleba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ferdi Kadioglu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Olivier Boscagli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Wieffer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bart Verbruggen",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -240,30 +699,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Ollie Watkins",
-        "Morgan Rogers",
-        "Emiliano Buendia",
-        "Youri Tielemans",
-        "Boubacar Kamara",
-        "John McGinn",
-        "Lucas Digne",
-        "Pau Torres",
-        "Ezri Konsa",
-        "Matty Cash",
-        "Emiliano Martinez"
+        {
+          "name": "Ollie Watkins",
+          "position": "Angriff"
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emiliano Buendia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boubacar Kamara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "John McGinn",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Digne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pau Torres",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matty Cash",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emiliano Martinez",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Tolu Arokodare",
-        "Jorgen Strand Larsen",
-        "Marshall Munetsi",
-        "Andre",
-        "Joao Gomes",
-        "David Moller Wolfe",
-        "Toti",
-        "Ladislav Krejci",
-        "Emmanuel Agbadou",
-        "Jackson Tchatchoua",
-        "Sam Johnstone"
+        {
+          "name": "Tolu Arokodare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jorgen Strand Larsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marshall Munetsi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Moller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ladislav Krejci",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emmanuel Agbadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jackson Tchatchoua",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Johnstone",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -273,30 +798,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Luis Guilherme",
-        "Callum Wilson",
-        "Jarrod Bowen",
-        "El Hadji Malick Diouf",
-        "Mateus Fernandes",
-        "Freddie Potts",
-        "Aaron Wan-Bissaka",
-        "Jean-Clair Todibo",
-        "Igor Julio",
-        "Maximilian Kilman",
-        "Alphonse Areola"
+        {
+          "name": "Luis Guilherme",
+          "position": "Angriff"
+        },
+        {
+          "name": "Callum Wilson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "El Hadji Malick Diouf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateus Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Freddie Potts",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean-Clair Todibo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Igor Julio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Kilman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alphonse Areola",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Cody Gakpo",
-        "Alexander Isak",
-        "Mohamed Salah",
-        "Alexis Mac Allister",
-        "Ryan Gravenberch",
-        "Curtis Jones",
-        "Milos Kerkez",
-        "Virgil van Dijk",
-        "Ibrahima Konate",
-        "Dominik Szoboszlai",
-        "Alisson"
+        {
+          "name": "Cody Gakpo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Curtis Jones",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -306,30 +897,96 @@
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        "Pedro Neto",
-        "Alejandro Garnacho",
-        "Enzo Fernandez",
-        "Estevao",
-        "Moises Caicedo",
-        "Reece James",
-        "Marc Cucurella",
-        "Trevoh Chalobah",
-        "Wesley Fofana",
-        "Malo Gusto",
-        "Robert Sanchez"
+        {
+          "name": "Pedro Neto",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alejandro Garnacho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Enzo Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Estevao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moises Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reece James",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Trevoh Chalobah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wesley Fofana",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malo Gusto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert Sanchez",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Mikel Merino",
-        "Leandro Trossard",
-        "Eberechi Eze",
-        "Bukayo Saka",
-        "Declan Rice",
-        "Martin Zubimendi",
-        "Riccardo Calafiori",
-        "Piero Hincapie",
-        "William Saliba",
-        "Jurrien Timber",
-        "David Raya"
+        {
+          "name": "Mikel Merino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Leandro Trossard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piero Hincapie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Saliba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        }
       ]
     }
   ]
