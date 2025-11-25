@@ -269,10 +269,11 @@ def find_current_matchday(league_path: str, season: str, is_international: bool 
     
     return None
 
-def find_next_matchday(league_path: str, season: str, current_matchday: int) -> Optional[int]:
+def get_next_matchday(current_matchday: int) -> Optional[int]:
     """
-    Findet den nächsten Spieltag nach dem aktuellen Spieltag.
+    Gibt den nächsten Spieltag zurück (einfach +1).
     Nur für normale Ligen (nicht International, nicht DFB-Pokal).
+    Keine HTTP-Anfrage nötig - wir nehmen einfach den aktuellen Spieltag + 1.
     """
     if current_matchday is None or not isinstance(current_matchday, int):
         return None
@@ -281,19 +282,7 @@ def find_next_matchday(league_path: str, season: str, current_matchday: int) -> 
     if next_matchday > 34:  # Maximale Spieltage
         return None
     
-    now = datetime.now()
-    url = f"https://www.fussballdaten.de/{league_path}/{season}/{next_matchday}/"
-    html = fetch_html(url)
-    
-    if not html or len(html) < 1000:
-        return None
-    
-    # Prüfe ob Spiele in der Zukunft sind
-    if has_future_matches(html, now):
-        print(f"   📅 Nächster Spieltag gefunden: {next_matchday}")
-        return next_matchday
-    
-    return None
+    return next_matchday
 
 def has_future_matches(html: str, now: datetime) -> bool:
     """
@@ -581,15 +570,14 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
     print(f"\n🔍 Suche aktuellen Spieltag...")
     current_matchday = find_current_matchday(league_path, scraping_season, is_international, liga_id)
     
-    # WICHTIG: Für normale Ligen (nicht International, nicht DFB-Pokal) auch nächsten Spieltag finden
+    # WICHTIG: Für normale Ligen (nicht International, nicht DFB-Pokal) auch nächsten Spieltag berechnen
     next_matchday = None
     if not is_international and liga_id != 3 and current_matchday and isinstance(current_matchday, int):
-        print(f"\n🔍 Suche nächsten Spieltag...")
-        next_matchday = find_next_matchday(league_path, scraping_season, current_matchday)
+        next_matchday = get_next_matchday(current_matchday)
         if next_matchday:
-            print(f"✅ Nächster Spieltag: {next_matchday}")
+            print(f"✅ Nächster Spieltag: {next_matchday} (aktueller Spieltag + 1)")
         else:
-            print(f"⚠️ Kein nächster Spieltag gefunden")
+            print(f"⚠️ Kein nächster Spieltag (bereits letzter Spieltag)")
     
     if current_matchday:
         matchdays_to_scrape = [current_matchday]
