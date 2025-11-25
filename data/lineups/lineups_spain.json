@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-11-25T22:29:56.087452",
+  "lastUpdated": "2025-11-25T22:45:45.700203",
   "lineups": [
     {
       "homeTeam": "Getafe",
@@ -10,30 +10,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Borja Mayoral",
-        "Mario Martin",
-        "Mauro Wilney Arambarri Rosa",
-        "Luis Milla",
-        "Adrian Liso",
-        "Djene",
-        "Diego Rico",
-        "Domingos Duarte",
-        "Abdel Abqar",
-        "Juan Iglesias",
-        "David Soria"
+        {
+          "name": "Borja Mayoral",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mario Martin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mauro Wilney Arambarri Rosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Liso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djene",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Rico",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domingos Duarte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdel Abqar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Andre Silva",
-        "Rafa Mir",
-        "Aleix Febas",
-        "Marc Aguado",
-        "Grady Diangana",
-        "German Valera",
-        "Victor Chust",
-        "David Affengruber",
-        "Alvaro Nunez",
-        "Hector Fort",
-        "Inaki Pena"
+        {
+          "name": "Andre Silva",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rafa Mir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleix Febas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Aguado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Grady Diangana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "German Valera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Chust",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Affengruber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alvaro Nunez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hector Fort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Inaki Pena",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -43,30 +109,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Mateo Joseph",
-        "Jan Virgili",
-        "Pablo Torre",
-        "Antonio Sanchez",
-        "Omar Mascarell",
-        "Samu Costa",
-        "Johan Mojica",
-        "Antonio Raillo",
-        "Martin Valjent",
-        "Pablo Maffeo",
-        "Lucas Bergstrom"
+        {
+          "name": "Mateo Joseph",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jan Virgili",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Torre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Sanchez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Mascarell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samu Costa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Mojica",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Raillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Martin Valjent",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Maffeo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Bergstrom",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Aimar Oroz",
-        "Raul Garcia",
-        "Victor Munoz",
-        "Abel Bretones",
-        "Moi Gomez",
-        "Lucas Torro",
-        "Moncayola",
-        "Juan Cruz",
-        "Catena",
-        "Enzo Boyomo",
-        "Sergio Herrera"
+        {
+          "name": "Aimar Oroz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raul Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Victor Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abel Bretones",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moi Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Torro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Cruz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enzo Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Herrera",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -76,30 +208,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Robert Lewandowski",
-        "Ferran Torres",
-        "Fermin Lopez",
-        "Lamine Yamal",
-        "Frenkie de Jong",
-        "Eric Garcia",
-        "Alejandro Balde",
-        "Pau Cubarsi",
-        "Ronald Araujo",
-        "Jules Kounde",
-        "Joan Garcia"
+        {
+          "name": "Robert Lewandowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fermin Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ronald Araujo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jules Kounde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Lucas Boye",
-        "Toni Martinez",
-        "Carles Alena",
-        "Denis Suarez",
-        "Antonio Blanco",
-        "Carlos Vicente",
-        "Youssef Enriquez",
-        "Jon Pacheco",
-        "Nahuel Tenaglia",
-        "Jonny Otto",
-        "Antonio Sivera"
+        {
+          "name": "Lucas Boye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Toni Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carles Alena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denis Suarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Vicente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssef Enriquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Pacheco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -109,30 +307,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Karl Etta Eyong",
-        "Ivan Romero",
-        "Oriol Rey",
-        "Unai Vencedor",
-        "Unai Elgezabal",
-        "Carlos Alvarez",
-        "Manu Sanchez",
-        "Adrian de la Fuente",
-        "Matias Moreno",
-        "Jeremy Toljan",
-        "Mathew Ryan"
+        {
+          "name": "Karl Etta Eyong",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai Vencedor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai Elgezabal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Alvarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Sanchez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian de la Fuente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matias Moreno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Gorka Guruzeta",
-        "Robert Navarro",
-        "Oihan Sancet",
-        "Alex Berenguer",
-        "Alejandro Rego",
-        "Inigo Ruiz de Galarreta",
-        "Adama Boiro",
-        "Aitor Paredes",
-        "Dani Vivian",
-        "Jesus Areso",
-        "Unai Simon"
+        {
+          "name": "Gorka Guruzeta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oihan Sancet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Rego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adama Boiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jesus Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Simon",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -142,30 +406,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Julian Alvarez",
-        "Nico Gonzalez",
-        "Alex Baena",
-        "Pablo Barrios",
-        "Marcos Llorente",
-        "Koke",
-        "Matteo Ruggeri",
-        "Clement Lenglet",
-        "Jose Maria Gimenez",
-        "Nahuel Molina",
-        "Juan Musso"
+        {
+          "name": "Julian Alvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Clement Lenglet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Maria Gimenez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Musso",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Salomon Rondon",
-        "Ilyas Chaira",
-        "Santi Cazorla",
-        "Federico Vinas",
-        "Leander Dendoncker",
-        "Santiago Colombatto",
-        "Javi Lopez",
-        "Dani Calvo",
-        "David Costas",
-        "Nacho Vidal",
-        "Aaron Escandell"
+        {
+          "name": "Salomon Rondon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ilyas Chaira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Santi Cazorla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Vinas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leander Dendoncker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Colombatto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Calvo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Costas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nacho Vidal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Escandell",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -175,30 +505,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Brais Mendez",
-        "Mikel Oyarzabal",
-        "Arsen Zakharyan",
-        "Carlos Soler",
-        "Jon Gorrotxategi",
-        "Goncalo Guedes",
-        "Aihen Munoz",
-        "Duje Caleta-Car",
-        "Jon Martin",
-        "Jon Aramburu",
-        "Alex Remiro"
+        {
+          "name": "Brais Mendez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arsen Zakharyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Goncalo Guedes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aihen Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Aramburu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Remiro",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Tani Oluwaseyi",
-        "Nicolas Pepe",
-        "Tajon Buchanan",
-        "Pape Gueye",
-        "Thomas Partey",
-        "Santi Comesana",
-        "Sergi Cardona",
-        "Renato Veiga",
-        "Juan Foyth",
-        "Santiago Mourino",
-        "Luiz Junior"
+        {
+          "name": "Tani Oluwaseyi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolas Pepe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tajon Buchanan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Gueye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thomas Partey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santi Comesana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergi Cardona",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Foyth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Santiago Mourino",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luiz Junior",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -208,30 +604,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Akor Adams",
-        "Ruben Vargas",
-        "Peque Fernandez",
-        "Adnan Januzaj",
-        "Batista Mendy",
-        "Djibril Sow",
-        "Gabriel Suazo",
-        "Marcao",
-        "Andres Lopez Gallo",
-        "Juanlu Sanchez",
-        "Odysseas Vlachodimos"
+        {
+          "name": "Akor Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ruben Vargas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Peque Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adnan Januzaj",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Batista Mendy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andres Lopez Gallo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juanlu Sanchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Cucho Hernandez",
-        "Rodrigo Riquelme",
-        "Giovani Lo Celso",
-        "Antony",
-        "Pablo Fornals",
-        "Marc Roca",
-        "Valentin Gomez",
-        "Natan",
-        "Marc Bartra",
-        "Hector Bellerin",
-        "Alvaro Valles"
+        {
+          "name": "Cucho Hernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rodrigo Riquelme",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giovani Lo Celso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Fornals",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Roca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Natan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Bartra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hector Bellerin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alvaro Valles",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -241,30 +703,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Bryan Zaragoza",
-        "Pablo Duran",
-        "Iago Aspas",
-        "Sergio Carreira",
-        "Ilaix Moriba",
-        "Fran Beltran",
-        "Javi Rueda",
-        "Marcos Alonso",
-        "Carl Starfelt",
-        "Javi Rodriguez",
-        "Ionut Radu"
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Duran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Iago Aspas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Carreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Beltran",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Rueda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Kike Garcia",
-        "Pere Milla",
-        "Ramon Terrats",
-        "Edu Exposito",
-        "Urko Gonzalez de Zarate",
-        "Tyrhys Dolan",
-        "Carlos Romero",
-        "Leandro Cabrera",
-        "Fernando Calero",
-        "Omar El Hilali",
-        "Manuel Iori"
+        {
+          "name": "Kike Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ramon Terrats",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -274,30 +802,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Vladyslav Vanat",
-        "Bryan Gil",
-        "Azzedine Ounahi",
-        "Ivan Martin",
-        "Viktor Tsygankov",
-        "Axel Witsel",
-        "Alex Moreno",
-        "Vitor Reis",
-        "Arnau Martinez",
-        "Hugo Rincon",
-        "Paulo Gazzaniga"
+        {
+          "name": "Vladyslav Vanat",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bryan Gil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Tsygankov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Axel Witsel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Moreno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitor Reis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arnau Martinez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hugo Rincon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paulo Gazzaniga",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Kylian Mbappe",
-        "Rodrygo",
-        "Jude Bellingham",
-        "Fran Garcia",
-        "Dani Ceballos",
-        "Arda Guler",
-        "Trent Alexander-Arnold",
-        "Alvaro Fernandez Carreras",
-        "Dean Huijsen",
-        "Raul Asencio",
-        "Thibaut Courtois"
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rodrygo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Ceballos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alvaro Fernandez Carreras",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
       ]
     },
     {
@@ -307,30 +901,96 @@
       "matchday": 14,
       "phase": "",
       "homeLineup": [
-        "Sergio Camello",
-        "Alvaro Garcia",
-        "Isi Palazon",
-        "Jorge de Frutos",
-        "Unai Lopez",
-        "Oscar Valentin",
-        "Pep Chavarria",
-        "Nobel Mendy",
-        "Florian Lejeune",
-        "Andrei Ratiu",
-        "Augusto Batalla"
+        {
+          "name": "Sergio Camello",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alvaro Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isi Palazon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorge de Frutos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Valentin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pep Chavarria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrei Ratiu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Augusto Batalla",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
-        "Lucas Beltran",
-        "Arnaut Danjuma",
-        "Andre Almeida",
-        "Diego Lopez",
-        "Pepelu",
-        "Javi Guerra",
-        "Jose Gaya",
-        "Jose Copete",
-        "Cesar Tarrega",
-        "Thierry Correia",
-        "Julen Agirrezabala"
+        {
+          "name": "Lucas Beltran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andre Almeida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Guerra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Gaya",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Copete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cesar Tarrega",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thierry Correia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julen Agirrezabala",
+          "position": "Torwart"
+        }
       ]
     }
   ]
