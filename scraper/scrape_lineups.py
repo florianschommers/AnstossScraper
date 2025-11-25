@@ -118,6 +118,40 @@ def analyze_start11(html_segment: str) -> List[str]:
     
     return list(slug_to_name.values())
 
+def assign_positions_by_order(players: List[str]) -> List[Dict[str, str]]:
+    """
+    Ordnet Positionen basierend auf der Reihenfolge zu.
+    Regel:
+    - Position 0, 1 (erste 2) = "Angriff" (Stürmer)
+    - Position 10 (letzter) = "Torwart"
+    - Position 7, 8, 9 (3 über dem Torwart) = "Abwehr"
+    - Position 2-6 (Rest) = "Mittelfeld"
+    
+    Gibt Liste von Dicts zurück: [{"name": "Spieler", "position": "Angriff"}, ...]
+    """
+    if len(players) != 11:
+        # Fallback: Wenn nicht genau 11 Spieler, keine Positionen zuordnen
+        return [{"name": player, "position": ""} for player in players]
+    
+    result = []
+    for i, player in enumerate(players):
+        if i < 2:
+            # Erste 2 = Stürmer
+            position = "Angriff"
+        elif i >= 7 and i < 10:
+            # Position 7, 8, 9 = Abwehr
+            position = "Abwehr"
+        elif i == 10:
+            # Letzter = Torwart
+            position = "Torwart"
+        else:
+            # Position 2-6 = Mittelfeld
+            position = "Mittelfeld"
+        
+        result.append({"name": player, "position": position})
+    
+    return result
+
 def simplify_player_name(name: str) -> str:
     """Vereinfacht Spielernamen (wie in LiveBingo.kt)"""
     if not name:
@@ -309,7 +343,7 @@ def has_future_matches(html: str, now: datetime) -> bool:
     
     return False
 
-def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str]]]:
+def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str], bool]]:
     """Scrapt Aufstellung für ein einzelnes Spiel - OPTIMIERT: Testet zuerst nur ±2 Spieltage, dann alle anderen"""
     # Erstelle Team-Slugs mit der korrekten Konvertierungs-Logik
     home_slug = convert_team_to_slug(home_team, liga_id, is_international)
@@ -411,10 +445,12 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                     # Bestimme Zuordnung aus URL
                     is_home_first = f"{home_slug}-{away_slug}" in url
                     print(f"    ✅ Aufstellung erfolgreich geparst! (Home-First: {is_home_first})")
+                    # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga)
+                    assign_positions = liga_id not in [1, 2]  # Nicht für 1. und 2. Bundesliga
                     if is_home_first:
-                        return (heim_start11, gast_start11)
+                        return (heim_start11, gast_start11, assign_positions)
                     else:
-                        return (gast_start11, heim_start11)
+                        return (gast_start11, heim_start11, assign_positions)
                 else:
                     print(f"    ⚠️ Aufstellungsseite gefunden, aber Parsing fehlgeschlagen (Heim: {len(heim_start11)}, Gast: {len(gast_start11)})")
                 # Wenn Parsing fehlschlägt, versuche nächste URL (aber nicht nächsten Spieltag!)
@@ -459,10 +495,12 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                         if heim_start11 and gast_start11:
                             # Sofort abbrechen wenn gefunden!
                             is_home_first = f"{home_slug}-{away_slug}" in url
+                            # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga)
+                            assign_positions = liga_id not in [1, 2]  # Nicht für 1. und 2. Bundesliga
                             if is_home_first:
-                                return (heim_start11, gast_start11)
+                                return (heim_start11, gast_start11, assign_positions)
                             else:
-                                return (gast_start11, heim_start11)
+                                return (gast_start11, heim_start11, assign_positions)
     
     # Beide Phasen fehlgeschlagen
     total_tested = len(first_rounds_to_test) + len(fallback_matchdays)
@@ -855,17 +893,32 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         )
         
         if lineup:
+            home_players, away_players, assign_positions = lineup
+            
+            # Ordne Positionen zu, wenn nicht Bundesliga/2. Bundesliga
+            if assign_positions:
+                home_lineup_with_positions = assign_positions_by_order(home_players)
+                away_lineup_with_positions = assign_positions_by_order(away_players)
+                # Prüfe ob alle Positionen zugeordnet wurden
+                home_positions_count = len([p for p in home_lineup_with_positions if p.get('position')])
+                away_positions_count = len([p for p in away_lineup_with_positions if p.get('position')])
+                print(f"  📍 Positionen zugeordnet: Heim {home_positions_count}/{len(home_players)}, Auswärts {away_positions_count}/{len(away_players)}")
+            else:
+                # Für Bundesliga/2. Bundesliga: Nur Namen (wie bisher, einfache Liste)
+                home_lineup_with_positions = home_players
+                away_lineup_with_positions = away_players
+            
             lineups.append({
                 "homeTeam": home_team,
                 "awayTeam": away_team,
                 "dateTime": date_time,
                 "matchday": matchday,
                 "phase": phase,
-                "homeLineup": lineup[0],
-                "awayLineup": lineup[1]
+                "homeLineup": home_lineup_with_positions,
+                "awayLineup": away_lineup_with_positions
             })
             successful += 1
-            print(f"  ✅ Aufstellung gescrappt: {len(lineup[0])} Heim, {len(lineup[1])} Auswärts")
+            print(f"  ✅ Aufstellung gescrappt: {len(home_players)} Heim, {len(away_players)} Auswärts")
         else:
             failed += 1
             print(f"  ❌ Aufstellung nicht gefunden für: {home_team} vs {away_team}")
