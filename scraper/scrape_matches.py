@@ -7,7 +7,7 @@ Scrapt Match-Daten von fussballdaten.de und speichert sie als JSON
 import requests
 import re
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 import os
 from typing import List, Dict, Optional, Tuple
@@ -403,15 +403,25 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
     # Pattern für Datum: "Donnerstag, 06.11.2025"
     date_pattern = re.compile(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*(\d{2})\.(\d{2})\.(\d{4})')
     
-    # Pattern für League-Format: /championsleague/2026/gruppenphase/4/psg-bayern/
+    # Pattern für League-Format: Einfaches Pattern das class="ergebnis live" direkt erkennt
+    # Für Live-Spiele: <a id="858357" class="ergebnis live" href="/championsleague/2026/gruppenphase/5/dortmund-villarreal/"><span>3:0</span>
+    # Pattern: Suche nach class="..." (kann "ergebnis live" enthalten) und dann nach href mit League-Pfad
+    # WICHTIG: Pattern muss flexibel sein - class kann mit Leerzeichen sein: "ergebnis live"
     league_pattern = re.compile(
-        r'href="/(championsleague|europaleague|conferenceleague)/\d{4}/(?:gruppenphase|league-stage)/\d+/([a-z0-9.]+)-([a-z0-9.]+)/"[^>]*>\s*<span[^>]*>(\d{1,2}:\d{1,2})</span>',
+        r'class\s*=\s*"([^"]*)"[^>]*href\s*=\s*"/(championsleague|europaleague|conferenceleague)/\d{4}/(?:gruppenphase|league-stage)/\d+/([a-z0-9.]+)-([a-z0-9.]+)/"[^>]*>[\s\S]*?<span[^>]*>(\d{1,2}:\d{1,2})</span>',
+        re.IGNORECASE | re.DOTALL
+    )
+    
+    # Zusätzliches Pattern für Spiele OHNE class-Attribut (zukünftige Spiele)
+    league_pattern_no_class = re.compile(
+        r'href\s*=\s*"/(championsleague|europaleague|conferenceleague)/\d{4}/(?:gruppenphase|league-stage)/\d+/([a-z0-9.]+)-([a-z0-9.]+)/"[^>]*>[\s\S]*?<span[^>]*>(\d{1,2}:\d{1,2})</span>',
         re.IGNORECASE
     )
     
-    # Pattern für Vereine-Format: /vereine/slavia-prag/fc-arsenal/
+    # Pattern für Vereine-Format mit Live-Erkennung: /vereine/slavia-prag/fc-arsenal/
+    # WICHTIG: class kommt VOR href in der HTML-Struktur!
     vereine_pattern = re.compile(
-        r'href="/vereine/((?:[a-z0-9-]+/)+[a-z0-9-]+)/"[^>]*>\s*<span[^>]*>(\d{1,2}:\d{1,2})</span>'
+        r'(?:class="([^"]*)"[^>]*)?href="/vereine/((?:[a-z0-9-]+/)+[a-z0-9-]+)/"[^>]*>[\s\S]*?<span[^>]*>(\d{1,2}:\d{1,2})</span>'
     )
     
     # Finde alle Daten
@@ -429,8 +439,77 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
         
         section = html[start_idx:end_idx]
         
-        # Parse League-Format
+        # Parse League-Format - ZUERST mit class-Attribut (Live-Spiele und beendete Spiele)
         for match in league_pattern.finditer(section):
+            class_attr = match.group(1)
+            league_type = match.group(2)
+            home_slug = match.group(3)
+            away_slug = match.group(4)
+            time_or_score_str = match.group(5)  # Kann Uhrzeit ODER Ergebnis sein
+            
+            home_team = normalize_team_slug(home_slug, league)
+            away_team = normalize_team_slug(away_slug, league)
+            
+            if home_team and away_team:
+                # Prüfe ob Live-Spiel (class="ergebnis live")
+                is_live = class_attr and 'live' in class_attr.lower()
+                
+                # Debug-Output für ALLE Spiele
+                print(f"  🔍 Pattern-Match: {home_team} vs {away_team}, class='{class_attr}', is_live={is_live}, score/time='{time_or_score_str}'")
+                
+                if is_live:
+                    # WICHTIG: Bei Live-Spielen ist time_or_score_str ein ERGEBNIS (z.B. "3:0"), keine Uhrzeit!
+                    # Verwende aktuelle UTC-Zeit
+                    match_datetime = datetime.utcnow()
+                    live_score = time_or_score_str  # Das erste Ergebnis (z.B. "3:0")
+                    score = None
+                    is_finished = False
+                    print(f"  🔴 LIVE-SPIEL erkannt: {home_team} vs {away_team} - {live_score}")
+                else:
+                    # Nicht-Live-Spiel mit class-Attribut (vergangenes Spiel mit Ergebnis)
+                    hour, minute = map(int, time_or_score_str.split(':'))
+                    is_result = hour < 10  # Ergebnisse haben Stunde < 10 (z.B. "3:0", "1:2")
+                    
+                    if is_result:
+                        # Es ist ein Ergebnis (vergangenes Spiel)
+                        match_datetime = datetime(year, month, day, 20, 0, tzinfo=timezone(timedelta(hours=1)))  # Geschätzte Zeit MEZ
+                        match_datetime = match_datetime.astimezone(timezone.utc)
+                        score = time_or_score_str
+                        live_score = None
+                        is_finished = True
+                    else:
+                        # Es ist eine Uhrzeit (sollte nicht vorkommen bei class-Attribut, aber sicherheitshalber)
+                        match_datetime = datetime(year, month, day, hour, minute, tzinfo=timezone(timedelta(hours=1)))  # MEZ (UTC+1)
+                        match_datetime = match_datetime.astimezone(timezone.utc)
+                        score = None
+                        live_score = None
+                        is_finished = False
+                
+                matches.append({
+                    'matchday': matchday,
+                    'homeTeam': home_team,
+                    'awayTeam': away_team,
+                    'dateTime': match_datetime.isoformat().replace('+00:00', 'Z'),
+                    'score': score,
+                    'isFinished': is_finished,
+                    'isLive': is_live,
+                    'liveScore': live_score,
+                    'phase': phase
+                })
+        
+        # Parse League-Format OHNE class-Attribut (zukünftige Spiele)
+        # WICHTIG: Prüfe VORHER ob dieser href bereits mit class-Attribut gefunden wurde
+        for match in league_pattern_no_class.finditer(section):
+            match_start = match.start()
+            # Prüfe ob VOR diesem href ein class-Attribut steht (dann wurde es schon von league_pattern erfasst)
+            search_start = max(0, match_start - 300)  # 300 Zeichen zurück
+            before_href = section[search_start:match_start]
+            has_class_before = re.search(r'class\s*=\s*"[^"]*"', before_href, re.IGNORECASE)
+            if has_class_before:
+                # Dieses Spiel wurde bereits von league_pattern erfasst (hat class-Attribut)
+                continue
+            
+            league_type = match.group(1)
             home_slug = match.group(2)
             away_slug = match.group(3)
             time_str = match.group(4)
@@ -438,20 +517,35 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
             home_team = normalize_team_slug(home_slug, league)
             away_team = normalize_team_slug(away_slug, league)
             
+            # Zusätzliche Prüfung: Prüfe ob dieses Spiel bereits erfasst wurde
+            already_found = any(m['homeTeam'] == home_team and m['awayTeam'] == away_team for m in matches)
+            if already_found:
+                continue
+            
             if home_team and away_team:
                 hour, minute = map(int, time_str.split(':'))
-                match_datetime = datetime(year, month, day, hour, minute)
-                
-                # Prüfe ob Ergebnis oder Uhrzeit
                 is_result = hour < 10
+                
+                if is_result:
+                    # Ergebnis ohne class - sollte nicht vorkommen, aber sicherheitshalber
+                    match_datetime = datetime(year, month, day, 20, 0, tzinfo=timezone(timedelta(hours=1)))
+                    match_datetime = match_datetime.astimezone(timezone.utc)
+                    score = time_str
+                    is_finished = True
+                else:
+                    # Uhrzeit (zukünftiges Spiel)
+                    match_datetime = datetime(year, month, day, hour, minute, tzinfo=timezone(timedelta(hours=1)))  # MEZ (UTC+1)
+                    match_datetime = match_datetime.astimezone(timezone.utc)
+                    score = None
+                    is_finished = False
                 
                 matches.append({
                     'matchday': matchday,
                     'homeTeam': home_team,
                     'awayTeam': away_team,
-                    'dateTime': match_datetime.isoformat() + 'Z',
-                    'score': time_str if is_result else None,
-                    'isFinished': is_result,
+                    'dateTime': match_datetime.isoformat().replace('+00:00', 'Z'),
+                    'score': score,
+                    'isFinished': is_finished,
                     'isLive': False,
                     'liveScore': None,
                     'phase': phase
@@ -459,8 +553,9 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
         
         # Parse Vereine-Format
         for match in vereine_pattern.finditer(section):
-            link_path = match.group(1)
-            time_str = match.group(2)
+            class_attr = match.group(1) or ''  # Kann None sein wenn kein class-Attribut
+            link_path = match.group(2)
+            time_or_score_str = match.group(3)  # Kann Uhrzeit ODER Ergebnis sein
             
             path_parts = link_path.split('/')
             if len(path_parts) >= 2:
@@ -471,20 +566,44 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
                 away_team = normalize_team_slug(away_slug, league)
                 
                 if home_team and away_team:
-                    hour, minute = map(int, time_str.split(':'))
-                    match_datetime = datetime(year, month, day, hour, minute)
+                    # Prüfe ob Live-Spiel (class="ergebnis live")
+                    is_live = class_attr and 'live' in class_attr.lower()
                     
-                    is_result = hour < 10
+                    if is_live:
+                        # WICHTIG: Bei Live-Spielen ist time_or_score_str ein ERGEBNIS, keine Uhrzeit!
+                        match_datetime = datetime.utcnow()
+                        live_score = time_or_score_str
+                        score = None
+                        is_finished = False
+                    else:
+                        # Nicht-Live-Spiel: Prüfe ob es eine Uhrzeit oder ein Ergebnis ist
+                        hour, minute = map(int, time_or_score_str.split(':'))
+                        is_result = hour < 10
+                        
+                        if is_result:
+                            # Ergebnis (vergangenes Spiel)
+                            match_datetime = datetime(year, month, day, 20, 0, tzinfo=timezone(timedelta(hours=1)))
+                            match_datetime = match_datetime.astimezone(timezone.utc)
+                            score = time_or_score_str
+                            live_score = None
+                            is_finished = True
+                        else:
+                            # Uhrzeit (zukünftiges Spiel)
+                            match_datetime = datetime(year, month, day, hour, minute, tzinfo=timezone(timedelta(hours=1)))
+                            match_datetime = match_datetime.astimezone(timezone.utc)
+                            score = None
+                            live_score = None
+                            is_finished = False
                     
                     matches.append({
                         'matchday': matchday,
                         'homeTeam': home_team,
                         'awayTeam': away_team,
-                        'dateTime': match_datetime.isoformat() + 'Z',
-                        'score': time_str if is_result else None,
-                        'isFinished': is_result,
-                        'isLive': False,
-                        'liveScore': None,
+                        'dateTime': match_datetime.isoformat().replace('+00:00', 'Z'),
+                        'score': score,
+                        'isFinished': is_finished,
+                        'isLive': is_live,
+                        'liveScore': live_score,
                         'phase': phase
                     })
     
