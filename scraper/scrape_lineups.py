@@ -445,8 +445,8 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                     # Bestimme Zuordnung aus URL
                     is_home_first = f"{home_slug}-{away_slug}" in url
                     print(f"    ✅ Aufstellung erfolgreich geparst! (Home-First: {is_home_first})")
-                    # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga)
-                    assign_positions = liga_id not in [1, 2]  # Nicht für 1. und 2. Bundesliga
+                    # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga/DFB-Pokal)
+                    assign_positions = liga_id not in [1, 2, 3]  # Nicht für 1. Bundesliga, 2. Bundesliga und DFB-Pokal
                     if is_home_first:
                         return (heim_start11, gast_start11, assign_positions)
                     else:
@@ -495,8 +495,8 @@ def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday:
                         if heim_start11 and gast_start11:
                             # Sofort abbrechen wenn gefunden!
                             is_home_first = f"{home_slug}-{away_slug}" in url
-                            # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga)
-                            assign_positions = liga_id not in [1, 2]  # Nicht für 1. und 2. Bundesliga
+                            # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga/DFB-Pokal)
+                            assign_positions = liga_id not in [1, 2, 3]  # Nicht für 1. Bundesliga, 2. Bundesliga und DFB-Pokal
                             if is_home_first:
                                 return (heim_start11, gast_start11, assign_positions)
                             else:
@@ -895,7 +895,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
         if lineup:
             home_players, away_players, assign_positions = lineup
             
-            # Ordne Positionen zu, wenn nicht Bundesliga/2. Bundesliga
+            # Ordne Positionen zu, wenn nicht Bundesliga/2. Bundesliga/DFB-Pokal
             if assign_positions:
                 home_lineup_with_positions = assign_positions_by_order(home_players)
                 away_lineup_with_positions = assign_positions_by_order(away_players)
@@ -904,7 +904,7 @@ def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'da
                 away_positions_count = len([p for p in away_lineup_with_positions if p.get('position')])
                 print(f"  📍 Positionen zugeordnet: Heim {home_positions_count}/{len(home_players)}, Auswärts {away_positions_count}/{len(away_players)}")
             else:
-                # Für Bundesliga/2. Bundesliga: Nur Namen (wie bisher, einfache Liste)
+                # Für Bundesliga/2. Bundesliga/DFB-Pokal: Nur Namen (wie bisher, einfache Liste)
                 home_lineup_with_positions = home_players
                 away_lineup_with_positions = away_players
             
