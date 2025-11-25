@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-25T20:14:56.663267Z",
+  "lastUpdated": "2025-11-25T20:37:57.497027Z",
   "matches": [
     {
       "matchday": 4,
@@ -1098,6 +1098,16 @@
       "homeTeam": "Vallecano",
       "awayTeam": "Valencia",
       "dateTime": "2025-12-01T21:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-12-02T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
