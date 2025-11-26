@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T09:21:19.829189Z",
+  "lastUpdated": "2025-11-26T09:41:56.895291Z",
   "matches": [
     {
       "matchday": 1,
@@ -995,39 +995,6 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Benfica",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2025-09-16T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Monaco",
-      "awayTeam": "Galatasaray",
-      "dateTime": "2025-09-16T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Aeppaphosfc",
-      "dateTime": "2025-09-16T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
       "homeTeam": "Kairat Almaty",
       "awayTeam": "Olympiakos Piraeus",
       "dateTime": "2025-12-09T15:30:00Z",
@@ -1050,41 +1017,8 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Union Saint Gilloise",
-      "awayTeam": "Olympique Marseille",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": "",
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
       "homeTeam": "As Monaco",
       "awayTeam": "Galatasaray Istanbul",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": "",
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Atalanta Bergamo",
-      "awayTeam": "Fc Chelsea",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": "",
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Fc Barcelona",
-      "awayTeam": "Eintracht Frankfurt",
       "dateTime": "2025-12-09T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1105,8 +1039,19 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Inter Mailand",
-      "awayTeam": "Fc Liverpool",
+      "homeTeam": "Union Saint Gilloise",
+      "awayTeam": "Olympique Marseille",
+      "dateTime": "2025-12-09T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": "",
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Atalanta Bergamo",
+      "awayTeam": "Fc Chelsea",
       "dateTime": "2025-12-09T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1118,6 +1063,28 @@
       "matchday": 6,
       "homeTeam": "Psv Eindhoven",
       "awayTeam": "Atletico Madrid",
+      "dateTime": "2025-12-09T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": "",
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Inter Mailand",
+      "awayTeam": "Fc Liverpool",
+      "dateTime": "2025-12-09T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": "",
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Fc Barcelona",
+      "awayTeam": "Eintracht Frankfurt",
       "dateTime": "2025-12-09T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1149,8 +1116,8 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Fk Bodoe Glimt",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Manchester City",
       "dateTime": "2025-12-10T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1171,8 +1138,8 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Real Madrid",
-      "awayTeam": "Manchester City",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Fk Bodoe Glimt",
       "dateTime": "2025-12-10T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1221,17 +1188,6 @@
       "score": null,
       "isFinished": false,
       "isLive": "",
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Benfica",
-      "dateTime": "2025-09-16T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
     },
@@ -1369,6 +1325,17 @@
     },
     {
       "matchday": 7,
+      "homeTeam": "Fc Bayern Muenchen",
+      "awayTeam": "Union Saint Gilloise",
+      "dateTime": "2026-01-21T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": "",
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
       "homeTeam": "Fc Chelsea",
       "awayTeam": "Aep Paphos Fc",
       "dateTime": "2026-01-21T20:00:00Z",
@@ -1402,8 +1369,8 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Fc Bayern Muenchen",
-      "awayTeam": "Union Saint Gilloise",
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Psv Eindhoven",
       "dateTime": "2026-01-21T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1423,31 +1390,9 @@
       "phase": "gruppenphase"
     },
     {
-      "matchday": 7,
-      "homeTeam": "Newcastle United",
-      "awayTeam": "Psv Eindhoven",
-      "dateTime": "2026-01-21T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": "",
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
       "matchday": 8,
-      "homeTeam": "Monaco",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2025-09-16T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 8,
-      "homeTeam": "Atletico Madrid",
-      "awayTeam": "Fk Bodoe Glimt",
+      "homeTeam": "Bayer Leverkusen",
+      "awayTeam": "Fc Villarreal",
       "dateTime": "2026-01-28T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1534,8 +1479,8 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Ssc Neapel",
-      "awayTeam": "Fc Chelsea",
+      "homeTeam": "Atletico Madrid",
+      "awayTeam": "Fk Bodoe Glimt",
       "dateTime": "2026-01-28T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1545,8 +1490,8 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Bayer Leverkusen",
-      "awayTeam": "Fc Villarreal",
+      "homeTeam": "Ssc Neapel",
+      "awayTeam": "Fc Chelsea",
       "dateTime": "2026-01-28T20:00:00Z",
       "score": null,
       "isFinished": false,
