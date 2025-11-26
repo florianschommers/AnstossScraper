@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-26T19:26:34.197142",
+  "lastUpdated": "2025-11-26T20:31:45.903241",
   "lineups": [
     {
       "homeTeam": "Brentford",
@@ -403,27 +403,27 @@
       "phase": "",
       "homeLineup": [
         {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
           "name": "Richarlison",
           "position": "Angriff"
         },
         {
-          "name": "Wilson Odobert",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mohammed Kudus",
+          "name": "Lucas Bergvall",
           "position": "Mittelfeld"
         },
         {
-          "name": "Destiny Udogie",
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Archie Gray",
           "position": "Mittelfeld"
         },
         {
           "name": "Rodrigo Bentancur",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joao Palhinha",
           "position": "Mittelfeld"
         },
         {
@@ -439,7 +439,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Kevin Danso",
+          "name": "Pedro Porro",
           "position": "Abwehr"
         },
         {
@@ -845,12 +845,16 @@
       ],
       "awayLineup": [
         {
+          "name": "Hugo Ekitike",
+          "position": "Angriff"
+        },
+        {
           "name": "Cody Gakpo",
           "position": "Angriff"
         },
         {
-          "name": "Alexander Isak",
-          "position": "Angriff"
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
         },
         {
           "name": "Mohamed Salah",
@@ -862,10 +866,6 @@
         },
         {
           "name": "Ryan Gravenberch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Curtis Jones",
           "position": "Mittelfeld"
         },
         {
@@ -881,11 +881,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Dominik Szoboszlai",
+          "name": "Curtis Jones",
           "position": "Abwehr"
         },
         {
-          "name": "Alisson",
+          "name": "Giorgi Mamardashvili",
           "position": "Torwart"
         }
       ]
@@ -944,16 +944,12 @@
       ],
       "awayLineup": [
         {
-          "name": "Mikel Merino",
-          "position": "Angriff"
-        },
-        {
           "name": "Leandro Trossard",
           "position": "Angriff"
         },
         {
-          "name": "Eberechi Eze",
-          "position": "Mittelfeld"
+          "name": "Mikel Merino",
+          "position": "Angriff"
         },
         {
           "name": "Bukayo Saka",
@@ -968,11 +964,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Riccardo Calafiori",
+          "name": "Eberechi Eze",
           "position": "Mittelfeld"
         },
         {
-          "name": "Piero Hincapie",
+          "name": "Myles Anthony Lewis-Skelly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristhian Mosquera",
           "position": "Abwehr"
         },
         {
