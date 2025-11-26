@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2025-11-26T17:26:49.482636",
+  "lastUpdated": "2025-11-26T18:33:59.901533",
   "lineups": [
     {
       "homeTeam": "Galatasaray",
@@ -897,24 +897,24 @@
     {
       "homeTeam": "Kopenhagen",
       "awayTeam": "Kairat",
-      "dateTime": "2025-11-26T17:45:00Z",
+      "dateTime": "2025-11-26T18:06:45.513546",
       "matchday": 5,
       "phase": "gruppenphase",
       "homeLineup": [
-        {
-          "name": "Viktor Claesson",
-          "position": "Angriff"
-        },
         {
           "name": "Viktor Bjarki Dadason",
           "position": "Angriff"
         },
         {
           "name": "Robert",
+          "position": "Angriff"
+        },
+        {
+          "name": "Viktor Claesson",
           "position": "Mittelfeld"
         },
         {
-          "name": "William Clem",
+          "name": "Jordan Larsson",
           "position": "Mittelfeld"
         },
         {
@@ -922,7 +922,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jordan Larsson",
+          "name": "William Clem",
           "position": "Mittelfeld"
         },
         {
@@ -964,11 +964,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Damir Kasabulat",
+          "name": "Dan Glazer",
           "position": "Mittelfeld"
         },
         {
-          "name": "Dan Glazer",
+          "name": "Damir Kasabulat",
           "position": "Mittelfeld"
         },
         {
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Aeppaphosfc",
       "awayTeam": "Monaco",
-      "dateTime": "2025-11-26T17:45:00Z",
+      "dateTime": "2025-11-26T18:06:45.513565",
       "matchday": 5,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1017,11 +1017,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Pepe",
+          "name": "Ivan Sunjic",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ivan Sunjic",
+          "name": "Pepe",
           "position": "Mittelfeld"
         },
         {
@@ -1051,15 +1051,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Takumi Minamino",
+          "name": "Aleksandr Golovin",
           "position": "Angriff"
         },
         {
-          "name": "Maghnes Akliouche",
+          "name": "Takumi Minamino",
           "position": "Mittelfeld"
         },
         {
-          "name": "Aleksandr Golovin",
+          "name": "Maghnes Akliouche",
           "position": "Mittelfeld"
         },
         {
@@ -1071,15 +1071,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jordan Teze",
+          "name": "Caio Henrique",
           "position": "Mittelfeld"
         },
         {
-          "name": "Caio Henrique",
+          "name": "Mohammed Salisu",
           "position": "Abwehr"
         },
         {
-          "name": "Mohammed Salisu",
+          "name": "Jordan Teze",
           "position": "Abwehr"
         },
         {
@@ -1088,105 +1088,6 @@
         },
         {
           "name": "Lukas Hradecky",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "matchday": 5,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Julian Alvarez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Gonzalez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Baena",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Barrios",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marcos Llorente",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Koke",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Ruggeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Clement Lenglet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jose Maria Gimenez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Molina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Musso",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Thuram",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Dimarco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Petar Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hakan Calhanoglu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Augusto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Francesco Acerbi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
           "position": "Torwart"
         }
       ]
