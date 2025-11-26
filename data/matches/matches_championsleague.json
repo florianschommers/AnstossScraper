@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T20:07:47.217823Z",
+  "lastUpdated": "2025-11-26T20:28:33.589778Z",
   "matches": [
     {
       "matchday": 1,
@@ -896,6 +896,83 @@
     },
     {
       "matchday": 5,
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-11-26T20:28:30.004250Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Olympiakos",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-11-26T20:28:30.004289Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:2",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Eindhoven",
+      "dateTime": "2025-11-26T20:28:30.004306Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:1",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Bayern",
+      "dateTime": "2025-11-26T20:28:30.004321Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Frankfurt",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-11-26T20:28:30.004337Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Psg",
+      "awayTeam": "Tottenham",
+      "dateTime": "2025-11-26T20:28:30.004350Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Sporting",
+      "awayTeam": "Clubbruegge",
+      "dateTime": "2025-11-26T20:28:30.004363Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
       "homeTeam": "Kopenhagen",
       "awayTeam": "Kairat",
       "dateTime": "2025-11-26T19:00:00Z",
@@ -912,83 +989,6 @@
       "dateTime": "2025-11-26T19:00:00Z",
       "score": "2:2",
       "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Olympiakos",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Liverpool",
-      "awayTeam": "Eindhoven",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Arsenal",
-      "awayTeam": "Bayern",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Frankfurt",
-      "awayTeam": "Bergamo",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Psg",
-      "awayTeam": "Tottenham",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Sporting",
-      "awayTeam": "Clubbruegge",
-      "dateTime": "2025-11-26T20:00:00Z",
-      "score": null,
-      "isFinished": false,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"

@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T20:07:52.792000Z",
+  "lastUpdated": "2025-11-26T20:28:39.193417Z",
   "matches": [
     {
       "matchday": 4,
@@ -302,6 +302,17 @@
     },
     {
       "matchday": 5,
+      "homeTeam": "Rsbelgrad",
+      "awayTeam": "Steaua",
+      "dateTime": "2025-11-27T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
       "homeTeam": "Genk",
       "awayTeam": "Fcbasel",
       "dateTime": "2025-11-27T20:00:00Z",
@@ -370,17 +381,6 @@
       "matchday": 5,
       "homeTeam": "Nottingham",
       "awayTeam": "Malmoeff",
-      "dateTime": "2025-11-27T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Deventer",
-      "awayTeam": "Stuttgart",
       "dateTime": "2025-11-27T20:00:00Z",
       "score": null,
       "isFinished": false,
