@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2025-11-26T22:32:51.058059",
+  "lastUpdated": "2025-11-26T23:32:11.243355",
   "lineups": [
     {
       "homeTeam": "Athbilbao",
@@ -8023,204 +8023,6 @@
       ]
     },
     {
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-11-26T21:56:57.247971Z",
-      "matchday": 5,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Julian Alvarez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Baena",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pablo Barrios",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Conor Gallagher",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giuliano Simeone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johnny Cardoso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Ruggeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Hancko",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jose Maria Gimenez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Molina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Musso",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ange-Yoan Bonny",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Dimarco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hakan Calhanoglu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Augusto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Bisseck",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Psg",
-      "awayTeam": "Tottenham",
-      "dateTime": "2025-11-26T21:56:57.248032Z",
-      "matchday": 5,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Bradley Barcola",
-          "position": "Angriff"
-        },
-        {
-          "name": "Quentin Ndjantou",
-          "position": "Angriff"
-        },
-        {
-          "name": "Khvicha Kvaratskhelia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fabian Ruiz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitinha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joao Neves",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nuno Mendes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Willian Pacho",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marquinhos",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Warren Zaire-Emery",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Chevalier",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Randal Kolo Muani",
-          "position": "Angriff"
-        },
-        {
-          "name": "Richarlison",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lucas Bergvall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pape Matar Sarr",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Archie Gray",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rodrigo Bentancur",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djed Spence",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Micky van de Ven",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Cristian Romero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pedro Porro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guglielmo Vicario",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Kopenhagen",
       "awayTeam": "Kairat",
       "dateTime": "2025-11-26T19:00:00Z",
@@ -8414,6 +8216,105 @@
         },
         {
           "name": "Lukas Hradecky",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-11-26T19:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Julian Alvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Baena",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Conor Gallagher",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johnny Cardoso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Maria Gimenez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Musso",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ange-Yoan Bonny",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Dimarco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piotr Zielinski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakan Calhanoglu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Augusto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Bisseck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
           "position": "Torwart"
         }
       ]
@@ -8810,6 +8711,105 @@
         },
         {
           "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Psg",
+      "awayTeam": "Tottenham",
+      "dateTime": "2025-11-26T19:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Bradley Barcola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Quentin Ndjantou",
+          "position": "Angriff"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabian Ruiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Neves",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marquinhos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Warren Zaire-Emery",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Chevalier",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Richarlison",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Bergvall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djed Spence",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
           "position": "Torwart"
         }
       ]
