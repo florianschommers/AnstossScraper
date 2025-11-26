@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T20:00:12.071550Z",
+  "lastUpdated": "2025-11-26T20:07:57.594877Z",
   "matches": [
     {
       "matchday": 1,
@@ -698,6 +698,17 @@
     },
     {
       "matchday": 4,
+      "homeTeam": "Shamrock",
+      "awayTeam": "Shakhtar",
+      "dateTime": "2025-11-27T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 4,
       "homeTeam": "Kopavogur",
       "awayTeam": "Samsunspor",
       "dateTime": "2025-11-27T20:00:00Z",
@@ -766,17 +777,6 @@
       "matchday": 4,
       "homeTeam": "Bialystok",
       "awayTeam": "Kuopiops",
-      "dateTime": "2025-11-27T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 4,
-      "homeTeam": "Lwarschau",
-      "awayTeam": "Spartaprag",
       "dateTime": "2025-11-27T20:00:00Z",
       "score": null,
       "isFinished": false,
