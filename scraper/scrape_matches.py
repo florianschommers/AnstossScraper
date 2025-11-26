@@ -475,7 +475,7 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
                 if match_key not in found_matches:
                     found_matches.add(match_key)
                     # LIVE-SPIEL: Verwende aktuelle UTC-Zeit
-                    match_datetime = datetime.utcnow()
+                    match_datetime = datetime.now(timezone.utc)
                     matches.append({
                         'matchday': matchday,
                         'homeTeam': home_team,
@@ -582,7 +582,7 @@ def parse_international_matches(html: str, phase: str, matchday: Optional[int], 
                     if match_key not in found_matches:
                         found_matches.add(match_key)
                         # LIVE-SPIEL
-                        match_datetime = datetime.utcnow()
+                        match_datetime = datetime.now(timezone.utc)
                         matches.append({
                             'matchday': matchday,
                             'homeTeam': home_team,
