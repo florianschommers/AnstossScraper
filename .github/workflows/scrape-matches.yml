@@ -2,8 +2,28 @@ name: Scrape Matches
 
 on:
   schedule:
-    # Alle 5 Minuten
+    # Alle 5 Minuten (für Live-Updates)
     - cron: '*/5 * * * *'
+    # Zusätzliche feste Uhrzeiten (MEZ/MESZ → UTC)
+    # MEZ (Winter): UTC = MEZ - 1h | MESZ (Sommer): UTC = MESZ - 2h
+    # 13:00 MEZ/MESZ → 12:00 UTC (Winter) / 11:00 UTC (Sommer)
+    - cron: '0 12 * * *'   # 13:00 MEZ / 14:00 MESZ
+    - cron: '30 12 * * *'  # 13:30 MEZ / 14:30 MESZ
+    - cron: '0 13 * * *'   # 14:00 MEZ / 15:00 MESZ
+    - cron: '30 13 * * *'  # 14:30 MEZ / 15:30 MESZ
+    - cron: '30 14 * * *'  # 15:30 MEZ / 16:30 MESZ
+    - cron: '30 15 * * *'  # 16:30 MEZ / 17:30 MESZ
+    - cron: '45 15 * * *'  # 16:45 MEZ / 17:45 MESZ
+    - cron: '0 16 * * *'   # 17:00 MEZ / 18:00 MESZ
+    - cron: '30 16 * * *'  # 17:30 MEZ / 18:30 MESZ
+    - cron: '45 16 * * *'  # 17:45 MEZ / 18:45 MESZ
+    - cron: '30 17 * * *'  # 18:30 MEZ / 19:30 MESZ
+    - cron: '45 17 * * *'  # 18:45 MEZ / 19:45 MESZ
+    - cron: '0 18 * * *'   # 19:00 MEZ / 20:00 MESZ
+    - cron: '30 18 * * *'  # 19:30 MEZ / 20:30 MESZ
+    - cron: '0 19 * * *'   # 20:00 MEZ / 21:00 MESZ
+    - cron: '30 19 * * *'  # 20:30 MEZ / 21:30 MESZ
+    - cron: '0 20 * * *'   # 21:00 MEZ / 22:00 MESZ
   workflow_dispatch:  # Manuell auslösbar
 
 permissions:
