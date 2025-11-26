@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T21:57:00.812439Z",
+  "lastUpdated": "2025-11-26T22:19:42.531162Z",
   "matches": [
     {
       "matchday": 1,
@@ -896,28 +896,6 @@
     },
     {
       "matchday": 5,
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-11-26T21:56:57.247971Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Psg",
-      "awayTeam": "Tottenham",
-      "dateTime": "2025-11-26T21:56:57.248032Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "5:3",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
       "homeTeam": "Kopenhagen",
       "awayTeam": "Kairat",
       "dateTime": "2025-11-26T19:00:00Z",
@@ -933,6 +911,17 @@
       "awayTeam": "Monaco",
       "dateTime": "2025-11-26T19:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-11-26T19:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -977,6 +966,17 @@
       "awayTeam": "Bergamo",
       "dateTime": "2025-11-26T19:00:00Z",
       "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Psg",
+      "awayTeam": "Tottenham",
+      "dateTime": "2025-11-26T19:00:00Z",
+      "score": "5:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
