@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-26T18:05:55.652758Z",
+  "lastUpdated": "2025-11-26T18:28:12.499161Z",
   "matches": [
     {
       "matchday": 4,
@@ -1108,6 +1108,16 @@
       "homeTeam": "Fcbarcelona",
       "awayTeam": "Atlmadrid",
       "dateTime": "2025-12-02T21:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-12-03T19:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,

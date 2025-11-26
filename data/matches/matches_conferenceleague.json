@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T18:07:09.100982Z",
+  "lastUpdated": "2025-11-26T18:28:58.848041Z",
   "matches": [
     {
       "matchday": 1,
@@ -269,17 +269,6 @@
     },
     {
       "matchday": 2,
-      "homeTeam": "Rijeka",
-      "awayTeam": "Spartaprag",
-      "dateTime": "2025-10-23T19:00:00Z",
-      "score": "1:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 2,
       "homeTeam": "Strassburg",
       "awayTeam": "Jagiellonia",
       "dateTime": "2025-10-23T19:00:00Z",
@@ -393,6 +382,17 @@
       "homeTeam": "Alkmaar",
       "awayTeam": "Skslovan",
       "dateTime": "2025-10-23T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Rijeka",
+      "awayTeam": "Spartaprag",
+      "dateTime": "2025-10-24T19:00:00Z",
       "score": "1:0",
       "isFinished": true,
       "isLive": false,
