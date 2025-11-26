@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2025-11-26T20:30:43.229361",
+  "lastUpdated": "2025-11-26T21:28:03.815478",
   "lineups": [
     {
       "homeTeam": "Porto",
@@ -796,6 +796,105 @@
       ]
     },
     {
+      "homeTeam": "Rsbelgrad",
+      "awayTeam": "Steaua",
+      "dateTime": "2025-11-27T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Bruno Duarte",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mirko Ivanic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandar Katai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vasilije Kostov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timi Max Elsnik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tomas Handel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adem Avdic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franklin Tebo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milos Veljkovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Young-woo Seol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matheus",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Octavian Popescu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexandru Stoian",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Miculescu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darius Olaru",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juri Cisotti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florin Tanase",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Risto Radunovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Graovac",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Siyabonga Ngezana",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexandru Pantea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefan Tarnovanu",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Genk",
       "awayTeam": "Fcbasel",
       "dateTime": "2025-11-27T20:00:00Z",
@@ -1385,105 +1484,6 @@
         },
         {
           "name": "Robin Olsen",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Deventer",
-      "awayTeam": "Stuttgart",
-      "dateTime": "2025-11-27T20:00:00Z",
-      "matchday": 5,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Milan Smit",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mathis Suray",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenzo Goudmijn",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Richonell Margaret",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yassir Salah Rahmouni",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Calvin Twigt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dean James",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joris Kramer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Melle Meulensteen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mats Deijl",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jari De Busser",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Deniz Undav",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jamie Leweling",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bilal El Khannouss",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tiago Tomas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Angelo Stiller",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Chema Andres",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Maximilian Mittelstadt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jeff Chabot",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Finn Jeltsch",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lorenz Assignon",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alexander Nubel",
           "position": "Torwart"
         }
       ]
