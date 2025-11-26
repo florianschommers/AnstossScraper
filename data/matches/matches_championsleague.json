@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-11-26T19:40:27.696256Z",
+  "lastUpdated": "2025-11-26T19:46:27.749495Z",
   "matches": [
     {
       "matchday": 1,
@@ -898,22 +898,22 @@
       "matchday": 5,
       "homeTeam": "Kopenhagen",
       "awayTeam": "Kairat",
-      "dateTime": "2025-11-26T19:40:23.937695Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1",
+      "dateTime": "2025-11-26T19:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
       "phase": "gruppenphase"
     },
     {
       "matchday": 5,
       "homeTeam": "Aeppaphosfc",
       "awayTeam": "Monaco",
-      "dateTime": "2025-11-26T19:40:23.937734Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2",
+      "dateTime": "2025-11-26T19:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
       "phase": "gruppenphase"
     },
     {
