@@ -1,12 +1,12 @@
 {
   "league": "conferenceleague",
   "season": "",
-  "lastUpdated": "2025-11-27T20:34:13.067444",
+  "lastUpdated": "2025-11-27T21:32:04.713426",
   "lineups": [
     {
       "homeTeam": "Shamrock",
       "awayTeam": "Shakhtar",
-      "dateTime": "2025-11-27T20:18:58.300058Z",
+      "dateTime": "2025-11-27T21:02:37.498910Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -105,7 +105,7 @@
     {
       "homeTeam": "Kopavogur",
       "awayTeam": "Samsunspor",
-      "dateTime": "2025-11-27T20:18:58.300094Z",
+      "dateTime": "2025-11-27T21:02:37.498946Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -202,9 +202,108 @@
       ]
     },
     {
+      "homeTeam": "Aberdeen",
+      "awayTeam": "Fcnoah",
+      "dateTime": "2025-11-27T21:02:37.498962Z",
+      "matchday": 4,
+      "phase": "league-stage",
+      "homeLineup": [
+        {
+          "name": "Kevin Nisbet",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jesper Karlsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Topi Keskinen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dante Polvara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adil Aouchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dylan Lobban",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mats Knoester",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jack Milne",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicky Devlin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dimitar Mitov",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Nardin Mulahusejnovic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Helder Ferreira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gustavo Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alen Grgic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gudmundur Thorarinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yan Eteki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Sualehe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergey Muradyan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathanael Saintini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Boakye",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Timothy Fayulu",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Rijeka",
       "awayTeam": "Larnaka",
-      "dateTime": "2025-11-27T20:18:58.300115Z",
+      "dateTime": "2025-11-27T21:02:37.498976Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -213,15 +312,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Amer Gojak",
+          "name": "Toni Fruk",
           "position": "Angriff"
         },
         {
-          "name": "Toni Fruk",
+          "name": "Amer Gojak",
           "position": "Mittelfeld"
         },
         {
-          "name": "Samuele Vignato",
+          "name": "Anel Husic",
           "position": "Mittelfeld"
         },
         {
@@ -229,7 +328,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Anel Husic",
+          "name": "Samuele Vignato",
           "position": "Mittelfeld"
         },
         {
@@ -303,7 +402,7 @@
     {
       "homeTeam": "Strassburg",
       "awayTeam": "Crystalpalace",
-      "dateTime": "2025-11-27T20:18:58.300130Z",
+      "dateTime": "2025-11-27T21:02:37.498990Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -402,7 +501,7 @@
     {
       "homeTeam": "Kfdrita",
       "awayTeam": "Tetovo",
-      "dateTime": "2025-11-27T20:18:58.300144Z",
+      "dateTime": "2025-11-27T21:02:37.499005Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -497,7 +596,7 @@
     {
       "homeTeam": "Acflorenz",
       "awayTeam": "Aekathen",
-      "dateTime": "2025-11-27T20:18:58.300156Z",
+      "dateTime": "2025-11-27T21:02:37.499018Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -596,7 +695,7 @@
     {
       "homeTeam": "Bialystok",
       "awayTeam": "Kuopiops",
-      "dateTime": "2025-11-27T20:18:58.300169Z",
+      "dateTime": "2025-11-27T21:02:37.499031Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -695,7 +794,7 @@
     {
       "homeTeam": "Lwarschau",
       "awayTeam": "Spartaprag",
-      "dateTime": "2025-11-27T20:18:58.300181Z",
+      "dateTime": "2025-11-27T21:02:37.499043Z",
       "matchday": 4,
       "phase": "league-stage",
       "homeLineup": [
@@ -1678,105 +1777,6 @@
         },
         {
           "name": "Ruslan Neshcheret",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Aberdeen",
-      "awayTeam": "Fcnoah",
-      "dateTime": "2025-11-27T20:00:00Z",
-      "matchday": 4,
-      "phase": "league-stage",
-      "homeLineup": [
-        {
-          "name": "Kevin Nisbet",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jesper Karlsson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Topi Keskinen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexander Jensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dante Polvara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adil Aouchiche",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dylan Lobban",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mats Knoester",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jack Milne",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicky Devlin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dimitar Mitov",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Nardin Mulahusejnovic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Helder Ferreira",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gustavo Sangare",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alen Grgic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gudmundur Thorarinsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yan Eteki",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Sualehe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergey Muradyan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nathanael Saintini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Eric Boakye",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Timothy Fayulu",
           "position": "Torwart"
         }
       ]
