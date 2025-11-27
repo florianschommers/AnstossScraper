@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2025-11-27T19:42:16.088678Z",
+  "lastUpdated": "2025-11-27T19:52:10.410955Z",
   "matches": [
     {
       "matchday": 4,
@@ -203,43 +203,21 @@
     },
     {
       "matchday": 5,
-      "homeTeam": "Porto",
-      "awayTeam": "Nizza",
-      "dateTime": "2025-11-27T19:42:12.347883Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Ybbern",
-      "dateTime": "2025-11-27T19:42:12.347932Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Ludogorets",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2025-11-27T19:42:12.347965Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 5,
       "homeTeam": "Feyenoord",
       "awayTeam": "Cglasgow",
       "dateTime": "2025-11-27T19:00:00Z",
       "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Porto",
+      "awayTeam": "Nizza",
+      "dateTime": "2025-11-27T19:00:00Z",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -269,6 +247,17 @@
     },
     {
       "matchday": 5,
+      "homeTeam": "Astonvilla",
+      "awayTeam": "Ybbern",
+      "dateTime": "2025-11-27T19:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
       "homeTeam": "Lille",
       "awayTeam": "Dzagreb",
       "dateTime": "2025-11-27T19:00:00Z",
@@ -284,6 +273,17 @@
       "awayTeam": "Ferencvarosi",
       "dateTime": "2025-11-27T19:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Ludogorets",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-11-27T19:00:00Z",
+      "score": "3:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
