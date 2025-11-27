@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2026",
-  "lastUpdated": "2025-11-27T19:52:16.152163Z",
+  "lastUpdated": "2025-11-27T20:02:16.144870Z",
   "matches": [
     {
       "matchday": 1,
@@ -599,28 +599,6 @@
     },
     {
       "matchday": 4,
-      "homeTeam": "Skslovan",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-11-27T19:52:12.316509Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 4,
-      "homeTeam": "Poznan",
-      "awayTeam": "Lausanne",
-      "dateTime": "2025-11-27T19:52:12.316566Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 4,
       "homeTeam": "Mostar",
       "awayTeam": "Bkhaecken",
       "dateTime": "2025-11-27T19:00:00Z",
@@ -643,6 +621,17 @@
     },
     {
       "matchday": 4,
+      "homeTeam": "Skslovan",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-11-27T19:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 4,
       "homeTeam": "Olomouc",
       "awayTeam": "Celje",
       "dateTime": "2025-11-27T19:00:00Z",
@@ -658,6 +647,17 @@
       "awayTeam": "Rapidwien",
       "dateTime": "2025-11-27T19:00:00Z",
       "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Poznan",
+      "awayTeam": "Lausanne",
+      "dateTime": "2025-11-27T19:00:00Z",
+      "score": "2:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
