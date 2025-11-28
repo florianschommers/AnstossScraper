@@ -10704,7 +10704,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-28T18:42:12.397",
+    "lastUpdateDateTime": "2025-11-28T20:09:36.197",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10719,14 +10719,51 @@
       {
         "resultID": 120674,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 3,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134935,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 67,
+        "goalGetterID": 23939,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134936,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 70,
+        "goalGetterID": 19110,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134942,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 77,
+        "goalGetterID": 24285,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1821,
       "locationCity": "Hannover",
@@ -10762,7 +10799,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-28T19:23:31.297",
+    "lastUpdateDateTime": "2025-11-28T20:00:52.31",
     "matchIsFinished": false,
     "matchResults": [
       {
