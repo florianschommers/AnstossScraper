@@ -10762,14 +10762,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-28T18:42:10.303",
+    "lastUpdateDateTime": "2025-11-28T19:23:31.297",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120671,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -10777,14 +10777,39 @@
       {
         "resultID": 120672,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134923,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 38,
+        "goalGetterID": 23930,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134924,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 48,
+        "goalGetterID": 18435,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 403,
       "locationCity": "Gelsenkirchen",
