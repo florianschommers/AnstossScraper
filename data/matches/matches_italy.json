@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-28T21:47:23.138702Z",
+  "lastUpdated": "2025-11-28T21:56:03.725689Z",
   "matches": [
     {
       "matchday": 4,
@@ -907,17 +907,7 @@
       "matchday": 13,
       "homeTeam": "Como",
       "awayTeam": "Sassuolo",
-      "dateTime": "2025-11-28T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "Cfcgenua",
-      "awayTeam": "Hverona",
-      "dateTime": "2025-11-29T15:00:00Z",
+      "dateTime": "2025-11-28T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1000,6 +990,16 @@
       "dateTime": "2025-12-01T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Como",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2025-11-28T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     }
