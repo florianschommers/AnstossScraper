@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-28T19:58:35.477763Z",
+  "lastUpdated": "2025-11-28T20:20:14.969111Z",
   "matches": [
     {
       "matchday": 4,
@@ -1098,6 +1098,16 @@
       "homeTeam": "Vallecano",
       "awayTeam": "Valencia",
       "dateTime": "2025-12-01T21:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Oviedo",
+      "awayTeam": "Mallorca",
+      "dateTime": "2025-12-05T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
