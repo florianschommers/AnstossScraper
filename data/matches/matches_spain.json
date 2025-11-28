@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-28T21:55:49.240211Z",
+  "lastUpdated": "2025-11-28T22:16:57.215501Z",
   "matches": [
     {
       "matchday": 4,
@@ -1007,17 +1007,7 @@
       "matchday": 14,
       "homeTeam": "Getafe",
       "awayTeam": "Elche",
-      "dateTime": "2025-11-28T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Mallorca",
-      "awayTeam": "Osasuna",
-      "dateTime": "2025-11-29T14:00:00Z",
+      "dateTime": "2025-11-28T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1100,6 +1090,16 @@
       "dateTime": "2025-12-01T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Getafe",
+      "awayTeam": "Elche",
+      "dateTime": "2025-11-28T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
