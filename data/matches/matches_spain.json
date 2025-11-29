@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-29T19:26:45.697156Z",
+  "lastUpdated": "2025-11-29T19:38:50.593891Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Levante",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Mallorca",
       "awayTeam": "Osasuna",
       "dateTime": "2025-11-29T21:00:00Z",
@@ -1089,6 +1079,16 @@
       "awayTeam": "Alaves",
       "dateTime": "2025-11-29T15:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Levante",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
