@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-29T18:55:18.721722Z",
+  "lastUpdated": "2025-11-29T19:10:42.591677Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Cagliari",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Cfcgenua",
       "awayTeam": "Hverona",
       "dateTime": "2025-11-29T20:45:00Z",
@@ -989,6 +979,16 @@
       "awayTeam": "Udinese",
       "dateTime": "2025-11-29T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
