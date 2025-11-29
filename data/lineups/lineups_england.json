@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-29T21:33:49.405284",
+  "lastUpdated": "2025-11-29T22:39:04.663231",
   "lineups": [
-    {
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Fulham",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Richarlison",
-          "position": "Angriff"
-        },
-        {
-          "name": "Randal Kolo Muani",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lucas Bergvall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mohammed Kudus",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joao Palhinha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Archie Gray",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Destiny Udogie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Micky van de Ven",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Danso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pedro Porro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guglielmo Vicario",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Raul Jimenez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Samuel Chukwueze",
-          "position": "Angriff"
-        },
-        {
-          "name": "Josh King",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Harry Wilson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Iwobi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sander Berge",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Sessegnon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Calvin Bassey",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joachim Andersen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kenny Tete",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bernd Leno",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Brentford",
       "awayTeam": "Burnley",
@@ -981,6 +882,105 @@
         },
         {
           "name": "Aaron Ramsdale",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Fulham",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Richarlison",
+          "position": "Angriff"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Bergvall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Palhinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Destiny Udogie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Danso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Raul Jimenez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Josh King",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Sessegnon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joachim Andersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernd Leno",
           "position": "Torwart"
         }
       ]
