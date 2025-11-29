@@ -10894,7 +10894,7 @@
       "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T13:00:26.67",
+    "lastUpdateDateTime": "2025-11-29T14:00:57.35",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10952,14 +10952,14 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T13:17:47.717",
+    "lastUpdateDateTime": "2025-11-29T14:00:54.45",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120702,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 3,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -11047,13 +11047,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T13:41:07.447",
+    "lastUpdateDateTime": "2025-11-29T14:14:44.023",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120700,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -11062,7 +11062,7 @@
       {
         "resultID": 120701,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -11076,6 +11076,18 @@
         "scoreTeam2": 0,
         "matchMinute": 34,
         "goalGetterID": 24077,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134978,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 49,
+        "goalGetterID": 23546,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
