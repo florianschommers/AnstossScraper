@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-29T17:11:37.934526Z",
+  "lastUpdated": "2025-11-29T17:30:38.527518Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Alaves",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Mallorca",
       "awayTeam": "Osasuna",
       "dateTime": "2025-11-29T18:30:00Z",
@@ -1089,6 +1079,16 @@
       "awayTeam": "Osasuna",
       "dateTime": "2025-11-29T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Alaves",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "score": "3:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
