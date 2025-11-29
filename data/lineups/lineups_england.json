@@ -1,12 +1,12 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-29T15:39:45.608779",
+  "lastUpdated": "2025-11-29T16:41:36.068521",
   "lineups": [
     {
       "homeTeam": "Brentford",
       "awayTeam": "Burnley",
-      "dateTime": "2025-11-29T16:00:00Z",
+      "dateTime": "2025-11-29T00:00:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
@@ -57,12 +57,16 @@
       ],
       "awayLineup": [
         {
+          "name": "Zian Flemming",
+          "position": "Angriff"
+        },
+        {
           "name": "Lyle Foster",
           "position": "Angriff"
         },
         {
-          "name": "Zian Flemming",
-          "position": "Angriff"
+          "name": "Hannibal",
+          "position": "Mittelfeld"
         },
         {
           "name": "Loum Tchaouna",
@@ -74,10 +78,6 @@
         },
         {
           "name": "Josh Cullen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hannibal",
           "position": "Mittelfeld"
         },
         {
@@ -105,24 +105,24 @@
     {
       "homeTeam": "Manchester City",
       "awayTeam": "Leedsunited",
-      "dateTime": "2025-11-29T16:00:00Z",
+      "dateTime": "2025-11-29T00:00:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
-        {
-          "name": "Jeremy Doku",
-          "position": "Angriff"
-        },
         {
           "name": "Erling Haaland",
           "position": "Angriff"
         },
         {
-          "name": "Phil Foden",
-          "position": "Mittelfeld"
+          "name": "Jeremy Doku",
+          "position": "Angriff"
         },
         {
           "name": "Bernardo Silva",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tijjani Reijnders",
           "position": "Mittelfeld"
         },
         {
@@ -130,7 +130,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Tijjani Reijnders",
+          "name": "Phil Foden",
           "position": "Mittelfeld"
         },
         {
@@ -204,7 +204,7 @@
     {
       "homeTeam": "Sunderland",
       "awayTeam": "AFC Bournemouth",
-      "dateTime": "2025-11-29T16:00:00Z",
+      "dateTime": "2025-11-29T00:00:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
@@ -225,11 +225,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Granit Xhaka",
+          "name": "Noah Sadiki",
           "position": "Mittelfeld"
         },
         {
-          "name": "Noah Sadiki",
+          "name": "Granit Xhaka",
           "position": "Mittelfeld"
         },
         {
@@ -259,7 +259,7 @@
           "position": ""
         },
         {
-          "name": "Amine Adli",
+          "name": "Antoine Semenyo",
           "position": ""
         },
         {
@@ -267,7 +267,7 @@
           "position": ""
         },
         {
-          "name": "Antoine Semenyo",
+          "name": "Amine Adli",
           "position": ""
         },
         {
@@ -320,7 +320,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Idrissa Gueye",
+          "name": "Tim Iroegbunam",
           "position": "Mittelfeld"
         },
         {
@@ -340,7 +340,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Seamus Coleman",
+          "name": "Jake O&#039;Brien",
           "position": "Abwehr"
         },
         {
@@ -350,19 +350,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Anthony Gordon",
-          "position": "Angriff"
-        },
-        {
           "name": "Harvey Barnes",
           "position": "Angriff"
         },
         {
-          "name": "Joe Willock",
+          "name": "Nick Woltemade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anthony Elanga",
           "position": "Mittelfeld"
         },
         {
-          "name": "Tino Livramento",
+          "name": "Joelinton",
           "position": "Mittelfeld"
         },
         {
@@ -370,11 +370,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Sandro Tonali",
+          "name": "Lewis Miley",
           "position": "Mittelfeld"
         },
         {
-          "name": "Jacob Murphy",
+          "name": "Lewis Hall",
           "position": "Mittelfeld"
         },
         {
@@ -382,15 +382,15 @@
           "position": "Abwehr"
         },
         {
-          "name": "Fabian Schar",
-          "position": "Abwehr"
-        },
-        {
           "name": "Malick Thiaw",
           "position": "Abwehr"
         },
         {
-          "name": "Nick Pope",
+          "name": "Tino Livramento",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Ramsdale",
           "position": "Torwart"
         }
       ]
