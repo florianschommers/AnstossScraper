@@ -10869,7 +10869,7 @@
   {
     "matchID": 78060,
     "matchDateTime": "2025-11-29T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10894,8 +10894,8 @@
       "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T14:00:57.35",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-29T15:00:43.337",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120704,
@@ -10910,13 +10910,26 @@
         "resultID": 120705,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 134986,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 75,
+        "goalGetterID": 18467,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 19,
       "locationCity": "Kiel",
@@ -10927,7 +10940,7 @@
   {
     "matchID": 78064,
     "matchDateTime": "2025-11-29T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10952,8 +10965,8 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T14:00:54.45",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-29T15:00:12.99",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120702,
@@ -11022,7 +11035,7 @@
   {
     "matchID": 78066,
     "matchDateTime": "2025-11-29T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11047,8 +11060,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T14:14:44.023",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-29T15:02:42.053",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120700,
