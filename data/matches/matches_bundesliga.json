@@ -9762,7 +9762,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/560px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T19:18:26.16",
+    "lastUpdateDateTime": "2025-11-29T20:13:02.633",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9777,8 +9777,8 @@
       {
         "resultID": 120727,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -9791,6 +9791,30 @@
         "scoreTeam2": 1,
         "matchMinute": 41,
         "goalGetterID": 24293,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135021,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 65,
+        "goalGetterID": 19423,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135022,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 83,
+        "goalGetterID": 23576,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
