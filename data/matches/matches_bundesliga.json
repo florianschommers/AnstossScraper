@@ -9398,7 +9398,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T16:43:00.447",
+    "lastUpdateDateTime": "2025-11-29T17:29:35.537",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9413,7 +9413,7 @@
       {
         "resultID": 120717,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 3,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -9443,6 +9443,30 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135013,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 93,
+        "goalGetterID": 18880,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 135015,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 98,
+        "goalGetterID": 23959,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
@@ -9477,8 +9501,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T16:46:47.017",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-29T17:28:05.143",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120718,
@@ -9493,7 +9517,7 @@
         "resultID": 120719,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -9511,6 +9535,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 135011,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 91,
+        "goalGetterID": 21344,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
       }
     ],
     "location": null,
@@ -9519,7 +9555,7 @@
   {
     "matchID": 77361,
     "matchDateTime": "2025-11-29T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -9544,8 +9580,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T16:20:10.353",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-29T17:27:03.447",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120720,
@@ -9560,7 +9596,7 @@
         "resultID": 120721,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -9578,6 +9614,30 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 135012,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 90,
+        "goalGetterID": 16426,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135014,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 95,
+        "goalGetterID": 19780,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
       }
     ],
     "location": null,
@@ -9586,7 +9646,7 @@
   {
     "matchID": 77362,
     "matchDateTime": "2025-11-29T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -9611,8 +9671,8 @@
       "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T16:20:12.443",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-29T17:25:52.713",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120722,
