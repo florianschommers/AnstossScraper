@@ -1,107 +1,8 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-11-29T19:36:57.820895",
+  "lastUpdated": "2025-11-29T20:38:16.804604",
   "lineups": [
-    {
-      "homeTeam": "Levante",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Karl Etta Eyong",
-          "position": "Angriff"
-        },
-        {
-          "name": "Goduine Koyalipou",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jon Ander Olasagasti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oriol Rey",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kevin Arriaga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Alvarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Sanchez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alan Matturro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Elgezabal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremy Toljan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mathew Ryan",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gorka Guruzeta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Williams",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Berenguer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Robert Navarro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Rego",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikel Jauregizar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yuri Berchiche",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aitor Paredes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dani Vivian",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inigo Lekue",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Simon",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Mallorca",
       "awayTeam": "Osasuna",
@@ -890,6 +791,105 @@
         },
         {
           "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Levante",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Karl Etta Eyong",
+          "position": "Angriff"
+        },
+        {
+          "name": "Goduine Koyalipou",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jon Ander Olasagasti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Arriaga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Alvarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Sanchez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alan Matturro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Elgezabal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gorka Guruzeta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Williams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Rego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Inigo Lekue",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Simon",
           "position": "Torwart"
         }
       ]
