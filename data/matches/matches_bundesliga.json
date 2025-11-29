@@ -9465,7 +9465,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T15:31:23.02",
+    "lastUpdateDateTime": "2025-11-29T15:52:35.36",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9480,14 +9480,27 @@
       {
         "resultID": 120719,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135002,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 22,
+        "goalGetterID": 23228,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -9573,7 +9586,7 @@
       "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T15:31:25.247",
+    "lastUpdateDateTime": "2025-11-29T15:46:54.447",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9588,14 +9601,27 @@
       {
         "resultID": 120723,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135000,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 16,
+        "goalGetterID": 24121,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
