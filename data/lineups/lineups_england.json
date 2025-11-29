@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-29T19:36:28.383493",
+  "lastUpdated": "2025-11-29T20:37:53.501593",
   "lineups": [
-    {
-      "homeTeam": "Everton",
-      "awayTeam": "Newcastle",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Thierno Barry",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jack Grealish",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kiernan Dewsbury-Hall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Iliman Ndiaye",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tim Iroegbunam",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "James Garner",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaliy Mykolenko",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michael Keane",
-          "position": "Abwehr"
-        },
-        {
-          "name": "James Tarkowski",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jake O&#039;Brien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jordan Pickford",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Harvey Barnes",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nick Woltemade",
-          "position": "Angriff"
-        },
-        {
-          "name": "Anthony Elanga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joelinton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bruno Guimaraes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Miley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Hall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dan Burn",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malick Thiaw",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tino Livramento",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Ramsdale",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Brentford",
       "awayTeam": "Burnley",
@@ -982,6 +883,105 @@
         {
           "name": "Djordje Petrovic",
           "position": ""
+        }
+      ]
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Newcastle",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Thierno Barry",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jack Grealish",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kiernan Dewsbury-Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Iroegbunam",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James Garner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaliy Mykolenko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Keane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Tarkowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jake O&#039;Brien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Pickford",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Harvey Barnes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nick Woltemade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anthony Elanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joelinton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Guimaraes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Miley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Burn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tino Livramento",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Ramsdale",
+          "position": "Torwart"
         }
       ]
     }
