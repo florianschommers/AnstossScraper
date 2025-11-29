@@ -9398,14 +9398,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T15:38:18.94",
+    "lastUpdateDateTime": "2025-11-29T16:20:05.9",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120716,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -9413,7 +9413,7 @@
       {
         "resultID": 120717,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -9427,6 +9427,18 @@
         "scoreTeam2": 1,
         "matchMinute": 6,
         "goalGetterID": 23653,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135006,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 44,
+        "goalGetterID": 18618,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -9465,13 +9477,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T15:52:35.36",
+    "lastUpdateDateTime": "2025-11-29T16:20:08.323",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120718,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -9532,13 +9544,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T15:31:24.253",
+    "lastUpdateDateTime": "2025-11-29T16:20:10.353",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120720,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -9547,14 +9559,27 @@
       {
         "resultID": 120721,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135005,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 43,
+        "goalGetterID": 20089,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -9586,13 +9611,13 @@
       "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T15:46:54.447",
+    "lastUpdateDateTime": "2025-11-29T16:20:12.443",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120722,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 3,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -9601,7 +9626,7 @@
       {
         "resultID": 120723,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 3,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -9615,6 +9640,30 @@
         "scoreTeam2": 0,
         "matchMinute": 16,
         "goalGetterID": 24121,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135004,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 26,
+        "goalGetterID": 23589,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135007,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 45,
+        "goalGetterID": 17629,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
