@@ -1,8 +1,107 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2025-11-29T11:32:18.194066",
+  "lastUpdated": "2025-11-29T12:54:59.864660",
   "lineups": [
+    {
+      "homeTeam": "Freiburg",
+      "awayTeam": "Fcbasel",
+      "dateTime": "2025-09-24T19:00:00Z",
+      "matchday": 1,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Junior Adamu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Johan Manzambi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niklas Beste",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Osterhage",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Eggestein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Gunter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anthony Jung",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthias Ginter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Kubler",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Atubolu",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Albian Ajeti",
+          "position": "Angriff"
+        },
+        {
+          "name": "Junior Ze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Xherdan Shaqiri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Salah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leo Leroy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Metinho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Schmid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Adjetey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian Leon Barisic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Keigo Tsunemoto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mirko Salvi",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Fcbasel",
       "awayTeam": "Steaua",
