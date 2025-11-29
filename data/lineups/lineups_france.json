@@ -1,12 +1,111 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-11-29T20:39:01.078816",
+  "lastUpdated": "2025-11-29T21:34:57.461846",
   "lineups": [
+    {
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Toulouse",
+      "dateTime": "2025-11-29T00:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Igor Paixao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Angel Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bilal Nadir",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emerson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benjamin Pavard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Emersonn",
+          "position": "Angriff"
+        },
+        {
+          "name": "Frank Magri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aron Dønnum",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dayann Methalie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristian Casseres Jr.",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Vossah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sidibe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Monaco",
       "awayTeam": "Psg",
-      "dateTime": "2025-11-29T21:05:00Z",
+      "dateTime": "2025-11-29T15:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Lucas Chevalier",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Fcmetz",
-      "awayTeam": "Rennes",
-      "dateTime": "2025-11-28T15:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ibou Sane",
-          "position": "Angriff"
-        },
-        {
-          "name": "Cheikh Sabaly",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gauthier Hein",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fode Ballo-Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Boubacar Traore",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jessy Deminguet",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giorgi Tsitaishvili",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Terry Yegbe",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jean-Philippe Gbamin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxime Colin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jonathan Fischer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Breel Embolo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Esteban Lepaul",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mousa Tamari",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djaoui Cisse",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Valentin Rongier",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mahdi Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Przemyslaw Frankowski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lilian Brassier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremy Jacquet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Abdelhamid Ait Boudlal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Brice Samba",
           "position": "Torwart"
         }
       ]
