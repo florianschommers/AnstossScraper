@@ -10894,9 +10894,28 @@
       "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-09-04T14:50:41.6",
+    "lastUpdateDateTime": "2025-11-29T13:00:26.67",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 120704,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120705,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": {
       "locationID": 19,
@@ -10933,10 +10952,66 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-09-04T14:50:54.04",
+    "lastUpdateDateTime": "2025-11-29T13:17:47.717",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 120702,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120703,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 3,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 134974,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 9,
+        "goalGetterID": 23557,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134975,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 13,
+        "goalGetterID": 23557,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 134976,
+        "scoreTeam1": 0,
+        "scoreTeam2": 3,
+        "matchMinute": 17,
+        "goalGetterID": 16886,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1107,
       "locationCity": "Fürth",
@@ -10972,10 +11047,42 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-09-04T14:51:06.93",
+    "lastUpdateDateTime": "2025-11-29T13:41:07.447",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 120700,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120701,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 134977,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 34,
+        "goalGetterID": 24077,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 350,
       "locationCity": "Braunschweig",
