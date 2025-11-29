@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-29T23:14:56.990579Z",
+  "lastUpdated": "2025-11-29T23:31:04.146101Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,9 +1005,9 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Mallorca",
-      "awayTeam": "Osasuna",
-      "dateTime": "2025-11-29T14:00:00Z",
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Villarreal",
+      "dateTime": "2025-11-30T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1045,11 +1045,21 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Vallecano",
-      "awayTeam": "Valencia",
-      "dateTime": "2025-12-01T21:00:00Z",
+      "homeTeam": "Getafe",
+      "awayTeam": "Elche",
+      "dateTime": "2025-11-28T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Getafe",
+      "awayTeam": "Elche",
+      "dateTime": "2025-11-28T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1089,16 +1099,6 @@
       "awayTeam": "Oviedo",
       "dateTime": "2025-11-29T15:00:00Z",
       "score": "2:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Getafe",
-      "awayTeam": "Elche",
-      "dateTime": "2025-11-28T15:00:00Z",
-      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
