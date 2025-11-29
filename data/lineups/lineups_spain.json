@@ -1,107 +1,8 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-11-29T22:39:33.666682",
+  "lastUpdated": "2025-11-29T23:36:23.641896",
   "lineups": [
-    {
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Oviedo",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Alexander Sørloth",
-          "position": "Angriff"
-        },
-        {
-          "name": "Antoine Griezmann",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Baena",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Koke",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Conor Gallagher",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nico Gonzalez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Hancko",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Clement Lenglet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marc Pubill",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Molina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jan Oblak",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Salomon Rondon",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Vinas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Haissem Hassan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santi Cazorla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Colombatto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leander Dendoncker",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rahim Alhassane",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Carmo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Costas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nacho Vidal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Escandell",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Mallorca",
       "awayTeam": "Osasuna",
@@ -890,6 +791,105 @@
         },
         {
           "name": "Unai Simon",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Oviedo",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Antoine Griezmann",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Conor Gallagher",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Hancko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Clement Lenglet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Pubill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Salomon Rondon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Vinas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Haissem Hassan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santi Cazorla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Colombatto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leander Dendoncker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rahim Alhassane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Carmo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Costas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nacho Vidal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Escandell",
           "position": "Torwart"
         }
       ]
