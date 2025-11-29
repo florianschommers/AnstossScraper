@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-29T21:53:59.329012Z",
+  "lastUpdated": "2025-11-29T22:13:13.676542Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Fulham",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Brentford",
       "awayTeam": "Burnley",
       "dateTime": "2025-11-29T13:00:00Z",
@@ -999,6 +989,16 @@
       "awayTeam": "Newcastle",
       "dateTime": "2025-11-29T15:00:00Z",
       "score": "1:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Fulham",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-29T21:54:42.962213Z",
+  "lastUpdated": "2025-11-29T22:14:00.551134Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Acmailand",
-      "awayTeam": "Laziorom",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Cfcgenua",
       "awayTeam": "Hverona",
       "dateTime": "2025-11-29T12:30:00Z",
@@ -989,6 +979,16 @@
       "awayTeam": "Cagliari",
       "dateTime": "2025-11-29T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Acmailand",
+      "awayTeam": "Laziorom",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
