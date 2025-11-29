@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-29T18:49:42.538401",
+  "lastUpdated": "2025-11-29T19:37:26.320162",
   "lineups": [
-    {
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Cagliari",
-      "dateTime": "2025-11-29T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Dusan Vlahovic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Francisco Conceicao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Filip Kostic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Khephren Thuram",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manuel Locatelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Teun Koopmeiners",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mattia Perin",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Sebastiano Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gennaro Borrelli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adam Obert",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michael Folorunsho",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joseph Liteta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Adopo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marco Palestra",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sebastiano Luperto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Deiola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Gabriele Zappa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Elia Caprile",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Cfcgenua",
       "awayTeam": "Hverona",
@@ -890,6 +791,105 @@
         },
         {
           "name": "Maduka Okoye",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-11-29T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Dusan Vlahovic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Filip Kostic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mattia Perin",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gennaro Borrelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Folorunsho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joseph Liteta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Deiola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriele Zappa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
           "position": "Torwart"
         }
       ]
