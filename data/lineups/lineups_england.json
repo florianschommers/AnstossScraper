@@ -1,12 +1,111 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-11-29T20:37:53.501593",
+  "lastUpdated": "2025-11-29T21:33:49.405284",
   "lineups": [
+    {
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Fulham",
+      "dateTime": "2025-11-29T00:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Richarlison",
+          "position": "Angriff"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Bergvall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Palhinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Destiny Udogie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Danso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Raul Jimenez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Josh King",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Sessegnon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joachim Andersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernd Leno",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Brentford",
       "awayTeam": "Burnley",
-      "dateTime": "2025-11-29T21:00:00Z",
+      "dateTime": "2025-11-29T13:00:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Martin Dubravka",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Crystalpalace",
-      "awayTeam": "Manunited",
-      "dateTime": "2025-11-30T13:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Yeremy Pino",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jean-Philippe Mateta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ismaila Sarr",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tyrick Mitchell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jefferson Lerma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Will Hughes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daniel Munoz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Guehi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxence Lacroix",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jaydee Canvot",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dean Henderson",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Joshua Zirkzee",
-          "position": "Angriff"
-        },
-        {
-          "name": "Amad Diallo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bryan Mbeumo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Patrick Dorgu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Casemiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bruno Fernandes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Noussair Mazraoui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luke Shaw",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matthijs de Ligt",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leny Yoro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Senne Lammens",
           "position": "Torwart"
         }
       ]
