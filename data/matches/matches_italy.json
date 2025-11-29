@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-29T19:39:04.948515Z",
+  "lastUpdated": "2025-11-29T19:48:05.865537Z",
   "matches": [
     {
       "matchday": 4,
@@ -1018,6 +1018,16 @@
       "homeTeam": "Intermailand",
       "awayTeam": "Como",
       "dateTime": "2025-12-06T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Hverona",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-12-06T20:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
