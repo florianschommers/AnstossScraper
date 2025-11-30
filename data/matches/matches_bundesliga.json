@@ -9919,7 +9919,7 @@
   {
     "matchID": 77357,
     "matchDateTime": "2025-11-30T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -9944,8 +9944,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T18:55:25.897",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-30T19:27:25.213",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120765,
@@ -9959,7 +9959,7 @@
       {
         "resultID": 120766,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -9977,6 +9977,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135118,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 96,
+        "goalGetterID": 15931,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
@@ -10011,9 +10023,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-09-04T14:28:29.983",
+    "lastUpdateDateTime": "2025-11-30T19:30:40.91",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 120772,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120773,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
