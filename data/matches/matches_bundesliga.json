@@ -9828,7 +9828,7 @@
   {
     "matchID": 77363,
     "matchDateTime": "2025-11-30T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -9853,8 +9853,8 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T16:48:07.697",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-30T17:26:12.75",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120751,
@@ -9868,7 +9868,7 @@
       {
         "resultID": 120752,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -9898,6 +9898,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135101,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 94,
+        "goalGetterID": 24300,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
