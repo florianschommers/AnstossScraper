@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-30T15:35:59.469514",
+  "lastUpdated": "2025-11-30T16:44:23.307398",
   "lineups": [
-    {
-      "homeTeam": "Pisa",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "M&#039;Bala Nzola",
-          "position": "Angriff"
-        },
-        {
-          "name": "Henrik Meister",
-          "position": "Angriff"
-        },
-        {
-          "name": "Samuele Angori",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Marin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Aebischer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gabriele Piccinini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Idrissa Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Simone Canestrelli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Raul Albiol",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Antonio Caracciolo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Scuffet",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Marcus Thuram",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Dimarco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Petar Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hakan Calhanoglu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Francesco Acerbi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Lecce",
       "awayTeam": "Turin",
@@ -494,6 +395,105 @@
         },
         {
           "name": "Franco Israel",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Pisa",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "M&#039;Bala Nzola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Henrik Meister",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuele Angori",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Marin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriele Piccinini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Idrissa Toure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simone Canestrelli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Albiol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Caracciolo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Scuffet",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marcus Thuram",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Dimarco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petar Sucic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakan Calhanoglu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Francesco Acerbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
           "position": "Torwart"
         }
       ]
