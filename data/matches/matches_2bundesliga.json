@@ -11143,7 +11143,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T22:40:49.323",
+    "lastUpdateDateTime": "2025-11-30T14:22:35.737",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -11170,8 +11170,8 @@
         "goalID": 135023,
         "scoreTeam1": 1,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 73,
+        "goalGetterID": 24297,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -11182,24 +11182,24 @@
         "goalID": 135024,
         "scoreTeam1": 2,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 95,
+        "goalGetterID": 24297,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
-        "isOvertime": false,
+        "isOvertime": true,
         "comment": null
       },
       {
         "goalID": 135025,
         "scoreTeam1": 3,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 100,
+        "goalGetterID": 24161,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
-        "isOvertime": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
@@ -11238,7 +11238,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T13:39:43.573",
+    "lastUpdateDateTime": "2025-11-30T14:18:12.197",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11271,7 +11271,7 @@
   {
     "matchID": 78067,
     "matchDateTime": "2025-11-30T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11296,14 +11296,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T13:40:28.11",
+    "lastUpdateDateTime": "2025-11-30T14:23:47.06",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120736,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -11312,7 +11312,7 @@
         "resultID": 120737,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11327,6 +11327,18 @@
         "goalGetterID": 23660,
         "goalGetterName": "",
         "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135063,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 32,
+        "goalGetterID": 20247,
+        "goalGetterName": "",
+        "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
@@ -11367,13 +11379,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/150px-Fortuna_D%C3%BCsseldorf.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T13:39:48.637",
+    "lastUpdateDateTime": "2025-11-30T14:18:01.48",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120738,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -11382,14 +11394,27 @@
       {
         "resultID": 120739,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135069,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 45,
+        "goalGetterID": 18440,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 2,
       "locationCity": "Dresden",
