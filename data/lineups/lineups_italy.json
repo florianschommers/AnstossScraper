@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-30T17:34:36.173624",
+  "lastUpdated": "2025-11-30T18:46:18.667617",
   "lineups": [
+    {
+      "homeTeam": "Bergamo",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-11-30T00:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raoul Bellanova",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isak Hien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Roberto Piccoli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Moise Kean",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fabiano Parisi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Sohm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Fagioli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rolando Mandragora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dodo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Ranieri",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Mari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marin Pongracic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David de Gea",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Lecce",
       "awayTeam": "Turin",
-      "dateTime": "2025-11-30T18:00:00Z",
+      "dateTime": "2025-11-30T20:45:00Z",
       "matchday": 13,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Franco Israel",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Asrom",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2025-11-30T20:45:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Paulo Dybala",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lorenzo Pellegrini",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matias Soule",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Wesley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Kone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Neil El Aynaoui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Zeki Celik",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gianluca Mancini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Evan Ndicka",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Daniele Ghilardi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mile Svilar",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "Noa Lang",
-          "position": "Angriff"
-        },
-        {
-          "name": "David Neres",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Olivera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stanislav Lobotka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Buongiorno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Rrahmani",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Beukema",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanja Milinkovic-Savic",
           "position": "Torwart"
         }
       ]
