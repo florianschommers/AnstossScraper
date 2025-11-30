@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-30T16:12:54.578960Z",
+  "lastUpdated": "2025-11-30T16:15:02.500992Z",
   "matches": [
     {
       "matchday": 4,
@@ -907,16 +907,6 @@
       "matchday": 14,
       "homeTeam": "Strassburg",
       "awayTeam": "Brest",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Aclehavre",
-      "awayTeam": "Lille",
       "dateTime": "2025-11-30T17:15:00Z",
       "score": null,
       "isFinished": false,
@@ -950,6 +940,16 @@
       "dateTime": "2025-11-30T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Strassburg",
+      "awayTeam": "Brest",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
