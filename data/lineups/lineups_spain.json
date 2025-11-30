@@ -1,8 +1,107 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-11-30T20:39:56.171821",
+  "lastUpdated": "2025-11-30T21:36:51.915366",
   "lineups": [
+    {
+      "homeTeam": "Girona",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-11-30T00:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Vladyslav Vanat",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bryan Gil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Tsygankov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Axel Witsel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Moreno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitor Reis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arnau Martinez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hugo Rincon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paulo Gazzaniga",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Rudiger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eder Militao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Realsociedad",
       "awayTeam": "Villarreal",
@@ -98,105 +197,6 @@
         },
         {
           "name": "Luiz Junior",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Getafe",
-      "awayTeam": "Elche",
-      "dateTime": "2025-11-28T21:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Borja Mayoral",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adrian Liso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Sancris",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mauro Wilney Arambarri Rosa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Milla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kiko Femenia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Allan Nyom",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djene",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Domingos Duarte",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Iglesias",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Soria",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Andre Silva",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alvaro Rodriguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Martim Neto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aleix Febas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Grady Diangana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "German Valera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leo Petrot",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Affengruber",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alvaro Nunez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hector Fort",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inaki Pena",
           "position": "Torwart"
         }
       ]
