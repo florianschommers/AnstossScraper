@@ -3700,7 +3700,7 @@
   {
     "matchID": 79585,
     "matchDateTime": "2025-10-28T18:30:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -3725,7 +3725,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-02T13:57:58.45",
+    "lastUpdateDateTime": "2025-11-30T07:48:06.24",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -3767,7 +3767,7 @@
   {
     "matchID": 79587,
     "matchDateTime": "2025-10-28T18:30:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -3792,7 +3792,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/150px-SV_Elversberg_Logo_2021.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-28T20:28:17.843",
+    "lastUpdateDateTime": "2025-11-30T07:45:36.88",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -3858,7 +3858,7 @@
   {
     "matchID": 79589,
     "matchDateTime": "2025-10-28T18:30:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -3883,7 +3883,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/560px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T16:58:23.887",
+    "lastUpdateDateTime": "2025-11-30T07:48:03.96",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -3898,11 +3898,20 @@
       {
         "resultID": 119897,
         "resultName": "Endergebnis",
-        "pointsTeam1": 3,
-        "pointsTeam2": 5,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 120732,
+        "resultName": "Elfmeterschießen",
+        "pointsTeam1": 3,
+        "pointsTeam2": 5,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultDescription": "Ergebnis nach Elfmeterschießen"
       }
     ],
     "goals": [
@@ -4000,7 +4009,7 @@
         "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
-        "comment": "Elfmeterschießen"
+        "comment": ""
       }
     ],
     "location": null,
@@ -4009,7 +4018,7 @@
   {
     "matchID": 79595,
     "matchDateTime": "2025-10-28T18:30:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4034,7 +4043,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-28T20:29:28.873",
+    "lastUpdateDateTime": "2025-11-30T07:45:41.04",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4076,7 +4085,7 @@
   {
     "matchID": 79583,
     "matchDateTime": "2025-10-28T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4101,7 +4110,7 @@
       "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-28T22:40:15.903",
+    "lastUpdateDateTime": "2025-11-30T07:49:16.923",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4191,7 +4200,7 @@
   {
     "matchID": 79586,
     "matchDateTime": "2025-10-28T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4216,7 +4225,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-28T22:39:53.623",
+    "lastUpdateDateTime": "2025-11-30T07:49:12.177",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4294,7 +4303,7 @@
   {
     "matchID": 79591,
     "matchDateTime": "2025-10-28T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4319,7 +4328,7 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-28T22:37:55.72",
+    "lastUpdateDateTime": "2025-11-30T07:48:12.553",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4361,7 +4370,7 @@
   {
     "matchID": 79597,
     "matchDateTime": "2025-10-28T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4386,7 +4395,7 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-29T17:24:28.473",
+    "lastUpdateDateTime": "2025-11-30T07:49:09.537",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4401,11 +4410,20 @@
       {
         "resultID": 119907,
         "resultName": "Endergebnis",
-        "pointsTeam1": 10,
-        "pointsTeam2": 9,
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 120733,
+        "resultName": "Elfmeterschießen",
+        "pointsTeam1": 10,
+        "pointsTeam2": 9,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultDescription": "Ergebnis nach Elfmeterschießen"
       }
     ],
     "goals": [
@@ -4635,7 +4653,7 @@
         "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
-        "comment": "Elfmeterschießen"
+        "comment": ""
       }
     ],
     "location": null,
@@ -4644,7 +4662,7 @@
   {
     "matchID": 79582,
     "matchDateTime": "2025-10-29T18:00:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4669,7 +4687,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-29T19:54:33.107",
+    "lastUpdateDateTime": "2025-11-30T07:47:45.477",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4735,7 +4753,7 @@
   {
     "matchID": 79588,
     "matchDateTime": "2025-10-29T18:00:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4760,7 +4778,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-29T19:56:11.763",
+    "lastUpdateDateTime": "2025-11-30T07:49:07.68",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4802,7 +4820,7 @@
   {
     "matchID": 79593,
     "matchDateTime": "2025-10-29T18:00:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4827,7 +4845,7 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-02T13:53:35.153",
+    "lastUpdateDateTime": "2025-11-30T07:49:03.743",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -4938,7 +4956,7 @@
   {
     "matchID": 79594,
     "matchDateTime": "2025-10-29T18:00:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -4963,7 +4981,7 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-29T19:56:36.907",
+    "lastUpdateDateTime": "2025-11-30T07:49:00.07",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -5017,7 +5035,7 @@
   {
     "matchID": 79584,
     "matchDateTime": "2025-10-29T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -5042,7 +5060,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-30T05:42:23.867",
+    "lastUpdateDateTime": "2025-11-30T07:48:57.997",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -5108,7 +5126,7 @@
   {
     "matchID": 79590,
     "matchDateTime": "2025-10-29T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -5133,7 +5151,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-29T22:44:11.703",
+    "lastUpdateDateTime": "2025-11-30T07:49:01.793",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -5211,7 +5229,7 @@
   {
     "matchID": 79592,
     "matchDateTime": "2025-10-29T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -5236,7 +5254,7 @@
       "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-29T22:45:12.313",
+    "lastUpdateDateTime": "2025-11-30T07:48:52.263",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -5314,7 +5332,7 @@
   {
     "matchID": 79596,
     "matchDateTime": "2025-10-29T20:45:00",
-    "timeZoneID": null,
+    "timeZoneID": "W. Europe Standard Time",
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -5339,7 +5357,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-10-29T22:44:03.367",
+    "lastUpdateDateTime": "2025-11-30T07:48:50.493",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -5489,7 +5507,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-12T16:54:15.967",
+    "lastUpdateDateTime": "2025-11-30T07:49:22.533",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
@@ -5524,7 +5542,7 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-06T15:11:56.87",
+    "lastUpdateDateTime": "2025-11-30T07:49:24.27",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
@@ -5559,7 +5577,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-06T15:12:10.493",
+    "lastUpdateDateTime": "2025-11-30T07:49:25.953",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
@@ -5594,7 +5612,7 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-06T15:12:25.79",
+    "lastUpdateDateTime": "2025-11-30T07:49:29.887",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
@@ -5629,7 +5647,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-06T15:12:50.073",
+    "lastUpdateDateTime": "2025-11-30T07:49:31.973",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
@@ -5664,7 +5682,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-06T15:13:12.457",
+    "lastUpdateDateTime": "2025-11-30T07:49:34.36",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
@@ -5699,7 +5717,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-06T15:13:32.657",
+    "lastUpdateDateTime": "2025-11-30T07:49:36.51",
     "matchIsFinished": false,
     "matchResults": [],
     "goals": [],
