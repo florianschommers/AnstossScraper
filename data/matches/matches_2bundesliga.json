@@ -11379,7 +11379,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/150px-Fortuna_D%C3%BCsseldorf.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T14:18:01.48",
+    "lastUpdateDateTime": "2025-11-30T14:42:54.057",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11394,7 +11394,7 @@
       {
         "resultID": 120739,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -11408,6 +11408,18 @@
         "scoreTeam2": 0,
         "matchMinute": 45,
         "goalGetterID": 18440,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135076,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 53,
+        "goalGetterID": 17747,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
