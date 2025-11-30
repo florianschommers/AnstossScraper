@@ -9944,7 +9944,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T17:35:27.723",
+    "lastUpdateDateTime": "2025-11-30T18:55:25.897",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -9960,13 +9960,26 @@
         "resultID": 120766,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135114,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 67,
+        "goalGetterID": 23326,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
