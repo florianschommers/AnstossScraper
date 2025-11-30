@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-30T11:39:03.281124Z",
+  "lastUpdated": "2025-11-30T11:48:35.284578Z",
   "matches": [
     {
       "matchday": 4,
@@ -1028,6 +1028,16 @@
       "homeTeam": "Hverona",
       "awayTeam": "Bergamo",
       "dateTime": "2025-12-06T20:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-12-07T12:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
