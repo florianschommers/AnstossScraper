@@ -11213,7 +11213,7 @@
   {
     "matchID": 78061,
     "matchDateTime": "2025-11-30T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11238,8 +11238,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T14:18:12.197",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-11-30T15:23:17.757",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120734,
@@ -11296,7 +11296,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T14:23:47.06",
+    "lastUpdateDateTime": "2025-11-30T15:25:04.933",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11312,7 +11312,7 @@
         "resultID": 120737,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11340,6 +11340,18 @@
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135083,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 89,
+        "goalGetterID": 21349,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": true,
         "isOvertime": false,
         "comment": null
       }
@@ -11379,7 +11391,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/150px-Fortuna_D%C3%BCsseldorf.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T14:42:54.057",
+    "lastUpdateDateTime": "2025-11-30T15:14:43.637",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11395,7 +11407,7 @@
         "resultID": 120739,
         "resultName": "Endergebnis",
         "pointsTeam1": 2,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11420,6 +11432,18 @@
         "scoreTeam2": 0,
         "matchMinute": 53,
         "goalGetterID": 17747,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135081,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 84,
+        "goalGetterID": 23988,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
