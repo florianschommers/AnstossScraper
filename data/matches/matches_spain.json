@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-11-30T15:17:12.472017Z",
+  "lastUpdated": "2025-11-30T15:32:42.115603Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,28 +1005,18 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Realsociedad",
-      "awayTeam": "Villarreal",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Sevilla",
       "awayTeam": "Realbetis",
-      "dateTime": "2025-11-30T16:15:00Z",
-      "score": null,
+      "dateTime": "2025-11-30T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 14,
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Espanyol",
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Villarreal",
       "dateTime": "2025-11-30T18:30:00Z",
       "score": null,
       "isFinished": false,
@@ -1050,6 +1040,16 @@
       "dateTime": "2025-11-28T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Villarreal",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
