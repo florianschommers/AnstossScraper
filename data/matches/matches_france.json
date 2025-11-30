@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-11-30T21:46:51.241554Z",
+  "lastUpdated": "2025-11-30T21:56:37.016457Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Lyon",
-      "awayTeam": "Nantes",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "score": "3:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Strassburg",
       "awayTeam": "Brest",
       "dateTime": "2025-11-30T15:00:00Z",
@@ -949,6 +939,16 @@
       "awayTeam": "Nizza",
       "dateTime": "2025-11-30T15:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Lyon",
+      "awayTeam": "Nantes",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
