@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-30T15:53:33.326835Z",
+  "lastUpdated": "2025-11-30T16:12:11.605632Z",
   "matches": [
     {
       "matchday": 4,
@@ -908,10 +908,10 @@
       "homeTeam": "Nottingham",
       "awayTeam": "Brighton & Hove Albion",
       "dateTime": "2025-11-30T00:00:00Z",
-      "score": "0:1",
+      "score": "0:2",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:1"
+      "liveScore": "0:2"
     },
     {
       "matchday": 13,
@@ -922,16 +922,6 @@
       "isFinished": false,
       "isLive": true,
       "liveScore": "1:0"
-    },
-    {
-      "matchday": 13,
-      "homeTeam": "West Ham United",
-      "awayTeam": "Liverpool",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
     },
     {
       "matchday": 13,
@@ -949,6 +939,16 @@
       "awayTeam": "Manunited",
       "dateTime": "2025-11-30T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "West Ham United",
+      "awayTeam": "Liverpool",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
