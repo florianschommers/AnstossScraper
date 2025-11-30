@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-30T18:55:48.717432Z",
+  "lastUpdated": "2025-11-30T19:11:04.012636Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Acflorenz",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Lecce",
       "awayTeam": "Turin",
       "dateTime": "2025-11-30T20:45:00Z",
@@ -949,6 +939,16 @@
       "awayTeam": "Intermailand",
       "dateTime": "2025-11-30T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "score": "2:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
