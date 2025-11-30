@@ -10023,7 +10023,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-30T20:18:46.937",
+    "lastUpdateDateTime": "2025-11-30T20:40:19.613",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10038,7 +10038,7 @@
       {
         "resultID": 120773,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
+        "pointsTeam1": 3,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -10064,6 +10064,18 @@
         "scoreTeam2": 0,
         "matchMinute": 26,
         "goalGetterID": 18337,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135125,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 50,
+        "goalGetterID": 21364,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
