@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-11-30T17:09:50.362541Z",
+  "lastUpdated": "2025-11-30T17:30:00.910571Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,18 +905,18 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Lecce",
-      "awayTeam": "Turin",
-      "dateTime": "2025-11-30T18:00:00Z",
-      "score": null,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-11-30T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 13,
-      "homeTeam": "Asrom",
-      "awayTeam": "Sscneapel",
+      "homeTeam": "Lecce",
+      "awayTeam": "Turin",
       "dateTime": "2025-11-30T20:45:00Z",
       "score": null,
       "isFinished": false,
@@ -1048,6 +1048,16 @@
       "homeTeam": "Cagliari",
       "awayTeam": "Asrom",
       "dateTime": "2025-12-07T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Bologna",
+      "dateTime": "2025-12-07T18:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
