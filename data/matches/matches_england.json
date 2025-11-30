@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-11-30T18:43:34.062744Z",
+  "lastUpdated": "2025-11-30T18:46:58.193604Z",
   "matches": [
     {
       "matchday": 4,
@@ -905,16 +905,6 @@
     },
     {
       "matchday": 13,
-      "homeTeam": "Chelsea",
-      "awayTeam": "Arsenal",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 13,
       "homeTeam": "Crystalpalace",
       "awayTeam": "Manunited",
       "dateTime": "2025-11-30T15:00:00Z",
@@ -949,6 +939,16 @@
       "awayTeam": "Liverpool",
       "dateTime": "2025-11-30T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Arsenal",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
