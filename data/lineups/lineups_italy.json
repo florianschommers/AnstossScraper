@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-11-30T18:46:18.667617",
+  "lastUpdated": "2025-11-30T19:34:36.522663",
   "lineups": [
-    {
-      "homeTeam": "Bergamo",
-      "awayTeam": "Acflorenz",
-      "dateTime": "2025-11-30T00:00:00Z",
-      "matchday": 13,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ademola Lookman",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Zappacosta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Raoul Bellanova",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Isak Hien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odilon Kossounou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Roberto Piccoli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Moise Kean",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fabiano Parisi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Simon Sohm",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Fagioli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rolando Mandragora",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dodo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Ranieri",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pablo Mari",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marin Pongracic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David de Gea",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Lecce",
       "awayTeam": "Turin",
@@ -494,6 +395,105 @@
         },
         {
           "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bergamo",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-11-30T15:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raoul Bellanova",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isak Hien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Roberto Piccoli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Moise Kean",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fabiano Parisi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Sohm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rolando Mandragora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dodo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Fagioli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Ranieri",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Mari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marin Pongracic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David de Gea",
           "position": "Torwart"
         }
       ]
