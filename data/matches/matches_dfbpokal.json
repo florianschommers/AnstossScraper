@@ -5769,7 +5769,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T21:48:10.653",
+    "lastUpdateDateTime": "2025-12-02T22:14:32.343",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -5784,7 +5784,7 @@
       {
         "resultID": 120791,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
+        "pointsTeam1": 3,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -5821,6 +5821,18 @@
         "scoreTeam1": 2,
         "scoreTeam2": 1,
         "matchMinute": 30,
+        "goalGetterID": 18529,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135171,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 54,
         "goalGetterID": 18529,
         "goalGetterName": "",
         "isPenalty": false,
