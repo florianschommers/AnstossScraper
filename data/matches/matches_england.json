@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-02T21:56:53.615692Z",
+  "lastUpdated": "2025-12-02T22:19:01.501587Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Newcastle",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2025-12-02T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "AFC Bournemouth",
       "awayTeam": "Everton",
       "dateTime": "2025-12-02T20:30:00Z",
@@ -1099,6 +1089,16 @@
       "awayTeam": "Manchester City",
       "dateTime": "2025-12-02T15:00:00Z",
       "score": "4:5",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2025-12-02T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
