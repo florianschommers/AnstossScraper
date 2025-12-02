@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2025-12-02T17:33:08.083046",
+  "lastUpdated": "2025-12-02T18:42:36.814520",
   "lineups": [
     {
       "homeTeam": "Kairat",
@@ -98,6 +98,105 @@
         },
         {
           "name": "Konstantinos Tzolakis",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bayern",
+      "awayTeam": "Sporting",
+      "dateTime": "2025-12-09T17:45:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Harry Kane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Luis Diaz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raphael Guerreiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lennart Karl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandar Pavlovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Bischof",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Min-jae Kim",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Neuer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Luis Suarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Geovany Quenda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Trincao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geny Catamo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hidemasa Morita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morten Hjulmand",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxi Araujo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Goncalo Inacio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eduardo Quaresma",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ivan Fresneda",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rui Silva",
           "position": "Torwart"
         }
       ]
