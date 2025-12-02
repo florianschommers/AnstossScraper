@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-02T22:32:20.995257",
+  "lastUpdated": "2025-12-02T23:35:35.777363",
   "lineups": [
-    {
-      "homeTeam": "Newcastle",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2025-12-02T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Harvey Barnes",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nick Woltemade",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jacob Murphy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joelinton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sandro Tonali",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Miley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Hall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dan Burn",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malick Thiaw",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tino Livramento",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Ramsdale",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Randal Kolo Muani",
-          "position": "Angriff"
-        },
-        {
-          "name": "Brennan Johnson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lucas Bergvall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mohammed Kudus",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pape Matar Sarr",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rodrigo Bentancur",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Destiny Udogie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kevin Danso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Cristian Romero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pedro Porro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guglielmo Vicario",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "AFC Bournemouth",
       "awayTeam": "Everton",
@@ -981,6 +882,105 @@
         },
         {
           "name": "Gianluigi Donnarumma",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2025-12-02T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Harvey Barnes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nick Woltemade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jacob Murphy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joelinton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Miley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Burn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tino Livramento",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Ramsdale",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Brennan Johnson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Bergvall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Destiny Udogie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Danso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
           "position": "Torwart"
         }
       ]
