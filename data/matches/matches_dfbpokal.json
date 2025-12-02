@@ -5472,14 +5472,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T18:00:40.84",
+    "lastUpdateDateTime": "2025-12-02T18:46:43.303",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120786,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -5488,13 +5488,26 @@
         "resultID": 120787,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135160,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 43,
+        "goalGetterID": 23547,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -5526,14 +5539,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T18:32:33.343",
+    "lastUpdateDateTime": "2025-12-02T18:52:32.15",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120784,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -5541,8 +5554,8 @@
       {
         "resultID": 120785,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -5583,6 +5596,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135161,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 47,
+        "goalGetterID": 23004,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
