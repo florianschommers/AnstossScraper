@@ -5702,14 +5702,14 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T21:33:59.077",
+    "lastUpdateDateTime": "2025-12-02T21:47:20.757",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120788,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -5718,7 +5718,7 @@
         "resultID": 120789,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -5729,8 +5729,8 @@
         "goalID": 135170,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 34,
+        "goalGetterID": 20081,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -5769,14 +5769,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T21:31:50.203",
+    "lastUpdateDateTime": "2025-12-02T21:48:10.653",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120790,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
