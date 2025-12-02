@@ -5526,7 +5526,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T18:00:40.267",
+    "lastUpdateDateTime": "2025-12-02T18:32:33.343",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -5548,7 +5548,44 @@
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135157,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 5,
+        "goalGetterID": 19581,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135158,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 21,
+        "goalGetterID": 20279,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135159,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 31,
+        "goalGetterID": 24302,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
