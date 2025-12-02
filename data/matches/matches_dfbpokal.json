@@ -5447,7 +5447,7 @@
   {
     "matchID": 79780,
     "matchDateTime": "2025-12-02T18:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -5472,8 +5472,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T19:31:14.81",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-02T19:54:30.417",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120786,
@@ -5488,7 +5488,7 @@
         "resultID": 120787,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -5518,6 +5518,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 135165,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 83,
+        "goalGetterID": 21356,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": null,
@@ -5526,7 +5538,7 @@
   {
     "matchID": 79782,
     "matchDateTime": "2025-12-02T18:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -5551,8 +5563,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T19:30:38.063",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-02T19:55:59.67",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120784,
@@ -5566,7 +5578,7 @@
       {
         "resultID": 120785,
         "resultName": "Endergebnis",
-        "pointsTeam1": 4,
+        "pointsTeam1": 6,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -5628,6 +5640,30 @@
         "scoreTeam2": 1,
         "matchMinute": 60,
         "goalGetterID": 19581,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135164,
+        "scoreTeam1": 5,
+        "scoreTeam2": 1,
+        "matchMinute": 75,
+        "goalGetterID": 18467,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135166,
+        "scoreTeam1": 6,
+        "scoreTeam2": 1,
+        "matchMinute": 80,
+        "goalGetterID": 22975,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
