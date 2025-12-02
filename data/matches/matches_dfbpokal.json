@@ -5472,7 +5472,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T18:46:43.303",
+    "lastUpdateDateTime": "2025-12-02T19:31:14.81",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -5487,7 +5487,7 @@
       {
         "resultID": 120787,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -5501,6 +5501,18 @@
         "scoreTeam2": 1,
         "matchMinute": 43,
         "goalGetterID": 23547,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135163,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 56,
+        "goalGetterID": 20156,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -5539,7 +5551,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-02T18:52:32.15",
+    "lastUpdateDateTime": "2025-12-02T19:30:38.063",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -5554,7 +5566,7 @@
       {
         "resultID": 120785,
         "resultName": "Endergebnis",
-        "pointsTeam1": 3,
+        "pointsTeam1": 4,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -5608,6 +5620,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 135162,
+        "scoreTeam1": 4,
+        "scoreTeam2": 1,
+        "matchMinute": 60,
+        "goalGetterID": 19581,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       }
     ],
