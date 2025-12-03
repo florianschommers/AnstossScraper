@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-03T21:16:18.168236Z",
+  "lastUpdated": "2025-12-03T21:30:43.843482Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,53 +1005,23 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Arsenal",
-      "awayTeam": "Brentford",
-      "dateTime": "2025-12-03T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Astonvilla",
       "dateTime": "2025-12-03T00:00:00Z",
-      "score": "2:4",
+      "score": "3:4",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "2:4"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Burnley",
-      "awayTeam": "Crystalpalace",
-      "dateTime": "2025-12-03T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "Nottingham",
-      "dateTime": "2025-12-03T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
+      "liveScore": "3:4"
     },
     {
       "matchday": 14,
       "homeTeam": "Leedsunited",
       "awayTeam": "Chelsea",
       "dateTime": "2025-12-03T00:00:00Z",
-      "score": "2:0",
+      "score": "3:1",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "2:0"
+      "liveScore": "3:1"
     },
     {
       "matchday": 14,
@@ -1065,11 +1035,41 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Everton",
-      "dateTime": "2025-12-02T21:00:00Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "dateTime": "2025-12-03T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Brentford",
+      "dateTime": "2025-12-03T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Burnley",
+      "awayTeam": "Crystalpalace",
+      "dateTime": "2025-12-03T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Wolverhampton",
+      "awayTeam": "Nottingham",
+      "dateTime": "2025-12-03T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
