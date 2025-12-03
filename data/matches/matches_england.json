@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-03T21:30:43.843482Z",
+  "lastUpdated": "2025-12-03T21:42:16.944241Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,33 +1005,23 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Brighton & Hove Albion",
-      "awayTeam": "Astonvilla",
-      "dateTime": "2025-12-03T00:00:00Z",
-      "score": "3:4",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:4"
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Leedsunited",
       "awayTeam": "Chelsea",
       "dateTime": "2025-12-03T00:00:00Z",
-      "score": "3:1",
+      "score": "2:1",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "3:1"
+      "liveScore": "2:1"
     },
     {
       "matchday": 14,
       "homeTeam": "Liverpool",
       "awayTeam": "Sunderland",
       "dateTime": "2025-12-03T00:00:00Z",
-      "score": "0:0",
+      "score": "0:1",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:0"
+      "liveScore": "0:1"
     },
     {
       "matchday": 14,
@@ -1049,6 +1039,16 @@
       "awayTeam": "Brentford",
       "dateTime": "2025-12-03T15:00:00Z",
       "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Brighton & Hove Albion",
+      "awayTeam": "Astonvilla",
+      "dateTime": "2025-12-03T15:00:00Z",
+      "score": "3:4",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
