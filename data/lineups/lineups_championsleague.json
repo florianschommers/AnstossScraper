@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2025-12-03T17:32:55.325945",
+  "lastUpdated": "2025-12-03T18:45:05.865137",
   "lineups": [
     {
       "homeTeam": "Kairat",
@@ -354,15 +354,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Lukas Provod",
-          "position": "Angriff"
-        },
-        {
           "name": "Tomas Chory",
           "position": "Angriff"
         },
         {
           "name": "Mojmir Chytil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lukas Provod",
           "position": "Mittelfeld"
         },
         {
@@ -890,6 +890,204 @@
         },
         {
           "name": "Michael Zetterer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Villarreal",
+      "awayTeam": "Kopenhagen",
+      "dateTime": "2025-12-10T17:45:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Ayoze Perez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gerard Moreno",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alberto Moleiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Gueye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santi Comesana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tajon Buchanan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alfonso Pedraza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafa Marin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Foyth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Santiago Mourino",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luiz Junior",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mohamed Elyounoussi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andreas Cornelius",
+          "position": "Angriff"
+        },
+        {
+          "name": "Robert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mads Emil Madsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Clem",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Larsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pantelis Hatzidiakos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Pereira",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Junnosuke Suzuki",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Kotarski",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Karabakh",
+      "awayTeam": "Ajaxamsterdam",
+      "dateTime": "2025-12-10T17:45:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Camilo Duran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emmanuel Addai",
+          "position": "Angriff"
+        },
+        {
+          "name": "Abdellah Zoubir",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leandro Andrade",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marko Jankovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Bicalho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elvin Cafarquliyev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bahlul Mustafazada",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matheus Silva",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mateusz Kochalski",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mika Godts",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wout Weghorst",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rayane Bounida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenneth Taylor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ko Itakura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davy Klaassen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Owen Wijndal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youri Baas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Bouwman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youri Regeer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitezslav Jaros",
           "position": "Torwart"
         }
       ]
