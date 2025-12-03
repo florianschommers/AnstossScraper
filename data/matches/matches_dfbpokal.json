@@ -6084,14 +6084,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-03T21:25:19.657",
+    "lastUpdateDateTime": "2025-12-03T21:39:31.807",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120798,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 2,
+        "pointsTeam1": 1,
+        "pointsTeam2": 3,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -6099,8 +6099,8 @@
       {
         "resultID": 120799,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 2,
+        "pointsTeam1": 1,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -6135,12 +6135,24 @@
         "goalID": 135178,
         "scoreTeam1": 1,
         "scoreTeam2": 2,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 40,
+        "goalGetterID": 23572,
         "goalGetterName": "",
-        "isPenalty": false,
+        "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135179,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 49,
+        "goalGetterID": 20206,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": true,
         "comment": null
       }
     ],
