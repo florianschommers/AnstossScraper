@@ -6084,7 +6084,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-03T21:39:31.807",
+    "lastUpdateDateTime": "2025-12-03T22:45:19.017",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -6153,6 +6153,18 @@
         "isPenalty": false,
         "isOwnGoal": true,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 135180,
+        "scoreTeam1": 2,
+        "scoreTeam2": 3,
+        "matchMinute": 55,
+        "goalGetterID": 20233,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       }
     ],
