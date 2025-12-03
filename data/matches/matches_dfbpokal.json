@@ -6059,7 +6059,7 @@
   {
     "matchID": 79784,
     "matchDateTime": "2025-12-03T20:45:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -6084,8 +6084,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-03T22:45:19.017",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-03T22:55:21.493",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120798,
@@ -6099,7 +6099,7 @@
       {
         "resultID": 120799,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -6160,7 +6160,7 @@
         "scoreTeam1": 2,
         "scoreTeam2": 3,
         "matchMinute": 55,
-        "goalGetterID": 20233,
+        "goalGetterID": 23572,
         "goalGetterName": "",
         "isPenalty": true,
         "isOwnGoal": false,
