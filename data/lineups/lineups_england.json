@@ -1,12 +1,12 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-03T19:35:14.935958",
+  "lastUpdated": "2025-12-03T20:39:45.823530",
   "lineups": [
     {
       "homeTeam": "Arsenal",
       "awayTeam": "Brentford",
-      "dateTime": "2025-12-03T20:30:00Z",
+      "dateTime": "2025-12-03T00:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -85,11 +85,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ethan Pinnock",
+          "name": "Sepp van den Berg",
           "position": "Abwehr"
         },
         {
-          "name": "Sepp van den Berg",
+          "name": "Ethan Pinnock",
           "position": "Abwehr"
         },
         {
@@ -105,7 +105,7 @@
     {
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Astonvilla",
-      "dateTime": "2025-12-03T20:30:00Z",
+      "dateTime": "2025-12-03T00:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -192,7 +192,7 @@
           "position": ""
         },
         {
-          "name": "Emiliano Martinez",
+          "name": "Marco Bizot",
           "position": ""
         }
       ]
@@ -200,24 +200,20 @@
     {
       "homeTeam": "Burnley",
       "awayTeam": "Crystalpalace",
-      "dateTime": "2025-12-03T20:30:00Z",
+      "dateTime": "2025-12-03T00:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
+        {
+          "name": "Lyle Foster",
+          "position": "Angriff"
+        },
         {
           "name": "Zian Flemming",
           "position": "Angriff"
         },
         {
           "name": "Jaidon Anthony",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lyle Foster",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Loum Tchaouna",
           "position": "Mittelfeld"
         },
         {
@@ -226,6 +222,10 @@
         },
         {
           "name": "Josh Cullen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loum Tchaouna",
           "position": "Mittelfeld"
         },
         {
@@ -299,7 +299,7 @@
     {
       "homeTeam": "Wolverhampton",
       "awayTeam": "Nottingham",
-      "dateTime": "2025-12-03T20:30:00Z",
+      "dateTime": "2025-12-03T00:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -354,7 +354,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Omari Hutchinson",
+          "name": "Dan Ndoye",
           "position": "Angriff"
         },
         {
@@ -362,7 +362,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Dan Ndoye",
+          "name": "Omari Hutchinson",
           "position": "Mittelfeld"
         },
         {
@@ -398,7 +398,7 @@
     {
       "homeTeam": "Leedsunited",
       "awayTeam": "Chelsea",
-      "dateTime": "2025-12-03T21:15:00Z",
+      "dateTime": "2025-12-03T00:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -435,11 +435,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Joe Rodon",
+          "name": "Jaka Bijol",
           "position": "Abwehr"
         },
         {
-          "name": "Jaka Bijol",
+          "name": "Joe Rodon",
           "position": "Abwehr"
         },
         {
@@ -465,11 +465,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Enzo Fernandez",
+          "name": "Andrey Santos",
           "position": "Mittelfeld"
         },
         {
-          "name": "Andrey Santos",
+          "name": "Enzo Fernandez",
           "position": "Mittelfeld"
         },
         {
@@ -497,7 +497,7 @@
     {
       "homeTeam": "Liverpool",
       "awayTeam": "Sunderland",
-      "dateTime": "2025-12-03T21:15:00Z",
+      "dateTime": "2025-12-03T00:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -556,6 +556,10 @@
           "position": "Angriff"
         },
         {
+          "name": "Chemsdine Talbi",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Noah Sadiki",
           "position": "Mittelfeld"
         },
@@ -564,7 +568,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Chemsdine Talbi",
+          "name": "Trai Hume",
           "position": "Mittelfeld"
         },
         {
@@ -573,7 +577,7 @@
         },
         {
           "name": "Omar Alderete",
-          "position": "Mittelfeld"
+          "position": "Abwehr"
         },
         {
           "name": "Dan Ballard",
@@ -581,10 +585,6 @@
         },
         {
           "name": "Nordi Mukiele",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Trai Hume",
           "position": "Abwehr"
         },
         {
