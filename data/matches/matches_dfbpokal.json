@@ -5872,7 +5872,7 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-03T18:49:43.573",
+    "lastUpdateDateTime": "2025-12-03T19:20:08.01",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -5888,7 +5888,7 @@
         "resultID": 120793,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -5904,6 +5904,18 @@
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135174,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 47,
+        "goalGetterID": 16686,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
       }
@@ -5939,7 +5951,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-03T18:49:45.39",
+    "lastUpdateDateTime": "2025-12-03T19:32:13.163",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -5954,7 +5966,7 @@
       {
         "resultID": 120795,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -5970,6 +5982,18 @@
         "goalGetterID": 18337,
         "goalGetterName": "",
         "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135175,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 69,
+        "goalGetterID": 18643,
+        "goalGetterName": "",
+        "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
