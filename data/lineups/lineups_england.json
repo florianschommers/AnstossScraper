@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-03T18:51:48.125471",
+  "lastUpdated": "2025-12-03T19:35:14.935958",
   "lineups": [
     {
       "homeTeam": "Arsenal",
@@ -85,7 +85,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Kristoffer Ajer",
+          "name": "Ethan Pinnock",
           "position": "Abwehr"
         },
         {
@@ -93,7 +93,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Ethan Pinnock",
+          "name": "Kristoffer Ajer",
           "position": "Abwehr"
         },
         {
@@ -403,19 +403,19 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Wilfried Gnonto",
-          "position": "Angriff"
-        },
-        {
           "name": "Lukas Nmecha",
           "position": "Angriff"
         },
         {
-          "name": "Daniel James",
+          "name": "Dominic Calvert-Lewin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ilia Gruev",
+          "name": "Anton Stach",
           "position": "Mittelfeld"
         },
         {
@@ -427,7 +427,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "James Justin",
+          "name": "Jayden Bogle",
           "position": "Mittelfeld"
         },
         {
@@ -439,7 +439,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Jayden Bogle",
+          "name": "Jaka Bijol",
           "position": "Abwehr"
         },
         {
@@ -449,15 +449,15 @@
       ],
       "awayLineup": [
         {
+          "name": "Liam Delap",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jamie Gittens",
+          "position": "Angriff"
+        },
+        {
           "name": "Joao Pedro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pedro Neto",
-          "position": "Angriff"
-        },
-        {
-          "name": "Enzo Fernandez",
           "position": "Mittelfeld"
         },
         {
@@ -465,11 +465,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Moises Caicedo",
+          "name": "Enzo Fernandez",
           "position": "Mittelfeld"
         },
         {
-          "name": "Reece James",
+          "name": "Andrey Santos",
           "position": "Mittelfeld"
         },
         {
@@ -477,15 +477,15 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Benoit Badiashile",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tosin Adarabioyo",
+          "position": "Abwehr"
+        },
+        {
           "name": "Trevoh Chalobah",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Wesley Fofana",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malo Gusto",
           "position": "Abwehr"
         },
         {
@@ -526,7 +526,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Milos Kerkez",
+          "name": "Andrew Robertson",
           "position": "Mittelfeld"
         },
         {
@@ -548,20 +548,12 @@
       ],
       "awayLineup": [
         {
-          "name": "Wilson Isidor",
-          "position": "Angriff"
-        },
-        {
-          "name": "Chemsdine Talbi",
+          "name": "Brian Brobbey",
           "position": "Angriff"
         },
         {
           "name": "Enzo Le Fee",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bertrand Traore",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
           "name": "Noah Sadiki",
@@ -572,12 +564,16 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Chemsdine Talbi",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Reinildo Mandava",
           "position": "Mittelfeld"
         },
         {
           "name": "Omar Alderete",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Dan Ballard",
@@ -585,6 +581,10 @@
         },
         {
           "name": "Nordi Mukiele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trai Hume",
           "position": "Abwehr"
         },
         {
