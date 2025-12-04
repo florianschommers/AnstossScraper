@@ -6005,7 +6005,7 @@
   {
     "matchID": 79781,
     "matchDateTime": "2025-12-03T20:45:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4848,
     "leagueName": "DFB Pokal 2025/2026",
     "leagueSeason": 2025,
@@ -6030,8 +6030,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-03T23:17:57.417",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-04T03:42:00.627",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120796,
@@ -6045,11 +6045,20 @@
       {
         "resultID": 120797,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 5,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 120800,
+        "resultName": "Elfmeterschießen",
+        "pointsTeam1": 3,
+        "pointsTeam2": 5,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultDescription": "Ergebnis nach Elfmeterschießen"
       }
     ],
     "goals": [
@@ -6073,6 +6082,78 @@
         "goalGetterID": 19870,
         "goalGetterName": "",
         "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135183,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 1,
+        "goalGetterID": 23226,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135184,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 1,
+        "goalGetterID": 20934,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135185,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 2,
+        "goalGetterID": 24300,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135186,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": 3,
+        "goalGetterID": 2523,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135187,
+        "scoreTeam1": 3,
+        "scoreTeam2": 4,
+        "matchMinute": 4,
+        "goalGetterID": 24303,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135188,
+        "scoreTeam1": 3,
+        "scoreTeam2": 5,
+        "matchMinute": 5,
+        "goalGetterID": 23145,
+        "goalGetterName": "",
+        "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
