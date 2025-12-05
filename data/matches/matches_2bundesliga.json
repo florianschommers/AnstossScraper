@@ -11461,7 +11461,7 @@
   {
     "matchID": 78071,
     "matchDateTime": "2025-12-05T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11486,8 +11486,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-05T19:22:20.003",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-05T20:53:32.143",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120804,
@@ -11502,7 +11502,7 @@
         "resultID": 120805,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11520,6 +11520,18 @@
         "isOwnGoal": false,
         "isOvertime": true,
         "comment": null
+      },
+      {
+        "goalID": 135198,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 81,
+        "goalGetterID": 24304,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
@@ -11532,7 +11544,7 @@
   {
     "matchID": 78076,
     "matchDateTime": "2025-12-05T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11557,8 +11569,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-05T19:22:17.623",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-05T20:55:06.833",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120806,
@@ -11572,8 +11584,8 @@
       {
         "resultID": 120807,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11590,6 +11602,42 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135199,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 73,
+        "goalGetterID": 23223,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135200,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 91,
+        "goalGetterID": 20247,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 135201,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 96,
+        "goalGetterID": 24305,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
