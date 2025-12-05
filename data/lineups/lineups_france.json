@@ -1,12 +1,111 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-12-05T19:28:08.052624",
+  "lastUpdated": "2025-12-05T20:36:42.054034",
   "lineups": [
+    {
+      "homeTeam": "Lille",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2025-12-05T00:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hamza Igamane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Osame Sahraoui",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hakon Arnar Haraldsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Mbappe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nabil Bentaleb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benjamin Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romain Perraud",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aissa Mandi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thomas Meunier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Berke Ozer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Igor Paixao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emerson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arthur Vermeeren",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benjamin Pavard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Brest",
       "awayTeam": "Monaco",
-      "dateTime": "2025-12-05T00:00:00Z",
+      "dateTime": "2025-12-05T17:00:00Z",
       "matchday": 15,
       "phase": "",
       "homeLineup": [
@@ -98,204 +197,6 @@
         },
         {
           "name": "Lukas Hradecky",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Lille",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2025-12-05T21:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Hamza Igamane",
-          "position": "Angriff"
-        },
-        {
-          "name": "Osame Sahraoui",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ethan Mbappe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hakon Arnar Haraldsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nabil Bentaleb",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benjamin Andre",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Romain Perraud",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aissa Mandi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nathan Ngoy",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thomas Meunier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Berke Ozer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Pierre-Emerick Aubameyang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Igor Paixao",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mason Greenwood",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emerson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arthur Vermeeren",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Geoffrey Kondogbia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothy Weah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nayef Aguerd",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leonardo Balerdi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Benjamin Pavard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Geronimo Rulli",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Nantes",
-      "awayTeam": "Lens",
-      "dateTime": "2025-12-06T17:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Matthis Abline",
-          "position": "Angriff"
-        },
-        {
-          "name": "Youssef El Arabi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mayckel Lahdo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johann Lepenant",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hyeok-kyu Kwon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Junior Mwanga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Cozza",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tylel Tati",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Chidozie Awaziem",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kelvin Amian",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Anthony Lopes",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Odsonne Edouard",
-          "position": "Angriff"
-        },
-        {
-          "name": "Wesley Said",
-          "position": "Angriff"
-        },
-        {
-          "name": "Florian Thauvin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matthieu Udol",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrien Thomasson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mamadou Sangare",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ruben Aguilar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Malang Sarr",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Samson Baidoo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ismaelo Ganiou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robin Risser",
           "position": "Torwart"
         }
       ]
@@ -890,6 +791,105 @@
         },
         {
           "name": "Dominik Greif",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brest",
+      "awayTeam": "Monaco",
+      "dateTime": "2025-12-05T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        },
+        {
+          "name": "Remy Labeau Lascary",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kamory Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romain Del Castillo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Magnetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joris Chotard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daouda Guindo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soumaila Coulibaly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brendan Chardonnet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Lala",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gregoire Coudert",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mika Biereth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Takumi Minamino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Caio Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Salisu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Hradecky",
           "position": "Torwart"
         }
       ]
