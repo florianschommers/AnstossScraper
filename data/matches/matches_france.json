@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-12-05T21:56:00.051521Z",
+  "lastUpdated": "2025-12-05T22:17:30.907823Z",
   "matches": [
     {
       "matchday": 4,
@@ -995,16 +995,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Lille",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2025-12-05T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Brest",
       "awayTeam": "Monaco",
       "dateTime": "2025-12-05T17:00:00Z",
@@ -1077,6 +1067,16 @@
       "matchday": 15,
       "homeTeam": "Brest",
       "awayTeam": "Monaco",
+      "dateTime": "2025-12-05T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Lille",
+      "awayTeam": "Olmarseille",
       "dateTime": "2025-12-05T15:00:00Z",
       "score": "1:0",
       "isFinished": true,
