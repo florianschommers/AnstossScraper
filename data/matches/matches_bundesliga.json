@@ -10101,7 +10101,7 @@
   {
     "matchID": 77365,
     "matchDateTime": "2025-12-05T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10126,14 +10126,14 @@
       "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-05T20:30:43.437",
+    "lastUpdateDateTime": "2025-12-05T20:50:46.46",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120826,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -10142,7 +10142,7 @@
         "resultID": 120827,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
