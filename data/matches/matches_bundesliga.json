@@ -10180,7 +10180,7 @@
   {
     "matchID": 77367,
     "matchDateTime": "2025-12-06T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10205,7 +10205,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:42:05.347",
+    "lastUpdateDateTime": "2025-12-06T16:13:03.143",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10272,7 +10272,7 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:41:37.11",
+    "lastUpdateDateTime": "2025-12-06T16:01:21.14",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10287,7 +10287,7 @@
       {
         "resultID": 120843,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -10301,6 +10301,18 @@
         "scoreTeam2": 0,
         "matchMinute": 10,
         "goalGetterID": 19035,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135264,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 30,
+        "goalGetterID": 22976,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10339,7 +10351,7 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:57:58.903",
+    "lastUpdateDateTime": "2025-12-06T15:58:46.05",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10366,8 +10378,8 @@
         "goalID": 135260,
         "scoreTeam1": 1,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 6,
+        "goalGetterID": 23344,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10378,8 +10390,8 @@
         "goalID": 135263,
         "scoreTeam1": 2,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 28,
+        "goalGetterID": 24260,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10418,7 +10430,7 @@
       "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:35:54.997",
+    "lastUpdateDateTime": "2025-12-06T16:10:33.65",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10429,9 +10441,31 @@
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120849,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135266,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 40,
+        "goalGetterID": 21364,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -10463,7 +10497,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:35:56.82",
+    "lastUpdateDateTime": "2025-12-06T16:20:59.047",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10474,6 +10508,15 @@
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120860,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
     "goals": [],
