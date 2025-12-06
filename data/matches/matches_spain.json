@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-06T14:56:24.930594Z",
+  "lastUpdated": "2025-12-06T15:18:05.644816Z",
   "matches": [
     {
       "matchday": 4,
@@ -1107,16 +1107,6 @@
       "matchday": 15,
       "homeTeam": "Villarreal",
       "awayTeam": "Getafe",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "score": "3:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0"
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Alaves",
-      "awayTeam": "Realsociedad",
       "dateTime": "2025-12-06T16:15:00Z",
       "score": null,
       "isFinished": false,
@@ -1190,6 +1180,16 @@
       "dateTime": "2025-12-08T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Getafe",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
