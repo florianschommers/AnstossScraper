@@ -1,107 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-12-06T19:30:06.008745",
+  "lastUpdated": "2025-12-06T20:32:08.531156",
   "lineups": [
-    {
-      "homeTeam": "Toulouse",
-      "awayTeam": "Strassburg",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Emersonn",
-          "position": "Angriff"
-        },
-        {
-          "name": "Frank Magri",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yann Gboho",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dayann Methalie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cristian Casseres Jr.",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Vossah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djibril Sidibe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rasmus Nicolaisen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Charlie Cresswell",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mark McKenzie",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guillaume Restes",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Joaquin Panichelli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Julio Enciso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sebastian Nanasi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ben Chilwell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ismael Doukoure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samir El Mourabet",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Diego Moreira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mamadou Sarr",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Andrew Omobamidele",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guela Doue",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mike Penders",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Nantes",
       "awayTeam": "Lens",
@@ -692,6 +593,105 @@
         },
         {
           "name": "Robin Risser",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Toulouse",
+      "awayTeam": "Strassburg",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Emersonn",
+          "position": "Angriff"
+        },
+        {
+          "name": "Frank Magri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yann Gboho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dayann Methalie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristian Casseres Jr.",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Vossah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sidibe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joaquin Panichelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastian Nanasi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ben Chilwell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Doukoure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samir El Mourabet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrew Omobamidele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guela Doue",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mike Penders",
           "position": "Torwart"
         }
       ]
