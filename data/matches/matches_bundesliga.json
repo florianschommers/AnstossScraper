@@ -10205,14 +10205,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T16:13:03.143",
+    "lastUpdateDateTime": "2025-12-06T16:49:09.577",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120840,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -10247,7 +10247,7 @@
   {
     "matchID": 77368,
     "matchDateTime": "2025-12-06T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10272,13 +10272,13 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T16:01:21.14",
+    "lastUpdateDateTime": "2025-12-06T16:53:05.07",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120842,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -10287,7 +10287,7 @@
       {
         "resultID": 120843,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
+        "pointsTeam1": 3,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -10313,6 +10313,18 @@
         "scoreTeam2": 0,
         "matchMinute": 30,
         "goalGetterID": 22976,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135280,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 59,
+        "goalGetterID": 19685,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10351,13 +10363,13 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:58:46.05",
+    "lastUpdateDateTime": "2025-12-06T16:49:14.45",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120844,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -10430,14 +10442,14 @@
       "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T16:10:33.65",
+    "lastUpdateDateTime": "2025-12-06T16:49:46.48",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120846,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -10445,7 +10457,7 @@
       {
         "resultID": 120849,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -10459,6 +10471,18 @@
         "scoreTeam2": 1,
         "matchMinute": 40,
         "goalGetterID": 21364,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135281,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 59,
+        "goalGetterID": 17451,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -10497,13 +10521,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T16:39:07.017",
+    "lastUpdateDateTime": "2025-12-06T16:49:23.457",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120847,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
