@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-06T16:12:46.363960Z",
+  "lastUpdated": "2025-12-06T16:14:43.076529Z",
   "matches": [
     {
       "matchday": 4,
@@ -1007,16 +1007,6 @@
       "matchday": 14,
       "homeTeam": "Sassuolo",
       "awayTeam": "Acflorenz",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "score": "3:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Intermailand",
-      "awayTeam": "Como",
       "dateTime": "2025-12-06T18:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1100,6 +1090,16 @@
       "dateTime": "2025-12-08T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
