@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-06T18:37:56.179747",
+  "lastUpdated": "2025-12-06T19:29:37.323376",
   "lineups": [
-    {
-      "homeTeam": "Intermailand",
-      "awayTeam": "Como",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Thuram",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Dimarco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hakan Calhanoglu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Francesco Acerbi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Alvaro Morata",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jesus Rodriguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Paz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jayden Addai",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucas Da Cunha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Maximo Perrone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Valle",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Diego Carlos",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jacobo Ramon",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Stefan Posch",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jean Butez",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Acflorenz",
@@ -989,6 +890,105 @@
         },
         {
           "name": "David de Gea",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Intermailand",
+      "awayTeam": "Como",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marcus Thuram",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Dimarco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piotr Zielinski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakan Calhanoglu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Francesco Acerbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alvaro Morata",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jesus Rodriguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Paz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jayden Addai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Da Cunha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximo Perrone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Valle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Carlos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacobo Ramon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefan Posch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean Butez",
           "position": "Torwart"
         }
       ]
