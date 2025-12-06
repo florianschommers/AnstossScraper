@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-06T17:24:52.847716Z",
+  "lastUpdated": "2025-12-06T17:37:47.408714Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Newcastle",
-      "awayTeam": "Burnley",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Astonvilla",
       "awayTeam": "Arsenal",
       "dateTime": "2025-12-06T18:30:00Z",
@@ -1199,6 +1189,16 @@
       "awayTeam": "Brentford",
       "dateTime": "2025-12-06T15:00:00Z",
       "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Burnley",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
