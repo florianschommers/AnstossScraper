@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-06T19:28:38.226132",
+  "lastUpdated": "2025-12-06T20:30:57.294746",
   "lineups": [
-    {
-      "homeTeam": "Leedsunited",
-      "awayTeam": "Liverpool",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Noah Okafor",
-          "position": "Angriff"
-        },
-        {
-          "name": "Dominic Calvert-Lewin",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gabriel Gudmundsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilia Gruev",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ethan Ampadu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Anton Stach",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jayden Bogle",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pascal Struijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jaka Bijol",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joe Rodon",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Perri",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Hugo Ekitike",
-          "position": "Angriff"
-        },
-        {
-          "name": "Cody Gakpo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Florian Wirtz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dominik Szoboszlai",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Curtis Jones",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Gravenberch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Milos Kerkez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Virgil van Dijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ibrahima Konate",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Conor Bradley",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alisson",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Astonvilla",
       "awayTeam": "Arsenal",
@@ -985,6 +886,105 @@
         },
         {
           "name": "Martin Dubravka",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Leedsunited",
+      "awayTeam": "Liverpool",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Noah Okafor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilia Gruev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anton Stach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pascal Struijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jaka Bijol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Rodon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Perri",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hugo Ekitike",
+          "position": "Angriff"
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Curtis Jones",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Conor Bradley",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
           "position": "Torwart"
         }
       ]
