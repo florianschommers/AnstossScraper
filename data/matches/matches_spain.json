@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-06T19:58:38.026345Z",
+  "lastUpdated": "2025-12-06T20:18:46.518120Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,19 +1105,19 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Villarreal",
-      "awayTeam": "Getafe",
-      "dateTime": "2025-12-06T21:00:00Z",
-      "score": null,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-12-06T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 15,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Mallorca",
-      "dateTime": "2025-12-05T14:00:00Z",
+      "homeTeam": "Villarreal",
+      "awayTeam": "Getafe",
+      "dateTime": "2025-12-06T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1238,6 +1238,16 @@
       "homeTeam": "Fcbarcelona",
       "awayTeam": "Osasuna",
       "dateTime": "2025-12-13T18:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Getafe",
+      "awayTeam": "Espanyol",
+      "dateTime": "2025-12-13T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,

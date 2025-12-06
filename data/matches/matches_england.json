@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-06T19:58:17.077401Z",
+  "lastUpdated": "2025-12-06T20:18:32.255994Z",
   "matches": [
     {
       "matchday": 4,
@@ -1228,6 +1228,16 @@
       "homeTeam": "Burnley",
       "awayTeam": "Fulham",
       "dateTime": "2025-12-13T18:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolverhampton",
+      "dateTime": "2025-12-13T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
