@@ -10497,7 +10497,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T16:20:59.047",
+    "lastUpdateDateTime": "2025-12-06T16:39:07.017",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10512,14 +10512,27 @@
       {
         "resultID": 120860,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135279,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 51,
+        "goalGetterID": 21344,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
