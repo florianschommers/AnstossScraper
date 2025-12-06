@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-06T19:29:37.323376",
+  "lastUpdated": "2025-12-06T20:31:45.248077",
   "lineups": [
+    {
+      "homeTeam": "Hverona",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-12-06T00:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Daniel Mosquera",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giovane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martin Frese",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Bernede",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moatasem Al-Musrati",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cheikh Niasse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Armel Bella-Kotchap",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Nelsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Nunez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Montipo",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Nikola Krstovic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raoul Bellanova",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isak Hien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Acflorenz",
-      "dateTime": "2025-12-06T20:45:00Z",
+      "dateTime": "2025-12-06T12:30:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "David de Gea",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Cremonese",
-      "awayTeam": "Lecce",
-      "dateTime": "2025-12-07T12:30:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jamie Vardy",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Bonazzoli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giuseppe Pezzella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jari Vandeputte",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Payero",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tommaso Barbieri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Warren Bondo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Bianchetti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Baschirotto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Filippo Terracciano",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emil Audero",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Nikola Stulic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lameck Banda",
-          "position": "Angriff"
-        },
-        {
-          "name": "Medon Berisha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Pierotti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lassana Coulibaly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ylber Ramadani",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonino Gallo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tiago Gabriel",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kialonda Gaspar",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Danilo Veiga",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Wladimiro Falcone",
           "position": "Torwart"
         }
       ]
