@@ -11651,7 +11651,7 @@
   {
     "matchID": 78069,
     "matchDateTime": "2025-12-06T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11676,8 +11676,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T14:31:16.133",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-06T14:58:27.1",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120838,
@@ -11747,8 +11747,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/150px-SV_Elversberg_Logo_2021.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T14:36:15.1",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-06T15:02:46.863",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120836,
@@ -11817,7 +11817,7 @@
   {
     "matchID": 78072,
     "matchDateTime": "2025-12-06T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11842,8 +11842,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/284px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T14:32:13.527",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-06T14:58:23.137",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120834,
@@ -11858,7 +11858,7 @@
         "resultID": 120835,
         "resultName": "Endergebnis",
         "pointsTeam1": 3,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11895,6 +11895,18 @@
         "scoreTeam2": 0,
         "matchMinute": 70,
         "goalGetterID": 1380,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135259,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 76,
+        "goalGetterID": 19434,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
