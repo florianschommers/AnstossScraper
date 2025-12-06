@@ -10672,10 +10672,42 @@
       "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T16:52:09.083",
+    "lastUpdateDateTime": "2025-12-06T18:35:48.33",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 120863,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120864,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 135294,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 5,
+        "goalGetterID": 24321,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
