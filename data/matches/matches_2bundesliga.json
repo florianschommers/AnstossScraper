@@ -11949,7 +11949,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T21:09:32.813",
+    "lastUpdateDateTime": "2025-12-06T21:55:39.187",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11964,8 +11964,8 @@
       {
         "resultID": 120866,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11983,6 +11983,54 @@
         "isOwnGoal": true,
         "isOvertime": false,
         "comment": "Eigentor"
+      },
+      {
+        "goalID": 135307,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 45,
+        "goalGetterID": 18454,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": "+2"
+      },
+      {
+        "goalID": 135308,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 48,
+        "goalGetterID": 22966,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135309,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 60,
+        "goalGetterID": 18585,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135310,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 63,
+        "goalGetterID": 20345,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
