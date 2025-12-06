@@ -10339,7 +10339,7 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T15:36:53.797",
+    "lastUpdateDateTime": "2025-12-06T15:57:58.903",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10354,7 +10354,7 @@
       {
         "resultID": 120845,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -10365,6 +10365,18 @@
       {
         "goalID": 135260,
         "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135263,
+        "scoreTeam1": 2,
         "scoreTeam2": 0,
         "matchMinute": null,
         "goalGetterID": 0,
