@@ -11949,7 +11949,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-06T20:39:12.95",
+    "lastUpdateDateTime": "2025-12-06T21:09:32.813",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11965,13 +11965,26 @@
         "resultID": 120866,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135306,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 38,
+        "goalGetterID": 20345,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": "Eigentor"
+      }
+    ],
     "location": {
       "locationID": 948,
       "locationCity": "Darmstadt",
