@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-06T21:28:07.149338",
+  "lastUpdated": "2025-12-06T22:32:23.496523",
   "lineups": [
-    {
-      "homeTeam": "Hverona",
-      "awayTeam": "Bergamo",
-      "dateTime": "2025-12-06T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Daniel Mosquera",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giovane",
-          "position": "Angriff"
-        },
-        {
-          "name": "Martin Frese",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antoine Bernede",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Moatasem Al-Musrati",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cheikh Niasse",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rafik Belghali",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Armel Bella-Kotchap",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Victor Nelsson",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Nunez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lorenzo Montipo",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Nikola Krstovic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ademola Lookman",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Zappacosta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Raoul Bellanova",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Isak Hien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odilon Kossounou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Acflorenz",
@@ -989,6 +890,105 @@
         },
         {
           "name": "Jean Butez",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Hverona",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-12-06T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Daniel Mosquera",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giovane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martin Frese",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Bernede",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moatasem Al-Musrati",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cheikh Niasse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Armel Bella-Kotchap",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Nelsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Nunez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Montipo",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Nikola Krstovic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raoul Bellanova",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isak Hien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
           "position": "Torwart"
         }
       ]
