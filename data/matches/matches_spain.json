@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-06T22:54:30.395593Z",
+  "lastUpdated": "2025-12-06T23:14:06.161074Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,9 +1105,9 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Villarreal",
-      "awayTeam": "Getafe",
-      "dateTime": "2025-12-06T14:00:00Z",
+      "homeTeam": "Elche",
+      "awayTeam": "Girona",
+      "dateTime": "2025-12-07T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1145,11 +1145,21 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Osasuna",
-      "awayTeam": "Levante",
-      "dateTime": "2025-12-08T21:00:00Z",
+      "homeTeam": "Oviedo",
+      "awayTeam": "Mallorca",
+      "dateTime": "2025-12-05T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Oviedo",
+      "awayTeam": "Mallorca",
+      "dateTime": "2025-12-05T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1189,16 +1199,6 @@
       "awayTeam": "Atlmadrid",
       "dateTime": "2025-12-06T15:00:00Z",
       "score": "1:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Mallorca",
-      "dateTime": "2025-12-05T15:00:00Z",
-      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
