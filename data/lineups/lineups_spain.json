@@ -1,8 +1,107 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-07T20:32:56.247268",
+  "lastUpdated": "2025-12-07T21:28:38.515011",
   "lineups": [
+    {
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alvaro Fernandez Carreras",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eder Militao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Borja Iglesias",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Duran",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Roman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Carreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Elche",
       "awayTeam": "Girona",
@@ -98,105 +197,6 @@
         },
         {
           "name": "Paulo Gazzaniga",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Oviedo",
-      "awayTeam": "Mallorca",
-      "dateTime": "2025-12-05T21:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Salomon Rondon",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ilyas Chaira",
-          "position": "Angriff"
-        },
-        {
-          "name": "Santi Cazorla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Federico Vinas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Colombatto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leander Dendoncker",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rahim Alhassane",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Carmo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Costas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nacho Vidal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Escandell",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vedat Muriqi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jan Virgili",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sergi Darder",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mateo Joseph",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Omar Mascarell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samu Costa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Mojica",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Raillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Martin Valjent",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pablo Maffeo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Bergstrom",
           "position": "Torwart"
         }
       ]
