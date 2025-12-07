@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-07T21:29:04.204667",
+  "lastUpdated": "2025-12-07T22:33:07.462490",
   "lineups": [
-    {
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Noa Lang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "David Neres",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Olivera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Buongiorno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Rrahmani",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Beukema",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanja Milinkovic-Savic",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Francisco Conceicao",
-          "position": "Angriff"
-        },
-        {
-          "name": "Juan Cabal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Khephren Thuram",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manuel Locatelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrea Cambiaso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Teun Koopmeiners",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michele Di Gregorio",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Cremonese",
       "awayTeam": "Lecce",
@@ -692,6 +593,105 @@
         },
         {
           "name": "Federico Ravaglia",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Noa Lang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rasmus Hojlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Neres",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Olivera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Buongiorno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Rrahmani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Beukema",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanja Milinkovic-Savic",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Juan Cabal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michele Di Gregorio",
           "position": "Torwart"
         }
       ]
