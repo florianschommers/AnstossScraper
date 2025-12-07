@@ -1,12 +1,12 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-12-07T15:30:05.517439",
+  "lastUpdated": "2025-12-07T16:34:02.653848",
   "lineups": [
     {
       "homeTeam": "Nizza",
       "awayTeam": "Angers",
-      "dateTime": "2025-12-07T00:00:00Z",
+      "dateTime": "2025-12-07T17:15:00Z",
       "matchday": 15,
       "phase": "",
       "homeLineup": [
@@ -103,105 +103,6 @@
       ]
     },
     {
-      "homeTeam": "Auxerre",
-      "awayTeam": "Fcmetz",
-      "dateTime": "2025-12-07T17:15:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Danny Namaso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sekou Mara",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lassine Sinayoko",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kevin Danois",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oussama El Azzouzi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rudy Matondo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fredrik Oppegard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Clement Akpa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sinaly Diomande",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lamine Sy",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Donovan Leon",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Joel Asoro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giorgi Tsitaishvili",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gauthier Hein",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cheikh Sabaly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jessy Deminguet",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Boubacar Traore",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fode Ballo-Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sadibou Sane",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jean-Philippe Gbamin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxime Colin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jonathan Fischer",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Aclehavre",
       "awayTeam": "Parisfc",
       "dateTime": "2025-12-07T17:15:00Z",
@@ -209,27 +110,27 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Godson Kyeremeh",
+          "name": "Issa Soumare",
           "position": "Angriff"
         },
         {
-          "name": "Issa Soumare",
+          "name": "Ally Samatta",
           "position": "Angriff"
+        },
+        {
+          "name": "Godson Kyeremeh",
+          "position": "Mittelfeld"
         },
         {
           "name": "Rassoul Ndiaye",
           "position": "Mittelfeld"
         },
         {
-          "name": "Simon Ebonog",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ally Samatta",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Ayumu Seko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Ebonog",
           "position": "Mittelfeld"
         },
         {
@@ -395,6 +296,105 @@
         },
         {
           "name": "Dominik Greif",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nizza",
+      "awayTeam": "Angers",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sofiane Diop",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mohamed-Ali Cho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ali Abdi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Sanson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles Vanhoutte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Alexis Louchet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Melvin Bard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juma Bah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antoine Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yehvann Diouf",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sidiki Cherif",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amine Sbai",
+          "position": "Angriff"
+        },
+        {
+          "name": "Louis Mouton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassin Belkhdim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Himad Abdelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haris Belkebla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacques Ekomie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Lefort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlens Arcus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Herve Koffi",
           "position": "Torwart"
         }
       ]
