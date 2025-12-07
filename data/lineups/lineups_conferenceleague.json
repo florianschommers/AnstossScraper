@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "",
-  "lastUpdated": "2025-12-07T14:27:49.670601",
+  "lastUpdated": "2025-12-07T15:28:24.629762",
   "lineups": [
     {
       "homeTeam": "Kfdrita",
@@ -53,12 +53,16 @@
       ],
       "awayLineup": [
         {
+          "name": "Troy Parrott",
+          "position": "Angriff"
+        },
+        {
           "name": "Isak Jensen",
           "position": "Angriff"
         },
         {
-          "name": "Troy Parrott",
-          "position": "Angriff"
+          "name": "Sven Mijnans",
+          "position": "Mittelfeld"
         },
         {
           "name": "Weslley Patati",
@@ -66,10 +70,6 @@
         },
         {
           "name": "Kees Smit",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sven Mijnans",
           "position": "Mittelfeld"
         },
         {
@@ -1591,19 +1591,19 @@
       "phase": "league-stage",
       "homeLineup": [
         {
-          "name": "Taofeek Ismaheel",
-          "position": "Angriff"
-        },
-        {
-          "name": "Leo Bengtsson",
+          "name": "Luis Palma",
           "position": "Angriff"
         },
         {
           "name": "Mikael Ishak",
+          "position": "Angriff"
+        },
+        {
+          "name": "Leo Bengtsson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Pablo Rodriguez",
+          "name": "Taofeek Ismaheel",
           "position": "Mittelfeld"
         },
         {
@@ -1611,7 +1611,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Luis Palma",
+          "name": "Pablo Rodriguez",
           "position": "Mittelfeld"
         },
         {
