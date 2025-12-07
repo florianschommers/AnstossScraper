@@ -12043,7 +12043,7 @@
   {
     "matchID": 78073,
     "matchDateTime": "2025-12-07T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -12068,8 +12068,8 @@
       "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T14:53:42.863",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-07T15:24:00.967",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120871,
@@ -12175,7 +12175,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T14:34:19.417",
+    "lastUpdateDateTime": "2025-12-07T15:08:01.947",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12191,13 +12191,26 @@
         "resultID": 120874,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135330,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 74,
+        "goalGetterID": 19511,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 22,
       "locationCity": "Berlin",
