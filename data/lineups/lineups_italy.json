@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-07T14:29:06.023614",
+  "lastUpdated": "2025-12-07T15:29:40.735854",
   "lineups": [
+    {
+      "homeTeam": "Cagliari",
+      "awayTeam": "Asrom",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gennaro Borrelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Folorunsho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Deiola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriele Zappa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Tommaso Baldanzi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matias Soule",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konstantinos Tsimikas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Kone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Cristante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zeki Celik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Hermoso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Evan Ndicka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluca Mancini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mile Svilar",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Cremonese",
       "awayTeam": "Lecce",
-      "dateTime": "2025-12-07T15:00:00Z",
+      "dateTime": "2025-12-07T18:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Wladimiro Falcone",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Laziorom",
-      "awayTeam": "Bologna",
-      "dateTime": "2025-12-07T18:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Mattia Zaccagni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Taty Castellanos",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gustav Isaksen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toma Basic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matias Vecino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Guendouzi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Pellegrini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessio Romagnoli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mario Gila",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adam Marusic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Christos Mandas",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Thijs Dallinga",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jonathan Rowe",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giovanni Fabbian",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Federico Bernardeschi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ibrahim Sulemana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Ferguson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Charalampos Lykogiannis",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jhon Lucumi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Torbjorn Heggem",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emil Holm",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Ravaglia",
           "position": "Torwart"
         }
       ]
