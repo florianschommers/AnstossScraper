@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-07T22:59:50.683900Z",
+  "lastUpdated": "2025-12-07T23:25:06.463750Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,51 +1105,11 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Elche",
-      "awayTeam": "Girona",
-      "dateTime": "2025-12-07T21:00:00Z",
+      "homeTeam": "Osasuna",
+      "awayTeam": "Levante",
+      "dateTime": "2025-12-08T21:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Elche",
-      "awayTeam": "Girona",
-      "dateTime": "2025-12-07T15:00:00Z",
-      "score": "3:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Valencia",
-      "awayTeam": "Sevilla",
-      "dateTime": "2025-12-07T15:00:00Z",
-      "score": "1:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-12-07T15:00:00Z",
-      "score": "1:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2025-12-07T15:00:00Z",
-      "score": "0:2",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1199,6 +1159,46 @@
       "awayTeam": "Atlmadrid",
       "dateTime": "2025-12-06T15:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Elche",
+      "awayTeam": "Girona",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Valencia",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
