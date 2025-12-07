@@ -1,107 +1,8 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-07T19:28:02.860363",
+  "lastUpdated": "2025-12-07T20:32:56.247268",
   "lineups": [
-    {
-      "homeTeam": "Espanyol",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Roberto Fernandez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pere Milla",
-          "position": "Angriff"
-        },
-        {
-          "name": "Edu Exposito",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tyrhys Dolan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pol Lozano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Urko Gonzalez de Zarate",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Romero",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leandro Cabrera",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Fernando Calero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Omar El Hilali",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Iori",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jorge de Frutos",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fran Perez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gerard Gumbau",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Isi Palazon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Unai Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oscar Valentin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pep Chavarria",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nobel Mendy",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Florian Lejeune",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Andrei Ratiu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Augusto Batalla",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Elche",
       "awayTeam": "Girona",
@@ -494,6 +395,105 @@
         },
         {
           "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Espanyol",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Angriff"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jorge de Frutos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fran Perez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gerard Gumbau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isi Palazon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Valentin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pep Chavarria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrei Ratiu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Augusto Batalla",
           "position": "Torwart"
         }
       ]
