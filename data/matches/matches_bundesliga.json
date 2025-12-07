@@ -10799,7 +10799,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T16:18:38.637",
+    "lastUpdateDateTime": "2025-12-07T17:22:07.123",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -10814,8 +10814,8 @@
       {
         "resultID": 120891,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -10828,6 +10828,54 @@
         "scoreTeam2": 1,
         "matchMinute": 45,
         "goalGetterID": 19775,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135348,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 63,
+        "goalGetterID": 24013,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135349,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 75,
+        "goalGetterID": 23808,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135350,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 78,
+        "goalGetterID": 19557,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135351,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 84,
+        "goalGetterID": 18351,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
