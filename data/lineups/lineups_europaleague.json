@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2025-12-07T19:26:16.953537",
+  "lastUpdated": "2025-12-07T20:31:13.586978",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
@@ -552,12 +552,16 @@
       ],
       "awayLineup": [
         {
+          "name": "Ion Nicolaescu",
+          "position": "Angriff"
+        },
+        {
           "name": "Sayed Abu Farkhi",
           "position": "Angriff"
         },
         {
-          "name": "Ion Nicolaescu",
-          "position": "Angriff"
+          "name": "Dor Peretz",
+          "position": "Mittelfeld"
         },
         {
           "name": "Osher Davida",
@@ -568,7 +572,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Dor Peretz",
+          "name": "Noam Ben Harush",
           "position": "Mittelfeld"
         },
         {
@@ -576,15 +580,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Noam Ben Harush",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mohamed Camara",
+          "name": "Heitor",
           "position": "Abwehr"
         },
         {
-          "name": "Heitor",
+          "name": "Mohamed Camara",
           "position": "Abwehr"
         },
         {
@@ -1124,7 +1124,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Hans Hateboer",
+          "name": "Ainsley Maitland-Niles",
           "position": "Mittelfeld"
         },
         {
@@ -1136,7 +1136,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Tanner Tessmann",
+          "name": "Clinton Mata",
           "position": "Abwehr"
         },
         {
@@ -1694,19 +1694,23 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Bryan Zaragoza",
-          "position": "Angriff"
-        },
-        {
           "name": "Borja Iglesias",
           "position": "Angriff"
         },
         {
-          "name": "Iago Aspas",
+          "name": "Bryan Zaragoza",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Duran",
           "position": "Mittelfeld"
         },
         {
-          "name": "Sergio Carreira",
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
           "position": "Mittelfeld"
         },
         {
@@ -1714,11 +1718,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Fran Beltran",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Javi Rueda",
+          "name": "Sergio Carreira",
           "position": "Mittelfeld"
         },
         {
