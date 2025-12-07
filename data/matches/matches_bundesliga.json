@@ -10774,7 +10774,7 @@
   {
     "matchID": 77372,
     "matchDateTime": "2025-12-07T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -10799,8 +10799,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T17:22:07.123",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-07T17:34:07.143",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 120890,
@@ -10914,9 +10914,28 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T16:52:55.963",
+    "lastUpdateDateTime": "2025-12-07T17:31:08.31",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 120905,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 120906,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
