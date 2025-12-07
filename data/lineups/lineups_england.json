@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-07T18:39:41.092720",
+  "lastUpdated": "2025-12-07T19:27:34.934250",
   "lineups": [
-    {
-      "homeTeam": "Fulham",
-      "awayTeam": "Crystalpalace",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Raul Jimenez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Samuel Chukwueze",
-          "position": "Angriff"
-        },
-        {
-          "name": "Emile Smith Rowe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Harry Wilson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Iwobi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sander Berge",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothy Castagne",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Calvin Bassey",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joachim Andersen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kenny Tete",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bernd Leno",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jean-Philippe Mateta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yeremy Pino",
-          "position": "Angriff"
-        },
-        {
-          "name": "Eddie Nketiah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tyrick Mitchell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daichi Kamada",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adam Wharton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nathaniel Clyne",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Guehi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxence Lacroix",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Chris Richards",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dean Henderson",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "West Ham United",
@@ -296,6 +197,105 @@
         },
         {
           "name": "Alphonse Areola",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Crystalpalace",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Raul Jimenez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emile Smith Rowe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joachim Andersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernd Leno",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jean-Philippe Mateta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yeremy Pino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eddie Nketiah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrick Mitchell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daichi Kamada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Wharton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathaniel Clyne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Guehi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Chris Richards",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dean Henderson",
           "position": "Torwart"
         }
       ]
