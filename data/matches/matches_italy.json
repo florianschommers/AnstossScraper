@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-07T19:46:37.836982Z",
+  "lastUpdated": "2025-12-07T19:55:33.847991Z",
   "matches": [
     {
       "matchday": 4,
@@ -1005,19 +1005,19 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Lecce",
-      "dateTime": "2025-12-07T20:45:00Z",
-      "score": null,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 14,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Acflorenz",
-      "dateTime": "2025-12-06T15:00:00Z",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-12-07T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1178,6 +1178,16 @@
       "homeTeam": "Cfcgenua",
       "awayTeam": "Intermailand",
       "dateTime": "2025-12-14T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Bologna",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-12-14T20:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
