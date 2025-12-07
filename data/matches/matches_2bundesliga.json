@@ -12184,7 +12184,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T13:56:20.543",
+    "lastUpdateDateTime": "2025-12-07T14:23:30.977",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12200,7 +12200,7 @@
         "resultID": 120876,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -12217,6 +12217,18 @@
         "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135315,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 45,
+        "goalGetterID": 24323,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
