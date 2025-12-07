@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-07T17:27:42.282611",
+  "lastUpdated": "2025-12-07T18:40:37.519016",
   "lineups": [
+    {
+      "homeTeam": "Laziorom",
+      "awayTeam": "Bologna",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mattia Zaccagni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Taty Castellanos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gustav Isaksen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toma Basic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Danilo Cataldi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Guendouzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nuno Tavares",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Gila",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adam Marusic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ivan Provedel",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Santiago Castro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolo Cambiaghi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jens Odgaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Riccardo Orsolini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Pobega",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Moro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Miranda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Torbjorn Heggem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolo Casale",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nadir Zortea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Ravaglia",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Cremonese",
       "awayTeam": "Lecce",
-      "dateTime": "2025-12-07T18:00:00Z",
+      "dateTime": "2025-12-07T20:45:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Wladimiro Falcone",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2025-12-07T20:45:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Lorenzo Lucca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giuseppe Ambrosino",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Politano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leonardo Spinazzola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Vergara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pasquale Mazzocchi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Olivera",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Jesus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Beukema",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanja Milinkovic-Savic",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jonathan David",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Cabal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Teun Koopmeiners",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fabio Miretti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrea Cambiaso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Gatti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michele Di Gregorio",
           "position": "Torwart"
         }
       ]
