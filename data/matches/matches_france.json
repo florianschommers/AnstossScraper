@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-12-07T18:15:22.846847Z",
+  "lastUpdated": "2025-12-07T18:23:09.418351Z",
   "matches": [
     {
       "matchday": 4,
@@ -995,26 +995,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Auxerre",
-      "awayTeam": "Fcmetz",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Aclehavre",
-      "awayTeam": "Parisfc",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Nizza",
       "awayTeam": "Angers",
       "dateTime": "2025-12-07T20:45:00Z",
@@ -1029,6 +1009,26 @@
       "awayTeam": "Angers",
       "dateTime": "2025-12-07T15:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Parisfc",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
