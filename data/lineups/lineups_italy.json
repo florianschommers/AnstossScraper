@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-07T19:28:29.149752",
+  "lastUpdated": "2025-12-07T20:33:21.747293",
   "lineups": [
+    {
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Noa Lang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rasmus Hojlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Neres",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Olivera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Buongiorno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Rrahmani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Beukema",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanja Milinkovic-Savic",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Juan Cabal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michele Di Gregorio",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Cremonese",
       "awayTeam": "Lecce",
-      "dateTime": "2025-12-07T20:45:00Z",
+      "dateTime": "2025-12-07T15:00:00Z",
       "matchday": 14,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Wladimiro Falcone",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Acflorenz",
-      "dateTime": "2025-12-06T15:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Armand Lauriente",
-          "position": "Angriff"
-        },
-        {
-          "name": "Andrea Pinamonti",
-          "position": "Angriff"
-        },
-        {
-          "name": "Cristian Volpato",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ismael Kone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nemanja Matic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kristian Thorstvedt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Josh Doig",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tarik Muharemovic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jay Idzes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastian Walukiewicz",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arijanet Muric",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Albert Gudmundsson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Moise Kean",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fabiano Parisi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Simon Sohm",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Fagioli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rolando Mandragora",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dodo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Ranieri",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pablo Mari",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pietro Comuzzo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David de Gea",
           "position": "Torwart"
         }
       ]
