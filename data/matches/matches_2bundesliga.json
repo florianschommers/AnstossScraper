@@ -12068,7 +12068,7 @@
       "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T13:47:03.61",
+    "lastUpdateDateTime": "2025-12-07T14:46:08.073",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12083,14 +12083,51 @@
       {
         "resultID": 120872,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135317,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 48,
+        "goalGetterID": 24324,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135318,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 53,
+        "goalGetterID": 18621,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135320,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1111,
       "locationCity": "Nürnberg",
@@ -12126,7 +12163,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T13:47:04.977",
+    "lastUpdateDateTime": "2025-12-07T14:34:19.417",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12184,14 +12221,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-07T14:23:30.977",
+    "lastUpdateDateTime": "2025-12-07T14:34:28.787",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 120875,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
