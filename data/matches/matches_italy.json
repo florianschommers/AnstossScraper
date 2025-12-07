@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-07T13:20:12.407439Z",
+  "lastUpdated": "2025-12-07T13:38:53.421065Z",
   "matches": [
     {
       "matchday": 4,
@@ -1007,16 +1007,6 @@
       "matchday": 14,
       "homeTeam": "Cremonese",
       "awayTeam": "Lecce",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Cagliari",
-      "awayTeam": "Asrom",
       "dateTime": "2025-12-07T15:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1070,6 +1060,16 @@
       "dateTime": "2025-12-08T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
