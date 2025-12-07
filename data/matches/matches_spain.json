@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-07T19:36:37.997264Z",
+  "lastUpdated": "2025-12-07T19:38:46.410134Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-12-07T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Elche",
       "awayTeam": "Girona",
       "dateTime": "2025-12-07T21:00:00Z",
@@ -1149,6 +1139,16 @@
       "awayTeam": "Sevilla",
       "dateTime": "2025-12-07T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-12-07T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
