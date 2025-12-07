@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-07T20:18:24.908754Z",
+  "lastUpdated": "2025-12-07T20:20:49.318451Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,19 +1105,19 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Elche",
-      "awayTeam": "Girona",
-      "dateTime": "2025-12-07T21:00:00Z",
-      "score": null,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 15,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Mallorca",
-      "dateTime": "2025-12-05T21:00:00Z",
+      "homeTeam": "Elche",
+      "awayTeam": "Girona",
+      "dateTime": "2025-12-07T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1278,6 +1278,16 @@
       "homeTeam": "Levante",
       "awayTeam": "Villarreal",
       "dateTime": "2025-12-14T18:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Alaves",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-12-14T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
