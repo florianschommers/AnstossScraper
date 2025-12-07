@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-07T15:16:41.673652Z",
+  "lastUpdated": "2025-12-07T15:32:04.244125Z",
   "matches": [
     {
       "matchday": 4,
@@ -1105,18 +1105,18 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Elche",
-      "awayTeam": "Girona",
-      "dateTime": "2025-12-07T16:15:00Z",
-      "score": null,
+      "homeTeam": "Valencia",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-12-07T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 15,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Vallecano",
+      "homeTeam": "Elche",
+      "awayTeam": "Girona",
       "dateTime": "2025-12-07T18:30:00Z",
       "score": null,
       "isFinished": false,
@@ -1258,6 +1258,16 @@
       "homeTeam": "Sevilla",
       "awayTeam": "Oviedo",
       "dateTime": "2025-12-14T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-12-14T16:15:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
