@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-08T18:42:50.926086",
+  "lastUpdated": "2025-12-08T19:30:32.768159",
   "lineups": [
-    {
-      "homeTeam": "Udinese",
-      "awayTeam": "Cfcgenua",
-      "dateTime": "2025-12-08T00:00:00Z",
-      "matchday": 14,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Keinan Davis",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicolo Zaniolo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jordan Zemura",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jurgen Ekkelenkamp",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jesper Karlstrom",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jakub Piotrowski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Zanoli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oumar Solet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Christian Kabasele",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicolo Bertola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maduka Okoye",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Lorenzo Colombo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Vitinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aaron Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Morten Thorsby",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Patrizio Masini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ruslan Malinovskyi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Brooke Norton-Cuffy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Vasquez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastian Otoa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Marcandalli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicola Leali",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Pisa",
       "awayTeam": "Parma",
@@ -296,6 +197,105 @@
         },
         {
           "name": "Edoardo Corvi",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Udinese",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2025-12-08T15:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Keinan Davis",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolo Zaniolo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jordan Zemura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jurgen Ekkelenkamp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesper Karlstrom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jakub Piotrowski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Zanoli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oumar Solet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christian Kabasele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolo Bertola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maduka Okoye",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lorenzo Colombo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aaron Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morten Thorsby",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrizio Masini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brooke Norton-Cuffy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Vasquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Otoa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Marcandalli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicola Leali",
           "position": "Torwart"
         }
       ]
