@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2025-12-08T19:27:57.231761",
+  "lastUpdated": "2025-12-08T20:35:05.288933",
   "lineups": [
     {
       "homeTeam": "Kairat",
@@ -197,6 +197,105 @@
         },
         {
           "name": "Rui Silva",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Monaco",
+      "awayTeam": "Galatasaray",
+      "dateTime": "2025-12-09T20:00:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Mika Biereth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Takumi Minamino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Caio Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Salisu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Hradecky",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Victor Osimhen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Baris Alper Yilmaz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Sara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leroy Sane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Torreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilkay Gundogan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kazimcan Karatas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdulkerim Bardakcı",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Lemina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davinson Sanchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ugurcan Cakir",
           "position": "Torwart"
         }
       ]
@@ -692,105 +791,6 @@
         },
         {
           "name": "Alisson",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Frankfurt",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Ferran Torres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Rashford",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Roony Bardghji",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Balde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gerard Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Cubarsi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jules Kounde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joan Garcia",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Michy Batshuayi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jean-Matteo Bahoya",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ritsu Doan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nathaniel Brown",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mahmoud Dahoud",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fares Chaibi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rasmus Kristensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arthur Theate",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robin Koch",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nnamdi Collins",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Zetterer",
           "position": "Torwart"
         }
       ]
