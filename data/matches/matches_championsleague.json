@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-12-08T19:53:35.464767Z",
+  "lastUpdated": "2025-12-08T20:15:03.507915Z",
   "matches": [
     {
       "matchday": 1,
@@ -1017,6 +1017,17 @@
     },
     {
       "matchday": 6,
+      "homeTeam": "Monaco",
+      "awayTeam": "Galatasaray",
+      "dateTime": "2025-12-09T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
       "homeTeam": "Tottenham",
       "awayTeam": "Slaviaprag",
       "dateTime": "2025-12-09T20:00:00Z",
@@ -1063,17 +1074,6 @@
       "matchday": 6,
       "homeTeam": "Intermailand",
       "awayTeam": "Liverpool",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Frankfurt",
       "dateTime": "2025-12-09T20:00:00Z",
       "score": null,
       "isFinished": false,
