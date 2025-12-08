@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-08T15:57:46.960545Z",
+  "lastUpdated": "2025-12-08T16:15:36.105584Z",
   "matches": [
     {
       "matchday": 5,
@@ -907,16 +907,6 @@
       "matchday": 14,
       "homeTeam": "Pisa",
       "awayTeam": "Parma",
-      "dateTime": "2025-12-08T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Udinese",
-      "awayTeam": "Cfcgenua",
       "dateTime": "2025-12-08T18:00:00Z",
       "score": null,
       "isFinished": false,
@@ -930,6 +920,16 @@
       "dateTime": "2025-12-08T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Pisa",
+      "awayTeam": "Parma",
+      "dateTime": "2025-12-08T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
