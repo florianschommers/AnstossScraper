@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-08T23:16:01.486668Z",
+  "lastUpdated": "2025-12-08T23:33:08.352502Z",
   "matches": [
     {
       "matchday": 5,
@@ -905,36 +905,6 @@
     },
     {
       "matchday": 14,
-      "homeTeam": "Pisa",
-      "awayTeam": "Parma",
-      "dateTime": "2025-12-08T15:00:00Z",
-      "score": "0:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Udinese",
-      "awayTeam": "Cfcgenua",
-      "dateTime": "2025-12-08T15:00:00Z",
-      "score": "1:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 14,
-      "homeTeam": "Turin",
-      "awayTeam": "Acmailand",
-      "dateTime": "2025-12-08T15:00:00Z",
-      "score": "2:3",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 14,
       "homeTeam": "Sassuolo",
       "awayTeam": "Acflorenz",
       "dateTime": "2025-12-06T15:00:00Z",
@@ -999,6 +969,36 @@
       "awayTeam": "Juventusturin",
       "dateTime": "2025-12-07T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Pisa",
+      "awayTeam": "Parma",
+      "dateTime": "2025-12-08T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Udinese",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2025-12-08T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Turin",
+      "awayTeam": "Acmailand",
+      "dateTime": "2025-12-08T15:00:00Z",
+      "score": "2:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
