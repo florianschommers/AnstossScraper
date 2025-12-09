@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-12-09T17:47:33.480652Z",
+  "lastUpdated": "2025-12-09T17:52:46.000967Z",
   "matches": [
     {
       "matchday": 1,
@@ -995,22 +995,22 @@
     },
     {
       "matchday": 6,
+      "homeTeam": "Bayern",
+      "awayTeam": "Sporting",
+      "dateTime": "2025-12-09T17:52:41.696096Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
       "homeTeam": "Kairat",
       "awayTeam": "Olympiakos",
       "dateTime": "2025-12-09T19:00:00Z",
       "score": "0:1",
       "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Bayern",
-      "awayTeam": "Sporting",
-      "dateTime": "2025-12-09T17:45:00Z",
-      "score": null,
-      "isFinished": false,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -1096,17 +1096,6 @@
       "matchday": 6,
       "homeTeam": "Karabakh",
       "awayTeam": "Ajaxamsterdam",
-      "dateTime": "2025-12-10T17:45:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Mancity",
       "dateTime": "2025-12-10T20:00:00Z",
       "score": null,
       "isFinished": false,
