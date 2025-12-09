@@ -1,103 +1,697 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2025-12-09T19:24:45.369276",
+  "lastUpdated": "2025-12-09T20:30:23.282303",
   "lineups": [
     {
-      "homeTeam": "Bayern",
-      "awayTeam": "Sporting",
-      "dateTime": "2025-12-09T19:11:33.766201Z",
+      "homeTeam": "Monaco",
+      "awayTeam": "Galatasaray",
+      "dateTime": "2025-12-09T20:19:33.598149Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Harry Kane",
+          "name": "Folarin Balogun",
           "position": "Angriff"
         },
         {
-          "name": "Serge Gnabry",
+          "name": "Aleksandr Golovin",
           "position": "Angriff"
         },
         {
-          "name": "Lennart Karl",
+          "name": "Takumi Minamino",
           "position": "Mittelfeld"
         },
         {
-          "name": "Michael Olise",
+          "name": "Maghnes Akliouche",
           "position": "Mittelfeld"
         },
         {
-          "name": "Aleksandar Pavlovic",
+          "name": "Denis Zakaria",
           "position": "Mittelfeld"
         },
         {
-          "name": "Joshua Kimmich",
+          "name": "Lamine Camara",
           "position": "Mittelfeld"
         },
         {
-          "name": "Josip Stanisic",
+          "name": "Caio Henrique",
           "position": "Mittelfeld"
         },
         {
-          "name": "Jonathan Tah",
+          "name": "Mohammed Salisu",
           "position": "Abwehr"
         },
         {
-          "name": "Dayot Upamecano",
+          "name": "Thilo Kehrer",
           "position": "Abwehr"
         },
         {
-          "name": "Konrad Laimer",
+          "name": "Vanderson",
           "position": "Abwehr"
         },
         {
-          "name": "Manuel Neuer",
+          "name": "Lukas Hradecky",
           "position": "Torwart"
         }
       ],
       "awayLineup": [
         {
-          "name": "Luis Suarez",
+          "name": "Victor Osimhen",
           "position": "Angriff"
         },
         {
-          "name": "Alisson Santos",
+          "name": "Baris Alper Yilmaz",
           "position": "Angriff"
         },
         {
-          "name": "Joao Simoes",
+          "name": "Ilkay Gundogan",
           "position": "Mittelfeld"
         },
         {
-          "name": "Morten Hjulmand",
+          "name": "Leroy Sane",
           "position": "Mittelfeld"
         },
         {
-          "name": "Geny Catamo",
+          "name": "Gabriel Sara",
           "position": "Mittelfeld"
         },
         {
-          "name": "Maxi Araujo",
+          "name": "Lucas Torreira",
           "position": "Mittelfeld"
         },
         {
-          "name": "Matheus Reis",
+          "name": "Ismail Jakobs",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ousmane Diomande",
+          "name": "Abdulkerim Bardakcı",
           "position": "Abwehr"
         },
         {
-          "name": "Eduardo Quaresma",
+          "name": "Davinson Sanchez",
           "position": "Abwehr"
         },
         {
-          "name": "Ivan Fresneda",
+          "name": "Roland Sallai",
           "position": "Abwehr"
         },
         {
-          "name": "Rui Silva",
+          "name": "Ugurcan Cakir",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Tottenham",
+      "awayTeam": "Slaviaprag",
+      "dateTime": "2025-12-09T20:19:33.598186Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Richarlison",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wilson Odobert",
+          "position": "Angriff"
+        },
+        {
+          "name": "Xavi Simons",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Palhinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djed Spence",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Porro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mojmir Chytil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Youssoupha Sanyang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Michal Sadilek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Provod",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Moses",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Doudera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Zima",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igoh Ogbu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stepan Chaloupek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tomas Holes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jindrich Stanek",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Stgilloise",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2025-12-09T20:19:33.598202Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Rob Schoofs",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kevin Rodriguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raul Florucz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ousseynou Niang",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kamiel Van De Perre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adem Zorgane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anan Khalaili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fedde Leysen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christian Burgess",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Mac Allister",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kjell Scherpen",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Angriff"
+        },
+        {
+          "name": "Igor Paixao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matt O&#039;Riley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arthur Vermeeren",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emerson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bergamo",
+      "awayTeam": "Chelsea",
+      "dateTime": "2025-12-09T20:19:33.598217Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sead Kolasinac",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raoul Bellanova",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Bernasconi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joao Pedro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jamie Gittens",
+          "position": "Angriff"
+        },
+        {
+          "name": "Enzo Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moises Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reece James",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benoit Badiashile",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josh Acheampong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trevoh Chalobah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert Sanchez",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Eindhoven",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-12-09T20:19:33.598231Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Couhaib Driouech",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "Angriff"
+        },
+        {
+          "name": "Guus Til",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joey Veerman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mauro Junior",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Wanner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anass Salah-Eddine",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yarek Gasiorowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jerdy Schouten",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergino Dest",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matej Kovar",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Julian Alvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Pubill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Intermailand",
+      "awayTeam": "Liverpool",
+      "dateTime": "2025-12-09T20:19:33.598245Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marcus Thuram",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Dimarco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakan Calhanoglu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Francesco Acerbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alexander Isak",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Ekitike",
+          "position": "Angriff"
+        },
+        {
+          "name": "Curtis Jones",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrew Robertson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Gomez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Frankfurt",
+      "dateTime": "2025-12-09T20:19:33.598259Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Robert Lewandowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raphinha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fermin Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jules Kounde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ansgar Knauff",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fares Chaibi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mario Gotze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ellyes Skhiri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Larsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathaniel Brown",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arthur Theate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Koch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rasmus Kristensen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Zetterer",
           "position": "Torwart"
         }
       ]
@@ -202,694 +796,100 @@
       ]
     },
     {
-      "homeTeam": "Monaco",
-      "awayTeam": "Galatasaray",
-      "dateTime": "2025-12-09T20:00:00Z",
+      "homeTeam": "Bayern",
+      "awayTeam": "Sporting",
+      "dateTime": "2025-12-09T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Folarin Balogun",
+          "name": "Harry Kane",
           "position": "Angriff"
         },
         {
-          "name": "Aleksandr Golovin",
+          "name": "Serge Gnabry",
           "position": "Angriff"
         },
         {
-          "name": "Takumi Minamino",
+          "name": "Lennart Karl",
           "position": "Mittelfeld"
         },
         {
-          "name": "Maghnes Akliouche",
+          "name": "Michael Olise",
           "position": "Mittelfeld"
         },
         {
-          "name": "Denis Zakaria",
+          "name": "Aleksandar Pavlovic",
           "position": "Mittelfeld"
         },
         {
-          "name": "Lamine Camara",
+          "name": "Joshua Kimmich",
           "position": "Mittelfeld"
         },
         {
-          "name": "Caio Henrique",
+          "name": "Josip Stanisic",
           "position": "Mittelfeld"
         },
         {
-          "name": "Mohammed Salisu",
+          "name": "Jonathan Tah",
           "position": "Abwehr"
         },
         {
-          "name": "Thilo Kehrer",
+          "name": "Dayot Upamecano",
           "position": "Abwehr"
         },
         {
-          "name": "Vanderson",
+          "name": "Konrad Laimer",
           "position": "Abwehr"
         },
         {
-          "name": "Lukas Hradecky",
+          "name": "Manuel Neuer",
           "position": "Torwart"
         }
       ],
       "awayLineup": [
         {
-          "name": "Victor Osimhen",
+          "name": "Luis Suarez",
           "position": "Angriff"
         },
         {
-          "name": "Baris Alper Yilmaz",
+          "name": "Alisson Santos",
           "position": "Angriff"
         },
         {
-          "name": "Gabriel Sara",
+          "name": "Joao Simoes",
           "position": "Mittelfeld"
         },
         {
-          "name": "Leroy Sane",
+          "name": "Morten Hjulmand",
           "position": "Mittelfeld"
         },
         {
-          "name": "Lucas Torreira",
+          "name": "Geny Catamo",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ilkay Gundogan",
+          "name": "Maxi Araujo",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ismail Jakobs",
+          "name": "Matheus Reis",
           "position": "Mittelfeld"
         },
         {
-          "name": "Abdulkerim Bardakcı",
+          "name": "Ousmane Diomande",
           "position": "Abwehr"
         },
         {
-          "name": "Davinson Sanchez",
+          "name": "Eduardo Quaresma",
           "position": "Abwehr"
         },
         {
-          "name": "Roland Sallai",
+          "name": "Ivan Fresneda",
           "position": "Abwehr"
         },
         {
-          "name": "Ugurcan Cakir",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Tottenham",
-      "awayTeam": "Slaviaprag",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Richarlison",
-          "position": "Angriff"
-        },
-        {
-          "name": "Wilson Odobert",
-          "position": "Angriff"
-        },
-        {
-          "name": "Xavi Simons",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mohammed Kudus",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Archie Gray",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joao Palhinha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djed Spence",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Micky van de Ven",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Cristian Romero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pedro Porro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guglielmo Vicario",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Mojmir Chytil",
-          "position": "Angriff"
-        },
-        {
-          "name": "Youssoupha Sanyang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Michal Sadilek",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lukas Provod",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Moses",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Doudera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Zima",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Igoh Ogbu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Stepan Chaloupek",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tomas Holes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jindrich Stanek",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Stgilloise",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Kevin Rodriguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Raul Florucz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rob Schoofs",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ousseynou Niang",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kamiel Van De Perre",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adem Zorgane",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Anan Khalaili",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fedde Leysen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Christian Burgess",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Mac Allister",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kjell Scherpen",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Pierre-Emerick Aubameyang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mason Greenwood",
-          "position": "Angriff"
-        },
-        {
-          "name": "Igor Paixao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matt O&#039;Riley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pierre-Emile Højbjerg",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arthur Vermeeren",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothy Weah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emerson",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nayef Aguerd",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Murillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Geronimo Rulli",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Bergamo",
-      "awayTeam": "Chelsea",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ademola Lookman",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sead Kolasinac",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Raoul Bellanova",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odilon Kossounou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Joao Pedro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jamie Gittens",
-          "position": "Angriff"
-        },
-        {
-          "name": "Enzo Fernandez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedro Neto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Moises Caicedo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Reece James",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Cucurella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benoit Badiashile",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Josh Acheampong",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Trevoh Chalobah",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robert Sanchez",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Eindhoven",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Couhaib Driouech",
-          "position": "Angriff"
-        },
-        {
-          "name": "Guus Til",
-          "position": "Angriff"
-        },
-        {
-          "name": "Paul Wanner",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joey Veerman",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mauro Junior",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ismael Saibari",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Anass Salah-Eddine",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yarek Gasiorowski",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jerdy Schouten",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sergino Dest",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matej Kovar",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Julian Alvarez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alexander Sørloth",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Gonzalez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Koke",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Barrios",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giuliano Simeone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Ruggeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Hancko",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marc Pubill",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Molina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jan Oblak",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Intermailand",
-      "awayTeam": "Liverpool",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Thuram",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Dimarco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Henrikh Mkhitaryan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hakan Calhanoglu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Francesco Acerbi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Hugo Ekitike",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alexander Isak",
-          "position": "Angriff"
-        },
-        {
-          "name": "Curtis Jones",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Mac Allister",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Gravenberch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dominik Szoboszlai",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrew Robertson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Virgil van Dijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ibrahima Konate",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joe Gomez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alisson",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Frankfurt",
-      "dateTime": "2025-12-09T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Robert Lewandowski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Raphinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fermin Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Balde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gerard Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Cubarsi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jules Kounde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joan Garcia",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ansgar Knauff",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mario Gotze",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ellyes Skhiri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fares Chaibi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hugo Larsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ritsu Doan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nathaniel Brown",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arthur Theate",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robin Koch",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Rasmus Kristensen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Zetterer",
+          "name": "Rui Silva",
           "position": "Torwart"
         }
       ]
@@ -1088,6 +1088,105 @@
         },
         {
           "name": "Vitezslav Jaros",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Mancity",
+      "dateTime": "2025-12-10T20:00:00Z",
+      "matchday": 6,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alvaro Fernandez Carreras",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eder Militao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Erling Haaland",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jeremy Doku",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rayan Cherki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phil Foden",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bernardo Silva",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico O&#039;Reilly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josko Gvardiol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Dias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matheus Nunes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluigi Donnarumma",
           "position": "Torwart"
         }
       ]
@@ -1583,105 +1682,6 @@
         },
         {
           "name": "Aaron Ramsdale",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Benfica",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2025-12-10T20:00:00Z",
-      "matchday": 6,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Vangelis Pavlidis",
-          "position": "Angriff"
-        },
-        {
-          "name": "Georgiy Sudakov",
-          "position": "Angriff"
-        },
-        {
-          "name": "Leandro Barreiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fredrik Aursnes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Enzo Barrenechea",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Richard Rios",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuel Dahl",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Otamendi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Antonio Silva",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amar Dedic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Anatoliy Trubin",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Noa Lang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "David Neres",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Olivera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Buongiorno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Rrahmani",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Beukema",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanja Milinkovic-Savic",
           "position": "Torwart"
         }
       ]
