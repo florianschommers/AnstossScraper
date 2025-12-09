@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-12-09T21:53:34.891335Z",
+  "lastUpdated": "2025-12-09T22:13:38.458149Z",
   "matches": [
     {
       "matchday": 1,
@@ -995,83 +995,6 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Monaco",
-      "awayTeam": "Galatasaray",
-      "dateTime": "2025-12-09T21:53:31.704136Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Tottenham",
-      "awayTeam": "Slaviaprag",
-      "dateTime": "2025-12-09T21:53:31.704168Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Stgilloise",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2025-12-09T21:53:31.704185Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:3",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Chelsea",
-      "dateTime": "2025-12-09T21:53:31.704213Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Eindhoven",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2025-12-09T21:53:31.704229Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:3",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Intermailand",
-      "awayTeam": "Liverpool",
-      "dateTime": "2025-12-09T21:53:31.704245Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Frankfurt",
-      "dateTime": "2025-12-09T21:53:31.704257Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
       "homeTeam": "Kairat",
       "awayTeam": "Olympiakos",
       "dateTime": "2025-12-09T19:00:00Z",
@@ -1087,6 +1010,83 @@
       "awayTeam": "Sporting",
       "dateTime": "2025-12-09T19:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Monaco",
+      "awayTeam": "Galatasaray",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Tottenham",
+      "awayTeam": "Slaviaprag",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Stgilloise",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Chelsea",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Eindhoven",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Liverpool",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Frankfurt",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
