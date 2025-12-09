@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2025-12-09T19:43:20.516906Z",
+  "lastUpdated": "2025-12-09T19:52:31.379539Z",
   "matches": [
     {
       "matchday": 1,
@@ -995,21 +995,21 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Bayern",
-      "awayTeam": "Sporting",
-      "dateTime": "2025-12-09T19:43:15.189086Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
       "homeTeam": "Kairat",
       "awayTeam": "Olympiakos",
       "dateTime": "2025-12-09T19:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Bayern",
+      "awayTeam": "Sporting",
+      "dateTime": "2025-12-09T19:00:00Z",
+      "score": "3:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
