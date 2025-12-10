@@ -9,15 +9,20 @@ on:
 permissions:
   contents: write
 
+# WICHTIG: Verhindert, dass mehrere Workflows gleichzeitig laufen
+concurrency:
+  group: scrape-workflows
+  cancel-in-progress: false  # Laufende Workflows nicht abbrechen, sondern warten
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
@@ -27,7 +32,8 @@ jobs:
       
       - name: Update Match Data
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Verwendet ANSTOSS_SCRAPER_TOKEN für Zugriff auf externes Repository
+          GITHUB_TOKEN: ${{ secrets.ANSTOSS_SCRAPER_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           python upload_matches_to_github.py
 

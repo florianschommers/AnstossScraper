@@ -2,22 +2,30 @@ name: Update Lineups
 
 on:
   schedule:
-    # Jede Stunde
-    - cron: '0 * * * *'
+    # Alle 30 Minuten
+    - cron: '*/30 * * * *'
   workflow_dispatch:  # Manuell auslösbar
 
 permissions:
   contents: write
 
+# WICHTIG: Verhindert, dass mehrere Workflows gleichzeitig laufen
+concurrency:
+  group: scrape-workflows
+  cancel-in-progress: false  # Laufende Workflows nicht abbrechen, sondern warten
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Workflow wird nicht als fehlgeschlagen markiert, wenn einzelne Uploads fehlschlagen
+    # (temporäre GitHub-Fehler werden beim nächsten Lauf automatisch behoben)
+    continue-on-error: false
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
@@ -32,7 +40,15 @@ jobs:
       
       - name: Upload Lineups to GitHub
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # WICHTIG: Für externe Repositories (florianschommers/AnstossScraper) benötigt man einen Personal Access Token (PAT)
+          # Der Standard GITHUB_TOKEN hat nur Zugriff auf das aktuelle Repository
+          # 
+          # Einrichtung:
+          # 1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+          # 2. Neuen Token mit 'repo' Berechtigung erstellen (ohne Ablaufzeit für dauerhafte Nutzung)
+          # 3. Token als Secret 'ANSTOSS_SCRAPER_TOKEN' im Repository speichern:
+          #    Repository → Settings → Secrets and variables → Actions → New repository secret
+          GITHUB_TOKEN: ${{ secrets.ANSTOSS_SCRAPER_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           python upload_lineups_to_github.py
 

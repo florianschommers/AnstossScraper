@@ -1,0 +1,218 @@
+name: Scrape and publish data
+
+on:
+  schedule:
+    # Alle 5 Minuten
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # Manuell auslösbar
+
+permissions:
+  contents: write
+
+# WICHTIG: Verhindert, dass mehrere Workflows gleichzeitig laufen
+concurrency:
+  group: scrape-workflows
+  cancel-in-progress: false  # Laufende Workflows nicht abbrechen, sondern warten
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          repository: florianschommers/AnstossScraper
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # WICHTIG: Vollständige Historie für Git-Operationen
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4
+      
+      - name: Run Scraper
+        run: |
+          # Hier dein Scraper-Code
+          # python scraper/scrape_data.py
+          echo "Scraper würde hier laufen"
+      
+      - name: Commit and Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e  # Exit bei Fehler
+          
+          # Git-Konfiguration (LOCAL, nicht global!)
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          
+          # Setze Remote URL mit Token
+          REPO_URL="https://${GITHUB_TOKEN}@github.com/florianschommers/AnstossScraper.git"
+          git remote set-url origin "$REPO_URL"
+          
+          # WICHTIG: IMMER zuerst Pull, bevor wir etwas machen!
+          echo "🔄 Schritt 1: Hole neueste Änderungen vom Remote..."
+          MAX_PULL_RETRIES=10
+          PULL_RETRY=0
+          PULL_SUCCESS=false
+          
+          while [ $PULL_RETRY -lt $MAX_PULL_RETRIES ]; do
+            echo "🔄 Pull-Versuch $((PULL_RETRY + 1))/$MAX_PULL_RETRIES..."
+            
+            # Fetch zuerst
+            if git fetch origin main 2>&1; then
+              echo "✅ Fetch erfolgreich"
+              
+              # Prüfe ob es Remote-Änderungen gibt
+              LOCAL=$(git rev-parse HEAD)
+              REMOTE=$(git rev-parse origin/main)
+              
+              if [ "$LOCAL" != "$REMOTE" ]; then
+                echo "📥 Remote hat neue Commits, hole sie..."
+                
+                # Versuche Rebase (bevorzugt)
+                if git rebase origin/main 2>&1; then
+                  echo "✅ Rebase erfolgreich"
+                  PULL_SUCCESS=true
+                  break
+                # Fallback: Merge
+                elif git merge origin/main --no-edit 2>&1; then
+                  echo "✅ Merge erfolgreich"
+                  PULL_SUCCESS=true
+                  break
+                else
+                  echo "⚠️ Rebase/Merge fehlgeschlagen, reset auf origin/main..."
+                  # Reset auf Remote und neu starten
+                  git reset --hard origin/main 2>&1
+                  PULL_SUCCESS=true
+                  break
+                fi
+              else
+                echo "✅ Bereits auf neuestem Stand"
+                PULL_SUCCESS=true
+                break
+              fi
+            else
+              echo "⚠️ Fetch fehlgeschlagen"
+            fi
+            
+            PULL_RETRY=$((PULL_RETRY + 1))
+            if [ $PULL_RETRY -lt $MAX_PULL_RETRIES ]; then
+              sleep $((PULL_RETRY * 2))
+            fi
+          done
+          
+          if [ "$PULL_SUCCESS" = false ]; then
+            echo "❌ Pull fehlgeschlagen nach $MAX_PULL_RETRIES Versuchen"
+            exit 1
+          fi
+          
+          # Prüfe ob es Änderungen gibt
+          echo "🔄 Schritt 2: Prüfe auf Änderungen..."
+          git status
+          
+          # Add alle Änderungen
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "📝 Änderungen gefunden, committe..."
+            git add .
+            
+            # Commit
+            git commit -m "Update scraped data" || {
+              echo "⚠️ Commit fehlgeschlagen (möglicherweise keine Änderungen)"
+              exit 0
+            }
+            
+            # WICHTIG: NOCHMAL Pull vor Push (Race Condition vermeiden)
+            echo "🔄 Schritt 3: Nochmal Pull vor Push (Race Condition vermeiden)..."
+            git fetch origin main 2>&1
+            git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
+              echo "⚠️ Rebase/Merge fehlgeschlagen, reset..."
+              git reset --hard origin/main 2>&1
+              git add .
+              git commit -m "Update scraped data" 2>&1
+            }
+            
+            # Push mit Retry-Logik
+            echo "🚀 Schritt 4: Push zu Remote..."
+            MAX_PUSH_RETRIES=15
+            PUSH_RETRY=0
+            PUSH_SUCCESS=false
+            
+            while [ $PUSH_RETRY -lt $MAX_PUSH_RETRIES ]; do
+              echo "🚀 Push-Versuch $((PUSH_RETRY + 1))/$MAX_PUSH_RETRIES..."
+              
+              # NOCHMAL Fetch vor jedem Push-Versuch
+              git fetch origin main 2>&1
+              
+              # Prüfe ob wir hinter Remote sind
+              LOCAL=$(git rev-parse HEAD)
+              REMOTE=$(git rev-parse origin/main)
+              BASE=$(git merge-base HEAD origin/main)
+              
+              if [ "$REMOTE" != "$BASE" ]; then
+                echo "⚠️ Remote ist voraus, hole neueste Änderungen..."
+                git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
+                  echo "🔄 Reset und neu committen..."
+                  git reset --hard origin/main 2>&1
+                  git add .
+                  git commit -m "Update scraped data" 2>&1
+                }
+              fi
+              
+              # Push (für die letzten 2 Versuche: verwende --force-with-lease)
+              if [ $PUSH_RETRY -ge $((MAX_PUSH_RETRIES - 2)) ]; then
+                echo "ℹ️ Verwende --force-with-lease für finalen Push-Versuch"
+                PUSH_OUTPUT=$(git push origin HEAD:main --force-with-lease 2>&1)
+              else
+                PUSH_OUTPUT=$(git push origin HEAD:main 2>&1)
+              fi
+              PUSH_EXIT=$?
+              
+              if [ $PUSH_EXIT -eq 0 ]; then
+                echo "✅ Push erfolgreich!"
+                PUSH_SUCCESS=true
+                break
+              else
+                echo "$PUSH_OUTPUT"
+                
+                # Prüfe ob es ein "rejected" Fehler ist
+                if echo "$PUSH_OUTPUT" | grep -q "rejected\|fetch first"; then
+                  echo "⚠️ Push abgelehnt - Remote hat neue Commits"
+                  PUSH_RETRY=$((PUSH_RETRY + 1))
+                  if [ $PUSH_RETRY -lt $MAX_PUSH_RETRIES ]; then
+                    WAIT=$((PUSH_RETRY * 3))
+                    echo "⏳ Warte ${WAIT}s..."
+                    sleep $WAIT
+                    
+                    # Hole neueste Änderungen
+                    git fetch origin main 2>&1
+                    git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
+                      echo "🔄 Reset und neu committen..."
+                      git reset --hard origin/main 2>&1
+                      git add .
+                      git commit -m "Update scraped data" 2>&1
+                    }
+                  fi
+                else
+                  echo "❌ Anderer Fehler beim Push"
+                  PUSH_RETRY=$((PUSH_RETRY + 1))
+                  if [ $PUSH_RETRY -lt $MAX_PUSH_RETRIES ]; then
+                    sleep $((PUSH_RETRY * 2))
+                  fi
+                fi
+              fi
+            done
+            
+            if [ "$PUSH_SUCCESS" = false ]; then
+              echo "❌ Push fehlgeschlagen nach $MAX_PUSH_RETRIES Versuchen"
+              exit 1
+            fi
+          else
+            echo "ℹ️ Keine Änderungen zum Committen"
+          fi
+

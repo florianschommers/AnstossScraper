@@ -213,7 +213,15 @@ jobs:
                   fi
                   
                   echo "🚀 Git push (Versuch $((RETRY_COUNT + 1))/$MAX_PUSH_RETRIES)..."
-                  PUSH_OUTPUT=$(git push origin HEAD:main 2>&1)
+                  
+                  # Für die letzten 2 Versuche: Verwende --force-with-lease (sicher)
+                  # --force-with-lease pusht nur, wenn Remote nicht zwischenzeitlich geändert wurde
+                  if [ $RETRY_COUNT -ge $((MAX_PUSH_RETRIES - 2)) ]; then
+                    echo "ℹ️ Verwende --force-with-lease für finalen Push-Versuch"
+                    PUSH_OUTPUT=$(git push origin HEAD:main --force-with-lease 2>&1)
+                  else
+                    PUSH_OUTPUT=$(git push origin HEAD:main 2>&1)
+                  fi
                   PUSH_EXIT_CODE=$?
                   
                   if [ $PUSH_EXIT_CODE -eq 0 ]; then
