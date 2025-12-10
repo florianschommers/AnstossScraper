@@ -29,11 +29,6 @@ on:
 permissions:
   contents: write
 
-# WICHTIG: Verhindert, dass mehrere Workflows gleichzeitig laufen
-concurrency:
-  group: scrape-workflows
-  cancel-in-progress: false  # Laufende Workflows nicht abbrechen, sondern warten
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
