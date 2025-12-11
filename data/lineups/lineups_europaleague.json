@@ -1,12 +1,12 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2025-12-11T19:53:02.891690",
+  "lastUpdated": "2025-12-11T20:33:59.215949",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
       "awayTeam": "Rsbelgrad",
-      "dateTime": "2025-12-11T19:28:04.478431Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -105,7 +105,7 @@
     {
       "homeTeam": "Midtjylland",
       "awayTeam": "Genk",
-      "dateTime": "2025-12-11T19:28:04.478469Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -204,7 +204,7 @@
     {
       "homeTeam": "Utrecht",
       "awayTeam": "Nottingham",
-      "dateTime": "2025-12-11T19:28:04.478485Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -303,7 +303,7 @@
     {
       "homeTeam": "Ferencvarosi",
       "awayTeam": "Glrangers",
-      "dateTime": "2025-12-11T19:28:04.478499Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -402,7 +402,7 @@
     {
       "homeTeam": "Nizza",
       "awayTeam": "Braga",
-      "dateTime": "2025-12-11T19:28:04.478513Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -501,7 +501,7 @@
     {
       "homeTeam": "Stuttgart",
       "awayTeam": "Mtelaviv",
-      "dateTime": "2025-12-11T19:28:04.478526Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -600,7 +600,7 @@
     {
       "homeTeam": "Ybbern",
       "awayTeam": "Lille",
-      "dateTime": "2025-12-11T19:28:04.478539Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -699,7 +699,7 @@
     {
       "homeTeam": "Ludogorets",
       "awayTeam": "Paoksaloniki",
-      "dateTime": "2025-12-11T19:28:04.478551Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -798,7 +798,7 @@
     {
       "homeTeam": "Dzagreb",
       "awayTeam": "Realbetis",
-      "dateTime": "2025-12-11T19:28:04.478565Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 6,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -910,10 +910,6 @@
           "position": "Angriff"
         },
         {
-          "name": "Ulrik Mathisen",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Thore Pedersen",
           "position": "Mittelfeld"
         },
@@ -923,6 +919,10 @@
         },
         {
           "name": "Emil Kornvig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ulrik Mathisen",
           "position": "Mittelfeld"
         },
         {
@@ -948,19 +948,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Kerem Akturkoglu",
-          "position": "Angriff"
-        },
-        {
           "name": "Youssef En-Nesyri",
           "position": "Angriff"
         },
         {
-          "name": "Dorgeles Nene",
-          "position": "Mittelfeld"
+          "name": "Kerem Akturkoglu",
+          "position": "Angriff"
         },
         {
           "name": "Talisca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dorgeles Nene",
           "position": "Mittelfeld"
         },
         {
@@ -1195,19 +1195,19 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Anass Zaroury",
-          "position": "Angriff"
-        },
-        {
           "name": "Milos Pantovic",
           "position": "Angriff"
         },
         {
-          "name": "Tete",
-          "position": "Mittelfeld"
+          "name": "Anass Zaroury",
+          "position": "Angriff"
         },
         {
           "name": "Filip Djuricic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tete",
           "position": "Mittelfeld"
         },
         {
@@ -1223,11 +1223,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Sverrir Ingi Ingason",
+          "name": "Erik Palmer-Brown",
           "position": "Abwehr"
         },
         {
-          "name": "Erik Palmer-Brown",
+          "name": "Sverrir Ingi Ingason",
           "position": "Abwehr"
         },
         {
@@ -1249,7 +1249,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Amar Memic",
+          "name": "Denis Visinsky",
           "position": "Mittelfeld"
         },
         {
@@ -1257,15 +1257,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lukas Cerv",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Matej Valenta",
           "position": "Mittelfeld"
         },
         {
-          "name": "Denis Visinsky",
+          "name": "Lukas Cerv",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Merchas Doski",
           "position": "Mittelfeld"
         },
         {
@@ -1277,7 +1277,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Merchas Doski",
+          "name": "Amar Memic",
           "position": "Abwehr"
         },
         {
@@ -1294,16 +1294,12 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Philip Otele",
-          "position": "Angriff"
-        },
-        {
           "name": "Xherdan Shaqiri",
           "position": "Angriff"
         },
         {
-          "name": "Benie Traore",
-          "position": "Mittelfeld"
+          "name": "Philip Otele",
+          "position": "Angriff"
         },
         {
           "name": "Andrej Bacanin",
@@ -1311,6 +1307,10 @@
         },
         {
           "name": "Leo Leroy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benie Traore",
           "position": "Mittelfeld"
         },
         {
@@ -1686,7 +1686,7 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Williot Swedberg",
+          "name": "Bryan Zaragoza",
           "position": "Angriff"
         },
         {
@@ -1694,7 +1694,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Bryan Zaragoza",
+          "name": "Williot Swedberg",
           "position": "Mittelfeld"
         },
         {
