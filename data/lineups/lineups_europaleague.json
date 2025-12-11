@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2025-12-11T17:35:32.502644",
+  "lastUpdated": "2025-12-11T18:05:10.317649",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
@@ -110,11 +110,11 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Junior Brumado",
+          "name": "Aral Simsir",
           "position": "Angriff"
         },
         {
-          "name": "Aral Simsir",
+          "name": "Junior Brumado",
           "position": "Angriff"
         },
         {
@@ -138,15 +138,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ousmane Diao",
-          "position": "Abwehr"
-        },
-        {
           "name": "Mads Bech Sorensen",
           "position": "Abwehr"
         },
         {
           "name": "Han-beom Lee",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Diao",
           "position": "Abwehr"
         },
         {
@@ -221,7 +221,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Dani de Wit",
+          "name": "Alonzo Engwanda",
           "position": "Mittelfeld"
         },
         {
@@ -229,7 +229,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Alonzo Engwanda",
+          "name": "Dani de Wit",
           "position": "Mittelfeld"
         },
         {
@@ -283,11 +283,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Morato",
+          "name": "Murillo",
           "position": "Abwehr"
         },
         {
-          "name": "Murillo",
+          "name": "Morato",
           "position": "Abwehr"
         },
         {
@@ -320,11 +320,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Bence Otvos",
+          "name": "Gabi Kanichowsky",
           "position": "Mittelfeld"
         },
         {
-          "name": "Gabi Kanichowsky",
+          "name": "Bence Otvos",
           "position": "Mittelfeld"
         },
         {
@@ -358,19 +358,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Djeidi Gassama",
+          "name": "Danilo",
           "position": "Angriff"
         },
         {
-          "name": "Jayden Meghoma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Danilo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Raskin",
+          "name": "Djeidi Gassama",
           "position": "Mittelfeld"
         },
         {
@@ -378,15 +370,23 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Nicolas Raskin",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Max Aarons",
           "position": "Mittelfeld"
         },
         {
-          "name": "Nasser Djiga",
-          "position": "Abwehr"
+          "name": "Jayden Meghoma",
+          "position": "Mittelfeld"
         },
         {
           "name": "Emmanuel Fernandez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nasser Djiga",
           "position": "Abwehr"
         },
         {
@@ -453,11 +453,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Pau Victor",
+          "name": "Amine El Ouazzani",
           "position": "Angriff"
         },
         {
-          "name": "Amine El Ouazzani",
+          "name": "Pau Victor",
           "position": "Angriff"
         },
         {
@@ -465,11 +465,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Gorby",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitor Carvalho",
+          "name": "Leonardo Lelo",
           "position": "Mittelfeld"
         },
         {
@@ -477,7 +473,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Leonardo Lelo",
+          "name": "Gorby",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Gomez",
           "position": "Mittelfeld"
         },
         {
@@ -489,7 +489,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Victor Gomez",
+          "name": "Vitor Carvalho",
           "position": "Abwehr"
         },
         {
@@ -552,15 +552,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Kervin Andrade",
-          "position": "Angriff"
-        },
-        {
           "name": "Sayed Abu Farkhi",
           "position": "Angriff"
         },
         {
           "name": "Helio Varela",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ido Shahar",
           "position": "Mittelfeld"
         },
         {
@@ -568,11 +568,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Noam Ben Harush",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ido Shahar",
+          "name": "Kervin Andrade",
           "position": "Mittelfeld"
         },
         {
@@ -581,7 +577,7 @@
         },
         {
           "name": "Heitor",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Mohamed Camara",
@@ -589,6 +585,10 @@
         },
         {
           "name": "Itay Ben Hamo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noam Ben Harush",
           "position": "Abwehr"
         },
         {
@@ -621,11 +621,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Rayan Raveloson",
+          "name": "Sandro Lauper",
           "position": "Mittelfeld"
         },
         {
-          "name": "Sandro Lauper",
+          "name": "Rayan Raveloson",
           "position": "Mittelfeld"
         },
         {
@@ -704,7 +704,7 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Bernard Tekpetey",
+          "name": "Petar Stanic",
           "position": "Angriff"
         },
         {
@@ -720,11 +720,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Petar Stanic",
+          "name": "Filip Kaloc",
           "position": "Mittelfeld"
         },
         {
-          "name": "Filip Kaloc",
+          "name": "Bernard Tekpetey",
           "position": "Mittelfeld"
         },
         {
