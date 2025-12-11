@@ -1,10 +1,9 @@
 name: Scrape and publish data
 
 on:
+  workflow_dispatch:  # manuelles Ausführen
   schedule:
-    # Täglich um 02:00 Uhr UTC (03:00 MEZ / 04:00 MESZ)
-    - cron: '0 2 * * *'
-  workflow_dispatch:  # Manuell auslösbar
+    - cron: '0 2 * * *'  # täglich um 02:00 Uhr UTC (03:00 MEZ / 04:00 MESZ)
 
 permissions:
   contents: write
@@ -12,191 +11,90 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          repository: florianschommers/AnstossScraper
-          ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
           fetch-depth: 0
-      
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
         with:
-          java-version: '17'
           distribution: 'temurin'
-      
-      - name: Compile Java Scraper
+          java-version: '17'
+
+      - name: Compile and run KaderScraper
         run: |
-          echo "=== KaderScraper (bundesliga.com) ==="
           javac *.java
-      
-      - name: Run Scraper
+          java KaderScraper
+
+      - name: Commit and push results
         run: |
-          echo "Starte AktuelleTeamsScraper (aktuelle_teams_automatisch.txt)..."
-          java AktuelleTeamsScraper
-      
-      - name: Commit and Push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -e
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           
-          # Git-Konfiguration
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          # Füge Änderungen hinzu
+          git add *.txt
           
-          # Setze Remote URL mit Token
-          REPO_URL="https://${GITHUB_TOKEN}@github.com/florianschommers/AnstossScraper.git"
-          git remote set-url origin "$REPO_URL"
+          # Prüfe ob es Änderungen gibt
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "ℹ️ Keine Änderungen zum Committen"
+            exit 0
+          fi
           
-          # WICHTIG: IMMER zuerst Pull
-          echo "🔄 Hole neueste Änderungen..."
-          MAX_PULL_RETRIES=10
-          PULL_RETRY=0
-          PULL_SUCCESS=false
+          # Commit
+          git commit -m "Update scraped data" || {
+            echo "⚠️ Commit fehlgeschlagen"
+            exit 0
+          }
           
-          while [ $PULL_RETRY -lt $MAX_PULL_RETRIES ]; do
-            echo "🔄 Pull-Versuch $((PULL_RETRY + 1))/$MAX_PULL_RETRIES..."
+          # Push mit Retry-Logik (verhindert Abbruch bei gleichzeitigen Commits)
+          MAX_RETRIES=10
+          RETRY=0
+          SUCCESS=false
+          
+          while [ $RETRY -lt $MAX_RETRIES ]; do
+            echo "🚀 Push-Versuch $((RETRY + 1))/$MAX_RETRIES..."
             
-            if git fetch origin main 2>&1; then
-              echo "✅ Fetch erfolgreich"
-              
-              LOCAL=$(git rev-parse HEAD)
-              REMOTE=$(git rev-parse origin/main)
-              
-              if [ "$LOCAL" != "$REMOTE" ]; then
-                echo "📥 Remote hat neue Commits..."
-                
-                if git rebase origin/main 2>&1; then
-                  echo "✅ Rebase erfolgreich"
-                  PULL_SUCCESS=true
-                  break
-                elif git merge origin/main --no-edit 2>&1; then
-                  echo "✅ Merge erfolgreich"
-                  PULL_SUCCESS=true
-                  break
-                else
-                  echo "⚠️ Reset auf origin/main..."
+            # Hole neueste Änderungen vor Push
+            git fetch origin main 2>&1
+            
+            # Prüfe ob Remote voraus ist
+            LOCAL=$(git rev-parse HEAD)
+            REMOTE=$(git rev-parse origin/main)
+            BASE=$(git merge-base HEAD origin/main)
+            
+            if [ "$REMOTE" != "$BASE" ]; then
+              echo "📥 Remote hat neue Commits - hole sie..."
+              git pull --rebase origin main 2>&1 || {
+                echo "⚠️ Rebase fehlgeschlagen - versuche Merge..."
+                git rebase --abort 2>&1 || true
+                git pull --no-rebase origin main 2>&1 || {
+                  echo "⚠️ Merge fehlgeschlagen - Reset..."
                   git reset --hard origin/main 2>&1
-                  PULL_SUCCESS=true
-                  break
-                fi
-              else
-                echo "✅ Bereits aktuell"
-                PULL_SUCCESS=true
-                break
-              fi
-            else
-              echo "⚠️ Fetch fehlgeschlagen"
+                  git add *.txt
+                  git commit -m "Update scraped data" 2>&1 || true
+                }
+              }
             fi
             
-            PULL_RETRY=$((PULL_RETRY + 1))
-            if [ $PULL_RETRY -lt $MAX_PULL_RETRIES ]; then
-              sleep $((PULL_RETRY * 2))
+            # Versuche Push
+            if git push origin main 2>&1; then
+              echo "✅ Push erfolgreich!"
+              SUCCESS=true
+              break
+            else
+              echo "⚠️ Push fehlgeschlagen - warte und versuche erneut..."
+              RETRY=$((RETRY + 1))
+              if [ $RETRY -lt $MAX_RETRIES ]; then
+                sleep $((RETRY * 3))
+              fi
             fi
           done
           
-          if [ "$PULL_SUCCESS" = false ]; then
-            echo "❌ Pull fehlgeschlagen"
+          if [ "$SUCCESS" = false ]; then
+            echo "❌ Push fehlgeschlagen nach $MAX_RETRIES Versuchen"
             exit 1
-          fi
-          
-          # Prüfe auf Änderungen
-          echo "🔄 Prüfe auf Änderungen..."
-          git status
-          
-          if ! git diff --quiet || ! git diff --cached --quiet; then
-            echo "📝 Änderungen gefunden..."
-            git add aktuelle_teams_automatisch.txt
-            
-            git commit -m "Update scraped data" || {
-              echo "⚠️ Commit fehlgeschlagen"
-              exit 0
-            }
-            
-            # NOCHMAL Pull vor Push
-            echo "🔄 Nochmal Pull vor Push..."
-            git fetch origin main 2>&1
-            git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
-              echo "⚠️ Reset und neu committen..."
-              git reset --hard origin/main 2>&1
-              git add aktuelle_teams_automatisch.txt
-              git commit -m "Update scraped data" 2>&1
-            }
-            
-            # Push mit Retry
-            echo "🚀 Push..."
-            MAX_PUSH_RETRIES=15
-            PUSH_RETRY=0
-            PUSH_SUCCESS=false
-            
-            while [ $PUSH_RETRY -lt $MAX_PUSH_RETRIES ]; do
-              echo "🚀 Push-Versuch $((PUSH_RETRY + 1))/$MAX_PUSH_RETRIES..."
-              
-              git fetch origin main 2>&1
-              
-              LOCAL=$(git rev-parse HEAD)
-              REMOTE=$(git rev-parse origin/main)
-              BASE=$(git merge-base HEAD origin/main)
-              
-              if [ "$REMOTE" != "$BASE" ]; then
-                echo "⚠️ Remote ist voraus..."
-                git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
-                  echo "🔄 Reset und neu committen..."
-                  git reset --hard origin/main 2>&1
-                  git add aktuelle_teams_automatisch.txt
-                  git commit -m "Update scraped data" 2>&1
-                }
-              fi
-              
-              # Push (letzten 2 Versuche mit --force-with-lease)
-              if [ $PUSH_RETRY -ge $((MAX_PUSH_RETRIES - 2)) ]; then
-                echo "ℹ️ Verwende --force-with-lease"
-                PUSH_OUTPUT=$(git push origin HEAD:main --force-with-lease 2>&1)
-              else
-                PUSH_OUTPUT=$(git push origin HEAD:main 2>&1)
-              fi
-              PUSH_EXIT=$?
-              
-              if [ $PUSH_EXIT -eq 0 ]; then
-                echo "✅ Push erfolgreich!"
-                PUSH_SUCCESS=true
-                break
-              else
-                echo "$PUSH_OUTPUT"
-                
-                if echo "$PUSH_OUTPUT" | grep -q "rejected\|fetch first"; then
-                  echo "⚠️ Push abgelehnt"
-                  PUSH_RETRY=$((PUSH_RETRY + 1))
-                  if [ $PUSH_RETRY -lt $MAX_PUSH_RETRIES ]; then
-                    WAIT=$((PUSH_RETRY * 3))
-                    echo "⏳ Warte ${WAIT}s..."
-                    sleep $WAIT
-                    
-                    git fetch origin main 2>&1
-                    git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
-                      echo "🔄 Reset und neu committen..."
-                      git reset --hard origin/main 2>&1
-                      git add aktuelle_teams_automatisch.txt
-                      git commit -m "Update scraped data" 2>&1
-                    }
-                  fi
-                else
-                  echo "❌ Anderer Fehler"
-                  PUSH_RETRY=$((PUSH_RETRY + 1))
-                  if [ $PUSH_RETRY -lt $MAX_PUSH_RETRIES ]; then
-                    sleep $((PUSH_RETRY * 2))
-                  fi
-                fi
-              fi
-            done
-            
-            if [ "$PUSH_SUCCESS" = false ]; then
-              echo "❌ Push fehlgeschlagen"
-              exit 1
-            fi
-          else
-            echo "ℹ️ Keine Änderungen"
           fi
