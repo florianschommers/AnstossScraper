@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2025-12-11T20:03:27.821155Z",
+  "lastUpdated": "2025-12-11T20:22:36.742417Z",
   "matches": [
     {
       "matchday": 1,
@@ -412,6 +412,105 @@
     },
     {
       "matchday": 6,
+      "homeTeam": "Bergen",
+      "awayTeam": "Fenerbahce",
+      "dateTime": "2025-12-11T20:22:32.519732Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Porto",
+      "awayTeam": "Malmoeff",
+      "dateTime": "2025-12-11T20:22:32.519755Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Lyon",
+      "awayTeam": "Deventer",
+      "dateTime": "2025-12-11T20:22:32.519768Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Panathinaikos",
+      "awayTeam": "Pilsen",
+      "dateTime": "2025-12-11T20:22:32.519781Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Fcbasel",
+      "awayTeam": "Astonvilla",
+      "dateTime": "2025-12-11T20:22:32.519793Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Freiburg",
+      "awayTeam": "Salzburg",
+      "dateTime": "2025-12-11T20:22:32.519803Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Steaua",
+      "awayTeam": "Feyenoord",
+      "dateTime": "2025-12-11T20:22:32.519814Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Cglasgow",
+      "awayTeam": "Asrom",
+      "dateTime": "2025-12-11T20:22:32.519824Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Bologna",
+      "dateTime": "2025-12-11T20:22:32.519834Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0",
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
       "homeTeam": "Sturmgraz",
       "awayTeam": "Rsbelgrad",
       "dateTime": "2025-12-11T19:00:00Z",
@@ -505,105 +604,6 @@
       "dateTime": "2025-12-11T19:00:00Z",
       "score": "1:3",
       "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Bergen",
-      "awayTeam": "Fenerbahce",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Porto",
-      "awayTeam": "Malmoeff",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Lyon",
-      "awayTeam": "Deventer",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Panathinaikos",
-      "awayTeam": "Pilsen",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Fcbasel",
-      "awayTeam": "Astonvilla",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Freiburg",
-      "awayTeam": "Salzburg",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Steaua",
-      "awayTeam": "Feyenoord",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Cglasgow",
-      "awayTeam": "Asrom",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Bologna",
-      "dateTime": "2025-12-11T20:00:00Z",
-      "score": null,
-      "isFinished": false,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
