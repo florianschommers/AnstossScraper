@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2026",
-  "lastUpdated": "2025-12-11T19:43:40.553641Z",
+  "lastUpdated": "2025-12-11T19:52:33.423527Z",
   "matches": [
     {
       "matchday": 1,
@@ -797,32 +797,21 @@
     },
     {
       "matchday": 5,
-      "homeTeam": "Craiova",
-      "awayTeam": "Spartaprag",
-      "dateTime": "2025-12-11T19:43:35.874118Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Bialystok",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-12-11T19:43:35.874170Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
       "homeTeam": "Kfdrita",
       "awayTeam": "Alkmaar",
       "dateTime": "2025-12-11T19:00:00Z",
       "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Craiova",
+      "awayTeam": "Spartaprag",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -845,6 +834,17 @@
       "awayTeam": "Skslovan",
       "dateTime": "2025-12-11T19:00:00Z",
       "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Bialystok",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,

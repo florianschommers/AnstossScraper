@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2025-12-11T19:43:32.502629Z",
+  "lastUpdated": "2025-12-11T19:52:28.650961Z",
   "matches": [
     {
       "matchday": 1,
@@ -414,55 +414,11 @@
       "matchday": 6,
       "homeTeam": "Sturmgraz",
       "awayTeam": "Rsbelgrad",
-      "dateTime": "2025-12-11T19:43:27.160877Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Ferencvarosi",
-      "awayTeam": "Glrangers",
-      "dateTime": "2025-12-11T19:43:27.160925Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Nizza",
-      "awayTeam": "Braga",
-      "dateTime": "2025-12-11T19:43:27.160940Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Ybbern",
-      "awayTeam": "Lille",
-      "dateTime": "2025-12-11T19:43:27.160961Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 6,
-      "homeTeam": "Ludogorets",
-      "awayTeam": "Paoksaloniki",
-      "dateTime": "2025-12-11T19:43:27.160973Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:3",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
       "phase": "gruppenphase"
     },
     {
@@ -489,10 +445,54 @@
     },
     {
       "matchday": 6,
+      "homeTeam": "Ferencvarosi",
+      "awayTeam": "Glrangers",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Nizza",
+      "awayTeam": "Braga",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
       "homeTeam": "Stuttgart",
       "awayTeam": "Mtelaviv",
       "dateTime": "2025-12-11T19:00:00Z",
       "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Ybbern",
+      "awayTeam": "Lille",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Ludogorets",
+      "awayTeam": "Paoksaloniki",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "3:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
