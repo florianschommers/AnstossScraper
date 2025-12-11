@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2026",
-  "lastUpdated": "2025-12-11T21:59:19.121246Z",
+  "lastUpdated": "2025-12-11T22:26:33.078454Z",
   "matches": [
     {
       "matchday": 1,
@@ -797,61 +797,6 @@
     },
     {
       "matchday": 5,
-      "homeTeam": "Rapidwien",
-      "awayTeam": "Omnikosia",
-      "dateTime": "2025-12-11T21:59:15.738674Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Aberdeen",
-      "awayTeam": "Strassburg",
-      "dateTime": "2025-12-11T21:59:15.738697Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Lincolnfc",
-      "awayTeam": "Olomouc",
-      "dateTime": "2025-12-11T21:59:15.738713Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Poznan",
-      "awayTeam": "Mainz",
-      "dateTime": "2025-12-11T21:59:15.738729Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
-      "homeTeam": "Ksrakowczest",
-      "awayTeam": "Mostar",
-      "dateTime": "2025-12-11T21:59:15.738744Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0",
-      "phase": "league-stage"
-    },
-    {
-      "matchday": 5,
       "homeTeam": "Kfdrita",
       "awayTeam": "Alkmaar",
       "dateTime": "2025-12-11T19:00:00Z",
@@ -988,6 +933,61 @@
       "awayTeam": "Lausanne",
       "dateTime": "2025-12-11T19:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Rapidwien",
+      "awayTeam": "Omnikosia",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Aberdeen",
+      "awayTeam": "Strassburg",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Lincolnfc",
+      "awayTeam": "Olomouc",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Poznan",
+      "awayTeam": "Mainz",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "league-stage"
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Ksrakowczest",
+      "awayTeam": "Mostar",
+      "dateTime": "2025-12-11T19:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
