@@ -1,12 +1,12 @@
 {
   "league": "conferenceleague",
   "season": "",
-  "lastUpdated": "2025-12-11T19:32:19.858160",
+  "lastUpdated": "2025-12-11T19:53:45.963299",
   "lineups": [
     {
       "homeTeam": "Kfdrita",
       "awayTeam": "Alkmaar",
-      "dateTime": "2025-12-11T19:01:56.389946Z",
+      "dateTime": "2025-12-11T19:28:09.719538Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -101,7 +101,7 @@
     {
       "homeTeam": "Craiova",
       "awayTeam": "Spartaprag",
-      "dateTime": "2025-12-11T19:01:56.389981Z",
+      "dateTime": "2025-12-11T19:28:09.719577Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -200,7 +200,7 @@
     {
       "homeTeam": "Samsunspor",
       "awayTeam": "Aekathen",
-      "dateTime": "2025-12-11T19:01:56.389999Z",
+      "dateTime": "2025-12-11T19:28:09.719594Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -299,7 +299,7 @@
     {
       "homeTeam": "Tetovo",
       "awayTeam": "Skslovan",
-      "dateTime": "2025-12-11T19:01:56.390016Z",
+      "dateTime": "2025-12-11T19:28:09.719609Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -398,7 +398,7 @@
     {
       "homeTeam": "Bialystok",
       "awayTeam": "Vallecano",
-      "dateTime": "2025-12-11T19:01:56.390035Z",
+      "dateTime": "2025-12-11T19:28:09.719625Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -497,7 +497,7 @@
     {
       "homeTeam": "Kopavogur",
       "awayTeam": "Shamrock",
-      "dateTime": "2025-12-11T19:01:56.390053Z",
+      "dateTime": "2025-12-11T19:28:09.719641Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -596,7 +596,7 @@
     {
       "homeTeam": "Bkhaecken",
       "awayTeam": "Larnaka",
-      "dateTime": "2025-12-11T19:01:56.390072Z",
+      "dateTime": "2025-12-11T19:28:09.719656Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -695,7 +695,7 @@
     {
       "homeTeam": "Acflorenz",
       "awayTeam": "Dynamokiev",
-      "dateTime": "2025-12-11T19:01:56.390087Z",
+      "dateTime": "2025-12-11T19:28:09.719669Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -794,7 +794,7 @@
     {
       "homeTeam": "Fcnoah",
       "awayTeam": "Lwarschau",
-      "dateTime": "2025-12-11T19:01:56.390104Z",
+      "dateTime": "2025-12-11T19:28:09.719683Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -1678,6 +1678,105 @@
         },
         {
           "name": "Daniel Batz",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Ksrakowczest",
+      "awayTeam": "Mostar",
+      "dateTime": "2025-12-11T20:00:00Z",
+      "matchday": 5,
+      "phase": "league-stage",
+      "homeLineup": [
+        {
+          "name": "Tomasz Pienko",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jonatan Braut Brunes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lamine Diaby-Fadiga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adriano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oskar Repka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Karol Struski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Ameyaw",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stratos Svarnas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bogdan Racovitan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fran Tudor",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oliwier Zych",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Nemanja Bilbija",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jakov Pranjic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Neven Djurasek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leo Mikic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilija Masic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Savic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petar Mamic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Duje Dujmovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Slobodan Jakovljevic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kerim Memija",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Goran Karacic",
           "position": "Torwart"
         }
       ]
