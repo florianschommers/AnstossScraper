@@ -1,12 +1,12 @@
 {
   "league": "conferenceleague",
   "season": "",
-  "lastUpdated": "2025-12-11T19:53:45.963299",
+  "lastUpdated": "2025-12-11T20:34:50.216178",
   "lineups": [
     {
       "homeTeam": "Kfdrita",
       "awayTeam": "Alkmaar",
-      "dateTime": "2025-12-11T19:28:09.719538Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -23,11 +23,11 @@
           "position": ""
         },
         {
-          "name": "Albert Dabiqaj",
+          "name": "Vesel Limaj",
           "position": ""
         },
         {
-          "name": "Vesel Limaj",
+          "name": "Albert Dabiqaj",
           "position": ""
         },
         {
@@ -101,7 +101,7 @@
     {
       "homeTeam": "Craiova",
       "awayTeam": "Spartaprag",
-      "dateTime": "2025-12-11T19:28:09.719577Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -200,7 +200,7 @@
     {
       "homeTeam": "Samsunspor",
       "awayTeam": "Aekathen",
-      "dateTime": "2025-12-11T19:28:09.719594Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -299,7 +299,7 @@
     {
       "homeTeam": "Tetovo",
       "awayTeam": "Skslovan",
-      "dateTime": "2025-12-11T19:28:09.719609Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -398,7 +398,7 @@
     {
       "homeTeam": "Bialystok",
       "awayTeam": "Vallecano",
-      "dateTime": "2025-12-11T19:28:09.719625Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -497,7 +497,7 @@
     {
       "homeTeam": "Kopavogur",
       "awayTeam": "Shamrock",
-      "dateTime": "2025-12-11T19:28:09.719641Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -556,6 +556,10 @@
           "position": "Angriff"
         },
         {
+          "name": "Victor Ozhianvuna",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Cory O&#039;Sullivan",
           "position": "Mittelfeld"
         },
@@ -565,10 +569,6 @@
         },
         {
           "name": "Matthew Healy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Ozhianvuna",
           "position": "Mittelfeld"
         },
         {
@@ -596,7 +596,7 @@
     {
       "homeTeam": "Bkhaecken",
       "awayTeam": "Larnaka",
-      "dateTime": "2025-12-11T19:28:09.719656Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -695,7 +695,7 @@
     {
       "homeTeam": "Acflorenz",
       "awayTeam": "Dynamokiev",
-      "dateTime": "2025-12-11T19:28:09.719669Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -794,7 +794,7 @@
     {
       "homeTeam": "Fcnoah",
       "awayTeam": "Lwarschau",
-      "dateTime": "2025-12-11T19:28:09.719683Z",
+      "dateTime": "2025-12-11T19:00:00Z",
       "matchday": 5,
       "phase": "league-stage",
       "homeLineup": [
@@ -1096,19 +1096,19 @@
       "phase": "league-stage",
       "homeLineup": [
         {
-          "name": "Toni Fruk",
-          "position": "Angriff"
-        },
-        {
           "name": "Daniel Adu-Adjei",
           "position": "Angriff"
         },
         {
-          "name": "Amer Gojak",
+          "name": "Samuele Vignato",
+          "position": "Angriff"
+        },
+        {
+          "name": "Toni Fruk",
           "position": "Mittelfeld"
         },
         {
-          "name": "Dejan Petrovic",
+          "name": "Amer Gojak",
           "position": "Mittelfeld"
         },
         {
@@ -1116,7 +1116,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Samuele Vignato",
+          "name": "Dejan Petrovic",
           "position": "Mittelfeld"
         },
         {
@@ -1146,11 +1146,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Nikita Iosifov",
+          "name": "Danijel Sturm",
           "position": "Angriff"
         },
         {
-          "name": "Danijel Sturm",
+          "name": "Ivica Vidovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikita Iosifov",
           "position": "Mittelfeld"
         },
         {
@@ -1158,27 +1162,23 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ivica Vidovic",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Papa Daniel",
           "position": "Mittelfeld"
         },
         {
-          "name": "Artemijus Tutyskinas",
+          "name": "Juanjo Nieto",
           "position": "Mittelfeld"
         },
         {
-          "name": "Juanjo Nieto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lukasz Bejger",
+          "name": "Artemijus Tutyskinas",
           "position": "Abwehr"
         },
         {
           "name": "Damjan Vuklisevic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukasz Bejger",
           "position": "Abwehr"
         },
         {
@@ -1298,7 +1298,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Louis Schaub",
+          "name": "Petter Nosa Dahl",
           "position": "Angriff"
         },
         {
@@ -1306,7 +1306,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Petter Nosa Dahl",
+          "name": "Louis Schaub",
           "position": "Mittelfeld"
         },
         {
@@ -1318,7 +1318,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Furkan Demir",
+          "name": "Amin-Elias Groller",
           "position": "Mittelfeld"
         },
         {
@@ -1330,7 +1330,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Amin-Elias Groller",
+          "name": "Furkan Demir",
           "position": "Abwehr"
         },
         {
@@ -1439,15 +1439,15 @@
       ],
       "awayLineup": [
         {
+          "name": "Martial Godo",
+          "position": "Angriff"
+        },
+        {
           "name": "Kendry Paez",
           "position": "Angriff"
         },
         {
           "name": "Samuel Amo-Ameyaw",
-          "position": "Angriff"
-        },
-        {
-          "name": "Martial Godo",
           "position": "Mittelfeld"
         },
         {
@@ -1455,11 +1455,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Rabby Nzingoula",
+          "name": "Mathis Amougou",
           "position": "Mittelfeld"
         },
         {
-          "name": "Mathis Amougou",
+          "name": "Rabby Nzingoula",
           "position": "Mittelfeld"
         },
         {
@@ -1467,11 +1467,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Andrew Omobamidele",
+          "name": "Lucas Hogsberg",
           "position": "Abwehr"
         },
         {
-          "name": "Lucas Hogsberg",
+          "name": "Andrew Omobamidele",
           "position": "Abwehr"
         },
         {
@@ -1637,12 +1637,20 @@
       ],
       "awayLineup": [
         {
+          "name": "Nelson Weiper",
+          "position": "Angriff"
+        },
+        {
           "name": "Benedict Hollerbach",
           "position": "Angriff"
         },
         {
-          "name": "Nelson Weiper",
-          "position": "Angriff"
+          "name": "Jae-sung Lee",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "Mittelfeld"
         },
         {
           "name": "Paul Nebel",
@@ -1653,20 +1661,8 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Kaishu Sano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jae-sung Lee",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Silvan Widmer",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Dominik Kohr",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Andreas Hanche-Olsen",
@@ -1674,6 +1670,10 @@
         },
         {
           "name": "Danny da Costa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Silvan Widmer",
           "position": "Abwehr"
         },
         {
