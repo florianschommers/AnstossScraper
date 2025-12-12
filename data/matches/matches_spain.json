@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-12T21:52:14.178858Z",
+  "lastUpdated": "2025-12-12T22:10:29.469930Z",
   "matches": [
     {
       "matchday": 5,
@@ -1107,17 +1107,7 @@
       "matchday": 16,
       "homeTeam": "Realsociedad",
       "awayTeam": "Girona",
-      "dateTime": "2025-12-12T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Valencia",
-      "dateTime": "2025-12-13T14:00:00Z",
+      "dateTime": "2025-12-12T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1200,6 +1190,16 @@
       "dateTime": "2025-12-15T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Girona",
+      "dateTime": "2025-12-12T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
