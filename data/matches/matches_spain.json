@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2025-12-12T20:20:37.699742Z",
+=======
+  "lastUpdated": "2025-12-12T20:20:47.593242Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 5,
@@ -1198,6 +1202,16 @@
       "homeTeam": "Vallecano",
       "awayTeam": "Realbetis",
       "dateTime": "2025-12-15T21:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Valencia",
+      "awayTeam": "Mallorca",
+      "dateTime": "2025-12-19T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
