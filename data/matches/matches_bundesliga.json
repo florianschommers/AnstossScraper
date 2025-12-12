@@ -10993,9 +10993,28 @@
       "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T16:53:46.767",
+    "lastUpdateDateTime": "2025-12-12T20:44:18.647",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121001,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121002,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
