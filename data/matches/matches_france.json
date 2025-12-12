@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-12-12T21:43:00.711340Z",
+  "lastUpdated": "2025-12-12T21:52:46.776711Z",
   "matches": [
     {
       "matchday": 5,
@@ -997,17 +997,7 @@
       "matchday": 16,
       "homeTeam": "Angers",
       "awayTeam": "Nantes",
-      "dateTime": "2025-12-12T00:00:00Z",
-      "score": "3:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1"
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Rennes",
-      "awayTeam": "Brest",
-      "dateTime": "2025-12-13T17:00:00Z",
+      "dateTime": "2025-12-12T17:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1080,6 +1070,16 @@
       "dateTime": "2025-12-14T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Angers",
+      "awayTeam": "Nantes",
+      "dateTime": "2025-12-12T15:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     }
