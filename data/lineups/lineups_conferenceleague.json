@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "",
-  "lastUpdated": "2025-12-12T19:09:33.441631",
+  "lastUpdated": "2025-12-12T19:29:04.623856",
   "lineups": [
     {
       "homeTeam": "Lausanne",
@@ -205,12 +205,16 @@
       "phase": "league-stage",
       "homeLineup": [
         {
+          "name": "Daniel Vasulin",
+          "position": "Angriff"
+        },
+        {
           "name": "Jachym Sip",
           "position": "Angriff"
         },
         {
-          "name": "Daniel Vasulin",
-          "position": "Angriff"
+          "name": "Stepan Langer",
+          "position": "Mittelfeld"
         },
         {
           "name": "Artur Dolznikov",
@@ -222,10 +226,6 @@
         },
         {
           "name": "Radim Breite",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stepan Langer",
           "position": "Mittelfeld"
         },
         {
@@ -572,8 +572,12 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Kameron Ledwidge",
+          "name": "Milan Mbeng",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Kameron Ledwidge",
+          "position": "Abwehr"
         },
         {
           "name": "Paddy Barrett",
@@ -581,10 +585,6 @@
         },
         {
           "name": "Mark Coyle",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Milan Mbeng",
           "position": "Abwehr"
         },
         {
@@ -807,6 +807,10 @@
           "position": "Angriff"
         },
         {
+          "name": "Rabby Nzingoula",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Samuel Amo-Ameyaw",
           "position": "Mittelfeld"
         },
@@ -816,10 +820,6 @@
         },
         {
           "name": "Mathis Amougou",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rabby Nzingoula",
           "position": "Mittelfeld"
         },
         {
@@ -1340,15 +1340,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Otto Ruoppi",
-          "position": "Angriff"
-        },
-        {
           "name": "Piotr Parzyszek",
           "position": "Angriff"
         },
         {
           "name": "Mohamed Toure",
+          "position": "Angriff"
+        },
+        {
+          "name": "Otto Ruoppi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jerry Voutilainen",
           "position": "Mittelfeld"
         },
         {
@@ -1357,10 +1361,6 @@
         },
         {
           "name": "Doni Arifi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jerry Voutilainen",
           "position": "Mittelfeld"
         },
         {
