@@ -11484,7 +11484,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T18:38:19.033",
+    "lastUpdateDateTime": "2025-12-13T20:10:47.77",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11499,14 +11499,39 @@
       {
         "resultID": 121068,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135692,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 66,
+        "goalGetterID": 22941,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135694,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 72,
+        "goalGetterID": 18670,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
