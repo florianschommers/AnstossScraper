@@ -1,12 +1,111 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-13T17:57:07.436301",
+  "lastUpdated": "2025-12-13T18:39:42.057966",
   "lineups": [
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Fulham",
+      "dateTime": "2025-12-13T00:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jacob Bruun Larsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Armando Broja",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lyle Foster",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florentino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Cullen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chimuanya Ugochukwu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Esteve",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hjalmar Ekdal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Martin Dubravka",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Raul Jimenez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emile Smith Rowe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonee Robinson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joachim Andersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernd Leno",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
-      "dateTime": "2025-12-13T18:30:00Z",
+      "dateTime": "2025-12-13T21:00:00Z",
       "matchday": 16,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Jordan Pickford",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Wolverhampton",
-      "dateTime": "2025-12-13T21:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gabriel Martinelli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Viktor Gyokeres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Noni Madueke",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikel Merino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Zubimendi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Odegaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Myles Anthony Lewis-Skelly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piero Hincapie",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Christian Norgaard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ben White",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Raya",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jorgen Strand Larsen",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jean-Ricner Bellegarde",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jhon Arias",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Moller Wolfe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ladislav Krejci",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andre",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ki-Jana Hoever",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emmanuel Agbadou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yerson Mosquera",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Johnstone",
           "position": "Torwart"
         }
       ]
