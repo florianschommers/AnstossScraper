@@ -1,107 +1,8 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-13T22:30:57.675343",
+  "lastUpdated": "2025-12-13T23:00:25.205266",
   "lineups": [
-    {
-      "homeTeam": "Getafe",
-      "awayTeam": "Espanyol",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Mario Martin",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adrian Liso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Sancris",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mauro Wilney Arambarri Rosa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djene",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Iglesias",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Diego Rico",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Domingos Duarte",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Abdel Abqar",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kiko Femenia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Soria",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Kike Garcia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Roberto Fernandez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pere Milla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Edu Exposito",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Urko Gonzalez de Zarate",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jofre Carreras",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Romero",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leandro Cabrera",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Fernando Calero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Omar El Hilali",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Iori",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Atlmadrid",
       "awayTeam": "Valencia",
@@ -890,6 +791,105 @@
         },
         {
           "name": "Sergio Herrera",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Getafe",
+      "awayTeam": "Espanyol",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mario Martin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adrian Liso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Sancris",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mauro Wilney Arambarri Rosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djene",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Rico",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domingos Duarte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdel Abqar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kiko Femenia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kike Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jofre Carreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
           "position": "Torwart"
         }
       ]
