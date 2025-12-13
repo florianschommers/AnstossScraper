@@ -1,107 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-12-13T22:31:46.513019",
+  "lastUpdated": "2025-12-13T23:01:21.739859",
   "lineups": [
-    {
-      "homeTeam": "Parisfc",
-      "awayTeam": "Toulouse",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jonathan Ikone",
-          "position": "Angriff"
-        },
-        {
-          "name": "Moses Simon",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adama Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vincent Marchetti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Maxime Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilan Kebbal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tuomas Ollila",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Otavio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Moustapha Mbow",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hamari Traore",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Trapp",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Emersonn",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yann Gboho",
-          "position": "Angriff"
-        },
-        {
-          "name": "Santiago Hidalgo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dayann Methalie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Vossah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cristian Casseres Jr.",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djibril Sidibe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rasmus Nicolaisen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Charlie Cresswell",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mark McKenzie",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guillaume Restes",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Rennes",
       "awayTeam": "Brest",
@@ -791,6 +692,105 @@
         },
         {
           "name": "Matvey Safonov",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Parisfc",
+      "awayTeam": "Toulouse",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jonathan Ikone",
+          "position": "Angriff"
+        },
+        {
+          "name": "Moses Simon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adama Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Marchetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tuomas Ollila",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Otavio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moustapha Mbow",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hamari Traore",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Emersonn",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yann Gboho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Santiago Hidalgo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dayann Methalie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Vossah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristian Casseres Jr.",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sidibe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillaume Restes",
           "position": "Torwart"
         }
       ]
