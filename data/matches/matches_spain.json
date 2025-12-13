@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-13T20:19:12.837755Z",
+  "lastUpdated": "2025-12-13T20:27:09.072799Z",
   "matches": [
     {
       "matchday": 5,
@@ -1105,19 +1105,19 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Valencia",
-      "dateTime": "2025-12-13T21:00:00Z",
-      "score": null,
+      "homeTeam": "Getafe",
+      "awayTeam": "Espanyol",
+      "dateTime": "2025-12-13T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 16,
-      "homeTeam": "Realsociedad",
-      "awayTeam": "Girona",
-      "dateTime": "2025-12-12T14:00:00Z",
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Valencia",
+      "dateTime": "2025-12-13T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1238,6 +1238,16 @@
       "homeTeam": "Osasuna",
       "awayTeam": "Alaves",
       "dateTime": "2025-12-20T18:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-12-20T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
