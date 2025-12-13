@@ -1,12 +1,12 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-13T16:33:40.843054",
+  "lastUpdated": "2025-12-13T17:03:07.267871",
   "lineups": [
     {
       "homeTeam": "Turin",
       "awayTeam": "Cremonese",
-      "dateTime": "2025-12-13T00:00:00Z",
+      "dateTime": "2025-12-13T18:00:00Z",
       "matchday": 15,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Emil Audero",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Parma",
-      "awayTeam": "Laziorom",
-      "dateTime": "2025-12-13T18:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Mateo Pellegrino",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adrian Benedyczak",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gaetano Oristanio",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mandela Keita",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nahuel Estevez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrian Bernabe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emanuele Valeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lautaro Valenti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Enrico Delprato",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sascha Britschgi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Edoardo Corvi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Mattia Zaccagni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Taty Castellanos",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Cancellieri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toma Basic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Danilo Cataldi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Guendouzi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Pellegrini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessio Romagnoli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Patric",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adam Marusic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ivan Provedel",
           "position": "Torwart"
         }
       ]
@@ -890,6 +791,105 @@
         },
         {
           "name": "Jean Butez",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Turin",
+      "awayTeam": "Cremonese",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Che Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Duvan Zapata",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nikola Vlasic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentino Lazaro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gvidas Gineitis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kristjan Asllani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcus Pedersen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saul Coco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillermo Maripan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ardian Ismajli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alberto Paleari",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jamie Vardy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Bonazzoli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giuseppe Pezzella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jari Vandeputte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Warren Bondo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Payero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Barbieri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Ceccherini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Baschirotto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Filippo Terracciano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emil Audero",
           "position": "Torwart"
         }
       ]
