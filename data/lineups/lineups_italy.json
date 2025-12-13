@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-13T21:52:58.646333",
+  "lastUpdated": "2025-12-13T22:31:22.119644",
   "lineups": [
-    {
-      "homeTeam": "Bergamo",
-      "awayTeam": "Cagliari",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ademola Lookman",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Zappacosta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sead Kolasinac",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odilon Kossounou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Sebastiano Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gennaro Borrelli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adam Obert",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michael Folorunsho",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Deiola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Adopo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marco Palestra",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Rodriguez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastiano Luperto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Gabriele Zappa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Elia Caprile",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Turin",
       "awayTeam": "Cremonese",
@@ -890,6 +791,105 @@
         },
         {
           "name": "Ivan Provedel",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bergamo",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lorenzo Bernasconi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sead Kolasinac",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odilon Kossounou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gennaro Borrelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Folorunsho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Deiola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriele Zappa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
           "position": "Torwart"
         }
       ]
