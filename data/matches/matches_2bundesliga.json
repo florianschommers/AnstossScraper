@@ -12591,10 +12591,66 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T17:09:36.34",
+    "lastUpdateDateTime": "2025-12-13T13:50:43.927",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 121035,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121036,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 135638,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 43,
+        "goalGetterID": 23226,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135639,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 46,
+        "goalGetterID": 23713,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 135640,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 16984,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1742,
       "locationCity": "Magdeburg",
@@ -12630,9 +12686,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T17:09:43.913",
+    "lastUpdateDateTime": "2025-12-13T13:22:22.9",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121033,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121034,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": {
       "locationID": 74,
@@ -12669,9 +12744,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T17:10:03.683",
+    "lastUpdateDateTime": "2025-12-13T13:45:40.613",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121031,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121032,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": {
       "locationID": 437,
