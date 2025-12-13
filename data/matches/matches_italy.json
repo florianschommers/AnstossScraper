@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-13T16:13:08.970947Z",
+  "lastUpdated": "2025-12-13T16:33:21.252552Z",
   "matches": [
     {
       "matchday": 5,
@@ -1007,16 +1007,6 @@
       "matchday": 15,
       "homeTeam": "Turin",
       "awayTeam": "Cremonese",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Parma",
-      "awayTeam": "Laziorom",
       "dateTime": "2025-12-13T18:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1090,6 +1080,16 @@
       "dateTime": "2025-12-15T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Turin",
+      "awayTeam": "Cremonese",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
