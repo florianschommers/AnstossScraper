@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-13T21:46:54.395017Z",
+  "lastUpdated": "2025-12-13T21:56:27.386701Z",
   "matches": [
     {
       "matchday": 5,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Cagliari",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Turin",
       "awayTeam": "Cremonese",
       "dateTime": "2025-12-13T12:30:00Z",
@@ -1089,6 +1079,16 @@
       "awayTeam": "Laziorom",
       "dateTime": "2025-12-13T15:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
