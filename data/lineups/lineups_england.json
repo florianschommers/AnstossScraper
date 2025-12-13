@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-13T22:30:32.273489",
+  "lastUpdated": "2025-12-13T22:59:56.286172",
   "lineups": [
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Wolverhampton",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gabriel Martinelli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Viktor Gyokeres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bukayo Saka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Declan Rice",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Zubimendi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eberechi Eze",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piero Hincapie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "William Saliba",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jurrien Timber",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ben White",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Raya",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Hee-chan Hwang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jorgen Strand Larsen",
-          "position": "Angriff"
-        },
-        {
-          "name": "David Moller Wolfe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ladislav Krejci",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andre",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joao Gomes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matt Doherty",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emmanuel Agbadou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yerson Mosquera",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Johnstone",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
@@ -981,6 +882,105 @@
         },
         {
           "name": "Bernd Leno",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolverhampton",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gabriel Martinelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Viktor Gyokeres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piero Hincapie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Saliba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ben White",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hee-chan Hwang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jorgen Strand Larsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Moller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ladislav Krejci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matt Doherty",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emmanuel Agbadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerson Mosquera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Johnstone",
           "position": "Torwart"
         }
       ]
