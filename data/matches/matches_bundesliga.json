@@ -11138,7 +11138,7 @@
   {
     "matchID": 77378,
     "matchDateTime": "2025-12-13T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11163,7 +11163,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T16:19:44.547",
+    "lastUpdateDateTime": "2025-12-13T16:55:18.133",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11266,7 +11266,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T16:19:32.643",
+    "lastUpdateDateTime": "2025-12-13T16:55:01.09",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -11281,8 +11281,8 @@
       {
         "resultID": 121050,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11295,6 +11295,30 @@
         "scoreTeam2": 0,
         "matchMinute": 35,
         "goalGetterID": 22915,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135671,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 53,
+        "goalGetterID": 22915,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135673,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 64,
+        "goalGetterID": 18446,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
