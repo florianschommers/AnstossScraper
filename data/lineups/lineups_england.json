@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-13T19:53:52.716662",
+  "lastUpdated": "2025-12-13T20:31:14.456702",
   "lineups": [
-    {
-      "homeTeam": "Burnley",
-      "awayTeam": "Fulham",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jacob Bruun Larsen",
-          "position": "Angriff"
-        },
-        {
-          "name": "Armando Broja",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lyle Foster",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Florentino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Josh Cullen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Chimuanya Ugochukwu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Quilindschy Hartman",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Maxime Esteve",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hjalmar Ekdal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Axel Tuanzebe",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Martin Dubravka",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Raul Jimenez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Samuel Chukwueze",
-          "position": "Angriff"
-        },
-        {
-          "name": "Emile Smith Rowe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Harry Wilson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Iwobi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sander Berge",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonee Robinson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Calvin Bassey",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joachim Andersen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kenny Tete",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bernd Leno",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
@@ -981,6 +882,105 @@
         },
         {
           "name": "Bart Verbruggen",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Fulham",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jacob Bruun Larsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Armando Broja",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lyle Foster",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florentino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Cullen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chimuanya Ugochukwu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Esteve",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hjalmar Ekdal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Martin Dubravka",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Raul Jimenez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emile Smith Rowe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonee Robinson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joachim Andersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernd Leno",
           "position": "Torwart"
         }
       ]
