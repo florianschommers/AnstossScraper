@@ -11163,14 +11163,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T15:52:40.123",
+    "lastUpdateDateTime": "2025-12-13T16:19:44.547",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121047,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 1,
+        "pointsTeam2": 3,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -11179,7 +11179,7 @@
         "resultID": 121048,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -11207,6 +11207,30 @@
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135664,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 12,
+        "goalGetterID": 22976,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135669,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 34,
+        "goalGetterID": 19035,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
       }
@@ -11242,13 +11266,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T15:32:38.227",
+    "lastUpdateDateTime": "2025-12-13T16:19:32.643",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121049,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -11257,14 +11281,27 @@
       {
         "resultID": 121050,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135670,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 35,
+        "goalGetterID": 22915,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -11296,13 +11333,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T15:38:38.14",
+    "lastUpdateDateTime": "2025-12-13T16:17:50.103",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121051,
         "resultName": "Halbzeit",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -11311,7 +11348,7 @@
       {
         "resultID": 121052,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -11325,6 +11362,18 @@
         "scoreTeam2": 0,
         "matchMinute": 8,
         "goalGetterID": 18355,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135665,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 31,
+        "goalGetterID": 17377,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
