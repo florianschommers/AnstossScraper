@@ -12591,7 +12591,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T13:50:43.927",
+    "lastUpdateDateTime": "2025-12-13T14:53:15.793",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12606,8 +12606,8 @@
       {
         "resultID": 121036,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -12644,6 +12644,42 @@
         "scoreTeam2": 1,
         "matchMinute": 49,
         "goalGetterID": 16984,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 135643,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 68,
+        "goalGetterID": 23226,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135646,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 84,
+        "goalGetterID": 24297,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135648,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": 92,
+        "goalGetterID": 8545,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -12686,7 +12722,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-13T13:22:22.9",
+    "lastUpdateDateTime": "2025-12-13T14:52:51.397",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12702,13 +12738,62 @@
         "resultID": 121034,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 4,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135641,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 65,
+        "goalGetterID": 23930,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135644,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 71,
+        "goalGetterID": 23930,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135645,
+        "scoreTeam1": 0,
+        "scoreTeam2": 3,
+        "matchMinute": 78,
+        "goalGetterID": 19470,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135647,
+        "scoreTeam1": 0,
+        "scoreTeam2": 4,
+        "matchMinute": 87,
+        "goalGetterID": 24356,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 74,
       "locationCity": "Karlsruhe",
