@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-13T19:27:45.020683Z",
+  "lastUpdated": "2025-12-13T19:36:38.795554Z",
   "matches": [
     {
       "matchday": 5,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Osasuna",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Atlmadrid",
       "awayTeam": "Valencia",
       "dateTime": "2025-12-13T21:00:00Z",
@@ -1189,6 +1179,16 @@
       "awayTeam": "Elche",
       "dateTime": "2025-12-13T15:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Osasuna",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "score": "2:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
