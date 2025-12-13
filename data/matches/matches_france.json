@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-12-13T19:58:29.962329Z",
+  "lastUpdated": "2025-12-13T20:19:48.621706Z",
   "matches": [
     {
       "matchday": 5,
@@ -995,16 +995,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Fcmetz",
-      "awayTeam": "Psg",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "score": "2:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:3"
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Rennes",
       "awayTeam": "Brest",
       "dateTime": "2025-12-13T21:05:00Z",
@@ -1069,6 +1059,16 @@
       "awayTeam": "Brest",
       "dateTime": "2025-12-13T15:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Fcmetz",
+      "awayTeam": "Psg",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "score": "2:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
