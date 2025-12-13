@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-13T16:58:53.077921Z",
+  "lastUpdated": "2025-12-13T17:22:44.116395Z",
   "matches": [
     {
       "matchday": 5,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Liverpool",
-      "awayTeam": "Brighton & Hove Albion",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
       "dateTime": "2025-12-13T18:30:00Z",
@@ -1197,6 +1187,16 @@
       "matchday": 16,
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton & Hove Albion",
       "dateTime": "2025-12-13T15:00:00Z",
       "score": "2:0",
       "isFinished": true,
