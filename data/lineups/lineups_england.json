@@ -1,12 +1,111 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-13T20:31:14.456702",
+  "lastUpdated": "2025-12-13T20:56:10.026436",
   "lineups": [
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Wolverhampton",
+      "dateTime": "2025-12-13T00:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gabriel Martinelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Viktor Gyokeres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piero Hincapie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Saliba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ben White",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hee-chan Hwang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jorgen Strand Larsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Moller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ladislav Krejci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matt Doherty",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emmanuel Agbadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerson Mosquera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Johnstone",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
-      "dateTime": "2025-12-13T21:00:00Z",
+      "dateTime": "2025-12-13T15:00:00Z",
       "matchday": 16,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Jordan Pickford",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Crystalpalace",
-      "awayTeam": "Manchester City",
-      "dateTime": "2025-12-14T15:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Eddie Nketiah",
-          "position": "Angriff"
-        },
-        {
-          "name": "Christantus Uche",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yeremy Pino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Borna Sosa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daichi Kamada",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adam Wharton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Justin Devenny",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Guehi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxence Lacroix",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Chris Richards",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Walter Benitez",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jeremy Doku",
-          "position": "Angriff"
-        },
-        {
-          "name": "Erling Haaland",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rayan Cherki",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Phil Foden",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nico Gonzalez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bernardo Silva",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nico O&#039;Reilly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Josko Gvardiol",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ruben Dias",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matheus Nunes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Gianluigi Donnarumma",
           "position": "Torwart"
         }
       ]
