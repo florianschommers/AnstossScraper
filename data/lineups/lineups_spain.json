@@ -1,12 +1,12 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-13T15:29:47.742718",
+  "lastUpdated": "2025-12-13T15:56:54.324971",
   "lineups": [
     {
       "homeTeam": "Atlmadrid",
       "awayTeam": "Valencia",
-      "dateTime": "2025-12-13T00:00:00Z",
+      "dateTime": "2025-12-13T16:15:00Z",
       "matchday": 16,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Julen Agirrezabala",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Mallorca",
-      "awayTeam": "Elche",
-      "dateTime": "2025-12-13T16:15:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Vedat Muriqi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jan Virgili",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sergi Darder",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mateo Joseph",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Morlanes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Omar Mascarell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Mojica",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Raillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Martin Valjent",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pablo Maffeo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leo Roman",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "German Valera",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rafa Mir",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yago Santiago",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martim Neto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aleix Febas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Aguado",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alvaro Nunez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedro Bigas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Affengruber",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Victor Chust",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inaki Pena",
           "position": "Torwart"
         }
       ]
@@ -890,6 +791,105 @@
         },
         {
           "name": "Alvaro Valles",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Valencia",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Julian Alvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Pubill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Diego Lopez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Duro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jesus Vazquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andre Almeida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Filip Ugrinic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thierry Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Copete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eray Comert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dimitri Foulquier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julen Agirrezabala",
           "position": "Torwart"
         }
       ]
