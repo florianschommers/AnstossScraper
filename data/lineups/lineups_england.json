@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-13T17:30:41.945127",
+  "lastUpdated": "2025-12-13T17:57:07.436301",
   "lineups": [
-    {
-      "homeTeam": "Liverpool",
-      "awayTeam": "Brighton & Hove Albion",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Hugo Ekitike",
-          "position": "Angriff"
-        },
-        {
-          "name": "Florian Wirtz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alexis Mac Allister",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dominik Szoboszlai",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Curtis Jones",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Gravenberch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Milos Kerkez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Virgil van Dijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ibrahima Konate",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joe Gomez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alisson",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Georginio Rutter",
-          "position": "Angriff"
-        },
-        {
-          "name": "Diego Gomez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Brajan Gruda",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yankuba Minteh",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jack Hinshelwood",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Baleba",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ferdi Kadioglu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Dunk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jan Paul van Hecke",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mats Wieffer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bart Verbruggen",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Chelsea",
       "awayTeam": "Everton",
@@ -981,6 +882,105 @@
         },
         {
           "name": "Jordan Pickford",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Brighton & Hove Albion",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hugo Ekitike",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Curtis Jones",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Gomez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Georginio Rutter",
+          "position": "Angriff"
+        },
+        {
+          "name": "Diego Gomez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Brajan Gruda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yankuba Minteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jack Hinshelwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Baleba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ferdi Kadioglu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Dunk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Wieffer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bart Verbruggen",
           "position": "Torwart"
         }
       ]
