@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-13T17:22:44.116395Z",
+  "lastUpdated": "2025-12-13T17:36:35.769857Z",
   "matches": [
     {
       "matchday": 5,
@@ -1248,6 +1248,16 @@
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Sunderland",
       "dateTime": "2025-12-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Liverpool",
+      "dateTime": "2025-12-20T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
