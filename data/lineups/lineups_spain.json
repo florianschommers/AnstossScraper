@@ -1,107 +1,8 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-13T19:54:19.637866",
+  "lastUpdated": "2025-12-13T20:31:38.369885",
   "lineups": [
-    {
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Osasuna",
-      "dateTime": "2025-12-13T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ferran Torres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Rashford",
-          "position": "Angriff"
-        },
-        {
-          "name": "Raphinha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Balde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gerard Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Cubarsi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jules Kounde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joan Garcia",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ante Budimir",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aimar Oroz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Moncayola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucas Torro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Munoz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Abel Bretones",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jorge Herrando",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Catena",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Enzo Boyomo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inigo Arguibide",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sergio Herrera",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Atlmadrid",
       "awayTeam": "Valencia",
@@ -890,6 +791,105 @@
         },
         {
           "name": "Inaki Pena",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Osasuna",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marcus Rashford",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raphinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jules Kounde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aimar Oroz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Torro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abel Bretones",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorge Herrando",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enzo Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Inigo Arguibide",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Herrera",
           "position": "Torwart"
         }
       ]
