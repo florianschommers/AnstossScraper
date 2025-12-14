@@ -1,8 +1,107 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-14T20:32:05.538131",
+  "lastUpdated": "2025-12-14T20:57:31.731674",
   "lineups": [
+    {
+      "homeTeam": "Alaves",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-12-14T00:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lucas Boye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Angriff"
+        },
+        {
+          "name": "Denis Suarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibanez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calebe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Parada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Pacheco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrygo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Valdepenas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Rudiger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Sevilla",
       "awayTeam": "Oviedo",
@@ -98,105 +197,6 @@
         },
         {
           "name": "Aaron Escandell",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Alaves",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2025-12-14T21:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Lucas Boye",
-          "position": "Angriff"
-        },
-        {
-          "name": "Abde Rebbach",
-          "position": "Angriff"
-        },
-        {
-          "name": "Denis Suarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Ibanez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Calebe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Blanco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Parada",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Pacheco",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Tenaglia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jonny Otto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Antonio Sivera",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vinicius Junior",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kylian Mbappe",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rodrygo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jude Bellingham",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aurelien Tchouameni",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arda Guler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Valdepenas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Rudiger",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Raul Asencio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Valverde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thibaut Courtois",
           "position": "Torwart"
         }
       ]
