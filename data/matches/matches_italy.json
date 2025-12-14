@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-14T21:31:24.887692Z",
+  "lastUpdated": "2025-12-14T21:43:04.091369Z",
   "matches": [
     {
       "matchday": 5,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Bologna",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Acmailand",
       "awayTeam": "Sassuolo",
       "dateTime": "2025-12-14T20:45:00Z",
@@ -1059,6 +1049,16 @@
       "awayTeam": "Intermailand",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Bologna",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
