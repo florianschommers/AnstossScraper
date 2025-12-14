@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-12-14T21:58:23.895120",
+  "lastUpdated": "2025-12-14T22:39:28.713318",
   "lineups": [
     {
       "homeTeam": "Lyon",
@@ -9805,105 +9805,6 @@
       ]
     },
     {
-      "homeTeam": "Olmarseille",
-      "awayTeam": "Monaco",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Pierre-Emerick Aubameyang",
-          "position": "Angriff"
-        },
-        {
-          "name": "Timothy Weah",
-          "position": "Angriff"
-        },
-        {
-          "name": "Arthur Vermeeren",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mason Greenwood",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pierre-Emile Højbjerg",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Geoffrey Kondogbia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emerson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nayef Aguerd",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Benjamin Pavard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Murillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Geronimo Rulli",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Folarin Balogun",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aleksandr Golovin",
-          "position": "Angriff"
-        },
-        {
-          "name": "Takumi Minamino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Maghnes Akliouche",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Denis Zakaria",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lamine Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Caio Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mohammed Salisu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thilo Kehrer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanderson",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lukas Hradecky",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Lyon",
       "awayTeam": "Aclehavre",
       "dateTime": "2025-12-14T15:00:00Z",
@@ -10295,6 +10196,105 @@
         },
         {
           "name": "Yehvann Diouf",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Monaco",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Pierre-Emerick Aubameyang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arthur Vermeeren",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emerson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benjamin Pavard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Folarin Balogun",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Takumi Minamino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Caio Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Salisu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thilo Kehrer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Hradecky",
           "position": "Torwart"
         }
       ]
