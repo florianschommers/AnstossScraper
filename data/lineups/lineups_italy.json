@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2025-12-14T19:32:10.404937",
+  "lastUpdated": "2025-12-14T19:56:56.504007",
   "lineups": [
-    {
-      "homeTeam": "Cfcgenua",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "matchday": 15,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Lorenzo Colombo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Vitinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aaron Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikael Egill Ellertsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ruslan Malinovskyi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Morten Frendrup",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Brooke Norton-Cuffy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Vasquez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastian Otoa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Marcandalli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicola Leali",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Pio Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Augusto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Petar Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Bisseck",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Acmailand",
       "awayTeam": "Sassuolo",
@@ -593,6 +494,105 @@
         },
         {
           "name": "Vanja Milinkovic-Savic",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 15,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lorenzo Colombo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aaron Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikael Egill Ellertsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruslan Malinovskyi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morten Frendrup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brooke Norton-Cuffy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Vasquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Otoa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Marcandalli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicola Leali",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pio Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Augusto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petar Sucic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piotr Zielinski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Bisseck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
           "position": "Torwart"
         }
       ]
