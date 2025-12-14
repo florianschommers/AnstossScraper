@@ -1,12 +1,111 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-14T16:35:34.255981",
+  "lastUpdated": "2025-12-14T17:01:18.018232",
   "lineups": [
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Leedsunited",
+      "dateTime": "2025-12-14T00:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Igor Thiago",
+          "position": "Angriff"
+        },
+        {
+          "name": "Keane Lewis-Potter",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mathias Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dango Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaly Janelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Henderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Hickey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sepp van den Berg",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Collins",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Kayode",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Caoimhin Kelleher",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Noah Okafor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anton Stach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pascal Struijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jaka Bijol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Rodon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Perri",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Crystalpalace",
       "awayTeam": "Manchester City",
-      "dateTime": "2025-12-14T17:30:00Z",
+      "dateTime": "2025-12-14T21:00:00Z",
       "matchday": 16,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Gianluigi Donnarumma",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Chelsea",
-      "awayTeam": "Everton",
-      "dateTime": "2025-12-13T21:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Joao Pedro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alejandro Garnacho",
-          "position": "Angriff"
-        },
-        {
-          "name": "Cole Palmer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedro Neto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Enzo Fernandez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Reece James",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Cucurella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Trevoh Chalobah",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Wesley Fofana",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malo Gusto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robert Sanchez",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Thierno Barry",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jack Grealish",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kiernan Dewsbury-Hall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Iliman Ndiaye",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "James Garner",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Idrissa Gueye",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaliy Mykolenko",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michael Keane",
-          "position": "Abwehr"
-        },
-        {
-          "name": "James Tarkowski",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jake O&#039;Brien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jordan Pickford",
           "position": "Torwart"
         }
       ]
