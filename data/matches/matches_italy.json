@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-14T18:57:32.098367Z",
+  "lastUpdated": "2025-12-14T19:11:12.758816Z",
   "matches": [
     {
       "matchday": 5,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Cfcgenua",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Acmailand",
       "awayTeam": "Sassuolo",
       "dateTime": "2025-12-14T20:45:00Z",
@@ -1059,6 +1049,16 @@
       "awayTeam": "Sscneapel",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
