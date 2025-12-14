@@ -12945,7 +12945,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/150px-Fortuna_D%C3%BCsseldorf.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-14T13:39:56.79",
+    "lastUpdateDateTime": "2025-12-14T15:08:17.047",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12960,14 +12960,27 @@
       {
         "resultID": 121078,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135714,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 79,
+        "goalGetterID": 23298,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1002,
       "locationCity": "Elversberg",
