@@ -1,7 +1,11 @@
 {
   "league": "italy",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2025-12-14T13:43:24.882960Z",
+=======
+  "lastUpdated": "2025-12-14T13:43:51.874450Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 5,
@@ -1007,16 +1011,6 @@
       "matchday": 15,
       "homeTeam": "Acmailand",
       "awayTeam": "Sassuolo",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Acflorenz",
-      "awayTeam": "Hverona",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1060,6 +1054,16 @@
       "dateTime": "2025-12-12T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Acmailand",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
