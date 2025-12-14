@@ -1,11 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2025-12-14T16:55:02.950852Z",
-=======
-  "lastUpdated": "2025-12-14T16:55:24.645735Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2025-12-14T17:14:22.955971Z",
   "matches": [
     {
       "matchday": 5,
@@ -1109,16 +1105,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Sevilla",
       "awayTeam": "Oviedo",
       "dateTime": "2025-12-14T18:30:00Z",
@@ -1153,6 +1139,16 @@
       "awayTeam": "Oviedo",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "score": "2:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
