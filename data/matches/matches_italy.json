@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-14T15:55:03.151837Z",
+  "lastUpdated": "2025-12-14T16:12:57.572988Z",
   "matches": [
     {
       "matchday": 5,
@@ -1005,26 +1005,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Acflorenz",
-      "awayTeam": "Hverona",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 15,
-      "homeTeam": "Udinese",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Acmailand",
       "awayTeam": "Sassuolo",
       "dateTime": "2025-12-14T18:00:00Z",
@@ -1059,6 +1039,26 @@
       "awayTeam": "Sassuolo",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Acflorenz",
+      "awayTeam": "Hverona",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Udinese",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
