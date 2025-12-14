@@ -11538,7 +11538,7 @@
   {
     "matchID": 77376,
     "matchDateTime": "2025-12-14T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11563,8 +11563,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/560px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-14T16:27:17.057",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-14T17:26:24.447",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121107,
@@ -11578,7 +11578,7 @@
       {
         "resultID": 121108,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -11592,6 +11592,18 @@
         "scoreTeam2": 1,
         "matchMinute": 31,
         "goalGetterID": 18717,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135748,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 75,
+        "goalGetterID": 14393,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -11630,9 +11642,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T16:55:30.623",
+    "lastUpdateDateTime": "2025-12-14T17:31:47.703",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121131,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121132,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
