@@ -13003,7 +13003,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-14T13:39:58.007",
+    "lastUpdateDateTime": "2025-12-14T14:48:52.623",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13018,14 +13018,27 @@
       {
         "resultID": 121080,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135711,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 56,
+        "goalGetterID": 23539,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 948,
       "locationCity": "Darmstadt",
@@ -13061,7 +13074,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-14T13:39:59.2",
+    "lastUpdateDateTime": "2025-12-14T14:43:35.697",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13076,14 +13089,27 @@
       {
         "resultID": 121082,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 135709,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 52,
+        "goalGetterID": 24304,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 33,
       "locationCity": "Gelsenkirchen",
