@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2025-12-14T19:06:06.463425",
+  "lastUpdated": "2025-12-14T19:31:13.516742",
   "lineups": [
-    {
-      "homeTeam": "Brentford",
-      "awayTeam": "Leedsunited",
-      "dateTime": "2025-12-14T00:00:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Igor Thiago",
-          "position": "Angriff"
-        },
-        {
-          "name": "Keane Lewis-Potter",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mathias Jensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dango Ouattara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaly Janelt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jordan Henderson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aaron Hickey",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sepp van den Berg",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nathan Collins",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Kayode",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Caoimhin Kelleher",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Noah Okafor",
-          "position": "Angriff"
-        },
-        {
-          "name": "Dominic Calvert-Lewin",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gabriel Gudmundsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Anton Stach",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ethan Ampadu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ao Tanaka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jayden Bogle",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pascal Struijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jaka Bijol",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joe Rodon",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Perri",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Crystalpalace",
       "awayTeam": "Manchester City",
@@ -593,6 +494,105 @@
         },
         {
           "name": "Marco Bizot",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Leedsunited",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Igor Thiago",
+          "position": "Angriff"
+        },
+        {
+          "name": "Keane Lewis-Potter",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mathias Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dango Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaly Janelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Henderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Hickey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sepp van den Berg",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Collins",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Kayode",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Caoimhin Kelleher",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Noah Okafor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anton Stach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pascal Struijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jaka Bijol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Rodon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Perri",
           "position": "Torwart"
         }
       ]
