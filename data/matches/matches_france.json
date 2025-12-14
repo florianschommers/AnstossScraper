@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-12-14T16:19:26.734967Z",
+  "lastUpdated": "2025-12-14T16:43:54.746803Z",
   "matches": [
     {
       "matchday": 5,
@@ -995,38 +995,38 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Lyon",
-      "awayTeam": "Aclehavre",
-      "dateTime": "2025-12-14T17:15:00Z",
-      "score": null,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lille",
+      "dateTime": "2025-12-14T00:00:00Z",
+      "score": "0:1",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:1"
     },
     {
       "matchday": 16,
       "homeTeam": "Strassburg",
       "awayTeam": "Lorient",
-      "dateTime": "2025-12-14T17:15:00Z",
-      "score": null,
+      "dateTime": "2025-12-14T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 16,
       "homeTeam": "Lens",
       "awayTeam": "Nizza",
-      "dateTime": "2025-12-14T17:15:00Z",
-      "score": null,
+      "dateTime": "2025-12-14T00:00:00Z",
+      "score": "1:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1:0"
     },
     {
       "matchday": 16,
-      "homeTeam": "Olmarseille",
-      "awayTeam": "Monaco",
+      "homeTeam": "Lyon",
+      "awayTeam": "Aclehavre",
       "dateTime": "2025-12-14T20:45:00Z",
       "score": null,
       "isFinished": false,
