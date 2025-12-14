@@ -11617,7 +11617,7 @@
   {
     "matchID": 77373,
     "matchDateTime": "2025-12-14T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11642,8 +11642,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-14T19:19:39.213",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-14T19:28:54.707",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121131,
@@ -11705,10 +11705,10 @@
         "goalID": 135767,
         "scoreTeam1": 2,
         "scoreTeam2": 2,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 87,
+        "goalGetterID": 18898,
         "goalGetterName": "",
-        "isPenalty": false,
+        "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
@@ -11745,9 +11745,28 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T16:55:50.757",
+    "lastUpdateDateTime": "2025-12-14T19:37:01.42",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121137,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121138,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
