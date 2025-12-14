@@ -1,457 +1,15 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2025-12-14T22:57:26.166624",
+  "lastUpdated": "2025-12-14T23:35:42.359233",
   "lineups": [
     {
-      "homeTeam": "Valencia",
-      "awayTeam": "Mallorca",
-      "dateTime": "2025-12-19T21:00:00Z",
-      "matchday": 17,
+      "homeTeam": "Sevilla",
+      "awayTeam": "Oviedo",
+      "dateTime": "2025-12-14T18:30:00Z",
+      "matchday": 16,
       "phase": "",
       "homeLineup": [
-        {
-          "name": "Diego Lopez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hugo Duro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jesus Vazquez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andre Almeida",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pepelu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Filip Ugrinic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Thierry Correia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jose Copete",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Eray Comert",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dimitri Foulquier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Julen Agirrezabala",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vedat Muriqi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jan Virgili",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sergi Darder",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mateo Joseph",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Omar Mascarell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Morlanes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Mojica",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Raillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Martin Valjent",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pablo Maffeo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leo Roman",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Oviedo",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2025-12-20T14:00:00Z",
-      "matchday": 17,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Salomon Rondon",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ilyas Chaira",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alberto Reina",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haissem Hassan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Colombatto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leander Dendoncker",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rahim Alhassane",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Carmo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Costas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Ahijado",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Escandell",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ferran Jutgla",
-          "position": "Angriff"
-        },
-        {
-          "name": "Iago Aspas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Williot Swedberg",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oscar Mingueza",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Miguel Roman",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hugo Sotelo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Javi Rueda",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marcos Alonso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carl Starfelt",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manu Fernandez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ionut Radu",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Levante",
-      "awayTeam": "Realsociedad",
-      "dateTime": "2025-12-20T16:15:00Z",
-      "matchday": 17,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ivan Romero",
-          "position": "Angriff"
-        },
-        {
-          "name": "Karl Etta Eyong",
-          "position": "Angriff"
-        },
-        {
-          "name": "Roger Brugue",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kevin Arriaga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Unai Vencedor",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Alvarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Sanchez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alan Matturro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jorge Cabello",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremy Toljan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mathew Ryan",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Goncalo Guedes",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ander Barrenetxea",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Soler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Brais Mendez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Takefusa Kubo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Gorrotxategi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergio Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Igor Zubeldia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Aramburu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alex Remiro",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Osasuna",
-      "awayTeam": "Alaves",
-      "dateTime": "2025-12-20T18:30:00Z",
-      "matchday": 17,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ante Budimir",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aimar Oroz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Moncayola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucas Torro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Munoz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Abel Bretones",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jorge Herrando",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Catena",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Enzo Boyomo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inigo Arguibide",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sergio Herrera",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Lucas Boye",
-          "position": "Angriff"
-        },
-        {
-          "name": "Abde Rebbach",
-          "position": "Angriff"
-        },
-        {
-          "name": "Denis Suarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Ibanez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Calebe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Blanco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Parada",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Pacheco",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Tenaglia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jonny Otto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Antonio Sivera",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Sevilla",
-      "dateTime": "2025-12-20T21:00:00Z",
-      "matchday": 17,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Vinicius Junior",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kylian Mbappe",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jude Bellingham",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aurelien Tchouameni",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arda Guler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rodrygo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Victor Valdepenas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Rudiger",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Raul Asencio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Valverde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thibaut Courtois",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
         {
           "name": "Alexis Sanchez",
           "position": "Angriff"
@@ -496,15 +54,503 @@
           "name": "Odysseas Vlachodimos",
           "position": "Torwart"
         }
+      ],
+      "awayLineup": [
+        {
+          "name": "Salomon Rondon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ilyas Chaira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alberto Reina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haissem Hassan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Colombatto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leander Dendoncker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rahim Alhassane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Carmo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Costas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Ahijado",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Escandell",
+          "position": "Torwart"
+        }
       ]
     },
     {
-      "homeTeam": "Girona",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2025-12-21T14:00:00Z",
-      "matchday": 17,
+      "homeTeam": "Alaves",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-12-14T21:00:00Z",
+      "matchday": 16,
       "phase": "",
       "homeLineup": [
+        {
+          "name": "Lucas Boye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Angriff"
+        },
+        {
+          "name": "Denis Suarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibanez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calebe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Parada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Pacheco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrygo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Valdepenas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Rudiger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sevilla",
+      "awayTeam": "Oviedo",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alexis Sanchez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Akor Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Batista Mendy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucien Agoume",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andres Castrin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Gudelj",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Cardoso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Angel Carmona",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Salomon Rondon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ilyas Chaira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alberto Reina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haissem Hassan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Colombatto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leander Dendoncker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rahim Alhassane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Carmo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Costas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Ahijado",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Escandell",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ferran Jutgla",
+          "position": "Angriff"
+        },
+        {
+          "name": "Iago Aspas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Williot Swedberg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Roman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Sotelo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Rueda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manu Fernandez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gorka Guruzeta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Williams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oihan Sancet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jesus Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Simon",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Alaves",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lucas Boye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Angriff"
+        },
+        {
+          "name": "Denis Suarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibanez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calebe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Parada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Pacheco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrygo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Valdepenas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Rudiger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Girona",
+      "dateTime": "2025-12-12T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Goncalo Guedes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brais Mendez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Zubeldia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Aramburu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Remiro",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
         {
           "name": "Vladyslav Vanat",
           "position": "Angriff"
@@ -549,8 +595,15 @@
           "name": "Paulo Gazzaniga",
           "position": "Torwart"
         }
-      ],
-      "awayLineup": [
+      ]
+    },
+    {
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Valencia",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
         {
           "name": "Julian Alvarez",
           "position": "Angriff"
@@ -595,114 +648,107 @@
           "name": "Jan Oblak",
           "position": "Torwart"
         }
+      ],
+      "awayLineup": [
+        {
+          "name": "Diego Lopez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Duro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jesus Vazquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andre Almeida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Filip Ugrinic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thierry Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Copete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eray Comert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dimitri Foulquier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julen Agirrezabala",
+          "position": "Torwart"
+        }
       ]
     },
     {
-      "homeTeam": "Villarreal",
-      "awayTeam": "Fcbarcelona",
-      "dateTime": "2025-12-21T16:15:00Z",
-      "matchday": 17,
+      "homeTeam": "Mallorca",
+      "awayTeam": "Elche",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
       "phase": "",
       "homeLineup": [
         {
-          "name": "Georges Mikautadze",
+          "name": "Vedat Muriqi",
           "position": "Angriff"
         },
         {
-          "name": "Nicolas Pepe",
+          "name": "Jan Virgili",
           "position": "Angriff"
         },
         {
-          "name": "Alberto Moleiro",
+          "name": "Sergi Darder",
           "position": "Mittelfeld"
         },
         {
-          "name": "Pape Gueye",
+          "name": "Mateo Joseph",
           "position": "Mittelfeld"
         },
         {
-          "name": "Santi Comesana",
+          "name": "Omar Mascarell",
           "position": "Mittelfeld"
         },
         {
-          "name": "Tajon Buchanan",
+          "name": "Manu Morlanes",
           "position": "Mittelfeld"
         },
         {
-          "name": "Alfonso Pedraza",
+          "name": "Johan Mojica",
           "position": "Mittelfeld"
         },
         {
-          "name": "Renato Veiga",
+          "name": "Antonio Raillo",
           "position": "Abwehr"
         },
         {
-          "name": "Rafa Marin",
+          "name": "Martin Valjent",
           "position": "Abwehr"
         },
         {
-          "name": "Pau Navarro",
+          "name": "Pablo Maffeo",
           "position": "Abwehr"
         },
         {
-          "name": "Luiz Junior",
+          "name": "Leo Roman",
           "position": "Torwart"
         }
       ],
       "awayLineup": [
-        {
-          "name": "Ferran Torres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Rashford",
-          "position": "Angriff"
-        },
-        {
-          "name": "Raphinha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Balde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gerard Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Cubarsi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jules Kounde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joan Garcia",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Elche",
-      "awayTeam": "Vallecano",
-      "dateTime": "2025-12-21T18:30:00Z",
-      "matchday": 17,
-      "phase": "",
-      "homeLineup": [
         {
           "name": "Rafa Mir",
           "position": "Angriff"
@@ -747,107 +793,114 @@
           "name": "Inaki Pena",
           "position": "Torwart"
         }
+      ]
+    },
+    {
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Osasuna",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marcus Rashford",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raphinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jules Kounde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        }
       ],
       "awayLineup": [
         {
-          "name": "Alvaro Garcia",
+          "name": "Ante Budimir",
           "position": "Angriff"
         },
         {
-          "name": "Sergio Camello",
+          "name": "Aimar Oroz",
           "position": "Angriff"
         },
         {
-          "name": "Andrei Ratiu",
+          "name": "Moncayola",
           "position": "Mittelfeld"
         },
         {
-          "name": "Isi Palazon",
+          "name": "Lucas Torro",
           "position": "Mittelfeld"
         },
         {
-          "name": "Pathe Ciss",
+          "name": "Victor Munoz",
           "position": "Mittelfeld"
         },
         {
-          "name": "Unai Lopez",
+          "name": "Abel Bretones",
           "position": "Mittelfeld"
         },
         {
-          "name": "Pep Chavarria",
+          "name": "Jorge Herrando",
           "position": "Mittelfeld"
         },
         {
-          "name": "Luiz Felipe",
+          "name": "Catena",
           "position": "Abwehr"
         },
         {
-          "name": "Florian Lejeune",
+          "name": "Enzo Boyomo",
           "position": "Abwehr"
         },
         {
-          "name": "Ivan Balliu",
+          "name": "Inigo Arguibide",
           "position": "Abwehr"
         },
         {
-          "name": "Augusto Batalla",
+          "name": "Sergio Herrera",
           "position": "Torwart"
         }
       ]
     },
     {
-      "homeTeam": "Realbetis",
-      "awayTeam": "Getafe",
-      "dateTime": "2025-12-21T21:00:00Z",
-      "matchday": 17,
+      "homeTeam": "Getafe",
+      "awayTeam": "Espanyol",
+      "dateTime": "2025-12-13T15:00:00Z",
+      "matchday": 16,
       "phase": "",
       "homeLineup": [
-        {
-          "name": "Cedric Bakambu",
-          "position": "Angriff"
-        },
-        {
-          "name": "Abde Ezzalzouli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rodrigo Riquelme",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antony",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergi Altimira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nelson Deossa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Valentin Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Natan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Diego Llorente",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Angel Ortiz",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alvaro Valles",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
         {
           "name": "Mario Martin",
           "position": "Angriff"
@@ -890,6 +943,52 @@
         },
         {
           "name": "David Soria",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kike Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jofre Carreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
           "position": "Torwart"
         }
       ]
