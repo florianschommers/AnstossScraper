@@ -1,12 +1,12 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2025-12-14T15:58:02.031251",
+  "lastUpdated": "2025-12-14T16:36:56.190640",
   "lineups": [
     {
       "homeTeam": "Lyon",
       "awayTeam": "Aclehavre",
-      "dateTime": "2025-12-14T00:00:00Z",
+      "dateTime": "2025-12-14T17:15:00Z",
       "matchday": 16,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Mory Diaw",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Auxerre",
-      "awayTeam": "Lille",
-      "dateTime": "2025-12-14T17:15:00Z",
-      "matchday": 16,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Josue Casimir",
-          "position": "Angriff"
-        },
-        {
-          "name": "Danny Namaso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lassine Sinayoko",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kevin Danois",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oussama El Azzouzi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rudy Matondo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fredrik Oppegard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Clement Akpa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sinaly Diomande",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lamine Sy",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Donovan Leon",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Olivier Giroud",
-          "position": "Angriff"
-        },
-        {
-          "name": "Osame Sahraoui",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hakon Arnar Haraldsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ethan Mbappe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nabil Bentaleb",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benjamin Andre",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Romain Perraud",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aissa Mandi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nathan Ngoy",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thomas Meunier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Berke Ozer",
           "position": "Torwart"
         }
       ]
@@ -308,11 +209,11 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Wesley Said",
+          "name": "Odsonne Edouard",
           "position": "Angriff"
         },
         {
-          "name": "Odsonne Edouard",
+          "name": "Wesley Said",
           "position": "Angriff"
         },
         {
@@ -362,11 +263,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Isak Jansson",
+          "name": "Morgan Sanson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Morgan Sanson",
+          "name": "Isak Jansson",
           "position": "Mittelfeld"
         },
         {
@@ -378,15 +279,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Melvin Bard",
+          "name": "Jonathan Clauss",
           "position": "Mittelfeld"
         },
         {
-          "name": "Kojo Peprah Oppong",
+          "name": "Melvin Bard",
           "position": "Abwehr"
         },
         {
-          "name": "Jonathan Clauss",
+          "name": "Kojo Peprah Oppong",
           "position": "Abwehr"
         },
         {
@@ -494,6 +395,105 @@
         },
         {
           "name": "Lukas Hradecky",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lyon",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2025-12-14T15:00:00Z",
+      "matchday": 16,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Afonso Moreira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martin Satriano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pavel Sulc",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyler Morton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khalis Merah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moussa Niakhate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Clinton Mata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hans Hateboer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Greif",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Issa Soumare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ally Samatta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Younes Namli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassine Kechta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rassoul Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanis Zouaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gautier Lloris",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Loic Nego",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mory Diaw",
           "position": "Torwart"
         }
       ]
