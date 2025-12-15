@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-15T23:16:24.886606Z",
+  "lastUpdated": "2025-12-15T23:34:50.630403Z",
   "matches": [
     {
       "matchday": 5,
@@ -1005,16 +1005,6 @@
     },
     {
       "matchday": 15,
-      "homeTeam": "Asrom",
-      "awayTeam": "Como",
-      "dateTime": "2025-12-15T15:00:00Z",
-      "score": "1:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 15,
       "homeTeam": "Lecce",
       "awayTeam": "Pisa",
       "dateTime": "2025-12-12T15:00:00Z",
@@ -1099,6 +1089,16 @@
       "awayTeam": "Juventusturin",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Asrom",
+      "awayTeam": "Como",
+      "dateTime": "2025-12-15T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

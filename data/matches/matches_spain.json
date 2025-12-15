@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-15T23:16:05.178231Z",
+  "lastUpdated": "2025-12-15T23:34:30.128191Z",
   "matches": [
     {
       "matchday": 5,
@@ -1105,21 +1105,11 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Vallecano",
-      "awayTeam": "Realbetis",
-      "dateTime": "2025-12-15T18:30:00Z",
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Girona",
+      "dateTime": "2025-12-12T18:30:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Vallecano",
-      "awayTeam": "Realbetis",
-      "dateTime": "2025-12-15T15:00:00Z",
-      "score": "0:0",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1199,6 +1189,16 @@
       "awayTeam": "Realmadrid",
       "dateTime": "2025-12-14T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Vallecano",
+      "awayTeam": "Realbetis",
+      "dateTime": "2025-12-15T15:00:00Z",
+      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
