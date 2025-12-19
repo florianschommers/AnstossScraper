@@ -13158,14 +13158,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-19T18:35:30.11",
+    "lastUpdateDateTime": "2025-12-19T19:08:19.747",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121182,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -13174,7 +13174,7 @@
         "resultID": 121183,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13185,8 +13185,20 @@
         "goalID": 135912,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 4,
+        "goalGetterID": 18296,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135931,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 37,
+        "goalGetterID": 23291,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
