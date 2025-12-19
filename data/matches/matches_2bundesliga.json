@@ -13133,7 +13133,7 @@
   {
     "matchID": 78089,
     "matchDateTime": "2025-12-19T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13158,8 +13158,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-19T20:22:42.763",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-19T20:33:00.41",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121182,
@@ -13240,7 +13240,7 @@
   {
     "matchID": 78093,
     "matchDateTime": "2025-12-19T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13265,8 +13265,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-19T20:10:33.323",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-19T20:32:41.953",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121184,
@@ -13281,7 +13281,7 @@
         "resultID": 121185,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13298,6 +13298,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 135953,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 95,
+        "goalGetterID": 14517,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
