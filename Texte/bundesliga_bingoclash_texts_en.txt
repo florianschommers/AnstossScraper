@@ -1,0 +1,147 @@
+{
+  "ohne_spieler": {
+    "normal": [
+      "Goal from corner",
+      "Goal from free kick",
+      "Goal from penalty",
+      "Goal from counter-attack",
+      "Goal from cross",
+      "Goal from header",
+      "Goal from volley",
+      "Goal from long shot",
+      "Goal from solo action",
+      "Goal from combination",
+      "Corner kick",
+      "Free kick",
+      "Penalty",
+      "Offside",
+      "Ball out",
+      "Yellow card",
+      "Red card",
+      "Injury",
+      "Substitution",
+      "Stoppage time",
+      "\"That was close!\"",
+      "\"What a game!\"",
+      "\"Unbelievable!\"",
+      "\"That has to be a goal!\"",
+      "\"How could he miss that?\"",
+      "\"Best chance of the game!\"",
+      "\"Referee makes wrong decision\"",
+      "\"VAR is being used\"",
+      "\"Game is interrupted\"",
+      "Own goal",
+      "Double strike",
+      "Hat-trick"
+    ],
+    "ex": [
+      "Cup cliché",
+      "Time-wasting",
+      "Short goal kick",
+      "No goal in first 15 min.",
+      "Counter-attack with numerical advantage"
+    ],
+    "unendlich": [
+      "Running gag is repeated",
+      "Endless discussion about VAR",
+      "Same phrase for the 5th time",
+      "Commentator repeats himself",
+      "Endless loop of tactics",
+      "Possession mentioned again and again",
+      "Constant coach discussion",
+      "Infinite replay analyses"
+    ]
+  },
+  "mit_spieler": {
+    "normal": {
+      "torwart": [
+        "{SPIELER} saves penalty",
+        "{SPIELER} makes a mistake"
+      ],
+      "defensiv": [
+        "{SPIELER} makes a tackle",
+        "{SPIELER} gets a yellow card",
+        "{SPIELER} commits a foul"
+      ],
+      "mittelfeld": [
+        "{SPIELER} scores a goal",
+        "{SPIELER} provides an assist",
+        "{SPIELER} makes a misplaced pass",
+        "{SPIELER} has a chance"
+      ],
+      "offensiv": [
+        "{SPIELER} scores a goal",
+        "{SPIELER} shoots wide",
+        "{SPIELER} has a chance"
+      ]
+    },
+    "ex": {
+      "torwart": [
+        "{SPIELER} makes a safe save"
+      ],
+      "defensiv": [
+        "{SPIELER} plays a through ball"
+      ],
+      "mittelfeld": [
+        "{SPIELER} shoots"
+      ],
+      "offensiv": [
+        "{SPIELER} celebrates excessively"
+      ]
+    },
+    "unendlich": {
+      "torwart": [
+        "{SPIELER} dribbles in own penalty area"
+      ],
+      "defensiv": [
+        "{SPIELER} gets a red card",
+        "{SPIELER} is substituted"
+      ],
+      "mittelfeld": [
+        "{SPIELER} gets a yellow card",
+        "{SPIELER} is substituted"
+      ],
+      "offensiv": [
+        "{SPIELER} is substituted",
+        "{SPIELER} gets injured"
+      ]
+    }
+  },
+  "heimmannschaft": {
+    "normal": [
+      "{MANNSCHAFT} leads",
+      "{MANNSCHAFT} has more possession",
+      "{MANNSCHAFT} settles in",
+      "{MANNSCHAFT} increases pressure",
+      "{MANNSCHAFT} controls the game",
+      "{MANNSCHAFT} dominates"
+    ],
+    "ex": [
+      "{MANNSCHAFT} plays for time",
+      "{MANNSCHAFT} takes a short goal kick"
+    ],
+    "unendlich": [
+      "{MANNSCHAFT} is mentioned again",
+      "Constant praise for {MANNSCHAFT}"
+    ]
+  },
+  "auswärtsmannschaft": {
+    "normal": [
+      "{MANNSCHAFT} leads",
+      "{MANNSCHAFT} has more possession",
+      "{MANNSCHAFT} settles in",
+      "{MANNSCHAFT} increases pressure",
+      "{MANNSCHAFT} controls the game",
+      "{MANNSCHAFT} dominates"
+    ],
+    "ex": [
+      "{MANNSCHAFT} plays for time",
+      "{MANNSCHAFT} takes a corner"
+    ],
+    "unendlich": [
+      "{MANNSCHAFT} is mentioned again",
+      "Constant praise for {MANNSCHAFT}"
+    ]
+  }
+}
+
