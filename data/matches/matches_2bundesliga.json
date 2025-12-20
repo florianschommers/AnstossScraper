@@ -13348,7 +13348,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T14:09:06.4",
+    "lastUpdateDateTime": "2025-12-20T14:43:51.78",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13363,7 +13363,7 @@
       {
         "resultID": 121221,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13386,6 +13386,18 @@
       {
         "goalID": 135992,
         "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136002,
+        "scoreTeam1": 2,
         "scoreTeam2": 1,
         "matchMinute": null,
         "goalGetterID": 0,
@@ -13431,7 +13443,7 @@
       "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T14:23:36.433",
+    "lastUpdateDateTime": "2025-12-20T14:44:01.713",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13447,7 +13459,7 @@
         "resultID": 121223,
         "resultName": "Endergebnis",
         "pointsTeam1": 2,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13470,6 +13482,18 @@
         "goalID": 135998,
         "scoreTeam1": 2,
         "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136003,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
         "matchMinute": null,
         "goalGetterID": 0,
         "goalGetterName": "",
