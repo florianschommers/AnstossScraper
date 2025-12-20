@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-20T22:00:48.437500Z",
+  "lastUpdated": "2025-12-20T22:26:50.740109Z",
   "matches": [
     {
       "matchday": 5,
@@ -1205,26 +1205,6 @@
     },
     {
       "matchday": 17,
-      "homeTeam": "Leedsunited",
-      "awayTeam": "Crystalpalace",
-      "dateTime": "2025-12-20T00:00:00Z",
-      "score": "3:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Everton",
-      "awayTeam": "Arsenal",
-      "dateTime": "2025-12-20T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 17,
       "homeTeam": "Newcastle",
       "awayTeam": "Chelsea",
       "dateTime": "2025-12-20T17:30:00Z",
@@ -1299,6 +1279,26 @@
       "awayTeam": "Liverpool",
       "dateTime": "2025-12-20T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Leedsunited",
+      "awayTeam": "Crystalpalace",
+      "dateTime": "2025-12-20T15:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Everton",
+      "awayTeam": "Arsenal",
+      "dateTime": "2025-12-20T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
