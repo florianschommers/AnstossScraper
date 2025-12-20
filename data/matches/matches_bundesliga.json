@@ -11902,7 +11902,7 @@
   {
     "matchID": 77385,
     "matchDateTime": "2025-12-20T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11927,8 +11927,8 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T16:19:49.857",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-20T17:23:19.997",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121241,
@@ -11956,7 +11956,7 @@
   {
     "matchID": 77386,
     "matchDateTime": "2025-12-20T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -11981,8 +11981,8 @@
       "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T16:19:52.35",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-20T17:30:00.563",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121247,
@@ -11996,8 +11996,8 @@
       {
         "resultID": 121248,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 4,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -12027,6 +12027,66 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 136025,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 24380,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136026,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 56,
+        "goalGetterID": 18337,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136027,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 69,
+        "goalGetterID": 24380,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136028,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": 71,
+        "goalGetterID": 24382,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136030,
+        "scoreTeam1": 3,
+        "scoreTeam2": 4,
+        "matchMinute": 78,
+        "goalGetterID": 19807,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": null,
@@ -12035,7 +12095,7 @@
   {
     "matchID": 77387,
     "matchDateTime": "2025-12-20T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -12060,8 +12120,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T16:19:55.263",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-20T17:28:40.023",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121245,
@@ -12089,7 +12149,7 @@
   {
     "matchID": 77389,
     "matchDateTime": "2025-12-20T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -12114,8 +12174,8 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T16:19:57.21",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-20T17:26:45.81",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121243,
@@ -12130,20 +12190,33 @@
         "resultID": 121244,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 136031,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 90,
+        "goalGetterID": 18876,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 77390,
     "matchDateTime": "2025-12-20T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -12168,8 +12241,8 @@
       "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T16:20:00.293",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-20T17:30:14.56",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121239,
