@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-20T14:45:32.160197Z",
+  "lastUpdated": "2025-12-20T14:55:16.617182Z",
   "matches": [
     {
       "matchday": 5,
@@ -1207,16 +1207,6 @@
       "matchday": 17,
       "homeTeam": "Oviedo",
       "awayTeam": "Celtavigo",
-      "dateTime": "2025-12-20T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Levante",
-      "awayTeam": "Realsociedad",
       "dateTime": "2025-12-20T16:15:00Z",
       "score": null,
       "isFinished": false,
@@ -1290,6 +1280,16 @@
       "dateTime": "2025-12-22T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Oviedo",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-12-20T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
