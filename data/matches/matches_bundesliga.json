@@ -12320,7 +12320,7 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T18:31:00.43",
+    "lastUpdateDateTime": "2025-12-20T19:13:54.56",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12335,14 +12335,51 @@
       {
         "resultID": 121255,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 136044,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 35,
+        "goalGetterID": 18725,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136045,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 40,
+        "goalGetterID": 22941,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136046,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 44,
+        "goalGetterID": 22743,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
