@@ -12295,7 +12295,7 @@
   {
     "matchID": 77384,
     "matchDateTime": "2025-12-20T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -12320,8 +12320,8 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-20T19:13:54.56",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-20T20:29:56.537",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121254,
@@ -12336,7 +12336,7 @@
         "resultID": 121255,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 2,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -12377,6 +12377,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136050,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 97,
+        "goalGetterID": 24384,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
