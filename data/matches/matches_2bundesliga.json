@@ -13739,7 +13739,7 @@
   {
     "matchID": 78092,
     "matchDateTime": "2025-12-21T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13764,7 +13764,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-21T14:23:31.467",
+    "lastUpdateDateTime": "2025-12-21T14:43:31.77",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13779,7 +13779,7 @@
       {
         "resultID": 121263,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 3,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13791,8 +13791,8 @@
         "goalID": 136058,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 19,
+        "goalGetterID": 23549,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -13803,8 +13803,20 @@
         "goalID": 136060,
         "scoreTeam1": 1,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 44,
+        "goalGetterID": 23640,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136062,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 24097,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -13847,7 +13859,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/150px-SV_Elversberg_Logo_2021.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-21T14:23:41.34",
+    "lastUpdateDateTime": "2025-12-21T14:41:46.297",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13874,13 +13886,13 @@
         "goalID": 136059,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 34,
+        "goalGetterID": 23685,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
-        "comment": null
+        "comment": "Bitte Zeit und Schüze eintragen"
       }
     ],
     "location": {
