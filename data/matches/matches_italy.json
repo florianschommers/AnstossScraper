@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-21T15:56:08.938307Z",
+  "lastUpdated": "2025-12-21T16:13:14.948456Z",
   "matches": [
     {
       "matchday": 5,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Turin",
-      "dateTime": "2025-12-21T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Cagliari",
       "awayTeam": "Pisa",
       "dateTime": "2025-12-21T18:00:00Z",
@@ -1179,6 +1169,16 @@
       "awayTeam": "Pisa",
       "dateTime": "2025-12-21T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Turin",
+      "dateTime": "2025-12-21T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
