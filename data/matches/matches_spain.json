@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-21T14:55:22.801350Z",
+  "lastUpdated": "2025-12-21T15:16:33.953430Z",
   "matches": [
     {
       "matchday": 5,
@@ -1207,16 +1207,6 @@
       "matchday": 17,
       "homeTeam": "Girona",
       "awayTeam": "Atlmadrid",
-      "dateTime": "2025-12-21T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Villarreal",
-      "awayTeam": "Fcbarcelona",
       "dateTime": "2025-12-21T16:15:00Z",
       "score": null,
       "isFinished": false,
@@ -1250,6 +1240,16 @@
       "dateTime": "2025-12-19T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Girona",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-12-21T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
