@@ -13764,8 +13764,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-21T14:43:31.77",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-21T15:26:34.657",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121262,
@@ -13779,7 +13779,7 @@
       {
         "resultID": 121263,
         "resultName": "Endergebnis",
-        "pointsTeam1": 3,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13834,7 +13834,7 @@
   {
     "matchID": 78094,
     "matchDateTime": "2025-12-21T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13859,8 +13859,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/150px-SV_Elversberg_Logo_2021.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-21T14:41:46.297",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-21T15:31:29.837",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121264,
@@ -13874,7 +13874,7 @@
       {
         "resultID": 121265,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13889,10 +13889,22 @@
         "matchMinute": 34,
         "goalGetterID": 23685,
         "goalGetterName": "",
-        "isPenalty": false,
+        "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": "Bitte Zeit und Schüze eintragen"
+      },
+      {
+        "goalID": 136070,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 94,
+        "goalGetterID": 19210,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
       }
     ],
     "location": {
@@ -13905,7 +13917,7 @@
   {
     "matchID": 78095,
     "matchDateTime": "2025-12-21T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13930,8 +13942,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-21T14:49:56.857",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2025-12-21T15:26:46.503",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121266,
@@ -13945,8 +13957,8 @@
       {
         "resultID": 121267,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13959,6 +13971,30 @@
         "scoreTeam2": 0,
         "matchMinute": 60,
         "goalGetterID": 23536,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136066,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 85,
+        "goalGetterID": 24386,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 136068,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 88,
+        "goalGetterID": 24387,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
