@@ -13930,7 +13930,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-21T14:23:46.363",
+    "lastUpdateDateTime": "2025-12-21T14:49:56.857",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13945,14 +13945,27 @@
       {
         "resultID": 121267,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 136064,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 60,
+        "goalGetterID": 23536,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 350,
       "locationCity": "Braunschweig",
