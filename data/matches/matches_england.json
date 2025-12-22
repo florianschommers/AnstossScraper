@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-22T22:15:29.423192Z",
+  "lastUpdated": "2025-12-22T22:39:35.739583Z",
   "matches": [
     {
       "matchday": 6,
@@ -1107,11 +1107,11 @@
       "matchday": 17,
       "homeTeam": "Fulham",
       "awayTeam": "Nottingham",
-      "dateTime": "2025-12-22T00:00:00Z",
+      "dateTime": "2025-12-22T15:00:00Z",
       "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
     },
     {
       "matchday": 17,
