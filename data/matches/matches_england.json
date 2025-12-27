@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-27T16:57:54.962133Z",
+  "lastUpdated": "2025-12-27T17:20:20.736813Z",
   "matches": [
     {
       "matchday": 6,
@@ -1205,26 +1205,6 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Burnley",
-      "awayTeam": "Everton",
-      "dateTime": "2025-12-27T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Brentford",
-      "awayTeam": "AFC Bournemouth",
-      "dateTime": "2025-12-27T00:00:00Z",
-      "score": "4:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "4:1"
-    },
-    {
-      "matchday": 18,
       "homeTeam": "Nottingham",
       "awayTeam": "Manchester City",
       "dateTime": "2025-12-27T16:00:00Z",
@@ -1255,8 +1235,8 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Chelsea",
-      "awayTeam": "Astonvilla",
+      "homeTeam": "Brentford",
+      "awayTeam": "AFC Bournemouth",
       "dateTime": "2025-12-27T18:30:00Z",
       "score": null,
       "isFinished": false,
@@ -1269,6 +1249,16 @@
       "awayTeam": "Manchester City",
       "dateTime": "2025-12-27T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Burnley",
+      "awayTeam": "Everton",
+      "dateTime": "2025-12-27T15:00:00Z",
+      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
@@ -1299,6 +1289,16 @@
       "awayTeam": "Brighton & Hove Albion",
       "dateTime": "2025-12-27T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Brentford",
+      "awayTeam": "AFC Bournemouth",
+      "dateTime": "2025-12-27T15:00:00Z",
+      "score": "4:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
