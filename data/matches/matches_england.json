@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-27T17:37:10.468343Z",
+  "lastUpdated": "2025-12-27T17:42:45.386241Z",
   "matches": [
     {
       "matchday": 6,
@@ -1205,6 +1205,16 @@
     },
     {
       "matchday": 18,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Astonvilla",
+      "dateTime": "2025-12-27T00:00:00Z",
+      "score": "0:0",
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0"
+    },
+    {
+      "matchday": 18,
       "homeTeam": "Nottingham",
       "awayTeam": "Manchester City",
       "dateTime": "2025-12-27T16:00:00Z",
@@ -1237,7 +1247,7 @@
       "matchday": 18,
       "homeTeam": "Brentford",
       "awayTeam": "AFC Bournemouth",
-      "dateTime": "2025-12-27T18:30:00Z",
+      "dateTime": "2025-12-27T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
