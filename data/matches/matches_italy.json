@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-27T15:58:09.763314Z",
+  "lastUpdated": "2025-12-27T16:13:00.653026Z",
   "matches": [
     {
       "matchday": 6,
@@ -1105,26 +1105,6 @@
     },
     {
       "matchday": 17,
-      "homeTeam": "Lecce",
-      "awayTeam": "Como",
-      "dateTime": "2025-12-27T00:00:00Z",
-      "score": "0:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:3"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Turin",
-      "awayTeam": "Cagliari",
-      "dateTime": "2025-12-27T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 17,
       "homeTeam": "Parma",
       "awayTeam": "Acflorenz",
       "dateTime": "2025-12-27T18:00:00Z",
@@ -1199,6 +1179,26 @@
       "awayTeam": "Acflorenz",
       "dateTime": "2025-12-27T15:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Lecce",
+      "awayTeam": "Como",
+      "dateTime": "2025-12-27T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Turin",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-12-27T15:00:00Z",
+      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
