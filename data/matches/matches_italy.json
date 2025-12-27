@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-27T18:52:21.098989Z",
+  "lastUpdated": "2025-12-27T19:01:46.393088Z",
   "matches": [
     {
       "matchday": 6,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 17,
-      "homeTeam": "Udinese",
-      "awayTeam": "Laziorom",
-      "dateTime": "2025-12-27T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 17,
       "homeTeam": "Parma",
       "awayTeam": "Acflorenz",
       "dateTime": "2025-12-27T20:45:00Z",
@@ -1199,6 +1189,16 @@
       "awayTeam": "Cagliari",
       "dateTime": "2025-12-27T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Udinese",
+      "awayTeam": "Laziorom",
+      "dateTime": "2025-12-27T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
