@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-28T21:26:45.647610Z",
+  "lastUpdated": "2025-12-28T21:40:10.168201Z",
   "matches": [
     {
       "matchday": 6,
@@ -1105,16 +1105,6 @@
     },
     {
       "matchday": 17,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Intermailand",
-      "dateTime": "2025-12-28T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 17,
       "homeTeam": "Acmailand",
       "awayTeam": "Hverona",
       "dateTime": "2025-12-28T20:45:00Z",
@@ -1149,6 +1139,16 @@
       "awayTeam": "Sassuolo",
       "dateTime": "2025-12-28T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-12-28T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
