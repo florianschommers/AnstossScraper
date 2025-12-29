@@ -1,8 +1,508 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2025-12-28T23:55:55.904881Z",
+  "lastUpdated": "2025-12-29T01:43:46.268445Z",
   "matches": [
+    {
+      "matchday": 1,
+      "homeTeam": "Girona",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-08-15T15:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Oviedo",
+      "dateTime": "2025-08-15T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Mallorca",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2025-08-16T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Alaves",
+      "awayTeam": "Levante",
+      "dateTime": "2025-08-16T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Valencia",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2025-08-16T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Getafe",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Elche",
+      "awayTeam": "Realbetis",
+      "dateTime": "2025-08-18T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Osasuna",
+      "dateTime": "2025-08-19T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Realbetis",
+      "awayTeam": "Alaves",
+      "dateTime": "2025-08-22T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Mallorca",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Elche",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Levante",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Valencia",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Espanyol",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Girona",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "5:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Oviedo",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-08-25T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Sevilla",
+      "awayTeam": "Getafe",
+      "dateTime": "2025-08-25T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Elche",
+      "awayTeam": "Levante",
+      "dateTime": "2025-08-29T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Valencia",
+      "awayTeam": "Getafe",
+      "dateTime": "2025-08-29T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Alaves",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Oviedo",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Girona",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Mallorca",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Villarreal",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Realbetis",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Osasuna",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Vallecano",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Sevilla",
+      "awayTeam": "Elche",
+      "dateTime": "2025-09-12T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Getafe",
+      "awayTeam": "Oviedo",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Alaves",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Villarreal",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Girona",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Levante",
+      "awayTeam": "Realbetis",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Vallecano",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Valencia",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "6:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Mallorca",
+      "dateTime": "2025-09-15T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Realbetis",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2025-09-19T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Girona",
+      "awayTeam": "Levante",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "0:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Espanyol",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Osasuna",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Alaves",
+      "awayTeam": "Sevilla",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Valencia",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Vallecano",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Mallorca",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Elche",
+      "awayTeam": "Oviedo",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Fcbarcelona",
+      "awayTeam": "Getafe",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
     {
       "matchday": 6,
       "homeTeam": "Celtavigo",

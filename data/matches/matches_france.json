@@ -1,8 +1,458 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2025-12-28T23:56:23.409302Z",
+  "lastUpdated": "2025-12-29T01:44:23.183548Z",
   "matches": [
+    {
+      "matchday": 1,
+      "homeTeam": "Rennes",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2025-08-15T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Lens",
+      "awayTeam": "Lyon",
+      "dateTime": "2025-08-16T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Monaco",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2025-08-16T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Nizza",
+      "awayTeam": "Toulouse",
+      "dateTime": "2025-08-16T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Brest",
+      "awayTeam": "Lille",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "3:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lorient",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Angers",
+      "awayTeam": "Parisfc",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Fcmetz",
+      "awayTeam": "Strassburg",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Nantes",
+      "awayTeam": "Psg",
+      "dateTime": "2025-08-17T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Psg",
+      "awayTeam": "Angers",
+      "dateTime": "2025-08-22T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Parisfc",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "5:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Nizza",
+      "awayTeam": "Auxerre",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lyon",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lorient",
+      "awayTeam": "Rennes",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Brest",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Lens",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Strassburg",
+      "awayTeam": "Nantes",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lille",
+      "awayTeam": "Monaco",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Lens",
+      "awayTeam": "Brest",
+      "dateTime": "2025-08-29T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Lorient",
+      "awayTeam": "Lille",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:7",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Nantes",
+      "awayTeam": "Auxerre",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Psg",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "3:6",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Angers",
+      "awayTeam": "Rennes",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Parisfc",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Nizza",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Monaco",
+      "awayTeam": "Strassburg",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Lyon",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Lorient",
+      "dateTime": "2025-09-12T15:00:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Nizza",
+      "awayTeam": "Nantes",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Monaco",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Lille",
+      "awayTeam": "Toulouse",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Strassburg",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Psg",
+      "awayTeam": "Lens",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Fcmetz",
+      "awayTeam": "Angers",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Brest",
+      "awayTeam": "Parisfc",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lyon",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Lyon",
+      "awayTeam": "Angers",
+      "dateTime": "2025-09-19T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Nantes",
+      "awayTeam": "Rennes",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Brest",
+      "awayTeam": "Nizza",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Lens",
+      "awayTeam": "Lille",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Parisfc",
+      "awayTeam": "Strassburg",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Lorient",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Monaco",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "5:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Toulouse",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Psg",
+      "dateTime": "2025-09-22T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
     {
       "matchday": 6,
       "homeTeam": "Strassburg",

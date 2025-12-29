@@ -1,8 +1,508 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2025-12-28T23:56:10.031475Z",
+  "lastUpdated": "2025-12-29T01:44:05.294929Z",
   "matches": [
+    {
+      "matchday": 1,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Acmailand",
+      "awayTeam": "Cremonese",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Asrom",
+      "awayTeam": "Bologna",
+      "dateTime": "2025-08-23T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Como",
+      "awayTeam": "Laziorom",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Pisa",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Parma",
+      "dateTime": "2025-08-24T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Udinese",
+      "awayTeam": "Hverona",
+      "dateTime": "2025-08-25T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Turin",
+      "dateTime": "2025-08-25T15:00:00Z",
+      "score": "5:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2025-08-29T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lecce",
+      "awayTeam": "Acmailand",
+      "dateTime": "2025-08-29T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Bologna",
+      "awayTeam": "Como",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Parma",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Pisa",
+      "awayTeam": "Asrom",
+      "dateTime": "2025-08-30T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Turin",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Udinese",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Hverona",
+      "dateTime": "2025-08-31T15:00:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Parma",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "4:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Acflorenz",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2025-09-13T15:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Asrom",
+      "awayTeam": "Turin",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Lecce",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Pisa",
+      "awayTeam": "Udinese",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Laziorom",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Acmailand",
+      "awayTeam": "Bologna",
+      "dateTime": "2025-09-14T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Hverona",
+      "awayTeam": "Cremonese",
+      "dateTime": "2025-09-15T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Como",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2025-09-15T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Lecce",
+      "awayTeam": "Cagliari",
+      "dateTime": "2025-09-19T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Bologna",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Hverona",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Udinese",
+      "awayTeam": "Acmailand",
+      "dateTime": "2025-09-20T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Asrom",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Turin",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Parma",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Acflorenz",
+      "awayTeam": "Como",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2025-09-21T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Pisa",
+      "dateTime": "2025-09-22T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Como",
+      "awayTeam": "Cremonese",
+      "dateTime": "2025-09-27T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Bergamo",
+      "dateTime": "2025-09-27T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Intermailand",
+      "dateTime": "2025-09-27T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Udinese",
+      "dateTime": "2025-09-28T15:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Pisa",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2025-09-28T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Asrom",
+      "awayTeam": "Hverona",
+      "dateTime": "2025-09-28T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Lecce",
+      "awayTeam": "Bologna",
+      "dateTime": "2025-09-28T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Acmailand",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2025-09-28T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Parma",
+      "awayTeam": "Turin",
+      "dateTime": "2025-09-29T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Laziorom",
+      "dateTime": "2025-09-29T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
     {
       "matchday": 6,
       "homeTeam": "Hverona",
