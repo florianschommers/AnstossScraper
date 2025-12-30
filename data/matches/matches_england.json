@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-30T21:17:11.773865Z",
+  "lastUpdated": "2025-12-30T21:34:37.286515Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,53 +1805,13 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Nottingham",
-      "awayTeam": "Everton",
-      "dateTime": "2025-12-30T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "West Ham United",
-      "awayTeam": "Brighton & Hove Albion",
-      "dateTime": "2025-12-30T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Burnley",
-      "awayTeam": "Newcastle",
-      "dateTime": "2025-12-30T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Chelsea",
-      "awayTeam": "AFC Bournemouth",
-      "dateTime": "2025-12-30T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Arsenal",
       "awayTeam": "Astonvilla",
       "dateTime": "2025-12-30T00:00:00Z",
-      "score": "0:0",
+      "score": "2:0",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:0"
+      "liveScore": "2:0"
     },
     {
       "matchday": 19,
@@ -1865,9 +1825,9 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Crystalpalace",
-      "awayTeam": "Fulham",
-      "dateTime": "2026-01-01T18:30:00Z",
+      "homeTeam": "Nottingham",
+      "awayTeam": "Everton",
+      "dateTime": "2025-12-30T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1900,6 +1860,46 @@
       "dateTime": "2026-01-01T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Nottingham",
+      "awayTeam": "Everton",
+      "dateTime": "2025-12-30T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "West Ham United",
+      "awayTeam": "Brighton & Hove Albion",
+      "dateTime": "2025-12-30T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Burnley",
+      "awayTeam": "Newcastle",
+      "dateTime": "2025-12-30T15:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Chelsea",
+      "awayTeam": "AFC Bournemouth",
+      "dateTime": "2025-12-30T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
