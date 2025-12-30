@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2025-12-30T21:56:26.777783Z",
+  "lastUpdated": "2025-12-30T22:20:06.767019Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,26 +1805,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Arsenal",
-      "awayTeam": "Astonvilla",
-      "dateTime": "2025-12-30T00:00:00Z",
-      "score": "4:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "4:0"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Manunited",
-      "awayTeam": "Wolverhampton",
-      "dateTime": "2025-12-30T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Nottingham",
       "awayTeam": "Everton",
       "dateTime": "2025-12-30T18:30:00Z",
@@ -1899,6 +1879,26 @@
       "awayTeam": "AFC Bournemouth",
       "dateTime": "2025-12-30T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Astonvilla",
+      "dateTime": "2025-12-30T15:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Manunited",
+      "awayTeam": "Wolverhampton",
+      "dateTime": "2025-12-30T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
