@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-02T22:11:57.431667Z",
+  "lastUpdated": "2026-01-02T22:36:30.427983Z",
   "matches": [
     {
       "matchday": 1,
@@ -1707,17 +1707,7 @@
       "matchday": 18,
       "homeTeam": "Vallecano",
       "awayTeam": "Getafe",
-      "dateTime": "2026-01-02T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-01-03T14:00:00Z",
+      "dateTime": "2026-01-02T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1800,6 +1790,16 @@
       "dateTime": "2026-01-04T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Vallecano",
+      "awayTeam": "Getafe",
+      "dateTime": "2026-01-02T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
