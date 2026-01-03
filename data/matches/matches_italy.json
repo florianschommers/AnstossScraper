@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-03T21:44:22.126389Z",
+  "lastUpdated": "2026-01-03T21:54:10.797092Z",
   "matches": [
     {
       "matchday": 1,
@@ -1705,16 +1705,6 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Asrom",
-      "dateTime": "2026-01-03T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 18,
       "homeTeam": "Como",
       "awayTeam": "Udinese",
       "dateTime": "2026-01-03T12:30:00Z",
@@ -1789,6 +1779,16 @@
       "awayTeam": "Lecce",
       "dateTime": "2026-01-03T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Asrom",
+      "dateTime": "2026-01-03T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
