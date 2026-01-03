@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-03T16:58:22.226796Z",
+  "lastUpdated": "2026-01-03T17:21:54.829174Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,16 +1905,6 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "West Ham United",
-      "dateTime": "2026-01-03T00:00:00Z",
-      "score": "3:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Astonvilla",
       "awayTeam": "Nottingham",
       "dateTime": "2026-01-03T16:00:00Z",
@@ -1955,8 +1945,8 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Sunderland",
+      "homeTeam": "Wolverhampton",
+      "awayTeam": "West Ham United",
       "dateTime": "2026-01-03T16:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1999,6 +1989,16 @@
       "awayTeam": "Burnley",
       "dateTime": "2026-01-03T15:00:00Z",
       "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Wolverhampton",
+      "awayTeam": "West Ham United",
+      "dateTime": "2026-01-03T15:00:00Z",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
