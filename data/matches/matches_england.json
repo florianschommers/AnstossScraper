@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-03T19:27:15.985002Z",
+  "lastUpdated": "2026-01-03T19:36:06.385645Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,16 +1905,6 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Arsenal",
-      "dateTime": "2026-01-03T00:00:00Z",
-      "score": "2:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:3"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Astonvilla",
       "awayTeam": "Nottingham",
       "dateTime": "2026-01-03T16:00:00Z",
@@ -1965,6 +1955,16 @@
     },
     {
       "matchday": 20,
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Arsenal",
+      "dateTime": "2026-01-03T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
       "homeTeam": "Manchester City",
       "awayTeam": "Chelsea",
       "dateTime": "2026-01-04T18:30:00Z",
@@ -1999,6 +1999,16 @@
       "awayTeam": "West Ham United",
       "dateTime": "2026-01-03T15:00:00Z",
       "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Arsenal",
+      "dateTime": "2026-01-03T15:00:00Z",
+      "score": "2:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
