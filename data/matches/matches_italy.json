@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-03T13:43:27.128688Z",
+  "lastUpdated": "2026-01-03T13:45:22.941341Z",
   "matches": [
     {
       "matchday": 1,
@@ -1707,16 +1707,6 @@
       "matchday": 18,
       "homeTeam": "Como",
       "awayTeam": "Udinese",
-      "dateTime": "2026-01-03T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Parma",
       "dateTime": "2026-01-03T15:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1790,6 +1780,16 @@
       "dateTime": "2026-01-04T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Como",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-01-03T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
