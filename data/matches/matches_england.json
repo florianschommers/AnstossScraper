@@ -1,11 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-04T18:22:43.895330Z",
-=======
-  "lastUpdated": "2026-01-04T18:24:32.628570Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-04T18:48:05.445003Z",
   "matches": [
     {
       "matchday": 1,
@@ -1711,36 +1707,6 @@
       "matchday": 18,
       "homeTeam": "Nottingham",
       "awayTeam": "Manchester City",
-      "dateTime": "2025-12-27T16:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Manunited",
-      "awayTeam": "Newcastle",
-      "dateTime": "2025-12-27T16:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "West Ham United",
-      "awayTeam": "Fulham",
-      "dateTime": "2025-12-27T16:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Nottingham",
-      "awayTeam": "Manchester City",
       "dateTime": "2025-12-27T15:00:00Z",
       "score": "1:2",
       "isFinished": true,
@@ -1919,31 +1885,21 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-03T16:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 20,
-      "homeTeam": "Brighton & Hove Albion",
-      "awayTeam": "Burnley",
-      "dateTime": "2026-01-03T16:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Leedsunited",
       "awayTeam": "Manunited",
-      "dateTime": "2026-01-03T16:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Everton",
+      "awayTeam": "Brentford",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "2:4",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1951,19 +1907,29 @@
       "matchday": 20,
       "homeTeam": "Newcastle",
       "awayTeam": "Crystalpalace",
-      "dateTime": "2026-01-03T16:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
     {
       "matchday": 20,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "West Ham United",
-      "dateTime": "2026-01-03T16:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Sunderland",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Fulham",
+      "awayTeam": "Liverpool",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2004,6 +1970,16 @@
       "dateTime": "2026-01-03T15:00:00Z",
       "score": "2:3",
       "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "West Ham United",
+      "awayTeam": "Nottingham",
+      "dateTime": "2026-01-06T21:00:00Z",
+      "score": null,
+      "isFinished": false,
       "isLive": false,
       "liveScore": null
     },
@@ -2069,26 +2045,6 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Arsenal",
-      "awayTeam": "Liverpool",
-      "dateTime": "2026-01-07T21:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "West Ham United",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-07T21:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Burnley",
       "awayTeam": "Manunited",
       "dateTime": "2026-01-07T21:15:00Z",
@@ -2102,6 +2058,16 @@
       "homeTeam": "Newcastle",
       "awayTeam": "Leedsunited",
       "dateTime": "2026-01-07T21:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Liverpool",
+      "dateTime": "2026-01-08T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
