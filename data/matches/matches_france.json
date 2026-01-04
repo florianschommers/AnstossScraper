@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-04T16:01:15.957410Z",
+  "lastUpdated": "2026-01-04T16:14:23.518297Z",
   "matches": [
     {
       "matchday": 1,
@@ -1447,16 +1447,6 @@
       "matchday": 17,
       "homeTeam": "Olmarseille",
       "awayTeam": "Nantes",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Brest",
-      "awayTeam": "Auxerre",
       "dateTime": "2026-01-04T17:15:00Z",
       "score": null,
       "isFinished": false,
@@ -1490,6 +1480,16 @@
       "dateTime": "2026-01-04T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Nantes",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
