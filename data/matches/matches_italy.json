@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-04T13:26:01.620880Z",
+  "lastUpdated": "2026-01-04T13:31:00.300589Z",
   "matches": [
     {
       "matchday": 1,
@@ -1707,16 +1707,6 @@
       "matchday": 18,
       "homeTeam": "Laziorom",
       "awayTeam": "Sscneapel",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Acflorenz",
-      "awayTeam": "Cremonese",
       "dateTime": "2026-01-04T15:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1740,6 +1730,16 @@
       "dateTime": "2026-01-04T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
