@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-04T21:51:19.400672Z",
+  "lastUpdated": "2026-01-04T22:00:39.246137Z",
   "matches": [
     {
       "matchday": 1,
@@ -1705,16 +1705,6 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Intermailand",
-      "awayTeam": "Bologna",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "3:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1"
-    },
-    {
-      "matchday": 18,
       "homeTeam": "Laziorom",
       "awayTeam": "Sscneapel",
       "dateTime": "2026-01-04T15:00:00Z",
@@ -1739,6 +1729,16 @@
       "awayTeam": "Turin",
       "dateTime": "2026-01-04T15:00:00Z",
       "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "3:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
