@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-04T17:55:17.763690Z",
+  "lastUpdated": "2026-01-04T18:24:00.110287Z",
   "matches": [
     {
       "matchday": 1,
@@ -1445,36 +1445,6 @@
     },
     {
       "matchday": 17,
-      "homeTeam": "Brest",
-      "awayTeam": "Auxerre",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Lorient",
-      "awayTeam": "Fcmetz",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 17,
-      "homeTeam": "Aclehavre",
-      "awayTeam": "Angers",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 17,
       "homeTeam": "Olmarseille",
       "awayTeam": "Nantes",
       "dateTime": "2026-01-04T20:45:00Z",
@@ -1489,6 +1459,36 @@
       "awayTeam": "Nantes",
       "dateTime": "2026-01-04T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Brest",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Lorient",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Angers",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
