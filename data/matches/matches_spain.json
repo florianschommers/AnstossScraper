@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-04T17:09:04.711675Z",
+  "lastUpdated": "2026-01-04T17:31:38.428246Z",
   "matches": [
     {
       "matchday": 1,
@@ -1705,16 +1705,6 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Realbetis",
-      "dateTime": "2026-01-04T00:00:00Z",
-      "score": "4:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "4:1"
-    },
-    {
-      "matchday": 18,
       "homeTeam": "Sevilla",
       "awayTeam": "Levante",
       "dateTime": "2026-01-04T18:30:00Z",
@@ -1749,6 +1739,16 @@
       "awayTeam": "Levante",
       "dateTime": "2026-01-04T15:00:00Z",
       "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Realbetis",
+      "dateTime": "2026-01-04T15:00:00Z",
+      "score": "5:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
