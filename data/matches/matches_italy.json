@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-06T21:49:45.153239Z",
+  "lastUpdated": "2026-01-06T22:00:01.613592Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,16 +1805,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2026-01-06T00:00:00Z",
-      "score": "0:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:3"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Pisa",
       "awayTeam": "Como",
       "dateTime": "2026-01-06T18:30:00Z",
@@ -1899,6 +1889,16 @@
       "awayTeam": "Asrom",
       "dateTime": "2026-01-06T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-01-06T15:00:00Z",
+      "score": "0:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
