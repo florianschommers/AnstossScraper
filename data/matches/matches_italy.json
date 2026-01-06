@@ -1,11 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-06T15:55:46.960468Z",
-=======
-  "lastUpdated": "2026-01-06T15:57:10.630041Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-06T16:16:27.803298Z",
   "matches": [
     {
       "matchday": 1,
@@ -1811,16 +1807,6 @@
       "matchday": 19,
       "homeTeam": "Pisa",
       "awayTeam": "Como",
-      "dateTime": "2026-01-06T00:00:00Z",
-      "score": "0:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:3"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Lecce",
-      "awayTeam": "Asrom",
       "dateTime": "2026-01-06T18:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1904,6 +1890,16 @@
       "dateTime": "2026-01-08T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Pisa",
+      "awayTeam": "Como",
+      "dateTime": "2026-01-06T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
