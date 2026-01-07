@@ -1,11 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-07T19:16:33.430887Z",
-=======
-  "lastUpdated": "2026-01-07T19:17:23.937304Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-07T19:35:17.311982Z",
   "matches": [
     {
       "matchday": 1,
@@ -1811,26 +1807,6 @@
       "matchday": 19,
       "homeTeam": "Bologna",
       "awayTeam": "Bergamo",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Hverona",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Turin",
-      "awayTeam": "Udinese",
       "dateTime": "2026-01-07T20:45:00Z",
       "score": null,
       "isFinished": false,
@@ -1874,6 +1850,26 @@
       "dateTime": "2026-01-08T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Bologna",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Hverona",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
