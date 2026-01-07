@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-07T20:22:18.504859Z",
+  "lastUpdated": "2026-01-07T20:25:40.449751Z",
   "matches": [
     {
       "matchday": 1,
@@ -2008,10 +2008,10 @@
       "homeTeam": "Brentford",
       "awayTeam": "Sunderland",
       "dateTime": "2026-01-07T00:00:00Z",
-      "score": "0:0",
+      "score": "1:0",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:0"
+      "liveScore": "1:0"
     },
     {
       "matchday": 21,
@@ -2048,6 +2048,26 @@
       "homeTeam": "Manchester City",
       "awayTeam": "Brighton & Hove Albion",
       "dateTime": "2026-01-07T00:00:00Z",
+      "score": "1:0",
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "1:0"
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2026-01-07T00:00:00Z",
+      "score": "2:1",
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "2:1"
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Burnley",
+      "awayTeam": "Manunited",
+      "dateTime": "2026-01-07T00:00:00Z",
       "score": "0:0",
       "isFinished": false,
       "isLive": true,
@@ -2055,33 +2075,13 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "Burnley",
-      "awayTeam": "Manunited",
-      "dateTime": "2026-01-07T21:15:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Newcastle",
       "awayTeam": "Leedsunited",
-      "dateTime": "2026-01-07T21:15:00Z",
-      "score": null,
+      "dateTime": "2026-01-07T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 21,
