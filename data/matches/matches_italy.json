@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-07T21:45:25.649026Z",
+  "lastUpdated": "2026-01-07T21:55:27.632657Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,36 +1805,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Turin",
-      "awayTeam": "Udinese",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Laziorom",
-      "awayTeam": "Acflorenz",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Parma",
-      "awayTeam": "Intermailand",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Bologna",
       "awayTeam": "Bergamo",
       "dateTime": "2026-01-07T18:30:00Z",
@@ -1869,6 +1839,36 @@
       "awayTeam": "Hverona",
       "dateTime": "2026-01-07T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Turin",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Parma",
+      "awayTeam": "Intermailand",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

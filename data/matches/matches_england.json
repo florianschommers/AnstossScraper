@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-07T21:44:39.368801Z",
+  "lastUpdated": "2026-01-07T21:54:56.256960Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,43 +2005,23 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Fulham",
-      "awayTeam": "Chelsea",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2026-01-07T00:00:00Z",
-      "score": "3:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2"
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Burnley",
       "awayTeam": "Manunited",
       "dateTime": "2026-01-07T00:00:00Z",
-      "score": "1:1",
+      "score": "2:2",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "1:1"
+      "liveScore": "2:2"
     },
     {
       "matchday": 21,
       "homeTeam": "Newcastle",
       "awayTeam": "Leedsunited",
       "dateTime": "2026-01-07T00:00:00Z",
-      "score": "1:2",
+      "score": "2:2",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "1:2"
+      "liveScore": "2:2"
     },
     {
       "matchday": 21,
@@ -2075,6 +2055,16 @@
     },
     {
       "matchday": 21,
+      "homeTeam": "Fulham",
+      "awayTeam": "Chelsea",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
       "homeTeam": "Everton",
       "awayTeam": "Wolverhampton",
       "dateTime": "2026-01-07T15:00:00Z",
@@ -2089,6 +2079,16 @@
       "awayTeam": "Brighton & Hove Albion",
       "dateTime": "2026-01-07T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2026-01-07T15:00:00Z",
+      "score": "3:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
