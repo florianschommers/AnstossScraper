@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-07T23:16:55.652854Z",
+  "lastUpdated": "2026-01-07T23:35:20.282285Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,11 +2005,21 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Brentford",
-      "awayTeam": "Sunderland",
-      "dateTime": "2026-01-07T21:00:00Z",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Liverpool",
+      "dateTime": "2026-01-08T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "West Ham United",
+      "awayTeam": "Nottingham",
+      "dateTime": "2026-01-06T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2089,16 +2099,6 @@
       "awayTeam": "Leedsunited",
       "dateTime": "2026-01-07T15:00:00Z",
       "score": "4:3",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "West Ham United",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-06T15:00:00Z",
-      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-07T23:17:46.579767Z",
+  "lastUpdated": "2026-01-07T23:35:56.824303Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,9 +1805,9 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Bologna",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-01-07T18:30:00Z",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-01-08T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1820,6 +1820,36 @@
       "dateTime": "2026-01-08T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Pisa",
+      "awayTeam": "Como",
+      "dateTime": "2026-01-06T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Lecce",
+      "awayTeam": "Asrom",
+      "dateTime": "2026-01-06T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-01-06T15:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1869,36 +1899,6 @@
       "awayTeam": "Intermailand",
       "dateTime": "2026-01-07T15:00:00Z",
       "score": "0:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Pisa",
-      "awayTeam": "Como",
-      "dateTime": "2026-01-06T15:00:00Z",
-      "score": "0:3",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Lecce",
-      "awayTeam": "Asrom",
-      "dateTime": "2026-01-06T15:00:00Z",
-      "score": "0:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2026-01-06T15:00:00Z",
-      "score": "0:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
