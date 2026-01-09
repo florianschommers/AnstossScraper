@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-09T21:54:00.830960Z",
+  "lastUpdated": "2026-01-09T22:14:33.965081Z",
   "matches": [
     {
       "matchday": 1,
@@ -1807,17 +1807,7 @@
       "matchday": 19,
       "homeTeam": "Getafe",
       "awayTeam": "Realsociedad",
-      "dateTime": "2026-01-09T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2025-12-02T14:00:00Z",
+      "dateTime": "2026-01-09T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1880,6 +1870,16 @@
       "dateTime": "2026-01-12T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Getafe",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2026-01-09T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
