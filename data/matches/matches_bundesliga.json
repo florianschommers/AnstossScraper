@@ -12580,7 +12580,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/560px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-09T20:52:27.583",
+    "lastUpdateDateTime": "2026-01-09T22:22:34.207",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12595,8 +12595,8 @@
       {
         "resultID": 121899,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -12625,6 +12625,42 @@
         "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137123,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 68,
+        "goalGetterID": 19605,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137125,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 71,
+        "goalGetterID": 23685,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137126,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 92,
+        "goalGetterID": 18633,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
