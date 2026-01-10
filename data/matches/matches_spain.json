@@ -1,11 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-10T16:56:55.637343Z",
-=======
-  "lastUpdated": "2026-01-10T16:58:19.826796Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-10T17:21:29.853579Z",
   "matches": [
     {
       "matchday": 1,
@@ -1809,16 +1805,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Villarreal",
-      "awayTeam": "Alaves",
-      "dateTime": "2026-01-10T00:00:00Z",
-      "score": "3:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Oviedo",
       "awayTeam": "Realbetis",
       "dateTime": "2026-01-10T18:30:00Z",
@@ -1873,6 +1859,16 @@
       "awayTeam": "Realbetis",
       "dateTime": "2026-01-10T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Villarreal",
+      "awayTeam": "Alaves",
+      "dateTime": "2026-01-10T15:00:00Z",
+      "score": "3:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
