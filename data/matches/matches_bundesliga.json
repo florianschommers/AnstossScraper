@@ -12796,7 +12796,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-10T15:33:50.917",
+    "lastUpdateDateTime": "2026-01-10T16:04:29.013",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12812,13 +12812,26 @@
         "resultID": 121906,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 137130,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 30,
+        "goalGetterID": 16216,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -12885,7 +12898,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-10T15:33:45.46",
+    "lastUpdateDateTime": "2026-01-10T16:05:03.067",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12900,14 +12913,51 @@
       {
         "resultID": 121904,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 137128,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 15,
+        "goalGetterID": 18446,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137129,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 18,
+        "goalGetterID": 20035,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137131,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 26,
+        "goalGetterID": 19765,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
