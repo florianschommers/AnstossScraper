@@ -12707,7 +12707,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-10T16:44:46.7",
+    "lastUpdateDateTime": "2026-01-10T17:14:58.65",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12722,7 +12722,7 @@
       {
         "resultID": 121902,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -12750,6 +12750,18 @@
         "goalGetterID": 18337,
         "goalGetterName": "",
         "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137137,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 83,
+        "goalGetterID": 18472,
+        "goalGetterName": "",
+        "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
@@ -12821,7 +12833,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-10T16:20:24.597",
+    "lastUpdateDateTime": "2026-01-10T17:17:49.32",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -12836,8 +12848,8 @@
       {
         "resultID": 121906,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -12850,6 +12862,42 @@
         "scoreTeam2": 1,
         "matchMinute": 30,
         "goalGetterID": 16216,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137135,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 69,
+        "goalGetterID": 19536,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137136,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 77,
+        "goalGetterID": 18590,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137138,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 86,
+        "goalGetterID": 19609,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
