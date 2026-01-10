@@ -1,7 +1,11 @@
 {
   "league": "italy",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-10T19:11:09.586720Z",
+=======
+  "lastUpdated": "2026-01-10T19:11:20.208744Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -1905,6 +1909,7 @@
     },
     {
       "matchday": 20,
+<<<<<<< Updated upstream
       "homeTeam": "Asrom",
       "awayTeam": "Sassuolo",
       "dateTime": "2026-01-10T00:00:00Z",
@@ -1915,6 +1920,8 @@
     },
     {
       "matchday": 20,
+=======
+>>>>>>> Stashed changes
       "homeTeam": "Como",
       "awayTeam": "Bologna",
       "dateTime": "2026-01-10T20:45:00Z",
@@ -1999,6 +2006,16 @@
       "awayTeam": "Pisa",
       "dateTime": "2026-01-10T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Asrom",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-01-10T15:00:00Z",
+      "score": "2:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
