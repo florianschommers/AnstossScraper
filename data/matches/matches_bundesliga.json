@@ -12936,9 +12936,28 @@
       "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-06-27T16:02:47.53",
+    "lastUpdateDateTime": "2026-01-11T19:17:18.237",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121935,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121936,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -13267,7 +13286,7 @@
   {
     "matchID": 77391,
     "matchDateTime": "2026-01-11T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13292,8 +13311,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-11T18:41:42",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-11T19:26:24.227",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121911,
@@ -13307,7 +13326,7 @@
       {
         "resultID": 121912,
         "resultName": "Endergebnis",
-        "pointsTeam1": 3,
+        "pointsTeam1": 8,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13357,6 +13376,66 @@
         "scoreTeam2": 1,
         "matchMinute": 50,
         "goalGetterID": 23135,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137187,
+        "scoreTeam1": 4,
+        "scoreTeam2": 1,
+        "matchMinute": 53,
+        "goalGetterID": 20970,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137188,
+        "scoreTeam1": 5,
+        "scoreTeam2": 1,
+        "matchMinute": 68,
+        "goalGetterID": 18618,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137189,
+        "scoreTeam1": 6,
+        "scoreTeam2": 1,
+        "matchMinute": 69,
+        "goalGetterID": 18898,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137190,
+        "scoreTeam1": 7,
+        "scoreTeam2": 1,
+        "matchMinute": 76,
+        "goalGetterID": 23135,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137193,
+        "scoreTeam1": 8,
+        "scoreTeam2": 1,
+        "matchMinute": 88,
+        "goalGetterID": 11373,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
