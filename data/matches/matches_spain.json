@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-11T13:05:13.703634Z",
+=======
+  "lastUpdated": "2026-01-11T13:06:07.892769Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -1807,11 +1811,11 @@
       "matchday": 19,
       "homeTeam": "Vallecano",
       "awayTeam": "Mallorca",
-      "dateTime": "2026-01-11T14:00:00Z",
-      "score": null,
+      "dateTime": "2026-01-11T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 19,
