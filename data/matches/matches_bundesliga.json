@@ -13189,7 +13189,7 @@
       "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-11T16:07:03.167",
+    "lastUpdateDateTime": "2026-01-11T16:51:55.647",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13204,7 +13204,7 @@
       {
         "resultID": 121910,
         "resultName": "Endergebnis",
-        "pointsTeam1": 3,
+        "pointsTeam1": 4,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13241,6 +13241,18 @@
         "scoreTeam1": 3,
         "scoreTeam2": 0,
         "matchMinute": 36,
+        "goalGetterID": 20156,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137147,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 61,
         "goalGetterID": 20156,
         "goalGetterName": "",
         "isPenalty": false,
