@@ -13164,7 +13164,7 @@
   {
     "matchID": 77397,
     "matchDateTime": "2026-01-11T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13189,8 +13189,8 @@
       "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-11T16:51:55.647",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-11T17:25:14.577",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121909,
@@ -13292,9 +13292,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T16:59:00.57",
+    "lastUpdateDateTime": "2026-01-11T17:31:38.707",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121911,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121912,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
