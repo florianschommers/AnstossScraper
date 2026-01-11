@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-11T18:56:31.111924Z",
+  "lastUpdated": "2026-01-11T19:11:31.919932Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,16 +1905,6 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Hverona",
-      "awayTeam": "Laziorom",
-      "dateTime": "2026-01-11T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Lecce",
       "awayTeam": "Parma",
       "dateTime": "2026-01-11T20:45:00Z",
@@ -1959,6 +1949,16 @@
       "awayTeam": "Acmailand",
       "dateTime": "2026-01-11T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Hverona",
+      "awayTeam": "Laziorom",
+      "dateTime": "2026-01-11T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
