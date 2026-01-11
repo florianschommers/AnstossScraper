@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-11T17:01:40.963284Z",
+  "lastUpdated": "2026-01-11T17:26:53.245483Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,16 +1805,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Levante",
-      "awayTeam": "Espanyol",
-      "dateTime": "2026-01-11T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Vallecano",
       "awayTeam": "Mallorca",
       "dateTime": "2026-01-11T21:00:00Z",
@@ -1829,6 +1819,16 @@
       "awayTeam": "Mallorca",
       "dateTime": "2026-01-11T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Levante",
+      "awayTeam": "Espanyol",
+      "dateTime": "2026-01-11T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
