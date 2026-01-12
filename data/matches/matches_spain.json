@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-12T23:20:41.204232Z",
+  "lastUpdated": "2026-01-12T23:32:29.293342Z",
   "matches": [
     {
       "matchday": 1,
@@ -1805,16 +1805,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Sevilla",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2026-01-12T15:00:00Z",
-      "score": "0:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Fcbarcelona",
       "awayTeam": "Atlmadrid",
       "dateTime": "2025-12-02T15:00:00Z",
@@ -1899,6 +1889,16 @@
       "awayTeam": "Espanyol",
       "dateTime": "2026-01-11T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Sevilla",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2026-01-12T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
