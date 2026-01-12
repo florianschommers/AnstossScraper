@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-12T21:41:33.088008Z",
+  "lastUpdated": "2026-01-12T21:52:38.682843Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,20 +1905,20 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Cremonese",
-      "dateTime": "2026-01-12T00:00:00Z",
-      "score": "5:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "5:0"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Cfcgenua",
       "awayTeam": "Cagliari",
       "dateTime": "2026-01-12T15:00:00Z",
       "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Cremonese",
+      "dateTime": "2026-01-12T15:00:00Z",
+      "score": "5:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
