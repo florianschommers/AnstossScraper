@@ -13583,7 +13583,7 @@
   {
     "matchID": 77401,
     "matchDateTime": "2026-01-13T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13608,8 +13608,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-13T21:01:14.417",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-13T22:27:20.02",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121943,
@@ -13623,7 +13623,7 @@
       {
         "resultID": 121944,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 3,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13642,6 +13642,30 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 137208,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 76,
+        "goalGetterID": 18567,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137209,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 84,
+        "goalGetterID": 19545,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": null,
@@ -13650,7 +13674,7 @@
   {
     "matchID": 77402,
     "matchDateTime": "2026-01-13T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13675,8 +13699,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-13T21:43:37.677",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-13T22:27:29.1",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121941,
@@ -13691,7 +13715,7 @@
         "resultID": 121942,
         "resultName": "Endergebnis",
         "pointsTeam1": 2,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13714,8 +13738,20 @@
         "goalID": 137206,
         "scoreTeam1": 2,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 48,
+        "goalGetterID": 18410,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137207,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 60,
+        "goalGetterID": 16426,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
