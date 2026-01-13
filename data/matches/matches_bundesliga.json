@@ -13493,13 +13493,13 @@
       "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-13T19:09:48.497",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-13T20:30:59.073",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121939,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -13508,8 +13508,8 @@
       {
         "resultID": 121940,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
-        "pointsTeam2": 1,
+        "pointsTeam1": 3,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13532,8 +13532,8 @@
         "goalID": 137199,
         "scoreTeam1": 1,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 27,
+        "goalGetterID": 18339,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -13544,8 +13544,32 @@
         "goalID": 137201,
         "scoreTeam1": 2,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 35,
+        "goalGetterID": 16686,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137202,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 80,
+        "goalGetterID": 23744,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137203,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 87,
+        "goalGetterID": 24312,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -13584,9 +13608,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-06-27T16:05:24.167",
+    "lastUpdateDateTime": "2026-01-13T20:30:35.177",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121943,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121944,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -13619,9 +13662,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-06-27T16:05:45.42",
+    "lastUpdateDateTime": "2026-01-13T20:30:28.933",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 121941,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121942,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
