@@ -13608,13 +13608,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-13T20:51:05.71",
+    "lastUpdateDateTime": "2026-01-13T21:01:14.417",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121943,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -13635,8 +13635,8 @@
         "goalID": 137204,
         "scoreTeam1": 1,
         "scoreTeam2": 0,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 11,
+        "goalGetterID": 18640,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -13675,13 +13675,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-13T20:30:28.933",
+    "lastUpdateDateTime": "2026-01-13T21:01:55.02",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121941,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -13690,14 +13690,27 @@
       {
         "resultID": 121942,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 137205,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 30,
+        "goalGetterID": 19302,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
