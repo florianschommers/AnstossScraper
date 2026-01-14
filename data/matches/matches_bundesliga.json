@@ -12771,60 +12771,6 @@
     "numberOfViewers": null
   },
   {
-    "matchID": 77395,
-    "matchDateTime": "2026-01-10T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
-    "leagueId": 4821,
-    "leagueName": "1. Fußball-Bundesliga 2025/2026",
-    "leagueSeason": 2025,
-    "leagueShortcut": "bl1",
-    "matchDateTimeUTC": "2026-01-10T14:30:00Z",
-    "group": {
-      "groupName": "16. Spieltag",
-      "groupOrderID": 16,
-      "groupID": 47626
-    },
-    "team1": {
-      "teamId": 134,
-      "teamName": "SV Werder Bremen",
-      "shortName": "Bremen",
-      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
-      "teamGroupName": null
-    },
-    "team2": {
-      "teamId": 175,
-      "teamName": "TSG Hoffenheim",
-      "shortName": "Hoffenheim",
-      "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-      "teamGroupName": null
-    },
-    "lastUpdateDateTime": "2026-01-13T11:12:26.927",
-    "matchIsFinished": false,
-    "matchResults": [
-      {
-        "resultID": 121937,
-        "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
-        "resultOrderID": 1,
-        "resultTypeID": 1,
-        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-      },
-      {
-        "resultID": 121938,
-        "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
-        "resultOrderID": 2,
-        "resultTypeID": 2,
-        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-      }
-    ],
-    "goals": [],
-    "location": null,
-    "numberOfViewers": null
-  },
-  {
     "matchID": 77398,
     "matchDateTime": "2026-01-10T15:30:00",
     "timeZoneID": null,
@@ -12924,60 +12870,6 @@
         "comment": null
       }
     ],
-    "location": null,
-    "numberOfViewers": null
-  },
-  {
-    "matchID": 77399,
-    "matchDateTime": "2026-01-10T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
-    "leagueId": 4821,
-    "leagueName": "1. Fußball-Bundesliga 2025/2026",
-    "leagueSeason": 2025,
-    "leagueShortcut": "bl1",
-    "matchDateTimeUTC": "2026-01-10T14:30:00Z",
-    "group": {
-      "groupName": "16. Spieltag",
-      "groupOrderID": 16,
-      "groupID": 47626
-    },
-    "team1": {
-      "teamId": 98,
-      "teamName": "FC St. Pauli",
-      "shortName": "St. Pauli",
-      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
-      "teamGroupName": null
-    },
-    "team2": {
-      "teamId": 1635,
-      "teamName": "RB Leipzig",
-      "shortName": "Leipzig",
-      "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-      "teamGroupName": null
-    },
-    "lastUpdateDateTime": "2026-01-11T19:17:18.237",
-    "matchIsFinished": false,
-    "matchResults": [
-      {
-        "resultID": 121935,
-        "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
-        "resultOrderID": 1,
-        "resultTypeID": 1,
-        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-      },
-      {
-        "resultID": 121936,
-        "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
-        "resultOrderID": 2,
-        "resultTypeID": 2,
-        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-      }
-    ],
-    "goals": [],
     "location": null,
     "numberOfViewers": null
   },
@@ -13825,10 +13717,54 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-11-05T17:00:11.23",
+    "lastUpdateDateTime": "2026-01-14T19:23:47.12",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 121946,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121947,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 137223,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 25,
+        "goalGetterID": 17308,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137224,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 40,
+        "goalGetterID": 19425,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -14598,6 +14534,114 @@
     "lastUpdateDateTime": "2025-11-05T17:04:34.287",
     "matchIsFinished": false,
     "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 77395,
+    "matchDateTime": "2026-01-27T20:30:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4821,
+    "leagueName": "1. Fußball-Bundesliga 2025/2026",
+    "leagueSeason": 2025,
+    "leagueShortcut": "bl1",
+    "matchDateTimeUTC": "2026-01-27T19:30:00Z",
+    "group": {
+      "groupName": "16. Spieltag",
+      "groupOrderID": 16,
+      "groupID": 47626
+    },
+    "team1": {
+      "teamId": 134,
+      "teamName": "SV Werder Bremen",
+      "shortName": "Bremen",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/681px-SV-Werder-Bremen-Logo.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 175,
+      "teamName": "TSG Hoffenheim",
+      "shortName": "Hoffenheim",
+      "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-01-14T19:01:27.737",
+    "matchIsFinished": false,
+    "matchResults": [
+      {
+        "resultID": 121937,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121938,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 77399,
+    "matchDateTime": "2026-01-27T20:30:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4821,
+    "leagueName": "1. Fußball-Bundesliga 2025/2026",
+    "leagueSeason": 2025,
+    "leagueShortcut": "bl1",
+    "matchDateTimeUTC": "2026-01-27T19:30:00Z",
+    "group": {
+      "groupName": "16. Spieltag",
+      "groupOrderID": 16,
+      "groupID": 47626
+    },
+    "team1": {
+      "teamId": 98,
+      "teamName": "FC St. Pauli",
+      "shortName": "St. Pauli",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 1635,
+      "teamName": "RB Leipzig",
+      "shortName": "Leipzig",
+      "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-01-14T19:01:08.89",
+    "matchIsFinished": false,
+    "matchResults": [
+      {
+        "resultID": 121935,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 121936,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
