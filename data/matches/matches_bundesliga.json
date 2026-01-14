@@ -13862,13 +13862,13 @@
       "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-14T20:34:43.343",
+    "lastUpdateDateTime": "2026-01-14T20:56:34.937",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 121950,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -13877,14 +13877,39 @@
       {
         "resultID": 121951,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 137226,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 22,
+        "goalGetterID": 18327,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137227,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 24,
+        "goalGetterID": 19004,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
