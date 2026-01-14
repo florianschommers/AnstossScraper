@@ -13692,7 +13692,7 @@
   {
     "matchID": 77405,
     "matchDateTime": "2026-01-14T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -13717,8 +13717,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-14T19:23:47.12",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-14T20:26:22.837",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121946,
@@ -13732,7 +13732,7 @@
       {
         "resultID": 121947,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -13758,6 +13758,18 @@
         "scoreTeam2": 1,
         "matchMinute": 40,
         "goalGetterID": 19425,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137225,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 88,
+        "goalGetterID": 23591,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
