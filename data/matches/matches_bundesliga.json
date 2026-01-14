@@ -13887,7 +13887,7 @@
       "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-14T21:23:57.543",
+    "lastUpdateDateTime": "2026-01-14T22:09:00.183",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -13902,8 +13902,8 @@
       {
         "resultID": 121951,
         "resultName": "Endergebnis",
-        "pointsTeam1": 4,
-        "pointsTeam2": 0,
+        "pointsTeam1": 5,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -13957,6 +13957,30 @@
         "isOwnGoal": false,
         "isOvertime": true,
         "comment": null
+      },
+      {
+        "goalID": 137234,
+        "scoreTeam1": 4,
+        "scoreTeam2": 1,
+        "matchMinute": 69,
+        "goalGetterID": 21360,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137235,
+        "scoreTeam1": 5,
+        "scoreTeam2": 1,
+        "matchMinute": 77,
+        "goalGetterID": 23592,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": null,
@@ -13990,7 +14014,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-14T21:28:06.5",
+    "lastUpdateDateTime": "2026-01-14T22:11:06.797",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14006,7 +14030,7 @@
         "resultID": 121953,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14035,6 +14059,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 137236,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 71,
+        "goalGetterID": 23229,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       }
     ],
