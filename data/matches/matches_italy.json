@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-14T21:46:34.479442Z",
+  "lastUpdated": "2026-01-14T21:56:41.744004Z",
   "matches": [
     {
       "matchday": 1,
@@ -1505,16 +1505,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Intermailand",
-      "awayTeam": "Lecce",
-      "dateTime": "2026-01-14T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Sscneapel",
       "awayTeam": "Parma",
       "dateTime": "2026-01-14T18:30:00Z",
@@ -1539,6 +1529,16 @@
       "awayTeam": "Parma",
       "dateTime": "2026-01-14T15:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-01-14T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
