@@ -1,11 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-14T17:04:45.926197Z",
-=======
-  "lastUpdated": "2026-01-14T17:05:42.930049Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-14T17:39:04.949242Z",
   "matches": [
     {
       "matchday": 1,
@@ -1511,11 +1507,11 @@
       "matchday": 16,
       "homeTeam": "Sscneapel",
       "awayTeam": "Parma",
-      "dateTime": "2026-01-14T18:30:00Z",
-      "score": null,
+      "dateTime": "2026-01-14T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 16,
