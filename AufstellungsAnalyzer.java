@@ -184,13 +184,13 @@ public class AufstellungsAnalyzer {
     /**
      * Bestimmt ob das Team Heim- oder Gastteam ist basierend auf der URL
      * 
-     * URL-Format: /bundesliga/2025/34/mainz-leverkusen/aufstellung/
+     * URL-Format: /bundesliga/2025/34/mainz-leverkusen/
      * Erstes Team = Heimteam, Zweites Team = Gastteam
      */
     private static boolean bestimmeTeamPositionAusUrl(String url, String teamName) {
         try {
             // Extrahiere Team-Teil aus URL
-            Pattern urlPattern = Pattern.compile(".*/([^/]*-[^/]*)/aufstellung/");
+            Pattern urlPattern = Pattern.compile(".*/([^/]*-[^/]*)/+$");
             Matcher matcher = urlPattern.matcher(url);
             
             if (matcher.find()) {
