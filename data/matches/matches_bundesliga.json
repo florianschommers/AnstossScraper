@@ -14092,7 +14092,7 @@
   {
     "matchID": 77406,
     "matchDateTime": "2026-01-15T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14117,13 +14117,13 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-15T21:22:49.163",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-15T22:32:03.283",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 121958,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -14133,7 +14133,7 @@
         "resultID": 121959,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14146,6 +14146,18 @@
         "scoreTeam2": 0,
         "matchMinute": 51,
         "goalGetterID": 22999,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 137247,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 92,
+        "goalGetterID": 20496,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
