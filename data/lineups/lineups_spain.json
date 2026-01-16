@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-16T22:59:33.426334",
+  "lastUpdated": "2026-01-16T23:29:09.487564",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Espanyol",
       "awayTeam": "Girona",
-      "dateTime": "2026-01-16T00:00:00Z",
+      "dateTime": "2026-01-16T14:00:00Z",
       "matchday": 20,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1088,6 @@
         },
         {
           "name": "Paulo Gazzaniga",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Levante",
-      "dateTime": "2026-01-17T14:00:00Z",
-      "matchday": 20,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Vinicius Junior",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gonzalo Garcia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Franco Mastantuono",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arda Guler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jorge Cestero Sancho",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Federico Valverde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fran Garcia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dean Huijsen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Raul Asencio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Jimenez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Andriy Lunin",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ivan Romero",
-          "position": "Angriff"
-        },
-        {
-          "name": "Iker Losada",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Alvarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kareem Tunde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Martinez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kervin Arriaga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Diego Pampin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matias Moreno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adrian Dela",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremy Toljan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mathew Ryan",
           "position": "Torwart"
         }
       ]
@@ -1979,6 +1880,105 @@
         },
         {
           "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Espanyol",
+      "awayTeam": "Girona",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Angriff"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovic Taillandier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vladyslav Vanat",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bryan Gil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Thomas Lemar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Tsygankov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arnau Martinez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Moreno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daley Blind",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitor Reis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hugo Rincon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paulo Gazzaniga",
           "position": "Torwart"
         }
       ]
