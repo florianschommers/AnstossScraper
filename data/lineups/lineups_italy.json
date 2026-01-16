@@ -1,12 +1,12 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-16T21:56:29.444152",
+  "lastUpdated": "2026-01-16T22:31:42.527079",
   "lineups": [
     {
       "homeTeam": "Pisa",
       "awayTeam": "Bergamo",
-      "dateTime": "2026-01-16T00:00:00Z",
+      "dateTime": "2026-01-16T15:00:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Udinese",
-      "awayTeam": "Intermailand",
-      "dateTime": "2026-01-17T15:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Keinan Davis",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicolo Zaniolo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jurgen Ekkelenkamp",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jesper Karlstrom",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lennon Miller",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Zanoli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hassane Kamara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oumar Solet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Christian Kabasele",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicolo Bertola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maduka Okoye",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ange-Yoan Bonny",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Thuram",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Augusto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Henrikh Mkhitaryan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Barella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andy Diouf",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Francesco Acerbi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
           "position": "Torwart"
         }
       ]
@@ -986,6 +887,105 @@
         {
           "name": "Jean Butez",
           "position": ""
+        }
+      ]
+    },
+    {
+      "homeTeam": "Pisa",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Henrik Meister",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matteo Tramoni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Stefano Moreo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Angori",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Marin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Idrissa Toure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francesco Coppola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Canestrelli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arturo Calabresi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Scuffet",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicola Zalewski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lorenzo Bernasconi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Pasalic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yunus Musah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Honest Ahanor",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isak Hien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giorgio Scalvini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
         }
       ]
     },
