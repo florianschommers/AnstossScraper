@@ -13655,60 +13655,6 @@
     "numberOfViewers": null
   },
   {
-    "matchID": 77409,
-    "matchDateTime": "2026-01-13T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
-    "leagueId": 4821,
-    "leagueName": "1. Fußball-Bundesliga 2025/2026",
-    "leagueSeason": 2025,
-    "leagueShortcut": "bl1",
-    "matchDateTimeUTC": "2026-01-13T19:30:00Z",
-    "group": {
-      "groupName": "17. Spieltag",
-      "groupOrderID": 17,
-      "groupID": 47627
-    },
-    "team1": {
-      "teamId": 100,
-      "teamName": "Hamburger SV",
-      "shortName": "HSV",
-      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-      "teamGroupName": null
-    },
-    "team2": {
-      "teamId": 6,
-      "teamName": "Bayer 04 Leverkusen",
-      "shortName": "Leverkusen",
-      "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-      "teamGroupName": null
-    },
-    "lastUpdateDateTime": "2026-01-16T15:42:13.917",
-    "matchIsFinished": false,
-    "matchResults": [
-      {
-        "resultID": 122068,
-        "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
-        "resultOrderID": 1,
-        "resultTypeID": 1,
-        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-      },
-      {
-        "resultID": 122069,
-        "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
-        "resultOrderID": 2,
-        "resultTypeID": 2,
-        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-      }
-    ],
-    "goals": [],
-    "location": null,
-    "numberOfViewers": null
-  },
-  {
     "matchID": 77405,
     "matchDateTime": "2026-01-14T18:30:00",
     "timeZoneID": null,
@@ -16496,6 +16442,60 @@
     "lastUpdateDateTime": "2025-12-19T13:36:24.02",
     "matchIsFinished": false,
     "matchResults": [],
+    "goals": [],
+    "location": null,
+    "numberOfViewers": null
+  },
+  {
+    "matchID": 77409,
+    "matchDateTime": "2026-03-04T20:30:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4821,
+    "leagueName": "1. Fußball-Bundesliga 2025/2026",
+    "leagueSeason": 2025,
+    "leagueShortcut": "bl1",
+    "matchDateTimeUTC": "2026-03-04T19:30:00Z",
+    "group": {
+      "groupName": "17. Spieltag",
+      "groupOrderID": 17,
+      "groupID": 47627
+    },
+    "team1": {
+      "teamId": 100,
+      "teamName": "Hamburger SV",
+      "shortName": "HSV",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 6,
+      "teamName": "Bayer 04 Leverkusen",
+      "shortName": "Leverkusen",
+      "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2026-01-16T17:35:09.227",
+    "matchIsFinished": false,
+    "matchResults": [
+      {
+        "resultID": 122068,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 122069,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
