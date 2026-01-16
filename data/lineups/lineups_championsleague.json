@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2026-01-16T20:27:06.529081",
+  "lastUpdated": "2026-01-16T20:49:13.621046",
   "lineups": [
     {
       "homeTeam": "Kairat",
@@ -57,27 +57,27 @@
       ],
       "awayLineup": [
         {
+          "name": "Mamadou Diakhon",
+          "position": "Angriff"
+        },
+        {
           "name": "Romeo Vermant",
           "position": "Angriff"
-        },
-        {
-          "name": "Christos Tzolis",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hans Vanaken",
-          "position": "Mittelfeld"
         },
         {
           "name": "Hugo Vetlesen",
           "position": "Mittelfeld"
         },
         {
-          "name": "Carlos Forbs",
+          "name": "Christos Tzolis",
           "position": "Mittelfeld"
         },
         {
           "name": "Aleksandar Stankovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Vanaken",
           "position": "Mittelfeld"
         },
         {
@@ -807,15 +807,19 @@
           "position": "Angriff"
         },
         {
-          "name": "Maxi Araujo",
+          "name": "Luis Guilherme",
           "position": "Angriff"
         },
         {
-          "name": "Fotis Ioannidis",
+          "name": "Francisco Trincao",
           "position": "Mittelfeld"
         },
         {
-          "name": "Francisco Trincao",
+          "name": "Geny Catamo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hidemasa Morita",
           "position": "Mittelfeld"
         },
         {
@@ -823,23 +827,19 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Morten Hjulmand",
+          "name": "Ivan Fresneda",
           "position": "Mittelfeld"
         },
         {
           "name": "Matheus Reis",
-          "position": "Mittelfeld"
+          "position": "Abwehr"
         },
         {
           "name": "Goncalo Inacio",
           "position": "Abwehr"
         },
         {
-          "name": "Eduardo Quaresma",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ivan Fresneda",
+          "name": "Georgios Vagiannidis",
           "position": "Abwehr"
         },
         {
@@ -849,15 +849,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Bradley Barcola",
-          "position": "Angriff"
-        },
-        {
-          "name": "Goncalo Ramos",
-          "position": "Angriff"
-        },
-        {
           "name": "Khvicha Kvaratskhelia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ousmane Dembele",
+          "position": "Angriff"
+        },
+        {
+          "name": "Desire Doue",
           "position": "Mittelfeld"
         },
         {
@@ -873,15 +873,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Willian Pacho",
+          "name": "Nuno Mendes",
           "position": "Mittelfeld"
         },
         {
-          "name": "Lucas Beraldo",
+          "name": "Willian Pacho",
           "position": "Abwehr"
         },
         {
-          "name": "Ilya Zabarnyi",
+          "name": "Marquinhos",
           "position": "Abwehr"
         },
         {
@@ -1051,15 +1051,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Fares Chaibi",
+          "name": "Nathaniel Brown",
           "position": "Angriff"
         },
         {
-          "name": "Ritsu Doan",
+          "name": "Fares Chaibi",
           "position": "Mittelfeld"
         },
         {
-          "name": "Nathaniel Brown",
+          "name": "Ritsu Doan",
           "position": "Mittelfeld"
         },
         {
@@ -1071,12 +1071,8 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Rasmus Kristensen",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Arthur Theate",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Robin Koch",
@@ -1084,6 +1080,10 @@
         },
         {
           "name": "Nnamdi Collins",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rasmus Kristensen",
           "position": "Abwehr"
         },
         {
@@ -1397,7 +1397,7 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Nikola Krstovic",
+          "name": "Gianluca Scamacca",
           "position": "Angriff"
         },
         {
@@ -1413,7 +1413,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ederson",
+          "name": "Mario Pasalic",
           "position": "Mittelfeld"
         },
         {
@@ -1421,7 +1421,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Davide Zappacosta",
+          "name": "Yunus Musah",
           "position": "Mittelfeld"
         },
         {
@@ -1429,7 +1429,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Berat Djimsiti",
+          "name": "Isak Hien",
           "position": "Abwehr"
         },
         {
