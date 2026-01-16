@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-16T22:18:17.099476Z",
+  "lastUpdated": "2026-01-16T22:42:19.106280Z",
   "matches": [
     {
       "matchday": 1,
@@ -1907,17 +1907,7 @@
       "matchday": 20,
       "homeTeam": "Espanyol",
       "awayTeam": "Girona",
-      "dateTime": "2026-01-16T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 20,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Levante",
-      "dateTime": "2026-01-17T14:00:00Z",
+      "dateTime": "2026-01-16T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2000,6 +1990,16 @@
       "dateTime": "2026-01-19T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Girona",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
