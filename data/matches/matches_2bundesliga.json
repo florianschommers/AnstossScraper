@@ -14095,7 +14095,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-16T19:38:50.563",
+    "lastUpdateDateTime": "2026-01-16T20:08:29.843",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14111,7 +14111,7 @@
         "resultID": 122193,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14124,6 +14124,18 @@
         "scoreTeam2": 1,
         "matchMinute": 41,
         "goalGetterID": 24297,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137638,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 79,
+        "goalGetterID": 16984,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
