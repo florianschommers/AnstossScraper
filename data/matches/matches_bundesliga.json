@@ -14136,7 +14136,7 @@
   {
     "matchID": 77412,
     "matchDateTime": "2026-01-16T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14161,8 +14161,8 @@
       "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-16T21:53:03.943",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-16T22:32:43.693",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122212,
@@ -14176,8 +14176,8 @@
       {
         "resultID": 122213,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 2,
+        "pointsTeam1": 3,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14218,6 +14218,42 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137674,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 78,
+        "goalGetterID": 24753,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137675,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 80,
+        "goalGetterID": 24754,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137676,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": 95,
+        "goalGetterID": 24756,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
