@@ -14012,7 +14012,7 @@
   {
     "matchID": 78102,
     "matchDateTime": "2026-01-16T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14037,8 +14037,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-16T19:36:35.657",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-16T20:30:44.123",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122190,
@@ -14052,14 +14052,27 @@
       {
         "resultID": 122191,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 137641,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1295,
       "locationCity": "Düsseldorf",
@@ -14070,7 +14083,7 @@
   {
     "matchID": 78107,
     "matchDateTime": "2026-01-16T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14095,8 +14108,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1._FC_Magdeburg.svg/210px-1._FC_Magdeburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-16T20:08:29.843",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-16T20:30:28.517",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122192,
@@ -14111,7 +14124,7 @@
         "resultID": 122193,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 2,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14136,6 +14149,18 @@
         "scoreTeam2": 2,
         "matchMinute": 79,
         "goalGetterID": 16984,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137640,
+        "scoreTeam1": 0,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 0,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
