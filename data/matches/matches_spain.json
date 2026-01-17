@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-17T23:27:43.885788Z",
+  "lastUpdated": "2026-01-17T23:42:20.546409Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,9 +1905,9 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Levante",
-      "dateTime": "2026-01-17T14:00:00Z",
+      "homeTeam": "Getafe",
+      "awayTeam": "Valencia",
+      "dateTime": "2026-01-18T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1945,11 +1945,21 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Elche",
-      "awayTeam": "Sevilla",
-      "dateTime": "2026-01-19T21:00:00Z",
+      "homeTeam": "Espanyol",
+      "awayTeam": "Girona",
+      "dateTime": "2026-01-16T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Girona",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1989,16 +1999,6 @@
       "awayTeam": "Villarreal",
       "dateTime": "2026-01-17T15:00:00Z",
       "score": "2:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 20,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Girona",
-      "dateTime": "2026-01-16T15:00:00Z",
-      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

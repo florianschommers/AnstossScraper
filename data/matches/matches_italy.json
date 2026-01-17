@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-17T23:28:00.074796Z",
+  "lastUpdated": "2026-01-17T23:42:44.043407Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,9 +2005,9 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Udinese",
-      "awayTeam": "Intermailand",
-      "dateTime": "2026-01-17T12:30:00Z",
+      "homeTeam": "Parma",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2026-01-18T12:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2045,9 +2045,9 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Hverona",
-      "dateTime": "2026-01-19T18:30:00Z",
+      "homeTeam": "Pisa",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-01-16T18:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2060,6 +2060,16 @@
       "dateTime": "2026-01-19T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Pisa",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2089,16 +2099,6 @@
       "awayTeam": "Juventusturin",
       "dateTime": "2026-01-17T15:00:00Z",
       "score": "1:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "Pisa",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-01-16T15:00:00Z",
-      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

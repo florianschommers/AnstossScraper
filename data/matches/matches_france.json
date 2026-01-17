@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-17T23:28:15.978004Z",
+  "lastUpdated": "2026-01-17T23:43:07.403614Z",
   "matches": [
     {
       "matchday": 1,
@@ -1535,9 +1535,9 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Lens",
-      "awayTeam": "Auxerre",
-      "dateTime": "2026-01-17T15:00:00Z",
+      "homeTeam": "Strassburg",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2026-01-18T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1575,6 +1575,26 @@
     },
     {
       "matchday": 18,
+      "homeTeam": "Monaco",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Psg",
+      "awayTeam": "Lille",
+      "dateTime": "2026-01-16T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
       "homeTeam": "Lens",
       "awayTeam": "Auxerre",
       "dateTime": "2026-01-17T15:00:00Z",
@@ -1599,26 +1619,6 @@
       "awayTeam": "Olmarseille",
       "dateTime": "2026-01-17T15:00:00Z",
       "score": "2:5",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Monaco",
-      "awayTeam": "Lorient",
-      "dateTime": "2026-01-16T15:00:00Z",
-      "score": "1:3",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Psg",
-      "awayTeam": "Lille",
-      "dateTime": "2026-01-16T15:00:00Z",
-      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
