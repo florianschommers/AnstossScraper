@@ -1,107 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-17T22:27:34.709573",
+  "lastUpdated": "2026-01-17T22:57:40.117462",
   "lineups": [
-    {
-      "homeTeam": "Angers",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2026-01-17T00:00:00Z",
-      "matchday": 18,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Prosper Peter",
-          "position": "Angriff"
-        },
-        {
-          "name": "Amine Sbai",
-          "position": "Angriff"
-        },
-        {
-          "name": "Louis Mouton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yassin Belkhdim",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Courcoul",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haris Belkebla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jacques Ekomie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jordan Lefort",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ousmane Camara",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carlens Arcus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Herve Koffi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Amine Gouiri",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hamed Junior Traore",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mason Greenwood",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emerson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pierre-Emile Højbjerg",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bilal Nadir",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothy Weah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Facundo Medina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leonardo Balerdi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Murillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Geronimo Rulli",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Lens",
       "awayTeam": "Auxerre",
@@ -692,6 +593,105 @@
         },
         {
           "name": "Maxime Dupe",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Angers",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "matchday": 18,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Prosper Peter",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amine Sbai",
+          "position": "Angriff"
+        },
+        {
+          "name": "Louis Mouton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassin Belkhdim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Courcoul",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haris Belkebla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacques Ekomie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Lefort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlens Arcus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Herve Koffi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Amine Gouiri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hamed Junior Traore",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emerson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bilal Nadir",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
           "position": "Torwart"
         }
       ]
