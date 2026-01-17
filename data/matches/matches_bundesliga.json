@@ -14694,7 +14694,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T19:44:17.56",
+    "lastUpdateDateTime": "2026-01-17T20:20:55.147",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14710,7 +14710,7 @@
         "resultID": 122234,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam2": 5,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14735,6 +14735,54 @@
         "scoreTeam2": 1,
         "matchMinute": 50,
         "goalGetterID": 16086,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137719,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 67,
+        "goalGetterID": 18898,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137720,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 83,
+        "goalGetterID": 19623,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137721,
+        "scoreTeam1": 1,
+        "scoreTeam2": 4,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137722,
+        "scoreTeam1": 1,
+        "scoreTeam2": 5,
+        "matchMinute": null,
+        "goalGetterID": 0,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
