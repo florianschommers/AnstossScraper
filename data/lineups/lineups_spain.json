@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-17T17:52:14.033290",
+  "lastUpdated": "2026-01-17T18:34:30.335773",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,9 +994,108 @@
       ]
     },
     {
+      "homeTeam": "Osasuna",
+      "awayTeam": "Oviedo",
+      "dateTime": "2026-01-17T00:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Victor Munoz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aimar Oroz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Torro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moi Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Galan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorge Herrando",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Valentin Rosier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Herrera",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Federico Vinas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alberto Reina",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ilyas Chaira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Colombatto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kwasi Sibo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haissem Hassan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rahim Alhassane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oier Luengo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Costas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Ahijado",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Escandell",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Realmadrid",
       "awayTeam": "Levante",
-      "dateTime": "2026-01-17T18:30:00Z",
+      "dateTime": "2026-01-17T21:00:00Z",
       "matchday": 20,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1187,6 @@
         },
         {
           "name": "Mathew Ryan",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Realbetis",
-      "awayTeam": "Villarreal",
-      "dateTime": "2026-01-17T21:00:00Z",
-      "matchday": 20,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Cedric Bakambu",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rodrigo Riquelme",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giovani Lo Celso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antony",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nelson Deossa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergi Altimira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ricardo Rodriguez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Natan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Diego Llorente",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aitor Ruibal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adrian",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Georges Mikautadze",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ayoze Perez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alberto Moleiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dani Parejo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santi Comesana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tajon Buchanan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alfonso Pedraza",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Renato Veiga",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Foyth",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Santiago Mourino",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Luiz Junior",
           "position": "Torwart"
         }
       ]
