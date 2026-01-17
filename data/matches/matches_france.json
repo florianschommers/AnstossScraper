@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-17T17:48:44.858289Z",
+  "lastUpdated": "2026-01-17T17:54:52.076605Z",
   "matches": [
     {
       "matchday": 1,
@@ -1537,16 +1537,6 @@
       "matchday": 18,
       "homeTeam": "Lens",
       "awayTeam": "Auxerre",
-      "dateTime": "2026-01-17T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Toulouse",
-      "awayTeam": "Nizza",
       "dateTime": "2026-01-17T19:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1600,6 +1590,16 @@
       "dateTime": "2026-01-18T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Lens",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
