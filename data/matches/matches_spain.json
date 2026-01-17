@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-17T17:42:52.284323Z",
+=======
+  "lastUpdated": "2026-01-17T17:44:50.891077Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -1905,18 +1909,18 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Levante",
-      "dateTime": "2026-01-17T18:30:00Z",
-      "score": null,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Oviedo",
+      "dateTime": "2026-01-17T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 20,
-      "homeTeam": "Realbetis",
-      "awayTeam": "Villarreal",
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Levante",
       "dateTime": "2026-01-17T21:00:00Z",
       "score": null,
       "isFinished": false,
