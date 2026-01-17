@@ -14263,7 +14263,7 @@
   {
     "matchID": 77410,
     "matchDateTime": "2026-01-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14288,8 +14288,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T17:04:00.72",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-17T17:28:49.027",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122223,
@@ -14303,7 +14303,7 @@
       {
         "resultID": 122224,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
+        "pointsTeam1": 3,
         "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14358,6 +14358,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 137687,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 95,
+        "goalGetterID": 18556,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
       }
     ],
     "location": null,
@@ -14366,7 +14378,7 @@
   {
     "matchID": 77414,
     "matchDateTime": "2026-01-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14391,8 +14403,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T17:09:28.277",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-17T17:26:56.653",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122225,
@@ -14445,7 +14457,7 @@
   {
     "matchID": 77416,
     "matchDateTime": "2026-01-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14470,8 +14482,8 @@
       "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:20:52.3",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-17T17:28:40.287",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122227,
@@ -14512,7 +14524,7 @@
   {
     "matchID": 77417,
     "matchDateTime": "2026-01-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14537,8 +14549,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T17:14:36.223",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-17T17:27:05.07",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122230,
@@ -14603,7 +14615,7 @@
   {
     "matchID": 77418,
     "matchDateTime": "2026-01-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14628,8 +14640,8 @@
       "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:21:14.913",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-17T17:28:57.103",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122229,
