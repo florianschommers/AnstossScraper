@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-17T18:49:58.969087Z",
+  "lastUpdated": "2026-01-17T18:59:07.747227Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,16 +2005,6 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-17T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Udinese",
       "awayTeam": "Intermailand",
       "dateTime": "2026-01-17T20:45:00Z",
@@ -2089,6 +2079,16 @@
       "awayTeam": "Intermailand",
       "dateTime": "2026-01-17T15:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
