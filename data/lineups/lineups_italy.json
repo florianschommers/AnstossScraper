@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-17T16:57:32.786997",
+  "lastUpdated": "2026-01-17T17:26:04.745278",
   "lineups": [
+    {
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-01-17T00:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Rasmus Hojlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Antonio Vergara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stanislav Lobotka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Jesus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Rrahmani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Beukema",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanja Milinkovic-Savic",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Armand Lauriente",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andrea Pinamonti",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alieu Fadera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aster Vranckx",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Lipani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Idzes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Walukiewicz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arijanet Muric",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Udinese",
       "awayTeam": "Intermailand",
-      "dateTime": "2026-01-17T18:00:00Z",
+      "dateTime": "2026-01-17T20:45:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Cagliari",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2026-01-17T20:45:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Sebastiano Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Semih Kilicsoy",
-          "position": "Angriff"
-        },
-        {
-          "name": "Zito Luvumbo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Mazzitelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Prati",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Adopo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adam Obert",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Rodriguez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastiano Luperto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Palestra",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Elia Caprile",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jonathan David",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fabio Miretti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Khephren Thuram",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manuel Locatelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrea Cambiaso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bremer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michele Di Gregorio",
           "position": "Torwart"
         }
       ]
@@ -1401,7 +1401,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ismael Kone",
+          "name": "Aster Vranckx",
           "position": "Mittelfeld"
         },
         {
@@ -1736,15 +1736,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Noa Lang",
+          "name": "Eljif Elmas",
           "position": "Angriff"
         },
         {
-          "name": "Matteo Politano",
+          "name": "Antonio Vergara",
           "position": "Mittelfeld"
         },
         {
-          "name": "Mathias Olivera",
+          "name": "Leonardo Spinazzola",
           "position": "Mittelfeld"
         },
         {
@@ -1756,11 +1756,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Pasquale Mazzocchi",
+          "name": "Giovanni Di Lorenzo",
           "position": "Mittelfeld"
         },
         {
-          "name": "Alessandro Buongiorno",
+          "name": "Juan Jesus",
           "position": "Abwehr"
         },
         {
@@ -1768,7 +1768,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Giovanni Di Lorenzo",
+          "name": "Sam Beukema",
           "position": "Abwehr"
         },
         {
