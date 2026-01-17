@@ -14694,7 +14694,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T19:20:04.803",
+    "lastUpdateDateTime": "2026-01-17T19:44:17.56",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14710,7 +14710,7 @@
         "resultID": 122234,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14723,6 +14723,18 @@
         "scoreTeam2": 0,
         "matchMinute": 20,
         "goalGetterID": 7906,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137718,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 50,
+        "goalGetterID": 16086,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
