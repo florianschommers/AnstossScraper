@@ -14288,7 +14288,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:45:07.53",
+    "lastUpdateDateTime": "2026-01-17T17:04:00.72",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14304,7 +14304,7 @@
         "resultID": 122224,
         "resultName": "Endergebnis",
         "pointsTeam1": 2,
-        "pointsTeam2": 0,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14329,6 +14329,30 @@
         "scoreTeam2": 0,
         "matchMinute": 54,
         "goalGetterID": 19423,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137683,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 62,
+        "goalGetterID": 24174,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137684,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 72,
+        "goalGetterID": 24350,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -14367,7 +14391,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:20:49.363",
+    "lastUpdateDateTime": "2026-01-17T17:09:28.277",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14382,7 +14406,7 @@
       {
         "resultID": 122226,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14400,6 +14424,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 137685,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 81,
+        "goalGetterID": 18405,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       }
     ],
@@ -14501,7 +14537,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:45:43.107",
+    "lastUpdateDateTime": "2026-01-17T17:14:36.223",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14516,7 +14552,7 @@
       {
         "resultID": 122231,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14541,6 +14577,18 @@
         "scoreTeam1": 1,
         "scoreTeam2": 1,
         "matchMinute": 57,
+        "goalGetterID": 18787,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137686,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 86,
         "goalGetterID": 18787,
         "goalGetterName": "",
         "isPenalty": false,
