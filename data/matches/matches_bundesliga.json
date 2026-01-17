@@ -14669,7 +14669,7 @@
   {
     "matchID": 77411,
     "matchDateTime": "2026-01-17T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14694,8 +14694,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T20:20:55.147",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-17T20:28:42.213",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122233,
@@ -14769,8 +14769,8 @@
         "goalID": 137721,
         "scoreTeam1": 1,
         "scoreTeam2": 4,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 85,
+        "goalGetterID": 24759,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -14781,8 +14781,8 @@
         "goalID": 137722,
         "scoreTeam1": 1,
         "scoreTeam2": 5,
-        "matchMinute": null,
-        "goalGetterID": 0,
+        "matchMinute": 88,
+        "goalGetterID": 23135,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
