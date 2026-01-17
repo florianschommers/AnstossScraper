@@ -1,12 +1,111 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-17T18:36:03.260345",
+  "lastUpdated": "2026-01-17T19:03:28.912597",
   "lineups": [
+    {
+      "homeTeam": "Toulouse",
+      "awayTeam": "Nizza",
+      "dateTime": "2026-01-17T00:00:00Z",
+      "matchday": 18,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Yann Gboho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Frank Magri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Santiago Hidalgo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aron Dønnum",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Demba Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Vossah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafik Messali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Djibril Sidibe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Isak Jansson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Elye Wahi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tom Louchet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Sanson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Everton Pereira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tanguy Ndombele",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Melvin Bard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brad Hamilton Mantsounga Makouangou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juma Bah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxime Dupe",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Lens",
       "awayTeam": "Auxerre",
-      "dateTime": "2026-01-17T19:00:00Z",
+      "dateTime": "2026-01-17T21:05:00Z",
       "matchday": 18,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Donovan Leon",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Angers",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2026-01-17T21:05:00Z",
-      "matchday": 18,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Prosper Peter",
-          "position": "Angriff"
-        },
-        {
-          "name": "Amine Sbai",
-          "position": "Angriff"
-        },
-        {
-          "name": "Louis Mouton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yassin Belkhdim",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pierrick Capelle",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haris Belkebla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jacques Ekomie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jordan Lefort",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emmanuel Biumla",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lilian Raolisoa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Oumar Pona",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Amine Gouiri",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hamed Junior Traore",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matt O&#039;Riley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mason Greenwood",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Angel Gomes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bilal Nadir",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emerson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Facundo Medina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Benjamin Pavard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Murillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeffrey de Lange",
           "position": "Torwart"
         }
       ]
@@ -1344,7 +1344,7 @@
       ],
       "awayLineup": [
         {
-          "name": "Sofiane Diop",
+          "name": "Isak Jansson",
           "position": "Angriff"
         },
         {
@@ -1356,15 +1356,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Tanguy Ndombele",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Charles Vanhoutte",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Morgan Sanson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Everton Pereira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tanguy Ndombele",
           "position": "Mittelfeld"
         },
         {
@@ -1542,19 +1542,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Santiago Hidalgo",
-          "position": "Angriff"
-        },
-        {
           "name": "Yann Gboho",
           "position": "Angriff"
         },
         {
-          "name": "Noah Edjouma",
+          "name": "Frank Magri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Santiago Hidalgo",
           "position": "Mittelfeld"
         },
         {
-          "name": "Julian Vignolo",
+          "name": "Aron Dønnum",
           "position": "Mittelfeld"
         },
         {
@@ -1562,7 +1562,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Mario Sauer",
+          "name": "Alexis Vossah",
           "position": "Mittelfeld"
         },
         {
@@ -1570,7 +1570,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Mark McKenzie",
+          "name": "Rasmus Nicolaisen",
           "position": "Abwehr"
         },
         {
@@ -1578,11 +1578,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Seny Koumbassa",
+          "name": "Djibril Sidibe",
           "position": "Abwehr"
         },
         {
-          "name": "Kjetil Haug",
+          "name": "Guillaume Restes",
           "position": "Torwart"
         }
       ]
