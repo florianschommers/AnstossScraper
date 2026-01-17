@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-17T14:55:56.593005",
+  "lastUpdated": "2026-01-17T15:29:24.570066",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Realmadrid",
       "awayTeam": "Levante",
-      "dateTime": "2026-01-17T00:00:00Z",
+      "dateTime": "2026-01-17T16:15:00Z",
       "matchday": 20,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1088,6 @@
         },
         {
           "name": "Mathew Ryan",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Mallorca",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2026-01-17T16:15:00Z",
-      "matchday": 20,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Vedat Muriqi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jan Virgili",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sergi Darder",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mateo Joseph",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samu Costa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Omar Mascarell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toni Lato",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marash Kumbulla",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Martin Valjent",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mateu Morey",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leo Roman",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gorka Guruzeta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Williams",
-          "position": "Angriff"
-        },
-        {
-          "name": "Unai Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Berenguer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikel Jauregizar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Inigo Ruiz de Galarreta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yuri Berchiche",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aitor Paredes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dani Vivian",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jesus Areso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Simon",
           "position": "Torwart"
         }
       ]
@@ -1885,6 +1786,105 @@
       ]
     },
     {
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Levante",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gonzalo Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eduardo Camavinga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alvaro Carreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Karl Etta Eyong",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Alvarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kareem Tunde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Martinez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai Vencedor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Sanchez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alan Matturro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian Dela",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Espanyol",
       "awayTeam": "Girona",
       "dateTime": "2026-01-16T15:00:00Z",
@@ -2334,15 +2334,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Oihan Sancet",
-          "position": "Angriff"
-        },
-        {
           "name": "Gorka Guruzeta",
           "position": "Angriff"
         },
         {
           "name": "Nico Williams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Unai Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Berenguer",
           "position": "Mittelfeld"
         },
         {
@@ -2354,11 +2358,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Inaki Williams",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Inigo Lekue",
+          "name": "Yuri Berchiche",
           "position": "Mittelfeld"
         },
         {
@@ -2370,11 +2370,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Andoni Gorosabel",
+          "name": "Jesus Areso",
           "position": "Abwehr"
         },
         {
-          "name": "Alex Padilla",
+          "name": "Unai Simon",
           "position": "Torwart"
         }
       ]
@@ -2540,11 +2540,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Toni Lato",
+          "name": "Sergi Darder",
           "position": "Mittelfeld"
         },
         {
-          "name": "Omar Mascarell",
+          "name": "Mateo Joseph",
           "position": "Mittelfeld"
         },
         {
@@ -2552,11 +2552,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Antonio Sanchez",
+          "name": "Omar Mascarell",
           "position": "Mittelfeld"
         },
         {
-          "name": "Johan Mojica",
+          "name": "Toni Lato",
           "position": "Mittelfeld"
         },
         {
@@ -2568,7 +2568,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Pablo Maffeo",
+          "name": "Mateu Morey",
           "position": "Abwehr"
         },
         {
