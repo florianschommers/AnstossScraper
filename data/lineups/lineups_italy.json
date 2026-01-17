@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-17T19:51:00.540874",
+  "lastUpdated": "2026-01-17T20:28:47.224358",
   "lineups": [
+    {
+      "homeTeam": "Cagliari",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-01-17T00:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Semih Kilicsoy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Mazzitelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gianluca Gaetano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ze Pedro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fabio Miretti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mattia Perin",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Udinese",
       "awayTeam": "Intermailand",
-      "dateTime": "2026-01-17T20:45:00Z",
+      "dateTime": "2026-01-17T12:30:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Pisa",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-01-16T12:30:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Henrik Meister",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Tramoni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Stefano Moreo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuele Angori",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Aebischer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Marin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Idrissa Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Francesco Coppola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Canestrelli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arturo Calabresi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Scuffet",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicola Zalewski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mario Pasalic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yunus Musah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Honest Ahanor",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Isak Hien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giorgio Scalvini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
           "position": "Torwart"
         }
       ]
@@ -1237,15 +1237,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Sebastiano Esposito",
-          "position": "Angriff"
-        },
-        {
           "name": "Semih Kilicsoy",
           "position": "Angriff"
         },
         {
-          "name": "Zito Luvumbo",
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
           "position": "Mittelfeld"
         },
         {
@@ -1253,27 +1253,27 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Matteo Prati",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Michel Adopo",
           "position": "Mittelfeld"
         },
         {
-          "name": "Adam Obert",
+          "name": "Gianluca Gaetano",
           "position": "Mittelfeld"
         },
         {
-          "name": "Juan Rodriguez",
-          "position": "Abwehr"
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
         },
         {
           "name": "Sebastiano Luperto",
           "position": "Abwehr"
         },
         {
-          "name": "Marco Palestra",
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ze Pedro",
           "position": "Abwehr"
         },
         {
@@ -1702,7 +1702,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Khephren Thuram",
+          "name": "Teun Koopmeiners",
           "position": "Mittelfeld"
         },
         {
@@ -1726,7 +1726,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Michele Di Gregorio",
+          "name": "Mattia Perin",
           "position": "Torwart"
         }
       ],
