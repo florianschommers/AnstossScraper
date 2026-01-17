@@ -14288,7 +14288,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:20:47.11",
+    "lastUpdateDateTime": "2026-01-17T16:45:07.53",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14303,7 +14303,7 @@
       {
         "resultID": 122224,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14321,6 +14321,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 137681,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 54,
+        "goalGetterID": 19423,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       }
     ],
@@ -14489,7 +14501,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/1200px-Logo_Mainz_05.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-17T16:20:54.287",
+    "lastUpdateDateTime": "2026-01-17T16:45:43.107",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14504,7 +14516,7 @@
       {
         "resultID": 122231,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14518,6 +14530,18 @@
         "scoreTeam2": 1,
         "matchMinute": 29,
         "goalGetterID": 16117,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137682,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 57,
+        "goalGetterID": 18787,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
