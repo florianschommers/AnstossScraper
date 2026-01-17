@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-17T14:17:19.443044Z",
+  "lastUpdated": "2026-01-17T14:37:47.100931Z",
   "matches": [
     {
       "matchday": 1,
@@ -2107,16 +2107,6 @@
       "matchday": 22,
       "homeTeam": "Manunited",
       "awayTeam": "Manchester City",
-      "dateTime": "2026-01-17T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Leedsunited",
-      "awayTeam": "Fulham",
       "dateTime": "2026-01-17T16:00:00Z",
       "score": null,
       "isFinished": false,
@@ -2200,6 +2190,16 @@
       "dateTime": "2026-01-19T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Manunited",
+      "awayTeam": "Manchester City",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
