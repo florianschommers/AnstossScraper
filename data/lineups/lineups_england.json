@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-17T19:49:10.296628",
+  "lastUpdated": "2026-01-17T20:27:15.820182",
   "lineups": [
-    {
-      "homeTeam": "Nottingham",
-      "awayTeam": "Arsenal",
-      "dateTime": "2026-01-17T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Igor Jesus",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicolas Dominguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Morgan Gibbs-White",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Callum Hudson-Odoi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Elliot Anderson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ibrahim Sangare",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Neco Williams",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Murillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nikola Milenkovic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ola Aina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matz Sels",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gabriel Martinelli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Viktor Gyokeres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Noni Madueke",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Declan Rice",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Zubimendi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Odegaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jurrien Timber",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gabriel Magalhaes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "William Saliba",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ben White",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Raya",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Manunited",
       "awayTeam": "Manchester City",
@@ -989,6 +890,105 @@
         },
         {
           "name": "Alphonse Areola",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nottingham",
+      "awayTeam": "Arsenal",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Igor Jesus",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolas Dominguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Morgan Gibbs-White",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Callum Hudson-Odoi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Neco Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Milenkovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ola Aina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matz Sels",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gabriel Martinelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Viktor Gyokeres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Odegaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Magalhaes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Saliba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ben White",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raya",
           "position": "Torwart"
         }
       ]
