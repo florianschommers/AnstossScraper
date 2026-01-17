@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-17T19:02:49.796759",
+  "lastUpdated": "2026-01-17T19:25:47.766684",
   "lineups": [
-    {
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-17T00:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Antonio Vergara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leonardo Spinazzola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stanislav Lobotka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Jesus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Rrahmani",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sam Beukema",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanja Milinkovic-Savic",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Armand Lauriente",
-          "position": "Angriff"
-        },
-        {
-          "name": "Andrea Pinamonti",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alieu Fadera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aster Vranckx",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nemanja Matic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Lipani",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Josh Doig",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tarik Muharemovic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jay Idzes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastian Walukiewicz",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arijanet Muric",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Udinese",
       "awayTeam": "Intermailand",
@@ -886,6 +787,105 @@
         },
         {
           "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-01-17T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Rasmus Hojlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Antonio Vergara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stanislav Lobotka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Jesus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Rrahmani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sam Beukema",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanja Milinkovic-Savic",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Armand Lauriente",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andrea Pinamonti",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alieu Fadera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aster Vranckx",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Lipani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Idzes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Walukiewicz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arijanet Muric",
           "position": "Torwart"
         }
       ]
