@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-18T20:31:01.058562",
+  "lastUpdated": "2026-01-18T20:55:26.443037",
   "lineups": [
     {
       "homeTeam": "Auxerre",
@@ -605,12 +605,16 @@
       "phase": "",
       "homeLineup": [
         {
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        },
+        {
           "name": "Remy Labeau Lascary",
           "position": "Angriff"
         },
         {
-          "name": "Ludovic Ajorque",
-          "position": "Angriff"
+          "name": "Lucas Tousart",
+          "position": "Mittelfeld"
         },
         {
           "name": "Romain Del Castillo",
@@ -618,10 +622,6 @@
         },
         {
           "name": "Hugo Magnetti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucas Tousart",
           "position": "Mittelfeld"
         },
         {
@@ -750,11 +750,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Afonso Moreira",
+          "name": "Endrick",
           "position": "Angriff"
         },
         {
-          "name": "Endrick",
+          "name": "Afonso Moreira",
           "position": "Angriff"
         },
         {
@@ -762,7 +762,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Tanner Tessmann",
+          "name": "Abner",
           "position": "Mittelfeld"
         },
         {
@@ -770,7 +770,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Abner",
+          "name": "Tanner Tessmann",
           "position": "Mittelfeld"
         },
         {
