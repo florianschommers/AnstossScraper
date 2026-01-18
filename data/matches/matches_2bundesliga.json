@@ -14521,7 +14521,7 @@
   {
     "matchID": 78100,
     "matchDateTime": "2026-01-18T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14546,8 +14546,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T15:00:10.353",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-18T15:26:10.227",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122262,
@@ -14629,8 +14629,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T15:00:18.397",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-18T15:30:46.723",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122264,
@@ -14644,7 +14644,7 @@
       {
         "resultID": 122265,
         "resultName": "Endergebnis",
-        "pointsTeam1": 2,
+        "pointsTeam1": 3,
         "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14711,6 +14711,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 137760,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
@@ -14723,7 +14735,7 @@
   {
     "matchID": 78103,
     "matchDateTime": "2026-01-18T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14748,8 +14760,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T15:11:03.587",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-18T15:24:38.053",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122266,
@@ -14763,7 +14775,7 @@
       {
         "resultID": 122267,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 3,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14786,6 +14798,30 @@
       {
         "goalID": 137759,
         "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137761,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137762,
+        "scoreTeam1": 3,
         "scoreTeam2": 1,
         "matchMinute": null,
         "goalGetterID": 0,
