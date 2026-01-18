@@ -1,206 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-18T18:32:23.319619",
+  "lastUpdated": "2026-01-18T19:04:17.555145",
   "lineups": [
-    {
-      "homeTeam": "Nantes",
-      "awayTeam": "Parisfc",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "matchday": 18,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Remy Cabella",
-          "position": "Angriff"
-        },
-        {
-          "name": "Youssef El Arabi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matthis Abline",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Deiver Machado",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Junior Mwanga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Francis Coquelin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kelvin Amian",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Cozza",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tylel Tati",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ibrahima Sissoko",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Anthony Lopes",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jean-Philippe Krasso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alimami Gory",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adama Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Maxime Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilan Kebbal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nhoa Sangui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Otavio",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothee Kolodziejczak",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Moustapha Mbow",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hamari Traore",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Trapp",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Rennes",
-      "awayTeam": "Aclehavre",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "matchday": 18,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Esteban Lepaul",
-          "position": "Angriff"
-        },
-        {
-          "name": "Breel Embolo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mousa Tamari",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Quentin Merlin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mahdi Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Przemyslaw Frankowski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Valentin Rongier",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lilian Brassier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Anthony Rouault",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alidu Seidu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Brice Samba",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Kenny Quetant",
-          "position": "Angriff"
-        },
-        {
-          "name": "Issa Soumare",
-          "position": "Angriff"
-        },
-        {
-          "name": "Felix Mambimbi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yanis Zouaoui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rassoul Ndiaye",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Simon Ebonog",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Loic Nego",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gautier Lloris",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ayumu Seko",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arouna Sangante",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lionel Mpasi-Nzau",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Strassburg",
       "awayTeam": "Fcmetz",
@@ -395,6 +197,204 @@
         },
         {
           "name": "Jonathan Fischer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nantes",
+      "awayTeam": "Parisfc",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "matchday": 18,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Remy Cabella",
+          "position": "Angriff"
+        },
+        {
+          "name": "Youssef El Arabi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matthis Abline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Deiver Machado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Mwanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francis Coquelin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kelvin Amian",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Cozza",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tylel Tati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Sissoko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Lopes",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jean-Philippe Krasso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alimami Gory",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adama Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nhoa Sangui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Otavio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothee Kolodziejczak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moustapha Mbow",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hamari Traore",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Rennes",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "matchday": 18,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Esteban Lepaul",
+          "position": "Angriff"
+        },
+        {
+          "name": "Breel Embolo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mousa Tamari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quentin Merlin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahdi Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Przemyslaw Frankowski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Rongier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Rouault",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alidu Seidu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brice Samba",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kenny Quetant",
+          "position": "Angriff"
+        },
+        {
+          "name": "Issa Soumare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Felix Mambimbi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanis Zouaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rassoul Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Ebonog",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loic Nego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gautier Lloris",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lionel Mpasi-Nzau",
           "position": "Torwart"
         }
       ]
