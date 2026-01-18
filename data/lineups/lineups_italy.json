@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-18T19:03:30.222381",
+  "lastUpdated": "2026-01-18T19:26:23.206781",
   "lineups": [
-    {
-      "homeTeam": "Turin",
-      "awayTeam": "Asrom",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Cyril Ngonge",
-          "position": "Angriff"
-        },
-        {
-          "name": "Che Adams",
-          "position": "Angriff"
-        },
-        {
-          "name": "Zakaria Aboukhlal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gvidas Gineitis",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nikola Vlasic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Valentino Lazaro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emirhan Ilkhan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Saul Coco",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ardian Ismajli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adrien Tameze",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alberto Paleari",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Donyell Malen",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lorenzo Pellegrini",
-          "position": "Angriff"
-        },
-        {
-          "name": "Paulo Dybala",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Wesley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Kone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bryan Cristante",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Devyne Rensch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mario Hermoso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Evan Ndicka",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Gianluca Mancini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mile Svilar",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Parma",
       "awayTeam": "Cfcgenua",
@@ -589,6 +490,105 @@
         },
         {
           "name": "David de Gea",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Turin",
+      "awayTeam": "Asrom",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Cyril Ngonge",
+          "position": "Angriff"
+        },
+        {
+          "name": "Che Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Zakaria Aboukhlal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gvidas Gineitis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Vlasic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentino Lazaro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emirhan Ilkhan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saul Coco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ardian Ismajli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrien Tameze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alberto Paleari",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Donyell Malen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lorenzo Pellegrini",
+          "position": "Angriff"
+        },
+        {
+          "name": "Paulo Dybala",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wesley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Kone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Cristante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Devyne Rensch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Hermoso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Evan Ndicka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluca Mancini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mile Svilar",
           "position": "Torwart"
         }
       ]
