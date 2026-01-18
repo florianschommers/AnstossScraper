@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-18T18:29:51.535067Z",
+  "lastUpdated": "2026-01-18T18:48:24.339170Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Everton",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Wolverhampton",
       "awayTeam": "Newcastle",
       "dateTime": "2026-01-18T21:00:00Z",
@@ -2129,6 +2119,16 @@
       "awayTeam": "Newcastle",
       "dateTime": "2026-01-18T15:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Astonvilla",
+      "awayTeam": "Everton",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
