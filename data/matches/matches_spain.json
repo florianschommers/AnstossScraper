@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-18T19:35:47.150994Z",
+=======
+  "lastUpdated": "2026-01-18T19:36:54.718183Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -1905,6 +1909,7 @@
     },
     {
       "matchday": 20,
+<<<<<<< Updated upstream
       "homeTeam": "Celtavigo",
       "awayTeam": "Vallecano",
       "dateTime": "2026-01-18T00:00:00Z",
@@ -1915,6 +1920,8 @@
     },
     {
       "matchday": 20,
+=======
+>>>>>>> Stashed changes
       "homeTeam": "Getafe",
       "awayTeam": "Valencia",
       "dateTime": "2026-01-18T21:00:00Z",
@@ -1949,6 +1956,16 @@
       "awayTeam": "Alaves",
       "dateTime": "2026-01-18T15:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Vallecano",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
