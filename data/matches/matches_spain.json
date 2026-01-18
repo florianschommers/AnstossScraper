@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-18T15:11:36.081135Z",
+  "lastUpdated": "2026-01-18T15:32:35.791538Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,28 +1905,18 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Getafe",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Atlmadrid",
       "awayTeam": "Alaves",
-      "dateTime": "2026-01-18T16:15:00Z",
-      "score": null,
+      "dateTime": "2026-01-18T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 20,
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Vallecano",
+      "homeTeam": "Getafe",
+      "awayTeam": "Valencia",
       "dateTime": "2026-01-18T18:30:00Z",
       "score": null,
       "isFinished": false,
@@ -1950,6 +1940,16 @@
       "dateTime": "2026-01-16T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Getafe",
+      "awayTeam": "Valencia",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
