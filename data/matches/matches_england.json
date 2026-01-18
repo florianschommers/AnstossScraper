@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-18T22:58:42.446863Z",
+  "lastUpdated": "2026-01-18T23:25:11.266727Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,31 +2105,11 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "Newcastle",
-      "dateTime": "2026-01-18T21:00:00Z",
+      "homeTeam": "Brighton & Hove Albion",
+      "awayTeam": "AFC Bournemouth",
+      "dateTime": "2026-01-19T21:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "Newcastle",
-      "dateTime": "2026-01-18T15:00:00Z",
-      "score": "0:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Everton",
-      "dateTime": "2026-01-18T15:00:00Z",
-      "score": "0:1",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2199,6 +2179,26 @@
       "awayTeam": "Arsenal",
       "dateTime": "2026-01-17T15:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Wolverhampton",
+      "awayTeam": "Newcastle",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Astonvilla",
+      "awayTeam": "Everton",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "0:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
