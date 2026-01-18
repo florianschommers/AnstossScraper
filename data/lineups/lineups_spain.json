@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-18T20:29:37.888779",
+  "lastUpdated": "2026-01-18T20:54:09.185087",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,6 +994,105 @@
       ]
     },
     {
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2026-01-18T00:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Brais Mendez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Goncalo Guedes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benat Turrientes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Zubeldia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Aramburu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Remiro",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dani Olmo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fermin Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Garcia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jules Kounde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Getafe",
       "awayTeam": "Valencia",
       "dateTime": "2026-01-18T21:00:00Z",
@@ -1088,105 +1187,6 @@
         },
         {
           "name": "Stole Dimitrievski",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Espanyol",
-      "awayTeam": "Girona",
-      "dateTime": "2026-01-16T21:00:00Z",
-      "matchday": 20,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Roberto Fernandez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pere Milla",
-          "position": "Angriff"
-        },
-        {
-          "name": "Edu Exposito",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tyrhys Dolan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pol Lozano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Urko Gonzalez de Zarate",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Romero",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ludovic Taillandier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Fernando Calero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Omar El Hilali",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Iori",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vladyslav Vanat",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bryan Gil",
-          "position": "Angriff"
-        },
-        {
-          "name": "Thomas Lemar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Viktor Tsygankov",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arnau Martinez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ivan Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Moreno",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daley Blind",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vitor Reis",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hugo Rincon",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Paulo Gazzaniga",
           "position": "Torwart"
         }
       ]
@@ -2585,27 +2585,27 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Marcus Rashford",
+          "name": "Ferran Torres",
           "position": "Angriff"
         },
         {
-          "name": "Ferran Torres",
+          "name": "Dani Olmo",
           "position": "Angriff"
+        },
+        {
+          "name": "Fermin Lopez",
+          "position": "Mittelfeld"
         },
         {
           "name": "Lamine Yamal",
           "position": "Mittelfeld"
         },
         {
-          "name": "Marc Casado",
+          "name": "Pedri",
           "position": "Mittelfeld"
         },
         {
-          "name": "Marc Bernal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dani Olmo",
+          "name": "Frenkie de Jong",
           "position": "Mittelfeld"
         },
         {
@@ -2613,7 +2613,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Gerard Martin",
+          "name": "Eric Garcia",
           "position": "Abwehr"
         },
         {
@@ -2688,19 +2688,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Ander Barrenetxea",
+          "name": "Brais Mendez",
           "position": "Angriff"
         },
         {
-          "name": "Luka Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Takefusa Kubo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Gorrotxategi",
+          "name": "Goncalo Guedes",
           "position": "Mittelfeld"
         },
         {
@@ -2708,15 +2700,23 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Benat Turrientes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Sergio Gomez",
           "position": "Mittelfeld"
         },
         {
-          "name": "Duje Caleta-Car",
+          "name": "Igor Zubeldia",
           "position": "Abwehr"
         },
         {
-          "name": "Igor Zubeldia",
+          "name": "Jon Martin",
           "position": "Abwehr"
         },
         {
@@ -2724,7 +2724,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Unai Marrero",
+          "name": "Alex Remiro",
           "position": "Torwart"
         }
       ],
