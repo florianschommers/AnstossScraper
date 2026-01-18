@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-18T19:46:23.058441",
+  "lastUpdated": "2026-01-18T20:29:37.888779",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Vallecano",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "matchday": 20,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Bryan Zaragoza",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pablo Duran",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hugo Alvarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergio Carreira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hugo Sotelo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilaix Moriba",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oscar Mingueza",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marcos Alonso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carl Starfelt",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Javi Rodriguez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ionut Radu",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Alvaro Garcia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jorge de Frutos",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gerard Gumbau",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedro Diaz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Isi Palazon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pep Chavarria",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nobel Mendy",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Florian Lejeune",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Luis Alfonso Espino Garcia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Augusto Batalla",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Getafe",
       "awayTeam": "Valencia",
       "dateTime": "2026-01-18T21:00:00Z",
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Vallecano",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Duran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Alvarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Carreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Sotelo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alvaro Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jorge de Frutos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Gumbau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Diaz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isi Palazon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pep Chavarria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luis Alfonso Espino Garcia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Augusto Batalla",
           "position": "Torwart"
         }
       ]
