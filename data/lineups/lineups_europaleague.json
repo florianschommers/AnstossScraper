@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-18T18:27:13.268508",
+  "lastUpdated": "2026-01-18T18:57:39.184788",
   "lineups": [
     {
       "homeTeam": "Freiburg",
@@ -57,19 +57,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Kervin Andrade",
-          "position": "Angriff"
-        },
-        {
           "name": "Elad Madmon",
           "position": "Angriff"
         },
         {
-          "name": "Osher Davida",
-          "position": "Mittelfeld"
+          "name": "Helio Varela",
+          "position": "Angriff"
         },
         {
-          "name": "Helio Varela",
+          "name": "Kervin Andrade",
           "position": "Mittelfeld"
         },
         {
@@ -81,15 +77,19 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Roy Revivo",
+          "name": "Osher Davida",
           "position": "Mittelfeld"
         },
         {
-          "name": "Raz Shlomo",
-          "position": "Abwehr"
+          "name": "Noam Ben Harush",
+          "position": "Mittelfeld"
         },
         {
           "name": "Itay Ben Hamo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Camara",
           "position": "Abwehr"
         },
         {
@@ -617,11 +617,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Soualiho Meite",
+          "name": "Christos Zafeiris",
           "position": "Mittelfeld"
         },
         {
-          "name": "Christos Zafeiris",
+          "name": "Soualiho Meite",
           "position": "Mittelfeld"
         },
         {
@@ -1591,27 +1591,15 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Fran Navarro",
-          "position": "Angriff"
-        },
-        {
           "name": "Ricardo Horta",
           "position": "Angriff"
         },
         {
-          "name": "Gabriel Moscardo",
-          "position": "Mittelfeld"
+          "name": "Pau Victor",
+          "position": "Angriff"
         },
         {
-          "name": "Mario Dorgeles",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gorby",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Florian Grillitsch",
+          "name": "Rodrigo Zalazar",
           "position": "Mittelfeld"
         },
         {
@@ -1619,19 +1607,31 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Bright Arrey-Mbi",
+          "name": "Florian Grillitsch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Moutinho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Dorgeles",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sikou Niakate",
           "position": "Abwehr"
         },
         {
-          "name": "Paulo Oliveira",
+          "name": "Vitor Carvalho",
           "position": "Abwehr"
         },
         {
-          "name": "Victor Gomez",
+          "name": "Gustaf Lagerbielke",
           "position": "Abwehr"
         },
         {
-          "name": "Tiago Sa",
+          "name": "Lukas Hornicek",
           "position": "Torwart"
         }
       ],
