@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-18T18:25:27.524881Z",
+  "lastUpdated": "2026-01-18T18:30:46.937959Z",
   "matches": [
     {
       "matchday": 1,
@@ -1535,26 +1535,6 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Nantes",
-      "awayTeam": "Parisfc",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 18,
-      "homeTeam": "Rennes",
-      "awayTeam": "Aclehavre",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 18,
       "homeTeam": "Strassburg",
       "awayTeam": "Fcmetz",
       "dateTime": "2026-01-18T20:45:00Z",
@@ -1569,6 +1549,26 @@
       "awayTeam": "Fcmetz",
       "dateTime": "2026-01-18T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Nantes",
+      "awayTeam": "Parisfc",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Rennes",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
