@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-18T19:47:03.882398",
+  "lastUpdated": "2026-01-18T20:30:27.422198",
   "lineups": [
+    {
+      "homeTeam": "Acmailand",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-01-18T00:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Rafael Leao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Christian Pulisic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pervis Estupinan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ardon Jashari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Ricci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koni De Winter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matteo Gabbia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fikayo Tomori",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mike Maignan",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Riccardo Sottil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nikola Stulic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Santiago Pierotti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassana Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ylber Ramadani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omri Gandelman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Corrie Ndaba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jamil Siebert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Parma",
       "awayTeam": "Cfcgenua",
-      "dateTime": "2026-01-18T20:45:00Z",
+      "dateTime": "2026-01-18T18:30:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Nicola Leali",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Pisa",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-01-16T18:30:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Henrik Meister",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Tramoni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Stefano Moreo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuele Angori",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Aebischer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Marin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Idrissa Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Francesco Coppola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Canestrelli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arturo Calabresi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Scuffet",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicola Zalewski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mario Pasalic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yunus Musah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Honest Ahanor",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Isak Hien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giorgio Scalvini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
           "position": "Torwart"
         }
       ]
