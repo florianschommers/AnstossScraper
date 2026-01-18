@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-18T20:18:57.336771Z",
+=======
+  "lastUpdated": "2026-01-18T20:20:49.747601Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -1905,19 +1909,19 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Getafe",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-01-18T21:00:00Z",
-      "score": null,
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2026-01-18T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 20,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Girona",
-      "dateTime": "2026-01-16T21:00:00Z",
+      "homeTeam": "Getafe",
+      "awayTeam": "Valencia",
+      "dateTime": "2026-01-18T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
