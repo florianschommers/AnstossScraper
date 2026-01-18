@@ -14821,7 +14821,7 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T16:48:26.297",
+    "lastUpdateDateTime": "2026-01-18T17:12:32.48",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14837,7 +14837,7 @@
         "resultID": 122273,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14850,6 +14850,18 @@
         "scoreTeam2": 0,
         "matchMinute": 59,
         "goalGetterID": 18304,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137782,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 83,
+        "goalGetterID": 18590,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
