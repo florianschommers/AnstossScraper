@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-18T16:20:55.430768Z",
+  "lastUpdated": "2026-01-18T16:45:03.330965Z",
   "matches": [
     {
       "matchday": 1,
@@ -1535,28 +1535,28 @@
     },
     {
       "matchday": 18,
-      "homeTeam": "Strassburg",
-      "awayTeam": "Fcmetz",
-      "dateTime": "2026-01-18T17:15:00Z",
-      "score": null,
+      "homeTeam": "Nantes",
+      "awayTeam": "Parisfc",
+      "dateTime": "2026-01-18T00:00:00Z",
+      "score": "0:1",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:1"
     },
     {
       "matchday": 18,
       "homeTeam": "Rennes",
       "awayTeam": "Aclehavre",
-      "dateTime": "2026-01-18T17:15:00Z",
-      "score": null,
+      "dateTime": "2026-01-18T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 18,
-      "homeTeam": "Lyon",
-      "awayTeam": "Brest",
+      "homeTeam": "Strassburg",
+      "awayTeam": "Fcmetz",
       "dateTime": "2026-01-18T20:45:00Z",
       "score": null,
       "isFinished": false,
