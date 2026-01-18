@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-18T21:30:14.893310Z",
+  "lastUpdated": "2026-01-18T21:44:02.170737Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,16 +2005,6 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Acmailand",
-      "awayTeam": "Lecce",
-      "dateTime": "2026-01-18T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Parma",
       "awayTeam": "Cfcgenua",
       "dateTime": "2026-01-18T18:30:00Z",
@@ -2059,6 +2049,16 @@
       "awayTeam": "Asrom",
       "dateTime": "2026-01-18T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Acmailand",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
