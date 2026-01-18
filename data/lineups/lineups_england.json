@@ -1,12 +1,12 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-18T15:52:33.370040",
+  "lastUpdated": "2026-01-18T16:28:14.521837",
   "lineups": [
     {
       "homeTeam": "Wolverhampton",
       "awayTeam": "Newcastle",
-      "dateTime": "2026-01-18T00:00:00Z",
+      "dateTime": "2026-01-18T17:30:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Nick Pope",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Everton",
-      "dateTime": "2026-01-18T17:30:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ollie Watkins",
-          "position": "Angriff"
-        },
-        {
-          "name": "Emiliano Buendia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Morgan Rogers",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "John McGinn",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Youri Tielemans",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lamare Bogarde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ian Maatsen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pau Torres",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ezri Konsa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matty Cash",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emiliano Martinez",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Thierno Barry",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jack Grealish",
-          "position": "Angriff"
-        },
-        {
-          "name": "Harrison Armstrong",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dwight McNeil",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "James Garner",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Merlin Rohl",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaliy Mykolenko",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jake O&#039;Brien",
-          "position": "Abwehr"
-        },
-        {
-          "name": "James Tarkowski",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nathan Patterson",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jordan Pickford",
           "position": "Torwart"
         }
       ]
@@ -296,6 +197,105 @@
         },
         {
           "name": "Gianluigi Donnarumma",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Wolverhampton",
+      "awayTeam": "Newcastle",
+      "dateTime": "2026-01-18T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hee-chan Hwang",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tolu Arokodare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Bueno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateus Mane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jackson Tchatchoua",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ladislav Krejci",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Santiago Bueno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerson Mosquera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Sa",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Anthony Gordon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nick Woltemade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Harvey Barnes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joelinton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Guimaraes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sven Botman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kieran Trippier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nick Pope",
           "position": "Torwart"
         }
       ]
