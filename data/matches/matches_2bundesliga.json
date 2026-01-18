@@ -14546,7 +14546,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T14:28:01.993",
+    "lastUpdateDateTime": "2026-01-18T15:00:10.353",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14561,7 +14561,7 @@
       {
         "resultID": 122263,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -14572,6 +14572,18 @@
       {
         "goalID": 137737,
         "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137752,
+        "scoreTeam1": 2,
         "scoreTeam2": 0,
         "matchMinute": null,
         "goalGetterID": 0,
@@ -14617,7 +14629,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T14:28:05.087",
+    "lastUpdateDateTime": "2026-01-18T15:00:18.397",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14633,7 +14645,7 @@
         "resultID": 122265,
         "resultName": "Endergebnis",
         "pointsTeam1": 2,
-        "pointsTeam2": 2,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14687,6 +14699,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 137753,
+        "scoreTeam1": 2,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
@@ -14724,7 +14748,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-18T14:21:49.83",
+    "lastUpdateDateTime": "2026-01-18T15:11:03.587",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14739,14 +14763,39 @@
       {
         "resultID": 122267,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 137754,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 137759,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 437,
       "locationCity": "Kaiserslautern",
