@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-19T22:58:56.700636Z",
+  "lastUpdated": "2026-01-19T23:27:02.240854Z",
   "matches": [
     {
       "matchday": 1,
@@ -1905,16 +1905,6 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Elche",
-      "awayTeam": "Sevilla",
-      "dateTime": "2026-01-19T15:00:00Z",
-      "score": "2:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Espanyol",
       "awayTeam": "Girona",
       "dateTime": "2026-01-16T15:00:00Z",
@@ -1999,6 +1989,16 @@
       "awayTeam": "Fcbarcelona",
       "dateTime": "2026-01-18T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Elche",
+      "awayTeam": "Sevilla",
+      "dateTime": "2026-01-19T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
