@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-19T23:27:18.180506Z",
+  "lastUpdated": "2026-01-19T23:43:56.687094Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,26 +2005,6 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Hverona",
-      "dateTime": "2026-01-19T15:00:00Z",
-      "score": "0:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "Laziorom",
-      "awayTeam": "Como",
-      "dateTime": "2026-01-19T15:00:00Z",
-      "score": "0:3",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Pisa",
       "awayTeam": "Bergamo",
       "dateTime": "2026-01-16T15:00:00Z",
@@ -2099,6 +2079,26 @@
       "awayTeam": "Lecce",
       "dateTime": "2026-01-18T15:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Hverona",
+      "dateTime": "2026-01-19T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Como",
+      "dateTime": "2026-01-19T15:00:00Z",
+      "score": "0:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
