@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2026-01-20T22:22:20.301333Z",
+  "lastUpdated": "2026-01-20T22:42:37.022330Z",
   "matches": [
     {
       "matchday": 1,
@@ -1193,28 +1193,6 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Kopenhagen",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2026-01-20T22:22:16.256857Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Sporting",
-      "awayTeam": "Psg",
-      "dateTime": "2026-01-20T22:22:16.256888Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Kairat",
       "awayTeam": "Clubbruegge",
       "dateTime": "2026-01-20T19:00:00Z",
@@ -1285,6 +1263,28 @@
       "awayTeam": "Leverkusen",
       "dateTime": "2026-01-20T19:00:00Z",
       "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Kopenhagen",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2026-01-20T19:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Sporting",
+      "awayTeam": "Psg",
+      "dateTime": "2026-01-20T19:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
