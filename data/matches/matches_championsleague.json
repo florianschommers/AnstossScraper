@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2026-01-21T21:52:40.009281Z",
+  "lastUpdated": "2026-01-21T22:12:29.557119Z",
   "matches": [
     {
       "matchday": 1,
@@ -1292,83 +1292,6 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Benfica",
-      "dateTime": "2026-01-21T21:52:34.314972Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Bayern",
-      "awayTeam": "Stgilloise",
-      "dateTime": "2026-01-21T21:52:34.314995Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Chelsea",
-      "awayTeam": "Aeppaphosfc",
-      "dateTime": "2026-01-21T21:52:34.315008Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2026-01-21T21:52:34.315019Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:3",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Olmarseille",
-      "awayTeam": "Liverpool",
-      "dateTime": "2026-01-21T21:52:34.315033Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Newcastle",
-      "awayTeam": "Eindhoven",
-      "dateTime": "2026-01-21T21:52:34.315044Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Slaviaprag",
-      "awayTeam": "Fcbarcelona",
-      "dateTime": "2026-01-21T21:52:34.315056Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:4",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Galatasaray",
       "awayTeam": "Atlmadrid",
       "dateTime": "2026-01-21T19:00:00Z",
@@ -1384,6 +1307,83 @@
       "awayTeam": "Frankfurt",
       "dateTime": "2026-01-21T19:00:00Z",
       "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Benfica",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Bayern",
+      "awayTeam": "Stgilloise",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Aeppaphosfc",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Bergamo",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Liverpool",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Newcastle",
+      "awayTeam": "Eindhoven",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Slaviaprag",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "2:4",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
