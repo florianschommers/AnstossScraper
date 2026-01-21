@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2026-01-21T19:57:07.976385",
+  "lastUpdated": "2026-01-21T20:32:34.507638",
   "lineups": [
     {
       "homeTeam": "Kairat",
@@ -897,7 +897,7 @@
     {
       "homeTeam": "Galatasaray",
       "awayTeam": "Atlmadrid",
-      "dateTime": "2026-01-21T19:32:35.290392Z",
+      "dateTime": "2026-01-21T19:00:00Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Karabakh",
       "awayTeam": "Frankfurt",
-      "dateTime": "2026-01-21T19:32:35.290416Z",
+      "dateTime": "2026-01-21T19:00:00Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1162,11 +1162,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Leandro Barreiro",
+          "name": "Fredrik Aursnes",
           "position": "Mittelfeld"
         },
         {
-          "name": "Fredrik Aursnes",
+          "name": "Leandro Barreiro",
           "position": "Mittelfeld"
         },
         {
@@ -1227,11 +1227,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jonathan Tah",
+          "name": "Min-jae Kim",
           "position": "Abwehr"
         },
         {
-          "name": "Min-jae Kim",
+          "name": "Jonathan Tah",
           "position": "Abwehr"
         },
         {
@@ -1261,11 +1261,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Adem Zorgane",
+          "name": "Kamiel Van De Perre",
           "position": "Mittelfeld"
         },
         {
-          "name": "Kamiel Van De Perre",
+          "name": "Adem Zorgane",
           "position": "Mittelfeld"
         },
         {
@@ -1447,15 +1447,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Gorka Guruzeta",
+          "name": "Robert Navarro",
           "position": "Angriff"
         },
         {
-          "name": "Robert Navarro",
+          "name": "Gorka Guruzeta",
           "position": "Mittelfeld"
         },
         {
-          "name": "Alejandro Rego",
+          "name": "Adama Boiro",
           "position": "Mittelfeld"
         },
         {
@@ -1463,11 +1463,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Andoni Gorosabel",
+          "name": "Alejandro Rego",
           "position": "Mittelfeld"
         },
         {
-          "name": "Adama Boiro",
+          "name": "Andoni Gorosabel",
           "position": "Mittelfeld"
         },
         {
@@ -1520,8 +1520,12 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Facundo Medina",
+          "name": "Amir Murillo",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
         },
         {
           "name": "Leonardo Balerdi",
@@ -1529,10 +1533,6 @@
         },
         {
           "name": "Benjamin Pavard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amir Murillo",
           "position": "Abwehr"
         },
         {
@@ -1641,12 +1641,16 @@
       ],
       "awayLineup": [
         {
+          "name": "Paul Wanner",
+          "position": "Angriff"
+        },
+        {
           "name": "Ivan Perisic",
           "position": "Angriff"
         },
         {
           "name": "Guus Til",
-          "position": "Angriff"
+          "position": "Mittelfeld"
         },
         {
           "name": "Dennis Man",
@@ -1658,10 +1662,6 @@
         },
         {
           "name": "Mauro Junior",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Paul Wanner",
           "position": "Mittelfeld"
         },
         {
@@ -1694,11 +1694,11 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Vasil Kusej",
+          "name": "Tomas Chory",
           "position": "Angriff"
         },
         {
-          "name": "Tomas Chory",
+          "name": "Lukas Provod",
           "position": "Angriff"
         },
         {
@@ -1710,7 +1710,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lukas Provod",
+          "name": "David Moses",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vasil Kusej",
           "position": "Mittelfeld"
         },
         {
@@ -1718,15 +1722,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "David Moses",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stepan Chaloupek",
+          "name": "David Zima",
           "position": "Abwehr"
         },
         {
-          "name": "David Zima",
+          "name": "Stepan Chaloupek",
           "position": "Abwehr"
         },
         {
