@@ -1,29 +1,25 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-22T20:26:25.815949",
+  "lastUpdated": "2026-01-22T20:58:06.499663",
   "lineups": [
     {
       "homeTeam": "Glrangers",
       "awayTeam": "Ludogorets",
-      "dateTime": "2026-01-22T20:15:10.238281Z",
+      "dateTime": "2026-01-22T20:45:50.961655Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
+        {
+          "name": "Djeidi Gassama",
+          "position": "Angriff"
+        },
         {
           "name": "Youssef Chermiti",
           "position": "Angriff"
         },
         {
           "name": "Mikey Moore",
-          "position": "Angriff"
-        },
-        {
-          "name": "Thelo Aasgaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djeidi Gassama",
           "position": "Mittelfeld"
         },
         {
@@ -32,6 +28,10 @@
         },
         {
           "name": "Nicolas Raskin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thelo Aasgaard",
           "position": "Mittelfeld"
         },
         {
@@ -57,11 +57,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Erick Marcus",
+          "name": "Yves Erick Bile",
           "position": "Angriff"
         },
         {
-          "name": "Yves Erick Bile",
+          "name": "Erick Marcus",
           "position": "Angriff"
         },
         {
@@ -85,11 +85,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Olivier Verdon",
+          "name": "Dinis Almeida",
           "position": "Abwehr"
         },
         {
-          "name": "Dinis Almeida",
+          "name": "Olivier Verdon",
           "position": "Abwehr"
         },
         {
@@ -105,7 +105,7 @@
     {
       "homeTeam": "Asrom",
       "awayTeam": "Stuttgart",
-      "dateTime": "2026-01-22T20:15:10.238315Z",
+      "dateTime": "2026-01-22T20:45:50.961687Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -204,7 +204,7 @@
     {
       "homeTeam": "Salzburg",
       "awayTeam": "Fcbasel",
-      "dateTime": "2026-01-22T20:15:10.238328Z",
+      "dateTime": "2026-01-22T20:45:50.961700Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -303,7 +303,7 @@
     {
       "homeTeam": "Dzagreb",
       "awayTeam": "Steaua",
-      "dateTime": "2026-01-22T20:15:10.238340Z",
+      "dateTime": "2026-01-22T20:45:50.961724Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -316,6 +316,10 @@
           "position": "Angriff"
         },
         {
+          "name": "Miha Zajc",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Dejan Ljubicic",
           "position": "Mittelfeld"
         },
@@ -325,10 +329,6 @@
         },
         {
           "name": "Josip Misic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Miha Zajc",
           "position": "Mittelfeld"
         },
         {
@@ -402,7 +402,7 @@
     {
       "homeTeam": "Nizza",
       "awayTeam": "Deventer",
-      "dateTime": "2026-01-22T20:15:10.238352Z",
+      "dateTime": "2026-01-22T20:45:50.961736Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -501,17 +501,21 @@
     {
       "homeTeam": "Ferencvarosi",
       "awayTeam": "Panathinaikos",
-      "dateTime": "2026-01-22T20:15:10.238364Z",
+      "dateTime": "2026-01-22T20:45:50.961749Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
+        {
+          "name": "Yusuf Bamidele",
+          "position": "Angriff"
+        },
         {
           "name": "Kristoffer Zachariassen",
           "position": "Angriff"
         },
         {
-          "name": "Yusuf Bamidele",
-          "position": "Angriff"
+          "name": "Jonathan Levi",
+          "position": "Mittelfeld"
         },
         {
           "name": "Cadu",
@@ -523,10 +527,6 @@
         },
         {
           "name": "Julio Romao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jonathan Levi",
           "position": "Mittelfeld"
         },
         {
@@ -556,7 +556,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Facundo Pellistri",
+          "name": "Renato Sanches",
           "position": "Angriff"
         },
         {
@@ -568,11 +568,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Georgios Kyriakopoulos",
+          "name": "Facundo Pellistri",
           "position": "Mittelfeld"
         },
         {
-          "name": "Renato Sanches",
+          "name": "Georgios Kyriakopoulos",
           "position": "Mittelfeld"
         },
         {
@@ -600,7 +600,7 @@
     {
       "homeTeam": "Celtavigo",
       "awayTeam": "Lille",
-      "dateTime": "2026-01-22T20:15:10.238373Z",
+      "dateTime": "2026-01-22T20:45:50.961759Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -699,7 +699,7 @@
     {
       "homeTeam": "Braga",
       "awayTeam": "Nottingham",
-      "dateTime": "2026-01-22T20:15:10.238384Z",
+      "dateTime": "2026-01-22T20:45:50.961769Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -708,11 +708,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Ricardo Horta",
+          "name": "Diego Rodrigues",
           "position": "Angriff"
         },
         {
-          "name": "Diego Rodrigues",
+          "name": "Ricardo Horta",
           "position": "Mittelfeld"
         },
         {
@@ -720,11 +720,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Gorby",
+          "name": "Florian Grillitsch",
           "position": "Mittelfeld"
         },
         {
-          "name": "Florian Grillitsch",
+          "name": "Gorby",
           "position": "Mittelfeld"
         },
         {
@@ -750,15 +750,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Morgan Gibbs-White",
-          "position": "Angriff"
-        },
-        {
           "name": "Dan Ndoye",
           "position": "Angriff"
         },
         {
-          "name": "James McAtee",
+          "name": "Morgan Gibbs-White",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dilane Bakwa",
           "position": "Mittelfeld"
         },
         {
@@ -770,7 +770,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Dilane Bakwa",
+          "name": "James McAtee",
           "position": "Mittelfeld"
         },
         {
