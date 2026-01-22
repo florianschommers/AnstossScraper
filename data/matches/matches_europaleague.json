@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2026-01-22T19:45:45.618439Z",
+  "lastUpdated": "2026-01-22T19:53:12.828093Z",
   "matches": [
     {
       "matchday": 1,
@@ -1193,17 +1193,6 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Pilsen",
-      "awayTeam": "Porto",
-      "dateTime": "2026-01-22T19:45:40.603895Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Freiburg",
       "awayTeam": "Mtelaviv",
       "dateTime": "2026-01-22T19:00:00Z",
@@ -1285,6 +1274,17 @@
       "awayTeam": "Astonvilla",
       "dateTime": "2026-01-22T19:00:00Z",
       "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Pilsen",
+      "awayTeam": "Porto",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
