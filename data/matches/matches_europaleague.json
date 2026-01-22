@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2026-01-22T22:34:43.518255Z",
+  "lastUpdated": "2026-01-22T22:54:13.306526Z",
   "matches": [
     {
       "matchday": 1,
@@ -1193,17 +1193,6 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Utrecht",
-      "awayTeam": "Genk",
-      "dateTime": "2026-01-22T22:34:37.836551Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Freiburg",
       "awayTeam": "Mtelaviv",
       "dateTime": "2026-01-22T19:00:00Z",
@@ -1384,6 +1373,17 @@
       "awayTeam": "Nottingham",
       "dateTime": "2026-01-22T19:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Utrecht",
+      "awayTeam": "Genk",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
