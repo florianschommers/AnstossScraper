@@ -1,12 +1,12 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-22T20:58:06.499663",
+  "lastUpdated": "2026-01-22T21:26:06.517765",
   "lineups": [
     {
       "homeTeam": "Glrangers",
       "awayTeam": "Ludogorets",
-      "dateTime": "2026-01-22T20:45:50.961655Z",
+      "dateTime": "2026-01-22T21:02:17.465844Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -105,7 +105,7 @@
     {
       "homeTeam": "Asrom",
       "awayTeam": "Stuttgart",
-      "dateTime": "2026-01-22T20:45:50.961687Z",
+      "dateTime": "2026-01-22T21:02:17.465879Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -204,7 +204,7 @@
     {
       "homeTeam": "Salzburg",
       "awayTeam": "Fcbasel",
-      "dateTime": "2026-01-22T20:45:50.961700Z",
+      "dateTime": "2026-01-22T21:02:17.465893Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -303,7 +303,7 @@
     {
       "homeTeam": "Dzagreb",
       "awayTeam": "Steaua",
-      "dateTime": "2026-01-22T20:45:50.961724Z",
+      "dateTime": "2026-01-22T21:02:17.465905Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -402,7 +402,7 @@
     {
       "homeTeam": "Nizza",
       "awayTeam": "Deventer",
-      "dateTime": "2026-01-22T20:45:50.961736Z",
+      "dateTime": "2026-01-22T21:02:17.465918Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -501,7 +501,7 @@
     {
       "homeTeam": "Ferencvarosi",
       "awayTeam": "Panathinaikos",
-      "dateTime": "2026-01-22T20:45:50.961749Z",
+      "dateTime": "2026-01-22T21:02:17.465931Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -600,7 +600,7 @@
     {
       "homeTeam": "Celtavigo",
       "awayTeam": "Lille",
-      "dateTime": "2026-01-22T20:45:50.961759Z",
+      "dateTime": "2026-01-22T21:02:17.465941Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -699,7 +699,7 @@
     {
       "homeTeam": "Braga",
       "awayTeam": "Nottingham",
-      "dateTime": "2026-01-22T20:45:50.961769Z",
+      "dateTime": "2026-01-22T21:02:17.465951Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -762,11 +762,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Douglas Luiz",
+          "name": "Ryan Yates",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ryan Yates",
+          "name": "Douglas Luiz",
           "position": "Mittelfeld"
         },
         {
@@ -791,6 +791,105 @@
         },
         {
           "name": "Matz Sels",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Utrecht",
+      "awayTeam": "Genk",
+      "dateTime": "2026-01-22T21:02:17.465960Z",
+      "matchday": 7,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Miguel Rodriguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastien Haller",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yoann Cathline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Can Bozdogan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani de Wit",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alonzo Engwanda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Derry Murkin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mike Eerdhuijzen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matisse Didden",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niklas Vesterlund",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Brouwer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Aaron Bibout",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yira Sor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Konstantinos Karetsas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daan Heymans",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junya Ito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Heynen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yaimar Medina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hamza Abarah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mujaid Sadick",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zakaria El Ouahdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Lawal",
           "position": "Torwart"
         }
       ]
@@ -1682,105 +1781,6 @@
         },
         {
           "name": "Diogo Costa",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Utrecht",
-      "awayTeam": "Genk",
-      "dateTime": "2026-01-22T20:00:00Z",
-      "matchday": 7,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Miguel Rodriguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sebastien Haller",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yoann Cathline",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Can Bozdogan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dani de Wit",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alonzo Engwanda",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Derry Murkin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mike Eerdhuijzen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matisse Didden",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Niklas Vesterlund",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Brouwer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Aaron Bibout",
-          "position": "Angriff"
-        },
-        {
-          "name": "Junya Ito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yira Sor",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daan Heymans",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bryan Heynen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Konstantinos Karetsas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yaimar Medina",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mujaid Sadick",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hamza Abarah",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Zakaria El Ouahdi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tobias Lawal",
           "position": "Torwart"
         }
       ]
