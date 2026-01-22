@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2026",
-  "lastUpdated": "2026-01-22T22:00:42.987956Z",
+  "lastUpdated": "2026-01-22T22:34:43.518255Z",
   "matches": [
     {
       "matchday": 1,
@@ -1193,101 +1193,13 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Glrangers",
-      "awayTeam": "Ludogorets",
-      "dateTime": "2026-01-22T22:00:39.481164Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Asrom",
-      "awayTeam": "Stuttgart",
-      "dateTime": "2026-01-22T22:00:39.481201Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Salzburg",
-      "awayTeam": "Fcbasel",
-      "dateTime": "2026-01-22T22:00:39.481216Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Dzagreb",
-      "awayTeam": "Steaua",
-      "dateTime": "2026-01-22T22:00:39.481230Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Nizza",
-      "awayTeam": "Deventer",
-      "dateTime": "2026-01-22T22:00:39.481244Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Ferencvarosi",
-      "awayTeam": "Panathinaikos",
-      "dateTime": "2026-01-22T22:00:39.481258Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Celtavigo",
-      "awayTeam": "Lille",
-      "dateTime": "2026-01-22T22:00:39.481269Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
-      "homeTeam": "Braga",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-22T22:00:39.481280Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Utrecht",
       "awayTeam": "Genk",
-      "dateTime": "2026-01-22T22:00:39.481291Z",
+      "dateTime": "2026-01-22T22:34:37.836551Z",
       "score": null,
       "isFinished": false,
       "isLive": true,
-      "liveScore": "0:0",
+      "liveScore": "0:1",
       "phase": "gruppenphase"
     },
     {
@@ -1384,6 +1296,94 @@
       "awayTeam": "Porto",
       "dateTime": "2026-01-22T19:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Glrangers",
+      "awayTeam": "Ludogorets",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Asrom",
+      "awayTeam": "Stuttgart",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Salzburg",
+      "awayTeam": "Fcbasel",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Dzagreb",
+      "awayTeam": "Steaua",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Nizza",
+      "awayTeam": "Deventer",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Ferencvarosi",
+      "awayTeam": "Panathinaikos",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Celtavigo",
+      "awayTeam": "Lille",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Braga",
+      "awayTeam": "Nottingham",
+      "dateTime": "2026-01-22T19:00:00Z",
+      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
