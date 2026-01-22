@@ -1,12 +1,12 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-22T19:04:57.457386",
+  "lastUpdated": "2026-01-22T19:31:44.542486",
   "lineups": [
     {
       "homeTeam": "Freiburg",
       "awayTeam": "Mtelaviv",
-      "dateTime": "2026-01-22T18:51:02.223153Z",
+      "dateTime": "2026-01-22T19:21:15.326360Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -105,49 +105,53 @@
     {
       "homeTeam": "Malmoeff",
       "awayTeam": "Rsbelgrad",
-      "dateTime": "2026-01-22T18:51:02.223191Z",
+      "dateTime": "2026-01-22T19:21:15.326394Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
         {
           "name": "Emmanuel Ekong",
-          "position": ""
+          "position": "Angriff"
         },
         {
           "name": "Erik Botheim",
-          "position": ""
+          "position": "Angriff"
         },
         {
           "name": "Adrian Skogmar",
-          "position": ""
+          "position": "Mittelfeld"
         },
         {
           "name": "Abdel Barbachi",
-          "position": ""
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Theodor Lundbergh",
+          "position": "Mittelfeld"
         },
         {
           "name": "Hugo Bolin",
-          "position": ""
+          "position": "Mittelfeld"
         },
         {
           "name": "Busanello",
-          "position": ""
+          "position": "Mittelfeld"
         },
         {
           "name": "Colin Rosler",
-          "position": ""
+          "position": "Abwehr"
         },
         {
           "name": "Pontus Jansson",
-          "position": ""
+          "position": "Abwehr"
         },
         {
           "name": "Johan Karlsson",
-          "position": ""
+          "position": "Abwehr"
         },
         {
           "name": "Melker Ellborg",
-          "position": ""
+          "position": "Torwart"
         }
       ],
       "awayLineup": [
@@ -160,6 +164,10 @@
           "position": "Angriff"
         },
         {
+          "name": "Timi Max Elsnik",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Vasilije Kostov",
           "position": "Mittelfeld"
         },
@@ -169,10 +177,6 @@
         },
         {
           "name": "Rade Krunic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timi Max Elsnik",
           "position": "Mittelfeld"
         },
         {
@@ -200,7 +204,7 @@
     {
       "homeTeam": "Feyenoord",
       "awayTeam": "Sturmgraz",
-      "dateTime": "2026-01-22T18:51:02.223206Z",
+      "dateTime": "2026-01-22T19:21:15.326407Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -299,7 +303,7 @@
     {
       "homeTeam": "Bergen",
       "awayTeam": "Midtjylland",
-      "dateTime": "2026-01-22T18:51:02.223219Z",
+      "dateTime": "2026-01-22T19:21:15.326419Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -398,7 +402,7 @@
     {
       "homeTeam": "Bologna",
       "awayTeam": "Cglasgow",
-      "dateTime": "2026-01-22T18:51:02.223234Z",
+      "dateTime": "2026-01-22T19:21:15.326433Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -497,7 +501,7 @@
     {
       "homeTeam": "Ybbern",
       "awayTeam": "Lyon",
-      "dateTime": "2026-01-22T18:51:02.223246Z",
+      "dateTime": "2026-01-22T19:21:15.326446Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -596,7 +600,7 @@
     {
       "homeTeam": "Paoksaloniki",
       "awayTeam": "Realbetis",
-      "dateTime": "2026-01-22T18:51:02.223259Z",
+      "dateTime": "2026-01-22T19:21:15.326456Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -695,7 +699,7 @@
     {
       "homeTeam": "Fenerbahce",
       "awayTeam": "Astonvilla",
-      "dateTime": "2026-01-22T18:51:02.223270Z",
+      "dateTime": "2026-01-22T19:21:15.326467Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -708,10 +712,6 @@
           "position": "Angriff"
         },
         {
-          "name": "Fred",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Marco Asensio",
           "position": "Mittelfeld"
         },
@@ -721,6 +721,10 @@
         },
         {
           "name": "Ismail Yuksek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fred",
           "position": "Mittelfeld"
         },
         {
@@ -794,7 +798,7 @@
     {
       "homeTeam": "Pilsen",
       "awayTeam": "Porto",
-      "dateTime": "2026-01-22T18:51:02.223282Z",
+      "dateTime": "2026-01-22T19:21:15.326477Z",
       "matchday": 7,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1393,7 +1397,7 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Barnabas Varga",
+          "name": "Kristoffer Zachariassen",
           "position": "Angriff"
         },
         {
@@ -1401,7 +1405,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Callum O&#039;Dowda",
+          "name": "Cadu",
           "position": "Mittelfeld"
         },
         {
@@ -1409,11 +1413,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "A. Madarasz",
+          "name": "Julio Romao",
           "position": "Mittelfeld"
         },
         {
-          "name": "Alex Toth",
+          "name": "Jonathan Levi",
           "position": "Mittelfeld"
         },
         {
@@ -1439,19 +1443,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Andreas Tetteh",
+          "name": "Karol Swiderski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Facundo Pellistri",
           "position": "Angriff"
         },
         {
           "name": "Anastasios Bakasetas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Anass Zaroury",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adam Gnezda Cerin",
           "position": "Mittelfeld"
         },
         {
@@ -1459,19 +1459,23 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Facundo Pellistri",
+          "name": "Georgios Kyriakopoulos",
           "position": "Mittelfeld"
         },
         {
-          "name": "Giannis Kotsiras",
+          "name": "Renato Sanches",
           "position": "Mittelfeld"
         },
         {
           "name": "Ahmed Touba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sverrir Ingi Ingason",
           "position": "Abwehr"
         },
         {
-          "name": "Tin Jedvaj",
+          "name": "Erik Palmer-Brown",
           "position": "Abwehr"
         },
         {
@@ -1492,19 +1496,23 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Bryan Zaragoza",
+          "name": "Williot Swedberg",
           "position": "Angriff"
         },
         {
-          "name": "Pablo Duran",
+          "name": "Borja Iglesias",
           "position": "Angriff"
         },
         {
-          "name": "Hugo Alvarez",
+          "name": "Iago Aspas",
           "position": "Mittelfeld"
         },
         {
-          "name": "Sergio Carreira",
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Roman",
           "position": "Mittelfeld"
         },
         {
@@ -1512,11 +1520,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ilaix Moriba",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oscar Mingueza",
+          "name": "Javi Rueda",
           "position": "Mittelfeld"
         },
         {
@@ -1538,19 +1542,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Hakon Arnar Haraldsson",
-          "position": "Angriff"
-        },
-        {
           "name": "Olivier Giroud",
           "position": "Angriff"
         },
         {
-          "name": "Ethan Mbappe",
-          "position": "Mittelfeld"
+          "name": "Hakon Arnar Haraldsson",
+          "position": "Angriff"
         },
         {
-          "name": "Ayyoub Bouaddi",
+          "name": "Felix Correia",
           "position": "Mittelfeld"
         },
         {
@@ -1562,11 +1562,15 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Marius Broholm",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Romain Perraud",
           "position": "Mittelfeld"
         },
         {
-          "name": "Aissa Mandi",
+          "name": "Alexsandro",
           "position": "Abwehr"
         },
         {
@@ -1574,7 +1578,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Tiago Santos",
+          "name": "Thomas Meunier",
           "position": "Abwehr"
         },
         {
@@ -1591,23 +1595,23 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
+          "name": "Fran Navarro",
+          "position": "Angriff"
+        },
+        {
           "name": "Ricardo Horta",
           "position": "Angriff"
         },
         {
-          "name": "Pau Victor",
-          "position": "Angriff"
-        },
-        {
-          "name": "Rodrigo Zalazar",
+          "name": "Diego Rodrigues",
           "position": "Mittelfeld"
         },
         {
-          "name": "Leonardo Lelo",
+          "name": "Gabri Martinez",
           "position": "Mittelfeld"
         },
         {
-          "name": "Joao Moutinho",
+          "name": "Gorby",
           "position": "Mittelfeld"
         },
         {
@@ -1615,15 +1619,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Mario Dorgeles",
+          "name": "Victor Gomez",
           "position": "Mittelfeld"
         },
         {
-          "name": "Sikou Niakate",
+          "name": "Bright Arrey-Mbi",
           "position": "Abwehr"
         },
         {
-          "name": "Vitor Carvalho",
+          "name": "Sikou Niakate",
           "position": "Abwehr"
         },
         {
@@ -1637,35 +1641,35 @@
       ],
       "awayLineup": [
         {
-          "name": "Igor Jesus",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicolas Dominguez",
-          "position": "Angriff"
-        },
-        {
           "name": "Morgan Gibbs-White",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "Angriff"
+        },
+        {
+          "name": "James McAtee",
           "position": "Mittelfeld"
         },
         {
-          "name": "Callum Hudson-Odoi",
+          "name": "Douglas Luiz",
           "position": "Mittelfeld"
         },
         {
-          "name": "Elliot Anderson",
+          "name": "Ryan Yates",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ibrahim Sangare",
+          "name": "Dilane Bakwa",
           "position": "Mittelfeld"
         },
         {
-          "name": "Neco Williams",
+          "name": "Ola Aina",
           "position": "Mittelfeld"
         },
         {
-          "name": "Murillo",
+          "name": "Morato",
           "position": "Abwehr"
         },
         {
@@ -1673,7 +1677,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Ola Aina",
+          "name": "Nicolo Savona",
           "position": "Abwehr"
         },
         {
@@ -1690,11 +1694,11 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Sebastien Haller",
+          "name": "Miguel Rodriguez",
           "position": "Angriff"
         },
         {
-          "name": "Victor Jensen",
+          "name": "Sebastien Haller",
           "position": "Angriff"
         },
         {
@@ -1702,7 +1706,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Gjivai Zechiel",
+          "name": "Can Bozdogan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani de Wit",
           "position": "Mittelfeld"
         },
         {
@@ -1710,15 +1718,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Miguel Rodriguez",
+          "name": "Derry Murkin",
           "position": "Mittelfeld"
         },
         {
-          "name": "Souffian El Karouani",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nick Viergever",
+          "name": "Mike Eerdhuijzen",
           "position": "Abwehr"
         },
         {
@@ -1726,33 +1730,29 @@
           "position": "Abwehr"
         },
         {
-          "name": "Siebe Horemans",
+          "name": "Niklas Vesterlund",
           "position": "Abwehr"
         },
         {
-          "name": "Vasilios Barkas",
+          "name": "Michael Brouwer",
           "position": "Torwart"
         }
       ],
       "awayLineup": [
         {
-          "name": "Robin Mirisola",
+          "name": "Aaron Bibout",
+          "position": "Angriff"
+        },
+        {
+          "name": "Junya Ito",
           "position": "Angriff"
         },
         {
           "name": "Yira Sor",
-          "position": "Angriff"
+          "position": "Mittelfeld"
         },
         {
           "name": "Daan Heymans",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Konstantinos Karetsas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nikolas Sattlberger",
           "position": "Mittelfeld"
         },
         {
@@ -1760,15 +1760,19 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Konstantinos Karetsas",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Yaimar Medina",
           "position": "Mittelfeld"
         },
         {
-          "name": "Hamza Abarah",
+          "name": "Mujaid Sadick",
           "position": "Abwehr"
         },
         {
-          "name": "Mujaid Sadick",
+          "name": "Hamza Abarah",
           "position": "Abwehr"
         },
         {
