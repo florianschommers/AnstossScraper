@@ -1,12 +1,12 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-23T21:54:04.394587",
+  "lastUpdated": "2026-01-23T22:27:48.527963",
   "lineups": [
     {
       "homeTeam": "Intermailand",
       "awayTeam": "Pisa",
-      "dateTime": "2026-01-23T00:00:00Z",
+      "dateTime": "2026-01-23T15:00:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -98,101 +98,6 @@
         },
         {
           "name": "Simone Scuffet",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Como",
-      "awayTeam": "Turin",
-      "dateTime": "2026-01-24T15:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Martin Baturina",
-          "position": ""
-        },
-        {
-          "name": "Nico Paz",
-          "position": ""
-        },
-        {
-          "name": "Jesus Rodriguez",
-          "position": ""
-        },
-        {
-          "name": "Maxence Caqueret",
-          "position": ""
-        },
-        {
-          "name": "Maximo Perrone",
-          "position": ""
-        },
-        {
-          "name": "Alex Valle",
-          "position": ""
-        },
-        {
-          "name": "Diego Carlos",
-          "position": ""
-        },
-        {
-          "name": "Jacobo Ramon",
-          "position": ""
-        },
-        {
-          "name": "Ivan Smolcic",
-          "position": ""
-        },
-        {
-          "name": "Jean Butez",
-          "position": ""
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Cyril Ngonge",
-          "position": "Angriff"
-        },
-        {
-          "name": "Che Adams",
-          "position": "Angriff"
-        },
-        {
-          "name": "Zakaria Aboukhlal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gvidas Gineitis",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nikola Vlasic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Valentino Lazaro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emirhan Ilkhan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Saul Coco",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ardian Ismajli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adrien Tameze",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alberto Paleari",
           "position": "Torwart"
         }
       ]
@@ -985,6 +890,105 @@
         },
         {
           "name": "Maduka Okoye",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Intermailand",
+      "awayTeam": "Pisa",
+      "dateTime": "2026-01-23T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Pio Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Augusto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piotr Zielinski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petar Sucic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefan de Vrij",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Bisseck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Henrik Meister",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matteo Tramoni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Stefano Moreo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Angori",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Marin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Idrissa Toure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francesco Coppola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Canestrelli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arturo Calabresi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Scuffet",
           "position": "Torwart"
         }
       ]
