@@ -14842,7 +14842,7 @@
   {
     "matchID": 78114,
     "matchDateTime": "2026-01-23T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14867,8 +14867,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-23T18:31:23.953",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-23T20:39:10.35",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122651,
@@ -14882,14 +14882,39 @@
       {
         "resultID": 122652,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138470,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138471,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 948,
       "locationCity": "Darmstadt",
@@ -14900,7 +14925,7 @@
   {
     "matchID": 78117,
     "matchDateTime": "2026-01-23T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -14925,8 +14950,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-23T20:38:06.83",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-23T20:38:57.793",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122653,
