@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-23T22:13:01.997394Z",
+  "lastUpdated": "2026-01-23T22:36:34.060924Z",
   "matches": [
     {
       "matchday": 1,
@@ -2007,17 +2007,7 @@
       "matchday": 21,
       "homeTeam": "Levante",
       "awayTeam": "Elche",
-      "dateTime": "2026-01-23T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "Vallecano",
-      "awayTeam": "Osasuna",
-      "dateTime": "2026-01-24T14:00:00Z",
+      "dateTime": "2026-01-23T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2100,6 +2090,16 @@
       "dateTime": "2026-01-26T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Levante",
+      "awayTeam": "Elche",
+      "dateTime": "2026-01-23T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
