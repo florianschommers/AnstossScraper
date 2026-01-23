@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-23T20:59:04.856171Z",
+  "lastUpdated": "2026-01-23T21:27:58.860874Z",
   "matches": [
     {
       "matchday": 1,
@@ -1627,17 +1627,7 @@
       "matchday": 19,
       "homeTeam": "Auxerre",
       "awayTeam": "Psg",
-      "dateTime": "2026-01-23T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Rennes",
-      "awayTeam": "Lorient",
-      "dateTime": "2026-01-24T17:00:00Z",
+      "dateTime": "2026-01-23T17:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1710,6 +1700,16 @@
       "dateTime": "2026-01-25T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Psg",
+      "dateTime": "2026-01-23T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
