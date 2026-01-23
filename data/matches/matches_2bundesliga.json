@@ -14925,14 +14925,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-23T19:05:01.563",
+    "lastUpdateDateTime": "2026-01-23T20:38:06.83",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122653,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 2,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -14940,8 +14940,8 @@
       {
         "resultID": 122654,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -14957,6 +14957,42 @@
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138467,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138468,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138469,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
       }
