@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-23T21:27:32.891477Z",
+  "lastUpdated": "2026-01-23T21:43:55.351750Z",
   "matches": [
     {
       "matchday": 1,
@@ -2107,17 +2107,7 @@
       "matchday": 22,
       "homeTeam": "Intermailand",
       "awayTeam": "Pisa",
-      "dateTime": "2026-01-23T00:00:00Z",
-      "score": "3:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2"
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Como",
-      "awayTeam": "Turin",
-      "dateTime": "2026-01-24T15:00:00Z",
+      "dateTime": "2026-01-23T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2200,6 +2190,16 @@
       "dateTime": "2026-01-26T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Intermailand",
+      "awayTeam": "Pisa",
+      "dateTime": "2026-01-23T15:00:00Z",
+      "score": "6:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
