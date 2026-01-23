@@ -14925,7 +14925,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/300px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-23T18:31:24.83",
+    "lastUpdateDateTime": "2026-01-23T19:05:01.563",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -14941,13 +14941,26 @@
         "resultID": 122654,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138463,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 33,
+        "goalGetterID": 20896,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 836,
       "locationCity": "Bielefeld",
