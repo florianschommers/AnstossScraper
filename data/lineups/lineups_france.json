@@ -1,107 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-24T22:27:38.282410",
+  "lastUpdated": "2026-01-24T22:56:18.519873",
   "lineups": [
-    {
-      "homeTeam": "Olmarseille",
-      "awayTeam": "Lens",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "matchday": 19,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Amine Gouiri",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hamed Junior Traore",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ethan Nwaneri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Igor Paixao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Quinten Timber",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pierre-Emile Højbjerg",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothy Weah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Facundo Medina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nayef Aguerd",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leonardo Balerdi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Geronimo Rulli",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Odsonne Edouard",
-          "position": "Angriff"
-        },
-        {
-          "name": "Wesley Said",
-          "position": "Angriff"
-        },
-        {
-          "name": "Florian Thauvin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ruben Aguilar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrien Thomasson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mamadou Sangare",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Saud Abdulhamid",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matthieu Udol",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malang Sarr",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ismaelo Ganiou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robin Risser",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Rennes",
       "awayTeam": "Lorient",
@@ -791,6 +692,105 @@
         },
         {
           "name": "Philipp Kohn",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Olmarseille",
+      "awayTeam": "Lens",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 19,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Amine Gouiri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hamed Junior Traore",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ethan Nwaneri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Paixao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quinten Timber",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Odsonne Edouard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wesley Said",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malang Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaelo Ganiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Risser",
           "position": "Torwart"
         }
       ]
