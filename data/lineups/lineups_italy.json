@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-24T19:48:26.027711",
+  "lastUpdated": "2026-01-24T20:28:31.658362",
   "lineups": [
+    {
+      "homeTeam": "Lecce",
+      "awayTeam": "Laziorom",
+      "dateTime": "2026-01-24T00:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Nikola Stulic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lameck Banda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Omri Gandelman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Pierotti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassana Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ylber Ramadani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jamil Siebert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Danilo Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mattia Zaccagni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Boulaye Dia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matteo Cancellieri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenneth Taylor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matias Vecino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toma Basic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Marusic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Gila",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Lazzari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ivan Provedel",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Como",
       "awayTeam": "Turin",
-      "dateTime": "2026-01-24T20:45:00Z",
+      "dateTime": "2026-01-24T12:30:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -94,105 +193,6 @@
         },
         {
           "name": "Alberto Paleari",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Intermailand",
-      "awayTeam": "Pisa",
-      "dateTime": "2026-01-23T12:30:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Pio Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Augusto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Henrikh Mkhitaryan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Petar Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Stefan de Vrij",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Bisseck",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Henrik Meister",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Tramoni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Stefano Moreo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuele Angori",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Aebischer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Marin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Idrissa Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Francesco Coppola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Canestrelli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arturo Calabresi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Scuffet",
           "position": "Torwart"
         }
       ]
@@ -997,7 +997,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Petar Ratkov",
+          "name": "Boulaye Dia",
           "position": "Angriff"
         },
         {
@@ -1009,15 +1009,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Danilo Cataldi",
+          "name": "Matias Vecino",
           "position": "Mittelfeld"
         },
         {
-          "name": "Reda Belahyane",
+          "name": "Toma Basic",
           "position": "Mittelfeld"
         },
         {
-          "name": "Luca Pellegrini",
+          "name": "Adam Marusic",
           "position": "Mittelfeld"
         },
         {
@@ -1029,7 +1029,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Adam Marusic",
+          "name": "Manuel Lazzari",
           "position": "Abwehr"
         },
         {
@@ -1435,7 +1435,7 @@
       ],
       "awayLineup": [
         {
-          "name": "Riccardo Sottil",
+          "name": "Lameck Banda",
           "position": "Angriff"
         },
         {
@@ -1447,7 +1447,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lassana Coulibaly",
+          "name": "Omri Gandelman",
           "position": "Mittelfeld"
         },
         {
@@ -1455,7 +1455,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Omri Gandelman",
+          "name": "Lassana Coulibaly",
           "position": "Mittelfeld"
         },
         {
@@ -1463,15 +1463,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Corrie Ndaba",
-          "position": "Abwehr"
-        },
-        {
           "name": "Tiago Gabriel",
           "position": "Abwehr"
         },
         {
           "name": "Jamil Siebert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Danilo Veiga",
           "position": "Abwehr"
         },
         {
