@@ -15152,7 +15152,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/150px-Fortuna_D%C3%BCsseldorf.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-24T13:47:46.393",
+    "lastUpdateDateTime": "2026-01-24T14:13:31.553",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15167,8 +15167,8 @@
       {
         "resultID": 122685,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -15181,6 +15181,30 @@
         "scoreTeam2": 0,
         "matchMinute": 4,
         "goalGetterID": 23223,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138548,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 47,
+        "goalGetterID": 23549,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138549,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 24800,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
