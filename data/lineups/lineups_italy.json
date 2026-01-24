@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-24T21:52:22.773341",
+  "lastUpdated": "2026-01-24T22:27:01.250831",
   "lineups": [
-    {
-      "homeTeam": "Lecce",
-      "awayTeam": "Laziorom",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Nikola Stulic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lameck Banda",
-          "position": "Angriff"
-        },
-        {
-          "name": "Omri Gandelman",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Pierotti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lassana Coulibaly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ylber Ramadani",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonino Gallo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jamil Siebert",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tiago Gabriel",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Danilo Veiga",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Wladimiro Falcone",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Mattia Zaccagni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Boulaye Dia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Cancellieri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kenneth Taylor",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matias Vecino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toma Basic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adam Marusic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessio Romagnoli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mario Gila",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Lazzari",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ivan Provedel",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Como",
       "awayTeam": "Turin",
@@ -882,6 +783,105 @@
         },
         {
           "name": "Elia Caprile",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lecce",
+      "awayTeam": "Laziorom",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Nikola Stulic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lameck Banda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Omri Gandelman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Pierotti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassana Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ylber Ramadani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jamil Siebert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Danilo Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mattia Zaccagni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Boulaye Dia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matteo Cancellieri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenneth Taylor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matias Vecino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toma Basic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Marusic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Romagnoli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Gila",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Lazzari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ivan Provedel",
           "position": "Torwart"
         }
       ]
