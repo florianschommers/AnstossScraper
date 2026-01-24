@@ -1,12 +1,12 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-24T14:27:35.567047",
+  "lastUpdated": "2026-01-24T14:55:24.571276",
   "lineups": [
     {
       "homeTeam": "West Ham United",
       "awayTeam": "Sunderland",
-      "dateTime": "2026-01-24T00:00:00Z",
+      "dateTime": "2026-01-24T16:00:00Z",
       "matchday": 23,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Robin Roefs",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Burnley",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2026-01-24T16:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Armando Broja",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jaidon Anthony",
-          "position": "Angriff"
-        },
-        {
-          "name": "Marcus Edwards",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucas Pires",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Florentino",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lesley Ugochukwu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kyle Walker",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bashir Humphreys",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxime Esteve",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Axel Tuanzebe",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Martin Dubravka",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Dominic Solanke",
-          "position": "Angriff"
-        },
-        {
-          "name": "Wilson Odobert",
-          "position": "Angriff"
-        },
-        {
-          "name": "Xavi Simons",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djed Spence",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Conor Gallagher",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yves Bissouma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pedro Porro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Micky van de Ven",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Cristian Romero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Danso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guglielmo Vicario",
           "position": "Torwart"
         }
       ]
@@ -985,6 +886,105 @@
         },
         {
           "name": "Karl Darlow",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "West Ham United",
+      "awayTeam": "Sunderland",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Taty Castellanos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Crysencio Summerville",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateus Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tomas Soucek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oliver Scarles",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean-Clair Todibo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Konstantinos Mavropanos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alphonse Areola",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Brian Brobbey",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eliezer Mayenda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Romaine Mundle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Le Fee",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Sadiki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Trai Hume",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reinildo Mandava",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Alderete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dan Ballard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nordi Mukiele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Roefs",
           "position": "Torwart"
         }
       ]
