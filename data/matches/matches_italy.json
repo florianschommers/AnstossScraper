@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-24T21:45:29.177774Z",
+  "lastUpdated": "2026-01-24T21:54:48.225036Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Lecce",
-      "awayTeam": "Laziorom",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Como",
       "awayTeam": "Turin",
       "dateTime": "2026-01-24T12:30:00Z",
@@ -2189,6 +2179,16 @@
       "awayTeam": "Cagliari",
       "dateTime": "2026-01-24T15:00:00Z",
       "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Lecce",
+      "awayTeam": "Laziorom",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
