@@ -1,103 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-24T19:46:53.270704",
+  "lastUpdated": "2026-01-24T20:26:58.822901",
   "lineups": [
-    {
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Liverpool",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Evanilson",
-          "position": ""
-        },
-        {
-          "name": "Amine Adli",
-          "position": ""
-        },
-        {
-          "name": "Eli Kroupi",
-          "position": ""
-        },
-        {
-          "name": "Alex Jimenez",
-          "position": ""
-        },
-        {
-          "name": "Lewis Cook",
-          "position": ""
-        },
-        {
-          "name": "Alex Scott",
-          "position": ""
-        },
-        {
-          "name": "Marcos Senesi",
-          "position": ""
-        },
-        {
-          "name": "James Hill",
-          "position": ""
-        },
-        {
-          "name": "Adam Smith",
-          "position": ""
-        },
-        {
-          "name": "Djordje Petrovic",
-          "position": ""
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Cody Gakpo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mohamed Salah",
-          "position": "Angriff"
-        },
-        {
-          "name": "Florian Wirtz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dominik Szoboszlai",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Mac Allister",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Gravenberch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Milos Kerkez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Virgil van Dijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joe Gomez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremie Frimpong",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alisson",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "West Ham United",
       "awayTeam": "Sunderland",
@@ -985,6 +890,101 @@
         },
         {
           "name": "Jose Sa",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Liverpool",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Evanilson",
+          "position": ""
+        },
+        {
+          "name": "Amine Adli",
+          "position": ""
+        },
+        {
+          "name": "Eli Kroupi",
+          "position": ""
+        },
+        {
+          "name": "Alex Jimenez",
+          "position": ""
+        },
+        {
+          "name": "Lewis Cook",
+          "position": ""
+        },
+        {
+          "name": "Alex Scott",
+          "position": ""
+        },
+        {
+          "name": "Marcos Senesi",
+          "position": ""
+        },
+        {
+          "name": "James Hill",
+          "position": ""
+        },
+        {
+          "name": "Adam Smith",
+          "position": ""
+        },
+        {
+          "name": "Djordje Petrovic",
+          "position": ""
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Cody Gakpo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Gomez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
           "position": "Torwart"
         }
       ]
