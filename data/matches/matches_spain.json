@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-24T23:00:57.347194Z",
+  "lastUpdated": "2026-01-24T23:28:33.652305Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,9 +2005,9 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Vallecano",
-      "awayTeam": "Osasuna",
-      "dateTime": "2026-01-24T14:00:00Z",
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Mallorca",
+      "dateTime": "2026-01-25T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2045,11 +2045,21 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Girona",
-      "awayTeam": "Getafe",
-      "dateTime": "2026-01-26T21:00:00Z",
+      "homeTeam": "Levante",
+      "awayTeam": "Elche",
+      "dateTime": "2026-01-23T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Levante",
+      "awayTeam": "Elche",
+      "dateTime": "2026-01-23T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2089,16 +2099,6 @@
       "awayTeam": "Realmadrid",
       "dateTime": "2026-01-24T15:00:00Z",
       "score": "0:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "Levante",
-      "awayTeam": "Elche",
-      "dateTime": "2026-01-23T15:00:00Z",
-      "score": "3:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
