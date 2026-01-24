@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-24T20:01:50.876396Z",
+  "lastUpdated": "2026-01-24T20:20:31.454431Z",
   "matches": [
     {
       "matchday": 1,
@@ -1625,16 +1625,6 @@
     },
     {
       "matchday": 19,
-      "homeTeam": "Aclehavre",
-      "awayTeam": "Monaco",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 19,
       "homeTeam": "Rennes",
       "awayTeam": "Lorient",
       "dateTime": "2026-01-24T21:05:00Z",
@@ -1699,6 +1689,16 @@
       "awayTeam": "Lorient",
       "dateTime": "2026-01-24T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Monaco",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
