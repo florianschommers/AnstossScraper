@@ -1,12 +1,107 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-24T17:55:23.452306",
+  "lastUpdated": "2026-01-24T18:35:45.491356",
   "lineups": [
+    {
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Liverpool",
+      "dateTime": "2026-01-24T00:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Evanilson",
+          "position": ""
+        },
+        {
+          "name": "Amine Adli",
+          "position": ""
+        },
+        {
+          "name": "Eli Kroupi",
+          "position": ""
+        },
+        {
+          "name": "Alex Jimenez",
+          "position": ""
+        },
+        {
+          "name": "Lewis Cook",
+          "position": ""
+        },
+        {
+          "name": "Alex Scott",
+          "position": ""
+        },
+        {
+          "name": "Marcos Senesi",
+          "position": ""
+        },
+        {
+          "name": "James Hill",
+          "position": ""
+        },
+        {
+          "name": "Adam Smith",
+          "position": ""
+        },
+        {
+          "name": "Djordje Petrovic",
+          "position": ""
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Cody Gakpo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Gomez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "West Ham United",
       "awayTeam": "Sunderland",
-      "dateTime": "2026-01-24T18:30:00Z",
+      "dateTime": "2026-01-24T15:00:00Z",
       "matchday": 23,
       "phase": "",
       "homeLineup": [
@@ -98,105 +193,6 @@
         },
         {
           "name": "Robin Roefs",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Brentford",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-25T15:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Igor Thiago",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kevin Schade",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mikkel Damsgaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Jensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaly Janelt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yegor Yarmolyuk",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rico Henry",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nathan Collins",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kristoffer Ajer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Kayode",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Caoimhin Kelleher",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Dan Ndoye",
-          "position": "Angriff"
-        },
-        {
-          "name": "Morgan Gibbs-White",
-          "position": "Angriff"
-        },
-        {
-          "name": "Dilane Bakwa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Yates",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Douglas Luiz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "James McAtee",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ola Aina",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Morato",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nikola Milenkovic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicolo Savona",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matz Sels",
           "position": "Torwart"
         }
       ]
