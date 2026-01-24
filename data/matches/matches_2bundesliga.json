@@ -15317,7 +15317,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/284px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-24T20:34:18.227",
+    "lastUpdateDateTime": "2026-01-24T21:22:27.88",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15332,14 +15332,51 @@
       {
         "resultID": 122721,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138605,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 29,
+        "goalGetterID": 24297,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138607,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 34,
+        "goalGetterID": 24806,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138608,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 48,
+        "goalGetterID": 24807,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 467,
       "locationCity": "Magdeburg",
