@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-24T16:46:22.411351Z",
+  "lastUpdated": "2026-01-24T16:56:34.948790Z",
   "matches": [
     {
       "matchday": 1,
@@ -2208,20 +2208,10 @@
       "homeTeam": "Burnley",
       "awayTeam": "Tottenham Hotspur",
       "dateTime": "2026-01-24T00:00:00Z",
-      "score": "2:1",
+      "score": "2:2",
       "isFinished": false,
       "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Fulham",
-      "awayTeam": "Brighton & Hove Albion",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
+      "liveScore": "2:2"
     },
     {
       "matchday": 23,
@@ -2299,6 +2289,16 @@
       "awayTeam": "Sunderland",
       "dateTime": "2026-01-24T15:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Fulham",
+      "awayTeam": "Brighton & Hove Albion",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
