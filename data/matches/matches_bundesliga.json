@@ -15512,7 +15512,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/560px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-24T18:42:44.547",
+    "lastUpdateDateTime": "2026-01-24T19:47:21.827",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15528,7 +15528,7 @@
         "resultID": 122715,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -15541,6 +15541,18 @@
         "scoreTeam2": 1,
         "matchMinute": 10,
         "goalGetterID": 18556,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138602,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 53,
+        "goalGetterID": 18640,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
