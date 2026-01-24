@@ -1,11 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-24T16:56:34.948790Z",
-=======
-  "lastUpdated": "2026-01-24T16:57:38.346852Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-24T17:18:31.839210Z",
   "matches": [
     {
       "matchday": 1,
@@ -2209,26 +2205,6 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Burnley",
-      "awayTeam": "Tottenham Hotspur",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Manchester City",
-      "awayTeam": "Wolverhampton",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 23,
       "homeTeam": "West Ham United",
       "awayTeam": "Sunderland",
       "dateTime": "2026-01-24T18:30:00Z",
@@ -2299,10 +2275,30 @@
     },
     {
       "matchday": 23,
+      "homeTeam": "Burnley",
+      "awayTeam": "Tottenham Hotspur",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
       "homeTeam": "Fulham",
       "awayTeam": "Brighton & Hove Albion",
       "dateTime": "2026-01-24T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Manchester City",
+      "awayTeam": "Wolverhampton",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "score": "2:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
