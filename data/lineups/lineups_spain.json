@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-24T17:56:34.343538",
+  "lastUpdated": "2026-01-24T18:36:50.148889",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,9 +994,108 @@
       ]
     },
     {
+      "homeTeam": "Sevilla",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2026-01-24T00:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Isaac Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Akor Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Peque Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucien Agoume",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Gudelj",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Angel Carmona",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juanlu Sanchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Urko Izeta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Berenguer",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oihan Sancet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jesus Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Simon",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Vallecano",
       "awayTeam": "Osasuna",
-      "dateTime": "2026-01-24T18:30:00Z",
+      "dateTime": "2026-01-24T21:00:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1187,6 @@
         },
         {
           "name": "Sergio Herrera",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Villarreal",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2026-01-24T21:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Tani Oluwaseyi",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ayoze Perez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alberto Moleiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Thomas Partey",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santi Comesana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Pepe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergi Cardona",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Renato Veiga",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Rafa Marin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Santiago Mourino",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arnau Tenas",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vinicius Junior",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kylian Mbappe",
-          "position": "Angriff"
-        },
-        {
-          "name": "Franco Mastantuono",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jude Bellingham",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aurelien Tchouameni",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arda Guler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eduardo Camavinga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dean Huijsen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Raul Asencio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Valverde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thibaut Courtois",
           "position": "Torwart"
         }
       ]
