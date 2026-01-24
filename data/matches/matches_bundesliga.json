@@ -15487,7 +15487,7 @@
   {
     "matchID": 77425,
     "matchDateTime": "2026-01-24T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -15512,14 +15512,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/560px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-24T20:17:23.077",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-24T20:26:25.26",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122714,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
