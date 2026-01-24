@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-24T19:47:43.977582",
+  "lastUpdated": "2026-01-24T20:27:49.561507",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Sevilla",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Akor Adams",
-          "position": "Angriff"
-        },
-        {
-          "name": "Isaac Romero",
-          "position": "Angriff"
-        },
-        {
-          "name": "Peque Fernandez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gabriel Suazo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djibril Sow",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucien Agoume",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juanlu Sanchez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kike Salas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nemanja Gudelj",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jose Angel Carmona",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odysseas Vlachodimos",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Urko Izeta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alex Berenguer",
-          "position": "Angriff"
-        },
-        {
-          "name": "Oihan Sancet",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Robert Navarro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikel Jauregizar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Inigo Ruiz de Galarreta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yuri Berchiche",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aitor Paredes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dani Vivian",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jesus Areso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Simon",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Vallecano",
       "awayTeam": "Osasuna",
       "dateTime": "2026-01-24T21:00:00Z",
@@ -1880,6 +1781,105 @@
         },
         {
           "name": "Manuel Iori",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sevilla",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Akor Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isaac Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Peque Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucien Agoume",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juanlu Sanchez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nemanja Gudelj",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Angel Carmona",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Urko Izeta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Berenguer",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oihan Sancet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jesus Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Simon",
           "position": "Torwart"
         }
       ]
@@ -2928,11 +2928,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Isaac Romero",
+          "name": "Akor Adams",
           "position": "Angriff"
         },
         {
-          "name": "Akor Adams",
+          "name": "Isaac Romero",
           "position": "Angriff"
         },
         {
@@ -2940,7 +2940,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lucien Agoume",
+          "name": "Gabriel Suazo",
           "position": "Mittelfeld"
         },
         {
@@ -2948,12 +2948,16 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Gabriel Suazo",
+          "name": "Lucien Agoume",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juanlu Sanchez",
           "position": "Mittelfeld"
         },
         {
           "name": "Kike Salas",
-          "position": "Mittelfeld"
+          "position": "Abwehr"
         },
         {
           "name": "Nemanja Gudelj",
@@ -2961,10 +2965,6 @@
         },
         {
           "name": "Jose Angel Carmona",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juanlu Sanchez",
           "position": "Abwehr"
         },
         {
