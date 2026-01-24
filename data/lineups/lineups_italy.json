@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-24T19:25:28.944853",
+  "lastUpdated": "2026-01-24T19:48:26.027711",
   "lineups": [
-    {
-      "homeTeam": "Acflorenz",
-      "awayTeam": "Cagliari",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Albert Gudmundsson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Roberto Piccoli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Manor Solomon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cher Ndour",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolo Fagioli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rolando Mandragora",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Robin Gosens",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marin Pongracic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pietro Comuzzo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dodo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David de Gea",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Semih Kilicsoy",
-          "position": "Angriff"
-        },
-        {
-          "name": "Sebastiano Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adam Obert",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Mazzitelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gianluca Gaetano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Adopo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marco Palestra",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sebastiano Luperto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yerry Mina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ze Pedro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Elia Caprile",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Como",
       "awayTeam": "Turin",
@@ -882,6 +783,105 @@
         },
         {
           "name": "Alberto Paleari",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Acflorenz",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Albert Gudmundsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roberto Piccoli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Manor Solomon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cher Ndour",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Fagioli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rolando Mandragora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Gosens",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marin Pongracic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pietro Comuzzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dodo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David de Gea",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Semih Kilicsoy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Mazzitelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gianluca Gaetano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ze Pedro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
           "position": "Torwart"
         }
       ]
