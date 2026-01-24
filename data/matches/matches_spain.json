@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-24T19:31:06.406382Z",
+  "lastUpdated": "2026-01-24T19:37:04.892747Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,16 +2005,6 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Sevilla",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2026-01-24T00:00:00Z",
-      "score": "2:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:1"
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Vallecano",
       "awayTeam": "Osasuna",
       "dateTime": "2026-01-24T21:00:00Z",
@@ -2089,6 +2079,16 @@
       "awayTeam": "Espanyol",
       "dateTime": "2026-01-24T15:00:00Z",
       "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Sevilla",
+      "awayTeam": "Athbilbao",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
