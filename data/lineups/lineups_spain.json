@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-24T15:27:31.760889",
+  "lastUpdated": "2026-01-24T15:56:05.436720",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,9 +994,108 @@
       ]
     },
     {
+      "homeTeam": "Valencia",
+      "awayTeam": "Espanyol",
+      "dateTime": "2026-01-24T00:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lucas Beltran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Duro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Filip Ugrinic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Rioja",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesus Vazquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Copete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eray Comert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dimitri Foulquier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stole Dimitrievski",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pere Milla",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ramon Terrats",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jofre Carreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovic Taillandier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Sanchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Vallecano",
       "awayTeam": "Osasuna",
-      "dateTime": "2026-01-24T00:00:00Z",
+      "dateTime": "2026-01-24T18:30:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -1088,204 +1187,6 @@
         },
         {
           "name": "Sergio Herrera",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Valencia",
-      "awayTeam": "Espanyol",
-      "dateTime": "2026-01-24T16:15:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Lucas Beltran",
-          "position": "Angriff"
-        },
-        {
-          "name": "Hugo Duro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Arnaut Danjuma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Filip Ugrinic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pepelu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Rioja",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jesus Vazquez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eray Comert",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jose Copete",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dimitri Foulquier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Stole Dimitrievski",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Pere Milla",
-          "position": "Angriff"
-        },
-        {
-          "name": "Roberto Fernandez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ramon Terrats",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pol Lozano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Urko Gonzalez de Zarate",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jofre Carreras",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Romero",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ludovic Taillandier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Fernando Calero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ruben Sanchez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Iori",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Sevilla",
-      "awayTeam": "Athbilbao",
-      "dateTime": "2026-01-24T18:30:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Isaac Romero",
-          "position": "Angriff"
-        },
-        {
-          "name": "Peque Fernandez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lucien Agoume",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Batista Mendy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djibril Sow",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juanlu Sanchez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kike Salas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nemanja Gudelj",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jose Angel Carmona",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odysseas Vlachodimos",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Unai Gomez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Robert Navarro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gorka Guruzeta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adama Boiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikel Jauregizar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Rego",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andoni Gorosabel",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aitor Paredes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dani Vivian",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inigo Lekue",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Simon",
           "position": "Torwart"
         }
       ]
@@ -1885,6 +1786,105 @@
       ]
     },
     {
+      "homeTeam": "Vallecano",
+      "awayTeam": "Osasuna",
+      "dateTime": "2026-01-24T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jorge de Frutos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alvaro Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isi Palazon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Diaz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Valentin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pep Chavarria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pathe Ciss",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alfonso Espino",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Augusto Batalla",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Victor Munoz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aimar Oroz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iker Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Galan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorge Herrando",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enzo Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Valentin Rosier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Herrera",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Levante",
       "awayTeam": "Elche",
       "dateTime": "2026-01-23T15:00:00Z",
@@ -1991,19 +1991,15 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Roberto Fernandez",
-          "position": "Angriff"
-        },
-        {
           "name": "Pere Milla",
           "position": "Angriff"
         },
         {
-          "name": "Edu Exposito",
-          "position": "Mittelfeld"
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
         },
         {
-          "name": "Tyrhys Dolan",
+          "name": "Ramon Terrats",
           "position": "Mittelfeld"
         },
         {
@@ -2012,6 +2008,10 @@
         },
         {
           "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jofre Carreras",
           "position": "Mittelfeld"
         },
         {
@@ -2027,7 +2027,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Omar El Hilali",
+          "name": "Ruben Sanchez",
           "position": "Abwehr"
         },
         {
@@ -2631,11 +2631,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Hugo Duro",
+          "name": "Lucas Beltran",
           "position": "Angriff"
         },
         {
-          "name": "Lucas Beltran",
+          "name": "Hugo Duro",
           "position": "Angriff"
         },
         {
@@ -2643,11 +2643,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Pepelu",
+          "name": "Filip Ugrinic",
           "position": "Mittelfeld"
         },
         {
-          "name": "Filip Ugrinic",
+          "name": "Pepelu",
           "position": "Mittelfeld"
         },
         {
@@ -2655,15 +2655,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jose Gaya",
+          "name": "Jesus Vazquez",
           "position": "Mittelfeld"
         },
         {
-          "name": "Jose Copete",
+          "name": "Eray Comert",
           "position": "Abwehr"
         },
         {
-          "name": "Cesar Tarrega",
+          "name": "Jose Copete",
           "position": "Abwehr"
         },
         {
