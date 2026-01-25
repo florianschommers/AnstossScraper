@@ -1,12 +1,12 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-25T15:54:41.460360",
+  "lastUpdated": "2026-01-25T16:34:17.354634",
   "lineups": [
     {
       "homeTeam": "Nantes",
       "awayTeam": "Nizza",
-      "dateTime": "2026-01-25T00:00:00Z",
+      "dateTime": "2026-01-25T17:15:00Z",
       "matchday": 19,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Maxime Dupe",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Parisfc",
-      "awayTeam": "Angers",
-      "dateTime": "2026-01-25T17:15:00Z",
-      "matchday": 19,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jean-Philippe Krasso",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alimami Gory",
-          "position": "Angriff"
-        },
-        {
-          "name": "Vincent Marchetti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adama Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilan Kebbal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nhoa Sangui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hamari Traore",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Timothee Kolodziejczak",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Otavio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Moustapha Mbow",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Trapp",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Sidiki Cherif",
-          "position": "Angriff"
-        },
-        {
-          "name": "Amine Sbai",
-          "position": "Angriff"
-        },
-        {
-          "name": "Louis Mouton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djibirin Harouna",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yassin Belkhdim",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haris Belkebla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jacques Ekomie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jordan Lefort",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ousmane Camara",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carlens Arcus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Herve Koffi",
           "position": "Torwart"
         }
       ]
@@ -308,15 +209,19 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Habib Diallo",
-          "position": "Angriff"
-        },
-        {
           "name": "Giorgi Tsitaishvili",
           "position": "Angriff"
         },
         {
+          "name": "Habib Diallo",
+          "position": "Angriff"
+        },
+        {
           "name": "Gauthier Hein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boubacar Traore",
           "position": "Mittelfeld"
         },
         {
@@ -325,10 +230,6 @@
         },
         {
           "name": "Jessy Deminguet",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Boubacar Traore",
           "position": "Mittelfeld"
         },
         {
@@ -354,15 +255,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Afonso Moreira",
-          "position": "Angriff"
-        },
-        {
           "name": "Endrick",
           "position": "Angriff"
         },
         {
-          "name": "Tanner Tessmann",
+          "name": "Afonso Moreira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Khalis Merah",
           "position": "Mittelfeld"
         },
         {
@@ -374,7 +275,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Khalis Merah",
+          "name": "Tanner Tessmann",
           "position": "Mittelfeld"
         },
         {
@@ -494,6 +395,105 @@
         },
         {
           "name": "Mike Penders",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nantes",
+      "awayTeam": "Nizza",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 19,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Matthis Abline",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "position": "Angriff"
+        },
+        {
+          "name": "Johann Lepenant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Mwanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahima Sissoko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Remy Cabella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Cozza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tylel Tati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Chidozie Awaziem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kelvin Amian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Lopes",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Elye Wahi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sofiane Diop",
+          "position": "Angriff"
+        },
+        {
+          "name": "Morgan Sanson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed-Ali Cho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Salis Abdul Samed",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles Vanhoutte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ali Abdi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kojo Peprah Oppong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juma Bah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxime Dupe",
           "position": "Torwart"
         }
       ]
