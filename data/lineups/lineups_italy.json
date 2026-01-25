@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-25T17:24:51.346483",
+  "lastUpdated": "2026-01-25T17:55:26.539818",
   "lineups": [
+    {
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2026-01-25T00:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michele Di Gregorio",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Rasmus Hojlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Antonio Vergara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stanislav Lobotka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Gutierrez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Buongiorno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Jesus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Meret",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
-      "dateTime": "2026-01-25T18:00:00Z",
+      "dateTime": "2026-01-25T20:45:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Emil Audero",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Asrom",
-      "awayTeam": "Acmailand",
-      "dateTime": "2026-01-25T20:45:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Evan Ferguson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lorenzo Pellegrini",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matias Soule",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Konstantinos Tsimikas",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manu Kone",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Niccolo Pisilli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Devyne Rensch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daniele Ghilardi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jan Ziolkowski",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Zeki Celik",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mile Svilar",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Rafael Leao",
-          "position": "Angriff"
-        },
-        {
-          "name": "Christian Pulisic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pervis Estupinan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrien Rabiot",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ardon Jashari",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuele Ricci",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Saelemaekers",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Koni De Winter",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matteo Gabbia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Fikayo Tomori",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mike Maignan",
           "position": "Torwart"
         }
       ]
@@ -1223,11 +1223,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Juan Jesus",
+          "name": "Alessandro Buongiorno",
           "position": "Abwehr"
         },
         {
-          "name": "Alessandro Buongiorno",
+          "name": "Juan Jesus",
           "position": "Abwehr"
         },
         {
@@ -1235,7 +1235,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Vanja Milinkovic-Savic",
+          "name": "Alex Meret",
           "position": "Torwart"
         }
       ],
@@ -1740,11 +1740,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Fabio Miretti",
+          "name": "Francisco Conceicao",
           "position": "Mittelfeld"
         },
         {
-          "name": "Weston McKennie",
+          "name": "Andrea Cambiaso",
           "position": "Mittelfeld"
         },
         {
@@ -1756,7 +1756,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Andrea Cambiaso",
+          "name": "Weston McKennie",
           "position": "Mittelfeld"
         },
         {
