@@ -15412,7 +15412,7 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T14:02:31.42",
+    "lastUpdateDateTime": "2026-01-25T14:43:21.393",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15427,7 +15427,7 @@
       {
         "resultID": 122727,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -15438,6 +15438,18 @@
       {
         "goalID": 138615,
         "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138623,
+        "scoreTeam1": 1,
         "scoreTeam2": 1,
         "matchMinute": null,
         "goalGetterID": 0,
@@ -15483,14 +15495,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T14:02:35.277",
+    "lastUpdateDateTime": "2026-01-25T14:47:38.133",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122724,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -15498,7 +15510,7 @@
       {
         "resultID": 122725,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -15509,6 +15521,18 @@
       {
         "goalID": 138616,
         "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138624,
+        "scoreTeam1": 1,
         "scoreTeam2": 1,
         "matchMinute": null,
         "goalGetterID": 0,
@@ -15554,7 +15578,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T13:36:50.903",
+    "lastUpdateDateTime": "2026-01-25T14:49:44.427",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15570,13 +15594,26 @@
         "resultID": 122729,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138625,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 33,
       "locationCity": "Gelsenkirchen",
