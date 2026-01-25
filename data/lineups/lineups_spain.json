@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-25T22:26:22.348697",
+  "lastUpdated": "2026-01-25T22:54:33.061804",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Alaves",
-      "awayTeam": "Realbetis",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Lucas Boye",
-          "position": "Angriff"
-        },
-        {
-          "name": "Toni Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carles Alena",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Ibanez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antonio Blanco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Vicente",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jonny Otto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Pacheco",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carlos Protesoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Tenaglia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Antonio Sivera",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Cedric Bakambu",
-          "position": "Angriff"
-        },
-        {
-          "name": "Abde Ezzalzouli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pablo Fornals",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antony",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Roca",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergi Altimira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Valentin Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Natan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marc Bartra",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Angel Ortiz",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Lopez",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Atlmadrid",
       "awayTeam": "Mallorca",
       "dateTime": "2026-01-25T21:00:00Z",
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Ionut Radu",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Alaves",
+      "awayTeam": "Realbetis",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lucas Boye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Toni Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carles Alena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibanez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Vicente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Pacheco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlos Protesoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Cedric Bakambu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Abde Ezzalzouli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Fornals",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Roca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergi Altimira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Natan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Bartra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Angel Ortiz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Lopez",
           "position": "Torwart"
         }
       ]
