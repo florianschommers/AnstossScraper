@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-25T21:57:09.235078Z",
+  "lastUpdated": "2026-01-25T22:21:59.948365Z",
   "matches": [
     {
       "matchday": 1,
@@ -2005,16 +2005,6 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Alaves",
-      "awayTeam": "Realbetis",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 21,
       "homeTeam": "Atlmadrid",
       "awayTeam": "Mallorca",
       "dateTime": "2026-01-25T21:00:00Z",
@@ -2049,6 +2039,16 @@
       "awayTeam": "Celtavigo",
       "dateTime": "2026-01-25T15:00:00Z",
       "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Alaves",
+      "awayTeam": "Realbetis",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "2:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
