@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-25T19:01:58.774739Z",
+  "lastUpdated": "2026-01-25T19:12:32.066203Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "3:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
       "dateTime": "2026-01-25T20:45:00Z",
@@ -2159,6 +2149,16 @@
       "awayTeam": "Bologna",
       "dateTime": "2026-01-25T15:00:00Z",
       "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
