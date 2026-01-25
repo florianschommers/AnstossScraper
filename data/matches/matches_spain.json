@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-25T17:43:07.738268Z",
+=======
+  "lastUpdated": "2026-01-25T17:45:11.217281Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -2005,18 +2009,18 @@
     },
     {
       "matchday": 21,
-      "homeTeam": "Atlmadrid",
-      "awayTeam": "Mallorca",
-      "dateTime": "2026-01-25T18:30:00Z",
-      "score": null,
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2026-01-25T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 21,
-      "homeTeam": "Alaves",
-      "awayTeam": "Realbetis",
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Mallorca",
       "dateTime": "2026-01-25T21:00:00Z",
       "score": null,
       "isFinished": false,
