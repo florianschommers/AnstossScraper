@@ -15694,14 +15694,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T17:46:29.833",
+    "lastUpdateDateTime": "2026-01-25T18:23:36.857",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122768,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -15709,7 +15709,7 @@
       {
         "resultID": 122769,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -15735,6 +15735,18 @@
         "scoreTeam2": 1,
         "matchMinute": 11,
         "goalGetterID": 19807,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138697,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 44,
+        "goalGetterID": 18472,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
