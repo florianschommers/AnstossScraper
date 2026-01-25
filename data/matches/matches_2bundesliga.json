@@ -15412,7 +15412,7 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T13:36:48.52",
+    "lastUpdateDateTime": "2026-01-25T14:02:31.42",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15428,13 +15428,26 @@
         "resultID": 122727,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138615,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1002,
       "locationCity": "Elversberg",
@@ -15470,7 +15483,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T13:36:46.317",
+    "lastUpdateDateTime": "2026-01-25T14:02:35.277",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15486,13 +15499,26 @@
         "resultID": 122725,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138616,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 722,
       "locationCity": "Paderborn",
