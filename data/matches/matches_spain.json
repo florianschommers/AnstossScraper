@@ -1,7 +1,11 @@
 {
   "league": "spain",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-25T13:08:22.606237Z",
+=======
+  "lastUpdated": "2026-01-25T13:10:11.545898Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -2007,11 +2011,11 @@
       "matchday": 21,
       "homeTeam": "Atlmadrid",
       "awayTeam": "Mallorca",
-      "dateTime": "2026-01-25T14:00:00Z",
-      "score": null,
+      "dateTime": "2026-01-25T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 21,
