@@ -15387,7 +15387,7 @@
   {
     "matchID": 78109,
     "matchDateTime": "2026-01-25T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -15412,8 +15412,8 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T14:43:21.393",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-25T15:26:20.937",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122726,
@@ -15495,7 +15495,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T14:47:38.133",
+    "lastUpdateDateTime": "2026-01-25T15:18:33.193",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15510,7 +15510,7 @@
       {
         "resultID": 122725,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -15541,6 +15541,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 138633,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
@@ -15553,7 +15565,7 @@
   {
     "matchID": 78116,
     "matchDateTime": "2026-01-25T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -15578,8 +15590,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T14:49:44.427",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-01-25T15:26:08.86",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122728,
@@ -15593,8 +15605,8 @@
       {
         "resultID": 122729,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
-        "pointsTeam2": 1,
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -15605,6 +15617,42 @@
         "goalID": 138625,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138630,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138632,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 138634,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
         "matchMinute": null,
         "goalGetterID": 0,
         "goalGetterName": "",
