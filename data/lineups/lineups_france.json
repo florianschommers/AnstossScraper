@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-25T16:34:17.354634",
+  "lastUpdated": "2026-01-25T16:59:49.192176",
   "lineups": [
     {
       "homeTeam": "Nantes",
@@ -110,19 +110,19 @@
       "phase": "",
       "homeLineup": [
         {
+          "name": "Remy Labeau Lascary",
+          "position": "Angriff"
+        },
+        {
           "name": "Ludovic Ajorque",
           "position": "Angriff"
         },
         {
           "name": "Kamory Doumbia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lucas Tousart",
           "position": "Mittelfeld"
         },
         {
-          "name": "Remy Labeau Lascary",
+          "name": "Lucas Tousart",
           "position": "Mittelfeld"
         },
         {
@@ -134,7 +134,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Bradley Locko",
+          "name": "Daouda Guindo",
           "position": "Mittelfeld"
         },
         {
@@ -156,15 +156,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Aron Dønnum",
-          "position": "Angriff"
-        },
-        {
           "name": "Santiago Hidalgo",
           "position": "Angriff"
         },
         {
           "name": "Yann Gboho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aron Dønnum",
           "position": "Mittelfeld"
         },
         {
@@ -172,11 +172,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Cristian Casseres Jr.",
+          "name": "Pape Demba Diop",
           "position": "Mittelfeld"
         },
         {
-          "name": "Pape Demba Diop",
+          "name": "Cristian Casseres Jr.",
           "position": "Mittelfeld"
         },
         {
@@ -255,19 +255,19 @@
       ],
       "awayLineup": [
         {
+          "name": "Khalis Merah",
+          "position": "Angriff"
+        },
+        {
           "name": "Endrick",
           "position": "Angriff"
         },
         {
-          "name": "Afonso Moreira",
-          "position": "Angriff"
-        },
-        {
-          "name": "Khalis Merah",
+          "name": "Corentin Tolisso",
           "position": "Mittelfeld"
         },
         {
-          "name": "Corentin Tolisso",
+          "name": "Afonso Moreira",
           "position": "Mittelfeld"
         },
         {
@@ -279,8 +279,12 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Hans Hateboer",
+          "name": "Ainsley Maitland-Niles",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Hateboer",
+          "position": "Abwehr"
         },
         {
           "name": "Ruben Kluivert",
@@ -288,10 +292,6 @@
         },
         {
           "name": "Clinton Mata",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ainsley Maitland-Niles",
           "position": "Abwehr"
         },
         {
@@ -1013,7 +1013,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Maxime Lopez",
+          "name": "Vincent Marchetti",
           "position": "Mittelfeld"
         },
         {
@@ -1298,19 +1298,19 @@
       "phase": "",
       "homeLineup": [
         {
+          "name": "Endrick",
+          "position": "Angriff"
+        },
+        {
           "name": "Afonso Moreira",
           "position": "Angriff"
         },
         {
-          "name": "Pavel Sulc",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adam Karabec",
+          "name": "Khalis Merah",
           "position": "Mittelfeld"
         },
         {
-          "name": "Khalis Merah",
+          "name": "Corentin Tolisso",
           "position": "Mittelfeld"
         },
         {
@@ -1322,7 +1322,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Nicolas Tagliafico",
+          "name": "Hans Hateboer",
           "position": "Mittelfeld"
         },
         {
@@ -1338,7 +1338,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Remy Descamps",
+          "name": "Dominik Greif",
           "position": "Torwart"
         }
       ],
@@ -1397,7 +1397,7 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Prosper Peter",
+          "name": "Sidiki Cherif",
           "position": "Angriff"
         },
         {
@@ -1409,15 +1409,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Yassin Belkhdim",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Courcoul",
+          "name": "Djibirin Harouna",
           "position": "Mittelfeld"
         },
         {
           "name": "Haris Belkebla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassin Belkhdim",
           "position": "Mittelfeld"
         },
         {
@@ -1443,11 +1443,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Ibou Sane",
+          "name": "Giorgi Tsitaishvili",
           "position": "Angriff"
         },
         {
-          "name": "Giorgi Tsitaishvili",
+          "name": "Habib Diallo",
           "position": "Angriff"
         },
         {
@@ -1455,11 +1455,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Malick Mbaye",
+          "name": "Boubacar Traore",
           "position": "Mittelfeld"
         },
         {
-          "name": "Jean-Philippe Gbamin",
+          "name": "Alpha Toure",
           "position": "Mittelfeld"
         },
         {
@@ -1467,7 +1467,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Fode Ballo-Toure",
+          "name": "Maxime Colin",
           "position": "Mittelfeld"
         },
         {
@@ -1475,11 +1475,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Sadibou Sane",
+          "name": "Jean-Philippe Gbamin",
           "position": "Abwehr"
         },
         {
-          "name": "Maxime Colin",
+          "name": "Koffi Kouao",
           "position": "Abwehr"
         },
         {
@@ -1496,19 +1496,19 @@
       "phase": "",
       "homeLineup": [
         {
+          "name": "Santiago Hidalgo",
+          "position": "Angriff"
+        },
+        {
           "name": "Yann Gboho",
           "position": "Angriff"
         },
         {
-          "name": "Frank Magri",
-          "position": "Angriff"
-        },
-        {
-          "name": "Santiago Hidalgo",
+          "name": "Aron Dønnum",
           "position": "Mittelfeld"
         },
         {
-          "name": "Aron Dønnum",
+          "name": "Djibril Sidibe",
           "position": "Mittelfeld"
         },
         {
@@ -1516,7 +1516,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Alexis Vossah",
+          "name": "Cristian Casseres Jr.",
           "position": "Mittelfeld"
         },
         {
@@ -1532,7 +1532,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Djibril Sidibe",
+          "name": "Mark McKenzie",
           "position": "Abwehr"
         },
         {
@@ -1641,19 +1641,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Ludovic Ajorque",
-          "position": "Angriff"
-        },
-        {
           "name": "Remy Labeau Lascary",
           "position": "Angriff"
         },
         {
-          "name": "Lucas Tousart",
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kamory Doumbia",
           "position": "Mittelfeld"
         },
         {
-          "name": "Romain Del Castillo",
+          "name": "Lucas Tousart",
           "position": "Mittelfeld"
         },
         {
@@ -1665,7 +1665,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Bradley Locko",
+          "name": "Daouda Guindo",
           "position": "Mittelfeld"
         },
         {
