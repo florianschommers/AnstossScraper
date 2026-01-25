@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-25T16:54:37.385846",
+  "lastUpdated": "2026-01-25T17:20:15.342062",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
@@ -156,23 +156,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Dion Beljo",
-          "position": "Angriff"
-        },
-        {
           "name": "Arber Hoxha",
           "position": "Angriff"
         },
         {
+          "name": "Dion Beljo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fran Topic",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Miha Zajc",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dejan Ljubicic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Monsef Bakrar",
           "position": "Mittelfeld"
         },
         {
@@ -180,7 +176,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Bruno Goda",
+          "name": "Ismael Bennacer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Perez Vinlof",
           "position": "Mittelfeld"
         },
         {
@@ -1001,7 +1001,7 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Afonso Moreira",
+          "name": "Khalis Merah",
           "position": "Angriff"
         },
         {
@@ -1009,15 +1009,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Khalis Merah",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Corentin Tolisso",
           "position": "Mittelfeld"
         },
         {
-          "name": "Tanner Tessmann",
+          "name": "Afonso Moreira",
           "position": "Mittelfeld"
         },
         {
@@ -1025,8 +1021,16 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Hans Hateboer",
+          "name": "Tanner Tessmann",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Ainsley Maitland-Niles",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Hateboer",
+          "position": "Abwehr"
         },
         {
           "name": "Ruben Kluivert",
@@ -1034,10 +1038,6 @@
         },
         {
           "name": "Clinton Mata",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ainsley Maitland-Niles",
           "position": "Abwehr"
         },
         {
@@ -1269,7 +1269,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Christian Gunter",
+          "name": "Philipp Treu",
           "position": "Mittelfeld"
         },
         {
@@ -1281,7 +1281,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Philipp Treu",
+          "name": "Lukas Kubler",
           "position": "Abwehr"
         },
         {
