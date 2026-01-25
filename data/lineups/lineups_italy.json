@@ -1,12 +1,12 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-25T13:23:51.995965",
+  "lastUpdated": "2026-01-25T14:02:37.869408",
   "lineups": [
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
-      "dateTime": "2026-01-25T00:00:00Z",
+      "dateTime": "2026-01-25T15:00:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -103,105 +103,6 @@
       ]
     },
     {
-      "homeTeam": "Bergamo",
-      "awayTeam": "Parma",
-      "dateTime": "2026-01-25T15:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicola Zalewski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Zappacosta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sead Kolasinac",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Odilon Kossounou",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jacob Ondrejka",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mateo Pellegrino",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gaetano Oristanio",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mandela Keita",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nahuel Estevez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrian Bernabe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emanuele Valeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lautaro Valenti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Circati",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Enrico Delprato",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Edoardo Corvi",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Cfcgenua",
       "awayTeam": "Bologna",
       "dateTime": "2026-01-25T15:00:00Z",
@@ -209,11 +110,11 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Vitinha",
+          "name": "Lorenzo Colombo",
           "position": "Angriff"
         },
         {
-          "name": "Lorenzo Colombo",
+          "name": "Vitinha",
           "position": "Angriff"
         },
         {
@@ -225,15 +126,15 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Jeff Ekhator",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Morten Frendrup",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ruslan Malinovskyi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stefano Sabelli",
+          "name": "Brooke Norton-Cuffy",
           "position": "Mittelfeld"
         },
         {
@@ -241,7 +142,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Leo Ostigard",
+          "name": "Sebastian Otoa",
           "position": "Abwehr"
         },
         {
@@ -249,29 +150,25 @@
           "position": "Abwehr"
         },
         {
-          "name": "Nicola Leali",
+          "name": "Justin Bijlow",
           "position": "Torwart"
         }
       ],
       "awayLineup": [
         {
-          "name": "Benja Dominguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Thijs Dallinga",
+          "name": "Ciro Immobile",
           "position": "Angriff"
         },
         {
           "name": "Jonathan Rowe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jens Odgaard",
           "position": "Mittelfeld"
         },
         {
-          "name": "Tommaso Pobega",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nikola Moro",
+          "name": "Benja Dominguez",
           "position": "Mittelfeld"
         },
         {
@@ -279,7 +176,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Juan Miranda",
+          "name": "Remo Freuler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charalampos Lykogiannis",
           "position": "Mittelfeld"
         },
         {
@@ -593,6 +494,105 @@
         },
         {
           "name": "Simone Scuffet",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Cremonese",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Armand Lauriente",
+          "position": "Angriff"
+        },
+        {
+          "name": "Luca Moro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alieu Fadera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Kone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Lipani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Idzes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Walukiewicz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arijanet Muric",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jamie Vardy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Bonazzoli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giuseppe Pezzella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jari Vandeputte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alberto Grassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michele Collocolo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Barbieri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Bianchetti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Baschirotto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Filippo Terracciano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emil Audero",
           "position": "Torwart"
         }
       ]
