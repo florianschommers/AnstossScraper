@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-25T17:20:15.342062",
+  "lastUpdated": "2026-01-25T17:49:52.594649",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
@@ -156,16 +156,12 @@
       ],
       "awayLineup": [
         {
-          "name": "Arber Hoxha",
-          "position": "Angriff"
-        },
-        {
           "name": "Dion Beljo",
           "position": "Angriff"
         },
         {
-          "name": "Fran Topic",
-          "position": "Mittelfeld"
+          "name": "Arber Hoxha",
+          "position": "Angriff"
         },
         {
           "name": "Miha Zajc",
@@ -177,6 +173,10 @@
         },
         {
           "name": "Ismael Bennacer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Topic",
           "position": "Mittelfeld"
         },
         {
@@ -651,12 +651,16 @@
       ],
       "awayLineup": [
         {
-          "name": "Jhon Duran",
+          "name": "Talisca",
           "position": "Angriff"
         },
         {
-          "name": "Kerem Akturkoglu",
+          "name": "Anthony Musaba",
           "position": "Angriff"
+        },
+        {
+          "name": "Matteo Guendouzi",
+          "position": "Mittelfeld"
         },
         {
           "name": "Marco Asensio",
@@ -664,10 +668,6 @@
         },
         {
           "name": "Dorgeles Nene",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fred",
           "position": "Mittelfeld"
         },
         {
@@ -687,7 +687,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Mert Muldur",
+          "name": "Yigit Efe Demir",
           "position": "Abwehr"
         },
         {
@@ -1146,19 +1146,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Yusuf Bamidele",
+          "name": "A. Madarasz",
           "position": "Angriff"
         },
         {
-          "name": "Kristoffer Zachariassen",
+          "name": "Franko Kovacevic",
           "position": "Angriff"
         },
         {
-          "name": "Jonathan Levi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cadu",
+          "name": "Barnabas Nagy",
           "position": "Mittelfeld"
         },
         {
@@ -1166,11 +1162,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Julio Romao",
+          "name": "Cebrail Makreckis",
           "position": "Mittelfeld"
         },
         {
-          "name": "Cebrail Makreckis",
+          "name": "Elton Acolatse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bence Otvos",
           "position": "Mittelfeld"
         },
         {
