@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-25T19:24:11.391738",
+  "lastUpdated": "2026-01-25T19:49:51.978241",
   "lineups": [
-    {
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jonathan David",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Francisco Conceicao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrea Cambiaso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Khephren Thuram",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manuel Locatelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bremer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michele Di Gregorio",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Antonio Vergara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leonardo Spinazzola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stanislav Lobotka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Miguel Gutierrez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Buongiorno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Jesus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alex Meret",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
@@ -593,6 +494,105 @@
         },
         {
           "name": "Lukasz Skorupski",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Juventusturin",
+      "awayTeam": "Sscneapel",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michele Di Gregorio",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Rasmus Hojlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Antonio Vergara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stanislav Lobotka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Gutierrez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Buongiorno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Jesus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Meret",
           "position": "Torwart"
         }
       ]
