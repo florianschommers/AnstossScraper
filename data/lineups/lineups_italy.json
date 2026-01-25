@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-25T14:58:14.713536",
+  "lastUpdated": "2026-01-25T15:30:35.280360",
   "lineups": [
     {
       "homeTeam": "Bergamo",
@@ -103,9 +103,108 @@
       ]
     },
     {
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-01-25T00:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lorenzo Colombo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jeff Ekhator",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aaron Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikael Egill Ellertsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morten Frendrup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brooke Norton-Cuffy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Vasquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Otoa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Marcandalli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Justin Bijlow",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ciro Immobile",
+          "position": "Angriff"
+        },
+        {
+          "name": "Benja Dominguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jens Odgaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Rowe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Ferguson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Remo Freuler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charalampos Lykogiannis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Torbjorn Heggem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolo Casale",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nadir Zortea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukasz Skorupski",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
-      "dateTime": "2026-01-25T15:00:00Z",
+      "dateTime": "2026-01-25T18:00:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -197,105 +296,6 @@
         },
         {
           "name": "Emil Audero",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Juventusturin",
-      "awayTeam": "Sscneapel",
-      "dateTime": "2026-01-25T18:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jonathan David",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fabio Miretti",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Khephren Thuram",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manuel Locatelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrea Cambiaso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bremer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michele Di Gregorio",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Antonio Vergara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leonardo Spinazzola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stanislav Lobotka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Miguel Gutierrez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Jesus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Buongiorno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vanja Milinkovic-Savic",
           "position": "Torwart"
         }
       ]
@@ -1055,11 +1055,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Morten Frendrup",
+          "name": "Mikael Egill Ellertsson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Mikael Egill Ellertsson",
+          "name": "Morten Frendrup",
           "position": "Mittelfeld"
         },
         {
