@@ -1,8 +1,107 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-25T19:49:51.978241",
+  "lastUpdated": "2026-01-25T20:30:34.417775",
   "lineups": [
+    {
+      "homeTeam": "Asrom",
+      "awayTeam": "Acmailand",
+      "dateTime": "2026-01-25T00:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Donyell Malen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matias Soule",
+          "position": "Angriff"
+        },
+        {
+          "name": "Paulo Dybala",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wesley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Kone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Cristante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zeki Celik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniele Ghilardi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Evan Ndicka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluca Mancini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mile Svilar",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Rafael Leao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "position": "Angriff"
+        },
+        {
+          "name": "Davide Bartesaghi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Modric",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Ricci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koni De Winter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matteo Gabbia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fikayo Tomori",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mike Maignan",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
@@ -98,105 +197,6 @@
         },
         {
           "name": "Emil Audero",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Intermailand",
-      "awayTeam": "Pisa",
-      "dateTime": "2026-01-23T20:45:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Pio Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Augusto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Henrikh Mkhitaryan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Petar Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Stefan de Vrij",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Bisseck",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Henrik Meister",
-          "position": "Angriff"
-        },
-        {
-          "name": "Matteo Tramoni",
-          "position": "Angriff"
-        },
-        {
-          "name": "Stefano Moreo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuele Angori",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Aebischer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Marin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Idrissa Toure",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Francesco Coppola",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Canestrelli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Arturo Calabresi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Scuffet",
           "position": "Torwart"
         }
       ]
@@ -1831,19 +1831,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Evan Ferguson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lorenzo Pellegrini",
+          "name": "Donyell Malen",
           "position": "Angriff"
         },
         {
           "name": "Matias Soule",
+          "position": "Angriff"
+        },
+        {
+          "name": "Paulo Dybala",
           "position": "Mittelfeld"
         },
         {
-          "name": "Konstantinos Tsimikas",
+          "name": "Wesley",
           "position": "Mittelfeld"
         },
         {
@@ -1851,11 +1851,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Niccolo Pisilli",
+          "name": "Bryan Cristante",
           "position": "Mittelfeld"
         },
         {
-          "name": "Devyne Rensch",
+          "name": "Zeki Celik",
           "position": "Mittelfeld"
         },
         {
@@ -1863,11 +1863,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Jan Ziolkowski",
+          "name": "Evan Ndicka",
           "position": "Abwehr"
         },
         {
-          "name": "Zeki Celik",
+          "name": "Gianluca Mancini",
           "position": "Abwehr"
         },
         {
@@ -1934,11 +1934,11 @@
           "position": "Angriff"
         },
         {
-          "name": "Christian Pulisic",
+          "name": "Christopher Nkunku",
           "position": "Angriff"
         },
         {
-          "name": "Pervis Estupinan",
+          "name": "Davide Bartesaghi",
           "position": "Mittelfeld"
         },
         {
@@ -1946,7 +1946,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ardon Jashari",
+          "name": "Luka Modric",
           "position": "Mittelfeld"
         },
         {
