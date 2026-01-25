@@ -15669,7 +15669,7 @@
   {
     "matchID": 77422,
     "matchDateTime": "2026-01-25T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -15694,7 +15694,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/1._FC_Koeln_Logo_2014–.svg/296px-1._FC_Koeln_Logo_2014–.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-25T17:45:25.52",
+    "lastUpdateDateTime": "2026-01-25T17:46:29.833",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -15735,18 +15735,6 @@
         "scoreTeam2": 1,
         "matchMinute": 11,
         "goalGetterID": 19807,
-        "goalGetterName": "",
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 138688,
-        "scoreTeam1": 2,
-        "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
