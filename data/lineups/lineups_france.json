@@ -1,21 +1,21 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-25T14:28:25.026083",
+  "lastUpdated": "2026-01-25T14:59:03.249424",
   "lineups": [
     {
       "homeTeam": "Nantes",
       "awayTeam": "Nizza",
-      "dateTime": "2026-01-25T15:00:00Z",
+      "dateTime": "2026-01-25T00:00:00Z",
       "matchday": 19,
       "phase": "",
       "homeLineup": [
         {
-          "name": "Mostafa Mohamed",
+          "name": "Matthis Abline",
           "position": "Angriff"
         },
         {
-          "name": "Remy Cabella",
+          "name": "Mostafa Mohamed",
           "position": "Angriff"
         },
         {
@@ -23,11 +23,15 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Junior Mwanga",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Ibrahima Sissoko",
           "position": "Mittelfeld"
         },
         {
-          "name": "Matthis Abline",
+          "name": "Remy Cabella",
           "position": "Mittelfeld"
         },
         {
@@ -35,15 +39,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Junior Mwanga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Chidozie Awaziem",
+          "name": "Tylel Tati",
           "position": "Abwehr"
         },
         {
-          "name": "Tylel Tati",
+          "name": "Chidozie Awaziem",
           "position": "Abwehr"
         },
         {
@@ -57,27 +57,27 @@
       ],
       "awayLineup": [
         {
-          "name": "Mohamed-Ali Cho",
-          "position": "Angriff"
-        },
-        {
           "name": "Elye Wahi",
           "position": "Angriff"
         },
         {
           "name": "Sofiane Diop",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
           "name": "Morgan Sanson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Charles Vanhoutte",
+          "name": "Mohamed-Ali Cho",
           "position": "Mittelfeld"
         },
         {
           "name": "Salis Abdul Samed",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles Vanhoutte",
           "position": "Mittelfeld"
         },
         {
@@ -1146,19 +1146,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Remy Cabella",
-          "position": "Angriff"
-        },
-        {
-          "name": "Youssef El Arabi",
-          "position": "Angriff"
-        },
-        {
           "name": "Matthis Abline",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
-          "name": "Deiver Machado",
+          "name": "Mostafa Mohamed",
+          "position": "Angriff"
+        },
+        {
+          "name": "Johann Lepenant",
           "position": "Mittelfeld"
         },
         {
@@ -1166,23 +1162,27 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Francis Coquelin",
+          "name": "Ibrahima Sissoko",
           "position": "Mittelfeld"
         },
         {
-          "name": "Kelvin Amian",
+          "name": "Remy Cabella",
           "position": "Mittelfeld"
         },
         {
           "name": "Nicolas Cozza",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Tylel Tati",
           "position": "Abwehr"
         },
         {
-          "name": "Ibrahima Sissoko",
+          "name": "Chidozie Awaziem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kelvin Amian",
           "position": "Abwehr"
         },
         {
@@ -1595,27 +1595,27 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Mohamed-Ali Cho",
-          "position": "Angriff"
-        },
-        {
           "name": "Elye Wahi",
           "position": "Angriff"
         },
         {
           "name": "Sofiane Diop",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
           "name": "Morgan Sanson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Charles Vanhoutte",
+          "name": "Mohamed-Ali Cho",
           "position": "Mittelfeld"
         },
         {
           "name": "Salis Abdul Samed",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles Vanhoutte",
           "position": "Mittelfeld"
         },
         {
