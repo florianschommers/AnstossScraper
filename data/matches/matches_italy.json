@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-25T13:28:22.054035Z",
+  "lastUpdated": "2026-01-25T13:45:12.215037Z",
   "matches": [
     {
       "matchday": 1,
@@ -2107,16 +2107,6 @@
       "matchday": 22,
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "1:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Bergamo",
-      "awayTeam": "Parma",
       "dateTime": "2026-01-25T15:00:00Z",
       "score": null,
       "isFinished": false,
@@ -2160,6 +2150,16 @@
       "dateTime": "2026-01-23T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Cremonese",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
