@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-25T15:57:29.434385Z",
+  "lastUpdated": "2026-01-25T16:14:37.463884Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Cfcgenua",
-      "awayTeam": "Bologna",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "3:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Sassuolo",
       "awayTeam": "Cremonese",
       "dateTime": "2026-01-25T18:00:00Z",
@@ -2159,6 +2149,16 @@
       "awayTeam": "Parma",
       "dateTime": "2026-01-25T15:00:00Z",
       "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Cfcgenua",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "3:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-25T15:57:48.062441Z",
+  "lastUpdated": "2026-01-25T16:14:59.365366Z",
   "matches": [
     {
       "matchday": 1,
@@ -1627,16 +1627,6 @@
       "matchday": 19,
       "homeTeam": "Nantes",
       "awayTeam": "Nizza",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "1:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:3"
-    },
-    {
-      "matchday": 19,
-      "homeTeam": "Parisfc",
-      "awayTeam": "Angers",
       "dateTime": "2026-01-25T17:15:00Z",
       "score": null,
       "isFinished": false,
@@ -1670,6 +1660,16 @@
       "dateTime": "2026-01-25T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Nantes",
+      "awayTeam": "Nizza",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "1:4",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
