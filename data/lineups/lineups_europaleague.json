@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-25T14:22:31.993950",
+  "lastUpdated": "2026-01-25T14:52:20.648796",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
@@ -255,23 +255,19 @@
       ],
       "awayLineup": [
         {
+          "name": "Ciro Immobile",
+          "position": "Angriff"
+        },
+        {
           "name": "Benja Dominguez",
           "position": "Angriff"
         },
         {
-          "name": "Thijs Dallinga",
-          "position": "Angriff"
+          "name": "Jens Odgaard",
+          "position": "Mittelfeld"
         },
         {
           "name": "Jonathan Rowe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tommaso Pobega",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nikola Moro",
           "position": "Mittelfeld"
         },
         {
@@ -279,7 +275,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Juan Miranda",
+          "name": "Remo Freuler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charalampos Lykogiannis",
           "position": "Mittelfeld"
         },
         {
@@ -922,19 +922,19 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lamare Bogarde",
+          "name": "Amadou Onana",
           "position": "Mittelfeld"
         },
         {
-          "name": "Lucas Digne",
+          "name": "Ian Maatsen",
           "position": "Mittelfeld"
         },
         {
-          "name": "Tyrone Mings",
+          "name": "Pau Torres",
           "position": "Abwehr"
         },
         {
-          "name": "Victor Lindelof",
+          "name": "Ezri Konsa",
           "position": "Abwehr"
         },
         {
@@ -942,7 +942,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Marco Bizot",
+          "name": "Emiliano Martinez",
           "position": "Torwart"
         }
       ],
@@ -1100,35 +1100,35 @@
       "phase": "gruppenphase",
       "homeLineup": [
         {
-          "name": "Dan Ndoye",
+          "name": "Igor Jesus",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolas Dominguez",
           "position": "Angriff"
         },
         {
           "name": "Morgan Gibbs-White",
-          "position": "Angriff"
-        },
-        {
-          "name": "Dilane Bakwa",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ryan Yates",
+          "name": "Callum Hudson-Odoi",
           "position": "Mittelfeld"
         },
         {
-          "name": "Douglas Luiz",
+          "name": "Elliot Anderson",
           "position": "Mittelfeld"
         },
         {
-          "name": "James McAtee",
+          "name": "Ibrahim Sangare",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ola Aina",
+          "name": "Neco Williams",
           "position": "Mittelfeld"
         },
         {
-          "name": "Morato",
+          "name": "Murillo",
           "position": "Abwehr"
         },
         {
@@ -1136,7 +1136,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Nicolo Savona",
+          "name": "Ola Aina",
           "position": "Abwehr"
         },
         {
@@ -1443,15 +1443,15 @@
       ],
       "awayLineup": [
         {
-          "name": "Kevin Carlos",
+          "name": "Elye Wahi",
           "position": "Angriff"
         },
         {
-          "name": "Tiago Gouveia",
+          "name": "Sofiane Diop",
           "position": "Angriff"
         },
         {
-          "name": "Tom Louchet",
+          "name": "Morgan Sanson",
           "position": "Mittelfeld"
         },
         {
@@ -1471,7 +1471,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Brad Hamilton Mantsounga Makouangou",
+          "name": "Kojo Peprah Oppong",
           "position": "Abwehr"
         },
         {
@@ -1479,7 +1479,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Kojo Peprah Oppong",
+          "name": "Jonathan Clauss",
           "position": "Abwehr"
         },
         {
