@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-25T18:25:45.087496Z",
+  "lastUpdated": "2026-01-25T18:47:52.305697Z",
   "matches": [
     {
       "matchday": 1,
@@ -2205,16 +2205,6 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Arsenal",
-      "awayTeam": "Manunited",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "2:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:3"
-    },
-    {
-      "matchday": 23,
       "homeTeam": "Brentford",
       "awayTeam": "Nottingham",
       "dateTime": "2026-01-25T21:00:00Z",
@@ -2249,6 +2239,16 @@
       "awayTeam": "Astonvilla",
       "dateTime": "2026-01-25T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manunited",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "2:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
