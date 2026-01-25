@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-25T15:53:16.148556",
+  "lastUpdated": "2026-01-25T16:32:40.776189",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -1001,12 +1001,16 @@
       "phase": "",
       "homeLineup": [
         {
+          "name": "Robert Lewandowski",
+          "position": "Angriff"
+        },
+        {
           "name": "Raphinha",
           "position": "Angriff"
         },
         {
-          "name": "Robert Lewandowski",
-          "position": "Angriff"
+          "name": "Dani Olmo",
+          "position": "Mittelfeld"
         },
         {
           "name": "Lamine Yamal",
@@ -1018,10 +1022,6 @@
         },
         {
           "name": "Frenkie de Jong",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dani Olmo",
           "position": "Mittelfeld"
         },
         {
@@ -2094,11 +2094,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Alberto Reina",
+          "name": "Ilyas Chaira",
           "position": "Angriff"
         },
         {
-          "name": "Ilyas Chaira",
+          "name": "Alberto Reina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haissem Hassan",
           "position": "Mittelfeld"
         },
         {
@@ -2107,10 +2111,6 @@
         },
         {
           "name": "Kwasi Sibo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haissem Hassan",
           "position": "Mittelfeld"
         },
         {
@@ -2445,7 +2445,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Dani Olmo",
+          "name": "Marc Casado",
           "position": "Mittelfeld"
         },
         {
@@ -2453,15 +2453,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Marc Casado",
+          "name": "Dani Olmo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Cancelo",
           "position": "Mittelfeld"
         },
         {
           "name": "Gerard Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
           "position": "Abwehr"
         },
         {
@@ -2469,7 +2469,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Joao Cancelo",
+          "name": "Eric Garcia",
           "position": "Abwehr"
         },
         {
