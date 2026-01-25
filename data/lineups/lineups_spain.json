@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-25T14:57:20.180854",
+  "lastUpdated": "2026-01-25T15:29:40.604010",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Atlmadrid",
       "awayTeam": "Mallorca",
-      "dateTime": "2026-01-25T00:00:00Z",
+      "dateTime": "2026-01-25T16:15:00Z",
       "matchday": 21,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1088,6 @@
         },
         {
           "name": "Leo Roman",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Oviedo",
-      "dateTime": "2026-01-25T16:15:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Raphinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Robert Lewandowski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dani Olmo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Frenkie de Jong",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Casado",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gerard Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Cubarsi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joao Cancelo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joan Garcia",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Federico Vinas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alberto Reina",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ilyas Chaira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Colombatto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kwasi Sibo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haissem Hassan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Javi Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Carmo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Costas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Ahijado",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Escandell",
           "position": "Torwart"
         }
       ]
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Inaki Pena",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Mallorca",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Julian Alvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johnny Cardoso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Hancko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Maria Gimenez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Pubill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vedat Muriqi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mateo Joseph",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sergi Darder",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Mascarell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samu Costa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Sanchez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Mojica",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Valjent",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Lopez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Maffeo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leo Roman",
           "position": "Torwart"
         }
       ]
