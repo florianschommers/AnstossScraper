@@ -1,499 +1,103 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-25T23:25:37.211699",
+  "lastUpdated": "2026-01-25T23:51:21.682242",
   "lineups": [
     {
-      "homeTeam": "Brentford",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-25T21:00:00Z",
+      "homeTeam": "Everton",
+      "awayTeam": "Leedsunited",
+      "dateTime": "2026-01-26T21:00:00Z",
       "matchday": 23,
       "phase": "",
       "homeLineup": [
         {
-          "name": "Igor Thiago",
+          "name": "Thierno Barry",
           "position": "Angriff"
         },
         {
-          "name": "Kevin Schade",
+          "name": "Jack Grealish",
           "position": "Angriff"
         },
         {
-          "name": "Mikkel Damsgaard",
+          "name": "Harrison Armstrong",
           "position": "Mittelfeld"
         },
         {
-          "name": "Mathias Jensen",
+          "name": "Dwight McNeil",
           "position": "Mittelfeld"
         },
         {
-          "name": "Vitaly Janelt",
+          "name": "James Garner",
           "position": "Mittelfeld"
         },
         {
-          "name": "Yegor Yarmolyuk",
+          "name": "Merlin Rohl",
           "position": "Mittelfeld"
         },
         {
-          "name": "Rico Henry",
+          "name": "Vitaliy Mykolenko",
           "position": "Mittelfeld"
         },
         {
-          "name": "Nathan Collins",
+          "name": "Jake O&#039;Brien",
           "position": "Abwehr"
         },
         {
-          "name": "Kristoffer Ajer",
+          "name": "James Tarkowski",
           "position": "Abwehr"
         },
         {
-          "name": "Michael Kayode",
+          "name": "Nathan Patterson",
           "position": "Abwehr"
         },
         {
-          "name": "Caoimhin Kelleher",
+          "name": "Jordan Pickford",
           "position": "Torwart"
         }
       ],
       "awayLineup": [
         {
-          "name": "Igor Jesus",
+          "name": "Noah Okafor",
           "position": "Angriff"
         },
         {
-          "name": "Nicolas Dominguez",
+          "name": "Dominic Calvert-Lewin",
           "position": "Angriff"
         },
         {
-          "name": "Morgan Gibbs-White",
+          "name": "Gabriel Gudmundsson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Callum Hudson-Odoi",
+          "name": "Ilia Gruev",
           "position": "Mittelfeld"
         },
         {
-          "name": "Elliot Anderson",
+          "name": "Ethan Ampadu",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ibrahim Sangare",
+          "name": "Brenden Aaronson",
           "position": "Mittelfeld"
         },
         {
-          "name": "Neco Williams",
+          "name": "Jayden Bogle",
           "position": "Mittelfeld"
         },
         {
-          "name": "Murillo",
+          "name": "Pascal Struijk",
           "position": "Abwehr"
         },
         {
-          "name": "Nikola Milenkovic",
+          "name": "Joe Rodon",
           "position": "Abwehr"
         },
         {
-          "name": "Ola Aina",
+          "name": "James Justin",
           "position": "Abwehr"
         },
         {
-          "name": "Matz Sels",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Brentford",
-      "awayTeam": "Nottingham",
-      "dateTime": "2026-01-25T15:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Igor Thiago",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kevin Schade",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mikkel Damsgaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Jensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaly Janelt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yegor Yarmolyuk",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rico Henry",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nathan Collins",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kristoffer Ajer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Kayode",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Caoimhin Kelleher",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Igor Jesus",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicolas Dominguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Morgan Gibbs-White",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Callum Hudson-Odoi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Elliot Anderson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ibrahim Sangare",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Neco Williams",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Murillo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nikola Milenkovic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ola Aina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matz Sels",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Crystalpalace",
-      "awayTeam": "Chelsea",
-      "dateTime": "2026-01-25T15:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jean-Philippe Mateta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Brennan Johnson",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ismaila Sarr",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tyrick Mitchell",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jefferson Lerma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adam Wharton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daniel Munoz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Chris Richards",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Maxence Lacroix",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jaydee Canvot",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dean Henderson",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Joao Pedro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pedro Neto",
-          "position": "Angriff"
-        },
-        {
-          "name": "Enzo Fernandez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Estevao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Moises Caicedo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrey Santos",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Cucurella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benoit Badiashile",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Trevoh Chalobah",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Reece James",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robert Sanchez",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Newcastle",
-      "awayTeam": "Astonvilla",
-      "dateTime": "2026-01-25T15:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Anthony Gordon",
-          "position": "Angriff"
-        },
-        {
-          "name": "Yoane Wissa",
-          "position": "Angriff"
-        },
-        {
-          "name": "Harvey Barnes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joelinton",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sandro Tonali",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Miley",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Hall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sven Botman",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malick Thiaw",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kieran Trippier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nick Pope",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Ollie Watkins",
-          "position": "Angriff"
-        },
-        {
-          "name": "Emiliano Buendia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Morgan Rogers",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jadon Sancho",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Youri Tielemans",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Amadou Onana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ian Maatsen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pau Torres",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ezri Konsa",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matty Cash",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emiliano Martinez",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Manunited",
-      "dateTime": "2026-01-25T15:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Leandro Trossard",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gabriel Jesus",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bukayo Saka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Declan Rice",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Zubimendi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Odegaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piero Hincapie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gabriel Magalhaes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "William Saliba",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jurrien Timber",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Raya",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Bryan Mbeumo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Patrick Dorgu",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bruno Fernandes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Amad Diallo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kobbie Mainoo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Casemiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luke Shaw",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lisandro Martinez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Harry Maguire",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Diogo Dalot",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Senne Lammens",
+          "name": "Karl Darlow",
           "position": "Torwart"
         }
       ]
@@ -985,6 +589,402 @@
         },
         {
           "name": "Alisson",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Nottingham",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Igor Thiago",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kevin Schade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mikkel Damsgaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaly Janelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yegor Yarmolyuk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rico Henry",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathan Collins",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Kayode",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Caoimhin Kelleher",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Igor Jesus",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolas Dominguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Morgan Gibbs-White",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Callum Hudson-Odoi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Neco Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Milenkovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ola Aina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matz Sels",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Crystalpalace",
+      "awayTeam": "Chelsea",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jean-Philippe Mateta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Brennan Johnson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ismaila Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrick Mitchell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jefferson Lerma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Wharton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chris Richards",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jaydee Canvot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dean Henderson",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joao Pedro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "Angriff"
+        },
+        {
+          "name": "Enzo Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Estevao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moises Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrey Santos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benoit Badiashile",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trevoh Chalobah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Reece James",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert Sanchez",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Newcastle",
+      "awayTeam": "Astonvilla",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Anthony Gordon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yoane Wissa",
+          "position": "Angriff"
+        },
+        {
+          "name": "Harvey Barnes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joelinton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Miley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sven Botman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kieran Trippier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nick Pope",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ollie Watkins",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emiliano Buendia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jadon Sancho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amadou Onana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ian Maatsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pau Torres",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matty Cash",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emiliano Martinez",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manunited",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Leandro Trossard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Jesus",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Odegaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piero Hincapie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Magalhaes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Saliba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Bryan Mbeumo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Patrick Dorgu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kobbie Mainoo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Casemiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luke Shaw",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lisandro Martinez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Harry Maguire",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diogo Dalot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Senne Lammens",
           "position": "Torwart"
         }
       ]
