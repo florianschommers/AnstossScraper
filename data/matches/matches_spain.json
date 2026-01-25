@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-25T14:52:50.075665Z",
+  "lastUpdated": "2026-01-25T15:11:11.682427Z",
   "matches": [
     {
       "matchday": 1,
@@ -2007,16 +2007,6 @@
       "matchday": 21,
       "homeTeam": "Atlmadrid",
       "awayTeam": "Mallorca",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 21,
-      "homeTeam": "Fcbarcelona",
-      "awayTeam": "Oviedo",
       "dateTime": "2026-01-25T16:15:00Z",
       "score": null,
       "isFinished": false,
@@ -2050,6 +2040,16 @@
       "dateTime": "2026-01-23T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Atlmadrid",
+      "awayTeam": "Mallorca",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
