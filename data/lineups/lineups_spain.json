@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-25T19:49:05.265662",
+  "lastUpdated": "2026-01-25T20:29:47.571702",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Realsociedad",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "matchday": 21,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Mikel Oyarzabal",
-          "position": "Angriff"
-        },
-        {
-          "name": "Luka Sucic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ander Barrenetxea",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benat Turrientes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Gorrotxategi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Goncalo Guedes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aihen Munoz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Duje Caleta-Car",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Aramburu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alex Remiro",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Bryan Zaragoza",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pablo Duran",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jones El-Abdellaoui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hugo Alvarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hugo Sotelo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilaix Moriba",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergio Carreira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marcos Alonso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carl Starfelt",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manu Fernandez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ionut Radu",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Atlmadrid",
       "awayTeam": "Mallorca",
       "dateTime": "2026-01-25T21:00:00Z",
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Aaron Escandell",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Realsociedad",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Luka Sucic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benat Turrientes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Goncalo Guedes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aihen Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Aramburu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Remiro",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Duran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jones El-Abdellaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Alvarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Sotelo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Carreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manu Fernandez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
           "position": "Torwart"
         }
       ]
