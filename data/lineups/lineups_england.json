@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-25T18:31:48.678961",
+  "lastUpdated": "2026-01-25T19:04:19.040584",
   "lineups": [
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Manunited",
-      "dateTime": "2026-01-25T00:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Leandro Trossard",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gabriel Jesus",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bukayo Saka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Declan Rice",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Zubimendi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Martin Odegaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piero Hincapie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gabriel Magalhaes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "William Saliba",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jurrien Timber",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Raya",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Bryan Mbeumo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Patrick Dorgu",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bruno Fernandes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Amad Diallo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kobbie Mainoo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Casemiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luke Shaw",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lisandro Martinez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Harry Maguire",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Diogo Dalot",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Senne Lammens",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Brentford",
       "awayTeam": "Nottingham",
@@ -494,6 +395,105 @@
         },
         {
           "name": "Emiliano Martinez",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manunited",
+      "dateTime": "2026-01-25T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Leandro Trossard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gabriel Jesus",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bukayo Saka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Odegaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piero Hincapie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Magalhaes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Saliba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Bryan Mbeumo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Patrick Dorgu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kobbie Mainoo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Casemiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luke Shaw",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lisandro Martinez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Harry Maguire",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diogo Dalot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Senne Lammens",
           "position": "Torwart"
         }
       ]
