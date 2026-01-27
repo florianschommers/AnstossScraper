@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "",
-  "lastUpdated": "2026-01-27T15:07:17.090378",
+  "lastUpdated": "2026-01-27T15:38:16.903799",
   "lineups": [
     {
       "homeTeam": "Lausanne",
@@ -2866,6 +2866,105 @@
         },
         {
           "name": "Goran Karacic",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Shamrock",
+      "awayTeam": "Celje",
+      "dateTime": "2025-10-23T19:00:00Z",
+      "matchday": 2,
+      "phase": "league-stage",
+      "homeLineup": [
+        {
+          "name": "Rory Gaffney",
+          "position": "Angriff"
+        },
+        {
+          "name": "Daniel Mandroiu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Josh Honohan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dylan Watts",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthew Healy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Connor Malley",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Matthews",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cory O&#039;Sullivan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roberto Lopes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dan Cleary",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ed McGinty",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Franko Kovacevic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Danijel Sturm",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nikita Iosifov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Kvesic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zan Karnicnik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darko Hrka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaliy Lisakovich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Artemijus Tutyskinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukasz Bejger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juanjo Nieto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zan Luk Leban",
           "position": "Torwart"
         }
       ]
