@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "",
-  "lastUpdated": "2026-01-28T22:31:34.899781",
+  "lastUpdated": "2026-01-28T23:01:05.109640",
   "lineups": [
     {
       "homeTeam": "Athbilbao",
@@ -12478,105 +12478,6 @@
       ]
     },
     {
-      "homeTeam": "Benfica",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2026-01-28T22:00:14.498832Z",
-      "matchday": 8,
-      "phase": "gruppenphase",
-      "homeLineup": [
-        {
-          "name": "Vangelis Pavlidis",
-          "position": "Angriff"
-        },
-        {
-          "name": "Andreas Schjelderup",
-          "position": "Angriff"
-        },
-        {
-          "name": "Georgiy Sudakov",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gianluca Prestianni",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fredrik Aursnes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leandro Barreiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuel Dahl",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Otamendi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tomas Araujo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Amar Dedic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Anatoliy Trubin",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vinicius Junior",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kylian Mbappe",
-          "position": "Angriff"
-        },
-        {
-          "name": "Franco Mastantuono",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jude Bellingham",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aurelien Tchouameni",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Arda Guler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alvaro Carreras",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dean Huijsen",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Raul Asencio",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Valverde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Thibaut Courtois",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Leverkusen",
       "awayTeam": "Villarreal",
       "dateTime": "2026-01-28T19:00:00Z",
@@ -13067,6 +12968,105 @@
         },
         {
           "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Benfica",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2026-01-28T19:00:00Z",
+      "matchday": 8,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Vangelis Pavlidis",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andreas Schjelderup",
+          "position": "Angriff"
+        },
+        {
+          "name": "Georgiy Sudakov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gianluca Prestianni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fredrik Aursnes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leandro Barreiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuel Dahl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Otamendi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tomas Araujo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amar Dedic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anatoliy Trubin",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Franco Mastantuono",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alvaro Carreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
           "position": "Torwart"
         }
       ]
