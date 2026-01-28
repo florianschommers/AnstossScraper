@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2026-01-28T22:00:18.481396Z",
+  "lastUpdated": "2026-01-28T22:35:49.424783Z",
   "matches": [
     {
       "matchday": 1,
@@ -1391,17 +1391,6 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Benfica",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2026-01-28T22:00:14.498832Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2",
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 8,
       "homeTeam": "Leverkusen",
       "awayTeam": "Villarreal",
       "dateTime": "2026-01-28T19:00:00Z",
@@ -1450,6 +1439,17 @@
       "awayTeam": "Intermailand",
       "dateTime": "2026-01-28T19:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Benfica",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2026-01-28T19:00:00Z",
+      "score": "4:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
