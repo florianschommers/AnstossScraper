@@ -1,12 +1,12 @@
 {
   "league": "europaleague",
   "season": "",
-  "lastUpdated": "2026-01-29T21:01:23.532212",
+  "lastUpdated": "2026-01-29T21:30:30.305195",
   "lineups": [
     {
       "homeTeam": "Sturmgraz",
       "awayTeam": "Bergen",
-      "dateTime": "2026-01-29T20:42:28.387605Z",
+      "dateTime": "2026-01-29T21:01:18.118178Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -105,7 +105,7 @@
     {
       "homeTeam": "Midtjylland",
       "awayTeam": "Dzagreb",
-      "dateTime": "2026-01-29T20:42:28.387629Z",
+      "dateTime": "2026-01-29T21:01:18.118213Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -204,7 +204,7 @@
     {
       "homeTeam": "Mtelaviv",
       "awayTeam": "Bologna",
-      "dateTime": "2026-01-29T20:42:28.387641Z",
+      "dateTime": "2026-01-29T21:01:18.118226Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -255,27 +255,27 @@
       ],
       "awayLineup": [
         {
-          "name": "Santiago Castro",
-          "position": "Angriff"
-        },
-        {
           "name": "Jonathan Rowe",
           "position": "Angriff"
         },
         {
-          "name": "Lewis Ferguson",
-          "position": "Mittelfeld"
+          "name": "Santiago Castro",
+          "position": "Angriff"
         },
         {
           "name": "Riccardo Orsolini",
           "position": "Mittelfeld"
         },
         {
-          "name": "Nikola Moro",
+          "name": "Lewis Ferguson",
           "position": "Mittelfeld"
         },
         {
           "name": "Remo Freuler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Moro",
           "position": "Mittelfeld"
         },
         {
@@ -303,7 +303,7 @@
     {
       "homeTeam": "Fcbasel",
       "awayTeam": "Pilsen",
-      "dateTime": "2026-01-29T20:42:28.387652Z",
+      "dateTime": "2026-01-29T21:01:18.118237Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -402,7 +402,7 @@
     {
       "homeTeam": "Realbetis",
       "awayTeam": "Feyenoord",
-      "dateTime": "2026-01-29T20:42:28.387662Z",
+      "dateTime": "2026-01-29T21:01:18.118248Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -501,7 +501,7 @@
     {
       "homeTeam": "Panathinaikos",
       "awayTeam": "Asrom",
-      "dateTime": "2026-01-29T20:42:28.387673Z",
+      "dateTime": "2026-01-29T21:01:18.118260Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -600,7 +600,7 @@
     {
       "homeTeam": "Steaua",
       "awayTeam": "Fenerbahce",
-      "dateTime": "2026-01-29T20:42:28.387683Z",
+      "dateTime": "2026-01-29T21:01:18.118270Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -699,7 +699,7 @@
     {
       "homeTeam": "Deventer",
       "awayTeam": "Braga",
-      "dateTime": "2026-01-29T20:42:28.387693Z",
+      "dateTime": "2026-01-29T21:01:18.118280Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -798,7 +798,7 @@
     {
       "homeTeam": "Stuttgart",
       "awayTeam": "Ybbern",
-      "dateTime": "2026-01-29T20:42:28.387703Z",
+      "dateTime": "2026-01-29T21:01:18.118290Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -897,7 +897,7 @@
     {
       "homeTeam": "Astonvilla",
       "awayTeam": "Salzburg",
-      "dateTime": "2026-01-29T20:42:28.387713Z",
+      "dateTime": "2026-01-29T21:01:18.118302Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Lyon",
       "awayTeam": "Paoksaloniki",
-      "dateTime": "2026-01-29T20:42:28.387722Z",
+      "dateTime": "2026-01-29T21:01:18.118312Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1095,20 +1095,24 @@
     {
       "homeTeam": "Nottingham",
       "awayTeam": "Ferencvarosi",
-      "dateTime": "2026-01-29T20:42:28.387733Z",
+      "dateTime": "2026-01-29T21:01:18.118323Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
-        {
-          "name": "Nicolas Dominguez",
-          "position": "Angriff"
-        },
         {
           "name": "Igor Jesus",
           "position": "Angriff"
         },
         {
           "name": "Dan Ndoye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolas Dominguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James McAtee",
           "position": "Mittelfeld"
         },
         {
@@ -1117,10 +1121,6 @@
         },
         {
           "name": "Ryan Yates",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "James McAtee",
           "position": "Mittelfeld"
         },
         {
@@ -1194,7 +1194,7 @@
     {
       "homeTeam": "Lille",
       "awayTeam": "Freiburg",
-      "dateTime": "2026-01-29T20:42:28.387744Z",
+      "dateTime": "2026-01-29T21:01:18.118334Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1293,7 +1293,7 @@
     {
       "homeTeam": "Rsbelgrad",
       "awayTeam": "Celtavigo",
-      "dateTime": "2026-01-29T20:42:28.387753Z",
+      "dateTime": "2026-01-29T21:01:18.118343Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1392,7 +1392,7 @@
     {
       "homeTeam": "Ludogorets",
       "awayTeam": "Nizza",
-      "dateTime": "2026-01-29T20:42:28.387762Z",
+      "dateTime": "2026-01-29T21:01:18.118365Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1491,7 +1491,7 @@
     {
       "homeTeam": "Porto",
       "awayTeam": "Glrangers",
-      "dateTime": "2026-01-29T20:42:28.387771Z",
+      "dateTime": "2026-01-29T21:01:18.118376Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1590,7 +1590,7 @@
     {
       "homeTeam": "Genk",
       "awayTeam": "Malmoeff",
-      "dateTime": "2026-01-29T20:42:28.387781Z",
+      "dateTime": "2026-01-29T21:01:18.118391Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
@@ -1689,7 +1689,7 @@
     {
       "homeTeam": "Cglasgow",
       "awayTeam": "Utrecht",
-      "dateTime": "2026-01-29T20:42:28.387831Z",
+      "dateTime": "2026-01-29T21:01:18.118447Z",
       "matchday": 8,
       "phase": "gruppenphase",
       "homeLineup": [
