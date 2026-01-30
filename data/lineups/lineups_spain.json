@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-30T22:02:33.835544",
+  "lastUpdated": "2026-01-30T22:33:58.847228",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Espanyol",
       "awayTeam": "Alaves",
-      "dateTime": "2026-01-30T00:00:00Z",
+      "dateTime": "2026-01-30T14:00:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1088,6 @@
         },
         {
           "name": "Antonio Sivera",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Oviedo",
-      "awayTeam": "Girona",
-      "dateTime": "2026-01-31T14:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Federico Vinas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ilyas Chaira",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alberto Reina",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Haissem Hassan",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Santiago Colombatto",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kwasi Sibo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Javi Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "David Carmo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Costas",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lucas Ahijado",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Escandell",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vladyslav Vanat",
-          "position": "Angriff"
-        },
-        {
-          "name": "Bryan Gil",
-          "position": "Angriff"
-        },
-        {
-          "name": "Thomas Lemar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Viktor Tsygankov",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fran Beltran",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ivan Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Moreno",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Daley Blind",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Vitor Reis",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Hugo Rincon",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marc-Andre ter Stegen",
           "position": "Torwart"
         }
       ]
@@ -1979,6 +1880,105 @@
         },
         {
           "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Espanyol",
+      "awayTeam": "Alaves",
+      "dateTime": "2026-01-30T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Kike Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ramon Terrats",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Urko Gonzalez de Zarate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jofre Carreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovic Taillandier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Clemens Riedel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Iori",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lucas Boye",
+          "position": "Angriff"
+        },
+        {
+          "name": "Toni Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carles Alena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibanez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calebe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Parada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Pacheco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlos Protesoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Sivera",
           "position": "Torwart"
         }
       ]
