@@ -15943,13 +15943,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo-VfL-Wolfsburg.svg/316px-Logo-VfL-Wolfsburg.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-30T20:37:37.89",
+    "lastUpdateDateTime": "2026-01-30T21:16:50.023",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122880,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -15958,14 +15958,27 @@
       {
         "resultID": 122881,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138934,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 29,
+        "goalGetterID": 19086,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
