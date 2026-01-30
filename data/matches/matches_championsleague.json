@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2026",
-  "lastUpdated": "2026-01-30T15:02:55.474237Z",
+  "lastUpdated": "2026-01-30T15:49:48.220991Z",
   "matches": [
     {
       "matchday": 1,
@@ -1259,17 +1259,6 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Olympiakos",
-      "awayTeam": "Leverkusen",
-      "dateTime": "2026-01-20T19:00:00Z",
-      "score": "2:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Kopenhagen",
       "awayTeam": "Sscneapel",
       "dateTime": "2026-01-20T19:00:00Z",
@@ -1325,17 +1314,6 @@
     },
     {
       "matchday": 7,
-      "homeTeam": "Bayern",
-      "awayTeam": "Stgilloise",
-      "dateTime": "2026-01-21T19:00:00Z",
-      "score": "2:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 7,
       "homeTeam": "Chelsea",
       "awayTeam": "Aeppaphosfc",
       "dateTime": "2026-01-21T19:00:00Z",
@@ -1369,6 +1347,17 @@
     },
     {
       "matchday": 7,
+      "homeTeam": "Bayern",
+      "awayTeam": "Stgilloise",
+      "dateTime": "2026-01-21T19:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 7,
       "homeTeam": "Newcastle",
       "awayTeam": "Eindhoven",
       "dateTime": "2026-01-21T19:00:00Z",
@@ -1391,10 +1380,10 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Leverkusen",
-      "awayTeam": "Villarreal",
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Sporting",
       "dateTime": "2026-01-28T19:00:00Z",
-      "score": "3:0",
+      "score": "2:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -1446,17 +1435,6 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Benfica",
-      "awayTeam": "Realmadrid",
-      "dateTime": "2026-01-28T19:00:00Z",
-      "score": "4:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null,
-      "phase": "gruppenphase"
-    },
-    {
-      "matchday": 8,
       "homeTeam": "Monaco",
       "awayTeam": "Juventusturin",
       "dateTime": "2026-01-28T19:00:00Z",
@@ -1490,10 +1468,10 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Chelsea",
+      "homeTeam": "Leverkusen",
+      "awayTeam": "Villarreal",
       "dateTime": "2026-01-28T19:00:00Z",
-      "score": "2:3",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -1501,8 +1479,8 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Athbilbao",
-      "awayTeam": "Sporting",
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Chelsea",
       "dateTime": "2026-01-28T19:00:00Z",
       "score": "2:3",
       "isFinished": true,
