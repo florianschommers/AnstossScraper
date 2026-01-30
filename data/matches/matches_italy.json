@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-30T21:53:55.600275Z",
+  "lastUpdated": "2026-01-30T22:15:39.392550Z",
   "matches": [
     {
       "matchday": 1,
@@ -2207,17 +2207,7 @@
       "matchday": 23,
       "homeTeam": "Laziorom",
       "awayTeam": "Cfcgenua",
-      "dateTime": "2026-01-30T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Pisa",
-      "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-31T15:00:00Z",
+      "dateTime": "2026-01-30T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2300,6 +2290,16 @@
       "dateTime": "2026-02-03T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Laziorom",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2026-01-30T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
