@@ -15697,14 +15697,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-30T18:30:30.593",
+    "lastUpdateDateTime": "2026-01-30T19:26:11.83",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122856,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -15713,13 +15713,26 @@
         "resultID": 122857,
         "resultName": "Endergebnis",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 138876,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 38,
+        "goalGetterID": 23223,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 467,
       "locationCity": "Magdeburg",
