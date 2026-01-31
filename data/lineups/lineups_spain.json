@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-31T22:33:41.965385",
+  "lastUpdated": "2026-01-31T23:02:57.014848",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Elche",
-      "awayTeam": "Fcbarcelona",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Andre Silva",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alvaro Rodriguez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Grady Diangana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "German Valera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Aguado",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rodrigo Mendoza",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adria Pedrosa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "John Donald",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Victor Chust",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Affengruber",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Inaki Pena",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Raphinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ferran Torres",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dani Olmo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Frenkie de Jong",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fermin Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Balde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Eric Garcia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pau Cubarsi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jules Kounde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joan Garcia",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Oviedo",
       "awayTeam": "Girona",
       "dateTime": "2026-01-31T14:00:00Z",
@@ -1880,6 +1781,105 @@
         },
         {
           "name": "Jan Oblak",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Elche",
+      "awayTeam": "Fcbarcelona",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Andre Silva",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alvaro Rodriguez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Grady Diangana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "German Valera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Aguado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Mendoza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adria Pedrosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "John Donald",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Chust",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Affengruber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Inaki Pena",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Raphinha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Frenkie de Jong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fermin Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Garcia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jules Kounde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joan Garcia",
           "position": "Torwart"
         }
       ]
