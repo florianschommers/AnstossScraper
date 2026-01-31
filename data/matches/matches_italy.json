@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-31T15:58:03.230097Z",
+  "lastUpdated": "2026-01-31T16:02:07.799735Z",
   "matches": [
     {
       "matchday": 1,
@@ -2207,16 +2207,6 @@
       "matchday": 23,
       "homeTeam": "Pisa",
       "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "1:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:3"
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Acflorenz",
       "dateTime": "2026-01-31T18:00:00Z",
       "score": null,
       "isFinished": false,
@@ -2290,6 +2280,16 @@
       "dateTime": "2026-02-03T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Pisa",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
