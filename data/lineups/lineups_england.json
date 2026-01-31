@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-31T22:32:45.884786",
+  "lastUpdated": "2026-01-31T23:02:06.329251",
   "lineups": [
-    {
-      "homeTeam": "Liverpool",
-      "awayTeam": "Newcastle",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "matchday": 24,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Hugo Ekitike",
-          "position": "Angriff"
-        },
-        {
-          "name": "Cody Gakpo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Florian Wirtz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mohamed Salah",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Mac Allister",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ryan Gravenberch",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Milos Kerkez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Virgil van Dijk",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ibrahima Konate",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dominik Szoboszlai",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alisson",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Harvey Barnes",
-          "position": "Angriff"
-        },
-        {
-          "name": "Anthony Gordon",
-          "position": "Angriff"
-        },
-        {
-          "name": "Anthony Elanga",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Joe Willock",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sandro Tonali",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jacob Ramsey",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lewis Hall",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dan Burn",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malick Thiaw",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kieran Trippier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nick Pope",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Everton",
@@ -985,6 +886,105 @@
         },
         {
           "name": "Alphonse Areola",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 24,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hugo Ekitike",
+          "position": "Angriff"
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Harvey Barnes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anthony Elanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joe Willock",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacob Ramsey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Burn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kieran Trippier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nick Pope",
           "position": "Torwart"
         }
       ]
