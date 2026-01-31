@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-31T23:02:06.887298Z",
+  "lastUpdated": "2026-01-31T23:33:09.182872Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,9 +2105,9 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Girona",
-      "dateTime": "2026-01-31T14:00:00Z",
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Vallecano",
+      "dateTime": "2026-02-01T14:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2145,11 +2145,21 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Mallorca",
-      "awayTeam": "Sevilla",
-      "dateTime": "2026-02-02T21:00:00Z",
+      "homeTeam": "Espanyol",
+      "awayTeam": "Alaves",
+      "dateTime": "2026-01-30T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Alaves",
+      "dateTime": "2026-01-30T15:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2189,16 +2199,6 @@
       "awayTeam": "Fcbarcelona",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "1:3",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Alaves",
-      "dateTime": "2026-01-30T15:00:00Z",
-      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

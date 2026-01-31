@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-31T23:02:37.593486Z",
+  "lastUpdated": "2026-01-31T23:33:57.000785Z",
   "matches": [
     {
       "matchday": 1,
@@ -1715,9 +1715,9 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Parisfc",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2026-01-31T15:00:00Z",
+      "homeTeam": "Lyon",
+      "awayTeam": "Lille",
+      "dateTime": "2026-02-01T15:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1765,6 +1765,16 @@
     },
     {
       "matchday": 20,
+      "homeTeam": "Lens",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2026-01-30T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
       "homeTeam": "Parisfc",
       "awayTeam": "Olmarseille",
       "dateTime": "2026-01-31T15:00:00Z",
@@ -1789,16 +1799,6 @@
       "awayTeam": "Rennes",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "4:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 20,
-      "homeTeam": "Lens",
-      "awayTeam": "Aclehavre",
-      "dateTime": "2026-01-30T15:00:00Z",
-      "score": "1:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
