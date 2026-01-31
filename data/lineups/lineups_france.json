@@ -1,6 +1,1789 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-31T13:48:19.828599",
-  "lineups": []
+  "lastUpdated": "2026-01-31T14:40:41.738455",
+  "lineups": [
+    {
+      "homeTeam": "Parisfc",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2026-01-31T17:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jean-Philippe Krasso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alimami Gory",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adama Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Marchetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nhoa Sangui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Otavio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothee Kolodziejczak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moustapha Mbow",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hamari Traore",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Amine Gouiri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hamed Junior Traore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lorient",
+      "awayTeam": "Nantes",
+      "dateTime": "2026-01-31T19:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Bamba Dieng",
+          "position": "Angriff"
+        },
+        {
+          "name": "Karim Dermane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jean-Victor Makengo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arsene Kouassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Laurent Abergel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Doriann Cadiou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Theo Le Bris",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Silva",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Montassar Talbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bamo Meite",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yvon Mvogo",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Matthis Abline",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "position": "Angriff"
+        },
+        {
+          "name": "Johann Lepenant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Mwanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahima Sissoko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Remy Cabella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Cozza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tylel Tati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Chidozie Awaziem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kelvin Amian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Lopes",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Monaco",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-01-31T21:05:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Folarin Balogun",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Caio Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thilo Kehrer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Kohn",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Breel Embolo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Esteban Lepaul",
+          "position": "Angriff"
+        },
+        {
+          "name": "Quentin Merlin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djaoui Cisse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Rongier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahdi Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Przemyslaw Frankowski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alidu Seidu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brice Samba",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2026-01-30T15:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Odsonne Edouard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wesley Said",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Malang Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaelo Ganiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kyllian Antonio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sofiane Boufal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Issa Soumare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rassoul Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanis Zouaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Ebonog",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Gourna-Douath",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loic Nego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stephan Zagadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lionel Mpasi-Nzau",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Angers",
+      "awayTeam": "Fcmetz",
+      "dateTime": "2026-02-01T17:15:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sidiki Cherif",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amine Sbai",
+          "position": "Angriff"
+        },
+        {
+          "name": "Louis Mouton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibirin Harouna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haris Belkebla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassin Belkhdim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacques Ekomie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Lefort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlens Arcus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Herve Koffi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Giorgi Tsitaishvili",
+          "position": "Angriff"
+        },
+        {
+          "name": "Habib Diallo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gauthier Hein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boubacar Traore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alpha Toure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jessy Deminguet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Colin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Terry Yegbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean-Philippe Gbamin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koffi Kouao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Fischer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Toulouse",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-02-01T17:15:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Santiago Hidalgo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yann Gboho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aron Dønnum",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sidibe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Demba Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristian Casseres Jr.",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafik Messali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lassine Sinayoko",
+          "position": "Angriff"
+        },
+        {
+          "name": "Danny Namaso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oussama El Azzouzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Danois",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naouirou Ahamada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gideon Mensah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Clement Akpa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sinaly Diomande",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lamine Sy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Donovan Leon",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nizza",
+      "awayTeam": "Brest",
+      "dateTime": "2026-02-01T17:15:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Kevin Carlos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isak Jansson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tanguy Ndombele",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tiago Gouveia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Everton Pereira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brad Hamilton Mantsounga Makouangou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juma Bah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antoine Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Louchet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yehvann Diouf",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Remy Labeau Lascary",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kamory Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Tousart",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Magnetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joris Chotard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daouda Guindo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soumaila Coulibaly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brendan Chardonnet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Lala",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gregoire Coudert",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Strassburg",
+      "awayTeam": "Psg",
+      "dateTime": "2026-02-01T20:45:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Joaquin Panichelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martial Godo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samir El Mourabet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Barco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ben Chilwell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Doukoure",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guela Doue",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mike Penders",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Bradley Barcola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ousmane Dembele",
+          "position": "Angriff"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Warren Zaire-Emery",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Neves",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marquinhos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matvey Safonov",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Aclehavre",
+      "dateTime": "2026-01-30T15:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Odsonne Edouard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wesley Said",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Malang Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaelo Ganiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kyllian Antonio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sofiane Boufal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Issa Soumare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rassoul Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanis Zouaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Ebonog",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Gourna-Douath",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loic Nego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stephan Zagadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lionel Mpasi-Nzau",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fcmetz",
+      "awayTeam": "Lille",
+      "dateTime": "2026-02-06T20:45:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Giorgi Tsitaishvili",
+          "position": "Angriff"
+        },
+        {
+          "name": "Habib Diallo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gauthier Hein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boubacar Traore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alpha Toure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jessy Deminguet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Colin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Terry Yegbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean-Philippe Gbamin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koffi Kouao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Fischer",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hakon Arnar Haraldsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matias Fernandez-Pardo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Felix Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ayyoub Bouaddi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benjamin Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ngal&#039;ayel Mukau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Verdonk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aissa Mandi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Santos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Berke Ozer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-02-07T17:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Odsonne Edouard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wesley Said",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Malang Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaelo Ganiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kyllian Antonio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Breel Embolo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Esteban Lepaul",
+          "position": "Angriff"
+        },
+        {
+          "name": "Quentin Merlin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djaoui Cisse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Rongier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahdi Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Przemyslaw Frankowski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alidu Seidu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brice Samba",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brest",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-02-07T19:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Remy Labeau Lascary",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kamory Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Tousart",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Magnetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joris Chotard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daouda Guindo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soumaila Coulibaly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brendan Chardonnet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenny Lala",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gregoire Coudert",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Bamba Dieng",
+          "position": "Angriff"
+        },
+        {
+          "name": "Karim Dermane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jean-Victor Makengo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arsene Kouassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Laurent Abergel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Doriann Cadiou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Theo Le Bris",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Silva",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Montassar Talbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bamo Meite",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yvon Mvogo",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nantes",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-02-07T21:05:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Matthis Abline",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mostafa Mohamed",
+          "position": "Angriff"
+        },
+        {
+          "name": "Johann Lepenant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Mwanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahima Sissoko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Remy Cabella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Cozza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tylel Tati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Chidozie Awaziem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kelvin Amian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Lopes",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Remi Himbert",
+          "position": "Angriff"
+        },
+        {
+          "name": "Afonso Moreira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Khalis Merah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Karabec",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyler Morton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathys de Carvalho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Kluivert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moussa Niakhate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Clinton Mata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ainsley Maitland-Niles",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Remy Descamps",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nizza",
+      "awayTeam": "Monaco",
+      "dateTime": "2026-02-08T15:00:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Kevin Carlos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isak Jansson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tanguy Ndombele",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tiago Gouveia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Everton Pereira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brad Hamilton Mantsounga Makouangou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juma Bah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antoine Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Louchet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yehvann Diouf",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Folarin Balogun",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Caio Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thilo Kehrer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Kohn",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Aclehavre",
+      "awayTeam": "Strassburg",
+      "dateTime": "2026-02-08T17:15:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sofiane Boufal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Issa Soumare",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rassoul Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanis Zouaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Ebonog",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Gourna-Douath",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loic Nego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stephan Zagadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lionel Mpasi-Nzau",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joaquin Panichelli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martial Godo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samir El Mourabet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Barco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ben Chilwell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Doukoure",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guela Doue",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mike Penders",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Angers",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-02-08T17:15:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sidiki Cherif",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amine Sbai",
+          "position": "Angriff"
+        },
+        {
+          "name": "Louis Mouton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibirin Harouna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Haris Belkebla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassin Belkhdim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacques Ekomie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Lefort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlens Arcus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Herve Koffi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Santiago Hidalgo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yann Gboho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aron Dønnum",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Sidibe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Demba Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristian Casseres Jr.",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafik Messali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Auxerre",
+      "awayTeam": "Parisfc",
+      "dateTime": "2026-02-08T17:15:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lassine Sinayoko",
+          "position": "Angriff"
+        },
+        {
+          "name": "Danny Namaso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oussama El Azzouzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Danois",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naouirou Ahamada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gideon Mensah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Clement Akpa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sinaly Diomande",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lamine Sy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Donovan Leon",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jean-Philippe Krasso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alimami Gory",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adama Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Marchetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nhoa Sangui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Otavio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothee Kolodziejczak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moustapha Mbow",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hamari Traore",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Psg",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2026-02-08T20:45:00Z",
+      "matchday": 21,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Bradley Barcola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ousmane Dembele",
+          "position": "Angriff"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Warren Zaire-Emery",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joao Neves",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marquinhos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matvey Safonov",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Amine Gouiri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hamed Junior Traore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Geronimo Rulli",
+          "position": "Torwart"
+        }
+      ]
+    }
+  ]
 }
