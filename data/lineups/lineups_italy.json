@@ -1,12 +1,12 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-31T16:01:21.157221",
+  "lastUpdated": "2026-01-31T16:36:30.159831",
   "lineups": [
     {
       "homeTeam": "Pisa",
       "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-31T00:00:00Z",
+      "dateTime": "2026-01-31T18:00:00Z",
       "matchday": 23,
       "phase": "",
       "homeLineup": [
@@ -98,105 +98,6 @@
         },
         {
           "name": "Arijanet Muric",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Acflorenz",
-      "dateTime": "2026-01-31T18:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Rasmus Hojlund",
-          "position": "Angriff"
-        },
-        {
-          "name": "Eljif Elmas",
-          "position": "Angriff"
-        },
-        {
-          "name": "Antonio Vergara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Olivera",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Scott McTominay",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stanislav Lobotka",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leonardo Spinazzola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Buongiorno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Juan Jesus",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giovanni Di Lorenzo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alex Meret",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jacopo Fazzini",
-          "position": "Angriff"
-        },
-        {
-          "name": "Roberto Piccoli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jack Harrison",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marco Brescianini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cher Ndour",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Giovanni Fabbian",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Balbo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Ranieri",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pietro Comuzzo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Niccolo Fortini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Oliver Christensen",
           "position": "Torwart"
         }
       ]
@@ -886,6 +787,105 @@
         },
         {
           "name": "Mike Maignan",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Pisa",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Henrik Meister",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matteo Tramoni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Stefano Moreo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Angori",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Marin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Idrissa Toure",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rosen Bozhinov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Caracciolo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Canestrelli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Scuffet",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Armand Lauriente",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andrea Pinamonti",
+          "position": "Angriff"
+        },
+        {
+          "name": "Domenico Berardi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Kone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kristian Thorstvedt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tarik Muharemovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Idzes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Walukiewicz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arijanet Muric",
           "position": "Torwart"
         }
       ]
