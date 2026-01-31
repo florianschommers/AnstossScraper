@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-31T19:55:05.338948",
+  "lastUpdated": "2026-01-31T20:34:57.255934",
   "lineups": [
-    {
-      "homeTeam": "Chelsea",
-      "awayTeam": "West Ham United",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "matchday": 24,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Liam Delap",
-          "position": "Angriff"
-        },
-        {
-          "name": "Alejandro Garnacho",
-          "position": "Angriff"
-        },
-        {
-          "name": "Enzo Fernandez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Cole Palmer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jamie Gittens",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Moises Caicedo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jorrel Hato",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benoit Badiashile",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Trevoh Chalobah",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Malo Gusto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robert Sanchez",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Taty Castellanos",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pablo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Crysencio Summerville",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mateus Fernandes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tomas Soucek",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jarrod Bowen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "El Hadji Malick Diouf",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jean-Clair Todibo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Konstantinos Mavropanos",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aaron Wan-Bissaka",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alphonse Areola",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Everton",
@@ -986,6 +887,105 @@
         {
           "name": "Djordje Petrovic",
           "position": ""
+        }
+      ]
+    },
+    {
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham United",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 24,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Liam Delap",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alejandro Garnacho",
+          "position": "Angriff"
+        },
+        {
+          "name": "Enzo Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cole Palmer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jamie Gittens",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moises Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorrel Hato",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benoit Badiashile",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trevoh Chalobah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malo Gusto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert Sanchez",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Taty Castellanos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Crysencio Summerville",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateus Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tomas Soucek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jarrod Bowen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "El Hadji Malick Diouf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean-Clair Todibo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Konstantinos Mavropanos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alphonse Areola",
+          "position": "Torwart"
         }
       ]
     },
