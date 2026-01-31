@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-01-31T19:55:55.519262",
+  "lastUpdated": "2026-01-31T20:35:52.654859",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Levante",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ivan Romero",
-          "position": "Angriff"
-        },
-        {
-          "name": "Iker Losada",
-          "position": "Angriff"
-        },
-        {
-          "name": "Carlos Alvarez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kareem Tunde",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ugo Raghouber",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Martinez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alan Matturro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matias Moreno",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adrian Dela",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremy Toljan",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mathew Ryan",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Alexander Sørloth",
-          "position": "Angriff"
-        },
-        {
-          "name": "Thiago Almada",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Gonzalez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johnny Cardoso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pablo Barrios",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marcos Llorente",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Matteo Ruggeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Clement Lenglet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Robin Le Normand",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nahuel Molina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jan Oblak",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Oviedo",
       "awayTeam": "Girona",
       "dateTime": "2026-01-31T21:00:00Z",
@@ -1880,6 +1781,105 @@
         },
         {
           "name": "Luiz Junior",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Levante",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Iker Losada",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Alvarez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kareem Tunde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ugo Raghouber",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Martinez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alan Matturro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matias Moreno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian Dela",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Thiago Almada",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Gonzalez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johnny Cardoso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Clement Lenglet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Le Normand",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Oblak",
           "position": "Torwart"
         }
       ]
