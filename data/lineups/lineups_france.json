@@ -1,107 +1,8 @@
 {
   "league": "france",
   "season": "",
-  "lastUpdated": "2026-01-31T22:35:09.814642",
+  "lastUpdated": "2026-01-31T23:04:16.588288",
   "lineups": [
-    {
-      "homeTeam": "Monaco",
-      "awayTeam": "Rennes",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "matchday": 20,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Folarin Balogun",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aleksandr Golovin",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ansu Fati",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kassoum Ouattara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lamine Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mamadou Coulibaly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Krepin Diatta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Thilo Kehrer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Denis Zakaria",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jordan Teze",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Philipp Kohn",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Breel Embolo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Esteban Lepaul",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mousa Tamari",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Quentin Merlin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Djaoui Cisse",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mahdi Camara",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Przemyslaw Frankowski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lilian Brassier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jeremy Jacquet",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Abdelhamid Ait Boudlal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Brice Samba",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Parisfc",
       "awayTeam": "Olmarseille",
@@ -791,6 +692,105 @@
         },
         {
           "name": "Anthony Lopes",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Monaco",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 20,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Folarin Balogun",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ansu Fati",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kassoum Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Krepin Diatta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thilo Kehrer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Kohn",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Breel Embolo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Esteban Lepaul",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mousa Tamari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quentin Merlin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djaoui Cisse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahdi Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Przemyslaw Frankowski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdelhamid Ait Boudlal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brice Samba",
           "position": "Torwart"
         }
       ]
