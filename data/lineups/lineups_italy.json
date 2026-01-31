@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-31T22:01:14.140433",
+  "lastUpdated": "2026-01-31T22:34:28.559136",
   "lineups": [
-    {
-      "homeTeam": "Cagliari",
-      "awayTeam": "Hverona",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Sebastiano Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Semih Kilicsoy",
-          "position": "Angriff"
-        },
-        {
-          "name": "Adam Obert",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Mazzitelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Gianluca Gaetano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Michel Adopo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marco Palestra",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sebastiano Luperto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yerry Mina",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ze Pedro",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Elia Caprile",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gift Orban",
-          "position": "Angriff"
-        },
-        {
-          "name": "Amin Sarr",
-          "position": "Angriff"
-        },
-        {
-          "name": "Martin Frese",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Abdou Harroui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Roberto Gagliardini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antoine Bernede",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pol Lirola",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nicolas Valentini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Victor Nelsson",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tobias Slotsager",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Simone Perilli",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Pisa",
       "awayTeam": "Sassuolo",
@@ -886,6 +787,105 @@
         },
         {
           "name": "David de Gea",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Cagliari",
+      "awayTeam": "Hverona",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Semih Kilicsoy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Mazzitelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gianluca Gaetano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ze Pedro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gift Orban",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amin Sarr",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martin Frese",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdou Harroui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Roberto Gagliardini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Bernede",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lirola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Valentini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Nelsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Slotsager",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Perilli",
           "position": "Torwart"
         }
       ]
