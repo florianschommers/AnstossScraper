@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-01-31T21:49:12.073147Z",
+  "lastUpdated": "2026-01-31T21:59:33.555678Z",
   "matches": [
     {
       "matchday": 1,
@@ -2205,16 +2205,6 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Cagliari",
-      "awayTeam": "Hverona",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "3:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:0"
-    },
-    {
-      "matchday": 23,
       "homeTeam": "Pisa",
       "awayTeam": "Sassuolo",
       "dateTime": "2026-01-31T12:30:00Z",
@@ -2289,6 +2279,16 @@
       "awayTeam": "Acflorenz",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Hverona",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "4:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
