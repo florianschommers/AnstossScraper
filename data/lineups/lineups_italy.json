@@ -1,12 +1,111 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-01-31T19:56:37.826270",
+  "lastUpdated": "2026-01-31T20:36:38.832463",
   "lineups": [
+    {
+      "homeTeam": "Cagliari",
+      "awayTeam": "Hverona",
+      "dateTime": "2026-01-31T00:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Semih Kilicsoy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Mazzitelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gianluca Gaetano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Palestra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastiano Luperto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ze Pedro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elia Caprile",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gift Orban",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amin Sarr",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martin Frese",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdou Harroui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Roberto Gagliardini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Bernede",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lirola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Valentini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Nelsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Slotsager",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simone Perilli",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Pisa",
       "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-31T20:45:00Z",
+      "dateTime": "2026-01-31T12:30:00Z",
       "matchday": 23,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Arijanet Muric",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Laziorom",
-      "awayTeam": "Cfcgenua",
-      "dateTime": "2026-01-30T12:30:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Pedro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Daniel Maldini",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gustav Isaksen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kenneth Taylor",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Danilo Cataldi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toma Basic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Pellegrini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oliver Provstgaard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mario Gila",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adam Marusic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ivan Provedel",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vitinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lorenzo Colombo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aaron Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikael Egill Ellertsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Morten Frendrup",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ruslan Malinovskyi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Brooke Norton-Cuffy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Vasquez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leo Ostigard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Marcandalli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Justin Bijlow",
           "position": "Torwart"
         }
       ]
@@ -1001,19 +1001,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Antoine Bernede",
+          "name": "Amin Sarr",
           "position": "Angriff"
         },
         {
-          "name": "Amin Sarr",
+          "name": "Martin Frese",
           "position": "Mittelfeld"
         },
         {
-          "name": "Domagoj Bradaric",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Suat Serdar",
+          "name": "Abdou Harroui",
           "position": "Mittelfeld"
         },
         {
@@ -1021,11 +1017,15 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Antoine Bernede",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Pol Lirola",
           "position": "Mittelfeld"
         },
         {
-          "name": "Enzo Ebosse",
+          "name": "Nicolas Valentini",
           "position": "Abwehr"
         },
         {
@@ -1930,11 +1930,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Semih Kilicsoy",
+          "name": "Sebastiano Esposito",
           "position": "Angriff"
         },
         {
-          "name": "Sebastiano Esposito",
+          "name": "Semih Kilicsoy",
           "position": "Angriff"
         },
         {
