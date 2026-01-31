@@ -1,7 +1,11 @@
 {
   "league": "italy",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-01-31T17:01:53.568056Z",
+=======
+  "lastUpdated": "2026-01-31T17:03:40.976524Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -2205,18 +2209,18 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Pisa",
-      "awayTeam": "Sassuolo",
-      "dateTime": "2026-01-31T18:00:00Z",
-      "score": null,
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Acflorenz",
+      "dateTime": "2026-01-31T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 23,
-      "homeTeam": "Cagliari",
-      "awayTeam": "Hverona",
+      "homeTeam": "Pisa",
+      "awayTeam": "Sassuolo",
       "dateTime": "2026-01-31T20:45:00Z",
       "score": null,
       "isFinished": false,
