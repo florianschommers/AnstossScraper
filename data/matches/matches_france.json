@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-01-31T17:56:15.623766Z",
+  "lastUpdated": "2026-01-31T18:19:18.047120Z",
   "matches": [
     {
       "matchday": 1,
@@ -1715,28 +1715,18 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Parisfc",
-      "awayTeam": "Olmarseille",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Lorient",
       "awayTeam": "Nantes",
-      "dateTime": "2026-01-31T19:00:00Z",
-      "score": null,
+      "dateTime": "2026-01-31T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 20,
-      "homeTeam": "Monaco",
-      "awayTeam": "Rennes",
+      "homeTeam": "Parisfc",
+      "awayTeam": "Olmarseille",
       "dateTime": "2026-01-31T21:05:00Z",
       "score": null,
       "isFinished": false,
@@ -1790,6 +1780,16 @@
       "dateTime": "2026-02-01T20:45:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Parisfc",
+      "awayTeam": "Olmarseille",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
