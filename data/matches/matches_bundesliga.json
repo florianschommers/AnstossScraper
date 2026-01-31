@@ -16184,7 +16184,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-31T15:31:55.433",
+    "lastUpdateDateTime": "2026-01-31T15:42:24.963",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -16195,6 +16195,15 @@
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 122907,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
     "goals": [],
@@ -16229,7 +16238,7 @@
       "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-31T15:31:56.33",
+    "lastUpdateDateTime": "2026-01-31T15:42:34.66",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -16240,6 +16249,15 @@
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 122908,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
     "goals": [],
