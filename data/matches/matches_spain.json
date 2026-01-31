@@ -1,11 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-01-31T17:01:35.366351Z",
-=======
-  "lastUpdated": "2026-01-31T17:03:16.515794Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-01-31T17:34:05.988936Z",
   "matches": [
     {
       "matchday": 1,
@@ -2109,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Osasuna",
-      "awayTeam": "Villarreal",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "2:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:2"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Oviedo",
       "awayTeam": "Girona",
       "dateTime": "2026-01-31T18:30:00Z",
@@ -2193,6 +2179,16 @@
       "awayTeam": "Girona",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Osasuna",
+      "awayTeam": "Villarreal",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
