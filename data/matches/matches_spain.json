@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-31T17:34:05.988936Z",
+  "lastUpdated": "2026-01-31T17:50:23.410212Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,18 +2105,18 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Oviedo",
-      "awayTeam": "Girona",
-      "dateTime": "2026-01-31T18:30:00Z",
-      "score": null,
+      "homeTeam": "Levante",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2026-01-31T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 22,
-      "homeTeam": "Elche",
-      "awayTeam": "Fcbarcelona",
+      "homeTeam": "Oviedo",
+      "awayTeam": "Girona",
       "dateTime": "2026-01-31T21:00:00Z",
       "score": null,
       "isFinished": false,
