@@ -16124,7 +16124,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/150px-SV_Elversberg_Logo_2021.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-01-31T21:51:12.81",
+    "lastUpdateDateTime": "2026-01-31T22:22:16.173",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -16140,7 +16140,7 @@
         "resultID": 122933,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 2,
+        "pointsTeam2": 3,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -16177,6 +16177,18 @@
         "scoreTeam2": 2,
         "matchMinute": 55,
         "goalGetterID": 24256,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139071,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 86,
+        "goalGetterID": 19542,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
