@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-31T16:51:59.500259Z",
+  "lastUpdated": "2026-01-31T17:01:17.169943Z",
   "matches": [
     {
       "matchday": 1,
@@ -2307,36 +2307,6 @@
       "matchday": 24,
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Everton",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "2:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Leedsunited",
-      "awayTeam": "Arsenal",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "0:3",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:3"
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "AFC Bournemouth",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Chelsea",
-      "awayTeam": "West Ham United",
       "dateTime": "2026-01-31T18:30:00Z",
       "score": null,
       "isFinished": false,
@@ -2400,6 +2370,36 @@
       "dateTime": "2026-02-02T21:00:00Z",
       "score": null,
       "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Brighton & Hove Albion",
+      "awayTeam": "Everton",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Leedsunited",
+      "awayTeam": "Arsenal",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "0:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Wolverhampton",
+      "awayTeam": "AFC Bournemouth",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
