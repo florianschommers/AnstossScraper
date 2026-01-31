@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-01-31T19:33:30.101327Z",
+  "lastUpdated": "2026-01-31T19:41:03.939335Z",
   "matches": [
     {
       "matchday": 1,
@@ -2305,16 +2305,6 @@
     },
     {
       "matchday": 24,
-      "homeTeam": "Chelsea",
-      "awayTeam": "West Ham United",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "3:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2"
-    },
-    {
-      "matchday": 24,
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Everton",
       "dateTime": "2026-01-31T21:00:00Z",
@@ -2399,6 +2389,16 @@
       "awayTeam": "AFC Bournemouth",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Chelsea",
+      "awayTeam": "West Ham United",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "3:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

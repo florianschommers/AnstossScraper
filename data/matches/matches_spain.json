@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-01-31T19:33:51.848066Z",
+  "lastUpdated": "2026-01-31T19:41:20.922192Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Levante",
-      "awayTeam": "Atlmadrid",
-      "dateTime": "2026-01-31T00:00:00Z",
-      "score": "0:0",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Oviedo",
       "awayTeam": "Girona",
       "dateTime": "2026-01-31T21:00:00Z",
@@ -2189,6 +2179,16 @@
       "awayTeam": "Villarreal",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Levante",
+      "awayTeam": "Atlmadrid",
+      "dateTime": "2026-01-31T15:00:00Z",
+      "score": "0:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
