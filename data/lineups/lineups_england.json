@@ -1,12 +1,111 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-01-31T20:34:57.255934",
+  "lastUpdated": "2026-01-31T21:01:27.430978",
   "lineups": [
+    {
+      "homeTeam": "Liverpool",
+      "awayTeam": "Newcastle",
+      "dateTime": "2026-01-31T00:00:00Z",
+      "matchday": 24,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hugo Ekitike",
+          "position": "Angriff"
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Salah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Harvey Barnes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anthony Elanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joe Willock",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacob Ramsey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Burn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kieran Trippier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nick Pope",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Everton",
-      "dateTime": "2026-01-31T21:00:00Z",
+      "dateTime": "2026-01-31T15:00:00Z",
       "matchday": 24,
       "phase": "",
       "homeLineup": [
@@ -98,105 +197,6 @@
         },
         {
           "name": "Jordan Pickford",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Brentford",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "matchday": 24,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Ollie Watkins",
-          "position": "Angriff"
-        },
-        {
-          "name": "Emiliano Buendia",
-          "position": "Angriff"
-        },
-        {
-          "name": "Harvey Elliott",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jadon Sancho",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "George Lawrence Hemmings",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Amadou Onana",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lucas Digne",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Tyrone Mings",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Victor Lindelof",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lamare Bogarde",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emiliano Martinez",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Igor Thiago",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kevin Schade",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mikkel Damsgaard",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mathias Jensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vitaly Janelt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yegor Yarmolyuk",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rico Henry",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nathan Collins",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kristoffer Ajer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michael Kayode",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Caoimhin Kelleher",
           "position": "Torwart"
         }
       ]
@@ -1686,11 +1686,11 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Nick Woltemade",
+          "name": "Harvey Barnes",
           "position": "Angriff"
         },
         {
-          "name": "Joe Willock",
+          "name": "Anthony Gordon",
           "position": "Angriff"
         },
         {
@@ -1698,7 +1698,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lewis Hall",
+          "name": "Joe Willock",
           "position": "Mittelfeld"
         },
         {
@@ -1710,7 +1710,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lewis Miley",
+          "name": "Lewis Hall",
           "position": "Mittelfeld"
         },
         {
@@ -1718,11 +1718,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Sven Botman",
+          "name": "Malick Thiaw",
           "position": "Abwehr"
         },
         {
-          "name": "Malick Thiaw",
+          "name": "Kieran Trippier",
           "position": "Abwehr"
         },
         {
@@ -1904,11 +1904,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Dominik Szoboszlai",
+          "name": "Ryan Gravenberch",
           "position": "Mittelfeld"
         },
         {
-          "name": "Andrew Robertson",
+          "name": "Milos Kerkez",
           "position": "Mittelfeld"
         },
         {
@@ -1916,11 +1916,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Ryan Gravenberch",
+          "name": "Ibrahima Konate",
           "position": "Abwehr"
         },
         {
-          "name": "Jeremie Frimpong",
+          "name": "Dominik Szoboszlai",
           "position": "Abwehr"
         },
         {
