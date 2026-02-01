@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-02-01T22:02:11.046154",
+  "lastUpdated": "2026-02-01T22:35:05.686739",
   "lineups": [
-    {
-      "homeTeam": "Parma",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Mateo Pellegrino",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jacob Ondrejka",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gaetano Oristanio",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mandela Keita",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Hans Nicolussi Caviglia",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrian Bernabe",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emanuele Valeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Circati",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mariano Troilo",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Enrico Delprato",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Edoardo Corvi",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Jonathan David",
-          "position": "Angriff"
-        },
-        {
-          "name": "Kenan Yildiz",
-          "position": "Angriff"
-        },
-        {
-          "name": "Weston McKennie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Francisco Conceicao",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Khephren Thuram",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Manuel Locatelli",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Andrea Cambiaso",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lloyd Kelly",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Bremer",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Pierre Kalulu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Michele Di Gregorio",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
@@ -589,6 +490,105 @@
         },
         {
           "name": "Yann Sommer",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Parma",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mateo Pellegrino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jacob Ondrejka",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gaetano Oristanio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Nicolussi Caviglia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Bernabe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Circati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enrico Delprato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edoardo Corvi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michele Di Gregorio",
           "position": "Torwart"
         }
       ]
