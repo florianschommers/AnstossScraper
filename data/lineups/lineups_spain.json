@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-02-01T15:34:54.376755",
+  "lastUpdated": "2026-02-01T16:03:02.941660",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -996,7 +996,7 @@
     {
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
-      "dateTime": "2026-02-01T00:00:00Z",
+      "dateTime": "2026-02-01T16:15:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1088,6 @@
         },
         {
           "name": "Augusto Batalla",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Realbetis",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-02-01T16:15:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Chimy Avila",
-          "position": "Angriff"
-        },
-        {
-          "name": "Abde Ezzalzouli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nelson Deossa",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Antony",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Roca",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergi Altimira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ricardo Rodriguez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Diego Llorente",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marc Bartra",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aitor Ruibal",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alvaro Valles",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Hugo Duro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lucas Beltran",
-          "position": "Angriff"
-        },
-        {
-          "name": "Arnaut Danjuma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Pepelu",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Filip Ugrinic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Rioja",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jose Gaya",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jose Copete",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Eray Comert",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Dimitri Foulquier",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Stole Dimitrievski",
           "position": "Torwart"
         }
       ]
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Antonio Sivera",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Vallecano",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Vinicius Junior",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kylian Mbappe",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurelien Tchouameni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Guler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franco Mastantuono",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eduardo Camavinga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raul Asencio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jorge de Frutos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alvaro Garcia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isi Palazon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilias Akhomach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Gumbau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pathe Ciss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pep Chavarria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrei Ratiu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Augusto Batalla",
           "position": "Torwart"
         }
       ]
@@ -2730,19 +2730,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Abde Ezzalzouli",
-          "position": "Angriff"
-        },
-        {
           "name": "Chimy Avila",
           "position": "Angriff"
         },
         {
-          "name": "Antony",
+          "name": "Abde Ezzalzouli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nelson Deossa",
           "position": "Mittelfeld"
         },
         {
-          "name": "Pablo Fornals",
+          "name": "Antony",
           "position": "Mittelfeld"
         },
         {
@@ -2750,27 +2750,27 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Nelson Deossa",
+          "name": "Sergi Altimira",
           "position": "Mittelfeld"
         },
         {
-          "name": "Valentin Gomez",
+          "name": "Ricardo Rodriguez",
           "position": "Mittelfeld"
-        },
-        {
-          "name": "Natan",
-          "position": "Abwehr"
         },
         {
           "name": "Diego Llorente",
           "position": "Abwehr"
         },
         {
-          "name": "Angel Ortiz",
+          "name": "Marc Bartra",
           "position": "Abwehr"
         },
         {
-          "name": "Pau Lopez",
+          "name": "Aitor Ruibal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alvaro Valles",
           "position": "Torwart"
         }
       ]
@@ -2783,11 +2783,11 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Lucas Beltran",
+          "name": "Hugo Duro",
           "position": "Angriff"
         },
         {
-          "name": "Hugo Duro",
+          "name": "Lucas Beltran",
           "position": "Angriff"
         },
         {
@@ -2807,7 +2807,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jesus Vazquez",
+          "name": "Jose Gaya",
           "position": "Mittelfeld"
         },
         {
