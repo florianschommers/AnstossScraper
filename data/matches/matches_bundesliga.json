@@ -16634,7 +16634,7 @@
   {
     "matchID": 77429,
     "matchDateTime": "2026-02-01T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4821,
     "leagueName": "1. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -16659,8 +16659,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T18:39:26.427",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-02-01T19:30:21.713",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122977,
@@ -16674,7 +16674,7 @@
       {
         "resultID": 122978,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 3,
         "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -16712,6 +16712,30 @@
         "scoreTeam2": 2,
         "matchMinute": 48,
         "goalGetterID": 19765,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139145,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 68,
+        "goalGetterID": 19545,
+        "goalGetterName": "",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139146,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 69,
+        "goalGetterID": 19545,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
