@@ -16206,7 +16206,7 @@
   {
     "matchID": 78121,
     "matchDateTime": "2026-02-01T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -16231,8 +16231,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T14:57:47.873",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-02-01T15:30:33.833",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122945,
@@ -16246,7 +16246,7 @@
       {
         "resultID": 122946,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
+        "pointsTeam1": 2,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -16277,6 +16277,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 139106,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 83,
+        "goalGetterID": 16850,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
@@ -16289,7 +16301,7 @@
   {
     "matchID": 78123,
     "matchDateTime": "2026-02-01T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -16314,8 +16326,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T14:57:43.16",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-02-01T15:30:31.99",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122947,
@@ -16396,7 +16408,7 @@
   {
     "matchID": 78125,
     "matchDateTime": "2026-02-01T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4806,
     "leagueName": "2. Fußball-Bundesliga 2025/2026",
     "leagueSeason": 2025,
@@ -16421,8 +16433,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T14:57:38.94",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-02-01T15:25:14.617",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 122949,
