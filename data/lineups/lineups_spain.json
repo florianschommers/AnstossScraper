@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-02-01T20:01:31.341394",
+  "lastUpdated": "2026-02-01T20:37:16.466609",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Getafe",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Martin Satriano",
-          "position": "Angriff"
-        },
-        {
-          "name": "Luis Vazquez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mauro Arambarri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Milla",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mario Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Juan Iglesias",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Zaid Romero",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Dakonam Djene",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Domingos Duarte",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kiko Femenia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "David Soria",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Borja Iglesias",
-          "position": "Angriff"
-        },
-        {
-          "name": "Williot Swedberg",
-          "position": "Angriff"
-        },
-        {
-          "name": "Fer Lopez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oscar Mingueza",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ilaix Moriba",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Miguel Roman",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jones El-Abdellaoui",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marcos Alonso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Carl Starfelt",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Javi Rodriguez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ionut Radu",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
       "dateTime": "2026-02-01T21:00:00Z",
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Stole Dimitrievski",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Getafe",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Martin Satriano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Luis Vazquez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mauro Arambarri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zaid Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dakonam Djene",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Domingos Duarte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kiko Femenia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Borja Iglesias",
+          "position": "Angriff"
+        },
+        {
+          "name": "Williot Swedberg",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fer Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Roman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jones El-Abdellaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
           "position": "Torwart"
         }
       ]
