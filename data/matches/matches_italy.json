@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-02-01T22:51:23.934086Z",
+  "lastUpdated": "2026-02-01T23:13:49.152237Z",
   "matches": [
     {
       "matchday": 1,
@@ -2205,9 +2205,9 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Turin",
-      "awayTeam": "Lecce",
-      "dateTime": "2026-02-01T20:45:00Z",
+      "homeTeam": "Udinese",
+      "awayTeam": "Asrom",
+      "dateTime": "2026-02-02T20:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2215,51 +2215,11 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Bologna",
-      "awayTeam": "Acmailand",
-      "dateTime": "2026-02-03T20:45:00Z",
+      "homeTeam": "Laziorom",
+      "awayTeam": "Cfcgenua",
+      "dateTime": "2026-01-30T20:45:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Turin",
-      "awayTeam": "Lecce",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "1:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Como",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "0:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Intermailand",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "0:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 23,
-      "homeTeam": "Parma",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "1:4",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2299,6 +2259,46 @@
       "awayTeam": "Hverona",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Turin",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Como",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Intermailand",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Parma",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:4",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

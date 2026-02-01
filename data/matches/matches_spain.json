@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-02-01T22:50:58.898984Z",
+  "lastUpdated": "2026-02-01T23:13:30.948289Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,51 +2105,11 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Vallecano",
-      "dateTime": "2026-02-01T21:00:00Z",
+      "homeTeam": "Mallorca",
+      "awayTeam": "Sevilla",
+      "dateTime": "2026-02-02T21:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Realmadrid",
-      "awayTeam": "Vallecano",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "2:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Realbetis",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "2:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Getafe",
-      "awayTeam": "Celtavigo",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "0:0",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 22,
-      "homeTeam": "Athbilbao",
-      "awayTeam": "Realsociedad",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "1:1",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2199,6 +2159,46 @@
       "awayTeam": "Fcbarcelona",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Realmadrid",
+      "awayTeam": "Vallecano",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Realbetis",
+      "awayTeam": "Valencia",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Getafe",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

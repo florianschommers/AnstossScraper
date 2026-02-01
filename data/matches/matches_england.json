@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-02-01T22:50:33.922945Z",
+  "lastUpdated": "2026-02-01T23:13:12.791742Z",
   "matches": [
     {
       "matchday": 1,
@@ -2305,51 +2305,11 @@
     },
     {
       "matchday": 24,
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Brentford",
-      "dateTime": "2026-02-01T21:00:00Z",
+      "homeTeam": "Sunderland",
+      "awayTeam": "Burnley",
+      "dateTime": "2026-02-02T21:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Astonvilla",
-      "awayTeam": "Brentford",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "0:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Nottingham",
-      "awayTeam": "Crystalpalace",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "1:1",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Manunited",
-      "awayTeam": "Fulham",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "3:2",
-      "isFinished": true,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Manchester City",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": "2:2",
-      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2399,6 +2359,46 @@
       "awayTeam": "Newcastle",
       "dateTime": "2026-01-31T15:00:00Z",
       "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Astonvilla",
+      "awayTeam": "Brentford",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Nottingham",
+      "awayTeam": "Crystalpalace",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Manunited",
+      "awayTeam": "Fulham",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Manchester City",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "2:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
