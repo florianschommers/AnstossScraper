@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-02-01T22:34:17.583708",
+  "lastUpdated": "2026-02-01T23:06:46.265208",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,105 +994,6 @@
       ]
     },
     {
-      "homeTeam": "Athbilbao",
-      "awayTeam": "Realsociedad",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gorka Guruzeta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico Williams",
-          "position": "Angriff"
-        },
-        {
-          "name": "Unai Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alex Berenguer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Rego",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikel Jauregizar",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adama Boiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yuri Berchiche",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aitor Paredes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jesus Areso",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Simon",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Mikel Oyarzabal",
-          "position": "Angriff"
-        },
-        {
-          "name": "Luka Sucic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pablo Marin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Carlos Soler",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Gorrotxategi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Goncalo Guedes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Sergio Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Igor Zubeldia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Aramburu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alex Remiro",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
       "dateTime": "2026-02-01T21:00:00Z",
@@ -1484,6 +1385,105 @@
         },
         {
           "name": "Ionut Radu",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gorka Guruzeta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico Williams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Unai Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alejandro Rego",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adama Boiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jesus Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Unai Simon",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Luka Sucic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pablo Marin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Goncalo Guedes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Zubeldia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Aramburu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Remiro",
           "position": "Torwart"
         }
       ]
