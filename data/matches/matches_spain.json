@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-  "lastUpdated": "2026-02-01T21:56:36.839176Z",
+  "lastUpdated": "2026-02-01T22:25:04.279284Z",
   "matches": [
     {
       "matchday": 1,
@@ -2105,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Athbilbao",
-      "awayTeam": "Realsociedad",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
       "dateTime": "2026-02-01T21:00:00Z",
@@ -2149,6 +2139,16 @@
       "awayTeam": "Celtavigo",
       "dateTime": "2026-02-01T15:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Realsociedad",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:1",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
