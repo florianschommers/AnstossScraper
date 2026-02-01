@@ -1,103 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-02-01T16:03:47.501772",
+  "lastUpdated": "2026-02-01T16:41:00.797070",
   "lineups": [
-    {
-      "homeTeam": "Como",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Anastasios Douvikas",
-          "position": ""
-        },
-        {
-          "name": "Martin Baturina",
-          "position": ""
-        },
-        {
-          "name": "Nico Paz",
-          "position": ""
-        },
-        {
-          "name": "Mergim Vojvoda",
-          "position": ""
-        },
-        {
-          "name": "Maximo Perrone",
-          "position": ""
-        },
-        {
-          "name": "Alex Valle",
-          "position": ""
-        },
-        {
-          "name": "Marc Oliver Kempf",
-          "position": ""
-        },
-        {
-          "name": "Jacobo Ramon",
-          "position": ""
-        },
-        {
-          "name": "Ivan Smolcic",
-          "position": ""
-        },
-        {
-          "name": "Jean Butez",
-          "position": ""
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicola Zalewski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Zappacosta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Honest Ahanor",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giorgio Scalvini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
@@ -589,6 +494,101 @@
         },
         {
           "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Como",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Anastasios Douvikas",
+          "position": ""
+        },
+        {
+          "name": "Martin Baturina",
+          "position": ""
+        },
+        {
+          "name": "Nico Paz",
+          "position": ""
+        },
+        {
+          "name": "Mergim Vojvoda",
+          "position": ""
+        },
+        {
+          "name": "Maximo Perrone",
+          "position": ""
+        },
+        {
+          "name": "Alex Valle",
+          "position": ""
+        },
+        {
+          "name": "Marc Oliver Kempf",
+          "position": ""
+        },
+        {
+          "name": "Jacobo Ramon",
+          "position": ""
+        },
+        {
+          "name": "Ivan Smolcic",
+          "position": ""
+        },
+        {
+          "name": "Jean Butez",
+          "position": ""
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicola Zalewski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lorenzo Bernasconi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ederson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten de Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Honest Ahanor",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Berat Djimsiti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giorgio Scalvini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Carnesecchi",
           "position": "Torwart"
         }
       ]
