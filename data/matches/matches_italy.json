@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-02-01T14:02:25.605701Z",
+  "lastUpdated": "2026-02-01T14:37:49.909488Z",
   "matches": [
     {
       "matchday": 1,
@@ -2205,18 +2205,18 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Turin",
-      "awayTeam": "Lecce",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "score": null,
+      "homeTeam": "Como",
+      "awayTeam": "Bergamo",
+      "dateTime": "2026-02-01T00:00:00Z",
+      "score": "0:0",
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 23,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Intermailand",
+      "homeTeam": "Turin",
+      "awayTeam": "Lecce",
       "dateTime": "2026-02-01T18:00:00Z",
       "score": null,
       "isFinished": false,
