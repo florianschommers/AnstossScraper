@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2026",
-  "lastUpdated": "2026-02-01T16:16:23.052234Z",
+  "lastUpdated": "2026-02-01T16:41:26.993117Z",
   "matches": [
     {
       "matchday": 1,
@@ -2305,29 +2305,19 @@
     },
     {
       "matchday": 24,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Manchester City",
+      "dateTime": "2026-02-01T00:00:00Z",
+      "score": "0:0",
+      "isFinished": false,
+      "isLive": true,
+      "liveScore": "0:0"
+    },
+    {
+      "matchday": 24,
       "homeTeam": "Astonvilla",
       "awayTeam": "Brentford",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "0:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:1"
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Manunited",
-      "awayTeam": "Fulham",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "3:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "3:2"
-    },
-    {
-      "matchday": 24,
-      "homeTeam": "Nottingham",
-      "awayTeam": "Crystalpalace",
-      "dateTime": "2026-02-01T17:30:00Z",
+      "dateTime": "2026-02-01T21:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -2335,11 +2325,11 @@
     },
     {
       "matchday": 24,
-      "homeTeam": "Brighton & Hove Albion",
-      "awayTeam": "Everton",
-      "dateTime": "2026-01-31T21:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "homeTeam": "Astonvilla",
+      "awayTeam": "Brentford",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -2349,6 +2339,16 @@
       "awayTeam": "Crystalpalace",
       "dateTime": "2026-02-01T15:00:00Z",
       "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Manunited",
+      "awayTeam": "Fulham",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "3:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
