@@ -1,107 +1,8 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-02-01T19:19:06.247789",
+  "lastUpdated": "2026-02-01T19:44:09.826866",
   "lineups": [
-    {
-      "homeTeam": "Cremonese",
-      "awayTeam": "Intermailand",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Jamie Vardy",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Bonazzoli",
-          "position": "Angriff"
-        },
-        {
-          "name": "Giuseppe Pezzella",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Youssef Maleh",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alberto Grassi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessio Zerbin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Filippo Terracciano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Federico Ceccherini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Federico Baschirotto",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Francesco Folino",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Emil Audero",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Lautaro Martinez",
-          "position": "Angriff"
-        },
-        {
-          "name": "Pio Esposito",
-          "position": "Angriff"
-        },
-        {
-          "name": "Federico Dimarco",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Petar Sucic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Piotr Zielinski",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Frattesi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luis Henrique",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alessandro Bastoni",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Manuel Akanji",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Bisseck",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Yann Sommer",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
@@ -589,6 +490,105 @@
         },
         {
           "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Cremonese",
+      "awayTeam": "Intermailand",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jamie Vardy",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Bonazzoli",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giuseppe Pezzella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssef Maleh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alberto Grassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Zerbin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Filippo Terracciano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Ceccherini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Baschirotto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Francesco Folino",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emil Audero",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lautaro Martinez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pio Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Dimarco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petar Sucic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piotr Zielinski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Frattesi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Henrique",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Bisseck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Sommer",
           "position": "Torwart"
         }
       ]
