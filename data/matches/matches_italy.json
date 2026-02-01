@@ -1,7 +1,11 @@
 {
   "league": "italy",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-02-01T19:00:14.860108Z",
+=======
+  "lastUpdated": "2026-02-01T19:01:55.057102Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -2205,16 +2209,6 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Cremonese",
-      "awayTeam": "Intermailand",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "0:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:2"
-    },
-    {
-      "matchday": 23,
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
       "dateTime": "2026-02-01T20:45:00Z",
@@ -2259,6 +2253,16 @@
       "awayTeam": "Bergamo",
       "dateTime": "2026-02-01T15:00:00Z",
       "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Cremonese",
+      "awayTeam": "Intermailand",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "0:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
