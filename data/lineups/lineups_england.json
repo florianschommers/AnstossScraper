@@ -1,107 +1,8 @@
 {
   "league": "england",
   "season": "",
-  "lastUpdated": "2026-02-01T19:17:11.847024",
+  "lastUpdated": "2026-02-01T19:42:37.709194",
   "lineups": [
-    {
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Manchester City",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "matchday": 24,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Dominic Solanke",
-          "position": "Angriff"
-        },
-        {
-          "name": "Xavi Simons",
-          "position": "Angriff"
-        },
-        {
-          "name": "Randal Kolo Muani",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Destiny Udogie",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yves Bissouma",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Conor Gallagher",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Archie Gray",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Radu Dragusin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Cristian Romero",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Joao Palhinha",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Guglielmo Vicario",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Erling Haaland",
-          "position": "Angriff"
-        },
-        {
-          "name": "Antoine Semenyo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nico O&#039;Reilly",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Bernardo Silva",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rayan Cherki",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rodri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Rayan Ait-Nouri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marc Guehi",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Abdukodir Khusanov",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matheus Nunes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Gianluigi Donnarumma",
-          "position": "Torwart"
-        }
-      ]
-    },
     {
       "homeTeam": "Astonvilla",
       "awayTeam": "Brentford",
@@ -494,6 +395,105 @@
         },
         {
           "name": "Bernd Leno",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Manchester City",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 24,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Dominic Solanke",
+          "position": "Angriff"
+        },
+        {
+          "name": "Xavi Simons",
+          "position": "Angriff"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Destiny Udogie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yves Bissouma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Conor Gallagher",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Radu Dragusin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joao Palhinha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Erling Haaland",
+          "position": "Angriff"
+        },
+        {
+          "name": "Antoine Semenyo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nico O&#039;Reilly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bernardo Silva",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Cherki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Ait-Nouri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Guehi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matheus Nunes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluigi Donnarumma",
           "position": "Torwart"
         }
       ]
