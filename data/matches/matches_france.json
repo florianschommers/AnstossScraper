@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2026",
-  "lastUpdated": "2026-02-01T21:43:30.184688Z",
+  "lastUpdated": "2026-02-01T21:57:07.000139Z",
   "matches": [
     {
       "matchday": 1,
@@ -1715,16 +1715,6 @@
     },
     {
       "matchday": 20,
-      "homeTeam": "Strassburg",
-      "awayTeam": "Psg",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "1:2",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:2"
-    },
-    {
-      "matchday": 20,
       "homeTeam": "Lyon",
       "awayTeam": "Lille",
       "dateTime": "2026-02-01T15:00:00Z",
@@ -1759,6 +1749,16 @@
       "awayTeam": "Brest",
       "dateTime": "2026-02-01T15:00:00Z",
       "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Strassburg",
+      "awayTeam": "Psg",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:2",
       "isFinished": true,
       "isLive": false,
       "liveScore": null

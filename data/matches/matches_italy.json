@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2026",
-  "lastUpdated": "2026-02-01T21:43:14.977279Z",
+  "lastUpdated": "2026-02-01T21:56:52.226960Z",
   "matches": [
     {
       "matchday": 1,
@@ -2205,16 +2205,6 @@
     },
     {
       "matchday": 23,
-      "homeTeam": "Parma",
-      "awayTeam": "Juventusturin",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "1:4",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:4"
-    },
-    {
-      "matchday": 23,
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
       "dateTime": "2026-02-01T20:45:00Z",
@@ -2259,6 +2249,16 @@
       "awayTeam": "Intermailand",
       "dateTime": "2026-02-01T15:00:00Z",
       "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Parma",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "1:4",
       "isFinished": true,
       "isLive": false,
       "liveScore": null
