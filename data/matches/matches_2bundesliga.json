@@ -16231,10 +16231,42 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-19T13:40:05.743",
+    "lastUpdateDateTime": "2026-02-01T13:33:06.033",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 122945,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 122946,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 139088,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 2,
+        "goalGetterID": 23677,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1315,
       "locationCity": "Düsseldorf",
@@ -16270,10 +16302,42 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-19T13:40:12.207",
+    "lastUpdateDateTime": "2026-02-01T13:34:10.367",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 122947,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 122948,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 139089,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 3,
+        "goalGetterID": 18525,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 22,
       "locationCity": "Berlin",
@@ -16309,9 +16373,28 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2025-12-19T13:40:18.573",
+    "lastUpdateDateTime": "2026-02-01T13:30:43.17",
     "matchIsFinished": false,
-    "matchResults": [],
+    "matchResults": [
+      {
+        "resultID": 122949,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 122950,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": {
       "locationID": 2,
