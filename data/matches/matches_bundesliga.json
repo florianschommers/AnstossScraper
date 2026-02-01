@@ -16659,7 +16659,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1._FC_Heidenheim_1846.svg/830px-1._FC_Heidenheim_1846.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T18:20:58.86",
+    "lastUpdateDateTime": "2026-02-01T18:39:26.427",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -16675,7 +16675,7 @@
         "resultID": 122978,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -16704,6 +16704,18 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 139144,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 48,
+        "goalGetterID": 19765,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       }
     ],
