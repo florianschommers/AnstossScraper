@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "",
-  "lastUpdated": "2026-02-01T18:05:03.951868",
+  "lastUpdated": "2026-02-01T18:43:09.055185",
   "lineups": [
     {
       "homeTeam": "Realsociedad",
@@ -994,9 +994,108 @@
       ]
     },
     {
+      "homeTeam": "Getafe",
+      "awayTeam": "Celtavigo",
+      "dateTime": "2026-02-01T00:00:00Z",
+      "matchday": 22,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Martin Satriano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Luis Vazquez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mauro Arambarri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Martin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zaid Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dakonam Djene",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Domingos Duarte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kiko Femenia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Borja Iglesias",
+          "position": "Angriff"
+        },
+        {
+          "name": "Williot Swedberg",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fer Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Mingueza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilaix Moriba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Roman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jones El-Abdellaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carl Starfelt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ionut Radu",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
-      "dateTime": "2026-02-01T18:30:00Z",
+      "dateTime": "2026-02-01T21:00:00Z",
       "matchday": 22,
       "phase": "",
       "homeLineup": [
@@ -1088,105 +1187,6 @@
         },
         {
           "name": "Augusto Batalla",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Athbilbao",
-      "awayTeam": "Realsociedad",
-      "dateTime": "2026-02-01T21:00:00Z",
-      "matchday": 22,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Gorka Guruzeta",
-          "position": "Angriff"
-        },
-        {
-          "name": "Robert Navarro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Oihan Sancet",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Unai Gomez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alejandro Rego",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Inigo Ruiz de Galarreta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adama Boiro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yuri Berchiche",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Aitor Paredes",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Andoni Gorosabel",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Unai Simon",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Mikel Oyarzabal",
-          "position": "Angriff"
-        },
-        {
-          "name": "Luka Sucic",
-          "position": "Angriff"
-        },
-        {
-          "name": "Ander Barrenetxea",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Benat Turrientes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jon Gorrotxategi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Goncalo Guedes",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Aihen Munoz",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Duje Caleta-Car",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Martin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Jon Aramburu",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alex Remiro",
           "position": "Torwart"
         }
       ]
@@ -1995,15 +1995,15 @@
           "position": "Angriff"
         },
         {
-          "name": "Hugo Alvarez",
+          "name": "Williot Swedberg",
           "position": "Angriff"
         },
         {
-          "name": "Iago Aspas",
+          "name": "Fer Lopez",
           "position": "Mittelfeld"
         },
         {
-          "name": "Sergio Carreira",
+          "name": "Oscar Mingueza",
           "position": "Mittelfeld"
         },
         {
@@ -2015,7 +2015,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Javi Rueda",
+          "name": "Jones El-Abdellaoui",
           "position": "Mittelfeld"
         },
         {
@@ -2023,7 +2023,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Yoel Lago",
+          "name": "Carl Starfelt",
           "position": "Abwehr"
         },
         {
@@ -2532,11 +2532,11 @@
       ],
       "awayLineup": [
         {
-          "name": "Luis Vazquez",
+          "name": "Martin Satriano",
           "position": "Angriff"
         },
         {
-          "name": "Martin Satriano",
+          "name": "Luis Vazquez",
           "position": "Angriff"
         },
         {
