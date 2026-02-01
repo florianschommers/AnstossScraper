@@ -1,12 +1,12 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-02-01T13:56:54.928248",
+  "lastUpdated": "2026-02-01T14:41:39.582508",
   "lineups": [
     {
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
-      "dateTime": "2026-02-01T00:00:00Z",
+      "dateTime": "2026-02-01T15:00:00Z",
       "matchday": 23,
       "phase": "",
       "homeLineup": [
@@ -98,101 +98,6 @@
         },
         {
           "name": "Wladimiro Falcone",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Como",
-      "awayTeam": "Bergamo",
-      "dateTime": "2026-02-01T15:00:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Anastasios Douvikas",
-          "position": ""
-        },
-        {
-          "name": "Martin Baturina",
-          "position": ""
-        },
-        {
-          "name": "Nico Paz",
-          "position": ""
-        },
-        {
-          "name": "Mergim Vojvoda",
-          "position": ""
-        },
-        {
-          "name": "Maximo Perrone",
-          "position": ""
-        },
-        {
-          "name": "Alex Valle",
-          "position": ""
-        },
-        {
-          "name": "Marc Oliver Kempf",
-          "position": ""
-        },
-        {
-          "name": "Jacobo Ramon",
-          "position": ""
-        },
-        {
-          "name": "Ivan Smolcic",
-          "position": ""
-        },
-        {
-          "name": "Jean Butez",
-          "position": ""
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Gianluca Scamacca",
-          "position": "Angriff"
-        },
-        {
-          "name": "Nicola Zalewski",
-          "position": "Angriff"
-        },
-        {
-          "name": "Charles De Ketelaere",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Lorenzo Bernasconi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ederson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marten de Roon",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Davide Zappacosta",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Honest Ahanor",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Berat Djimsiti",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Giorgio Scalvini",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marco Carnesecchi",
           "position": "Torwart"
         }
       ]
@@ -589,6 +494,105 @@
         },
         {
           "name": "Mike Maignan",
+          "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Turin",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Duvan Zapata",
+          "position": "Angriff"
+        },
+        {
+          "name": "Che Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Valentino Lazaro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cesare Casadei",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emirhan Ilkhan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Vlasic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcus Pedersen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saul Coco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillermo Maripan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luca Marianucci",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alberto Paleari",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Walid Cheddira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Riccardo Sottil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Omri Gandelman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Pierotti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassana Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ylber Ramadani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jamil Siebert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Danilo Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wladimiro Falcone",
           "position": "Torwart"
         }
       ]
@@ -1785,15 +1789,15 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Nikola Krstovic",
+          "name": "Gianluca Scamacca",
           "position": "Angriff"
         },
         {
-          "name": "Ademola Lookman",
+          "name": "Nicola Zalewski",
           "position": "Angriff"
         },
         {
-          "name": "Lazar Samardzic",
+          "name": "Charles De Ketelaere",
           "position": "Mittelfeld"
         },
         {
@@ -1805,7 +1809,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Yunus Musah",
+          "name": "Marten de Roon",
           "position": "Mittelfeld"
         },
         {
@@ -1817,15 +1821,15 @@
           "position": "Abwehr"
         },
         {
-          "name": "Isak Hien",
+          "name": "Berat Djimsiti",
           "position": "Abwehr"
         },
         {
-          "name": "Odilon Kossounou",
+          "name": "Giorgio Scalvini",
           "position": "Abwehr"
         },
         {
-          "name": "Marco Sportiello",
+          "name": "Marco Carnesecchi",
           "position": "Torwart"
         }
       ],
