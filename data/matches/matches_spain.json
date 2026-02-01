@@ -1,11 +1,7 @@
 {
   "league": "spain",
   "season": "2026",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-02-01T17:02:12.594422Z",
-=======
-  "lastUpdated": "2026-02-01T17:03:25.776606Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-02-01T17:34:53.584232Z",
   "matches": [
     {
       "matchday": 1,
@@ -2109,16 +2105,6 @@
     },
     {
       "matchday": 22,
-      "homeTeam": "Realbetis",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-02-01T00:00:00Z",
-      "score": "1:1",
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:1"
-    },
-    {
-      "matchday": 22,
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
       "dateTime": "2026-02-01T18:30:00Z",
@@ -2151,6 +2137,16 @@
       "matchday": 22,
       "homeTeam": "Realmadrid",
       "awayTeam": "Vallecano",
+      "dateTime": "2026-02-01T15:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Realbetis",
+      "awayTeam": "Valencia",
       "dateTime": "2026-02-01T15:00:00Z",
       "score": "2:1",
       "isFinished": true,
