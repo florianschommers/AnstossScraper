@@ -1,8 +1,107 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-02-01T20:02:15.645776",
+  "lastUpdated": "2026-02-01T20:38:09.011457",
   "lineups": [
+    {
+      "homeTeam": "Parma",
+      "awayTeam": "Juventusturin",
+      "dateTime": "2026-02-01T00:00:00Z",
+      "matchday": 23,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mateo Pellegrino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jacob Ondrejka",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gaetano Oristanio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Nicolussi Caviglia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Bernabe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Circati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enrico Delprato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edoardo Corvi",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kenan Yildiz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francisco Conceicao",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khephren Thuram",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Locatelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lloyd Kelly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michele Di Gregorio",
+          "position": "Torwart"
+        }
+      ]
+    },
     {
       "homeTeam": "Turin",
       "awayTeam": "Lecce",
@@ -98,105 +197,6 @@
         },
         {
           "name": "Wladimiro Falcone",
-          "position": "Torwart"
-        }
-      ]
-    },
-    {
-      "homeTeam": "Laziorom",
-      "awayTeam": "Cfcgenua",
-      "dateTime": "2026-01-30T20:45:00Z",
-      "matchday": 23,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Pedro",
-          "position": "Angriff"
-        },
-        {
-          "name": "Daniel Maldini",
-          "position": "Angriff"
-        },
-        {
-          "name": "Gustav Isaksen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kenneth Taylor",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Danilo Cataldi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Toma Basic",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luca Pellegrini",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Oliver Provstgaard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mario Gila",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Adam Marusic",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Ivan Provedel",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Vitinha",
-          "position": "Angriff"
-        },
-        {
-          "name": "Lorenzo Colombo",
-          "position": "Angriff"
-        },
-        {
-          "name": "Aaron Martin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mikael Egill Ellertsson",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Morten Frendrup",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Ruslan Malinovskyi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Brooke Norton-Cuffy",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Johan Vasquez",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leo Ostigard",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Alessandro Marcandalli",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Justin Bijlow",
           "position": "Torwart"
         }
       ]
@@ -1435,23 +1435,19 @@
       ],
       "awayLineup": [
         {
-          "name": "Adrian Benedyczak",
+          "name": "Mateo Pellegrino",
           "position": "Angriff"
         },
         {
-          "name": "Oliver Sorensen",
+          "name": "Jacob Ondrejka",
           "position": "Angriff"
         },
         {
-          "name": "Adrian Bernabe",
+          "name": "Gaetano Oristanio",
           "position": "Mittelfeld"
         },
         {
-          "name": "Enrico Delprato",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Nahuel Estevez",
+          "name": "Hans Nicolussi Caviglia",
           "position": "Mittelfeld"
         },
         {
@@ -1459,11 +1455,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Sascha Britschgi",
+          "name": "Adrian Bernabe",
           "position": "Mittelfeld"
         },
         {
-          "name": "Lautaro Valenti",
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Circati",
           "position": "Abwehr"
         },
         {
@@ -1471,7 +1471,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Alessandro Circati",
+          "name": "Enrico Delprato",
           "position": "Abwehr"
         },
         {
@@ -1686,19 +1686,19 @@
       "phase": "",
       "homeLineup": [
         {
-          "name": "Lois Openda",
+          "name": "Jonathan David",
           "position": "Angriff"
         },
         {
-          "name": "Fabio Miretti",
+          "name": "Kenan Yildiz",
           "position": "Angriff"
         },
         {
-          "name": "Francisco Conceicao",
+          "name": "Weston McKennie",
           "position": "Mittelfeld"
         },
         {
-          "name": "Juan Cabal",
+          "name": "Francisco Conceicao",
           "position": "Mittelfeld"
         },
         {
@@ -1706,11 +1706,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Teun Koopmeiners",
+          "name": "Manuel Locatelli",
           "position": "Mittelfeld"
         },
         {
-          "name": "Weston McKennie",
+          "name": "Andrea Cambiaso",
           "position": "Mittelfeld"
         },
         {
@@ -1726,7 +1726,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Mattia Perin",
+          "name": "Michele Di Gregorio",
           "position": "Torwart"
         }
       ],
