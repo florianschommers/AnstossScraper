@@ -16231,14 +16231,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T13:33:06.033",
+    "lastUpdateDateTime": "2026-02-01T14:57:47.873",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122945,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -16246,7 +16246,7 @@
       {
         "resultID": 122946,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -16260,6 +16260,18 @@
         "scoreTeam2": 1,
         "matchMinute": 2,
         "goalGetterID": 23677,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139102,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 63,
+        "goalGetterID": 18303,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
@@ -16302,14 +16314,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T14:11:01.12",
+    "lastUpdateDateTime": "2026-02-01T14:57:43.16",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122947,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
@@ -16318,7 +16330,7 @@
         "resultID": 122948,
         "resultName": "Endergebnis",
         "pointsTeam1": 2,
-        "pointsTeam2": 1,
+        "pointsTeam2": 2,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -16360,6 +16372,18 @@
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
+      },
+      {
+        "goalID": 139100,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 62,
+        "goalGetterID": 22970,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
       }
     ],
     "location": {
@@ -16397,13 +16421,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T14:15:06.167",
+    "lastUpdateDateTime": "2026-02-01T14:57:38.94",
     "matchIsFinished": false,
     "matchResults": [
       {
         "resultID": 122949,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -16413,7 +16437,7 @@
         "resultID": 122950,
         "resultName": "Endergebnis",
         "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -16426,6 +16450,18 @@
         "scoreTeam2": 0,
         "matchMinute": 43,
         "goalGetterID": 18937,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139101,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 67,
+        "goalGetterID": 17675,
         "goalGetterName": "",
         "isPenalty": false,
         "isOwnGoal": false,
