@@ -16302,7 +16302,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T13:34:10.367",
+    "lastUpdateDateTime": "2026-02-01T14:11:01.12",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -16317,8 +16317,8 @@
       {
         "resultID": 122948,
         "resultName": "Endergebnis",
-        "pointsTeam1": 1,
-        "pointsTeam2": 0,
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
@@ -16333,6 +16333,30 @@
         "goalGetterID": 18525,
         "goalGetterName": "",
         "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139091,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 15,
+        "goalGetterID": 23005,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 139094,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 39,
+        "goalGetterID": 22970,
+        "goalGetterName": "",
+        "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
@@ -16373,7 +16397,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Logo_mit_Rand.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-02-01T13:30:43.17",
+    "lastUpdateDateTime": "2026-02-01T14:15:06.167",
     "matchIsFinished": false,
     "matchResults": [
       {
@@ -16388,14 +16412,27 @@
       {
         "resultID": 122950,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 1,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 139095,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 43,
+        "goalGetterID": 18937,
+        "goalGetterName": "",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 2,
       "locationCity": "Dresden",
