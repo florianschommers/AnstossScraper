@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "",
-  "lastUpdated": "2026-02-02T07:12:14.479928",
+  "lastUpdated": "2026-02-02T08:01:32.864412",
   "lineups": [
     {
       "homeTeam": "Udinese",
@@ -1287,101 +1287,6 @@
       ]
     },
     {
-      "homeTeam": "Acmailand",
-      "awayTeam": "Como",
-      "dateTime": "2026-02-08T01:00:00Z",
-      "matchday": 24,
-      "phase": "",
-      "homeLineup": [
-        {
-          "name": "Rafael Leao",
-          "position": "Angriff"
-        },
-        {
-          "name": "Christopher Nkunku",
-          "position": "Angriff"
-        },
-        {
-          "name": "Davide Bartesaghi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Adrien Rabiot",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Luka Modric",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Samuele Ricci",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Alexis Saelemaekers",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Koni De Winter",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Matteo Gabbia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Fikayo Tomori",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Mike Maignan",
-          "position": "Torwart"
-        }
-      ],
-      "awayLineup": [
-        {
-          "name": "Anastasios Douvikas",
-          "position": ""
-        },
-        {
-          "name": "Martin Baturina",
-          "position": ""
-        },
-        {
-          "name": "Nico Paz",
-          "position": ""
-        },
-        {
-          "name": "Mergim Vojvoda",
-          "position": ""
-        },
-        {
-          "name": "Maximo Perrone",
-          "position": ""
-        },
-        {
-          "name": "Alex Valle",
-          "position": ""
-        },
-        {
-          "name": "Marc Oliver Kempf",
-          "position": ""
-        },
-        {
-          "name": "Jacobo Ramon",
-          "position": ""
-        },
-        {
-          "name": "Ivan Smolcic",
-          "position": ""
-        },
-        {
-          "name": "Jean Butez",
-          "position": ""
-        }
-      ]
-    },
-    {
       "homeTeam": "Bologna",
       "awayTeam": "Parma",
       "dateTime": "2026-02-08T12:30:00Z",
@@ -1972,6 +1877,101 @@
         {
           "name": "Elia Caprile",
           "position": "Torwart"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Acmailand",
+      "awayTeam": "Como",
+      "dateTime": "2026-02-18T20:45:00Z",
+      "matchday": 24,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Rafael Leao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "position": "Angriff"
+        },
+        {
+          "name": "Davide Bartesaghi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Modric",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Ricci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koni De Winter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matteo Gabbia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fikayo Tomori",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mike Maignan",
+          "position": "Torwart"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Anastasios Douvikas",
+          "position": ""
+        },
+        {
+          "name": "Martin Baturina",
+          "position": ""
+        },
+        {
+          "name": "Nico Paz",
+          "position": ""
+        },
+        {
+          "name": "Mergim Vojvoda",
+          "position": ""
+        },
+        {
+          "name": "Maximo Perrone",
+          "position": ""
+        },
+        {
+          "name": "Alex Valle",
+          "position": ""
+        },
+        {
+          "name": "Marc Oliver Kempf",
+          "position": ""
+        },
+        {
+          "name": "Jacobo Ramon",
+          "position": ""
+        },
+        {
+          "name": "Ivan Smolcic",
+          "position": ""
+        },
+        {
+          "name": "Jean Butez",
+          "position": ""
         }
       ]
     }
