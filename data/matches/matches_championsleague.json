@@ -1,7 +1,11 @@
 {
   "league": "championsleague",
   "season": "2026",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-02-02T18:37:59.358586Z",
+=======
+  "lastUpdated": "2026-02-02T18:39:37.649060Z",
+>>>>>>> Stashed changes
   "matches": [
     {
       "matchday": 1,
@@ -1380,10 +1384,10 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Athbilbao",
-      "awayTeam": "Sporting",
+      "homeTeam": "Leverkusen",
+      "awayTeam": "Villarreal",
       "dateTime": "2026-01-28T19:00:00Z",
-      "score": "2:3",
+      "score": "3:0",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -1435,6 +1439,17 @@
     },
     {
       "matchday": 8,
+      "homeTeam": "Benfica",
+      "awayTeam": "Realmadrid",
+      "dateTime": "2026-01-28T19:00:00Z",
+      "score": "4:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null,
+      "phase": "gruppenphase"
+    },
+    {
+      "matchday": 8,
       "homeTeam": "Monaco",
       "awayTeam": "Juventusturin",
       "dateTime": "2026-01-28T19:00:00Z",
@@ -1468,10 +1483,10 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Leverkusen",
-      "awayTeam": "Villarreal",
+      "homeTeam": "Sscneapel",
+      "awayTeam": "Chelsea",
       "dateTime": "2026-01-28T19:00:00Z",
-      "score": "3:0",
+      "score": "2:3",
       "isFinished": true,
       "isLive": false,
       "liveScore": null,
@@ -1479,8 +1494,8 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Sscneapel",
-      "awayTeam": "Chelsea",
+      "homeTeam": "Athbilbao",
+      "awayTeam": "Sporting",
       "dateTime": "2026-01-28T19:00:00Z",
       "score": "2:3",
       "isFinished": true,
