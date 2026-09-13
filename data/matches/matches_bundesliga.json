@@ -2795,7 +2795,7 @@
   {
     "matchID": 83182,
     "matchDateTime": "2026-09-13T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -2820,8 +2820,8 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-13T19:04:31.183",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-09-13T19:26:13.75",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 128304,
@@ -2846,19 +2846,6 @@
     ],
     "goals": [
       {
-        "goalID": 147627,
-        "scoreTeam1": 1,
-        "scoreTeam2": 2,
-        "matchMinute": null,
-        "goalGetterID": 0,
-        "goalGetterName": "",
-        "scoringTeamId": 40,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 147597,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
@@ -2879,6 +2866,19 @@
         "goalGetterID": 22975,
         "goalGetterName": "M. Krattenmacher",
         "scoringTeamId": 198,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147627,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 72,
+        "goalGetterID": 18898,
+        "goalGetterName": "H. Kane",
+        "scoringTeamId": 40,
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
