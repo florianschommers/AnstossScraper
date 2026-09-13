@@ -2673,7 +2673,7 @@
   {
     "matchID": 83175,
     "matchDateTime": "2026-09-13T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -2698,13 +2698,13 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-13T15:30:47.153",
-    "matchIsFinished": false,
+    "lastUpdateDateTime": "2026-09-13T17:23:23.893",
+    "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 128294,
         "resultName": "Halbzeit",
-        "pointsTeam1": 0,
+        "pointsTeam1": 2,
         "pointsTeam2": 0,
         "resultOrderID": 1,
         "resultTypeID": 1,
@@ -2714,7 +2714,7 @@
       {
         "resultID": 128295,
         "resultName": "Endergebnis",
-        "pointsTeam1": 0,
+        "pointsTeam1": 5,
         "pointsTeam2": 0,
         "resultOrderID": 2,
         "resultTypeID": 2,
@@ -2722,7 +2722,73 @@
         "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
       }
     ],
-    "goals": [],
+    "goals": [
+      {
+        "goalID": 147578,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 17,
+        "goalGetterID": 27530,
+        "goalGetterName": "T. Gomis",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147582,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 28,
+        "goalGetterID": 22891,
+        "goalGetterName": "A. Nusa",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147593,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 72,
+        "goalGetterID": 23131,
+        "goalGetterName": "W. Orbán",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147595,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 74,
+        "goalGetterID": 18782,
+        "goalGetterName": "C. Nkunku",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147596,
+        "scoreTeam1": 5,
+        "scoreTeam2": 0,
+        "matchMinute": 77,
+        "goalGetterID": 7906,
+        "goalGetterName": "Romulo",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -2754,10 +2820,71 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-15T11:48:50.863",
+    "lastUpdateDateTime": "2026-09-13T19:04:31.183",
     "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "matchResults": [
+      {
+        "resultID": 128304,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128305,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 147627,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147597,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 26,
+        "goalGetterID": 24138,
+        "goalGetterName": "Lennart Karl",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 147626,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 61,
+        "goalGetterID": 22975,
+        "goalGetterName": "M. Krattenmacher",
+        "scoringTeamId": 198,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
