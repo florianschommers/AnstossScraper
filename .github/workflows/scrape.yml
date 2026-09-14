@@ -3,7 +3,7 @@ name: Scrape and publish data
 on:
   workflow_dispatch:  # manuelles Ausführen
   schedule:
-    - cron: '0 2 * * *'  # täglich um 02:00 Uhr UTC (03:00 MEZ / 04:00 MESZ)
+    - cron: '0 2 * * 0'  # alle 7 Tage, Sonntag 02:00 UTC (03:00 MEZ / 04:00 MESZ)
 
 permissions:
   contents: write
