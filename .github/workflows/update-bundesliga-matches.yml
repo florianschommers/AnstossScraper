@@ -2,8 +2,9 @@ name: Update Bundesliga Matches
 
 on:
   schedule:
-    # Alle 5 Minuten
-    - cron: '*/5 * * * *'
+    # Alle 7 Tage, Sonntag 03:00 UTC (05:00 MESZ / 04:00 MEZ)
+    # Eine Stunde nach "Scrape and publish data", damit sich die Pushes nicht beißen
+    - cron: '0 3 * * 0'
   workflow_dispatch:  # Manuell auslösbar
 
 permissions:
