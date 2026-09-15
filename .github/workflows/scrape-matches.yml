@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # Explizit das aktuelle Repository verwenden
           repository: ${{ github.repository }}
@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0  # Hole vollständige Historie für bessere Git-Operationen
       
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
       
