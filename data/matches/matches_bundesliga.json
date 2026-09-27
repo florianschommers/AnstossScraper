@@ -3584,7 +3584,7 @@
   {
     "matchID": 83185,
     "matchDateTime": "2026-09-20T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -3609,17 +3609,65 @@
       "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-15T11:49:45.253",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-09-20T17:25:43.843",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 128638,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128639,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 148222,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 44,
+        "goalGetterID": 18331,
+        "goalGetterName": "P. Schick",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148232,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 58,
+        "goalGetterID": 27613,
+        "goalGetterName": "Miguel Gutiérrez",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83190,
     "matchDateTime": "2026-09-20T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -3644,9 +3692,30 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-15T11:50:01.867",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-09-20T19:20:29.223",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 128661,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128662,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -3654,7 +3723,7 @@
   {
     "matchID": 83191,
     "matchDateTime": "2026-09-20T19:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -3679,10 +3748,84 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-15T11:50:19.627",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-09-20T21:21:18.82",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 128683,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128684,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 148298,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 29,
+        "goalGetterID": 27617,
+        "goalGetterName": "Santiago Castaneda",
+        "scoringTeamId": 31,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148303,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 42,
+        "goalGetterID": 24968,
+        "goalGetterName": "S. Marino",
+        "scoringTeamId": 31,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148306,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 50,
+        "goalGetterID": 23997,
+        "goalGetterName": "A. Daghim",
+        "scoringTeamId": 175,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148309,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 69,
+        "goalGetterID": 19135,
+        "goalGetterName": "S. Tigges",
+        "scoringTeamId": 31,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
