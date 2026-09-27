@@ -3108,19 +3108,6 @@
         "comment": null
       },
       {
-        "goalID": 146879,
-        "scoreTeam1": 3,
-        "scoreTeam2": 2,
-        "matchMinute": 49,
-        "goalGetterID": 24192,
-        "goalGetterName": "King Manu",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 146876,
         "scoreTeam1": 3,
         "scoreTeam2": 1,
@@ -3131,6 +3118,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 146879,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 49,
+        "goalGetterID": 24192,
+        "goalGetterName": "King Manu",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       },
       {
@@ -4893,14 +4893,14 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-19T15:57:35.813",
+    "lastUpdateDateTime": "2026-09-20T11:34:06.587",
     "matchIsFinished": true,
     "matchResults": [
       {
         "resultID": 128562,
         "resultName": "Halbzeit",
         "pointsTeam1": 0,
-        "pointsTeam2": 0,
+        "pointsTeam2": 1,
         "resultOrderID": 1,
         "resultTypeID": 1,
         "resultTypeKind": "HalfTime",
@@ -5117,7 +5117,7 @@
   {
     "matchID": 83593,
     "matchDateTime": "2026-09-20T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5142,17 +5142,78 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:32:02.6",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-09-20T15:22:44.993",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 128605,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128606,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 148155,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 24,
+        "goalGetterID": 25013,
+        "goalGetterName": "S. Teitur Thórdarson",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148161,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 43,
+        "goalGetterID": 19194,
+        "goalGetterName": "M. Hartel",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148174,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 77,
+        "goalGetterID": 24850,
+        "goalGetterName": "  T. Meyer",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83604,
     "matchDateTime": "2026-09-20T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5177,17 +5238,91 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:32:50.74",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-09-20T15:22:56.86",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 128607,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128608,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 148154,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 13,
+        "goalGetterID": 23660,
+        "goalGetterName": "Joel Grodowski",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148156,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 30,
+        "goalGetterID": 20084,
+        "goalGetterName": "B. Zivzivadze",
+        "scoringTeamId": 199,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148162,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 48,
+        "goalGetterID": 23559,
+        "goalGetterName": "P. Hennrich",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 148167,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 55,
+        "goalGetterID": 27607,
+        "goalGetterName": "Felix Hagmann",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83607,
     "matchDateTime": "2026-09-20T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5212,10 +5347,58 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:33:11.927",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-09-20T15:22:49.267",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 128609,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 128610,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 148159,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 37,
+        "goalGetterID": 23763,
+        "goalGetterName": "J. Butler",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 148192,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 80,
+        "goalGetterID": 22915,
+        "goalGetterName": "M. Kaars",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
