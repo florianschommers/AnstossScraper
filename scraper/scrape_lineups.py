@@ -1,1206 +1,588 @@
 #!/usr/bin/env python3
 """
-Lineup-Scraper für Anstoss App
-Scrapt Aufstellungen von fussballdaten.de für alle Spiele und speichert sie als JSON auf GitHub
+Aufstellungen für Anstoss — unbeaufsichtigt auf GitHub Actions.
+
+Quellen: Livescore JSON (Ligen) und UEFA Match API (CL/EL/ECL).
+Nur Spiele im Zeitfenster (Standard: letzte 30 Min bis +6 Stunden).
+Bestehende lineups_*.json werden gemerged, leere Startelfs überschreiben nichts.
 """
 
-import requests
-import re
+from __future__ import annotations
+
+import argparse
 import json
 import os
-import sys
-from datetime import datetime, timedelta
-from bs4 import BeautifulSoup
-from typing import List, Dict, Optional, Tuple, Union
-import time
+import re
+import unicodedata
+from datetime import datetime, timedelta, timezone
+from typing import Dict, List, Optional, Tuple
 
-# Import Team-Slug-Konverter
-from team_slug_converter import convert_team_to_slug, REQUEST_DELAY
+import requests
 
-# User-Agent für Requests
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    'User-Agent': (
+        'AnstossScraper/1.0 (+https://github.com/florianschommers/AnstossScraper) '
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+        '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    ),
+    'Accept': 'application/json',
+    'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
 }
 
-def get_current_season() -> str:
-    """Ermittelt die aktuelle Saison (Juli - Juni)"""
-    now = datetime.now()
-    if now.month >= 7:  # Ab Juli
-        return str(now.year + 1)
-    else:
-        return str(now.year)
+POS_MAP = {
+    'goalkeeper': 'Torwart',
+    'gk': 'Torwart',
+    'defender': 'Abwehr',
+    'df': 'Abwehr',
+    'midfielder': 'Mittelfeld',
+    'mf': 'Mittelfeld',
+    'forward': 'Angriff',
+    'attacker': 'Angriff',
+    'fw': 'Angriff',
+    'winger': 'Angriff',
+}
+
+STOP = {
+    'fc', 'cf', 'ac', 'afc', 'cfc', 'sc', 'sv', 'tsg', 'rc', 'us', 'as', 'ssc',
+    'the', 'de', 'calcio', 'club', 'united', 'hotspur', 'wanderers', '04',
+    '1909', '1907', '1893', '1913', '1', '1.',
+}
+
+LIVESCORE_LEAGUES = {
+    'bundesliga': ('germany', 'bundesliga', 'Europe/Berlin'),
+    '2bundesliga': ('germany', '2-bundesliga', 'Europe/Berlin'),
+    'dfbpokal': ('germany', 'dfb-cup', 'Europe/Berlin'),
+    'england': ('england', 'premier-league', 'Europe/London'),
+    'spain': ('spain', 'laliga', 'Europe/Madrid'),
+    'italy': ('italy', 'serie-a', 'Europe/Rome'),
+    'france': ('france', 'ligue-1', 'Europe/Paris'),
+}
+
+UEFA_LEAGUES = {
+    'championsleague': '1',
+    'europaleague': '14',
+    'conferenceleague': '2019',
+}
+
+
+def log(msg: str) -> None:
+    print(msg, flush=True)
+
 
 def get_openligadb_season() -> str:
-    """Ermittelt die Saison für OpenLigaDB API (aktuell -1, da OpenLigaDB eine Saison zurück ist)
-    Wird für Match-Dateien verwendet, die von OpenLigaDB kommen (bundesliga, 2bundesliga, dfbpokal)"""
-    current = get_current_season()
-    season_int = int(current) if current.isdigit() else 2025
-    return str(season_int - 1)
-
-def get_international_season() -> str:
-    """Ermittelt die aktuelle internationale Saison (Juli - Juni)"""
-    return get_current_season()
-
-def fetch_html(url: str) -> Optional[str]:
-    """Lädt HTML von einer URL mit Rate Limiting"""
-    try:
-        time.sleep(REQUEST_DELAY)  # Rate Limiting
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        if response.status_code == 200:
-            return response.text
-        else:
-            print(f"  ⚠️ HTTP {response.status_code} für {url}")
-            return None
-    except Exception as e:
-        print(f"  ❌ Fehler beim Laden von {url}: {e}")
-        return None
-
-def extract_team_html(html: str, css_class: str) -> str:
-    """Extrahiert Team-HTML aus dem Gesamt-HTML (heim-content oder gast-content)"""
-    this_class = css_class
-    other_class = "gast-content" if css_class == "heim-content" else "heim-content"
-    
-    # Finde Start-Position
-    start_pattern = re.compile(f'<div[^>]*class="[^"]*{re.escape(this_class)}[^"]*"[^>]*>', re.IGNORECASE)
-    start_match = start_pattern.search(html)
-    if not start_match:
-        return ""
-    
-    content_start = start_match.end()
-    
-    # Finde End-Position (nächstes other_class div)
-    end_pattern = re.compile(f'<div[^>]*class="[^"]*{re.escape(other_class)}[^"]*"[^>]*>', re.IGNORECASE)
-    end_match = end_pattern.search(html, content_start)
-    content_end = end_match.start() if end_match else len(html)
-    
-    if content_start >= 0 and content_start < content_end and content_end <= len(html):
-        return html[content_start:content_end]
-    return ""
-
-def extract_start11_area(team_html: str) -> str:
-    """Extrahiert den Start-11-Bereich (vor Reservebank)"""
-    splitter = ["Reservebank", "Ersatzbank", "Bank"]
-    cut = -1
-    for s in splitter:
-        idx = team_html.find(s)
-        if idx >= 0:
-            cut = idx if cut == -1 else min(cut, idx)
-    return team_html[:cut] if cut > 0 else team_html
-
-def analyze_start11(html_segment: str) -> List[str]:
-    """Analysiert Start-11 nur aus Person-Links (wie in LiveBingo.kt)"""
-    players = []
-    # Pattern: <a[^>]*class="[^"]*name[^"]*"[^>]*href="/person/([^/]+)/"[^>]*>([\s\S]*?)</a>
-    pattern = re.compile(r'<a[^>]*class="[^"]*name[^"]*"[^>]*href="/person/([^/]+)/"[^>]*>([\s\S]*?)</a>', re.IGNORECASE)
-    
-    slug_to_name = {}
-    for match in pattern.finditer(html_segment):
-        if len(slug_to_name) >= 11:
-            break
-        
-        slug = match.group(1).strip()
-        inner = match.group(2)
-        
-        # Versuche title-Attribut zu finden
-        title_match = re.search(r'title="([^"]+)"', inner)
-        title_name = title_match.group(1) if title_match else None
-        
-        # Extrahiere Text (ohne Tags)
-        text_name = re.sub(r'<[^>]+>', ' ', inner).strip()
-        text_name = re.sub(r'\s+', ' ', text_name)
-        
-        best_name = title_name if title_name and title_name.strip() else text_name
-        clean_name = simplify_player_name(best_name)
-        
-        # Filtere Trainer
-        if clean_name and not is_coach(clean_name):
-            slug_to_name[slug] = clean_name
-    
-    return list(slug_to_name.values())
-
-def assign_positions_by_order(players: List[str]) -> List[Dict[str, str]]:
-    """
-    Ordnet Positionen basierend auf der Reihenfolge zu.
-    Regel:
-    - Position 0, 1 (erste 2) = "Angriff" (Stürmer)
-    - Position 10 (letzter) = "Torwart"
-    - Position 7, 8, 9 (3 über dem Torwart) = "Abwehr"
-    - Position 2-6 (Rest) = "Mittelfeld"
-    
-    Gibt Liste von Dicts zurück: [{"name": "Spieler", "position": "Angriff"}, ...]
-    """
-    if len(players) != 11:
-        # Fallback: Wenn nicht genau 11 Spieler, keine Positionen zuordnen
-        return [{"name": player, "position": ""} for player in players]
-    
-    result = []
-    for i, player in enumerate(players):
-        if i < 2:
-            # Erste 2 = Stürmer
-            position = "Angriff"
-        elif i >= 7 and i < 10:
-            # Position 7, 8, 9 = Abwehr
-            position = "Abwehr"
-        elif i == 10:
-            # Letzter = Torwart
-            position = "Torwart"
-        else:
-            # Position 2-6 = Mittelfeld
-            position = "Mittelfeld"
-        
-        result.append({"name": player, "position": position})
-    
-    return result
-
-def simplify_player_name(name: str) -> str:
-    """Vereinfacht Spielernamen (wie in LiveBingo.kt)"""
-    if not name:
-        return ""
-    # Entferne HTML-Entities
-    cleaned = name.replace("&amp;", "&").replace("&quot;", '"')
-    # Diakritika entfernen
-    import unicodedata
-    cleaned = unicodedata.normalize('NFD', cleaned)
-    cleaned = ''.join(c for c in cleaned if unicodedata.category(c) != 'Mn')
-    cleaned = cleaned.replace("ß", "ss")
-    # Whitespace normalisieren
-    cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-    return cleaned
-
-def is_coach(name: str) -> bool:
-    """Prüft ob Name ein Trainer ist"""
-    if not name:
-        return False
-    lower_name = name.lower()
-    return "trainer" in lower_name or "head coach" in lower_name or "coach" in lower_name
-
-# Team-Name-Konvertierung wird jetzt von team_slug_converter.py übernommen
-
-def find_matchday_for_match(league_path: str, season: str, home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1, phase: str = '', allowed_matchdays: Optional[List[Union[int, str]]] = None) -> Optional[Union[int, str]]:
-    """
-    Findet den richtigen Spieltag für ein Match, indem durch Spieltage iteriert wird
-    und geprüft wird, ob das spezifische Match auf diesem Spieltag ist.
-    
-    WICHTIG: Prüft nicht nur, ob es zukünftige Spiele gibt, sondern ob das spezifische Match dort ist!
-    
-    Args:
-        allowed_matchdays: Optional. Liste von Spieltagen, die durchsucht werden sollen.
-                          Wenn None, werden alle Spieltage durchsucht (alte Logik).
-                          Beispiel: [16, 17, 18] oder ["achtelfinale", "viertelfinale"]
-    """
-    from team_slug_converter import convert_team_to_slug
-    
     now = datetime.now()
-    home_slug = convert_team_to_slug(home_team, liga_id, is_international)
-    away_slug = convert_team_to_slug(away_team, liga_id, is_international)
-    
-    if is_international:
-        # Internationale Ligen: Prüfe Phasen mit Spieltagen
-        if phase in ['gruppenphase', 'league-stage']:
-            for matchday in range(1, 21):
-                url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}/"
-                html = fetch_html(url)
-                if not html or len(html) < 1000:
-                    continue
-                
-                # Prüfe ob das spezifische Match auf diesem Spieltag ist
-                if home_slug and away_slug:
-                    # Prüfe beide Varianten (home-away und away-home)
-                    if (f"{home_slug}-{away_slug}" in html or f"{away_slug}-{home_slug}" in html):
-                        print(f"    📅 Spieltag {matchday} gefunden (Match gefunden auf diesem Spieltag)")
-                        return matchday
-                # Fallback: Prüfe ob Spiele in der Zukunft sind (wenn Team-Slugs nicht gefunden)
-                elif has_future_matches(html, now):
-                    print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele, aber Match nicht verifiziert)")
-                    return matchday
-        else:
-            # Phasen ohne Spieltage (achtelfinale, etc.)
-            return None
-    elif liga_id == 3:  # DFB-Pokal
-        # DFB-Pokal: Prüfe Runden
-        # Wenn allowed_matchdays gegeben, nur diese durchsuchen, sonst alle Runden
-        if allowed_matchdays:
-            rounds = allowed_matchdays
-        else:
-            rounds = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
-        for round_name in rounds:
-            url = f"https://www.fussballdaten.de/{league_path}/{season}/{round_name}/"
-            html = fetch_html(url)
-            if not html or len(html) < 1000:
-                continue
-            
-            # Prüfe ob das spezifische Match in dieser Runde ist
-            if home_slug and away_slug:
-                if (f"{home_slug}-{away_slug}" in html or f"{away_slug}-{home_slug}" in html):
-                    print(f"    📅 Runde {round_name} gefunden (Match gefunden in dieser Runde)")
-                    return round_name
-            # Fallback: Prüfe ob Spiele in der Zukunft sind
-            elif has_future_matches(html, now):
-                print(f"    📅 Runde {round_name} gefunden (hat zukünftige Spiele, aber Match nicht verifiziert)")
-                return round_name
-    else:
-        # Normale Ligen: Iteriere durch Spieltage
-        # Wenn allowed_matchdays gegeben, nur diese durchsuchen, sonst alle 1-34
-        if allowed_matchdays:
-            matchdays_to_check = allowed_matchdays
-        else:
-            matchdays_to_check = range(1, 35)
-        
-        for matchday in matchdays_to_check:
-            url = f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/"
-            html = fetch_html(url)
-            if not html or len(html) < 1000:
-                continue
-            
-            # Prüfe ob das spezifische Match auf diesem Spieltag ist
-            if home_slug and away_slug:
-                # Prüfe beide Varianten (home-away und away-home)
-                if (f"{home_slug}-{away_slug}" in html or f"{away_slug}-{home_slug}" in html):
-                    print(f"    📅 Spieltag {matchday} gefunden (Match gefunden auf diesem Spieltag)")
-                    return matchday
-            # Fallback: Prüfe ob Spiele in der Zukunft sind (wenn Team-Slugs nicht gefunden)
-            elif has_future_matches(html, now):
-                print(f"    📅 Spieltag {matchday} gefunden (hat zukünftige Spiele, aber Match nicht verifiziert)")
-                return matchday
-    
-    return None
+    if now.month >= 7:
+        return str(now.year)
+    return str(now.year - 1)
 
-def find_current_matchday(league_path: str, season: str, is_international: bool = False, liga_id: int = 1) -> Optional[Union[int, str]]:
-    """
-    Findet den aktuellen Spieltag, indem durch Spieltage iteriert wird
-    und geprüft wird, ob Spiele in der Zukunft sind.
-    
-    Gibt den ersten Spieltag zurück, der zukünftige Spiele hat.
-    """
-    now = datetime.now()
-    
-    if is_international:
-        # Internationale Ligen: Prüfe Phasen mit Spieltagen
-        phases_with_matchdays = ['gruppenphase', 'league-stage']
-        for phase in phases_with_matchdays:
-            for matchday in range(1, 21):
-                url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}/"
-                html = fetch_html(url)
-                if not html or len(html) < 1000:
-                    continue
-                
-                # Prüfe ob Spiele in der Zukunft sind
-                if has_future_matches(html, now):
-                    print(f"   📅 Aktueller Spieltag gefunden: {phase} {matchday}")
-                    return (phase, matchday)
-        return None
-    elif liga_id == 3:  # DFB-Pokal
-        # DFB-Pokal: Prüfe Runden
-        rounds = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
-        for round_name in rounds:
-            url = f"https://www.fussballdaten.de/{league_path}/{season}/{round_name}/"
-            html = fetch_html(url)
-            if not html or len(html) < 1000:
-                continue
-            
-            # Prüfe ob Spiele in der Zukunft sind
-            if has_future_matches(html, now):
-                print(f"   📅 Aktuelle Runde gefunden: {round_name}")
-                return round_name
-        return None
-    else:
-        # Normale Ligen: Iteriere durch Spieltage 1-34
-        for matchday in range(1, 35):
-            url = f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/"
-            html = fetch_html(url)
-            if not html or len(html) < 1000:
-                continue
-            
-            # Prüfe ob Spiele in der Zukunft sind
-            if has_future_matches(html, now):
-                print(f"   📅 Aktueller Spieltag gefunden: {matchday}")
-                return matchday
-    
-    return None
 
-def has_future_matches(html: str, now: datetime) -> bool:
-    """
-    Prüft ob die HTML-Seite Spiele in der Zukunft enthält.
-    Sucht nach Datums-Patterns im HTML und vergleicht mit jetzt.
-    """
-    # Pattern für zukünftige Spiele: title="... (DD.MM.YYYY) ..." mit Uhrzeit
-    zukunft_pattern = re.compile(
-        r'title="[^"]*\((\d{2})\.(\d{2})\.(\d{4})[^)]*\)[^"]*"[^>]*>[\s\S]*?<span>(\d{2}:\d{2})</span>',
-        re.IGNORECASE
-    )
-    
-    # Pattern für Live-Spiele (sind auch "in der Zukunft" im Sinne von "aktuell")
-    live_pattern = re.compile(
-        r'class="ergebnis\s+live"',
-        re.IGNORECASE
-    )
-    
-    # Prüfe auf Live-Spiele
-    if live_pattern.search(html):
-        return True
-    
-    # Prüfe auf zukünftige Spiele
-    for match in zukunft_pattern.finditer(html):
-        day = int(match.group(1))
-        month = int(match.group(2))
-        year = int(match.group(3))
-        time_str = match.group(4)
-        
-        try:
-            hour, minute = map(int, time_str.split(':'))
-            match_datetime = datetime(year, month, day, hour, minute)
-            
-            # Prüfe ob das Spiel in der Zukunft ist (oder heute)
-            if match_datetime >= now:
-                return True
-        except:
-            continue
-    
-    return False
+def get_display_season() -> str:
+    return str(int(get_openligadb_season()) + 1)
 
-def extract_games_with_dates(html: str) -> List[Dict]:
-    """
-    Extrahiert alle Spiele mit Datum und Status (gespielt/nicht gespielt) aus HTML.
-    Gibt Liste von Dicts zurück: [{"datum": datetime, "gespielt": bool}, ...]
-    """
-    spiele = []
-    
-    # Pattern für Spiele mit Datum: title="Team1 - Team2 (DD.MM.YYYY) ..."
-    # Kann gefolgt sein von: <span>HH:MM</span> (nicht gespielt) ODER Endergebnis (gespielt)
-    
-    # Pattern 1: Nicht gespielte Spiele (mit Uhrzeit)
-    zukunft_pattern = re.compile(
-        r'title="[^"]*\((\d{2})\.(\d{2})\.(\d{4})[^)]*\)"[^>]*>[\s\S]*?<span>(\d{2}:\d{2})</span>',
-        re.IGNORECASE
-    )
-    
-    for match in zukunft_pattern.finditer(html):
-        day = int(match.group(1))
-        month = int(match.group(2))
-        year = int(match.group(3))
-        
-        try:
-            spiel_datum = datetime(year, month, day)
-            spiele.append({
-                "datum": spiel_datum,
-                "gespielt": False
-            })
-        except:
-            continue
-    
-    # Pattern 2: Gespielte Spiele (mit Endergebnis, ohne Uhrzeit)
-    # Suche nach Datum in title-Attribut und prüfe ob danach ein Ergebnis kommt
-    gespielt_pattern = re.compile(
-        r'title="[^"]*\((\d{2})\.(\d{2})\.(\d{4})[^)]*\)"[^>]*>[\s\S]*?<div[^>]*class="[^"]*ergebnis[^"]*"[^>]*>(\d+:\d+)</div>',
-        re.IGNORECASE
-    )
-    
-    for match in gespielt_pattern.finditer(html):
-        day = int(match.group(1))
-        month = int(match.group(2))
-        year = int(match.group(3))
-        
-        try:
-            spiel_datum = datetime(year, month, day)
-            spiele.append({
-                "datum": spiel_datum,
-                "gespielt": True
-            })
-        except:
-            continue
-    
-    # Pattern 3: Live-Spiele (zählen als "nicht gespielt")
-    live_pattern = re.compile(
-        r'title="[^"]*\((\d{2})\.(\d{2})\.(\d{4})[^)]*\)"[^>]*>[\s\S]*?<div[^>]*class="[^"]*ergebnis[^"]*live[^"]*"',
-        re.IGNORECASE
-    )
-    
-    for match in live_pattern.finditer(html):
-        day = int(match.group(1))
-        month = int(match.group(2))
-        year = int(match.group(3))
-        
-        try:
-            spiel_datum = datetime(year, month, day)
-            spiele.append({
-                "datum": spiel_datum,
-                "gespielt": False
-            })
-        except:
-            continue
-    
-    return spiele
 
-def find_matchdays_to_scrape(league_path: str, season: str, is_international: bool = False, liga_id: int = 1) -> List[Union[int, str]]:
-    """
-    Findet alle Spieltage, die gescrapt werden sollen:
-    - Alle Spieltage mit Spielen innerhalb von HEUTE + 7 Tage
-    - Nachholspiele (erkannt durch > 6 Tage Abstand zu gespielten Spielen)
-    
-    Gibt Liste von Spieltagen zurück: [16, 17, 18] oder ["achtelfinale", "viertelfinale"] für DFB-Pokal
-    """
-    heute = datetime.now()
-    spieltage_zum_scrapen = []
-    nachholspiel_spieltage = []
-    
-    # Bestimme Spieltag-Range basierend auf Liga
-    if is_international:
-        # Internationale Ligen: Nicht implementiert (behalten alte Logik)
-        return None
-    elif liga_id == 3:  # DFB-Pokal
-        # DFB-Pokal: Runden-Namen
-        spieltag_range = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
-    elif liga_id in [51, 41, 31]:  # England, Spanien, Italien
-        # 20 Teams = 38 Spieltage
-        spieltag_range = range(1, 39)
-    elif liga_id == 21:  # Frankreich
-        # 18 Teams = 34 Spieltage
-        spieltag_range = range(1, 35)
-    else:  # Bundesliga, 2. Bundesliga
-        # 18 Teams = 34 Spieltage
-        spieltag_range = range(1, 35)
-    
-    print(f"\n🔍 Suche Spieltage zum Scrapen (7-Tage-Fenster)...")
-    
-    for spieltag in spieltag_range:
-        url = f"https://www.fussballdaten.de/{league_path}/{season}/{spieltag}/"
-        html = fetch_html(url)
-        
-        if not html or len(html) < 1000:
-            continue
-        
-        # Extrahiere alle Spiele mit Datum
-        alle_spiele = extract_games_with_dates(html)
-        
-        if not alle_spiele:
-            continue
-        
-        # Gruppiere nach gespielt/nicht gespielt
-        gespielte = [s for s in alle_spiele if s['gespielt']]
-        nicht_gespielte = [s for s in alle_spiele if not s['gespielt']]
-        
-        # Keine zukünftigen Spiele → Spieltag fertig
-        if not nicht_gespielte:
-            continue
-        
-        # Fall 1: Es gibt sowohl gespielte als auch nicht gespielte Spiele
-        # → Prüfe auf Nachholspiele (> 6 Tage Abstand)
-        if gespielte and nicht_gespielte:
-            letztes_gespielt = max(s['datum'] for s in gespielte)
-            erstes_nicht_gespielt = min(s['datum'] for s in nicht_gespielte)
-            
-            abstand_spiele = (erstes_nicht_gespielt - letztes_gespielt).days
-            
-            if abstand_spiele > 6:
-                # NACHHOLSPIELE erkannt!
-                print(f"   ⚠️ Spieltag {spieltag}: Nachholspiele erkannt (+{abstand_spiele} Tage)")
-                nachholspiel_spieltage.append(spieltag)
-                # Weiter zum nächsten Spieltag (aber Nachholspiele merken!)
-                continue
-        
-        # Fall 2: Prüfe Abstand zu heute
-        erstes_nicht_gespielt = min(s['datum'] for s in nicht_gespielte)
-        abstand_heute = (erstes_nicht_gespielt.date() - heute.date()).days
-        
-        if abstand_heute <= 7:
-            print(f"   ✅ Spieltag {spieltag}: Innerhalb 7 Tage (+{abstand_heute} Tage)")
-            spieltage_zum_scrapen.append(spieltag)
-        else:
-            print(f"   ⛔ Spieltag {spieltag}: Zu weit weg (+{abstand_heute} Tage) → STOPP")
-            break  # Stoppe Iteration
-    
-    # Kombiniere: Nachholspiele + reguläre Spieltage
-    alle_spieltage = nachholspiel_spieltage + spieltage_zum_scrapen
-    
-    if nachholspiel_spieltage:
-        print(f"\n   📋 Nachholspiel-Spieltage: {nachholspiel_spieltage}")
-    print(f"   📋 Reguläre Spieltage: {spieltage_zum_scrapen}")
-    print(f"   📊 Gesamt zum Scrapen: {alle_spieltage}\n")
-    
-    return alle_spieltage
-
-def scrape_lineup_for_match(league_path: str, season: str, phase: str, matchday: Optional[int], home_team: str, away_team: str, is_international: bool = False, liga_id: int = 1) -> Optional[Tuple[List[str], List[str], bool]]:
-    """Scrapt Aufstellung für ein einzelnes Spiel - OPTIMIERT: Testet zuerst nur ±2 Spieltage, dann alle anderen"""
-    # Erstelle Team-Slugs mit der korrekten Konvertierungs-Logik
-    home_slug = convert_team_to_slug(home_team, liga_id, is_international)
-    away_slug = convert_team_to_slug(away_team, liga_id, is_international)
-    
-    print(f"    🔍 Team-Slugs: '{home_team}' → '{home_slug}', '{away_team}' → '{away_slug}'")
-    print(f"    📋 Spieltag: {matchday}, Phase: {phase}, Liga-ID: {liga_id}, International: {is_international}")
-    
-    if not home_slug or not away_slug:
-        print(f"    ❌ Konnte Team-Slugs nicht erstellen: {home_team} → {home_slug}, {away_team} → {away_slug}")
-        return None
-    
-    # OPTIMIERT: Teste zuerst nur ±1 Spieltag (statt ±2) für maximale Performance
-    # Ziel: 112 Spiele × 3 Spieltage (±1) × 2 URLs = 672 Requests (statt 20.808)
-    # Wenn alle im ersten Versuch gefunden werden: ~5-6 Minuten statt 173 Minuten
-    
-    # STEP 1: Spieltag-Ermittlung für jede Liga
-    # - Bundesliga/2. Bundesliga/England/Spain/Italy/France: matchday kommt direkt aus Match-Daten (wird beim Scraping aus URL extrahiert)
-    # - DFB-Pokal: matchday ist Runden-Name (z.B. "1-runde", "achtelfinale")
-    # - Internationale Ligen: phase + matchday kommen aus Match-Daten
-    
-    # Phase 1: Teste zuerst nur den spezifischen Spieltag ±1 (3 Spieltage: base-1, base, base+1)
-    if is_international:
-        # International: Teste zuerst spezifischen Spieltag (kein ±1, da Phase wichtig ist)
-        # WICHTIG: Nur die aktuelle Phase verwenden (z.B. gruppenphase 5, nicht alle Phasen)
-        first_rounds_to_test = []
-        if matchday and phase:
-            first_rounds_to_test.append((phase, matchday))
-        elif phase:
-            # Phase ohne Spieltag (z.B. achtelfinale)
-            first_rounds_to_test.append((phase, None))
-    elif liga_id == 3:  # DFB-Pokal
-        # DFB-Pokal: Teste zuerst spezifische Runde (kein ±1, da Runden-Namen sind)
-        first_rounds_to_test = []
-        if matchday and isinstance(matchday, str):
-            dfb_rounds = ["1-runde", "2-runde", "achtelfinale", "viertelfinale", "halbfinale", "finale"]
-            if matchday in dfb_rounds:
-                first_rounds_to_test.append(matchday)
-    else:
-        # Normale Ligen: Teste zuerst nur den spezifischen Spieltag (kein ±1, da wir den richtigen Spieltag haben)
-        first_rounds_to_test = []
-        if matchday:
-            try:
-                base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
-                # OPTIMIERT: Nur den spezifischen Spieltag testen (kein ±1, da matchday bereits korrekt ist)
-                first_rounds_to_test = [str(base_matchday)]
-            except:
-                first_rounds_to_test = []
-    
-    # Phase 1: Teste zuerst nur ±1 Spieltag (schnell!)
-    print(f"    📅 Phase 1: Teste {len(first_rounds_to_test)} Spieltage/Runden: {first_rounds_to_test}")
-    for round_value in first_rounds_to_test:
-        if is_international:
-            test_phase, test_matchday = round_value
-            if test_matchday:
-                base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{test_phase}/{test_matchday}"
-            else:
-                base_url = f"https://www.fussballdaten.de/{league_path}/{season}/{test_phase}"
-            urls = [
-                f"{base_url}/{home_slug}-{away_slug}/",
-                f"{base_url}/{away_slug}-{home_slug}/"
-            ]
-        else:
-            # Deutsche/ausländische Ligen
-            urls = [
-                f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{home_slug}-{away_slug}/",
-                f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{away_slug}-{home_slug}/"
-            ]
-        
-        for url in urls:
-            print(f"    🌐 Teste URL: {url}")
-            html = fetch_html(url)
-            
-            if not html:
-                print(f"    ⚠️ HTML ist None/leer für {url}")
-                continue
-            
-            if "heim-content" not in html or "gast-content" not in html:
-                print(f"    ⚠️ HTML hat keine heim-content/gast-content (Länge: {len(html)})")
-                # Prüfe ob es eine 404 oder andere Fehlerseite ist
-                if "404" in html or "nicht gefunden" in html.lower():
-                    print(f"    ❌ 404-Fehler für {url}")
-                continue
-            
-            if html and "heim-content" in html and "gast-content" in html:
-                # STEP 2: Sofort abbrechen wenn gefunden (keine weiteren Tests!)
-                print(f"    ✅ Aufstellungsseite gefunden: {url}")
-                
-                heim_html = extract_team_html(html, "heim-content")
-                gast_html = extract_team_html(html, "gast-content")
-                
-                heim_start11 = analyze_start11(extract_start11_area(heim_html))
-                gast_start11 = analyze_start11(extract_start11_area(gast_html))
-                
-                print(f"    🏠 Heim: {len(heim_start11)} Spieler")
-                print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
-                
-                if heim_start11 and gast_start11:
-                    # Bestimme Zuordnung aus URL
-                    is_home_first = f"{home_slug}-{away_slug}" in url
-                    print(f"    ✅ Aufstellung erfolgreich geparst! (Home-First: {is_home_first})")
-                    # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga/DFB-Pokal)
-                    assign_positions = liga_id not in [1, 2, 3]  # Nicht für 1. Bundesliga, 2. Bundesliga und DFB-Pokal
-                    if is_home_first:
-                        return (heim_start11, gast_start11, assign_positions)
-                    else:
-                        return (gast_start11, heim_start11, assign_positions)
-                else:
-                    print(f"    ⚠️ Aufstellungsseite gefunden, aber Parsing fehlgeschlagen (Heim: {len(heim_start11)}, Gast: {len(gast_start11)})")
-                # Wenn Parsing fehlschlägt, versuche nächste URL (aber nicht nächsten Spieltag!)
-    
-    # Phase 2: Teste ±1 Spieltag, wenn Phase 1 fehlgeschlagen ist (nur für normale Ligen)
-    # WICHTIG: ±1 ist okay, wenn das Match nicht auf dem erwarteten Spieltag gefunden wird
-    fallback_matchdays = []
-    if not is_international and liga_id != 3 and matchday:
-        try:
-            base_matchday = int(matchday) if isinstance(matchday, (int, str)) else 1
-            # Teste ±1 (base-1, base+1) - aber nur wenn Phase 1 fehlgeschlagen ist
-            if base_matchday - 1 >= 1 and str(base_matchday - 1) not in first_rounds_to_test:
-                fallback_matchdays.append(str(base_matchday - 1))
-            if base_matchday + 1 < 35 and str(base_matchday + 1) not in first_rounds_to_test:
-                fallback_matchdays.append(str(base_matchday + 1))
-        except:
-            fallback_matchdays = []
-        
-        if fallback_matchdays:
-            print(f"    ⚠️ Phase 1 fehlgeschlagen, teste jetzt ±1 Spieltag: {fallback_matchdays}")
-            for round_value in fallback_matchdays:
-                urls = [
-                    f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{home_slug}-{away_slug}/",
-                    f"https://www.fussballdaten.de/{league_path}/{season}/{round_value}/{away_slug}-{home_slug}/"
-                ]
-                
-                for url in urls:
-                    html = fetch_html(url)
-                    
-                    if html and "heim-content" in html and "gast-content" in html:
-                        print(f"    ✅ Aufstellungsseite gefunden (Phase 2): {url}")
-                        
-                        heim_html = extract_team_html(html, "heim-content")
-                        gast_html = extract_team_html(html, "gast-content")
-                        
-                        heim_start11 = analyze_start11(extract_start11_area(heim_html))
-                        gast_start11 = analyze_start11(extract_start11_area(gast_html))
-                        
-                        print(f"    🏠 Heim: {len(heim_start11)} Spieler")
-                        print(f"    ✈️ Gast: {len(gast_start11)} Spieler")
-                        
-                        if heim_start11 and gast_start11:
-                            # Sofort abbrechen wenn gefunden!
-                            is_home_first = f"{home_slug}-{away_slug}" in url
-                            # Prüfe ob Positionen zugeordnet werden sollen (nicht für Bundesliga/2. Bundesliga/DFB-Pokal)
-                            assign_positions = liga_id not in [1, 2, 3]  # Nicht für 1. Bundesliga, 2. Bundesliga und DFB-Pokal
-                            if is_home_first:
-                                return (heim_start11, gast_start11, assign_positions)
-                            else:
-                                return (gast_start11, heim_start11, assign_positions)
-    
-    # Beide Phasen fehlgeschlagen
-    total_tested = len(first_rounds_to_test) + len(fallback_matchdays)
-    print(f"    ❌ FEHLER: Keine Aufstellung gefunden!")
-    print(f"    📊 Getestet: {total_tested} Spieltage/Runden")
-    print(f"    📋 Phase 1: {len(first_rounds_to_test)} Spieltage/Runden")
-    if fallback_matchdays:
-        print(f"    📋 Phase 2: {len(fallback_matchdays)} Spieltage/Runden")
-    print(f"    🏠 Team-Slugs: {home_slug} vs {away_slug}")
-    print(f"    📅 Matchday: {matchday}, Phase: {phase}")
-    return None
-
-def load_matches_from_json(file_path: str) -> List[Dict]:
-    """Lädt Matches aus JSON-Datei"""
-    # Stelle sicher, dass der Pfad korrekt ist
-    if not os.path.isabs(file_path) and os.path.basename(os.getcwd()) == 'scraper':
-        # Wenn wir im scraper/ Verzeichnis sind und der Pfad relativ ist, gehe nach oben
-        if not file_path.startswith('..'):
-            file_path = os.path.join('..', file_path)
-    
+def europe_naive_to_utc(dt_naive: datetime, zone_name: str) -> datetime:
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            if isinstance(data, dict) and 'matches' in data:
-                return data['matches']
-            elif isinstance(data, list):
-                return data
-            else:
-                return []
-    except Exception as e:
-        print(f"❌ Fehler beim Laden von {file_path}: {e}")
-        return []
+        from zoneinfo import ZoneInfo
+        return dt_naive.replace(tzinfo=ZoneInfo(zone_name)).astimezone(timezone.utc)
+    except Exception:
+        month = dt_naive.month
+        offset = 1 if zone_name == 'Europe/London' else (2 if 3 <= month <= 10 else 1)
+        return (dt_naive - timedelta(hours=offset)).replace(tzinfo=timezone.utc)
 
-def scrape_lineups_for_league(league_name: str, season: str, data_dir: str = 'data/matches') -> Dict:
-    """Scrapt Aufstellungen für alle Spiele einer Liga"""
-    # WICHTIG: Deutsche Ligen verwenden leeren season-String für Dateinamen
-    display_season = season if season else "aktuell"
-    print(f"\n{'='*60}")
-    print(f"🏆 Liga: {league_name} (Saison {display_season})")
-    print(f"{'='*60}")
-    
-    # Stelle sicher, dass das Verzeichnis relativ zum Repository-Root ist
-    # Wenn wir im scraper/ Verzeichnis sind, gehen wir ein Verzeichnis nach oben
-    if os.path.basename(os.getcwd()) == 'scraper':
-        data_dir = os.path.join('..', data_dir)
-    
-    # Lade Matches
-    # WICHTIG: ALLE Ligen verwenden jetzt Dateinamen OHNE Saison
-    match_file = os.path.join(data_dir, f"matches_{league_name}.json")
-    if not os.path.exists(match_file):
-        print(f"⚠️ Match-Datei nicht gefunden: {match_file}")
-        return {"league": league_name, "season": season if season else get_current_season(), "lineups": []}
-    
-    matches = load_matches_from_json(match_file)
-    print(f"📊 Gefundene Spiele: {len(matches)}")
-    
-    # Bestimme League-Path, ob international und Liga-ID
-    league_configs = {
-        "bundesliga": ("bundesliga", False, 1),
-        "2bundesliga": ("2liga", False, 2),
-        "dfbpokal": ("dfb-pokal", False, 3),
-        "championsleague": ("championsleague", True, 11),
-        "europaleague": ("europaleague", True, 12),
-        "conferenceleague": ("conferenceleague", True, 13),
-        "england": ("england", False, 51),
-        "spain": ("spanien", False, 41),
-        "italy": ("italien", False, 31),
-        "france": ("frankreich", False, 21),
-    }
-    
-    league_path, is_international, liga_id = league_configs.get(league_name, (league_name, False, 1))
-    
-    # WICHTIG: Für Scraping-URLs (fussballdaten.de) verwende Saison +1
-    # ALLE Ligen: season ist leer für Dateinamen, aber für Scraping-URLs brauchen wir die aktuelle Saison
-    if league_name in ["bundesliga", "2bundesliga", "dfbpokal"]:
-        # Deutsche Ligen: Hole aktuelle Saison für Scraping-URLs
-        scraping_season = get_current_season()
-        # WICHTIG: Alle deutschen Ligen verwenden die aktuelle Saison für Scraping-URLs (kein +1 mehr)
-        print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
-    elif league_name in ["championsleague", "europaleague", "conferenceleague"]:
-        # Internationale Ligen: Verwende internationale Saison für Scraping-URLs
-        scraping_season = get_international_season()
-        print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
+
+def http_get(url: str) -> Tuple[int, str]:
+    log(f"  🌐 GET {url}")
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=45)
+        log(f"     HTTP {response.status_code} | {len(response.content or b'')} Bytes")
+        return response.status_code, response.text or ''
+    except Exception as e:
+        log(f"     ❌ {e}")
+        return 0, ''
+
+
+def strip_accents(text: str) -> str:
+    nfd = unicodedata.normalize('NFD', text or '')
+    return ''.join(c for c in nfd if unicodedata.category(c) != 'Mn')
+
+
+def norm_team(name: str) -> str:
+    s = strip_accents(name or '').lower()
+    s = s.replace('ß', 'ss').replace('.', ' ').replace('-', ' ').replace("'", ' ')
+    s = re.sub(r'[^a-z0-9 ]+', ' ', s)
+    parts = [p for p in s.split() if p and p not in STOP]
+    return ' '.join(parts)
+
+
+def team_score(a: str, b: str) -> float:
+    na, nb = norm_team(a), norm_team(b)
+    if not na or not nb:
+        return 0.0
+    if na == nb:
+        return 100.0
+    if na in nb or nb in na:
+        return 85.0
+    ta, tb = set(na.split()), set(nb.split())
+    if not ta or not tb:
+        return 0.0
+    inter = ta & tb
+    if not inter:
+        return 0.0
+    return 100.0 * len(inter) / max(len(ta), len(tb))
+
+
+def map_position(raw: str) -> str:
+    key = (raw or '').strip().lower()
+    return POS_MAP.get(key, 'Mittelfeld')
+
+
+def parse_iso_utc(value: str) -> Optional[datetime]:
+    if not value:
+        return None
+    s = str(value).replace('+00:00', 'Z')
+    if s.endswith('Z') and '.' in s:
+        s = s.split('.')[0] + 'Z'
+    try:
+        dt = datetime.fromisoformat(s.replace('Z', '+00:00'))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except ValueError:
+        return None
+
+
+def parse_livescore_esd(esd, zone_name: str) -> Optional[datetime]:
+    digits = re.sub(r'\D', '', str(esd or ''))
+    if len(digits) < 12:
+        return None
+    digits = digits[:14].ljust(14, '0')
+    try:
+        local = datetime.strptime(digits, '%Y%m%d%H%M%S')
+    except ValueError:
+        return None
+    return europe_naive_to_utc(local, zone_name)
+
+
+def flatten_match(raw: dict) -> Optional[Dict]:
+    if isinstance(raw.get('homeTeam'), str) and isinstance(raw.get('awayTeam'), str):
+        home, away = raw['homeTeam'], raw['awayTeam']
+        date_time = raw.get('dateTime') or ''
+        matchday = raw.get('matchday')
+        phase = raw.get('phase') or ''
     else:
-        # Andere Ligen (england, spain, italy, france): Verwende aktuelle Saison für Scraping-URLs
-        scraping_season = get_current_season()
-        print(f"   ℹ️ Match-Datei: matches_{league_name}.json, Scraping Saison: {scraping_season}")
-    
-    # WICHTIG: Finde alle Spieltage innerhalb 7 Tage + Nachholspiele
-    # Für internationale Ligen: Verwende alte Logik (find_current_matchday)
-    if is_international:
-        print(f"\n🔍 Suche aktuellen Spieltag (Internationale Liga)...")
-        current_matchday = find_current_matchday(league_path, scraping_season, is_international, liga_id)
-        spieltage_zum_scrapen = [current_matchday] if current_matchday else []
-        if current_matchday:
-            print(f"✅ Aktueller Spieltag: {current_matchday}")
-        else:
-            print(f"⚠️ Kein aktueller Spieltag gefunden")
-    else:
-        # Normale Ligen: Verwende neue 7-Tage-Logik
-        spieltage_zum_scrapen = find_matchdays_to_scrape(league_path, scraping_season, is_international, liga_id)
-        if not spieltage_zum_scrapen:
-            print(f"⚠️ Keine Spieltage zum Scrapen gefunden")
-    
-    # Filtere Matches nach gefundenen Spieltagen (kann mehrere sein!)
-    filtered_matches = []
-    original_matches = matches.copy()  # Speichere Original-Matches für Fallback
-    
-    if spieltage_zum_scrapen:
-        print(f"   🔍 Filtere Matches für Spieltage: {spieltage_zum_scrapen}...")
-        matchday_counts = {}  # Debug: Zähle Matchdays
-        for match in matches:
-            # Extrahiere Matchday aus Match
-            team1 = match.get('Team1') or match.get('team1') or {}
-            team2 = match.get('Team2') or match.get('team2') or {}
-            
-            # Initialisiere Variablen
-            matchday = None
-            phase = ''
-            
-            if isinstance(team1, dict) and isinstance(team2, dict):
-                # OpenLigaDB Format: Prüfe verschiedene mögliche Felder für Matchday
-                # WICHTIG: OpenLigaDB verwendet 'group' (kleingeschrieben), nicht 'Group'!
-                
-                # Versuche group.groupOrderID (für OpenLigaDB - kleingeschrieben!)
-                group_obj = match.get('group') or match.get('Group')
-                if group_obj and isinstance(group_obj, dict):
-                    matchday = group_obj.get('groupOrderID') or group_obj.get('GroupOrderID')
-                    phase = group_obj.get('groupName') or group_obj.get('GroupName') or ''
-                
-                # Versuche direktes Matchday-Feld (verschiedene Schreibweisen)
-                if not matchday:
-                    matchday = (match.get('Matchday') or match.get('matchday') or 
-                               match.get('MatchDay') or match.get('matchDay') or
-                               match.get('GroupOrderID') or match.get('groupOrderID'))
-                
-                # Versuche aus League-Objekt
-                if not matchday:
-                    league_obj = match.get('League') or match.get('league')
-                    if league_obj and isinstance(league_obj, dict):
-                        matchday = league_obj.get('GroupOrderID') or league_obj.get('groupOrderID')
-                
-                # Phase extrahieren (falls noch nicht gesetzt)
-                if not phase:
-                    group_obj = match.get('group') or match.get('Group')
-                    if group_obj and isinstance(group_obj, dict):
-                        phase = group_obj.get('groupName') or group_obj.get('GroupName') or ''
-                    if not phase:
-                        phase = match.get('phase', '')
-                
-                # DEBUG: Zeige Match-Struktur beim ersten Match
-                if len(matchday_counts) == 0:
-                    print(f"   🔍 DEBUG: Erster Match Keys: {list(match.keys())[:15]}")
-                    group_obj = match.get('group') or match.get('Group')
-                    if group_obj:
-                        print(f"   🔍 DEBUG: group Keys: {list(group_obj.keys()) if isinstance(group_obj, dict) else 'N/A'}")
-                    league_obj = match.get('League') or match.get('league')
-                    if league_obj:
-                        print(f"   🔍 DEBUG: League Keys: {list(league_obj.keys()) if isinstance(league_obj, dict) else 'N/A'}")
-            else:
-                matchday = match.get('matchday', None)
-                phase = match.get('phase', '')
-            
-            # Debug: Zähle Matchdays
-            matchday_key = str(matchday) if matchday is not None else 'None'
-            matchday_counts[matchday_key] = matchday_counts.get(matchday_key, 0) + 1
-            
-            # Prüfe ob Match zu einem der gewünschten Spieltage gehört
-            if is_international:
-                # International: spieltage_zum_scrapen enthält (phase, matchday) Tupel
-                for spieltag in spieltage_zum_scrapen:
-                    if isinstance(spieltag, tuple):
-                        target_phase, target_matchday_num = spieltag
-                        if phase == target_phase and matchday == target_matchday_num:
-                            filtered_matches.append(match)
-                            break
-            elif liga_id == 3:
-                # DFB-Pokal: spieltage_zum_scrapen enthält Runden-Namen (Strings)
-                if matchday in spieltage_zum_scrapen:
-                    filtered_matches.append(match)
-            else:
-                # Normale Ligen: spieltage_zum_scrapen enthält Integers
-                # Konvertiere matchday zu Integer für Vergleich (kann String oder Integer sein)
-                try:
-                    matchday_int = int(matchday) if matchday is not None else None
-                    if matchday_int is not None and matchday_int in spieltage_zum_scrapen:
-                        filtered_matches.append(match)
-                except (ValueError, TypeError):
-                    # Wenn matchday nicht konvertierbar ist, überspringe dieses Match
-                    pass
-        
-        # Debug: Zeige Matchday-Verteilung
-        print(f"   📊 Matchday-Verteilung in Match-Datei: {dict(sorted(matchday_counts.items(), key=lambda x: int(x[0]) if x[0] != 'None' and x[0].isdigit() else 999))}")
-        
-        original_count = len(matches)
-        matches = filtered_matches
-        print(f"📊 Gefiltert: {len(matches)} Matches für Spieltage {spieltage_zum_scrapen} (von {original_count} total)")
-        
-        # WICHTIG: Wenn keine Matches gefiltert wurden, aber spieltage_zum_scrapen gefunden wurden,
-        # dann haben die Matches wahrscheinlich kein Matchday-Feld. In diesem Fall
-        # filtern wir die Matches, indem wir für jedes Match prüfen, ob es zu einem Spieltag gehört.
-        if len(matches) == 0 and original_count > 0:
-            print(f"⚠️ WARNUNG: Keine Matches mit Matchday-Feld gefunden!")
-            print(f"   → Prüfe für jedes Match, ob es zu Spieltagen {spieltage_zum_scrapen} gehört...")
-            filtered_by_matchday_check = []
-            for match in original_matches[:10]:  # Teste erstmal nur die ersten 10
-                # WICHTIG: Prüfe zuerst, ob homeTeam/awayTeam existieren (andere Formate)
-                if 'homeTeam' in match and 'awayTeam' in match:
-                    home_team = match.get('homeTeam', '')
-                    away_team = match.get('awayTeam', '')
-                else:
-                    # OpenLigaDB Format: Team1/Team2 sind Objekte mit TeamName
-                    team1 = match.get('Team1') or match.get('team1')
-                    team2 = match.get('Team2') or match.get('team2')
-                    if team1 and team2 and isinstance(team1, dict) and isinstance(team2, dict):
-                        home_team = (team1.get('TeamName') or team1.get('teamName') or 
-                                    team1.get('name') or team1.get('Name') or '')
-                        away_team = (team2.get('TeamName') or team2.get('teamName') or 
-                                    team2.get('name') or team2.get('Name') or '')
-                    else:
-                        home_team = (team1 if isinstance(team1, str) else '') or match.get('homeTeam', '')
-                        away_team = (team2 if isinstance(team2, str) else '') or match.get('awayTeam', '')
-                
-                if home_team and away_team:
-                    # Prüfe ob dieses Match zum aktuellen Spieltag gehört
-                    found_matchday = find_matchday_for_match(
-                        league_path, scraping_season, home_team, away_team, is_international, liga_id, '', spieltage_zum_scrapen
-                    )
-                    if found_matchday in spieltage_zum_scrapen:
-                        filtered_by_matchday_check.append(match)
-            
-            if len(filtered_by_matchday_check) > 0:
-                print(f"   ✅ {len(filtered_by_matchday_check)} Matches gefunden, die zu Spieltagen {spieltage_zum_scrapen} gehören")
-                print(f"   → Scrapte nur diese Matches (nicht alle {original_count})")
-                matches = filtered_by_matchday_check
-            else:
-                print(f"   ⚠️ Keine Matches zu Spieltagen {spieltage_zum_scrapen} gefunden, verwende alle {original_count} Matches")
-                matches = original_matches
-    else:
-        print(f"⚠️ Kein aktueller Spieltag gefunden, verwende alle {len(matches)} Matches")
-    
-    # Zeige alle Matches zu Beginn aufgelistet
-    print(f"\n📋 Alle Matches die gescrappt werden sollen:")
-    print(f"{'='*60}")
-    parsed_matches_preview = []
-    for i, match in enumerate(matches, 1):
-        # Extrahiere Match-Info (gleiche Logik wie im Loop)
-        # WICHTIG: Prüfe zuerst, ob homeTeam/awayTeam existieren (andere Formate)
-        # Dann prüfe Team1/Team2 (OpenLigaDB Format)
-        if 'homeTeam' in match and 'awayTeam' in match:
-            # Andere Formate: Direkte Strings
-            home_team = match.get('homeTeam', '')
-            away_team = match.get('awayTeam', '')
-            matchday = match.get('matchday', None)
-            phase = match.get('phase', '')
-        else:
-            # OpenLigaDB Format: Team1/Team2 sind Objekte mit TeamName
-            team1 = match.get('Team1') or match.get('team1')
-            team2 = match.get('Team2') or match.get('team2')
-            
-            if team1 and team2 and isinstance(team1, dict) and isinstance(team2, dict):
-                home_team = (team1.get('TeamName') or team1.get('teamName') or 
-                            team1.get('name') or team1.get('Name') or '')
-                away_team = (team2.get('TeamName') or team2.get('teamName') or 
-                            team2.get('name') or team2.get('Name') or '')
-                matchday = None
-                if match.get('Group') and isinstance(match.get('Group'), dict):
-                    matchday = match.get('Group').get('GroupOrderID')
-                if not matchday:
-                    matchday = match.get('Matchday') or match.get('matchday')
-                phase = ''
-                if match.get('Group') and isinstance(match.get('Group'), dict):
-                    phase = match.get('Group').get('GroupName') or ''
-                if not phase:
-                    phase = match.get('phase', '')
-            else:
-                # Fallback: Versuche als Strings
-                home_team = (team1 if isinstance(team1, str) else '') or match.get('homeTeam', '')
-                away_team = (team2 if isinstance(team2, str) else '') or match.get('awayTeam', '')
-                matchday = match.get('matchday', None)
-                phase = match.get('phase', '')
-        
-        if home_team and away_team:
-            match_info = f"  [{i:3d}/{len(matches)}] {home_team} vs {away_team}"
-            if matchday:
-                match_info += f" (Spieltag: {matchday})"
-            if phase:
-                match_info += f" (Phase: {phase})"
-            parsed_matches_preview.append(match_info)
-    
-    # Zeige alle Matches (maximal 50, sonst zusammenfassen)
-    if len(parsed_matches_preview) <= 50:
-        for match_info in parsed_matches_preview:
-            print(match_info)
-    else:
-        # Zeige erste 25 und letzte 25
-        for match_info in parsed_matches_preview[:25]:
-            print(match_info)
-        print(f"  ... ({len(parsed_matches_preview) - 50} weitere Matches ausgelassen) ...")
-        for match_info in parsed_matches_preview[-25:]:
-            print(match_info)
-    
-    print(f"{'='*60}\n")
-    
-    lineups = []
-    successful = 0
-    failed = 0
-    failed_matches = []  # Sammle fehlgeschlagene Spiele für Analyse
-    
-    # Speichere ersten Spieltag für Fallback, wenn find_matchday_for_match fehlschlägt
-    saved_first_matchday = spieltage_zum_scrapen[0] if spieltage_zum_scrapen else None
-    
-    for i, match in enumerate(matches, 1):
-        # WICHTIG: Prüfe zuerst, ob homeTeam/awayTeam existieren (andere Formate)
-        # Dann prüfe Team1/Team2 (OpenLigaDB Format)
-        if 'homeTeam' in match and 'awayTeam' in match:
-            # Andere Formate: Direkte Strings
-            home_team = match.get('homeTeam', '')
-            away_team = match.get('awayTeam', '')
-            date_time = match.get('dateTime', '')
-            matchday = match.get('matchday', None)
-            phase = match.get('phase', '')
-        else:
-            # OpenLigaDB Format: Team1/Team2 sind Objekte mit TeamName
-            team1 = match.get('Team1') or match.get('team1')
-            team2 = match.get('Team2') or match.get('team2')
-            
-            if team1 and team2 and isinstance(team1, dict) and isinstance(team2, dict):
-                # OpenLigaDB Format: Extrahiere TeamName aus Objekten
-                home_team = (team1.get('TeamName') or team1.get('teamName') or 
-                            team1.get('name') or team1.get('Name') or '')
-                away_team = (team2.get('TeamName') or team2.get('teamName') or 
-                            team2.get('name') or team2.get('Name') or '')
-                date_time = match.get('MatchDateTime') or match.get('matchDateTime') or match.get('dateTime', '')
-                
-                # OpenLigaDB: Spieltag kann in Group.GroupOrderID oder Matchday sein
-                matchday = None
-                if match.get('Group') and isinstance(match.get('Group'), dict):
-                    matchday = match.get('Group').get('GroupOrderID')
-                if not matchday:
-                    matchday = match.get('Matchday') or match.get('matchday')
-                
-                # Phase für DFB-Pokal (z.B. "achtelfinale", "viertelfinale")
-                phase = ''
-                if match.get('Group') and isinstance(match.get('Group'), dict):
-                    phase = match.get('Group').get('GroupName') or ''
-                if not phase:
-                    phase = match.get('phase', '')
-            else:
-                # Fallback: Versuche als Strings
-                home_team = (team1 if isinstance(team1, str) else '') or match.get('homeTeam', '')
-                away_team = (team2 if isinstance(team2, str) else '') or match.get('awayTeam', '')
-                date_time = match.get('dateTime', '')
-                matchday = match.get('matchday', None)
-                phase = match.get('phase', '')
-        
-        print(f"\n[{i}/{len(matches)}] {home_team} vs {away_team}")
-        
-        # STEP 1: Finde den richtigen Spieltag, NUR wenn nicht vorhanden oder unsicher
-        # WICHTIG: Wenn matchday bereits vorhanden und > 1, verwende ihn direkt (nicht neu suchen!)
-        if not matchday:
-            print(f"    🔍 Suche richtigen Spieltag...")
-            found_matchday = find_matchday_for_match(
-                league_path, scraping_season, home_team, away_team, is_international, liga_id, phase, spieltage_zum_scrapen
-            )
-            if found_matchday:
-                matchday = found_matchday
-                print(f"    ✅ Spieltag gefunden: {matchday}")
-            else:
-                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen saved_first_matchday haben, verwende diesen
-                if saved_first_matchday:
-                    matchday = saved_first_matchday
-                    print(f"    ⚠️ Spieltag nicht gefunden, verwende ersten Spieltag: {matchday}")
-                else:
-                    print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
-        elif matchday == 1 and liga_id == 3:  # Nur für DFB-Pokal: matchday=1 ist oft falsch
-            print(f"    🔍 Suche richtigen Spieltag (DFB-Pokal matchday=1 ist oft falsch)...")
-            found_matchday = find_matchday_for_match(
-                league_path, scraping_season, home_team, away_team, is_international, liga_id, phase, spieltage_zum_scrapen
-            )
-            if found_matchday:
-                matchday = found_matchday
-                print(f"    ✅ Spieltag gefunden: {matchday}")
-            else:
-                # Fallback: Wenn kein Spieltag gefunden wurde, aber wir bereits einen saved_first_matchday haben, verwende diesen
-                if saved_first_matchday:
-                    matchday = saved_first_matchday
-                    print(f"    ⚠️ Spieltag nicht gefunden, verwende ersten Spieltag: {matchday}")
-                else:
-                    print(f"    ⚠️ Spieltag nicht gefunden, verwende vorhandenen: {matchday}")
-        else:
-            # Spieltag ist bereits vorhanden und > 1, verwende ihn direkt
-            print(f"    📅 Verwende vorhandenen Spieltag: {matchday}")
-        
-        # Scrapte Aufstellung (testet automatisch ±1 Spieltag)
-        # WICHTIG: Verwende scraping_season für fussballdaten.de URLs
-        lineup = scrape_lineup_for_match(
-            league_path, scraping_season, phase, matchday,
-            home_team, away_team, is_international, liga_id
-        )
-        
-        if lineup:
-            home_players, away_players, assign_positions = lineup
-            
-            # Ordne Positionen zu, wenn nicht Bundesliga/2. Bundesliga/DFB-Pokal
-            if assign_positions:
-                home_lineup_with_positions = assign_positions_by_order(home_players)
-                away_lineup_with_positions = assign_positions_by_order(away_players)
-                # Prüfe ob alle Positionen zugeordnet wurden
-                home_positions_count = len([p for p in home_lineup_with_positions if p.get('position')])
-                away_positions_count = len([p for p in away_lineup_with_positions if p.get('position')])
-                print(f"  📍 Positionen zugeordnet: Heim {home_positions_count}/{len(home_players)}, Auswärts {away_positions_count}/{len(away_players)}")
-            else:
-                # Für Bundesliga/2. Bundesliga/DFB-Pokal: Nur Namen (wie bisher, einfache Liste)
-                home_lineup_with_positions = home_players
-                away_lineup_with_positions = away_players
-            
-            lineups.append({
-                "homeTeam": home_team,
-                "awayTeam": away_team,
-                "dateTime": date_time,
-                "matchday": matchday,
-                "phase": phase,
-                "homeLineup": home_lineup_with_positions,
-                "awayLineup": away_lineup_with_positions
-            })
-            successful += 1
-            print(f"  ✅ Aufstellung gescrappt: {len(home_players)} Heim, {len(away_players)} Auswärts")
-        else:
-            failed += 1
-            print(f"  ❌ Aufstellung nicht gefunden für: {home_team} vs {away_team}")
-            print(f"     Matchday: {matchday}, Phase: {phase}")
-            # Sammle für spätere Analyse
-            failed_matches.append({
-                "homeTeam": home_team,
-                "awayTeam": away_team,
-                "matchday": matchday,
-                "phase": phase,
-                "dateTime": date_time
-            })
-    
-    print(f"\n{'='*60}")
-    print(f"📊 ZUSAMMENFASSUNG für {league_name} (Saison {season}):")
-    print(f"✅ Erfolgreich: {successful}")
-    print(f"❌ Fehlgeschlagen: {failed}")
-    if failed > 0:
-        print(f"\n⚠️ {failed} Spiele konnten nicht gefunden werden!")
-        print(f"   Bitte prüfe die Logs oben für Details zu jedem fehlgeschlagenen Spiel.")
-        # Speichere fehlgeschlagene Spiele in Datei für Analyse
-        if os.path.basename(os.getcwd()) == 'scraper':
-            failed_file = os.path.join('..', 'data', 'lineups', f'failed_{league_name}.json')
-        else:
-            failed_file = os.path.join('data', 'lineups', f'failed_{league_name}.json')
-        os.makedirs(os.path.dirname(failed_file), exist_ok=True)
-        with open(failed_file, 'w', encoding='utf-8') as f:
-            json.dump({
-                "league": league_name,
-                "season": season,
-                "failedCount": failed,
-                "failedMatches": failed_matches,
-                "timestamp": datetime.now().isoformat()
-            }, f, ensure_ascii=False, indent=2)
-        print(f"   💾 Fehlgeschlagene Spiele gespeichert in: {failed_file}")
-    print(f"{'='*60}")
-    
+        t1 = raw.get('team1') or raw.get('Team1') or {}
+        t2 = raw.get('team2') or raw.get('Team2') or {}
+        if not isinstance(t1, dict) or not isinstance(t2, dict):
+            return None
+        home = t1.get('teamName') or t1.get('TeamName') or ''
+        away = t2.get('teamName') or t2.get('TeamName') or ''
+        date_time = raw.get('matchDateTimeUTC') or raw.get('MatchDateTimeUTC') or raw.get('dateTime') or ''
+        group = raw.get('group') or raw.get('Group') or {}
+        matchday = None
+        phase = ''
+        if isinstance(group, dict):
+            matchday = group.get('groupOrderID') or group.get('GroupOrderID')
+            phase = group.get('groupName') or group.get('GroupName') or ''
+        if matchday is None:
+            matchday = raw.get('matchday') or raw.get('Matchday')
+        if not phase:
+            phase = raw.get('phase') or ''
+    if not home or not away:
+        return None
+    kickoff = parse_iso_utc(str(date_time))
+    if kickoff is None:
+        return None
+    try:
+        matchday_i = int(matchday) if matchday is not None and str(matchday).isdigit() else matchday
+    except (TypeError, ValueError):
+        matchday_i = matchday
     return {
-        "league": league_name,
-        "season": season,
-        "lastUpdated": datetime.now().isoformat(),
-        "lineups": lineups
+        'homeTeam': home,
+        'awayTeam': away,
+        'dateTime': kickoff.replace(microsecond=0).isoformat().replace('+00:00', 'Z'),
+        'matchday': matchday_i if matchday_i is not None else 1,
+        'phase': phase if isinstance(phase, str) else '',
+        'kickoff': kickoff,
     }
 
-def save_lineups_json(league_name: str, season: str, lineups_data: Dict, output_dir: str = 'data/lineups'):
-    """Speichert Aufstellungen als JSON"""
-    # Stelle sicher, dass das Verzeichnis relativ zum Repository-Root ist
-    # Wenn wir im scraper/ Verzeichnis sind, gehen wir ein Verzeichnis nach oben
-    if os.path.basename(os.getcwd()) == 'scraper':
-        output_dir = os.path.join('..', output_dir)
-    os.makedirs(output_dir, exist_ok=True)
-    filename = os.path.join(output_dir, f"lineups_{league_name}.json")
-    
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(lineups_data, f, ensure_ascii=False, indent=2)
-    
-    print(f"💾 Gespeichert: {filename} ({len(lineups_data['lineups'])} Aufstellungen)")
 
-def main():
-    """Hauptfunktion"""
-    print("🚀 Starte Lineup-Scraping für alle Ligen...")
-    
-    # WICHTIG: ALLE Ligen verwenden jetzt Dateinamen OHNE Saison
-    # fussballdaten.de verwendet Saison +1 (z.B. 2026 statt 2025) für Scraping-URLs
-    season = get_current_season()  # Für fussballdaten.de URLs (Scraping)
-    int_season = get_international_season()
-    
-    # Alle Ligen
-    # WICHTIG: season wird nur für Scraping-URLs verwendet, NICHT für Dateinamen
-    # Alle Dateinamen sind OHNE Jahreszahl (matches_england.json, matches_championsleague.json, etc.)
-    leagues = [
-        ("bundesliga", ""),  # 1. Bundesliga: Dateiname OHNE Saison
-        ("2bundesliga", ""),  # 2. Bundesliga: Dateiname OHNE Saison
-        ("dfbpokal", ""),  # DFB-Pokal: Dateiname OHNE Saison
-        ("championsleague", ""),  # Champions League: Dateiname OHNE Saison
-        ("europaleague", ""),  # Europa League: Dateiname OHNE Saison
-        ("conferenceleague", ""),  # Conference League: Dateiname OHNE Saison
-        ("england", ""),  # England: Dateiname OHNE Saison
-        ("spain", ""),  # Spain: Dateiname OHNE Saison
-        ("italy", ""),  # Italy: Dateiname OHNE Saison
-        ("france", ""),  # France: Dateiname OHNE Saison
-    ]
-    
-    for league_name, league_season in leagues:
+def load_matches(league: str) -> List[Dict]:
+    path = os.path.join('data', 'matches', f'matches_{league}.json')
+    if not os.path.isfile(path):
+        log(f"  ⚠️ Match-Datei fehlt: {path}")
+        return []
+    with open(path, encoding='utf-8') as f:
+        data = json.load(f)
+    raw_list = data.get('matches') if isinstance(data, dict) else data
+    if not isinstance(raw_list, list):
+        return []
+    out = []
+    for raw in raw_list:
+        rec = flatten_match(raw) if isinstance(raw, dict) else None
+        if rec:
+            out.append(rec)
+    return out
+
+
+def in_window(kickoff: datetime, now: datetime, ahead: timedelta, back: timedelta) -> bool:
+    return (now - back) <= kickoff <= (now + ahead)
+
+
+def load_existing_lineups(league: str, season: str) -> Dict:
+    path = os.path.join('data', 'lineups', f'lineups_{league}.json')
+    if not os.path.isfile(path):
+        return {'league': league, 'season': season, 'lastUpdated': '', 'lineups': []}
+    try:
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+        if isinstance(data, dict) and isinstance(data.get('lineups'), list):
+            data.setdefault('league', league)
+            data.setdefault('season', season)
+            return data
+    except Exception as e:
+        log(f"  ⚠️ Alte Lineup-Datei unlesbar: {e}")
+    return {'league': league, 'season': season, 'lastUpdated': '', 'lineups': []}
+
+
+def lineup_quality(players: List) -> int:
+    if not isinstance(players, list):
+        return 0
+    n = 0
+    for p in players:
+        if isinstance(p, str) and p.strip():
+            n += 1
+        elif isinstance(p, dict) and (p.get('name') or '').strip():
+            n += 1
+    return n
+
+
+def upsert_lineup(store: Dict, rec: Dict) -> bool:
+    """True wenn geschrieben/ersetzt."""
+    key_home, key_away = norm_team(rec['homeTeam']), norm_team(rec['awayTeam'])
+    new_q = lineup_quality(rec.get('homeLineup')) + lineup_quality(rec.get('awayLineup'))
+    if new_q < 22:
+        return False
+    lineups = store['lineups']
+    for i, old in enumerate(lineups):
+        if norm_team(old.get('homeTeam', '')) != key_home:
+            continue
+        if norm_team(old.get('awayTeam', '')) != key_away:
+            continue
+        same_md = str(old.get('matchday', '')) == str(rec.get('matchday', ''))
+        same_dt = (old.get('dateTime') or '')[:16] == (rec.get('dateTime') or '')[:16]
+        if same_md or same_dt:
+            old_q = lineup_quality(old.get('homeLineup')) + lineup_quality(old.get('awayLineup'))
+            if new_q >= old_q:
+                lineups[i] = rec
+                return True
+            log("     ↷ Bestehende vollständige Aufstellung behalten")
+            return False
+    lineups.append(rec)
+    return True
+
+
+def livescore_players(side: dict) -> List[Dict[str, str]]:
+    out = []
+    for p in side.get('Ps') or []:
+        if str(p.get('Pon') or '').upper() == 'COACH':
+            continue
+        if not p.get('Fp'):
+            continue
+        name = f"{p.get('Fn') or ''} {p.get('Ln') or ''}".strip()
+        if not name:
+            continue
+        out.append({'name': name, 'position': map_position(str(p.get('Pon') or ''))})
+    return out[:11]
+
+
+def fetch_livescore_events(country: str, slug: str, zone_name: str) -> List[Dict]:
+    url = f'https://prod-cdn-public-api.livescore.com/v1/api/app/stage/soccer/{country}/{slug}/1'
+    status, body = http_get(url)
+    if status != 200:
+        return []
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return []
+    events = []
+    for st in data.get('Stages') or []:
+        for ev in st.get('Events') or []:
+            kick = parse_livescore_esd(ev.get('Esd'), zone_name)
+            if kick is None:
+                continue
+            home = ((ev.get('T1') or [{}])[0] or {}).get('Nm') or ''
+            away = ((ev.get('T2') or [{}])[0] or {}).get('Nm') or ''
+            events.append({
+                'eid': str(ev.get('Eid') or ''),
+                'home': home,
+                'away': away,
+                'kickoff': kick,
+            })
+    return events
+
+
+def fetch_livescore_lineup(eid: str) -> Optional[Tuple[List[Dict[str, str]], List[Dict[str, str]]]]:
+    url = f'https://prod-cdn-public-api.livescore.com/v1/api/app/lineups/soccer/{eid}'
+    status, body = http_get(url)
+    if status != 200:
+        return None
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return None
+    home_ps: List[Dict[str, str]] = []
+    away_ps: List[Dict[str, str]] = []
+    for side in data.get('Lu') or []:
+        players = livescore_players(side)
+        tnb = side.get('Tnb')
+        if tnb == 1:
+            home_ps = players
+        elif tnb == 2:
+            away_ps = players
+    if len(home_ps) < 11 or len(away_ps) < 11:
+        log(f"     ℹ️ Noch keine Startelf (Heim {len(home_ps)}, Gast {len(away_ps)})")
+        return None
+    return home_ps, away_ps
+
+
+def match_event(match: Dict, events: List[Dict]) -> Optional[Dict]:
+    best = None
+    best_score = 0.0
+    for ev in events:
+        if not ev.get('eid'):
+            continue
+        delta = abs((ev['kickoff'] - match['kickoff']).total_seconds())
+        if delta > 3 * 3600:
+            continue
+        hs = team_score(match['homeTeam'], ev['home'])
+        aws = team_score(match['awayTeam'], ev['away'])
+        score = hs + aws - delta / 3600.0
+        if hs >= 50 and aws >= 50 and score > best_score:
+            best_score = score
+            best = ev
+    return best
+
+
+def uefa_player(entry: dict) -> Optional[Dict[str, str]]:
+    p = entry.get('player') or {}
+    trans = p.get('translations') or {}
+    name = ''
+    for bag_key in ('name', 'officialName', 'shortName'):
+        bag = trans.get(bag_key)
+        if isinstance(bag, dict):
+            name = bag.get('DE') or bag.get('EN') or name
+            if name:
+                break
+    name = name or p.get('internationalName') or p.get('clubShirtName') or ''
+    name = str(name).strip()
+    if not name:
+        return None
+    pos = map_position(str(p.get('fieldPosition') or ''))
+    return {'name': name, 'position': pos}
+
+
+def fetch_uefa_window(competition_id: str, season_year: str, now: datetime, ahead: timedelta, back: timedelta) -> List[Dict]:
+    found = []
+    offset = 0
+    while offset < 500:
+        url = (
+            f'https://match.uefa.com/v5/matches?competitionId={competition_id}'
+            f'&seasonYear={season_year}&limit=100&offset={offset}'
+        )
+        status, body = http_get(url)
+        if status != 200:
+            break
         try:
-            lineups_data = scrape_lineups_for_league(league_name, league_season)
-            # Für deutsche Ligen: Verwende aktuelle Saison für Lineup-Dateinamen
-            save_season = league_season if league_season else get_current_season()
-            save_lineups_json(league_name, save_season, lineups_data)
-        except Exception as e:
-            print(f"❌ Fehler bei Liga {league_name}: {e}")
-            import traceback
-            traceback.print_exc()
-    
-    print("\n✅ Scraping abgeschlossen!")
+            chunk = json.loads(body)
+        except json.JSONDecodeError:
+            break
+        if not isinstance(chunk, list) or not chunk:
+            break
+        for raw in chunk:
+            rnd = raw.get('round') or {}
+            if str(rnd.get('phase') or '').upper() == 'QUALIFYING':
+                continue
+            kick = parse_iso_utc((raw.get('kickOffTime') or {}).get('dateTime') or '')
+            if kick is None or not in_window(kick, now, ahead, back):
+                continue
+            home = (raw.get('homeTeam') or {}).get('internationalName') or ''
+            away = (raw.get('awayTeam') or {}).get('internationalName') or ''
+            found.append({
+                'id': str(raw.get('id') or ''),
+                'home': home,
+                'away': away,
+                'kickoff': kick,
+                'status': raw.get('status'),
+                'lineupStatus': raw.get('lineupStatus'),
+            })
+        if len(chunk) < 100:
+            break
+        offset += 100
+    return found
 
-if __name__ == "__main__":
+
+def fetch_uefa_lineup(match_id: str) -> Optional[Tuple[List[Dict[str, str]], List[Dict[str, str]]]]:
+    url = f'https://match.uefa.com/v5/matches/{match_id}/lineups'
+    status, body = http_get(url)
+    if status != 200:
+        return None
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return None
+    if str(data.get('lineupStatus') or '').upper() in ('NOT_AVAILABLE', ''):
+        log(f"     ℹ️ UEFA lineupStatus={data.get('lineupStatus')}")
+        return None
+    def side(key: str) -> List[Dict[str, str]]:
+        players = []
+        for entry in (data.get(key) or {}).get('field') or []:
+            rec = uefa_player(entry)
+            if rec:
+                players.append(rec)
+        return players[:11]
+    home, away = side('homeTeam'), side('awayTeam')
+    if len(home) < 11 or len(away) < 11:
+        log(f"     ℹ️ UEFA Feld unvollständig Heim {len(home)} Gast {len(away)}")
+        return None
+    return home, away
+
+
+def scrape_livescore_league(league: str, country: str, slug: str, zone: str,
+                            window_matches: List[Dict], store: Dict) -> int:
+    if not window_matches:
+        log("  ⏭️ Keine Spiele im Zeitfenster")
+        return 0
+    events = fetch_livescore_events(country, slug, zone)
+    log(f"  Livescore {country}/{slug}: {len(events)} Events in der Saison")
+    added = 0
+    for match in window_matches:
+        ev = match_event(match, events)
+        if not ev:
+            log(f"  ⚠️ Kein Livescore-Event: {match['homeTeam']} vs {match['awayTeam']}")
+            continue
+        log(f"  → {match['homeTeam']} vs {match['awayTeam']} eid={ev['eid']}")
+        lu = fetch_livescore_lineup(ev['eid'])
+        if not lu:
+            continue
+        rec = {
+            'homeTeam': match['homeTeam'],
+            'awayTeam': match['awayTeam'],
+            'dateTime': match['dateTime'],
+            'matchday': match['matchday'],
+            'phase': match.get('phase') or '',
+            'homeLineup': lu[0],
+            'awayLineup': lu[1],
+        }
+        if upsert_lineup(store, rec):
+            added += 1
+            log(f"     ✅ Startelf 11/11 gespeichert")
+    return added
+
+
+def scrape_uefa_league(league: str, competition_id: str, window_matches: List[Dict], store: Dict,
+                       now: datetime, ahead: timedelta, back: timedelta) -> int:
+    if not window_matches:
+        log("  ⏭️ Keine Spiele im Zeitfenster")
+        return 0
+    season_year = get_display_season()
+    uefa_matches = fetch_uefa_window(competition_id, season_year, now, ahead, back)
+    log(f"  UEFA competition {competition_id}: {len(uefa_matches)} Spiele im Fenster")
+    added = 0
+    for match in window_matches:
+        best = None
+        best_score = 0.0
+        for um in uefa_matches:
+            if not um.get('id'):
+                continue
+            delta = abs((um['kickoff'] - match['kickoff']).total_seconds())
+            if delta > 3 * 3600:
+                continue
+            hs = team_score(match['homeTeam'], um['home'])
+            aws = team_score(match['awayTeam'], um['away'])
+            score = hs + aws
+            if hs >= 45 and aws >= 45 and score > best_score:
+                best_score = score
+                best = um
+        if not best:
+            log(f"  ⚠️ Kein UEFA-Match: {match['homeTeam']} vs {match['awayTeam']}")
+            continue
+        log(f"  → {match['homeTeam']} vs {match['awayTeam']} uefa={best['id']} status={best.get('lineupStatus')}")
+        lu = fetch_uefa_lineup(best['id'])
+        if not lu:
+            continue
+        rec = {
+            'homeTeam': match['homeTeam'],
+            'awayTeam': match['awayTeam'],
+            'dateTime': match['dateTime'],
+            'matchday': match['matchday'],
+            'phase': match.get('phase') or 'gruppenphase',
+            'homeLineup': lu[0],
+            'awayLineup': lu[1],
+        }
+        if upsert_lineup(store, rec):
+            added += 1
+            log("     ✅ UEFA-Startelf gespeichert")
+    return added
+
+
+def save_store(league: str, store: Dict) -> None:
+    out_dir = os.path.join('data', 'lineups')
+    os.makedirs(out_dir, exist_ok=True)
+    store['lastUpdated'] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+    store['season'] = store.get('season') or get_display_season()
+    path = os.path.join(out_dir, f'lineups_{league}.json')
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(store, f, ensure_ascii=False, indent=2)
+    log(f"💾 {path} ({len(store['lineups'])} Aufstellungen gesamt)")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--window-hours', type=float, default=6.0)
+    parser.add_argument('--lookback-minutes', type=float, default=30.0)
+    args = parser.parse_args()
+    if os.path.basename(os.getcwd()) == 'scraper':
+        os.chdir('..')
+    ahead = timedelta(hours=args.window_hours)
+    back = timedelta(minutes=args.lookback_minutes)
+    now = datetime.now(timezone.utc)
+    season = get_display_season()
+
+    log("🚀 Lineup-Update (Livescore + UEFA, kein fussballdaten.de)")
+    log(f"   Fenster: -{int(back.total_seconds()//60)} Min bis +{args.window_hours:g} h | jetzt {now.isoformat()}")
+    log("   Cron zielt auf Anstoß-Cluster (~15 Läufe/Woche), dieser Lauf holt nur fällige Spiele.\n")
+
+    order = [
+        'bundesliga', '2bundesliga', 'dfbpokal',
+        'england', 'spain', 'italy', 'france',
+        'championsleague', 'europaleague', 'conferenceleague',
+    ]
+    total_new = 0
+    for league in order:
+        log(f"\n📊 {league}")
+        matches = load_matches(league)
+        window = [m for m in matches if in_window(m['kickoff'], now, ahead, back)]
+        log(f"   {len(matches)} Spiele in JSON, {len(window)} im Fenster")
+        store = load_existing_lineups(league, season)
+        before = json.dumps(store.get('lineups'), ensure_ascii=False, sort_keys=True)
+        if league in LIVESCORE_LEAGUES:
+            country, slug, zone = LIVESCORE_LEAGUES[league]
+            added = scrape_livescore_league(league, country, slug, zone, window, store)
+        else:
+            added = scrape_uefa_league(
+                league, UEFA_LEAGUES[league], window, store, now, ahead, back
+            )
+        after = json.dumps(store.get('lineups'), ensure_ascii=False, sort_keys=True)
+        if added or before != after:
+            save_store(league, store)
+            total_new += added
+        elif window:
+            log("  ℹ️ Fenster-Spiele ohne neue Startelf — Datei unverändert")
+        else:
+            log("  ⏭️ nichts zu tun")
+
+    log(f"\n✅ Fertig. Neue/aktualisierte Aufstellungen in diesem Lauf: {total_new}")
+
+
+if __name__ == '__main__':
     main()
-
