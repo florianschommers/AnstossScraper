@@ -287,8 +287,10 @@ def fill_missing_matchdays(rows: List[Dict]) -> None:
         r['matchday'] = nearest[1]
 
 
-def scrape_livescore(league: str, country: str, slug: str, tz_name: str) -> List[Dict]:
+def scrape_livescore(league: str, country: str, slug: str, tz_name: str, locale: Optional[str] = None) -> List[Dict]:
     url = f'https://prod-cdn-public-api.livescore.com/v1/api/app/stage/soccer/{country}/{slug}/1'
+    if locale:
+        url += f'?locale={locale}'
     log(f"   Quelle: Livescore JSON | {country}/{slug}")
     log("   Spiel = Events[]; Teams = T1[0].Nm / T2[0].Nm; Ergebnis = Tr1:Tr2 wenn Eps=FT; "
         "Datum = Esd (YYYYMMDDHHmmss, lokale Zeit); Spieltag = ErnInf Ziffer")
@@ -549,6 +551,106 @@ def scrape_uefa_conference(league: str) -> List[Dict]:
     return matches
 
 
+def scrape_uefa_competition(league: str, competition_id: str, season_years: List[str], phase_mode: str) -> List[Dict]:
+    """
+    phase_mode:
+      tournament = nur Endrunde (phase TOURNAMENT)
+      qualifying = nur Qualifikation
+      all = jede Phase (Nations League)
+    """
+    log(f"   Quelle: UEFA Match API | competitionId={competition_id} seasons={','.join(season_years)} phase={phase_mode}")
+    matches: List[Dict] = []
+    skipped = 0
+    now = datetime.now(timezone.utc)
+    seen = set()
+    for season_year in season_years:
+        offset = 0
+        while offset < 800:
+            url = (
+                f'https://match.uefa.com/v5/matches?competitionId={competition_id}'
+                f'&seasonYear={season_year}&limit=100&offset={offset}'
+            )
+            status, body, _final = http_get(url, accept='application/json')
+            if status != 200:
+                break
+            try:
+                chunk = json.loads(body)
+            except json.JSONDecodeError:
+                log("     ⚠️ UEFA-Antwort ist kein JSON")
+                break
+            if not isinstance(chunk, list) or not chunk:
+                break
+            for raw in chunk:
+                rnd = raw.get('round') or {}
+                phase = str(rnd.get('phase') or '').upper()
+                if phase_mode == 'tournament' and phase != 'TOURNAMENT':
+                    skipped += 1
+                    continue
+                if phase_mode == 'qualifying' and phase != 'QUALIFYING':
+                    skipped += 1
+                    continue
+                if (raw.get('homeTeam') or {}).get('isPlaceHolder') or (raw.get('awayTeam') or {}).get('isPlaceHolder'):
+                    skipped += 1
+                    continue
+                home = uefa_team_name(raw.get('homeTeam') or {})
+                away = uefa_team_name(raw.get('awayTeam') or {})
+                kick = (raw.get('kickOffTime') or {}).get('dateTime') or ''
+                if not home or not away or not kick:
+                    skipped += 1
+                    continue
+                date_time = str(kick).replace('+00:00', 'Z')
+                if date_time.endswith('Z') and '.' in date_time:
+                    date_time = date_time.split('.')[0] + 'Z'
+                key = (home, away, date_time)
+                if key in seen:
+                    continue
+                seen.add(key)
+                try:
+                    kickoff = datetime.fromisoformat(date_time.replace('Z', '+00:00'))
+                except ValueError:
+                    skipped += 1
+                    continue
+                md_obj = raw.get('matchday') or {}
+                matchday = md_obj.get('sequenceNumber') or 1
+                try:
+                    matchday = int(matchday)
+                except (TypeError, ValueError):
+                    matchday = 1
+                st = str(raw.get('status') or '').upper()
+                finished = st in ('FINISHED', 'OFFICIAL')
+                is_live = st in ('LIVE', 'ONGOING') or (
+                    (not finished) and kickoff <= now <= kickoff + timedelta(hours=3) and st != 'UPCOMING'
+                )
+                score = uefa_score(raw.get('score')) if (finished or is_live) else None
+                round_trans = (rnd.get('translations') or {}).get('name') or {}
+                round_name = ''
+                if isinstance(round_trans, dict):
+                    round_name = round_trans.get('DE') or round_trans.get('EN') or ''
+                rec = {
+                    'matchday': matchday,
+                    'homeTeam': home,
+                    'awayTeam': away,
+                    'dateTime': date_time,
+                    'score': score if finished and not is_live else None,
+                    'isFinished': finished and not is_live,
+                    'isLive': is_live,
+                    'liveScore': score if is_live else None,
+                    'phase': round_name or phase_from_group_name(str((rnd.get('metaData') or {}).get('name') or '')),
+                }
+                matches.append(rec)
+            if len(chunk) < 100:
+                break
+            offset += 100
+    matches.sort(key=lambda m: m['dateTime'])
+    log(f"  ✅ {league} via UEFA: {len(matches)} Spiele (übersprungen {skipped})")
+    if matches:
+        sample = matches[0]
+        log(f"     erstes: {sample['homeTeam']} vs {sample['awayTeam']} | {sample['dateTime']}")
+        last = matches[-1]
+        log(f"     letztes: {last['homeTeam']} vs {last['awayTeam']} | {last['dateTime']}")
+    return matches
+
+
 def scrape_league(league: str) -> List[Dict]:
     """
     england/spain/CL/EL: OpenLigaDB.
@@ -575,6 +677,25 @@ def scrape_league(league: str) -> List[Dict]:
             'international': True,
         },
         'conferenceleague': {'uefa': True, 'international': True},
+        'nationsleague': {
+            'uefa_comp': ('2014', [get_display_season()], 'all'),
+        },
+        'friendlies': {
+            'livescore': ('international-friendlies', 'friendlies', 'Europe/Berlin'),
+            'locale': 'de',
+        },
+        'euro': {
+            'uefa_comp': ('3', ['2028', '2024'], 'tournament'),
+        },
+        'worldcup': {
+            'uefa_comp': ('17', ['2026'], 'tournament'),
+        },
+        'euroqualifying': {
+            'uefa_comp': ('3', ['2028', '2024'], 'qualifying'),
+        },
+        'worldcupqualifying': {
+            'uefa_comp': ('17', ['2026'], 'qualifying'),
+        },
     }
     cfg = configs[league]
     international = bool(cfg.get('international'))
@@ -582,7 +703,7 @@ def scrape_league(league: str) -> List[Dict]:
         return scrape_openligadb(league, cfg['oldb'], international)
     if 'livescore' in cfg:
         country, slug, tz_name = cfg['livescore']
-        matches = scrape_livescore(league, country, slug, tz_name)
+        matches = scrape_livescore(league, country, slug, tz_name, cfg.get('locale'))
         if matches:
             return matches
         csv_cfg = cfg.get('csv')
@@ -593,6 +714,9 @@ def scrape_league(league: str) -> List[Dict]:
         return []
     if cfg.get('uefa'):
         return scrape_uefa_conference(league)
+    if 'uefa_comp' in cfg:
+        competition_id, season_years, phase_mode = cfg['uefa_comp']
+        return scrape_uefa_competition(league, competition_id, season_years, phase_mode)
     return []
 
 
@@ -656,6 +780,8 @@ def main() -> None:
         "  OpenLigaDB JSON     — england (pl), spain (la1), championsleague (ucl), europaleague (uelYYYY)\n"
         "  Livescore JSON      — italy (serie-a), france (ligue-1)\n"
         "  UEFA Match API      — conferenceleague Ligaphase (competitionId 2019)\n"
+        "  UEFA Match API      — nationsleague (2014), euro/euroqualifying (3), worldcup/worldcupqualifying (17)\n"
+        "  Livescore JSON      — friendlies (international-friendlies/friendlies)\n"
         "  football-data.co.uk — Fallback für italy/france, nur bereits gespielte Partien\n"
         "  fussballdaten.de und Transfermarkt werden NICHT verwendet (403/202 auf Actions)\n"
     )
@@ -672,6 +798,12 @@ def main() -> None:
             'championsleague',
             'europaleague',
             'conferenceleague',
+            'nationsleague',
+            'friendlies',
+            'euro',
+            'worldcup',
+            'euroqualifying',
+            'worldcupqualifying',
         ]:
             try:
                 log(f"\n📊 Scrape {league}...")
