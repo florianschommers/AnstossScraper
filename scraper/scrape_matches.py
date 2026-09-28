@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
-Match-Scraper für Anstoss App
-Scrapt Match-Daten von fussballdaten.de und speichert sie als JSON.
+Match-Scraper für Anstoss App.
+
+Läuft unbeaufsichtigt auf GitHub Actions.
+fussballdaten.de blockt Runner per Cloudflare (403 Just a moment) —
+deshalb OpenLigaDB (JSON-API) und Transfermarkt (HTML ohne CF-Challenge).
 """
 
 import json
 import os
 import re
-import time
 import traceback
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 
 import requests
@@ -21,571 +23,358 @@ HEADERS = {
         'AppleWebKit/537.36 (KHTML, like Gecko) '
         'Chrome/120.0.0.0 Safari/537.36'
     ),
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept': 'application/json,text/html;q=0.9,*/*;q=0.8',
     'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
-    'Referer': 'https://www.fussballdaten.de/',
 }
 
-TEAM_MAPPINGS = {
-    'england': {
-        'manchester-city': 'Manchester City',
-        'mancity': 'Manchester City',
-        'man.city': 'Manchester City',
-        'arsenal': 'Arsenal',
-        'liverpool': 'Liverpool',
-        'chelsea': 'Chelsea',
-        'manchester-united': 'Manchester United',
-        'man.united': 'Manchester United',
-        'tottenham': 'Tottenham Hotspur',
-        'brighton': 'Brighton & Hove Albion',
-        'west-ham-united': 'West Ham United',
-        'westham': 'West Ham United',
-        'aston-villa': 'Aston Villa',
-        'crystal-palace': 'Crystal Palace',
-        'fulham': 'Fulham',
-        'wolves': 'Wolverhampton Wanderers',
-        'everton': 'Everton',
-        'brentford': 'Brentford',
-        'nottingham-forest': 'Nottingham Forest',
-        'luton-town': 'Luton Town',
-        'burnley': 'Burnley',
-        'sheffield-united': 'Sheffield United',
-        'ipswich-town': 'Ipswich Town',
-        'leicester-city': 'Leicester City',
-        'southampton': 'Southampton',
-        'leeds-united': 'Leeds United',
-        'leeds': 'Leeds United',
-        'norwich-city': 'Norwich City',
-        'watford': 'Watford',
-        'afc-bournemouth': 'AFC Bournemouth',
-        'bournemouth': 'AFC Bournemouth',
-    },
-    'spain': {},
-    'italy': {},
-    'france': {},
-}
-
-LEAGUE_PATHS = {
-    'england': 'england',
-    'spain': 'spanien',
-    'italy': 'italien',
-    'france': 'frankreich',
-    'bundesliga1': 'bundesliga',
-    'bundesliga2': '2liga',
-}
-
-INT_LEAGUE_PATHS = {
-    'championsleague': 'championsleague',
-    'europaleague': 'europaleague',
-    'conferenceleague': 'conferenceleague',
-}
-
-INT_PHASES = [
-    'gruppenphase',
-    'league-stage',
-    'play-offs',
-    'achtelfinale',
-    'viertelfinale',
-    'halbfinale',
-    'finale',
-]
-PHASES_WITH_MATCHDAYS = {'gruppenphase', 'league-stage'}
-
-TITLE_TEAMS_RE = re.compile(r'^\s*(.+?)\s+-\s+(.+?)\s+\|')
-TITLE_DATE_RE = re.compile(r'(\d{2})\.(\d{2})\.(\d{4})')
-TIME_RE = re.compile(r'^([01]?\d|2[0-3]):([0-5]\d)$')
 SCORE_RE = re.compile(r'^(\d{1,2}):(\d{1,2})$')
-MATCH_HREF_RE = re.compile(
-    r'^/[a-z0-9-]+/\d{4}/(?:[a-z0-9-]+/)*[a-z][a-z0-9.-]*-[a-z0-9.-]+/?$',
-    re.IGNORECASE,
-)
-LIVE_CLASSES = {'live', 'is-live', 'has-live'}
+SPIELTAG_RE = re.compile(r'(\d+)\.\s*Spieltag', re.I)
+DATE_RE = re.compile(r'(\d{2})\.(\d{2})\.(\d{2,4})')
+TIME_RE = re.compile(r'\b([01]?\d|2[0-3]):([0-5]\d)\b')
 
 
 def log(msg: str) -> None:
     print(msg, flush=True)
 
 
-def get_current_season() -> str:
-    """fussballdaten.de nutzt das Endjahr: 2027 = Saison 2026/27."""
+def get_openligadb_season() -> str:
+    """OpenLigaDB nutzt das Startjahr: 2026 = Saison 2026/27."""
     now = datetime.now()
     if now.month >= 7:
-        return str(now.year + 1)
-    return str(now.year)
+        return str(now.year)
+    return str(now.year - 1)
 
 
-def get_international_season() -> str:
-    return get_current_season()
+def get_display_season() -> str:
+    """Endjahr wie bisher in der JSON (2027 = 2026/27)."""
+    return str(int(get_openligadb_season()) + 1)
 
 
-def normalize_team_slug(slug: str, league: str) -> str:
-    slug_lower = slug.lower().strip()
-    if league in TEAM_MAPPINGS and slug_lower in TEAM_MAPPINGS[league]:
-        return TEAM_MAPPINGS[league][slug_lower]
-    return slug.replace('.', '-').replace('-', ' ').title()
-
-
-def parse_team_from_slug(slug: str, league: str) -> Tuple[str, str]:
-    parts = slug.split('-')
-    if len(parts) >= 2:
-        home_slug = parts[0]
-        away_slug = '-'.join(parts[1:])
-        return normalize_team_slug(home_slug, league), normalize_team_slug(away_slug, league)
-    return '', ''
-
-
-def make_soup(html: str) -> BeautifulSoup:
-    try:
-        return BeautifulSoup(html, 'lxml')
-    except Exception:
-        return BeautifulSoup(html, 'html.parser')
-
-
-def fetch_html(url: str) -> Optional[str]:
-    log(f"  🌐 GET {url}")
-    try:
-        time.sleep(0.2)
-        response = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
-        size = len(response.content or b'')
-        final = response.url if response.url != url else ''
-        extra = f" | redirect→ {final}" if final else ''
-        log(f"     HTTP {response.status_code} | {size} Bytes{extra}")
-
-        if response.status_code != 200:
-            snippet = re.sub(r'\s+', ' ', (response.text or '')[:180]).strip()
-            if snippet:
-                log(f"     Body: {snippet}")
-            return None
-
-        text = response.text or ''
-        if 'Not Found (#404)' in text:
-            log("     ⚠️ HTML ist eine 404-Seite (Status 200)")
-            return None
-        if len(text) < 1000:
-            log(f"     ⚠️ HTML zu kurz ({len(text)} Zeichen) — ignoriere Seite")
-            return None
-
-        title_m = re.search(r'<title>([^<]{0,160})</title>', text, re.IGNORECASE)
-        if title_m:
-            log(f"     <title> {title_m.group(1).strip()}")
-        return text
-    except Exception as e:
-        log(f"     ❌ Request-Fehler: {e}")
-        return None
-
-
-def parse_title_meta(title: str) -> Tuple[Optional[str], Optional[str], Optional[datetime]]:
-    """title='FC Arsenal - Coventry City | 21.08.2026 | Premier League | 1. Spieltag'"""
-    if not title:
-        return None, None, None
-    home = away = None
-    teams = TITLE_TEAMS_RE.match(title)
-    if teams:
-        home, away = teams.group(1).strip(), teams.group(2).strip()
-    date = None
-    dm = TITLE_DATE_RE.search(title)
-    if dm:
-        try:
-            date = datetime(int(dm.group(3)), int(dm.group(2)), int(dm.group(1)))
-        except ValueError:
-            date = None
-    return home, away, date
-
-
-def to_iso_z(dt: datetime) -> str:
-    """Naive lokale Anstoßzeit, mit Z-Suffix wie bisher für die App."""
-    if dt.tzinfo is not None:
-        return dt.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
-    return dt.replace(microsecond=0).isoformat() + 'Z'
-
-
-def class_list(el) -> List[str]:
-    if el is None:
-        return []
-    raw = el.get('class') or []
-    if isinstance(raw, str):
-        return raw.split()
-    return list(raw)
-
-
-def text_or_title(el) -> str:
-    if el is None:
-        return ''
-    return (el.get('title') or el.get_text(' ', strip=True) or '').strip()
-
-
-def score_from_v2_link(result_a) -> Optional[str]:
-    if result_a is None:
-        return None
-    home_el = result_a.select_one('.srv2-score-h')
-    away_el = result_a.select_one('.srv2-score-g')
-    if home_el and away_el:
-        hs, gs = home_el.get_text(strip=True), away_el.get_text(strip=True)
-        if hs.isdigit() and gs.isdigit():
-            return f'{hs}:{gs}'
-    joined = re.sub(r'\s+', '', result_a.get_text())
-    m = SCORE_RE.search(joined)
-    if m:
-        return m.group(0)
+def pick(d: dict, *keys):
+    for k in keys:
+        if isinstance(d, dict) and k in d and d[k] is not None:
+            return d[k]
     return None
 
 
-def first_span_text(anchor) -> str:
-    if anchor is None:
-        return ''
-    span = anchor.find('span')
-    if span:
-        return span.get_text(strip=True)
-    return anchor.get_text(strip=True)
+def to_iso_z(dt: datetime) -> str:
+    if dt.tzinfo is None:
+        return dt.replace(microsecond=0).isoformat() + 'Z'
+    return dt.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
 
 
-def classify_status(classes: List[str], score: Optional[str], time_str: Optional[str]) -> str:
-    lowered = {c.lower() for c in classes}
-    if lowered & LIVE_CLASSES:
-        return 'live'
-    if 'has-result' in lowered or ('ergebnis' in lowered and 'live' not in lowered):
-        return 'finished'
-    if 'is-upcoming' in lowered:
-        return 'upcoming'
-    if score and not time_str:
-        return 'finished'
-    if time_str:
-        return 'upcoming'
-    if score:
-        return 'finished'
-    return 'upcoming'
+def http_get(url: str, accept: str = 'application/json,text/html;q=0.9') -> Tuple[int, str, str]:
+    log(f"  🌐 GET {url}")
+    try:
+        headers = dict(HEADERS)
+        headers['Accept'] = accept
+        response = requests.get(url, headers=headers, timeout=45, allow_redirects=True)
+        body = response.text or ''
+        extra = f" | redirect→ {response.url}" if response.url != url else ''
+        log(f"     HTTP {response.status_code} | {len(response.content or b'')} Bytes{extra}")
+        if response.status_code != 200:
+            snippet = re.sub(r'\s+', ' ', body[:160]).strip()
+            if snippet:
+                log(f"     Body: {snippet}")
+        if 'Just a moment' in body or 'cf-chl' in body.lower():
+            log("     ⚠️ Cloudflare-Challenge — Quelle für GitHub-Runner unbrauchbar")
+        return response.status_code, body, response.url
+    except Exception as e:
+        log(f"     ❌ Request-Fehler: {e}")
+        return 0, '', url
 
 
-def diagnose_markers(soup: BeautifulSoup) -> Dict[str, int]:
-    counts = {
-        'spiel-row-v2': len(soup.select('div.spiel-row-v2')),
-        'spiele-row': len(soup.select('div.spiele-row')),
-        'a.srv2-ergebnis': len(soup.select('a.srv2-ergebnis')),
-        'a.ergebnis': len(soup.select('a.ergebnis')),
-        'a.srv2-ergebnis.has-result': len(soup.select('a.srv2-ergebnis.has-result')),
-        'a.srv2-ergebnis.is-upcoming': len(soup.select('a.srv2-ergebnis.is-upcoming')),
+def end_score_from_results(results) -> Optional[str]:
+    if not isinstance(results, list):
+        return None
+    end = None
+    for r in results:
+        kind = str(pick(r, 'resultTypeKind', 'ResultTypeKind') or '')
+        name = str(pick(r, 'resultName', 'ResultName') or '')
+        type_id = pick(r, 'resultTypeID', 'ResultTypeID')
+        if type_id == 2 or kind in ('After90Minutes', 'AfterExtraTime', 'AfterPenalties') or name in (
+            'Endergebnis',
+            'nach Verlängerung',
+            'n.V.',
+            'n.E.',
+        ):
+            end = r
+    if end is None and results:
+        end = results[-1]
+    if not end:
+        return None
+    p1 = pick(end, 'pointsTeam1', 'PointsTeam1')
+    p2 = pick(end, 'pointsTeam2', 'PointsTeam2')
+    if p1 is None or p2 is None:
+        return None
+    return f'{int(p1)}:{int(p2)}'
+
+
+def phase_from_group_name(name: str) -> str:
+    n = (name or '').lower()
+    if 'play' in n:
+        return 'play-offs'
+    if 'achtel' in n:
+        return 'achtelfinale'
+    if 'viertel' in n:
+        return 'viertelfinale'
+    if 'halb' in n:
+        return 'halbfinale'
+    if 'finale' in n:
+        return 'finale'
+    return 'gruppenphase'
+
+
+def convert_oldb_match(raw: dict, international: bool) -> Optional[Dict]:
+    team1 = pick(raw, 'team1', 'Team1') or {}
+    team2 = pick(raw, 'team2', 'Team2') or {}
+    if not isinstance(team1, dict) or not isinstance(team2, dict):
+        return None
+    home = pick(team1, 'teamName', 'TeamName') or ''
+    away = pick(team2, 'teamName', 'TeamName') or ''
+    if not home or not away:
+        return None
+
+    group = pick(raw, 'group', 'Group') or {}
+    matchday = pick(group, 'groupOrderID', 'GroupOrderID') or 1
+    try:
+        matchday = int(matchday)
+    except (TypeError, ValueError):
+        matchday = 1
+
+    finished = bool(pick(raw, 'matchIsFinished', 'MatchIsFinished'))
+    utc = pick(raw, 'matchDateTimeUTC', 'MatchDateTimeUTC')
+    local = pick(raw, 'matchDateTime', 'MatchDateTime')
+    date_time = utc or (f'{local}Z' if local and not str(local).endswith('Z') else local)
+    if not date_time:
+        return None
+    date_time = str(date_time).replace('+00:00', 'Z')
+    if date_time.endswith('Z') and '.' in date_time:
+        date_time = date_time.split('.')[0] + 'Z'
+
+    kickoff = None
+    try:
+        kickoff = datetime.fromisoformat(date_time.replace('Z', '+00:00'))
+    except ValueError:
+        pass
+
+    now = datetime.now(timezone.utc)
+    is_live = False
+    if kickoff and not finished:
+        is_live = kickoff <= now <= kickoff + timedelta(hours=3)
+
+    results = pick(raw, 'matchResults', 'MatchResults')
+    score = end_score_from_results(results) if finished else None
+    live_score = end_score_from_results(results) if is_live else None
+
+    rec = {
+        'matchday': matchday,
+        'homeTeam': home,
+        'awayTeam': away,
+        'dateTime': date_time,
+        'score': score,
+        'isFinished': finished,
+        'isLive': is_live,
+        'liveScore': live_score,
     }
-    log(
-        "     Marker: "
-        f"spiel-row-v2={counts['spiel-row-v2']} | "
-        f"spiele-row={counts['spiele-row']} | "
-        f"a.srv2-ergebnis={counts['a.srv2-ergebnis']} "
-        f"(has-result={counts['a.srv2-ergebnis.has-result']}, "
-        f"is-upcoming={counts['a.srv2-ergebnis.is-upcoming']}) | "
-        f"a.ergebnis={counts['a.ergebnis']}"
-    )
-    return counts
-
-
-def build_match(
-    *,
-    matchday: Optional[int],
-    home: str,
-    away: str,
-    status: str,
-    score: Optional[str],
-    match_date: Optional[datetime],
-    time_str: Optional[str],
-    phase: Optional[str],
-) -> Dict:
-    hour, minute = 15, 0
-    if time_str and TIME_RE.match(time_str):
-        hour, minute = map(int, time_str.split(':'))
-
-    if status == 'live':
-        date_time = to_iso_z(datetime.now(timezone.utc))
-        rec = {
-            'matchday': matchday,
-            'homeTeam': home,
-            'awayTeam': away,
-            'dateTime': date_time,
-            'score': None,
-            'isFinished': False,
-            'isLive': True,
-            'liveScore': score,
-        }
-    elif status == 'finished':
-        if match_date:
-            dt = match_date.replace(hour=hour, minute=minute)
-        else:
-            dt = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
-        rec = {
-            'matchday': matchday,
-            'homeTeam': home,
-            'awayTeam': away,
-            'dateTime': to_iso_z(dt),
-            'score': score,
-            'isFinished': True,
-            'isLive': False,
-            'liveScore': None,
-        }
-    else:
-        if match_date:
-            dt = match_date.replace(hour=hour, minute=minute)
-        else:
-            dt = datetime.now().replace(hour=hour, minute=minute, second=0, microsecond=0)
-        rec = {
-            'matchday': matchday,
-            'homeTeam': home,
-            'awayTeam': away,
-            'dateTime': to_iso_z(dt),
-            'score': None,
-            'isFinished': False,
-            'isLive': False,
-            'liveScore': None,
-        }
-    if phase:
-        rec['phase'] = phase
+    if international:
+        rec['phase'] = phase_from_group_name(str(pick(group, 'groupName', 'GroupName') or ''))
     return rec
 
 
-def parse_v2_matches(
-    soup: BeautifulSoup,
-    matchday: Optional[int],
-    league: str,
-    phase: Optional[str] = None,
-) -> List[Dict]:
-    rows = soup.select('div.spiel-row-v2')
-    log(
-        f"     Parser: spiel-row-v2 ({len(rows)} Zeilen) — "
-        "Spiel = <div class='spiel-row-v2'>; "
-        "Teams = a.srv2-team-name in .srv2-heim / .srv2-gast; "
-        "Status = Klassen auf a.srv2-ergebnis "
-        "(has-result=beendet, is-upcoming=zukünftig, live/is-live=live); "
-        "Ergebnis = span.srv2-score-h + ':' + span.srv2-score-g; "
-        "Datum = title '... | TT.MM.JJJJ | ...'; "
-        "Uhrzeit = span.srv2-zeit-time"
-    )
-    matches: List[Dict] = []
-    for i, row in enumerate(rows, 1):
-        heim = row.select_one('.srv2-heim a.srv2-team-name')
-        gast = row.select_one('.srv2-gast a.srv2-team-name')
-        result_a = row.select_one('a.srv2-ergebnis')
-        title = (result_a.get('title') if result_a else '') or ''
-        classes = class_list(result_a)
-        href = (result_a.get('href') if result_a else '') or ''
+def scrape_openligadb(league: str, shortcuts: List[str], international: bool) -> List[Dict]:
+    season = get_openligadb_season()
+    log(f"   Quelle: OpenLigaDB API | Saison-Startjahr {season}")
+    log("   Spiel = JSON-Objekt mit team1/team2; fertig = matchIsFinished; "
+        "Ergebnis = matchResults Endergebnis; Datum = matchDateTimeUTC")
 
-        home = text_or_title(heim)
-        away = text_or_title(gast)
-        title_home, title_away, match_date = parse_title_meta(title)
-        home = home or title_home or ''
-        away = away or title_away or ''
-        if (not home or not away) and href:
-            slug = href.rstrip('/').split('/')[-1]
-            slug_home, slug_away = parse_team_from_slug(slug, league)
-            home = home or slug_home
-            away = away or slug_away
-
-        score = score_from_v2_link(result_a)
-        time_el = row.select_one('.srv2-zeit-time')
-        time_str = time_el.get_text(strip=True) if time_el else None
-        if time_str and not TIME_RE.match(time_str):
-            time_str = None
-
-        if not home or not away:
-            log(
-                f"     ↷ Zeile {i}: kein Spiel — Teams fehlen "
-                f"(class={ ' '.join(classes)!r}, title={title[:90]!r}, href={href})"
-            )
+    for shortcut in shortcuts:
+        url = f'https://api.openligadb.de/getmatchdata/{shortcut}/{season}'
+        status, body, _final = http_get(url, accept='application/json')
+        if status != 200:
+            continue
+        try:
+            data = json.loads(body)
+        except json.JSONDecodeError:
+            log("     ⚠️ Antwort ist kein JSON")
+            continue
+        if not isinstance(data, list) or not data:
+            log(f"     Shortcut {shortcut}: 0 Spiele")
             continue
 
-        status = classify_status(classes, score, time_str)
-        rec = build_match(
-            matchday=matchday,
-            home=home,
-            away=away,
-            status=status,
-            score=score,
-            match_date=match_date,
-            time_str=time_str,
-            phase=phase,
-        )
-        label = {'live': 'LIVE', 'finished': 'BEENDET', 'upcoming': 'ZUKUNFT'}[status]
-        score_txt = score or time_str or '-'
-        log(
-            f"     ✓ {label}: {home} vs {away} | {rec['dateTime']} | {score_txt} | "
-            f"festgemacht an class='{' '.join(classes)}' + title-Datum | {href}"
-        )
-        matches.append(rec)
-    return matches
+        matches: List[Dict] = []
+        skipped = 0
+        for i, raw in enumerate(data, 1):
+            rec = convert_oldb_match(raw, international)
+            if rec is None:
+                skipped += 1
+                continue
+            status_lbl = 'LIVE' if rec['isLive'] else ('BEENDET' if rec['isFinished'] else 'ZUKUNFT')
+            score_txt = rec['liveScore'] or rec['score'] or '-'
+            if i <= 6 or i % 50 == 0:
+                log(
+                    f"     ✓ {status_lbl}: {rec['homeTeam']} vs {rec['awayTeam']} | "
+                    f"{rec['dateTime']} | {score_txt} | festgemacht an "
+                    f"matchIsFinished={rec['isFinished']} groupOrderID={rec['matchday']} | {shortcut}"
+                )
+            matches.append(rec)
+        log(f"  ✅ {league} via {shortcut}: {len(matches)} Spiele (übersprungen {skipped})")
+        return matches
 
-
-def parse_legacy_matches(
-    soup: BeautifulSoup,
-    matchday: Optional[int],
-    league: str,
-    phase: Optional[str] = None,
-) -> List[Dict]:
-    rows = soup.select('div.spiele-row')
-    log(
-        f"     Parser: spiele-row ({len(rows)} Zeilen) — "
-        "Spiel = <div class='spiele-row'>; "
-        "Begegnung = mittleres <a href='/{liga}/.../heim-gast/'>; "
-        "Teams = title 'Heim - Gast | TT.MM.JJJJ'; "
-        "LIVE = class enthält 'live'; "
-        "BEENDET = class enthält 'ergebnis' und Span '1:0'; "
-        "ZUKUNFT = Span '18:45' ohne ergebnis-Klasse"
-    )
-    matches: List[Dict] = []
-    for i, row in enumerate(rows, 1):
-        result_a = None
-        for anchor in row.find_all('a', href=True):
-            href = anchor.get('href') or ''
-            if MATCH_HREF_RE.match(href):
-                result_a = anchor
-                break
-        if result_a is None:
-            log(f"     ↷ Zeile {i}: kein Spiel-Link (href mit heim-gast)")
-            continue
-
-        href = result_a.get('href') or ''
-        title = result_a.get('title') or ''
-        classes = class_list(result_a)
-        home, away, match_date = parse_title_meta(title)
-        if not home or not away:
-            slug = href.rstrip('/').split('/')[-1]
-            home, away = parse_team_from_slug(slug, league)
-
-        span_txt = first_span_text(result_a)
-        score = span_txt if SCORE_RE.match(span_txt or '') else None
-        time_str = span_txt if TIME_RE.match(span_txt or '') else None
-        # 3:0 ist Score; 18:45 ist Uhrzeit. SCORE_RE matched beides (18:45 → 18 und 45).
-        if score and TIME_RE.match(score):
-            hour = int(score.split(':')[0])
-            if hour >= 10:
-                time_str = score
-                score = None
-
-        if not home or not away:
-            log(
-                f"     ↷ Zeile {i}: Teams fehlen "
-                f"(class={' '.join(classes)!r}, title={title[:90]!r}, href={href})"
-            )
-            continue
-
-        status = classify_status(classes, score, time_str)
-        rec = build_match(
-            matchday=matchday,
-            home=home,
-            away=away,
-            status=status,
-            score=score,
-            match_date=match_date,
-            time_str=time_str,
-            phase=phase,
-        )
-        label = {'live': 'LIVE', 'finished': 'BEENDET', 'upcoming': 'ZUKUNFT'}[status]
-        score_txt = score or time_str or '-'
-        log(
-            f"     ✓ {label}: {home} vs {away} | {rec['dateTime']} | {score_txt} | "
-            f"festgemacht an class='{' '.join(classes)}' + title-Datum | {href}"
-        )
-        matches.append(rec)
-    return matches
-
-
-def parse_matches_html(
-    html: str,
-    matchday: Optional[int],
-    league: str,
-    phase: Optional[str] = None,
-) -> List[Dict]:
-    soup = make_soup(html)
-    counts = diagnose_markers(soup)
-    if counts['spiel-row-v2'] > 0:
-        return parse_v2_matches(soup, matchday, league, phase)
-    if counts['spiele-row'] > 0:
-        return parse_legacy_matches(soup, matchday, league, phase)
-    log(
-        "     ⚠️ Keine bekannten Spiel-Marker. "
-        "Erwartet: div.spiel-row-v2 (Ligen neu) oder div.spiele-row (CL/EL alt)."
-    )
+    log(f"  ⛔ Kein OpenLigaDB-Shortcut lieferte Spiele für {league}: {shortcuts}")
     return []
 
 
-def scrape_domestic_league(league: str, season: str, max_matchday: int = 38) -> List[Dict]:
-    league_path = LEAGUE_PATHS.get(league, league)
-    all_matches: List[Dict] = []
-    consecutive_empty = 0
-    max_consecutive_empty = 3
+def parse_tm_datetime(row, last_dt: Optional[datetime]) -> Optional[datetime]:
+    """Datum steht oft nur in der ersten Zeile eines Tages, Uhrzeit nur bei Wechsel."""
+    cells = row.find_all('td')
+    date_txt = cells[0].get_text(' ', strip=True) if cells else ''
+    time_txt = cells[1].get_text(' ', strip=True) if len(cells) > 1 else ''
+    dm = DATE_RE.search(date_txt)
+    tm = TIME_RE.search(time_txt)
 
-    log(f"   Liga-Pfad: /{league_path}/{season}/{{spieltag}}/")
-    log("   Spielerkennung: siehe Marker + ✓-Zeilen je Spieltag")
+    year = month = day = None
+    hour, minute = 15, 0
+    if last_dt:
+        year, month, day = last_dt.year, last_dt.month, last_dt.day
+        hour, minute = last_dt.hour, last_dt.minute
 
-    for matchday in range(1, max_matchday + 1):
-        url = f"https://www.fussballdaten.de/{league_path}/{season}/{matchday}/"
-        log(f"\n  📅 Spieltag {matchday}")
-        html = fetch_html(url)
-        if not html:
-            consecutive_empty += 1
-            log(
-                f"     leer ({consecutive_empty}/{max_consecutive_empty}) — "
-                "kein HTML, Parser läuft nicht"
-            )
-            if consecutive_empty >= max_consecutive_empty:
-                log(f"  ⛔ {max_consecutive_empty} leere Seiten hintereinander — stoppe")
-                break
+    if dm:
+        day, month, year = int(dm.group(1)), int(dm.group(2)), int(dm.group(3))
+        if year < 100:
+            year += 2000
+    if tm:
+        hour, minute = int(tm.group(1)), int(tm.group(2))
+    if day is None or month is None or year is None:
+        return None
+    try:
+        return datetime(year, month, day, hour, minute)
+    except ValueError:
+        return None
+
+
+def parse_transfermarkt_html(html: str, international: bool) -> List[Dict]:
+    soup = BeautifulSoup(html, 'lxml')
+    matches: List[Dict] = []
+    current_matchday = 1
+    current_phase = 'gruppenphase' if international else None
+    last_dt: Optional[datetime] = None
+    seen = set()
+
+    for el in soup.select('.content-box-headline, table tr'):
+        if el.name in ('div', 'h2') or 'content-box-headline' in (el.get('class') or []):
+            headline = el.get_text(' ', strip=True)
+            sm = SPIELTAG_RE.search(headline)
+            if sm:
+                current_matchday = int(sm.group(1))
+            if international:
+                current_phase = phase_from_group_name(headline)
+            continue
+        if el.name != 'tr':
             continue
 
-        consecutive_empty = 0
-        matches = parse_matches_html(html, matchday, league)
-        all_matches.extend(matches)
-        log(f"  ✅ Spieltag {matchday}: {len(matches)} Spiele gefunden")
+        report = el.select_one('a[href*="spielbericht"]')
+        if report is None:
+            continue
 
-    return all_matches
+        team_links = [
+            a for a in el.select('td.hauptlink a[title]')
+            if 'spielbericht' not in (a.get('href') or '')
+        ]
+        home = away = ''
+        if len(team_links) >= 2:
+            home = (team_links[0].get('title') or team_links[0].get_text(strip=True)).strip()
+            away = (team_links[-1].get('title') or team_links[-1].get_text(strip=True)).strip()
+        if not home or not away:
+            continue
+
+        raw_score = report.get_text(strip=True).replace('\xa0', '')
+        score = raw_score if SCORE_RE.match(raw_score) else None
+        dt = parse_tm_datetime(el, last_dt)
+        if dt is None:
+            continue
+        last_dt = dt
+        date_time = to_iso_z(dt)
+
+        key = (home, away, date_time, current_matchday)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        now = datetime.now(timezone.utc)
+        kickoff = dt.replace(tzinfo=timezone.utc)
+        finished = score is not None
+        is_live = (not finished) and kickoff <= now <= kickoff + timedelta(hours=3)
+
+        rec = {
+            'matchday': current_matchday,
+            'homeTeam': home,
+            'awayTeam': away,
+            'dateTime': date_time,
+            'score': score if finished and not is_live else None,
+            'isFinished': finished and not is_live,
+            'isLive': is_live,
+            'liveScore': score if is_live else None,
+        }
+        if international:
+            rec['phase'] = current_phase or 'gruppenphase'
+        matches.append(rec)
+
+        status_lbl = 'LIVE' if rec['isLive'] else ('BEENDET' if rec['isFinished'] else 'ZUKUNFT')
+        n = len(matches)
+        if n <= 6 or n % 50 == 0:
+            log(
+                f"     ✓ {status_lbl}: {home} vs {away} | {date_time} | {raw_score} | "
+                f"festgemacht an Transfermarkt-Zeile Spieltag {current_matchday} + "
+                f"a[href*=spielbericht] | {report.get('href')}"
+            )
+    return matches
 
 
-def scrape_england_matches(season: str) -> List[Dict]:
-    return scrape_domestic_league('england', season)
+def scrape_transfermarkt(league: str, kind: str, code: str, international: bool) -> List[Dict]:
+    season = get_openligadb_season()
+    url = (
+        f'https://www.transfermarkt.de/{league}/gesamtspielplan/'
+        f'{kind}/{code}/saison_id/{season}'
+    )
+    log(f"   Quelle: Transfermarkt Gesamtspielplan | saison_id={season}")
+    log("   Spiel = Tabellenzeile mit a[href*=spielbericht]; Teams = a[title] in td.hauptlink; "
+        "Ergebnis = Linktext 4:1 bzw. -:- ; Datum/Uhrzeit in den ersten TDs; "
+        "Spieltag = vorherige Überschrift 'n. Spieltag'")
+
+    status, body, final = http_get(url, accept='text/html')
+    if status != 200 or not body or 'Just a moment' in body:
+        log(f"  ⛔ Transfermarkt lieferte keine Seite für {league}")
+        return []
+    if 'Nicht gefunden' in body or 'Page not found' in body:
+        log("  ⛔ Transfermarkt 404")
+        return []
+
+    matches = parse_transfermarkt_html(body, international)
+    log(f"  ✅ {league} via Transfermarkt: {len(matches)} Spiele")
+    return matches
 
 
-def scrape_league_matches(league: str, season: str) -> List[Dict]:
-    return scrape_domestic_league(league, season)
-
-
-def scrape_international_matches(league: str, season: str) -> List[Dict]:
-    all_matches: List[Dict] = []
-    league_path = INT_LEAGUE_PATHS.get(league)
-    if not league_path:
-        return all_matches
-
-    log(f"   Liga-Pfad: /{league_path}/{season}/{{phase}}/{{spieltag}}/")
-
-    for phase in INT_PHASES:
-        has_matchdays = phase in PHASES_WITH_MATCHDAYS
-        log(f"\n  📂 Phase {phase} ({'Spieltage' if has_matchdays else 'K.O.-Runde'})")
-
-        if has_matchdays:
-            consecutive_empty = 0
-            for matchday in range(1, 21):
-                url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/{matchday}/"
-                log(f"\n    📅 {phase} Spieltag {matchday}")
-                html = fetch_html(url)
-                if not html:
-                    consecutive_empty += 1
-                    log("     leer — kein HTML")
-                    if matchday == 1:
-                        log(f"  ⛔ {phase} Spieltag 1 fehlt — Phase übersprungen")
-                        break
-                    if consecutive_empty >= 3:
-                        log(f"  ⛔ 3 leere Spieltage — stoppe Phase {phase}")
-                        break
-                    continue
-                consecutive_empty = 0
-                matches = parse_matches_html(html, matchday, league, phase)
-                all_matches.extend(matches)
-                log(f"  ✅ {league} {phase} Spieltag {matchday}: {len(matches)} Spiele")
-        else:
-            url = f"https://www.fussballdaten.de/{league_path}/{season}/{phase}/"
-            html = fetch_html(url)
-            if not html:
-                log(f"     {phase} nicht vorhanden")
-                continue
-            matches = parse_matches_html(html, None, league, phase)
-            all_matches.extend(matches)
-            log(f"  ✅ {league} {phase}: {len(matches)} Spiele")
-
-    return all_matches
+def scrape_league(league: str) -> List[Dict]:
+    """
+    england/spain/CL/EL: OpenLigaDB (läuft auf GitHub).
+    italy/france/ECL: Transfermarkt (kein Cloudflare-JS).
+    """
+    configs = {
+        'england': {'oldb': ['pl', 'epl', 'pl1']},
+        'spain': {'oldb': ['la1']},
+        'italy': {'tm': ('wettbewerb', 'IT1')},
+        'france': {'tm': ('wettbewerb', 'FR1')},
+        'championsleague': {'oldb': ['ucl', f"ucl{get_openligadb_season()}"], 'international': True},
+        'europaleague': {'oldb': [f"uel{get_openligadb_season()}", 'uel'], 'international': True},
+        'conferenceleague': {'tm': ('pokalwettbewerb', 'UCOL'), 'international': True},
+    }
+    cfg = configs[league]
+    international = bool(cfg.get('international'))
+    if 'oldb' in cfg:
+        return scrape_openligadb(league, cfg['oldb'], international)
+    kind, code = cfg['tm']
+    return scrape_transfermarkt(league, kind, code, international)
 
 
 def save_matches_json(league: str, season: str, matches: List[Dict], output_dir: str = 'data/matches'):
@@ -595,6 +384,7 @@ def save_matches_json(league: str, season: str, matches: List[Dict], output_dir:
         'season': season,
         'lastUpdated': datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z'),
         'matches': matches,
+        'source': 'openligadb-or-transfermarkt',
     }
     filename = f"{output_dir}/matches_{league}.json"
     with open(filename, 'w', encoding='utf-8') as f:
@@ -611,9 +401,10 @@ def save_matches_json_array(league: str, season: str, matches: List[Dict], outpu
 
 
 def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
+    """Rohdaten OpenLigaDB (Original-Format), für andere Uploader."""
     all_matches: List[Dict] = []
     try:
-        api_url = f"https://api.openligadb.de/getmatchdata/{league_shortcut}/{season}"
+        api_url = f'https://api.openligadb.de/getmatchdata/{league_shortcut}/{season}'
         log(f"🔍 Lade von OpenLigaDB API: {api_url}")
         response = requests.get(api_url, headers=HEADERS, timeout=30)
         if response.status_code != 200:
@@ -624,132 +415,52 @@ def fetch_openligadb_matches(league_shortcut: str, season: str) -> List[Dict]:
             log("⚠️ Unerwartetes Datenformat von API")
             return all_matches
         for match_data in data:
-            team1 = match_data.get('Team1', {})
-            team2 = match_data.get('Team2', {})
+            team1 = pick(match_data, 'team1', 'Team1') or {}
+            team2 = pick(match_data, 'team2', 'Team2') or {}
             if not isinstance(team1, dict) or not isinstance(team2, dict):
                 continue
-            if not team1.get('TeamName') or not team2.get('TeamName'):
+            if not pick(team1, 'teamName', 'TeamName') or not pick(team2, 'teamName', 'TeamName'):
                 continue
             all_matches.append(match_data)
         log(f"✅ {len(all_matches)} Matches von OpenLigaDB API geladen (Original-Format)")
-        if all_matches:
-            first_match = all_matches[0]
-            team1_name = first_match.get('Team1', {}).get('TeamName', '')
-            team2_name = first_match.get('Team2', {}).get('TeamName', '')
-            match_date = first_match.get('MatchDateTime', '')
-            log(f"   📝 Beispiel: {team1_name} vs {team2_name} am {match_date}")
     except Exception as e:
         log(f"❌ Fehler beim Laden von OpenLigaDB API: {e}")
         traceback.print_exc()
     return all_matches
 
 
-def scrape_dfbpokal_matches(season: str) -> List[Dict]:
-    all_matches: List[Dict] = []
-    league_path = 'dfb-pokal'
-    rounds = ['1-runde', '2-runde', 'achtelfinale', 'viertelfinale', 'halbfinale', 'finale']
-    for round_name in rounds:
-        url = f"https://www.fussballdaten.de/{league_path}/{season}/{round_name}/"
-        log(f"🔍 Versuche DFB-Pokal: {url}")
-        html = fetch_html(url)
-        if not html:
-            log(f"⚠️ Keine Daten für {round_name}")
-            continue
-        matches = parse_matches_html(html, 1, league_path)
-        all_matches.extend(matches)
-        log(f"✅ DFB-Pokal {round_name}: {len(matches)} Spiele gefunden")
-    if not all_matches:
-        log("⚠️ Keine DFB-Pokal-Spiele gefunden.")
-    return all_matches
-
-
-def print_parser_legend() -> None:
-    log(
-        "\n🔎 So erkennt der Parser ein Spiel:\n"
-        "  NEU (Premier League, La Liga, …):\n"
-        "    • Zeile:     <div class=\"spiel-row-v2\">\n"
-        "    • Heim/Gast: a.srv2-team-name in .srv2-heim / .srv2-gast\n"
-        "    • Status:    a.srv2-ergebnis.has-result | .is-upcoming | .live\n"
-        "    • Ergebnis:  span.srv2-score-h  +  span.srv2-score-g  (nicht mehr '3:0' in einem Span)\n"
-        "    • Datum:     title=\"Heim - Gast | TT.MM.JJJJ | Liga | n. Spieltag\"\n"
-        "    • Uhrzeit:   span.srv2-zeit-time\n"
-        "  ALT (Champions League u. a.):\n"
-        "    • Zeile:     <div class=\"spiele-row\">\n"
-        "    • Link:      <a class=\"ergebnis\" href=\"/{liga}/…/heim-gast/\">\n"
-        "    • LIVE:      class enthält 'live'\n"
-        "    • Beendet:   class='ergebnis' + Span 1:0\n"
-        "    • Zukunft:   leere class + Span 18:45\n"
-        "    • Datum:     title=\"Heim - Gast | TT.MM.JJJJ | …\"\n"
-    )
-
-
 def main() -> None:
     errors: List[str] = []
     log("🚀 Starte Match-Scraping...")
-    print_parser_legend()
+    log(
+        "\n🔎 Quellen (GitHub-tauglich, ohne deinen PC):\n"
+        "  OpenLigaDB JSON  — england (pl), spain (la1), championsleague (ucl), europaleague (uelYYYY)\n"
+        "  Transfermarkt    — italy (IT1), france (FR1), conferenceleague (UCOL)\n"
+        "  fussballdaten.de wird NICHT mehr verwendet (Cloudflare 403 auf Actions-Runnern)\n"
+    )
+    season = get_display_season()
+    oldb_season = get_openligadb_season()
+    log(f"📆 Saison {oldb_season}/{season} (OpenLigaDB-Jahr {oldb_season})")
 
     try:
-        season = get_current_season()
-        log(f"📆 Saison-URL-Jahr: {season} (fussballdaten: Saison {int(season)-1}/{season})")
-
-        try:
-            log("\n📊 Scrape England...")
-            england_matches = scrape_england_matches(season)
-            save_matches_json('england', season, england_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei England: {e}"
-            log(f"❌ {error_msg}")
-            traceback.print_exc()
-            errors.append(error_msg)
-
-        try:
-            log("\n📊 Scrape Spain...")
-            spain_matches = scrape_league_matches('spain', season)
-            save_matches_json('spain', season, spain_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei Spain: {e}"
-            log(f"❌ {error_msg}")
-            traceback.print_exc()
-            errors.append(error_msg)
-
-        try:
-            log("\n📊 Scrape Italy...")
-            italy_matches = scrape_league_matches('italy', season)
-            save_matches_json('italy', season, italy_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei Italy: {e}"
-            log(f"❌ {error_msg}")
-            traceback.print_exc()
-            errors.append(error_msg)
-
-        try:
-            log("\n📊 Scrape France...")
-            france_matches = scrape_league_matches('france', season)
-            save_matches_json('france', season, france_matches)
-        except Exception as e:
-            error_msg = f"Fehler bei France: {e}"
-            log(f"❌ {error_msg}")
-            traceback.print_exc()
-            errors.append(error_msg)
-
-        try:
-            int_season = get_international_season()
-            log(f"\n📊 Scrape International (Saison {int_season})...")
-            for league in ['championsleague', 'europaleague', 'conferenceleague']:
-                try:
-                    log(f"\n  📊 Scrape {league}...")
-                    int_matches = scrape_international_matches(league, int_season)
-                    save_matches_json(league, int_season, int_matches)
-                except Exception as e:
-                    error_msg = f"Fehler bei {league}: {e}"
-                    log(f"❌ {error_msg}")
-                    traceback.print_exc()
-                    errors.append(error_msg)
-        except Exception as e:
-            error_msg = f"Fehler bei International: {e}"
-            log(f"❌ {error_msg}")
-            traceback.print_exc()
-            errors.append(error_msg)
+        for league in [
+            'england',
+            'spain',
+            'italy',
+            'france',
+            'championsleague',
+            'europaleague',
+            'conferenceleague',
+        ]:
+            try:
+                log(f"\n📊 Scrape {league}...")
+                matches = scrape_league(league)
+                save_matches_json(league, season, matches)
+            except Exception as e:
+                error_msg = f"Fehler bei {league}: {e}"
+                log(f"❌ {error_msg}")
+                traceback.print_exc()
+                errors.append(error_msg)
 
         if errors:
             log(f"\n⚠️ Scraping abgeschlossen mit {len(errors)} Fehler(n):")
