@@ -56,12 +56,19 @@ LIVESCORE_LEAGUES = {
     'spain': ('spain', 'laliga', 'Europe/Madrid'),
     'italy': ('italy', 'serie-a', 'Europe/Rome'),
     'france': ('france', 'ligue-1', 'Europe/Paris'),
+    'friendlies': ('international-friendlies', 'friendlies', 'Europe/Berlin', 'de'),
 }
 
+# id, Saisonjahre (None = Anzeige-Saison), phase: tournament | qualifying | all
 UEFA_LEAGUES = {
-    'championsleague': '1',
-    'europaleague': '14',
-    'conferenceleague': '2019',
+    'championsleague': ('1', None, 'tournament'),
+    'europaleague': ('14', None, 'tournament'),
+    'conferenceleague': ('2019', None, 'tournament'),
+    'nationsleague': ('2014', None, 'all'),
+    'euro': ('3', ('2028', '2024'), 'tournament'),
+    'euroqualifying': ('3', ('2028', '2024'), 'qualifying'),
+    'worldcup': ('17', ('2026',), 'tournament'),
+    'worldcupqualifying': ('17', ('2026',), 'qualifying'),
 }
 
 
@@ -295,8 +302,10 @@ def livescore_players(side: dict) -> List[Dict[str, str]]:
     return out[:11]
 
 
-def fetch_livescore_events(country: str, slug: str, zone_name: str) -> List[Dict]:
+def fetch_livescore_events(country: str, slug: str, zone_name: str, locale: Optional[str] = None) -> List[Dict]:
     url = f'https://prod-cdn-public-api.livescore.com/v1/api/app/stage/soccer/{country}/{slug}/1'
+    if locale:
+        url += f'?locale={locale}'
     status, body = http_get(url)
     if status != 200:
         return []
@@ -381,7 +390,8 @@ def uefa_player(entry: dict) -> Optional[Dict[str, str]]:
     return {'name': name, 'position': pos}
 
 
-def fetch_uefa_window(competition_id: str, season_year: str, now: datetime, ahead: timedelta, back: timedelta) -> List[Dict]:
+def fetch_uefa_window(competition_id: str, season_year: str, now: datetime, ahead: timedelta, back: timedelta,
+                       phase_mode: str = 'tournament') -> List[Dict]:
     found = []
     offset = 0
     while offset < 500:
@@ -400,7 +410,10 @@ def fetch_uefa_window(competition_id: str, season_year: str, now: datetime, ahea
             break
         for raw in chunk:
             rnd = raw.get('round') or {}
-            if str(rnd.get('phase') or '').upper() == 'QUALIFYING':
+            phase = str(rnd.get('phase') or '').upper()
+            if phase_mode == 'tournament' and phase == 'QUALIFYING':
+                continue
+            if phase_mode == 'qualifying' and phase != 'QUALIFYING':
                 continue
             kick = parse_iso_utc((raw.get('kickOffTime') or {}).get('dateTime') or '')
             if kick is None or not in_window(kick, now, ahead, back):
@@ -448,11 +461,11 @@ def fetch_uefa_lineup(match_id: str) -> Optional[Tuple[List[Dict[str, str]], Lis
 
 
 def scrape_livescore_league(league: str, country: str, slug: str, zone: str,
-                            window_matches: List[Dict], store: Dict) -> int:
+                            window_matches: List[Dict], store: Dict, locale: Optional[str] = None) -> int:
     if not window_matches:
         log("  ⏭️ Keine Spiele im Zeitfenster")
         return 0
-    events = fetch_livescore_events(country, slug, zone)
+    events = fetch_livescore_events(country, slug, zone, locale)
     log(f"  Livescore {country}/{slug}: {len(events)} Events in der Saison")
     added = 0
     for match in window_matches:
@@ -480,13 +493,18 @@ def scrape_livescore_league(league: str, country: str, slug: str, zone: str,
 
 
 def scrape_uefa_league(league: str, competition_id: str, window_matches: List[Dict], store: Dict,
-                       now: datetime, ahead: timedelta, back: timedelta) -> int:
+                       now: datetime, ahead: timedelta, back: timedelta,
+                       season_years: Optional[Tuple[str, ...]] = None,
+                       phase_mode: str = 'tournament') -> int:
     if not window_matches:
         log("  ⏭️ Keine Spiele im Zeitfenster")
         return 0
-    season_year = get_display_season()
-    uefa_matches = fetch_uefa_window(competition_id, season_year, now, ahead, back)
-    log(f"  UEFA competition {competition_id}: {len(uefa_matches)} Spiele im Fenster")
+    years = list(season_years) if season_years else [get_display_season()]
+    uefa_matches: List[Dict] = []
+    for season_year in years:
+        found = fetch_uefa_window(competition_id, season_year, now, ahead, back, phase_mode)
+        log(f"  UEFA competition {competition_id} Saison {season_year}: {len(found)} Spiele im Fenster")
+        uefa_matches.extend(found)
     added = 0
     for match in window_matches:
         best = None
@@ -556,6 +574,8 @@ def main() -> None:
         'bundesliga', '2bundesliga', 'dfbpokal',
         'england', 'spain', 'italy', 'france',
         'championsleague', 'europaleague', 'conferenceleague',
+        'nationsleague', 'friendlies', 'euro', 'worldcup',
+        'euroqualifying', 'worldcupqualifying',
     ]
     total_new = 0
     for league in order:
@@ -566,11 +586,15 @@ def main() -> None:
         store = load_existing_lineups(league, season)
         before = json.dumps(store.get('lineups'), ensure_ascii=False, sort_keys=True)
         if league in LIVESCORE_LEAGUES:
-            country, slug, zone = LIVESCORE_LEAGUES[league]
-            added = scrape_livescore_league(league, country, slug, zone, window, store)
+            entry = LIVESCORE_LEAGUES[league]
+            country, slug, zone = entry[0], entry[1], entry[2]
+            locale = entry[3] if len(entry) > 3 else None
+            added = scrape_livescore_league(league, country, slug, zone, window, store, locale)
         else:
+            competition_id, season_years, phase_mode = UEFA_LEAGUES[league]
             added = scrape_uefa_league(
-                league, UEFA_LEAGUES[league], window, store, now, ahead, back
+                league, competition_id, window, store, now, ahead, back,
+                season_years, phase_mode,
             )
         after = json.dumps(store.get('lineups'), ensure_ascii=False, sort_keys=True)
         if added or before != after:
