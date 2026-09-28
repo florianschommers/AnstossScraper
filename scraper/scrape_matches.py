@@ -2,11 +2,12 @@
 """
 Match-Scraper für Anstoss App.
 
-Läuft unbeaufsichtigt auf GitHub Actions.
-fussballdaten.de blockt Runner per Cloudflare (403 Just a moment) —
-deshalb OpenLigaDB (JSON-API) und Transfermarkt (HTML ohne CF-Challenge).
+Läuft unbeaufsichtigt auf GitHub Actions (kein eigener PC).
+Quellen, die von Runner-IPs JSON liefern — kein Cloudflare/Akamai-HTML.
 """
 
+import csv
+import io
 import json
 import os
 import re
@@ -15,22 +16,21 @@ from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 
 import requests
-from bs4 import BeautifulSoup
 
 HEADERS = {
     'User-Agent': (
-        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-        'AppleWebKit/537.36 (KHTML, like Gecko) '
-        'Chrome/120.0.0.0 Safari/537.36'
+        'AnstossScraper/1.0 (+https://github.com/florianschommers/AnstossScraper) '
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
+        '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     ),
-    'Accept': 'application/json,text/html;q=0.9,*/*;q=0.8',
+    'Accept': 'application/json,text/plain;q=0.9,*/*;q=0.8',
     'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
 }
 
-SCORE_RE = re.compile(r'^(\d{1,2}):(\d{1,2})$')
-SPIELTAG_RE = re.compile(r'(\d+)\.\s*Spieltag', re.I)
-DATE_RE = re.compile(r'(\d{2})\.(\d{2})\.(\d{2,4})')
-TIME_RE = re.compile(r'\b([01]?\d|2[0-3]):([0-5]\d)\b')
+FINISHED_EPS = {
+    'FT', 'AET', 'FT_PEN', 'AP', 'AWARDED', 'AFTER ET', 'PEN', 'WO', 'AOT',
+}
+UPCOMING_EPS = {'NS', 'POSTP', 'POSTPONED', 'CANC', 'ABD', 'SUSP', 'INT', 'TBD'}
 
 
 def log(msg: str) -> None:
@@ -63,6 +63,17 @@ def to_iso_z(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
 
 
+def europe_naive_to_utc(dt_naive: datetime, zone_name: str) -> datetime:
+    """Lokale Anstoßzeit (IT/FR) nach UTC. Fallback ohne tzdata: CET/CEST grob."""
+    try:
+        from zoneinfo import ZoneInfo
+        return dt_naive.replace(tzinfo=ZoneInfo(zone_name)).astimezone(timezone.utc)
+    except Exception:
+        month = dt_naive.month
+        offset = 2 if 3 < month < 11 else 1
+        return (dt_naive - timedelta(hours=offset)).replace(tzinfo=timezone.utc)
+
+
 def http_get(url: str, accept: str = 'application/json,text/html;q=0.9') -> Tuple[int, str, str]:
     log(f"  🌐 GET {url}")
     try:
@@ -72,12 +83,14 @@ def http_get(url: str, accept: str = 'application/json,text/html;q=0.9') -> Tupl
         body = response.text or ''
         extra = f" | redirect→ {response.url}" if response.url != url else ''
         log(f"     HTTP {response.status_code} | {len(response.content or b'')} Bytes{extra}")
-        if response.status_code != 200:
+        if response.status_code not in (200, 201):
             snippet = re.sub(r'\s+', ' ', body[:160]).strip()
             if snippet:
                 log(f"     Body: {snippet}")
         if 'Just a moment' in body or 'cf-chl' in body.lower():
             log("     ⚠️ Cloudflare-Challenge — Quelle für GitHub-Runner unbrauchbar")
+        if response.status_code == 202 and len(response.content or b'') < 5000:
+            log("     ⚠️ HTTP 202 mit Mini-Seite — Bot-Schutz, Quelle überspringen")
         return response.status_code, body, response.url
     except Exception as e:
         log(f"     ❌ Request-Fehler: {e}")
@@ -114,13 +127,13 @@ def phase_from_group_name(name: str) -> str:
     n = (name or '').lower()
     if 'play' in n:
         return 'play-offs'
-    if 'achtel' in n:
+    if 'achtel' in n or 'round of 16' in n or 'r16' in n:
         return 'achtelfinale'
-    if 'viertel' in n:
+    if 'viertel' in n or 'quarter' in n:
         return 'viertelfinale'
-    if 'halb' in n:
+    if 'halb' in n or 'semi' in n:
         return 'halbfinale'
-    if 'finale' in n:
+    if 'finale' in n or n.strip() == 'final':
         return 'finale'
     return 'gruppenphase'
 
@@ -225,89 +238,108 @@ def scrape_openligadb(league: str, shortcuts: List[str], international: bool) ->
     return []
 
 
-def parse_tm_datetime(row, last_dt: Optional[datetime]) -> Optional[datetime]:
-    """Datum steht oft nur in der ersten Zeile eines Tages, Uhrzeit nur bei Wechsel."""
-    cells = row.find_all('td')
-    date_txt = cells[0].get_text(' ', strip=True) if cells else ''
-    time_txt = cells[1].get_text(' ', strip=True) if len(cells) > 1 else ''
-    dm = DATE_RE.search(date_txt)
-    tm = TIME_RE.search(time_txt)
+def livescore_team_name(side) -> str:
+    if isinstance(side, list) and side:
+        side = side[0]
+    if not isinstance(side, dict):
+        return ''
+    return str(side.get('Nm') or '').strip()
 
-    year = month = day = None
-    hour, minute = 15, 0
-    if last_dt:
-        year, month, day = last_dt.year, last_dt.month, last_dt.day
-        hour, minute = last_dt.hour, last_dt.minute
 
-    if dm:
-        day, month, year = int(dm.group(1)), int(dm.group(2)), int(dm.group(3))
-        if year < 100:
-            year += 2000
-    if tm:
-        hour, minute = int(tm.group(1)), int(tm.group(2))
-    if day is None or month is None or year is None:
+def parse_livescore_esd(esd) -> Optional[datetime]:
+    raw = str(esd or '').split('.')[0]
+    digits = re.sub(r'\D', '', raw)
+    if len(digits) < 12:
         return None
+    digits = digits[:14].ljust(14, '0')
     try:
-        return datetime(year, month, day, hour, minute)
+        return datetime.strptime(digits, '%Y%m%d%H%M%S')
     except ValueError:
         return None
 
 
-def parse_transfermarkt_html(html: str, international: bool) -> List[Dict]:
-    soup = BeautifulSoup(html, 'lxml')
+def fill_missing_matchdays(rows: List[Dict]) -> None:
+    """Livescore markiert manche Ligue-1-Spiele als 'Regular Season' statt Spieltag-Nummer."""
+    anchors = []
+    for r in rows:
+        md = r.get('matchday')
+        if not md:
+            continue
+        try:
+            dt = datetime.fromisoformat(str(r['dateTime']).replace('Z', '+00:00'))
+        except ValueError:
+            continue
+        anchors.append((dt, int(md)))
+    if not anchors:
+        for r in rows:
+            if not r.get('matchday'):
+                r['matchday'] = 1
+        return
+    for r in rows:
+        if r.get('matchday'):
+            continue
+        try:
+            dt = datetime.fromisoformat(str(r['dateTime']).replace('Z', '+00:00'))
+        except ValueError:
+            r['matchday'] = 1
+            continue
+        nearest = min(anchors, key=lambda a: abs((a[0] - dt).total_seconds()))
+        r['matchday'] = nearest[1]
+
+
+def scrape_livescore(league: str, country: str, slug: str, tz_name: str) -> List[Dict]:
+    url = f'https://prod-cdn-public-api.livescore.com/v1/api/app/stage/soccer/{country}/{slug}/1'
+    log(f"   Quelle: Livescore JSON | {country}/{slug}")
+    log("   Spiel = Events[]; Teams = T1[0].Nm / T2[0].Nm; Ergebnis = Tr1:Tr2 wenn Eps=FT; "
+        "Datum = Esd (YYYYMMDDHHmmss, lokale Zeit); Spieltag = ErnInf Ziffer")
+
+    status, body, _final = http_get(url, accept='application/json')
+    if status != 200:
+        log(f"  ⛔ Livescore HTTP {status} für {league}")
+        return []
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        log("  ⛔ Livescore lieferte kein JSON")
+        return []
+
+    stages = data.get('Stages') or []
+    events = []
+    for st in stages:
+        events.extend(st.get('Events') or [])
+    if not events:
+        log(f"  ⛔ Livescore ohne Events für {league}")
+        return []
+
     matches: List[Dict] = []
-    current_matchday = 1
-    current_phase = 'gruppenphase' if international else None
-    last_dt: Optional[datetime] = None
-    seen = set()
-
-    for el in soup.select('.content-box-headline, table tr'):
-        if el.name in ('div', 'h2') or 'content-box-headline' in (el.get('class') or []):
-            headline = el.get_text(' ', strip=True)
-            sm = SPIELTAG_RE.search(headline)
-            if sm:
-                current_matchday = int(sm.group(1))
-            if international:
-                current_phase = phase_from_group_name(headline)
+    skipped = 0
+    now = datetime.now(timezone.utc)
+    for i, ev in enumerate(events, 1):
+        home = livescore_team_name(ev.get('T1'))
+        away = livescore_team_name(ev.get('T2'))
+        local_dt = parse_livescore_esd(ev.get('Esd'))
+        if not home or not away or local_dt is None:
+            skipped += 1
             continue
-        if el.name != 'tr':
-            continue
-
-        report = el.select_one('a[href*="spielbericht"]')
-        if report is None:
-            continue
-
-        team_links = [
-            a for a in el.select('td.hauptlink a[title]')
-            if 'spielbericht' not in (a.get('href') or '')
-        ]
-        home = away = ''
-        if len(team_links) >= 2:
-            home = (team_links[0].get('title') or team_links[0].get_text(strip=True)).strip()
-            away = (team_links[-1].get('title') or team_links[-1].get_text(strip=True)).strip()
-        if not home or not away:
-            continue
-
-        raw_score = report.get_text(strip=True).replace('\xa0', '')
-        score = raw_score if SCORE_RE.match(raw_score) else None
-        dt = parse_tm_datetime(el, last_dt)
-        if dt is None:
-            continue
-        last_dt = dt
-        date_time = to_iso_z(dt)
-
-        key = (home, away, date_time, current_matchday)
-        if key in seen:
-            continue
-        seen.add(key)
-
-        now = datetime.now(timezone.utc)
-        kickoff = dt.replace(tzinfo=timezone.utc)
-        finished = score is not None
-        is_live = (not finished) and kickoff <= now <= kickoff + timedelta(hours=3)
-
+        kickoff = europe_naive_to_utc(local_dt, tz_name)
+        date_time = to_iso_z(kickoff)
+        eps = str(ev.get('Eps') or 'NS').strip().upper()
+        tr1, tr2 = ev.get('Tr1'), ev.get('Tr2')
+        score = None
+        if tr1 is not None and tr2 is not None and str(tr1) != '' and str(tr2) != '':
+            try:
+                score = f'{int(tr1)}:{int(tr2)}'
+            except (TypeError, ValueError):
+                score = None
+        finished = eps in FINISHED_EPS
+        upcoming = eps in UPCOMING_EPS
+        is_live = (not finished) and (
+            (not upcoming) or (kickoff <= now <= kickoff + timedelta(hours=3) and eps == 'NS')
+        )
+        ern = str(ev.get('ErnInf') or '').strip()
+        matchday = int(ern) if ern.isdigit() else None
         rec = {
-            'matchday': current_matchday,
+            'matchday': matchday,
             'homeTeam': home,
             'awayTeam': away,
             'dateTime': date_time,
@@ -316,65 +348,252 @@ def parse_transfermarkt_html(html: str, international: bool) -> List[Dict]:
             'isLive': is_live,
             'liveScore': score if is_live else None,
         }
-        if international:
-            rec['phase'] = current_phase or 'gruppenphase'
         matches.append(rec)
-
         status_lbl = 'LIVE' if rec['isLive'] else ('BEENDET' if rec['isFinished'] else 'ZUKUNFT')
-        n = len(matches)
-        if n <= 6 or n % 50 == 0:
+        if i <= 6 or i % 50 == 0:
             log(
-                f"     ✓ {status_lbl}: {home} vs {away} | {date_time} | {raw_score} | "
-                f"festgemacht an Transfermarkt-Zeile Spieltag {current_matchday} + "
-                f"a[href*=spielbericht] | {report.get('href')}"
+                f"     ✓ {status_lbl}: {home} vs {away} | {date_time} | {score or '-'} | "
+                f"festgemacht an Esd={ev.get('Esd')} Eps={eps} ErnInf={ern} Tr={tr1}:{tr2}"
             )
+
+    fill_missing_matchdays(matches)
+    log(f"  ✅ {league} via Livescore: {len(matches)} Spiele (übersprungen {skipped})")
     return matches
 
 
-def scrape_transfermarkt(league: str, kind: str, code: str, international: bool) -> List[Dict]:
-    season = get_openligadb_season()
-    url = (
-        f'https://www.transfermarkt.de/{league}/gesamtspielplan/'
-        f'{kind}/{code}/saison_id/{season}'
-    )
-    log(f"   Quelle: Transfermarkt Gesamtspielplan | saison_id={season}")
-    log("   Spiel = Tabellenzeile mit a[href*=spielbericht]; Teams = a[title] in td.hauptlink; "
-        "Ergebnis = Linktext 4:1 bzw. -:- ; Datum/Uhrzeit in den ersten TDs; "
-        "Spieltag = vorherige Überschrift 'n. Spieltag'")
+def scrape_football_data_csv(league: str, code: str, per_round: int, tz_name: str) -> List[Dict]:
+    """Nur bereits gespielte Partien — Notnagel, falls Livescore von GitHub blockt."""
+    yy = int(get_openligadb_season()) % 100
+    season_code = f'{yy:02d}{yy + 1:02d}'
+    url = f'https://www.football-data.co.uk/mmz4281/{season_code}/{code}.csv'
+    log(f"   Fallback: football-data.co.uk CSV {code} | Saison {season_code}")
+    log("   Spiel = CSV-Zeile; Teams = HomeTeam/AwayTeam; Ergebnis = FTHG:FTAG; "
+        f"Datum/Zeit = Date+Time; Spieltag = Reihenfolge je {per_round} Spiele")
 
-    status, body, final = http_get(url, accept='text/html')
-    if status != 200 or not body or 'Just a moment' in body:
-        log(f"  ⛔ Transfermarkt lieferte keine Seite für {league}")
-        return []
-    if 'Nicht gefunden' in body or 'Page not found' in body:
-        log("  ⛔ Transfermarkt 404")
+    status, body, _final = http_get(url, accept='text/csv,text/plain;q=0.9')
+    text = (body or '').lstrip('\ufeff')
+    if status != 200 or not text or ('Div,' not in text[:120] and 'Date,' not in text[:120]):
+        log(f"  ⛔ CSV unbrauchbar für {league}")
         return []
 
-    matches = parse_transfermarkt_html(body, international)
-    log(f"  ✅ {league} via Transfermarkt: {len(matches)} Spiele")
+    reader = csv.DictReader(io.StringIO(text))
+    raw_rows = []
+    for row in reader:
+        home = (row.get('HomeTeam') or '').strip()
+        away = (row.get('AwayTeam') or '').strip()
+        date_s = (row.get('Date') or '').strip()
+        time_s = (row.get('Time') or '15:00').strip()
+        if not home or not away or not date_s:
+            continue
+        try:
+            local_dt = datetime.strptime(f'{date_s} {time_s}', '%d/%m/%Y %H:%M')
+        except ValueError:
+            try:
+                local_dt = datetime.strptime(date_s, '%d/%m/%Y')
+            except ValueError:
+                continue
+        fthg, ftag = row.get('FTHG'), row.get('FTAG')
+        score = None
+        finished = False
+        if fthg not in (None, '') and ftag not in (None, ''):
+            try:
+                score = f'{int(fthg)}:{int(ftag)}'
+                finished = True
+            except (TypeError, ValueError):
+                pass
+        raw_rows.append((local_dt, home, away, score, finished))
+
+    raw_rows.sort(key=lambda x: x[0])
+    matches: List[Dict] = []
+    for i, (local_dt, home, away, score, finished) in enumerate(raw_rows):
+        rec = {
+            'matchday': (i // per_round) + 1,
+            'homeTeam': home,
+            'awayTeam': away,
+            'dateTime': to_iso_z(europe_naive_to_utc(local_dt, tz_name)),
+            'score': score if finished else None,
+            'isFinished': finished,
+            'isLive': False,
+            'liveScore': None,
+        }
+        matches.append(rec)
+        if i < 6 or (i + 1) % 50 == 0:
+            log(
+                f"     ✓ BEENDET: {home} vs {away} | {rec['dateTime']} | {score or '-'} | "
+                f"festgemacht an CSV-Zeile Spieltag {rec['matchday']}"
+            )
+    log(f"  ✅ {league} via football-data.co.uk: {len(matches)} Spiele (nur Ergebnisse, keine Zukunft)")
+    return matches
+
+
+def uefa_team_name(team: dict) -> str:
+    if not isinstance(team, dict):
+        return ''
+    trans = team.get('translations') or {}
+    for bag_key in ('displayName', 'officialName', 'name', 'teamName'):
+        bag = trans.get(bag_key)
+        if isinstance(bag, dict):
+            for lang in ('DE', 'de', 'EN', 'en'):
+                val = bag.get(lang)
+                if isinstance(val, str) and val.strip():
+                    return val.strip()
+    return str(team.get('internationalName') or team.get('teamCode') or '').strip()
+
+
+def uefa_score(score_obj) -> Optional[str]:
+    if not isinstance(score_obj, dict):
+        return None
+    for key in ('regular', 'total', 'aggregate'):
+        part = score_obj.get(key)
+        if not isinstance(part, dict):
+            continue
+        h, a = part.get('home'), part.get('away')
+        if h is None or a is None:
+            continue
+        try:
+            return f'{int(h)}:{int(a)}'
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
+def scrape_uefa_conference(league: str) -> List[Dict]:
+    season_year = get_display_season()
+    log(f"   Quelle: UEFA Match API | competitionId=2019 seasonYear={season_year}")
+    log("   Spiel = JSON-Match; Teams = internationalName/translations.DE; fertig = status FINISHED; "
+        "Ergebnis = score.regular; Datum = kickOffTime.dateTime UTC; "
+        "Ligaphase = round.phase!=QUALIFYING; Spieltag = matchday.sequenceNumber")
+
+    matches: List[Dict] = []
+    skipped = 0
+    offset = 0
+    now = datetime.now(timezone.utc)
+    while offset < 800:
+        url = (
+            f'https://match.uefa.com/v5/matches?competitionId=2019'
+            f'&seasonYear={season_year}&limit=100&offset={offset}'
+        )
+        status, body, _final = http_get(url, accept='application/json')
+        if status != 200:
+            break
+        try:
+            chunk = json.loads(body)
+        except json.JSONDecodeError:
+            log("     ⚠️ UEFA-Antwort ist kein JSON")
+            break
+        if not isinstance(chunk, list) or not chunk:
+            break
+
+        for raw in chunk:
+            rnd = raw.get('round') or {}
+            if str(rnd.get('phase') or '').upper() == 'QUALIFYING':
+                skipped += 1
+                continue
+            if (raw.get('homeTeam') or {}).get('isPlaceHolder') or (raw.get('awayTeam') or {}).get('isPlaceHolder'):
+                skipped += 1
+                continue
+            home = uefa_team_name(raw.get('homeTeam') or {})
+            away = uefa_team_name(raw.get('awayTeam') or {})
+            kick = (raw.get('kickOffTime') or {}).get('dateTime') or ''
+            if not home or not away or not kick:
+                skipped += 1
+                continue
+            date_time = str(kick).replace('+00:00', 'Z')
+            if date_time.endswith('Z') and '.' in date_time:
+                date_time = date_time.split('.')[0] + 'Z'
+            try:
+                kickoff = datetime.fromisoformat(date_time.replace('Z', '+00:00'))
+            except ValueError:
+                skipped += 1
+                continue
+
+            md_obj = raw.get('matchday') or {}
+            matchday = md_obj.get('sequenceNumber') or 1
+            try:
+                matchday = int(matchday)
+            except (TypeError, ValueError):
+                matchday = 1
+
+            st = str(raw.get('status') or '').upper()
+            finished = st in ('FINISHED', 'OFFICIAL')
+            is_live = st in ('LIVE', 'ONGOING') or (
+                (not finished) and kickoff <= now <= kickoff + timedelta(hours=3) and st != 'UPCOMING'
+            )
+            score = uefa_score(raw.get('score')) if (finished or is_live) else None
+            rec = {
+                'matchday': matchday,
+                'homeTeam': home,
+                'awayTeam': away,
+                'dateTime': date_time,
+                'score': score if finished and not is_live else None,
+                'isFinished': finished and not is_live,
+                'isLive': is_live,
+                'liveScore': score if is_live else None,
+                'phase': phase_from_group_name(str((rnd.get('metaData') or {}).get('name') or '')),
+            }
+            matches.append(rec)
+            n = len(matches)
+            if n <= 6 or n % 50 == 0:
+                status_lbl = 'LIVE' if rec['isLive'] else ('BEENDET' if rec['isFinished'] else 'ZUKUNFT')
+                log(
+                    f"     ✓ {status_lbl}: {home} vs {away} | {date_time} | {score or '-'} | "
+                    f"festgemacht an UEFA status={st} matchday={matchday} "
+                    f"round={(rnd.get('metaData') or {}).get('name')}"
+                )
+
+        if len(chunk) < 100:
+            break
+        offset += 100
+
+    log(f"  ✅ {league} via UEFA: {len(matches)} Ligaphasen-Spiele (Quali übersprungen {skipped})")
     return matches
 
 
 def scrape_league(league: str) -> List[Dict]:
     """
-    england/spain/CL/EL: OpenLigaDB (läuft auf GitHub).
-    italy/france/ECL: Transfermarkt (kein Cloudflare-JS).
+    england/spain/CL/EL: OpenLigaDB.
+    italy/france: Livescore JSON, Fallback football-data.co.uk.
+    conferenceleague: UEFA Match API (nur Ligaphase/K.o., ohne Quali).
     """
     configs = {
         'england': {'oldb': ['pl', 'epl', 'pl1']},
         'spain': {'oldb': ['la1']},
-        'italy': {'tm': ('wettbewerb', 'IT1')},
-        'france': {'tm': ('wettbewerb', 'FR1')},
-        'championsleague': {'oldb': ['ucl', f"ucl{get_openligadb_season()}"], 'international': True},
-        'europaleague': {'oldb': [f"uel{get_openligadb_season()}", 'uel'], 'international': True},
-        'conferenceleague': {'tm': ('pokalwettbewerb', 'UCOL'), 'international': True},
+        'italy': {
+            'livescore': ('italy', 'serie-a', 'Europe/Rome'),
+            'csv': ('I1', 10, 'Europe/Rome'),
+        },
+        'france': {
+            'livescore': ('france', 'ligue-1', 'Europe/Paris'),
+            'csv': ('F1', 9, 'Europe/Paris'),
+        },
+        'championsleague': {
+            'oldb': ['ucl', f'ucl{get_openligadb_season()}'],
+            'international': True,
+        },
+        'europaleague': {
+            'oldb': [f'uel{get_openligadb_season()}', 'uel'],
+            'international': True,
+        },
+        'conferenceleague': {'uefa': True, 'international': True},
     }
     cfg = configs[league]
     international = bool(cfg.get('international'))
     if 'oldb' in cfg:
         return scrape_openligadb(league, cfg['oldb'], international)
-    kind, code = cfg['tm']
-    return scrape_transfermarkt(league, kind, code, international)
+    if 'livescore' in cfg:
+        country, slug, tz_name = cfg['livescore']
+        matches = scrape_livescore(league, country, slug, tz_name)
+        if matches:
+            return matches
+        csv_cfg = cfg.get('csv')
+        if csv_cfg:
+            code, per_round, tz_name = csv_cfg
+            log(f"  ↪️ Livescore leer — Fallback CSV für {league}")
+            return scrape_football_data_csv(league, code, per_round, tz_name)
+        return []
+    if cfg.get('uefa'):
+        return scrape_uefa_conference(league)
+    return []
 
 
 def save_matches_json(league: str, season: str, matches: List[Dict], output_dir: str = 'data/matches'):
@@ -384,9 +603,9 @@ def save_matches_json(league: str, season: str, matches: List[Dict], output_dir:
         'season': season,
         'lastUpdated': datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z'),
         'matches': matches,
-        'source': 'openligadb-or-transfermarkt',
+        'source': 'openligadb-or-livescore-or-uefa',
     }
-    filename = f"{output_dir}/matches_{league}.json"
+    filename = f'{output_dir}/matches_{league}.json'
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
     log(f"💾 Gespeichert: {filename} ({len(matches)} Matches)")
@@ -394,7 +613,7 @@ def save_matches_json(league: str, season: str, matches: List[Dict], output_dir:
 
 def save_matches_json_array(league: str, season: str, matches: List[Dict], output_dir: str = 'data/matches'):
     os.makedirs(output_dir, exist_ok=True)
-    filename = f"{output_dir}/matches_{league}.json"
+    filename = f'{output_dir}/matches_{league}.json'
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(matches, f, indent=2, ensure_ascii=False)
     log(f"💾 Gespeichert (Array-Format): {filename} ({len(matches)} Matches)")
@@ -434,9 +653,11 @@ def main() -> None:
     log("🚀 Starte Match-Scraping...")
     log(
         "\n🔎 Quellen (GitHub-tauglich, ohne deinen PC):\n"
-        "  OpenLigaDB JSON  — england (pl), spain (la1), championsleague (ucl), europaleague (uelYYYY)\n"
-        "  Transfermarkt    — italy (IT1), france (FR1), conferenceleague (UCOL)\n"
-        "  fussballdaten.de wird NICHT mehr verwendet (Cloudflare 403 auf Actions-Runnern)\n"
+        "  OpenLigaDB JSON     — england (pl), spain (la1), championsleague (ucl), europaleague (uelYYYY)\n"
+        "  Livescore JSON      — italy (serie-a), france (ligue-1)\n"
+        "  UEFA Match API      — conferenceleague Ligaphase (competitionId 2019)\n"
+        "  football-data.co.uk — Fallback für italy/france, nur bereits gespielte Partien\n"
+        "  fussballdaten.de und Transfermarkt werden NICHT verwendet (403/202 auf Actions)\n"
     )
     season = get_display_season()
     oldb_season = get_openligadb_season()
