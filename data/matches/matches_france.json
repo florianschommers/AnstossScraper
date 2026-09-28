@@ -1,7 +1,3068 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-09-28T21:01:46Z",
-  "matches": [],
-  "source": "openligadb-or-transfermarkt"
+  "lastUpdated": "2026-09-28T21:38:15Z",
+  "matches": [
+    {
+      "matchday": 1,
+      "homeTeam": "Marseille",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-08-21T17:45:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Lens",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-08-22T14:15:00Z",
+      "score": "5:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Brest",
+      "dateTime": "2026-08-22T17:45:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Nice",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-08-22T17:45:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-08-22T17:45:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Troyes",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-08-22T17:45:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Angers",
+      "awayTeam": "Lille",
+      "dateTime": "2026-08-23T12:00:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Le Havre",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-08-23T14:15:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Rennes",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-08-23T17:45:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lille",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-08-28T18:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Lens",
+      "dateTime": "2026-08-29T14:15:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Angers",
+      "dateTime": "2026-08-29T17:45:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Brest",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-08-29T17:45:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lorient",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-08-29T17:45:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lyon",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-08-29T17:45:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Nice",
+      "dateTime": "2026-08-30T12:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Rennes",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-08-30T14:15:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-08-30T17:45:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Lille",
+      "dateTime": "2026-09-03T17:45:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Lyon",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-09-04T16:00:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-09-04T18:05:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Lens",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-09-05T14:15:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Brest",
+      "dateTime": "2026-09-05T17:45:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Nice",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-09-05T17:45:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Troyes",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-09-06T12:00:00Z",
+      "score": "2:6",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Angers",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-09-06T14:15:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Marseille",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-09-06T17:45:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Rennes",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-09-11T17:45:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-09-12T14:15:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Nice",
+      "dateTime": "2026-09-12T17:45:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Angers",
+      "dateTime": "2026-09-12T17:45:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Lorient",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-09-12T17:45:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-09-12T17:45:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Lille",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-09-13T12:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lens",
+      "dateTime": "2026-09-13T14:15:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Brest",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-09-13T17:45:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lens",
+      "dateTime": "2026-09-18T17:45:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-09-19T14:15:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Angers",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-09-19T17:45:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-09-19T17:45:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Lyon",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-09-19T17:45:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-09-19T17:45:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Brest",
+      "dateTime": "2026-09-20T12:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Nice",
+      "awayTeam": "Lille",
+      "dateTime": "2026-09-20T14:15:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Marseille",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-09-20T17:45:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Lens",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-10-09T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Lille",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-10-10T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-10-10T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Brest",
+      "awayTeam": "Angers",
+      "dateTime": "2026-10-10T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Lorient",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-10-10T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-10-10T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Nice",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-10-11T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Rennes",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-10-11T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Troyes",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-10-11T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-10-16T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-10-17T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Lille",
+      "awayTeam": "Brest",
+      "dateTime": "2026-10-17T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Troyes",
+      "awayTeam": "Lens",
+      "dateTime": "2026-10-17T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Angers",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-10-18T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-10-18T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Lorient",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-10-18T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-10-18T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Lyon",
+      "awayTeam": "Nice",
+      "dateTime": "2026-10-18T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Brest",
+      "awayTeam": "Nice",
+      "dateTime": "2026-10-23T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-10-24T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Lens",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-10-24T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lille",
+      "dateTime": "2026-10-25T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Angers",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-10-25T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-10-25T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-10-25T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Rennes",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-10-25T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-10-25T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-10-30T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Lille",
+      "awayTeam": "Lens",
+      "dateTime": "2026-10-30T20:05:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Nice",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-10-31T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Lorient",
+      "awayTeam": "Brest",
+      "dateTime": "2026-10-31T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Lyon",
+      "awayTeam": "Angers",
+      "dateTime": "2026-10-31T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-10-31T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-11-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Paris FC",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-11-01T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Marseille",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-11-01T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-11-06T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-11-07T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-11-07T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lille",
+      "dateTime": "2026-11-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Angers",
+      "awayTeam": "Nice",
+      "dateTime": "2026-11-08T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Brest",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-11-08T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-11-08T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Le Mans",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-11-08T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Lens",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-11-08T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-11-20T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Nice",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-11-21T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Lens",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Lille",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Brest",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Angers",
+      "dateTime": "2026-11-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Lorient",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-11-22T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Marseille",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-11-22T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Brest",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-11-27T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Angers",
+      "awayTeam": "Lens",
+      "dateTime": "2026-11-28T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-11-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lille",
+      "dateTime": "2026-11-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Nice",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-11-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-11-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-11-29T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-11-29T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Lyon",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-11-29T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Angers",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Lens",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Lille",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Marseille",
+      "awayTeam": "Nice",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Rennes",
+      "awayTeam": "Brest",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Lorient",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Troyes",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-12-05T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Angers",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Brest",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Lorient",
+      "awayTeam": "Lille",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Nice",
+      "awayTeam": "Lens",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Rennes",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-12-12T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Lyon",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-12-13T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Nice",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Brest",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Lille",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Lorient",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Angers",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Troyes",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-01-02T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Lens",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-01-03T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Brest",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Angers",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Lyon",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Marseille",
+      "awayTeam": "Lille",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Nice",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lens",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-01-16T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Angers",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Lens",
+      "awayTeam": "Brest",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Lille",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Lorient",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Nice",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Troyes",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-01-23T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Angers",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Brest",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Nice",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Lyon",
+      "awayTeam": "Lille",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Marseille",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Lens",
+      "dateTime": "2027-01-30T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Auxerre",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Lens",
+      "awayTeam": "Angers",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Lorient",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Nice",
+      "awayTeam": "Brest",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Rennes",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Troyes",
+      "awayTeam": "Lille",
+      "dateTime": "2027-02-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-02-07T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Brest",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Lille",
+      "awayTeam": "Nice",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Lorient",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Lyon",
+      "awayTeam": "Lens",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Marseille",
+      "awayTeam": "Angers",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Toulouse",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-02-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Angers",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Lens",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Lille",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Nice",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Brest",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Rennes",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-02-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lille",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Brest",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Lorient",
+      "awayTeam": "Angers",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Lyon",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Marseille",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Troyes",
+      "awayTeam": "Nice",
+      "dateTime": "2027-02-27T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Lens",
+      "dateTime": "2027-02-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Angers",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Nice",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Lens",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Lille",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Brest",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Troyes",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-03-06T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Brest",
+      "awayTeam": "Lille",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lens",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Lyon",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Marseille",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Nice",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Angers",
+      "dateTime": "2027-03-13T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Angers",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Lens",
+      "awayTeam": "Lille",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Lorient",
+      "awayTeam": "Nice",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Rennes",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Brest",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Troyes",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-03-20T16:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Marseille",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-03-21T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Angers",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lens",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Brest",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Lille",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Nice",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-04-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Lille",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Lorient",
+      "awayTeam": "Lens",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Lyon",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Marseille",
+      "awayTeam": "Brest",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Nice",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Troyes",
+      "awayTeam": "Angers",
+      "dateTime": "2027-04-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Angers",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Brest",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Lens",
+      "awayTeam": "Nice",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Lille",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Rennes",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-04-17T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Lille",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Lorient",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Lyon",
+      "awayTeam": "Brest",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Marseille",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Nice",
+      "awayTeam": "Angers",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Lens",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Troyes",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-04-24T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Lens",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Angers",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Rennes",
+      "awayTeam": "Nice",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Lille",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Troyes",
+      "awayTeam": "Brest",
+      "dateTime": "2027-05-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Angers",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Brest",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Lens",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Lorient",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Nice",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Lille",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Rennes",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-05-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Lyon",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-05-09T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Brest",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Lille",
+      "awayTeam": "Angers",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Lyon",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Marseille",
+      "awayTeam": "Lens",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Nice",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-05-16T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Angers",
+      "awayTeam": "Brest",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lille",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Le Mans",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Lens",
+      "awayTeam": "Rennes",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Lorient",
+      "awayTeam": "Lyon",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Nice",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Paris FC",
+      "awayTeam": "Marseille",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Auxerre",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Troyes",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2027-05-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Troyes",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Auxerre",
+      "awayTeam": "Le Havre",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Brest",
+      "awayTeam": "Lens",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Lille",
+      "awayTeam": "Le Mans",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Lyon",
+      "awayTeam": "Paris FC",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Marseille",
+      "awayTeam": "Lorient",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Toulouse",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Rennes",
+      "awayTeam": "Angers",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Nice",
+      "dateTime": "2027-05-29T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    }
+  ],
+  "source": "openligadb-or-livescore-or-uefa"
 }

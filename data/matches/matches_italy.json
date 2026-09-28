@@ -1,7 +1,3808 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-09-28T21:01:46Z",
-  "matches": [],
-  "source": "openligadb-or-transfermarkt"
+  "lastUpdated": "2026-09-28T21:38:14Z",
+  "matches": [
+    {
+      "matchday": 1,
+      "homeTeam": "Inter",
+      "awayTeam": "Monza",
+      "dateTime": "2026-08-22T15:30:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Udinese",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-08-22T15:30:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Genoa",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-08-22T17:45:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Parma",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-08-22T17:45:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-08-23T15:30:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Venezia",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-08-23T15:30:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-08-23T17:45:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Torino",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-08-23T17:45:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Bologna",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-08-24T15:30:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-08-24T17:45:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-08-28T17:45:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-08-29T15:30:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Monza",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-08-29T15:30:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Torino",
+      "dateTime": "2026-08-29T15:30:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Juventus",
+      "awayTeam": "Parma",
+      "dateTime": "2026-08-29T17:45:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Napoli",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-08-30T15:30:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Inter",
+      "dateTime": "2026-08-30T17:45:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lazio",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-08-30T17:45:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Lecce",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-08-31T15:30:00Z",
+      "score": "0:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-08-31T17:45:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Genoa",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-09-04T17:45:00Z",
+      "score": "1:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Torino",
+      "dateTime": "2026-09-05T12:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Inter",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-09-05T15:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-09-05T17:45:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-09-06T12:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Parma",
+      "awayTeam": "Monza",
+      "dateTime": "2026-09-06T12:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Bologna",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-09-06T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Juventus",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-09-06T17:45:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-09-07T15:30:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Udinese",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-09-07T17:45:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Venezia",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-09-11T17:45:00Z",
+      "score": "2:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Genoa",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-09-12T12:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Lazio",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-09-12T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-09-12T17:45:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Lecce",
+      "awayTeam": "Monza",
+      "dateTime": "2026-09-13T12:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Napoli",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-09-13T15:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-09-13T17:45:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Parma",
+      "dateTime": "2026-09-14T15:30:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Torino",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-09-14T15:30:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Inter",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-09-14T17:45:00Z",
+      "score": "5:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Monza",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-09-18T17:45:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Bologna",
+      "awayTeam": "Torino",
+      "dateTime": "2026-09-19T12:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Udinese",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-09-19T12:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Inter",
+      "dateTime": "2026-09-19T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Venezia",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-09-19T17:45:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-09-20T09:30:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-09-20T12:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Parma",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-09-20T12:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Juventus",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-09-20T15:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-09-20T17:45:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Genoa",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-10-10T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Inter",
+      "awayTeam": "Parma",
+      "dateTime": "2026-10-10T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Napoli",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-10-10T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Como 1907",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-10-11T09:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Lazio",
+      "awayTeam": "Monza",
+      "dateTime": "2026-10-11T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Lecce",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-10-11T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-10-11T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-10-11T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-10-12T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Torino",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-10-12T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-10-16T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Venezia",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-10-17T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Bologna",
+      "awayTeam": "Inter",
+      "dateTime": "2026-10-17T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-10-17T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Udinese",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-10-18T09:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-10-18T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-10-18T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Juventus",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-10-18T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Monza",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-10-19T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Parma",
+      "awayTeam": "Torino",
+      "dateTime": "2026-10-19T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Torino",
+      "awayTeam": "Monza",
+      "dateTime": "2026-10-23T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-10-24T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-10-24T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Napoli",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-10-24T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Lazio",
+      "awayTeam": "Parma",
+      "dateTime": "2026-10-24T17:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Inter",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-10-25T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-10-25T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Genoa",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-10-25T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Lecce",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-10-25T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Udinese",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-10-25T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-10-27T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-10-27T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Torino",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-10-27T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-10-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Parma",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-10-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Venezia",
+      "awayTeam": "Inter",
+      "dateTime": "2026-10-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Genoa",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-10-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Monza",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-10-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-10-29T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-10-29T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Bologna",
+      "awayTeam": "Monza",
+      "dateTime": "2026-10-31T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Udinese",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-10-31T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Inter",
+      "dateTime": "2026-10-31T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-11-01T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Torino",
+      "dateTime": "2026-11-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Lazio",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-11-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Lecce",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-11-01T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Juventus",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-11-01T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-11-02T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Parma",
+      "dateTime": "2026-11-02T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Venezia",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-11-06T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-11-07T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Torino",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-11-07T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Parma",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-11-07T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-11-07T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Napoli",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-11-08T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Genoa",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-11-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Monza",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-11-08T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Inter",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-11-08T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-11-08T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-11-21T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Lazio",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-11-21T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Parma",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-11-21T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Napoli",
+      "awayTeam": "Torino",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Juventus",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-11-22T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Bologna",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-11-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-11-22T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-11-22T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Inter",
+      "dateTime": "2026-11-22T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Monza",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-11-23T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Venezia",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-11-27T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Parma",
+      "dateTime": "2026-11-28T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Torino",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-11-28T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Inter",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-11-28T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Udinese",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-11-29T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-11-29T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Monza",
+      "dateTime": "2026-11-29T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-11-29T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Lecce",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-11-30T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Cagliari",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-11-30T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Bologna",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-12-04T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Monza",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-12-05T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Inter",
+      "dateTime": "2026-12-05T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Napoli",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-12-05T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Genoa",
+      "awayTeam": "Torino",
+      "dateTime": "2026-12-06T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Lazio",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-12-06T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Juventus",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-12-06T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Parma",
+      "dateTime": "2026-12-06T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Venezia",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-12-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-12-07T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Udinese",
+      "awayTeam": "Frosinone",
+      "dateTime": "2026-12-11T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Venezia",
+      "dateTime": "2026-12-12T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Lecce",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-12-12T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-12-12T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Lazio",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-12-13T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Inter",
+      "awayTeam": "Torino",
+      "dateTime": "2026-12-13T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Parma",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-12-13T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Napoli",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-12-13T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-12-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Juventus",
+      "awayTeam": "Monza",
+      "dateTime": "2026-12-14T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-12-18T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Lecce",
+      "awayTeam": "Inter",
+      "dateTime": "2026-12-18T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Parma",
+      "dateTime": "2026-12-19T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-12-19T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-12-19T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-12-20T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Torino",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-12-20T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Venezia",
+      "awayTeam": "Monza",
+      "dateTime": "2026-12-20T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Genoa",
+      "awayTeam": "Udinese",
+      "dateTime": "2026-12-20T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-12-20T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-01-02T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-01-02T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Torino",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-01-02T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-01-02T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Monza",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-01-02T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Inter",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-01-03T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-01-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Udinese",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-01-03T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Parma",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-01-03T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Bologna",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-01-03T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Genoa",
+      "awayTeam": "Monza",
+      "dateTime": "2027-01-05T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Venezia",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-01-05T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-01-05T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Juventus",
+      "awayTeam": "Torino",
+      "dateTime": "2027-01-06T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-01-06T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Lecce",
+      "awayTeam": "Parma",
+      "dateTime": "2027-01-06T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-01-06T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Lazio",
+      "awayTeam": "Inter",
+      "dateTime": "2027-01-06T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-01-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Napoli",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-01-07T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Monza",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-01-09T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "AS Roma",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-01-09T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Bologna",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-01-09T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-01-10T11:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-01-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Parma",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-01-10T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Torino",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-01-10T17:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Inter",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-01-10T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-01-11T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Udinese",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-01-11T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Torino",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Atalanta",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Juventus",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Lazio",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Lecce",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Napoli",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Parma",
+      "awayTeam": "Inter",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Monza",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Venezia",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-01-17T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Bologna",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Frosinone",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Genoa",
+      "awayTeam": "Parma",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Inter",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Juventus",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Lecce",
+      "awayTeam": "Torino",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Monza",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-01-24T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Parma",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Genoa",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Lazio",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Monza",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Napoli",
+      "awayTeam": "Inter",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Torino",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Udinese",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-01-31T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Torino",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Bologna",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Monza",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Inter",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Juventus",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Lecce",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Parma",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Venezia",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-02-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Parma",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Bologna",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Genoa",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Inter",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Monza",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Napoli",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Torino",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Udinese",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-02-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Monza",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Torino",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Inter",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Juventus",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Lazio",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Lecce",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Udinese",
+      "awayTeam": "Parma",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Venezia",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-02-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Bologna",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Como 1907",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Genoa",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Inter",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Monza",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Parma",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Torino",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-02-28T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Torino",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Juventus",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Lazio",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Lecce",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Monza",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Napoli",
+      "awayTeam": "Parma",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Udinese",
+      "awayTeam": "Inter",
+      "dateTime": "2027-03-07T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Bologna",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Monza",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Genoa",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Lazio",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Parma",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Torino",
+      "awayTeam": "Inter",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Venezia",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-03-14T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Atalanta",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Inter",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Juventus",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Monza",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Napoli",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Parma",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Udinese",
+      "awayTeam": "Torino",
+      "dateTime": "2027-03-21T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Monza",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Genoa",
+      "awayTeam": "Inter",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Lecce",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Torino",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Venezia",
+      "awayTeam": "Parma",
+      "dateTime": "2027-04-04T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Bologna",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Inter",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Juventus",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Lazio",
+      "awayTeam": "Torino",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Napoli",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Parma",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Udinese",
+      "awayTeam": "Monza",
+      "dateTime": "2027-04-11T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Bologna",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Parma",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Monza",
+      "awayTeam": "Inter",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Torino",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Venezia",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-04-18T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Monza",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Frosinone",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Genoa",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Inter",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Juventus",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Lazio",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Lecce",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Napoli",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Parma",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Venezia",
+      "awayTeam": "Torino",
+      "dateTime": "2027-04-25T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Bologna",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Inter",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Lecce",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Monza",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Torino",
+      "awayTeam": "Parma",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Udinese",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-05-02T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Genoa",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Inter",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Lazio",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Napoli",
+      "awayTeam": "Monza",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Parma",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Torino",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Udinese",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Venezia",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-05-09T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "AC Milan",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Bologna",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Cagliari",
+      "awayTeam": "Torino",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Juventus",
+      "awayTeam": "Inter",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Lazio",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Lecce",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Monza",
+      "awayTeam": "Parma",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Napoli",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-05-16T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "AS Roma",
+      "awayTeam": "Como 1907",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Lecce",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Monza",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Frosinone",
+      "awayTeam": "Cagliari",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Genoa",
+      "awayTeam": "Bologna",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Inter",
+      "awayTeam": "Lazio",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Parma",
+      "awayTeam": "Juventus",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Torino",
+      "awayTeam": "Napoli",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Udinese",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Venezia",
+      "awayTeam": "AC Milan",
+      "dateTime": "2027-05-23T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "AC Milan",
+      "awayTeam": "Udinese",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Bologna",
+      "awayTeam": "Parma",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Cagliari",
+      "awayTeam": "AS Roma",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Como 1907",
+      "awayTeam": "Genoa",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Juventus",
+      "awayTeam": "Frosinone",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Lazio",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Lecce",
+      "awayTeam": "Venezia",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Monza",
+      "awayTeam": "Torino",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Napoli",
+      "awayTeam": "Atalanta",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Inter",
+      "dateTime": "2027-05-30T15:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    }
+  ],
+  "source": "openligadb-or-livescore-or-uefa"
 }
