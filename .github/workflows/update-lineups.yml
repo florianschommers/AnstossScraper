@@ -2,48 +2,223 @@ name: Update Lineups
 
 on:
   schedule:
-    # Alle 30 Minuten
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # Manuell auslösbar
+    # UTC, Ziel Berlin MESZ (UTC+2). ~15 Läufe/Woche an den Anstoß-Clustern.
+    # Im Winter (UTC+1) liegt der Slot 1h früher — das 6h-Fenster fängt die Spiele trotzdem.
+    # Di CL
+    - cron: '30 15 * * 2'
+    - cron: '0 18 * * 2'
+    # Mi CL
+    - cron: '30 15 * * 3'
+    - cron: '0 18 * * 3'
+    # Do EL/ECL
+    - cron: '0 15 * * 4'
+    - cron: '0 18 * * 4'
+    # Fr Abend
+    - cron: '0 16 * * 5'
+    - cron: '0 18 * * 5'
+    # Sa Liga
+    - cron: '0 11 * * 6'
+    - cron: '0 13 * * 6'
+    - cron: '30 14 * * 6'
+    - cron: '30 16 * * 6'
+    # So Liga
+    - cron: '0 11 * * 0'
+    - cron: '0 13 * * 0'
+    - cron: '0 15 * * 0'
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-lineups
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    # Workflow wird nicht als fehlgeschlagen markiert, wenn einzelne Uploads fehlschlagen
-    # (temporäre GitHub-Fehler werden beim nächsten Lauf automatisch behoben)
-    continue-on-error: false
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
-      
+        with:
+          repository: ${{ github.repository }}
+          ref: main
+          token: ${{ secrets.ANSTOSS_SCRAPER_TOKEN || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: '3.11'
-      
+
       - name: Install Dependencies
         run: |
-          pip install requests beautifulsoup4
-      
+          pip install -r scraper/requirements.txt
+
       - name: Scrape Lineups
+        continue-on-error: false
         run: |
-          cd scraper
-          python scrape_lineups.py
-      
-      - name: Upload Lineups to GitHub
+          python scraper/scrape_lineups.py || {
+            echo "⚠️ Scraper beendet mit Fehler, prüfe Logs oben"
+            exit 1
+          }
+
+      - name: Commit and Push
         env:
-          # WICHTIG: Für externe Repositories (florianschommers/AnstossScraper) benötigt man einen Personal Access Token (PAT)
-          # Der Standard GITHUB_TOKEN hat nur Zugriff auf das aktuelle Repository
-          # 
-          # Einrichtung:
-          # 1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
-          # 2. Neuen Token mit 'repo' Berechtigung erstellen (ohne Ablaufzeit für dauerhafte Nutzung)
-          # 3. Token als Secret 'ANSTOSS_SCRAPER_TOKEN' im Repository speichern:
-          #    Repository → Settings → Secrets and variables → Actions → New repository secret
           GITHUB_TOKEN: ${{ secrets.ANSTOSS_SCRAPER_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
-          python upload_lineups_to_github.py
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
 
+          REPO_URL="https://${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git remote set-url origin "$REPO_URL"
+
+          echo "📦 Repository: ${{ github.repository }}"
+
+          MAX_RETRIES=5
+          RETRY_COUNT=0
+          PULL_SUCCESS=false
+
+          echo "💾 Prüfe auf uncommitted Änderungen..."
+          if ! git diff --quiet || ! git diff --cached --quiet; then
+            echo "📦 Stashe uncommitted Änderungen..."
+            git stash push -m "Auto-stash before pull - $(date +'%Y-%m-%d %H:%M:%S UTC')" || true
+            STASHED=true
+          else
+            STASHED=false
+          fi
+
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            echo "🔄 Git pull (Versuch $((RETRY_COUNT + 1))/$MAX_RETRIES)..."
+            if git fetch origin main 2>&1; then
+              echo "✅ Git fetch erfolgreich"
+              if git rebase origin/main 2>&1; then
+                echo "✅ Git rebase erfolgreich"
+                PULL_SUCCESS=true
+                break
+              elif git merge origin/main --no-edit 2>&1; then
+                echo "✅ Git merge erfolgreich"
+                PULL_SUCCESS=true
+                break
+              else
+                echo "⚠️ Rebase/Merge fehlgeschlagen, versuche Reset..."
+                git reset --hard origin/main 2>&1 || true
+                PULL_SUCCESS=true
+                break
+              fi
+            else
+              echo "⚠️ Git fetch fehlgeschlagen"
+            fi
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+              WAIT_TIME=$((RETRY_COUNT * 3))
+              echo "⏳ Warte ${WAIT_TIME}s vor erneutem Versuch..."
+              sleep $WAIT_TIME
+            fi
+          done
+
+          if [ "$STASHED" = true ]; then
+            echo "📦 Wende gestashte Änderungen wieder an..."
+            git stash pop 2>&1 || git stash list
+          fi
+
+          if [ "$PULL_SUCCESS" = false ]; then
+            echo "❌ Git pull fehlgeschlagen nach $MAX_RETRIES Versuchen"
+            echo "⚠️ Versuche trotzdem fortzufahren, aber Push könnte fehlschlagen..."
+          fi
+
+          mkdir -p data/lineups
+
+          if ls data/lineups/*.json 1> /dev/null 2>&1; then
+            echo "📁 Gefundene JSON-Dateien:"
+            ls -lh data/lineups/*.json
+
+            if git add data/lineups/*.json; then
+              echo "✅ Dateien zu Git hinzugefügt"
+              if ! git diff --staged --quiet; then
+                echo "📝 Committe Änderungen..."
+                git commit -m "Update lineup data - $(date +'%Y-%m-%d %H:%M:%S UTC')" || {
+                  echo "⚠️ Commit fehlgeschlagen (möglicherweise keine Änderungen)"
+                  exit 0
+                }
+
+                RETRY_COUNT=0
+                PUSH_SUCCESS=false
+                MAX_PUSH_RETRIES=10
+
+                while [ $RETRY_COUNT -lt $MAX_PUSH_RETRIES ]; do
+                  echo "🔄 Hole neueste Änderungen vor Push (Versuch $((RETRY_COUNT + 1))/$MAX_PUSH_RETRIES)..."
+                  git fetch origin main 2>&1 || true
+                  LOCAL_COMMITS=$(git rev-list HEAD...origin/main --count 2>/dev/null || echo "0")
+                  if [ "$LOCAL_COMMITS" -gt 0 ]; then
+                    echo "📝 Gefunden: $LOCAL_COMMITS lokale Commits, die nicht auf Remote sind"
+                    if git rebase origin/main 2>&1; then
+                      echo "✅ Rebase erfolgreich"
+                    elif git merge origin/main --no-edit 2>&1; then
+                      echo "✅ Merge erfolgreich"
+                    else
+                      if [ $RETRY_COUNT -lt $((MAX_PUSH_RETRIES - 1)) ]; then
+                        echo "🔄 Reset auf origin/main und neu committen..."
+                        git reset --hard origin/main 2>&1
+                        git add data/lineups/*.json 2>&1
+                        git commit -m "Update lineup data - $(date +'%Y-%m-%d %H:%M:%S UTC')" 2>&1
+                      fi
+                    fi
+                  else
+                    echo "ℹ️ Keine lokalen Commits, die nicht auf Remote sind"
+                  fi
+
+                  echo "🚀 Git push (Versuch $((RETRY_COUNT + 1))/$MAX_PUSH_RETRIES)..."
+                  if [ $RETRY_COUNT -ge $((MAX_PUSH_RETRIES - 2)) ]; then
+                    echo "ℹ️ Verwende --force-with-lease für finalen Push-Versuch"
+                    PUSH_OUTPUT=$(git push origin HEAD:main --force-with-lease 2>&1)
+                  else
+                    PUSH_OUTPUT=$(git push origin HEAD:main 2>&1)
+                  fi
+                  PUSH_EXIT_CODE=$?
+
+                  if [ $PUSH_EXIT_CODE -eq 0 ]; then
+                    echo "✅ Git push erfolgreich"
+                    PUSH_SUCCESS=true
+                    break
+                  else
+                    echo "$PUSH_OUTPUT"
+                    RETRY_COUNT=$((RETRY_COUNT + 1))
+                    if [ $RETRY_COUNT -lt $MAX_PUSH_RETRIES ]; then
+                      if echo "$PUSH_OUTPUT" | grep -q "rejected\|fetch first"; then
+                        WAIT_TIME=$((RETRY_COUNT * 2))
+                        echo "⚠️ Push abgelehnt - Remote hat neue Commits"
+                        echo "⏳ Warte ${WAIT_TIME}s und hole dann neueste Änderungen..."
+                        sleep $WAIT_TIME
+                        git fetch origin main 2>&1
+                        git rebase origin/main 2>&1 || git merge origin/main --no-edit 2>&1 || {
+                          echo "🔄 Reset auf origin/main und neu committen..."
+                          git reset --hard origin/main 2>&1
+                          git add data/lineups/*.json 2>&1
+                          git commit -m "Update lineup data - $(date +'%Y-%m-%d %H:%M:%S UTC')" 2>&1
+                        }
+                      else
+                        WAIT_TIME=$((RETRY_COUNT * 3))
+                        echo "⚠️ Push fehlgeschlagen, warte ${WAIT_TIME}s..."
+                        sleep $WAIT_TIME
+                      fi
+                    fi
+                  fi
+                done
+
+                if [ "$PUSH_SUCCESS" = false ]; then
+                  echo "❌ Git push fehlgeschlagen nach $MAX_PUSH_RETRIES Versuchen"
+                  echo "⚠️ Der nächste Workflow-Lauf wird es erneut versuchen"
+                  exit 1
+                fi
+              else
+                echo "ℹ️ Keine Änderungen zum Committen"
+              fi
+            else
+              echo "⚠️ Git add fehlgeschlagen"
+              exit 0
+            fi
+          else
+            echo "ℹ️ Keine Lineup-JSON in data/lineups — in diesem Fenster keine Startelf"
+            exit 0
+          fi
