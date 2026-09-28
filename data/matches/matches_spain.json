@@ -1,6 +1,3808 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-09-28T20:40:38Z",
-  "matches": []
+  "lastUpdated": "2026-09-28T21:01:46Z",
+  "matches": [
+    {
+      "matchday": 1,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-08-15T17:30:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-08-15T19:30:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-08-16T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-08-16T17:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-08-17T19:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-08-19T19:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-08-20T19:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-08-21T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-08-22T15:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-08-22T17:30:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-08-22T19:30:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-08-23T15:00:00Z",
+      "score": "2:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-08-23T17:30:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "Elche CF",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-08-23T19:30:00Z",
+      "score": "0:5",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-08-24T17:30:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 2,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-08-24T19:30:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-08-25T19:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-08-26T19:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-08-27T18:30:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-08-27T19:00:00Z",
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-08-28T17:00:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-08-28T19:30:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-08-29T15:00:00Z",
+      "score": "5:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-08-29T17:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-08-29T19:30:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-08-30T15:00:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-08-30T17:30:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-08-30T19:30:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-08-31T17:30:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 3,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-08-31T19:30:00Z",
+      "score": "5:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-09-03T19:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-09-04T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-09-05T14:15:00Z",
+      "score": "3:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-09-05T16:30:00Z",
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-09-05T19:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-09-06T14:15:00Z",
+      "score": "0:5",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-09-06T16:30:00Z",
+      "score": "5:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-09-06T16:30:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-09-06T19:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-09-07T17:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 4,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-09-07T19:30:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-09-11T19:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-09-12T12:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-09-12T14:15:00Z",
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-09-12T16:30:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-09-12T19:00:00Z",
+      "score": "4:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-09-13T12:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Levante UD",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-09-13T14:15:00Z",
+      "score": "2:4",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-09-13T16:30:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-09-13T19:00:00Z",
+      "score": "0:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 5,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-09-14T19:00:00Z",
+      "score": "1:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-09-15T17:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-09-15T18:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-09-15T19:30:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-09-16T17:00:00Z",
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-09-16T17:00:00Z",
+      "score": "0:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-09-16T19:30:00Z",
+      "score": "7:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Real Betis",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-09-17T17:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-09-17T19:30:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-09-18T19:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-09-19T12:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-09-19T14:15:00Z",
+      "score": "0:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-09-19T16:30:00Z",
+      "score": "5:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-09-19T19:00:00Z",
+      "score": "1:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-09-20T12:00:00Z",
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-09-20T14:15:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-09-20T16:30:00Z",
+      "score": "1:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-09-20T16:30:00Z",
+      "score": "3:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 7,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-09-20T19:00:00Z",
+      "score": "2:3",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-10-09T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-10-10T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-10-10T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-10-10T16:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-10-10T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-10-11T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-10-11T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Real Betis",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-10-11T16:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-10-11T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 8,
+      "homeTeam": "Levante UD",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-10-12T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-10-16T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-10-17T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-10-17T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Real Betis",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-10-17T16:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-10-17T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-10-18T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-10-18T14:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-10-18T16:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-10-18T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-10-19T19:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 6,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-10-21T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 10,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-10-25T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Real Betis",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Elche CF",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 11,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 12,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 13,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 14,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-11-29T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 15,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-12-06T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Elche CF",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-12-13T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Elche CF",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Levante UD",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 17,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2026-12-20T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Levante UD",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 18,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-01-03T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Elche CF",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 19,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-01-10T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 20,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-01-17T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 21,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-01-24T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 22,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-01-31T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Real Betis",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 23,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-02-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Levante UD",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 24,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-02-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 25,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-02-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Real Betis",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 26,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-02-28T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Elche CF",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 27,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-03-07T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Elche CF",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 28,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-03-14T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Levante UD",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 29,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-03-21T14:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 30,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-04-04T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 31,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-04-11T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Elche CF",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Levante UD",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 32,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-04-18T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 33,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-04-21T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Real Betis",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 34,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-05-02T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 35,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-05-09T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Levante UD",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 36,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-05-16T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Atlético Madrid",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Deportivo A Coruña",
+      "awayTeam": "Espanyol Barcelona",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "FC Malaga",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Levante UD",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Real Betis",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "FC Sevilla",
+      "awayTeam": "FC Getafe",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "FC Valencia",
+      "awayTeam": "Elche CF",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 37,
+      "homeTeam": "FC Villareal",
+      "awayTeam": "CA Osasuna",
+      "dateTime": "2027-05-23T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Atlético Madrid",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Elche CF",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Espanyol Barcelona",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "FC Getafe",
+      "awayTeam": "FC Barcelona",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Levante UD",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "FC Malaga",
+      "awayTeam": "FC Sevilla",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "CA Osasuna",
+      "awayTeam": "FC Valencia",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Deportivo A Coruña",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 38,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "FC Villareal",
+      "dateTime": "2027-05-30T13:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    }
+  ],
+  "source": "openligadb-or-transfermarkt"
 }
