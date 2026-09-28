@@ -138,6 +138,20 @@ def team_score(a: str, b: str) -> float:
     return 100.0 * len(inter) / max(len(ta), len(tb))
 
 
+def uefa_team_name(team: dict) -> str:
+    if not isinstance(team, dict):
+        return ''
+    trans = team.get('translations') or {}
+    for bag_key in ('displayName', 'officialName', 'name', 'teamName'):
+        bag = trans.get(bag_key)
+        if isinstance(bag, dict):
+            for lang in ('DE', 'de', 'EN', 'en'):
+                val = bag.get(lang)
+                if isinstance(val, str) and val.strip():
+                    return val.strip()
+    return str(team.get('internationalName') or team.get('teamCode') or '').strip()
+
+
 def map_position(raw: str) -> str:
     key = (raw or '').strip().lower()
     return POS_MAP.get(key, 'Mittelfeld')
@@ -418,8 +432,8 @@ def fetch_uefa_window(competition_id: str, season_year: str, now: datetime, ahea
             kick = parse_iso_utc((raw.get('kickOffTime') or {}).get('dateTime') or '')
             if kick is None or not in_window(kick, now, ahead, back):
                 continue
-            home = (raw.get('homeTeam') or {}).get('internationalName') or ''
-            away = (raw.get('awayTeam') or {}).get('internationalName') or ''
+            home = uefa_team_name(raw.get('homeTeam') or {})
+            away = uefa_team_name(raw.get('awayTeam') or {})
             found.append({
                 'id': str(raw.get('id') or ''),
                 'home': home,
@@ -558,6 +572,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--window-hours', type=float, default=6.0)
     parser.add_argument('--lookback-minutes', type=float, default=30.0)
+    parser.add_argument('--leagues', default='', help='Kommagetrennte Ligen, leer = alle')
     args = parser.parse_args()
     if os.path.basename(os.getcwd()) == 'scraper':
         os.chdir('..')
@@ -577,6 +592,8 @@ def main() -> None:
         'nationsleague', 'friendlies', 'euro', 'worldcup',
         'euroqualifying', 'worldcupqualifying',
     ]
+    if args.leagues.strip():
+        order = [name.strip() for name in args.leagues.split(',') if name.strip()]
     total_new = 0
     for league in order:
         log(f"\n📊 {league}")
