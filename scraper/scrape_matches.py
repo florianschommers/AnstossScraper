@@ -50,6 +50,19 @@ def get_display_season() -> str:
     return str(int(get_openligadb_season()) + 1)
 
 
+def tournament_years(origin: int) -> List[str]:
+    """Endrundenjahre im 4-Jahres-Takt. Hält das aktuelle und das nächste Turnier."""
+    year = datetime.now(timezone.utc).year
+    cursor = origin
+    while cursor < year - 1:
+        cursor += 4
+    years: List[str] = []
+    while cursor <= year + 6:
+        years.append(str(cursor))
+        cursor += 4
+    return years
+
+
 def pick(d: dict, *keys):
     for k in keys:
         if isinstance(d, dict) and k in d and d[k] is not None:
@@ -659,7 +672,10 @@ def scrape_league(league: str) -> List[Dict]:
     """
     configs = {
         'england': {'oldb': ['pl', 'epl', 'pl1']},
-        'spain': {'oldb': ['la1']},
+        'spain': {
+            'livescore': ('spain', 'laliga', 'Europe/Madrid'),
+            'oldb': ['la1'],
+        },
         'italy': {
             'livescore': ('italy', 'serie-a', 'Europe/Rome'),
             'csv': ('I1', 10, 'Europe/Rome'),
@@ -678,40 +694,47 @@ def scrape_league(league: str) -> List[Dict]:
         },
         'conferenceleague': {'uefa': True, 'international': True},
         'nationsleague': {
-            'uefa_comp': ('2014', [get_display_season()], 'all'),
+            'uefa_comp': ('2014', [get_display_season(), str(int(get_display_season()) - 1)], 'all'),
         },
         'friendlies': {
             'livescore': ('international-friendlies', 'friendlies', 'Europe/Berlin'),
             'locale': 'de',
         },
         'euro': {
-            'uefa_comp': ('3', ['2028', '2024'], 'tournament'),
+            'uefa_comp': ('3', tournament_years(2024), 'tournament'),
         },
         'worldcup': {
-            'uefa_comp': ('17', ['2026'], 'tournament'),
+            'uefa_comp': ('17', tournament_years(2026), 'tournament'),
         },
         'euroqualifying': {
-            'uefa_comp': ('3', ['2028', '2024'], 'qualifying'),
+            'uefa_comp': ('3', tournament_years(2024), 'qualifying'),
         },
         'worldcupqualifying': {
-            'uefa_comp': ('17', ['2026'], 'qualifying'),
+            'uefa_comp': ('17', tournament_years(2026), 'qualifying'),
         },
     }
     cfg = configs[league]
     international = bool(cfg.get('international'))
-    if 'oldb' in cfg:
+    if 'oldb' in cfg and 'livescore' not in cfg:
         return scrape_openligadb(league, cfg['oldb'], international)
     if 'livescore' in cfg:
         country, slug, tz_name = cfg['livescore']
         matches = scrape_livescore(league, country, slug, tz_name, cfg.get('locale'))
-        if matches:
+        # Kurze Antwort (nur der aktuelle Spieltag) ist kein Saisonplan.
+        if len(matches) >= 200:
+            return matches
+        if matches and 'oldb' not in cfg:
             return matches
         csv_cfg = cfg.get('csv')
-        if csv_cfg:
+        if csv_cfg and not matches:
             code, per_round, tz_name = csv_cfg
             log(f"  ↪️ Livescore leer — Fallback CSV für {league}")
             return scrape_football_data_csv(league, code, per_round, tz_name)
-        return []
+        if 'oldb' in cfg:
+            log(f"  ↪️ Livescore unvollständig ({len(matches)}) — Fallback OpenLigaDB für {league}")
+            oldb = scrape_openligadb(league, cfg['oldb'], international)
+            return oldb or matches
+        return matches
     if cfg.get('uefa'):
         return scrape_uefa_conference(league)
     if 'uefa_comp' in cfg:
@@ -777,8 +800,8 @@ def main() -> None:
     log("🚀 Starte Match-Scraping...")
     log(
         "\n🔎 Quellen (GitHub-tauglich, ohne deinen PC):\n"
-        "  OpenLigaDB JSON     — england (pl), spain (la1), championsleague (ucl), europaleague (uelYYYY)\n"
-        "  Livescore JSON      — italy (serie-a), france (ligue-1)\n"
+        "  OpenLigaDB JSON     — england (pl), championsleague (ucl), europaleague (uelYYYY)\n"
+        "  Livescore JSON      — spain (laliga), italy (serie-a), france (ligue-1); Spanien fällt auf OpenLigaDB zurück\n"
         "  UEFA Match API      — conferenceleague Ligaphase (competitionId 2019)\n"
         "  UEFA Match API      — nationsleague (2014), euro/euroqualifying (3), worldcup/worldcupqualifying (17)\n"
         "  Livescore JSON      — friendlies (international-friendlies/friendlies)\n"
