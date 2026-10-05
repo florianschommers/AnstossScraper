@@ -1,7 +1,7 @@
 {
   "league": "nationsleague",
   "season": "2027",
-  "lastUpdated": "2026-10-04T18:33:45Z",
+  "lastUpdated": "2026-10-05T22:10:16Z",
   "lineups": [
     {
       "homeTeam": "Georgien",
@@ -2178,6 +2178,798 @@
         {
           "name": "Andreas Schjelderup",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Zypern",
+      "awayTeam": "Lettland",
+      "dateTime": "2026-10-05T16:00:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Fabiano",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nikolaos Panagiotou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hector Kyprianou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ioannis Pittas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Loizos Loizou",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andronikos Kakoullis",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giorgos Malekkidis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonidas Konomis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kostakis Artymatas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Grigoris Kastanos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcus Edwards",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Rihards Matrevics",
+          "position": "Torwart"
+        },
+        {
+          "name": "Daniels Balodis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oskars Vientiess",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eduards Dašķevičs",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vladislavs Gutkovskis",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lūkass Vapne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raivis Jurkovskis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrejs Cigaņiks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dmitrijs Zelenkovs",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Markuss Strods",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Deniss Meļņiks",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bosnien-Herzegowina",
+      "awayTeam": "Polen",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Martin Zlomislić",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tarik Muharemović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sead Kolašinac",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zinedin Smajlović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Armin Gigović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ermedin Demirović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ivan Bašić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amar Memić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ermin Mahmic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Katić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Haris Tabaković",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marcin Bułka",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matty Cash",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Bednarek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mateusz Żukowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Piotr Zieliński",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Karol Świderski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jakub Kiwior",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wiktor Nowak",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Przemysław Frankowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Szymański",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicola Zalewski",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Italien",
+      "awayTeam": "Türkei",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Gianluigi Donnarumma",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matteo Ruggeri",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Romano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluca Scamacca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Issa Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Maldini",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolò Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Vergara",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluca Mancini",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Uğurcan Çakır",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zeki Çelik",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Salih Özcan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "İrfan Can Kahveci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eren Elmalı",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdülkerim Bardakcı",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ozan Kabak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "İsmail Yüksek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yunus Akgün",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferdi Kadıoğlu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aral Şimşir",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Frankreich",
+      "awayTeam": "Belgien",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eduardo Camavinga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "position": "Angriff"
+        },
+        {
+          "name": "Manu Koné",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andy Diouf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leny Yoro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Esteban Lepaul",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Maarten Vandevoordt",
+          "position": "Torwart"
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roméo Lavia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romelu Lukaku",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dodi Lukébakio",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joaquin Seys",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Vanaken",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolas Raskin",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Montenegro",
+      "awayTeam": "Armenien",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Balša Popović",
+          "position": "Torwart"
+        },
+        {
+          "name": "Milan Roganović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrej Đurić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marko Janković",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Krstović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Stefan Savić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ognjen Gašević",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vasilije Adžić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Đukanović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Milutin Osmajić",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andrija Bulatović",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Arsen Beglaryan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Erik Piloyan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Georgii Arutiunian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "UgochukwuIwu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Narek Hovhannisyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Karlen Hovhannisyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Artur Serobyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gor Manvelyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Artur Miranyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayair Tiknizyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Erik Simonyan",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nordirland",
+      "awayTeam": "Georgien",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Pierce Charles",
+          "position": "Torwart"
+        },
+        {
+          "name": "Justin Devenny",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Atcheson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trai Hume",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ethan Galbraith",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jamie Donley",
+          "position": "Angriff"
+        },
+        {
+          "name": "Isaac Price",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruairi McConville",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Kelly",
+          "position": "Angriff"
+        },
+        {
+          "name": "Shea Charles",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ciaron Brown",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Giorgi Mamardashvili",
+          "position": "Torwart"
+        },
+        {
+          "name": "Otar Kakabadze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lasha Dvali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luka Lochoshvili",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giorgi Kochorashvili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khvicha Kvaratskhelia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Zuriko Davitashvili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Budu Zivzivadze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anzor Mekvabishvili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gizo Mamageishvili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saba Sazonov",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Rumänien",
+      "awayTeam": "Schweden",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Otto Hindrich",
+          "position": "Torwart"
+        },
+        {
+          "name": "Andrei Rațiu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matei Ilie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrei Coubiș",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Darius Olaru",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florin Tănase",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nicolae Stanciu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicușor Bancu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Răzvan Marin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dennis Man",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vlad Dragomir",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Viktor Johansson",
+          "position": "Torwart"
+        },
+        {
+          "name": "Felix Beijmo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Lindelöf",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Smith",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Bergvall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesper Karlström",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastian Nanasi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Besfort Zeneli",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Ukraine",
+      "awayTeam": "Ungarn",
+      "dateTime": "2026-10-05T18:45:00Z",
+      "matchday": 4,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Anatoliy Trubin",
+          "position": "Torwart"
+        },
+        {
+          "name": "Illia Krupskyi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eduard Sarapii",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Taras Mykhavko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matvii Ponomarenko",
+          "position": "Angriff"
+        },
+        {
+          "name": "Illia Zabarnyi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Viktor Tsygankov",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oleh Ocheretko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yehor Nazaryna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vladyslav Veleten",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ihor Krasnopir",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Balázs Tóth",
+          "position": "Torwart"
+        },
+        {
+          "name": "Attila Osváth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Márk Csinger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Willi Orbán",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milán Vitális",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "András Schäfer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dániel Lukács",
+          "position": "Angriff"
+        },
+        {
+          "name": "Zsolt Nagy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milán Tóth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alex Tóth",
+          "position": "Mittelfeld"
         }
       ]
     }

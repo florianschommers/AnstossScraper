@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-09-28T23:36:23Z",
+  "lastUpdated": "2026-10-05T22:10:17Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -197,6 +197,105 @@
         },
         {
           "name": "Darwin Núñez",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Liechtenstein",
+      "awayTeam": "Gibraltar",
+      "dateTime": "2026-10-05T17:45:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Benjamin Buchel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Livio Meier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessio Hasler",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Weissenhofer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jens Hofer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Emanuel Zund",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aron Sele",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Liam Kranz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Goppel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabio Luque Notaro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alessandro Lo Russo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jaylan Hankins",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ethan Jolley",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bernardo Lopes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kian Ronan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Valarino",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Graeme Torrilla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Bent",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James Scanlon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tjay De Barr",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dylan Borge",
+          "position": "Angriff"
+        },
+        {
+          "name": "Leon Mason",
           "position": "Angriff"
         }
       ]
