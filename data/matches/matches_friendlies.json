@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-04T10:17:19Z",
+  "lastUpdated": "2026-10-05T22:10:15Z",
   "matches": [
     {
       "matchday": 1,
@@ -3078,8 +3078,8 @@
       "homeTeam": "Senegal",
       "awayTeam": "Union der Komoren",
       "dateTime": "2026-10-04T12:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3088,8 +3088,8 @@
       "homeTeam": "Kirgisistan",
       "awayTeam": "Libanon",
       "dateTime": "2026-10-04T13:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3108,8 +3108,8 @@
       "homeTeam": "Marokko",
       "awayTeam": "Mali",
       "dateTime": "2026-10-04T17:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3118,8 +3118,8 @@
       "homeTeam": "Ägypten",
       "awayTeam": "Südafrika",
       "dateTime": "2026-10-04T17:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3130,7 +3130,7 @@
       "dateTime": "2026-10-04T21:30:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -3138,18 +3138,8 @@
       "homeTeam": "Ecuador",
       "awayTeam": "Panama",
       "dateTime": "2026-10-05T05:30:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 1,
-      "homeTeam": "Uganda",
-      "awayTeam": "Demokratische Republik Kongo",
-      "dateTime": "2026-10-05T09:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3158,8 +3148,18 @@
       "homeTeam": "Japan",
       "awayTeam": "Neuseeland",
       "dateTime": "2026-10-05T09:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Uganda",
+      "awayTeam": "Demokratische Republik Kongo",
+      "dateTime": "2026-10-05T12:00:00Z",
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3168,8 +3168,18 @@
       "homeTeam": "Sri Lanka",
       "awayTeam": "Mauritius",
       "dateTime": "2026-10-05T14:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:2",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Ruanda",
+      "awayTeam": "Kenia",
+      "dateTime": "2026-10-05T15:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3178,8 +3188,8 @@
       "homeTeam": "Liechtenstein",
       "awayTeam": "Gibraltar",
       "dateTime": "2026-10-05T17:45:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3187,7 +3197,7 @@
       "matchday": 1,
       "homeTeam": "Südkorea",
       "awayTeam": "Usbekistan",
-      "dateTime": "2026-10-06T09:00:00Z",
+      "dateTime": "2026-10-06T10:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
