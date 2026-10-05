@@ -2,8 +2,9 @@ name: Update Bundesliga Matches
 
 on:
   schedule:
-    # Alle 7 Tage, Sonntag 03:00 UTC (05:00 MESZ / 04:00 MEZ)
-    # Eine Stunde nach "Scrape and publish data", damit sich die Pushes nicht beißen
+    # Täglich 21:30 UTC, vor dem allgemeinen Match-Lauf um 22:30 UTC.
+    # Sonntag 03:00 UTC bleibt als zusätzlicher Lauf.
+    - cron: '30 21 * * *'
     - cron: '0 3 * * 0'
   workflow_dispatch:  # Manuell auslösbar
 
