@@ -2,29 +2,11 @@ name: Update Lineups
 
 on:
   schedule:
-    # UTC, Ziel Berlin MESZ (UTC+2). ~15 Läufe/Woche an den Anstoß-Clustern.
-    # Im Winter (UTC+1) liegt der Slot 1h früher — das 6h-Fenster fängt die Spiele trotzdem.
-    # Di CL
-    - cron: '30 15 * * 2'
-    - cron: '0 18 * * 2'
-    # Mi CL
-    - cron: '30 15 * * 3'
-    - cron: '0 18 * * 3'
-    # Do EL/ECL
-    - cron: '0 15 * * 4'
-    - cron: '0 18 * * 4'
-    # Fr Abend
-    - cron: '0 16 * * 5'
-    - cron: '0 18 * * 5'
-    # Sa Liga
-    - cron: '0 11 * * 6'
-    - cron: '0 13 * * 6'
-    - cron: '30 14 * * 6'
-    - cron: '30 16 * * 6'
-    # So Liga
-    - cron: '0 11 * * 0'
-    - cron: '0 13 * * 0'
-    - cron: '0 15 * * 0'
+    # Jede Stunde 10–22 UTC, jeden Tag.
+    # Damit sind Montag/Dienstag (Nations League, Freundschaftsspiele) und späte Anstöße dabei.
+    # GitHub startet Cron-Jobs oft verspätet; das 8-Stunden-Rückfenster im Scraper fängt das auf.
+    # Winter (UTC+1) und Sommer (UTC+2) liegen beide in diesem Band.
+    - cron: '0 10-22 * * *'
   workflow_dispatch:
 
 permissions:
