@@ -3,7 +3,7 @@
 Aufstellungen für Anstoss — unbeaufsichtigt auf GitHub Actions.
 
 Quellen: Livescore JSON (Ligen) und UEFA Match API (CL/EL/ECL).
-Nur Spiele im Zeitfenster (Standard: letzte 30 Min bis +6 Stunden).
+Nur Spiele im Zeitfenster (Standard: letzte 8 Stunden bis +6 Stunden).
 Bestehende lineups_*.json werden gemerged, leere Startelfs überschreiben nichts.
 """
 
@@ -44,8 +44,28 @@ POS_MAP = {
 
 STOP = {
     'fc', 'cf', 'ac', 'afc', 'cfc', 'sc', 'sv', 'tsg', 'rc', 'us', 'as', 'ssc',
-    'the', 'de', 'calcio', 'club', 'united', 'hotspur', 'wanderers', '04',
+    'the', 'de', 'calcio', 'club', 'hotspur', 'wanderers', '04',
     '1909', '1907', '1893', '1913', '1', '1.',
+}
+
+# Livescore schreibt oft englisch oder abgekürzt, OpenLigaDB deutsch und ausgeschrieben.
+ALIASES = {
+    'cologne': 'koln',
+    'koeln': 'koln',
+    'munich': 'munchen',
+    'muenchen': 'munchen',
+    'monchengladbach': 'gladbach',
+    'moenchengladbach': 'gladbach',
+    'mgladbach': 'gladbach',
+    'nuremberg': 'nurnberg',
+    'nuernberg': 'nurnberg',
+    'duesseldorf': 'dusseldorf',
+    'fuerth': 'furth',
+    'muenster': 'munster',
+    'saint': 'st',
+    'st': 'st',
+    'inter': 'internazionale',
+    'villareal': 'villarreal',
 }
 
 LIVESCORE_LEAGUES = {
@@ -64,11 +84,11 @@ UEFA_LEAGUES = {
     'championsleague': ('1', None, 'tournament'),
     'europaleague': ('14', None, 'tournament'),
     'conferenceleague': ('2019', None, 'tournament'),
-    'nationsleague': ('2014', None, 'all'),
-    'euro': ('3', ('2028', '2024'), 'tournament'),
-    'euroqualifying': ('3', ('2028', '2024'), 'qualifying'),
-    'worldcup': ('17', ('2026',), 'tournament'),
-    'worldcupqualifying': ('17', ('2026',), 'qualifying'),
+    'nationsleague': ('2014', 'cycle-nl', 'all'),
+    'euro': ('3', 'cycle-euro', 'tournament'),
+    'euroqualifying': ('3', 'cycle-euro', 'qualifying'),
+    'worldcup': ('17', 'cycle-wc', 'tournament'),
+    'worldcupqualifying': ('17', 'cycle-wc', 'qualifying'),
 }
 
 
@@ -85,6 +105,19 @@ def get_openligadb_season() -> str:
 
 def get_display_season() -> str:
     return str(int(get_openligadb_season()) + 1)
+
+
+def tournament_years(origin: int) -> Tuple[str, ...]:
+    """Endrundenjahre im 4-Jahres-Takt, ab origin. Hält das aktuelle und das nächste Turnier."""
+    year = datetime.now(timezone.utc).year
+    cursor = origin
+    while cursor < year - 1:
+        cursor += 4
+    years = []
+    while cursor <= year + 6:
+        years.append(str(cursor))
+        cursor += 4
+    return tuple(years)
 
 
 def europe_naive_to_utc(dt_naive: datetime, zone_name: str) -> datetime:
@@ -117,7 +150,14 @@ def norm_team(name: str) -> str:
     s = strip_accents(name or '').lower()
     s = s.replace('ß', 'ss').replace('.', ' ').replace('-', ' ').replace("'", ' ')
     s = re.sub(r'[^a-z0-9 ]+', ' ', s)
-    parts = [p for p in s.split() if p and p not in STOP]
+    parts = []
+    for p in s.split():
+        if not p or p in STOP or len(p) == 1:
+            continue
+        if p == 'psg':
+            parts.extend(['paris', 'st', 'germain'])
+            continue
+        parts.append(ALIASES.get(p, p))
     return ' '.join(parts)
 
 
@@ -375,7 +415,8 @@ def match_event(match: Dict, events: List[Dict]) -> Optional[Dict]:
         if not ev.get('eid'):
             continue
         delta = abs((ev['kickoff'] - match['kickoff']).total_seconds())
-        if delta > 3 * 3600:
+        # OpenLigaDB legt Anstoßzeiten oft erst spät fest und liegt dann mehrere Stunden daneben.
+        if delta > 6 * 3600:
             continue
         hs = team_score(match['homeTeam'], ev['home'])
         aws = team_score(match['awayTeam'], ev['away'])
@@ -527,7 +568,7 @@ def scrape_uefa_league(league: str, competition_id: str, window_matches: List[Di
             if not um.get('id'):
                 continue
             delta = abs((um['kickoff'] - match['kickoff']).total_seconds())
-            if delta > 3 * 3600:
+            if delta > 6 * 3600:
                 continue
             hs = team_score(match['homeTeam'], um['home'])
             aws = team_score(match['awayTeam'], um['away'])
@@ -571,7 +612,7 @@ def save_store(league: str, store: Dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--window-hours', type=float, default=6.0)
-    parser.add_argument('--lookback-minutes', type=float, default=30.0)
+    parser.add_argument('--lookback-minutes', type=float, default=480.0)
     parser.add_argument('--leagues', default='', help='Kommagetrennte Ligen, leer = alle')
     args = parser.parse_args()
     if os.path.basename(os.getcwd()) == 'scraper':
@@ -583,7 +624,7 @@ def main() -> None:
 
     log("🚀 Lineup-Update (Livescore + UEFA, kein fussballdaten.de)")
     log(f"   Fenster: -{int(back.total_seconds()//60)} Min bis +{args.window_hours:g} h | jetzt {now.isoformat()}")
-    log("   Cron zielt auf Anstoß-Cluster (~15 Läufe/Woche), dieser Lauf holt nur fällige Spiele.\n")
+    log("   Stündlicher Lauf, dieser Durchgang holt nur Spiele im Fenster.\n")
 
     order = [
         'bundesliga', '2bundesliga', 'dfbpokal',
@@ -609,6 +650,13 @@ def main() -> None:
             added = scrape_livescore_league(league, country, slug, zone, window, store, locale)
         else:
             competition_id, season_years, phase_mode = UEFA_LEAGUES[league]
+            if season_years == 'cycle-euro':
+                season_years = tournament_years(2024)
+            elif season_years == 'cycle-wc':
+                season_years = tournament_years(2026)
+            elif season_years == 'cycle-nl':
+                display = int(get_display_season())
+                season_years = (str(display), str(display - 1))
             added = scrape_uefa_league(
                 league, competition_id, window, store, now, ahead, back,
                 season_years, phase_mode,
