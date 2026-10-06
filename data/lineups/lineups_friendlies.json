@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-06T16:31:01Z",
+  "lastUpdated": "2026-10-06T21:27:04Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -625,19 +625,19 @@
           "position": "Abwehr"
         },
         {
-          "name": "Himad Abdelli",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Adil Aouchiche",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ibrahim Maza",
+          "name": "Himad Abdelli",
           "position": "Mittelfeld"
         },
         {
           "name": "Mohamed Amoura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Maza",
           "position": "Mittelfeld"
         },
         {
@@ -692,6 +692,105 @@
         },
         {
           "name": "Daniel Sosah",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Jordanien",
+      "awayTeam": "Venezuela",
+      "dateTime": "2026-10-06T18:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Abdallah Al Fakhouri",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mohannad Abu Taha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saed Al-Rosan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdallah Nasib",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anas Said Ghazi Badawi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noor Al-Deen Mahmoud Ali Al Rawabdeh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nizar Al-Rashdan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mousa Tamari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ali Iyad Olwan",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mahmoud Al Mardi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yousef Qashi",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Cristopher Varela",
+          "position": "Torwart"
+        },
+        {
+          "name": "Yordan Osorio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrusw Araujo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlos Vivas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan David Sanchez Contreras",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Delvin Alfonzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edson Tortolero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Libra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Pereira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wikelman Carmona",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jovanny Bolivar",
           "position": "Angriff"
         }
       ]
