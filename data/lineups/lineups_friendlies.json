@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-05T22:10:17Z",
+  "lastUpdated": "2026-10-06T16:31:01Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -296,6 +296,402 @@
         },
         {
           "name": "Leon Mason",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Südkorea",
+      "awayTeam": "Usbekistan",
+      "dateTime": "2026-10-06T10:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hyeon-woo Jo",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hyun-Taek Cho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kim Tae-hyeon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lee Hanbeom",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tae-Hyun Kim",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hwang Hee-chan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lee Jae-sung",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Park Jin-seob",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lee Kang-in",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Son Heung-min",
+          "position": "Angriff"
+        },
+        {
+          "name": "Se-Hun Oh",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Abduvakhid Nematov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sherzod Nasrullaev",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jakhongir Urozov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Behruzjon Karimov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Odiljon Khamrobekov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abbosbek Fayzullaev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Akmal Mozgovoy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Azizjon Ganiev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dostonbek Khamdamov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eldor Shomurodov",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "China",
+      "awayTeam": "Tadschikistan",
+      "dateTime": "2026-10-06T10:35:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Dianzuo Liu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zhunyi Gao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tyias Browning",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yang Li",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yang Liu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wang Shangyuan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shenghao Huang",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wenneng Xie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shihao Wei",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bunyamin Abdusalam",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wang Ziming",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Rustam Yatimov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tabrez Islomov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mekhrubon Karimov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vakhdat Khanonov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alijon Karomatullozoda",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amirbek Dzhuraboev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ekhson Pandzhshanbe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Parvis Abdullojevic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alisher Dzhalilov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shervoni Mabatshoev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sheriddin Boboev",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Indien",
+      "awayTeam": "Uruguay",
+      "dateTime": "2026-10-06T13:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gurpreet Singh Sandhu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Akash Mishra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pramveer Singh",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anwar Ali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tekcham Abhishek Singh",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lalengmawia Ralte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anrirudh Thapa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ashique Kuruniyan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ryan Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manvir Singh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edmund Lalrindika",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Thiago Cardozo",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joaquin Piquerez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José María Giménez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Santiago Mouriño",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahitan Nández",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximiliano Araújo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emiliano Martínez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Zalazar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darwin Núñez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Federico Vinas",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Algerien",
+      "awayTeam": "Niger",
+      "dateTime": "2026-10-06T18:30:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Abdelatif Ramdane",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jaouen Hadjam",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zineddine Belaid",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ahmed Touba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sohaib Nair",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Himad Abdelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adil Aouchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Amoura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Monsef Bakrar",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mahamadou Tanja",
+          "position": "Torwart"
+        },
+        {
+          "name": "Abdel Rahim Alhassane Bonkano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oumar Sako",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Abdouramane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aboubacar Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Konan N’Dri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ali Muhammad",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssouf Oumarou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kairou Amoustapha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ousseini Badamassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Sosah",
           "position": "Angriff"
         }
       ]
