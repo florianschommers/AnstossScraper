@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-06T02:21:49Z",
+  "lastUpdated": "2026-10-07T01:40:39Z",
   "matches": [
     {
       "matchday": 1,
@@ -3198,8 +3198,8 @@
       "homeTeam": "Südkorea",
       "awayTeam": "Usbekistan",
       "dateTime": "2026-10-06T10:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3208,8 +3208,8 @@
       "homeTeam": "China",
       "awayTeam": "Tadschikistan",
       "dateTime": "2026-10-06T10:35:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3218,18 +3218,18 @@
       "homeTeam": "Indien",
       "awayTeam": "Uruguay",
       "dateTime": "2026-10-06T13:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:6",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
     {
       "matchday": 1,
-      "homeTeam": "Jordanien",
-      "awayTeam": "Venezuela",
-      "dateTime": "2026-10-06T18:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "homeTeam": "Russia",
+      "awayTeam": "Nigeria",
+      "dateTime": "2026-10-06T15:00:00Z",
+      "score": "3:3",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3237,9 +3237,19 @@
       "matchday": 1,
       "homeTeam": "Algerien",
       "awayTeam": "Niger",
-      "dateTime": "2026-10-06T18:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "dateTime": "2026-10-06T16:00:00Z",
+      "score": "2:1",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Jordanien",
+      "awayTeam": "Venezuela",
+      "dateTime": "2026-10-06T16:00:00Z",
+      "score": "0:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3248,8 +3258,8 @@
       "homeTeam": "Argentinien",
       "awayTeam": "Benin",
       "dateTime": "2026-10-06T22:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3260,8 +3270,8 @@
       "dateTime": "2026-10-06T22:45:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2:0"
     },
     {
       "matchday": 1,
@@ -3270,8 +3280,8 @@
       "dateTime": "2026-10-06T23:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1:0"
     },
     {
       "matchday": 1,
@@ -3280,7 +3290,7 @@
       "dateTime": "2026-10-07T01:30:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
