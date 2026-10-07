@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-06T21:27:04Z",
+  "lastUpdated": "2026-10-07T01:13:38Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -791,6 +791,303 @@
         },
         {
           "name": "Jovanny Bolivar",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Argentinien",
+      "awayTeam": "Benin",
+      "dateTime": "2026-10-06T22:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nicolás Tagliafico",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Agustin Giay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo De Paul",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lautaro Martínez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lionel Messi",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marcel Souke Dandjinou",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tamimou Ouorou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Tijani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yohan Roche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Liam Omore",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hassane Imourane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sessi D'Almeida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yamirou Ouorou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Olaitan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodolfo Aloko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwatosin Aiyegun",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Kolumbien",
+      "awayTeam": "Peru",
+      "dateTime": "2026-10-06T22:45:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Kevin Mier",
+          "position": "Torwart"
+        },
+        {
+          "name": "Samuel Velásquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Andrade",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jhon Solís",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustavo Puerta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andres Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jhon Arias",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yáser Asprilla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Suárez",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pedro Gallese",
+          "position": "Torwart"
+        },
+        {
+          "name": "Marcos López",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Renzo Garces",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Erick Noriega",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Huaman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wilder Cartagena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yoshimar Yotun",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johnny Vidales",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jairo Velez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piero Magallanes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrián Ugarriza",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Kanada",
+      "dateTime": "2026-10-06T23:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Brian Schwake",
+          "position": "Torwart"
+        },
+        {
+          "name": "Auston Trusty",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Chris Richards",
+          "position": "Abwehr"
+        },
+        {
+          "name": "George Campbell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Freeman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brooklyn Raines",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gio Reyna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathis Albert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Malik Tillman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yunus Musah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justin Ellis",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dayne St. Clair",
+          "position": "Torwart"
+        },
+        {
+          "name": "Richie Laryea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ralph Priso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luc De Fougerolles",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niko Sigur",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacob Shaffelburg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stephen Eustáquio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathan-Dylan Saliba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Liam Millar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tani Oluwaseyi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jonathan David",
           "position": "Angriff"
         }
       ]
