@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-07T01:40:39Z",
+  "lastUpdated": "2026-10-08T02:05:54Z",
   "matches": [
     {
       "matchday": 1,
@@ -3268,29 +3268,29 @@
       "homeTeam": "Kolumbien",
       "awayTeam": "Peru",
       "dateTime": "2026-10-06T22:45:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "2:0"
+      "score": "2:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
     },
     {
       "matchday": 1,
       "homeTeam": "USA",
       "awayTeam": "Kanada",
       "dateTime": "2026-10-06T23:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "1:0"
+      "score": "1:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
     },
     {
       "matchday": 1,
       "homeTeam": "Mexiko",
       "awayTeam": "Chile",
       "dateTime": "2026-10-07T01:30:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
+      "score": "0:2",
+      "isFinished": true,
+      "isLive": false,
       "liveScore": null
     },
     {
