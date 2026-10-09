@@ -1,6 +1,106 @@
 {
   "league": "spain",
-  "season": "",
-  "lastUpdated": "2026-09-28T23:51:52.989099",
-  "lineups": []
+  "season": "2027",
+  "lastUpdated": "2026-10-09T16:49:32Z",
+  "lineups": [
+    {
+      "homeTeam": "Malaga",
+      "awayTeam": "Espanyol",
+      "dateTime": "2026-10-09T18:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alfonso Herrero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Carlos Puga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Angel Recio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Berrocal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Garrido",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Martinez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Larrubia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Dotor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joaquin Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Ruiz Rubio",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marko Dmitrović",
+          "position": "Torwart"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Clemens Riedel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Moscardo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Calatrava Torrado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        }
+      ]
+    }
+  ]
 }

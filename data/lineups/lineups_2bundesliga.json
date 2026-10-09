@@ -1,6 +1,205 @@
 {
   "league": "2bundesliga",
-  "season": "",
-  "lastUpdated": "2026-09-28T23:46:03.223611",
-  "lineups": []
+  "season": "2027",
+  "lastUpdated": "2026-10-09T16:49:32Z",
+  "lineups": [
+    {
+      "homeTeam": "1. FC Heidenheim 1846",
+      "awayTeam": "1. FC Kaiserslautern",
+      "dateTime": "2026-10-09T16:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Thomas Dähne",
+          "position": "Torwart"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Fohrenbach",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oualid Mhamdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christian Joe Conteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Niehues",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Hennrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Honsak",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mikkel Kaufmann",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Julian Krahl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jacob Rasmussen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxwell Gyamfi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mika Haas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Semih Sahin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabian Kunze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Joly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marlon Ritter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naatan Skyttä",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mergim Berisha",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "Holstein Kiel",
+      "dateTime": "2026-10-09T16:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Ron-Thorben Hoffmann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Fabio Di Michele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isidoros Koutsidis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Ehlers",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mehmet-Can Aydin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Max Marie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Flick",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yann Sturm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Di Benedetto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Opoku",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Urbich",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Timon Weiner",
+          "position": "Torwart"
+        },
+        {
+          "name": "John Tolkin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Haubjerg Ellegaard Madsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ivan Nekic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hiroki Sekine",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Meffert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Therkelsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ikem Ugoh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Guillermo Balzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Kapralik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phil Harres",
+          "position": "Angriff"
+        }
+      ]
+    }
+  ]
 }

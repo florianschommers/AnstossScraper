@@ -1,6 +1,106 @@
 {
   "league": "france",
-  "season": "",
-  "lastUpdated": "2026-09-28T23:52:43.945753",
-  "lineups": []
+  "season": "2027",
+  "lastUpdated": "2026-10-09T16:49:33Z",
+  "lineups": [
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Lyon",
+      "dateTime": "2026-10-09T17:45:00Z",
+      "matchday": 6,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jonathan Gradit",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean-Clair Todibo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mezian Mesloub Soares",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Cuisance",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michał Skóraś",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdallah Sima",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Odsonne Edouard",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dominik Greif",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zachary Athekame",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Felix Bacher",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Kluivert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abner Vinícius",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mads Bidstrup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyler Morton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ernest Nuamah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pavel Šulc",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loïs Openda",
+          "position": "Angriff"
+        }
+      ]
+    }
+  ]
 }

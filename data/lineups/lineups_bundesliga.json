@@ -1,6 +1,106 @@
 {
   "league": "bundesliga",
-  "season": "",
-  "lastUpdated": "2026-09-28T21:41:01.223649",
-  "lineups": []
+  "season": "2027",
+  "lastUpdated": "2026-10-09T16:49:31Z",
+  "lineups": [
+    {
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "SV Werder Bremen",
+      "dateTime": "2026-10-09T18:30:00Z",
+      "matchday": 5,
+      "phase": "5. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Gregor Kobel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kouakou Joane Gadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Waldemar Anton",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kauã Prates de Almeida",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ramy Bensebaini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joey Veerman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Nmecha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Beier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fábio Silva",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alexander Schlager",
+          "position": "Torwart"
+        },
+        {
+          "name": "Amos Pieper",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Friedl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Olivier Deman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arthur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youri Regeer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovit Reis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Grüll",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eren Dinkçi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Niclas Füllkrug",
+          "position": "Angriff"
+        },
+        {
+          "name": "Chuki",
+          "position": "Angriff"
+        }
+      ]
+    }
+  ]
 }
