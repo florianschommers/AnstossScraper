@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-09T21:29:03Z",
+  "lastUpdated": "2026-10-10T15:44:12Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -197,6 +197,303 @@
         },
         {
           "name": "Phil Harres",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV Darmstadt 98",
+      "awayTeam": "Energie Cottbus",
+      "dateTime": "2026-10-10T11:00:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marcel Schuhen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Raoul Petretta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aleksandar Vukotic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patric Pfeiffer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Mikelbrencis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Weisshaupt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Verkooijen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Klefisch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Richter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milan Smit",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ho-Jae Lee",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marcel Lotka",
+          "position": "Torwart"
+        },
+        {
+          "name": "Axel Borgmann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luca Erlein",
+          "position": "Abwehr"
+        },
+        {
+          "name": "King Samuel Manu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Henry Rorig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Michelbrink",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Bittencourt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Kinsombi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tolcay Cigerci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moritz Hannemann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justin Butler",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "Hannover 96",
+      "dateTime": "2026-10-10T11:00:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Dominik Reimann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pierre Nadjombe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anselmo Garcia MacNulty",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Herbert Bockhorn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Torben Musel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Hyryläinen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Baris Atik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moritz Kwarteng",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emmanuel Iyoha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateusz Zukowski",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Leo Weinkauf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jean Hugonet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boris Tomiak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bastian Allgeier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Franz Roggow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kolja Oudenne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maurice Neubauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Hartel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefán Teitur Thórdarson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emir Sahiti",
+          "position": "Angriff"
+        },
+        {
+          "name": "Benjamin Kallman",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "Dynamo Dresden",
+      "dateTime": "2026-10-10T11:00:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Krumrey",
+          "position": "Torwart"
+        },
+        {
+          "name": "Niklas Wiemann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Müller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fabinski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fridolin Wagner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bjarke Jacobsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Kammerbauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Meissner",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bernd Riesselmann",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lennart Grill",
+          "position": "Torwart"
+        },
+        {
+          "name": "Simon Straudi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Friedrich Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolai Rapp",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Sterner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Raschl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Wagner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ben Bobzien",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niklas Hauptmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrice Covic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Vermeij",
           "position": "Angriff"
         }
       ]
