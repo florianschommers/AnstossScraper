@@ -3108,19 +3108,6 @@
         "comment": null
       },
       {
-        "goalID": 146876,
-        "scoreTeam1": 3,
-        "scoreTeam2": 1,
-        "matchMinute": 49,
-        "goalGetterID": 27362,
-        "goalGetterName": "Luca Erlein",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 146879,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -3131,6 +3118,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146876,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 27362,
+        "goalGetterName": "Luca Erlein",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       },
       {
@@ -5405,7 +5405,7 @@
   {
     "matchID": 83609,
     "matchDateTime": "2026-10-09T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5430,9 +5430,30 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:34:32.793",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-10-09T20:23:20.347",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129203,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129204,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -5440,7 +5461,7 @@
   {
     "matchID": 83620,
     "matchDateTime": "2026-10-09T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5465,10 +5486,45 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:34:44.283",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-09T20:24:40.34",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129201,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129202,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149257,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 11,
+        "goalGetterID": 27149,
+        "goalGetterName": "J. Urbich",
+        "scoringTeamId": 74,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
