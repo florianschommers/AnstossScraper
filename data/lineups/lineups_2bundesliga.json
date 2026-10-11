@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-10T23:15:46Z",
+  "lastUpdated": "2026-10-11T16:09:16Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -593,6 +593,303 @@
         },
         {
           "name": "Robert Glatzel",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "Karlsruher SC",
+      "dateTime": "2026-10-11T11:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Ben Voll",
+          "position": "Torwart"
+        },
+        {
+          "name": "Louis Oppie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lars Ritzka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Nemeth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arkadiusz Pyrka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Smith",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Chima Fujita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Rasmussen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Connor Metcalfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdoulie Ceesay",
+          "position": "Angriff"
+        },
+        {
+          "name": "Youssoupha Niang",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hans Christian Bernat",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sandro Trémoulet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcel Franke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christoph Kobald",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Viktor Bergh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Danyal Zor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marvin Wanitzek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Pinto Pedrosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Deniz Emre Ofli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Louey Ben Farhat",
+          "position": "Angriff"
+        },
+        {
+          "name": "Shio Fukuda",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "dateTime": "2026-10-11T11:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marius Gersbeck",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mads Pedersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niklas Kolbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Linus Jasper Gechter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Eitschberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Sessa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Seguin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josip Brekalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jón Dagur Þorsteinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwaseun Adewumi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan-Luca Schuler",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Florian Hellstern",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jannik Dehm",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hendry Blank",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannis Heuer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Reich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Will",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sacha Banse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ole Pohlmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shinta Karl Appelkamp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Klaus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Sillah",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Bochum",
+      "awayTeam": "DSC Arminia Bielefeld",
+      "dateTime": "2026-10-11T11:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Meyer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerrit Holtmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koji Miyoshi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Rasmussen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Hofmann",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Thomas Kersken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joel Felix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Bauer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Grosser",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arne Sicker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Hagmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Wörl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefano Russo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isaiah Ahmad Young",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Grodowski",
           "position": "Angriff"
         }
       ]

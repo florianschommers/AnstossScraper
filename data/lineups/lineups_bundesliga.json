@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-10T23:15:45Z",
+  "lastUpdated": "2026-10-11T16:09:15Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -692,6 +692,204 @@
         },
         {
           "name": "Jonathan Burkardt",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "Borussia Mönchengladbach",
+      "dateTime": "2026-10-11T13:30:00Z",
+      "matchday": 5,
+      "phase": "5. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marvin Schwabe",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sebastian Sebulonsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luka Lochoshvili",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Borna Sosa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ísak Bergmann Jóhannesson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ellyes Skhiri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Linton Maina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikey Moore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Said El Mala",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Bulter",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Moritz Nicolas",
+          "position": "Torwart"
+        },
+        {
+          "name": "Daiki Hashioka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Leszczynski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Diks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Scally",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Bolin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Sander",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Ullrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Hack",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Neuhaus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isac Lidberg",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "FC Schalke 04",
+      "dateTime": "2026-10-11T15:30:00Z",
+      "matchday": 5,
+      "phase": "5. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Mio Backhaus",
+          "position": "Torwart"
+        },
+        {
+          "name": "Philipp Treu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthias Ginter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Lienhart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordy Makengo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Eggestein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yannick Engelhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan-Niklas Beste",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuito Suzuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Derry Lionel Scherhant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Matanović",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Loris Karius",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hasan Kurucay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Katić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Wöber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian Gantenbein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soufiane El-Faouzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Satoshi Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Gosens",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenan Karaman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Adamu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moussa Sylla",
           "position": "Angriff"
         }
       ]
