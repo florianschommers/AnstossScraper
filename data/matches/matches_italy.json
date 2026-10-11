@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-10T01:49:38Z",
+  "lastUpdated": "2026-10-11T01:04:45Z",
   "matches": [
     {
       "matchday": 1,
@@ -508,8 +508,8 @@
       "homeTeam": "Genoa",
       "awayTeam": "Fiorentina",
       "dateTime": "2026-10-10T12:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -518,8 +518,8 @@
       "homeTeam": "Inter",
       "awayTeam": "Parma",
       "dateTime": "2026-10-10T15:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -528,8 +528,8 @@
       "homeTeam": "Napoli",
       "awayTeam": "Frosinone",
       "dateTime": "2026-10-10T17:45:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },

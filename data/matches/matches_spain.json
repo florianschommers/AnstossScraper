@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-10T01:49:38Z",
+  "lastUpdated": "2026-10-11T01:04:45Z",
   "matches": [
     {
       "matchday": 1,
@@ -710,16 +710,16 @@
       "dateTime": "2026-10-10T11:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0:0"
     },
     {
       "matchday": 8,
       "homeTeam": "Deportivo Alaves",
       "awayTeam": "Atletico Madrid",
       "dateTime": "2026-10-10T13:15:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -728,8 +728,8 @@
       "homeTeam": "Barcelona",
       "awayTeam": "Getafe",
       "dateTime": "2026-10-10T15:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -738,8 +738,8 @@
       "homeTeam": "Real Madrid",
       "awayTeam": "Villarreal",
       "dateTime": "2026-10-10T18:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
