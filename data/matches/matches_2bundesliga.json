@@ -5531,7 +5531,7 @@
   {
     "matchID": 83611,
     "matchDateTime": "2026-10-10T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5556,17 +5556,104 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:35:03.2",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-10T14:54:46.043",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129253,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129254,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149349,
+        "scoreTeam1": 0,
+        "scoreTeam2": 0,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "scoringTeamId": null,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149350,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 4,
+        "goalGetterID": 23763,
+        "goalGetterName": "J. Butler",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149353,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 36,
+        "goalGetterID": 23324,
+        "goalGetterName": "Noah Weißhaupt",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149355,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 77,
+        "goalGetterID": 20651,
+        "goalGetterName": "A. Vukotic",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149358,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 88,
+        "goalGetterID": 23745,
+        "goalGetterName": "Y. Lührs",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83617,
     "matchDateTime": "2026-10-10T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5591,17 +5678,78 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:35:18.247",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-10T14:51:38.687",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129255,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129256,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149351,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 3,
+        "goalGetterID": 19416,
+        "goalGetterName": "M. Kwarteng",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149352,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 30,
+        "goalGetterID": 19325,
+        "goalGetterName": "E. Iyoha",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149356,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 86,
+        "goalGetterID": 24297,
+        "goalGetterName": "M. Zukowski",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83622,
     "matchDateTime": "2026-10-10T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5626,17 +5774,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:35:30.753",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-10T14:52:06.647",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129257,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129258,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149354,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 38,
+        "goalGetterID": 18466,
+        "goalGetterName": "N. Hauptmann",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149357,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 87,
+        "goalGetterID": 27711,
+        "goalGetterName": "R. Fabinski",
+        "scoringTeamId": 36,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83615,
     "matchDateTime": "2026-10-10T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5661,10 +5857,136 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:35:46.537",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-10T22:34:26.567",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129283,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129284,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 4,
+        "pointsTeam2": 4,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149413,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 12,
+        "goalGetterID": 14858,
+        "goalGetterName": "H. Wahl",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149414,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 29,
+        "goalGetterID": 23265,
+        "goalGetterName": "M. Damar",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149427,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 52,
+        "goalGetterID": 27177,
+        "goalGetterName": "P. Scobel",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149428,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 59,
+        "goalGetterID": 27177,
+        "goalGetterName": "P. Scobel",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149429,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 63,
+        "goalGetterID": 24097,
+        "goalGetterName": "Mohamed Alì Zoma",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149430,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": 91,
+        "goalGetterID": 23649,
+        "goalGetterName": "A. Besio",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 149431,
+        "scoreTeam1": 4,
+        "scoreTeam2": 3,
+        "matchMinute": 96,
+        "goalGetterID": 27717,
+        "goalGetterName": "I. Masouras",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 149432,
+        "scoreTeam1": 4,
+        "scoreTeam2": 4,
+        "matchMinute": 99,
+        "goalGetterID": 23649,
+        "goalGetterName": "A. Besio",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
