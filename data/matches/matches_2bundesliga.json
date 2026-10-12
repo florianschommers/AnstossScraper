@@ -3108,19 +3108,6 @@
         "comment": null
       },
       {
-        "goalID": 146879,
-        "scoreTeam1": 3,
-        "scoreTeam2": 2,
-        "matchMinute": 49,
-        "goalGetterID": 24192,
-        "goalGetterName": "King Manu",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 146876,
         "scoreTeam1": 3,
         "scoreTeam2": 1,
@@ -3131,6 +3118,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 146879,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 49,
+        "goalGetterID": 24192,
+        "goalGetterName": "King Manu",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       },
       {
@@ -5993,7 +5993,7 @@
   {
     "matchID": 83608,
     "matchDateTime": "2026-10-11T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6018,17 +6018,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:33:51.267",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-11T15:28:42.523",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129295,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129296,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149433,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 32,
+        "goalGetterID": 24175,
+        "goalGetterName": "A. Ceesay",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149435,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 51,
+        "goalGetterID": 20340,
+        "goalGetterName": "L. Ritzka",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83613,
     "matchDateTime": "2026-10-11T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6053,17 +6101,78 @@
       "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:34:22.03",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-11T15:22:36.187",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129297,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129298,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149437,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 65,
+        "goalGetterID": 27718,
+        "goalGetterName": "Mads Pedersen",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": ""
+      },
+      {
+        "goalID": 149439,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 80,
+        "goalGetterID": 18367,
+        "goalGetterName": "P. Seguin",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 149444,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 90,
+        "goalGetterID": 19095,
+        "goalGetterName": "J. Heuer",
+        "scoringTeamId": 115,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83616,
     "matchDateTime": "2026-10-11T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6088,10 +6197,45 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:34:41.037",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-11T15:26:34.993",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129299,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129300,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 149440,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 78,
+        "goalGetterID": 27719,
+        "goalGetterName": "Benjamin Boakye",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
