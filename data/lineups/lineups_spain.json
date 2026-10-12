@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-12T00:14:30Z",
+  "lastUpdated": "2026-10-12T19:38:11Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -890,6 +890,105 @@
         },
         {
           "name": "Hugo Duro",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Levante",
+      "awayTeam": "Sevilla",
+      "dateTime": "2026-10-12T18:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian De La Fuente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ifeanyi Ndukwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manu Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Olasagasti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Víctor García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brugue",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yanis Musuayi",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andres Castrin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucien Agoumé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgi Kochorashvili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Angel Sierra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssouf Fofana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robbie Ure",
           "position": "Angriff"
         }
       ]

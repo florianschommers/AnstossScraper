@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-11T20:48:45Z",
+  "lastUpdated": "2026-10-12T19:38:10Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -890,6 +890,105 @@
         },
         {
           "name": "Erling Haaland",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Coventry City",
+      "awayTeam": "Newcastle United FC",
+      "dateTime": "2026-10-12T19:00:00Z",
+      "matchday": 6,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Carl Rushworth",
+          "position": "Torwart"
+        },
+        {
+          "name": "Milan van Ewijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ethan Pinnock",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bobby Thomas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Dasilva",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Caleb Yirenkyi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matt Grimes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brandon Thomas-Asante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jack Rudoni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ephron Mason-Clark",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sidiki Cherif",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lukas Hornicek",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lewis Miley",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Thiaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sven Botman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico González",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joe Willock",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacob Murphy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yoane Wissa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harvey Barnes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matias Fernandez-Pardo",
           "position": "Angriff"
         }
       ]
