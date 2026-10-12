@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-11T10:24:49Z",
+  "lastUpdated": "2026-10-12T01:26:27Z",
   "matches": [
     {
       "matchday": 1,
@@ -518,8 +518,8 @@
       "homeTeam": "Nice",
       "awayTeam": "Strasbourg",
       "dateTime": "2026-10-11T12:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -528,8 +528,8 @@
       "homeTeam": "Rennes",
       "awayTeam": "Auxerre",
       "dateTime": "2026-10-11T14:15:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "4:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -538,8 +538,8 @@
       "homeTeam": "Troyes",
       "awayTeam": "Marseille",
       "dateTime": "2026-10-11T17:45:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
