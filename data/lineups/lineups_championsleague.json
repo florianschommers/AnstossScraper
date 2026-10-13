@@ -1,6 +1,205 @@
 {
   "league": "championsleague",
-  "season": "",
-  "lastUpdated": "2026-09-28T23:50:01.480850",
-  "lineups": []
+  "season": "2027",
+  "lastUpdated": "2026-10-13T17:14:53Z",
+  "lineups": [
+    {
+      "homeTeam": "RC Lens",
+      "awayTeam": "Sporting CP",
+      "dateTime": "2026-10-13T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Samson Baidoo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amadou Haidara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaëlo Ganiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mickaël Cuisance",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Kadile",
+          "position": "Angriff"
+        },
+        {
+          "name": "Franjo Ivanović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kyllian Antonio",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kaique Pereira",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sergi Altimira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "João Simões",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geny Catamo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nestory Irankunda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Maximiliano Araújo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iván Fresneda",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gonçalo Inácio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eduardo Quaresma",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Issa Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Suárez",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sabah",
+      "awayTeam": "Slavia Prag",
+      "dateTime": "2026-10-13T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Stas Pokatilov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Steve Solvet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aden McCarthy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Umarali Rakhmonaliev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaheem Parris",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Lepinjica",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joy-Lance Mickels",
+          "position": "Angriff"
+        },
+        {
+          "name": "Veljko Simić",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tymoteusz Puchacz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Du Queiroz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Akim Zedadka",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jakub Markovič",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tomáš Holeš",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Zima",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ange N'Guessan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Danijel Šturm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Moses",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukáš Provod",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emmanuel Ayaosi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michal Sadílek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tomáš Chorý",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tomáš Vlček",
+          "position": "Abwehr"
+        }
+      ]
+    }
+  ]
 }
