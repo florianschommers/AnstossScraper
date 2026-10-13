@@ -2,11 +2,11 @@ name: Update Lineups
 
 on:
   schedule:
-    # Jede Stunde 10–22 UTC, jeden Tag.
-    # Damit sind Montag/Dienstag (Nations League, Freundschaftsspiele) und späte Anstöße dabei.
-    # GitHub startet Cron-Jobs oft verspätet; das 8-Stunden-Rückfenster im Scraper fängt das auf.
-    # Winter (UTC+1) und Sommer (UTC+2) liegen beide in diesem Band.
-    - cron: '0 10-22 * * *'
+    # Alle 15 Minuten, aber nicht zur vollen Stunde: GitHub verwirft Läufe um :00 oft,
+    # deshalb kamen bisher nur zwei bis drei Starts pro Tag an.
+    # Band 10–22 UTC: Sommer 12:08–00:53, Winter 11:08–23:53.
+    # Eine Startelf, die etwa 30 Minuten vor dem Anpfiff erscheint, wird so noch vor dem Spiel geholt.
+    - cron: '8,23,38,53 10-22 * * *'
   workflow_dispatch:
 
 permissions:
