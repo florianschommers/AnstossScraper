@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-10-13T22:53:03Z",
+  "lastUpdated": "2026-10-14T15:30:37Z",
   "lineups": [
     {
       "homeTeam": "RC Lens",
@@ -791,6 +791,105 @@
         },
         {
           "name": "Giovane",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "LASK",
+      "awayTeam": "FC Liverpool",
+      "dateTime": "2026-10-14T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Lukas Jungwirth",
+          "position": "Torwart"
+        },
+        {
+          "name": "Xavier Mbuyamba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Melayro Bogarde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuel Adeniran",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kryštof Daněk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrés Andrade",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Schöpf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kasper Jørgensen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yvan Dibango",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christoph Lang",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alemão",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alisson Becker",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jérémy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kostas Tsimikas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ronald Araújo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Trey Nyoni",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lewis Koumas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rio Ngumoha",
           "position": "Angriff"
         }
       ]
