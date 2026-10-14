@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-10-14T15:30:37Z",
+  "lastUpdated": "2026-10-14T15:45:37Z",
   "lineups": [
     {
       "homeTeam": "RC Lens",
@@ -891,6 +891,105 @@
         {
           "name": "Rio Ngumoha",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Feyenoord Rotterdam",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-10-14T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Tjark Ernst",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jerry St. Juste",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gjivai Zechiël",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luciano Valente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi López",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nacho Ferri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Anis Hadj Moussa",
+          "position": "Angriff"
+        },
+        {
+          "name": "Givairo Read",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oussama Targhalline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles Vanhoutte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mika Mármol",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Robert Sánchez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Àlex Valle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacobo Ramón",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Máximo Perrone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolás Paz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Assane Diao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kaiki Bruno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Martin Baturina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Smolčić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trevoh Chalobah",
+          "position": "Abwehr"
         }
       ]
     }
