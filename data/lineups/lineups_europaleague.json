@@ -1,6 +1,304 @@
 {
   "league": "europaleague",
-  "season": "",
-  "lastUpdated": "2026-09-28T23:50:29.903422",
-  "lineups": []
+  "season": "2027",
+  "lastUpdated": "2026-10-15T15:30:54Z",
+  "lineups": [
+    {
+      "homeTeam": "Lech Poznan",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "dateTime": "2026-10-15T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Mateusz Lis",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joel Pereira",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gustav Berggren",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikael Ishak",
+          "position": "Angriff"
+        },
+        {
+          "name": "Patrik Wålemark",
+          "position": "Angriff"
+        },
+        {
+          "name": "Leo Bengtsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michał Gurgul",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wojciech Mońka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antoni Kozubal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateusz Skrzypczak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luis Palma",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mark Flekken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Miguel Gutiérrez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Loïc Badé",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Equi Fernández",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Malik Tillman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Terrier",
+          "position": "Angriff"
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Vázquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Tella",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleix García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sparta Prag",
+      "awayTeam": "Lillestrøm SK",
+      "dateTime": "2026-10-15T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Jakub Surovčík",
+          "position": "Torwart"
+        },
+        {
+          "name": "Martin Suchomel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Guddal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonatan Braut Brunes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Viktor Vitályos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrew Irving",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Ševínský",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sivert Mannsverk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ebrima Singhateh",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matěj Jurásek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Sochůrek",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pontus Dahlberg",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lars  Ranger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fredrik Gulbrandsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gustav Nyheim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Vá",
+          "position": "Angriff"
+        },
+        {
+          "name": "Filip Ottosson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Bassi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yaw Paintsil",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ruben Gabrielsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ylldren Ibrahimaj",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stian Kristiansen",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Olympique Lyon",
+      "awayTeam": "Crystal Palace FC",
+      "dateTime": "2026-10-15T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Dominik Greif",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ernest Nuamah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keito Nakamura",
+          "position": "Angriff"
+        },
+        {
+          "name": "Zachary Athekame",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abner Vinicius",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Khalis Merah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Bacher",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Kluivert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tyler Morton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Nartey",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Walter Benítez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tyrick Mitchell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Disasi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jaydee Canvot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaïla Sarr",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yeremy Pino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Wharton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jørgen Strand Larsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Quinten Timber",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chris Richards",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oscar Mingueza",
+          "position": "Abwehr"
+        }
+      ]
+    }
+  ]
 }
