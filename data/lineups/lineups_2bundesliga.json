@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-11T16:09:16Z",
+  "lastUpdated": "2026-10-16T15:30:27Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -890,6 +890,105 @@
         },
         {
           "name": "Joel Grodowski",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "Hertha BSC",
+      "dateTime": "2026-10-16T16:30:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timon Weiner",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hiroki Sekine",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Schonlau",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Haubjerg Ellegaard Madsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leon Parduzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian Kapralik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Guillermo Balzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Meffert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Till Wiese",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Therkelsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phil Harres",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marius Gersbeck",
+          "position": "Torwart"
+        },
+        {
+          "name": "Julian Eitschberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Linus Jasper Gechter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niklas Kolbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Deyovaisio Zeefuik",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Seguin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Sessa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwaseun Adewumi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jón Dagur Þorsteinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josip Brekalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastian Gronning",
           "position": "Angriff"
         }
       ]
