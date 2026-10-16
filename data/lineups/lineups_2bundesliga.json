@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-16T15:30:27Z",
+  "lastUpdated": "2026-10-16T15:45:27Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -906,11 +906,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Hiroki Sekine",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastian Schonlau",
+          "name": "Leon Parduzi",
           "position": "Abwehr"
         },
         {
@@ -918,19 +914,15 @@
           "position": "Abwehr"
         },
         {
-          "name": "Leon Parduzi",
+          "name": "Sebastian Schonlau",
           "position": "Abwehr"
         },
         {
-          "name": "Adrian Kapralik",
-          "position": "Mittelfeld"
+          "name": "Hiroki Sekine",
+          "position": "Abwehr"
         },
         {
-          "name": "Guillermo Balzi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jonas Meffert",
+          "name": "Jonas Therkelsen",
           "position": "Mittelfeld"
         },
         {
@@ -938,7 +930,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jonas Therkelsen",
+          "name": "Jonas Meffert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Guillermo Balzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Kapralik",
           "position": "Mittelfeld"
         },
         {
@@ -952,11 +952,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Julian Eitschberger",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Linus Jasper Gechter",
+          "name": "Deyovaisio Zeefuik",
           "position": "Abwehr"
         },
         {
@@ -964,23 +960,19 @@
           "position": "Abwehr"
         },
         {
-          "name": "Deyovaisio Zeefuik",
+          "name": "Linus Jasper Gechter",
           "position": "Abwehr"
         },
         {
-          "name": "Paul Seguin",
-          "position": "Mittelfeld"
+          "name": "Julian Eitschberger",
+          "position": "Abwehr"
         },
         {
           "name": "Kevin Sessa",
           "position": "Mittelfeld"
         },
         {
-          "name": "Oluwaseun Adewumi",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Jón Dagur Þorsteinsson",
+          "name": "Paul Seguin",
           "position": "Mittelfeld"
         },
         {
@@ -988,7 +980,114 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Jón Dagur Þorsteinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwaseun Adewumi",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Sebastian Gronning",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "1. FC Nürnberg",
+      "dateTime": "2026-10-16T16:30:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marcel Lotka",
+          "position": "Torwart"
+        },
+        {
+          "name": "Leon Guwara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luca Erlein",
+          "position": "Abwehr"
+        },
+        {
+          "name": "King Samuel Manu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Henry Rorig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Michelbrink",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Bittencourt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Kinsombi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tolcay Cigerci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moritz Hannemann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justin Butler",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jan-Marc Reichert",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eric Porstner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fynn Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexios Kalogeropoulos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Janisch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javier Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Markhiyev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Ali Zoma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Justvan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Ghrieb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piet Scobel",
           "position": "Angriff"
         }
       ]
