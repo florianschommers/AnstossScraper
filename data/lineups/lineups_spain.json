@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-13T01:50:10Z",
+  "lastUpdated": "2026-10-16T12:00:01Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -989,6 +989,105 @@
         },
         {
           "name": "Robbie Ure",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Deportivo A Coruna",
+      "awayTeam": "Levante",
+      "dateTime": "2026-10-16T18:00:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Leo Román",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ximo Navarro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José María Giménez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bright Ede",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giacomo Quagliata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Mella Boullon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Soriano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Villares",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luismi Cruz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yeremay Hernandez Cubas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bil Nsongo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian De La Fuente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ifeanyi Ndukwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manu Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Olasagasti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Víctor García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brugue",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yanis Musuayi",
           "position": "Angriff"
         }
       ]
