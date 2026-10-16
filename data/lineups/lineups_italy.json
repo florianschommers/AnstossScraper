@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-12T19:38:11Z",
+  "lastUpdated": "2026-10-16T11:45:01Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -989,6 +989,105 @@
         },
         {
           "name": "Giorgi Chakvetadze",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Frosinone",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-10-16T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lorenzo Palmisani",
+          "position": "Torwart"
+        },
+        {
+          "name": "Anthony Oyono",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriele Calvani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giorgio Cittadini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriele Bracaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrizio Masini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giacomo Calo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fares Ghedjemis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romano Schmid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgi Kvernadze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Raimondo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Arijanet Muric",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ignace Van Der Brempt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cas Odenthal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vasilije Adzic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darryl Bakola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domenico Berardi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Armand Laurienté",
           "position": "Angriff"
         }
       ]

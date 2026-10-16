@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-12T00:14:31Z",
+  "lastUpdated": "2026-10-16T11:45:01Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -890,6 +890,105 @@
         },
         {
           "name": "Amine Gouiri",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Le Mans",
+      "awayTeam": "Toulouse",
+      "dateTime": "2026-10-16T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Nicolas Kocik",
+          "position": "Torwart"
+        },
+        {
+          "name": "Noa Boisse",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samuel Yohou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Harold Voyer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rayan Bamba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Bretelle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean Vercruysse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexandre Lauray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Calodat",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Louis Mafouta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Habib Diallo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Rafik Messali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Seny Koumbassa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christ Tapé",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Cásseres Jr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Vossah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thomas Jorgensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Casper Tengstedt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilyas Azizi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacen Russell-Rowe",
           "position": "Angriff"
         }
       ]
