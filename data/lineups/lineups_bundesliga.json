@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-11T20:48:43Z",
+  "lastUpdated": "2026-10-16T12:30:00Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -890,6 +890,105 @@
         },
         {
           "name": "Moussa Sylla",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "1. FC Köln",
+      "dateTime": "2026-10-16T18:30:00Z",
+      "matchday": 6,
+      "phase": "6. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Noah Atubolu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nnamdi Collins",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elias Baum",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ansgar Knauff",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphael Onyedika",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noël Aséko Nkili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keita Kosugi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Can Uzun",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marvin Schwabe",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sebastian Sebulonsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luka Lochoshvili",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Borna Sosa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ísak Bergmann Jóhannesson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Krauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Linton Maina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikey Moore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Said El Mala",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Bulter",
           "position": "Angriff"
         }
       ]
