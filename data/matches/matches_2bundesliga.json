@@ -6242,7 +6242,7 @@
   {
     "matchID": 83632,
     "matchDateTime": "2026-10-16T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6267,9 +6267,30 @@
       "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:36:38.347",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-10-16T20:22:04.123",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129784,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129785,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -6277,7 +6298,7 @@
   {
     "matchID": 83641,
     "matchDateTime": "2026-10-16T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6302,10 +6323,58 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:36:46.497",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-16T20:26:42.447",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129782,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129783,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150323,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 56,
+        "goalGetterID": 23763,
+        "goalGetterName": "J. Butler",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150330,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 79,
+        "goalGetterID": 27912,
+        "goalGetterName": "Styopa Mkrtchyan",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
