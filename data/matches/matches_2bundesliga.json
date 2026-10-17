@@ -6381,7 +6381,7 @@
   {
     "matchID": 83626,
     "matchDateTime": "2026-10-17T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6406,17 +6406,91 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:37:03.303",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T14:52:58.657",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129847,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129848,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150439,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 1,
+        "goalGetterID": 21361,
+        "goalGetterName": "A. Bernhardsson",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150440,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 22,
+        "goalGetterID": 18405,
+        "goalGetterName": "P. Mainka",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150443,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 46,
+        "goalGetterID": 18601,
+        "goalGetterName": "R. Glatzel",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150445,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 65,
+        "goalGetterID": 23265,
+        "goalGetterName": "M. Damar",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83628,
     "matchDateTime": "2026-10-17T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6441,17 +6515,65 @@
       "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:37:09.63",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T14:54:04.533",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129850,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129852,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150441,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 31,
+        "goalGetterID": 27922,
+        "goalGetterName": "Miloš Lukovic",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150446,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 75,
+        "goalGetterID": 27923,
+        "goalGetterName": "Semih Sahin",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83639,
     "matchDateTime": "2026-10-17T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6476,17 +6598,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:37:17.133",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T14:51:40.373",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129849,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129851,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150442,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 32,
+        "goalGetterID": 18621,
+        "goalGetterName": "F. Klaus",
+        "scoringTeamId": 115,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150444,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 63,
+        "goalGetterID": 18621,
+        "goalGetterName": "F. Klaus",
+        "scoringTeamId": 115,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83627,
     "matchDateTime": "2026-10-17T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6511,10 +6681,58 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:37:31.247",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T23:10:45.917",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129911,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129912,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150547,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150548,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": null,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
