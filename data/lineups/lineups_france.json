@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-16T22:52:43Z",
+  "lastUpdated": "2026-10-17T10:00:06Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -989,6 +989,105 @@
         },
         {
           "name": "Jacen Russell-Rowe",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Strasbourg",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-10-17T14:15:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Filip Jörgensen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Genesis Antwi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeyland Mitchell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karim Coulibaly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diogo Lobão de Sousa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dario Essugo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gessime Yassine",
+          "position": "Angriff"
+        },
+        {
+          "name": "Conrad Harder",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Amo-Ameyaw",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Matvey Safonov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Illia Zabarnyi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nuno Mendes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Neves",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabián Ruiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mika Godts",
           "position": "Angriff"
         }
       ]

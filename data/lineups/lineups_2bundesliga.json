@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-16T22:52:41Z",
+  "lastUpdated": "2026-10-17T10:00:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1088,6 +1088,105 @@
         },
         {
           "name": "Piet Scobel",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SpVgg Greuther Fürth",
+      "awayTeam": "Eintracht Braunschweig",
+      "dateTime": "2026-10-17T11:00:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Florian Hellstern",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lukas Reich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannis Heuer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hendry Blank",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gian-Luca Itter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sacha Banse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Will",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Klaus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shinta Karl Appelkamp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ole Pohlmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Sillah",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ron-Thorben Hoffmann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mehmet-Can Aydin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Ehlers",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Frenkert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Di Michele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Opoku",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuele Di Benedetto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Flick",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Max Marie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yann Sturm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Urbich",
           "position": "Angriff"
         }
       ]

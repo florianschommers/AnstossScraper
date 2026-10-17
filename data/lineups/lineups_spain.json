@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-16T22:52:42Z",
+  "lastUpdated": "2026-10-17T10:00:04Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -1088,6 +1088,303 @@
         },
         {
           "name": "Thiago Fernández",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Espanyol",
+      "awayTeam": "Atletico Madrid",
+      "dateTime": "2026-10-17T11:00:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Angel Fortuno",
+          "position": "Torwart"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Clemens Riedel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javier Hernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cristian Romero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Le Normand",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Álex Grimaldo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Obed Vargas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Villarreal",
+      "awayTeam": "Elche",
+      "dateTime": "2026-10-17T13:15:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Péter Gulácsi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alex Freeman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Navarro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergi Cardona",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ilias Akhomach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santi Comesaña",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Gueye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alberto Moleiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Georges Mikautadze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gerard Moreno",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Matias Dituro",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ruben Sanchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javier Morcillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Víctor Chust",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roy Revivo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "German Valera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gonzalo Villar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thomas Lemar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Aguado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tete Morente",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fernando Nino",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Real Betis",
+      "awayTeam": "Barcelona",
+      "dateTime": "2026-10-17T15:30:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Álvaro Valles",
+          "position": "Torwart"
+        },
+        {
+          "name": "Héctor Bellerín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Natan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fran García",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Fornals",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nelson Deossa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Ezzalzouli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cucho Hernandez",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jules Koundé",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gerard Martín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Xavi Espart Font",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rodri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Olmo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Karim Adeyemi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Jesus",
           "position": "Angriff"
         }
       ]

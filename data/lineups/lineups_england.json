@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-13T01:50:09Z",
+  "lastUpdated": "2026-10-17T10:00:04Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -989,6 +989,402 @@
         },
         {
           "name": "Matias Fernandez-Pardo",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Everton FC",
+      "awayTeam": "Chelsea FC",
+      "dateTime": "2026-10-17T11:30:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jordan Pickford",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jake O'Brien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Tarkowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Keane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ainsley Maitland-Niles",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Garner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harrison Armstrong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brennan Johnson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kiernan Dewsbury-Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jack Grealish",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thierno Barry",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joshua Acheampong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Levi Colwill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Henderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pep Chavarría",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cole Palmer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "João Pedro",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brentford F.C.",
+      "awayTeam": "FC Liverpool",
+      "dateTime": "2026-10-17T14:00:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Caoimhin Kelleher",
+          "position": "Torwart"
+        },
+        {
+          "name": "Michael Kayode",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sepp van den Berg",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Malick Diouf",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yehor Yarmoliuk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaly Janelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jaidon Anthony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keane Lewis-Potter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dango Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Thiago",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ronald Araújo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kostas Tsimikas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wataru Endo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Treymaurice Nyoni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Koumas",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fulham FC",
+      "awayTeam": "Hull City",
+      "dateTime": "2026-10-17T14:00:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Bernd Leno",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kenny Tete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Affengruber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ryan Sessegnon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shea Charles",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Bobb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joshua King",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonzalo García",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Konstantinos Tzolakis",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lewie Coyle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Semi Ajayi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John Egan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ryan Giles",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Gelhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matt Crooks",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Regan Slater",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sorba Thomas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oli McBurnie",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Ipswich Town",
+      "dateTime": "2026-10-17T14:00:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gianluigi Donnarumma",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matheus Nunes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rúben Dias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico O'Reilly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Semenyo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Cherki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Erling Haaland",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Christian Walton",
+          "position": "Torwart"
+        },
+        {
+          "name": "Abdoul Ouattara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Issa Diop",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dara O'Shea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leif Davis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florentino Luis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saša Lukić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daizen Maeda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jaden Philogene",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emersonn Da Silva",
           "position": "Angriff"
         }
       ]
