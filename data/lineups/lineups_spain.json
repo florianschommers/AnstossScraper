@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-17T11:45:06Z",
+  "lastUpdated": "2026-10-17T12:00:05Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -1385,6 +1385,105 @@
         },
         {
           "name": "Gabriel Jesus",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Valencia",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-10-17T18:00:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Stole Dimitrievski",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pablo Maffeo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mouctar Diakhaby",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Justin de Haas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José Gayà",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daniel Raba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Filip Ugrinic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Guido Rodríguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Guerra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Duro",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mikel Santos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jesús Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yeray Álvarez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aitor Paredes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Rego Mora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Peio Urtasan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñaki Williams",
           "position": "Angriff"
         }
       ]
