@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-17T11:30:07Z",
+  "lastUpdated": "2026-10-17T11:45:07Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -1088,6 +1088,204 @@
         },
         {
           "name": "Mika Godts",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lille",
+      "awayTeam": "Brest",
+      "dateTime": "2026-10-17T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Berke Ozer",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maxima Adeagan Goffi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tanguy Nianzou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexsandro Ribeiro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Romain Perraud",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nabil Bentaleb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benjamin Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dilane Bakwa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gaetan Perrin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Olivier Giroud",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Egil Selvik",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kenny Lala",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Tousart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gautier Lloris",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bradley Locko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joris Chotard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Magnetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Kante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kamory Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pathe Mboup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Troyes",
+      "awayTeam": "Lens",
+      "dateTime": "2026-10-17T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Patrick Beach",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lucas Maronnier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrien Monfray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michel Diaz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paolo Gozzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mouhamed Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dermane Karim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Mille",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iron Gomis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kandet Diawara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jeremy Le Douaron",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Samson Baidoo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismaelo Ganiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kyllian Antonio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Cuisance",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yacine Titraoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michał Skóraś",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Sotoca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Odsonne Edouard",
           "position": "Angriff"
         }
       ]
