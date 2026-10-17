@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-17T10:15:01Z",
+  "lastUpdated": "2026-10-17T10:30:02Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -1484,6 +1484,105 @@
         },
         {
           "name": "Rodrigo Ribeiro",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "RB Leipzig",
+      "dateTime": "2026-10-17T16:30:00Z",
+      "matchday": 6,
+      "phase": "6. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Urbig",
+          "position": "Torwart"
+        },
+        {
+          "name": "Josip Stanišić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alphonso Davies",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandar Pavlović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Olise",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Díaz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Kane",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Maarten Vandevoordt",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ridle Baku",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Willi Orbán",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Castello Lukeba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Raum",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Neil El Aynaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ezechiel Banzuzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrija Maksimovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christopher Nkunku",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Nusa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rômulo José Cardoso da Cruz",
           "position": "Angriff"
         }
       ]
