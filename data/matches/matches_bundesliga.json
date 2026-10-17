@@ -4870,7 +4870,7 @@
   {
     "matchID": 83204,
     "matchDateTime": "2026-10-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -4895,9 +4895,30 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T08:05:42.15",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-10-17T17:26:14.777",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129863,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129864,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -4905,7 +4926,7 @@
   {
     "matchID": 83206,
     "matchDateTime": "2026-10-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -4930,17 +4951,52 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T08:05:58.853",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T17:22:43.29",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129865,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129871,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150496,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 88,
+        "goalGetterID": 19315,
+        "goalGetterName": "M. Muheim",
+        "scoringTeamId": 100,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83207,
     "matchDateTime": "2026-10-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -4965,17 +5021,91 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T08:06:14.997",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T17:22:50.01",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129867,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 2,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129870,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150457,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 18,
+        "goalGetterID": 24968,
+        "goalGetterName": "S. Marino",
+        "scoringTeamId": 31,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150469,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 30,
+        "goalGetterID": 19135,
+        "goalGetterName": "S. Tigges",
+        "scoringTeamId": 31,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150492,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 59,
+        "goalGetterID": 18661,
+        "goalGetterName": "N. Füllkrug",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150493,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 65,
+        "goalGetterID": 18661,
+        "goalGetterName": "N. Füllkrug",
+        "scoringTeamId": 134,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83208,
     "matchDateTime": "2026-10-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5000,17 +5130,52 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T08:06:24.463",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T17:23:54.657",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129868,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129872,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150459,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 24,
+        "goalGetterID": 18976,
+        "goalGetterName": "P. Tietz",
+        "scoringTeamId": 81,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83209,
     "matchDateTime": "2026-10-17T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5035,17 +5200,130 @@
       "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T08:06:32.29",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T20:30:32.643",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129866,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129869,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 4,
+        "pointsTeam2": 3,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150454,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 4,
+        "goalGetterID": 18969,
+        "goalGetterName": "L. Petkov",
+        "scoringTeamId": 198,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150455,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 7,
+        "goalGetterID": 27924,
+        "goalGetterName": "Lasse Günther",
+        "scoringTeamId": 198,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150461,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 28,
+        "goalGetterID": 17792,
+        "goalGetterName": "Maximilian Rohr",
+        "scoringTeamId": 198,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150491,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 54,
+        "goalGetterID": 627,
+        "goalGetterName": "F. Rieder",
+        "scoringTeamId": 95,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": "Fabian Rieder"
+      },
+      {
+        "goalID": 150494,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 76,
+        "goalGetterID": 18815,
+        "goalGetterName": "M. Gregoritsch",
+        "scoringTeamId": 95,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150497,
+        "scoreTeam1": 4,
+        "scoreTeam2": 2,
+        "matchMinute": 89,
+        "goalGetterID": 23643,
+        "goalGetterName": "Frederik Schmahl",
+        "scoringTeamId": 198,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150498,
+        "scoreTeam1": 4,
+        "scoreTeam2": 3,
+        "matchMinute": 90,
+        "goalGetterID": 23242,
+        "goalGetterName": "Mert Kömür",
+        "scoringTeamId": 95,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83201,
     "matchDateTime": "2026-10-17T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5070,10 +5348,123 @@
       "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:24:23.463",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-17T23:32:53.233",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129903,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 3,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129904,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 6,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150528,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 12,
+        "goalGetterID": 18880,
+        "goalGetterName": "Luis Díaz",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150529,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 26,
+        "goalGetterID": 24759,
+        "goalGetterName": "Aleksandar Pavlovic",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150541,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 34,
+        "goalGetterID": 23135,
+        "goalGetterName": "M. Olise",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150542,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 47,
+        "goalGetterID": 18880,
+        "goalGetterName": "Luis Díaz",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150543,
+        "scoreTeam1": 5,
+        "scoreTeam2": 0,
+        "matchMinute": 53,
+        "goalGetterID": 18898,
+        "goalGetterName": "H. Kane",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150544,
+        "scoreTeam1": 6,
+        "scoreTeam2": 0,
+        "matchMinute": 69,
+        "goalGetterID": 18880,
+        "goalGetterName": "Luis Díaz",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150545,
+        "scoreTeam1": 6,
+        "scoreTeam2": 1,
+        "matchMinute": 91,
+        "goalGetterID": 27473,
+        "goalGetterName": "A. Maksimovic",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
