@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-17T12:15:02Z",
+  "lastUpdated": "2026-10-17T12:30:02Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -1013,20 +1013,8 @@
           "position": "Abwehr"
         },
         {
-          "name": "Felix Uduokhai",
-          "position": "Abwehr"
-        },
-        {
           "name": "Tom Rothe",
           "position": "Abwehr"
-        },
-        {
-          "name": "Rani Khedira",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "András Schäfer",
-          "position": "Mittelfeld"
         },
         {
           "name": "Michel Aebischer",
@@ -1034,15 +1022,27 @@
         },
         {
           "name": "Jeong Woo-yeong",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
-          "name": "Kastriot Imeri",
+          "name": "András Schäfer",
           "position": "Mittelfeld"
         },
         {
           "name": "Tim Skarke",
           "position": "Angriff"
+        },
+        {
+          "name": "Felix Uduokhai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rani Khedira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kastriot Imeri",
+          "position": "Mittelfeld"
         }
       ],
       "awayLineup": [
@@ -1063,7 +1063,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Maximilian Beier",
+          "name": "Julian Ryerson",
           "position": "Mittelfeld"
         },
         {
@@ -1083,12 +1083,12 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Marcel Sabitzer",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Serhou Guirassy",
           "position": "Angriff"
+        },
+        {
+          "name": "Maximilian Beier",
+          "position": "Mittelfeld"
         }
       ]
     },
@@ -1203,11 +1203,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Arthur",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Oskar Wójcik",
+          "name": "Amos Pieper",
           "position": "Abwehr"
         },
         {
@@ -1219,11 +1215,19 @@
           "position": "Abwehr"
         },
         {
+          "name": "Arthur",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Ludovit Reis",
           "position": "Mittelfeld"
         },
         {
-          "name": "Dariusz Stalmach",
+          "name": "Youri Regeer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Grüll",
           "position": "Mittelfeld"
         },
         {
@@ -1232,10 +1236,6 @@
         },
         {
           "name": "Chuki",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marco Grüll",
           "position": "Mittelfeld"
         },
         {
@@ -1261,7 +1261,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Jonah Sticker",
+          "name": "Laurin Curda",
           "position": "Mittelfeld"
         },
         {
@@ -1281,11 +1281,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Stefano Marino",
+          "name": "Steffen Tigges",
           "position": "Angriff"
         },
         {
-          "name": "Marvin Pieringer",
+          "name": "Stefano Marino",
           "position": "Angriff"
         }
       ]
@@ -1310,7 +1310,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Maximilian Wöber",
+          "name": "Timo Becker",
           "position": "Abwehr"
         },
         {
@@ -1338,7 +1338,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Junior Adamu",
+          "name": "Edin Džeko",
           "position": "Angriff"
         }
       ],
@@ -1348,11 +1348,11 @@
           "position": "Torwart"
         },
         {
-          "name": "Stefan Posch",
+          "name": "Danny da Costa",
           "position": "Abwehr"
         },
         {
-          "name": "Fabio Gruber",
+          "name": "Stefan Posch",
           "position": "Abwehr"
         },
         {
@@ -1364,7 +1364,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Nadiem Amiri",
+          "name": "Lee Jae-sung",
           "position": "Mittelfeld"
         },
         {
@@ -1372,19 +1372,19 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Eric Martel",
+          "name": "Nadiem Amiri",
           "position": "Mittelfeld"
         },
         {
-          "name": "Danny da Costa",
+          "name": "Phillipp Mwene",
           "position": "Mittelfeld"
-        },
-        {
-          "name": "Sheraldo Becker",
-          "position": "Angriff"
         },
         {
           "name": "Phillip Tietz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sheraldo Becker",
           "position": "Angriff"
         }
       ]
@@ -1401,7 +1401,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Luca Sirch",
+          "name": "Jan Gyamerah",
           "position": "Abwehr"
         },
         {
@@ -1433,11 +1433,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Tom Zimmerschied",
+          "name": "Maurice Krattenmacher",
           "position": "Mittelfeld"
         },
         {
-          "name": "Noel Futkeu",
+          "name": "David Mokwa",
           "position": "Angriff"
         }
       ],
@@ -1447,7 +1447,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Jeffrey Gouweleeuw",
+          "name": "Abdulay Juma Bah",
           "position": "Abwehr"
         },
         {
@@ -1459,7 +1459,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Seol Young-woo",
+          "name": "Marius Wolf",
           "position": "Mittelfeld"
         },
         {
