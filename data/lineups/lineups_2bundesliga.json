@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-17T10:00:02Z",
+  "lastUpdated": "2026-10-17T10:15:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1187,6 +1187,204 @@
         },
         {
           "name": "Jan Urbich",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "1. FC Heidenheim 1846",
+      "dateTime": "2026-10-17T11:00:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timon Wellenreuther",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sael Kumbedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hauke Wahl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cleiton",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joakim Mæhle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yannick Gerhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vinicius Souza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Muhammed Damar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Robert Glatzel",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fabian Reese",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Thomas Dähne",
+          "position": "Torwart"
+        },
+        {
+          "name": "Oualid Mhamdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Fohrenbach",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Niehues",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Hennrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Joe Conteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikkel Kaufmann",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alessandro Vogt",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "VfL Bochum",
+      "dateTime": "2026-10-17T11:00:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Julian Krahl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jan Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxwell Gyamfi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Murphy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Joly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Sauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Semih Sahin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mika Haas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naatan Skyttä",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Kanate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Lukovic",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Meyer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Rasmussen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koji Miyoshi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerrit Holtmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Hofmann",
           "position": "Angriff"
         }
       ]
