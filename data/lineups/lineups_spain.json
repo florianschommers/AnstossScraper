@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-18T11:45:04Z",
+  "lastUpdated": "2026-10-18T12:00:05Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -1781,6 +1781,105 @@
         },
         {
           "name": "Orri Óskarsson",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Sevilla",
+      "dateTime": "2026-10-18T18:00:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Thibaut Courtois",
+          "position": "Torwart"
+        },
+        {
+          "name": "Denzel Dumfries",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Güler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yan Diomande",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kylian Mbappé",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andres Castrin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucien Agoumé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chidera Ejuke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssouf Fofana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Peque",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robbie Ure",
           "position": "Angriff"
         }
       ]
