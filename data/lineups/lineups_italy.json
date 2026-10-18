@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-18T11:30:05Z",
+  "lastUpdated": "2026-10-18T11:45:05Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -1682,6 +1682,105 @@
         },
         {
           "name": "Nikola Krstovic",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Juventus",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-10-18T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zeki Çelik",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Douglas Luiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edon Zhegrova",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico González",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Christos Mandas",
+          "position": "Torwart"
+        },
+        {
+          "name": "Romano Floriani Mussolini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Danilho Doekhi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oliver Provstgaard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nuno Tavares",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davide Frattesi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reda Belahyane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenneth Taylor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustav Isaksen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tijjani Noslin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mattia Zaccagni",
           "position": "Angriff"
         }
       ]

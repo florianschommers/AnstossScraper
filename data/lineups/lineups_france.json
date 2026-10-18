@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-18T11:30:06Z",
+  "lastUpdated": "2026-10-18T11:45:06Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -1682,6 +1682,105 @@
         },
         {
           "name": "Issa Soumare",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lyon",
+      "awayTeam": "Nice",
+      "dateTime": "2026-10-18T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Dominik Greif",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zachary Athekame",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Felix Bacher",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Kluivert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abner Vinícius",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Nartey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyler Morton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Khalis Merah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keito Nakamura",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ernest Nuamah",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Yehvann Diouf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mohamed Abdelmonem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youssouf Ndayishimiye",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Xavier Mandza",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hichem Boudaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Axel Witsel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niels Nkounkou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gauthier Hein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Amoura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elye Wahi",
           "position": "Angriff"
         }
       ]
