@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-17T22:52:55Z",
+  "lastUpdated": "2026-10-18T10:00:05Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -1385,6 +1385,303 @@
         },
         {
           "name": "Milutin Osmajić",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Udinese",
+      "awayTeam": "Lecce",
+      "dateTime": "2026-10-18T09:30:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Maduka Okoye",
+          "position": "Torwart"
+        },
+        {
+          "name": "Oumar Solet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Alaba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enzo Ebosse",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mergim Vojvoda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesper Karlstrom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oier Zarraga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hassane Kamara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jurgen Ekkelenkamp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgi Chakvetadze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keinan Davis",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        },
+        {
+          "name": "Danilo Filipe Melo Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kialonda Gaspar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lassana Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oumar Ngom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssef Maleh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konan N’Dri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Willem Geubbels",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amar Abdirahman Ahmed",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Como 1907",
+      "dateTime": "2026-10-18T12:00:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "David de Gea",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alejandro Jimenez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Radu Drăgușin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marin Pongračić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Valdepenas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cher Ndour",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolò Fagioli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christ Ravynel Inao Oulai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franco Mastantuono",
+          "position": "Angriff"
+        },
+        {
+          "name": "Beto",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wilfried Gnonto",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jean Butez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Yan Couto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacobo Ramón",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trevoh Chalobah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Valle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Da Cunha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesus Rodriguez Caraballo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Paz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Baturina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anastasios Douvikas",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "AC Milan",
+      "awayTeam": "Atalanta",
+      "dateTime": "2026-10-18T15:00:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mike Maignan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mario Gila",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koni De Winter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Strahinja Pavlović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pervis Estupiñán",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samuel Chukwueze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Modrić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Rabiot",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Pulisic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thomas Kristensen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sead Kolašinac",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Bernasconi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianluca Gaetano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Éderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lazar Samardžić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Rowe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Krstovic",
           "position": "Angriff"
         }
       ]

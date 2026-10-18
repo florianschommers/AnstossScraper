@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-17T22:52:54Z",
+  "lastUpdated": "2026-10-18T10:00:04Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -1484,6 +1484,303 @@
         },
         {
           "name": "Iñaki Williams",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Osasuna",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-10-18T11:00:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Aitor Fernández",
+          "position": "Torwart"
+        },
+        {
+          "name": "Inigo Arguibide",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flavien Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abel Bretones",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Iker Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Torró",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rubén García",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Moi Gómez",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Julen Agirrezabala",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alvaro Mantilla Perez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Ramon Parra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeanuel Belocian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jorge Salinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Iván Martín",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Íñigo Sainz-Maza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Canales",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Vicente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassir Zabiri",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-10-18T13:15:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Ionut Radu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sebastián Cáceres",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yoel Lago",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcos Alonso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alvaro Nunez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleix Febas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Burcio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Galán",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ferran Jutglà",
+          "position": "Angriff"
+        },
+        {
+          "name": "Iago Aspas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Álvarez",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ville Koski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolas Valentini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Facundo Tenaglia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denis Suárez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibáñez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toni Martínez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Boyé",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Malaga",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-10-18T15:30:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alfonso Herrero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Garrido",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Angel Recio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Salinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rafa Rodriguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Larrubia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Martinez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrián Niño",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Ruiz Rubio",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Álex Remiro",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hector Fort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Gómez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Sučić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Orri Óskarsson",
           "position": "Angriff"
         }
       ]

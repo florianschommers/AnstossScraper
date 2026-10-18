@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-17T22:52:52Z",
+  "lastUpdated": "2026-10-18T10:00:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -1583,6 +1583,204 @@
         },
         {
           "name": "Antonio Nusa",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "SC Freiburg",
+      "dateTime": "2026-10-18T13:30:00Z",
+      "matchday": 6,
+      "phase": "6. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Mark Flekken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jarell Quansah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Miguel Gutiérrez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert Andrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleix García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moussa Diaby",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Afonso Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrik Schick",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mio Backhaus",
+          "position": "Torwart"
+        },
+        {
+          "name": "Philipp Treu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthias Ginter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Lienhart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordy Makengo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Eggestein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yannick Engelhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan-Niklas Beste",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Derry Lionel Scherhant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Matanović",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Borussia Mönchengladbach",
+      "awayTeam": "TSG Hoffenheim",
+      "dateTime": "2026-10-18T15:30:00Z",
+      "matchday": 6,
+      "phase": "6. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Moritz Nicolas",
+          "position": "Torwart"
+        },
+        {
+          "name": "Daiki Hashioka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Chiarodia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Diks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Scally",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zento Uno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Sander",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Ullrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Hack",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Bolin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isac Lidberg",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Oliver Baumann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Vladimír Coufal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ozan Kabak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koki Machida",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Rots",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bambase Conte",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wouter Burger",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Avdullahu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Daghim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fisnik Asllani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tim Lemperle",
           "position": "Angriff"
         }
       ]
