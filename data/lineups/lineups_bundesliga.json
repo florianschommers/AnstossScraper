@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-18T16:00:30Z",
+  "lastUpdated": "2026-10-18T16:15:30Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -1710,6 +1710,10 @@
           "position": "Abwehr"
         },
         {
+          "name": "Lukas Ullrich",
+          "position": "Abwehr"
+        },
+        {
           "name": "Joe Scally",
           "position": "Mittelfeld"
         },
@@ -1722,16 +1726,12 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lukas Ullrich",
+          "name": "Wael Mohya",
           "position": "Mittelfeld"
         },
         {
           "name": "Hugo Bolin",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Wael Mohya",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
           "name": "Isac Lidberg",
@@ -1760,10 +1760,6 @@
           "position": "Abwehr"
         },
         {
-          "name": "Bambase Conte",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Leon Avdullahu",
           "position": "Mittelfeld"
         },
@@ -1772,15 +1768,19 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Tim Lemperle",
-          "position": "Angriff"
+          "name": "Bambase Conte",
+          "position": "Mittelfeld"
         },
         {
           "name": "Fisnik Asllani",
-          "position": "Angriff"
+          "position": "Mittelfeld"
         },
         {
           "name": "Adam Hložek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Lemperle",
           "position": "Angriff"
         }
       ]
