@@ -6681,7 +6681,7 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-10-17T23:10:45.917",
+    "lastUpdateDateTime": "2026-10-18T11:36:42.317",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -6710,22 +6710,22 @@
         "goalID": 150547,
         "scoreTeam1": 0,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
-        "goalGetterName": "",
+        "matchMinute": 46,
+        "goalGetterID": 24175,
+        "goalGetterName": "A. Ceesay",
         "scoringTeamId": 98,
         "isPenalty": false,
         "isOwnGoal": false,
-        "isOvertime": false,
+        "isOvertime": true,
         "comment": null
       },
       {
         "goalID": 150548,
         "scoreTeam1": 1,
         "scoreTeam2": 1,
-        "matchMinute": null,
-        "goalGetterID": 0,
-        "goalGetterName": "",
+        "matchMinute": 48,
+        "goalGetterID": 23939,
+        "goalGetterName": "Husseyn Chakroun",
         "scoringTeamId": 55,
         "isPenalty": false,
         "isOwnGoal": false,
@@ -6739,7 +6739,7 @@
   {
     "matchID": 83629,
     "matchDateTime": "2026-10-18T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6764,17 +6764,91 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:36:13.163",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-18T15:23:31.063",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129937,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129938,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 4,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150599,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 6,
+        "goalGetterID": 24379,
+        "goalGetterName": "Shio Fukuda",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150600,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 13,
+        "goalGetterID": 18401,
+        "goalGetterName": "M. Wanitzek",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150611,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 51,
+        "goalGetterID": 18404,
+        "goalGetterName": "C. Kobald",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150612,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 65,
+        "goalGetterID": 27949,
+        "goalGetterName": "Kevin Wiethaup",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83630,
     "matchDateTime": "2026-10-18T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6799,17 +6873,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:36:22.063",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-18T15:24:12.26",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129939,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129940,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150598,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 9,
+        "goalGetterID": 20140,
+        "goalGetterName": "Niklas Hauptmann",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150610,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 50,
+        "goalGetterID": 24313,
+        "goalGetterName": "S. Straudi",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83635,
     "matchDateTime": "2026-10-18T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -6834,10 +6956,71 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:36:41.213",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-18T15:25:22.07",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 129941,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 129942,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150601,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 16,
+        "goalGetterID": 18758,
+        "goalGetterName": "R. Meißner",
+        "scoringTeamId": 36,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150602,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 26,
+        "goalGetterID": 18682,
+        "goalGetterName": "M. Bauer",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150615,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 85,
+        "goalGetterID": 20325,
+        "goalGetterName": "J. Rochelt",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
