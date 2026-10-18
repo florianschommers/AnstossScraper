@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-18T10:45:02Z",
+  "lastUpdated": "2026-10-18T11:00:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1496,7 +1496,15 @@
       "phase": "8. Spieltag",
       "homeLineup": [
         {
-          "name": "Christoph Kobald",
+          "name": "Hans Christian Bernat",
+          "position": "Torwart"
+        },
+        {
+          "name": "Viktor Bergh",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sandro Trémoulet",
           "position": "Abwehr"
         },
         {
@@ -1504,15 +1512,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Hans Christian Bernat",
-          "position": "Torwart"
-        },
-        {
-          "name": "Sandro Trémoulet",
+          "name": "Christoph Kobald",
           "position": "Abwehr"
         },
         {
-          "name": "Sebastian Jung",
+          "name": "Marvin Wanitzek",
           "position": "Mittelfeld"
         },
         {
@@ -1524,11 +1528,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Viktor Bergh",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marvin Wanitzek",
+          "name": "Sebastian Jung",
           "position": "Mittelfeld"
         },
         {
@@ -1546,11 +1546,7 @@
           "position": "Torwart"
         },
         {
-          "name": "William Mikelbrencis",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Patric Pfeiffer",
+          "name": "Raoul Petretta",
           "position": "Abwehr"
         },
         {
@@ -1558,11 +1554,15 @@
           "position": "Abwehr"
         },
         {
-          "name": "Raoul Petretta",
+          "name": "Patric Pfeiffer",
           "position": "Abwehr"
         },
         {
-          "name": "Lance Duijvestijn",
+          "name": "William Mikelbrencis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hiroki Akiyama",
           "position": "Mittelfeld"
         },
         {
@@ -1570,7 +1570,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Hiroki Akiyama",
+          "name": "Milan Smit",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lance Duijvestijn",
           "position": "Mittelfeld"
         },
         {
@@ -1578,11 +1582,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Lee Ho-Jae",
-          "position": "Angriff"
-        },
-        {
-          "name": "Milan Smit",
+          "name": "Ho-Jae Lee",
           "position": "Angriff"
         }
       ]
@@ -1599,11 +1599,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Jonas Sterner",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Nicolai Rapp",
+          "name": "Simon Straudi",
           "position": "Abwehr"
         },
         {
@@ -1611,19 +1607,19 @@
           "position": "Abwehr"
         },
         {
-          "name": "Simon Straudi",
+          "name": "Nicolai Rapp",
           "position": "Abwehr"
         },
         {
-          "name": "Robert Wagner",
-          "position": "Mittelfeld"
+          "name": "Jonas Sterner",
+          "position": "Abwehr"
         },
         {
           "name": "Tobias Raschl",
           "position": "Mittelfeld"
         },
         {
-          "name": "Patrice Covic",
+          "name": "Ben Bobzien",
           "position": "Mittelfeld"
         },
         {
@@ -1631,7 +1627,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ben Bobzien",
+          "name": "Robert Wagner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrice Covic",
           "position": "Mittelfeld"
         },
         {
@@ -1645,11 +1645,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Herbert Bockhorn",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tobias Muller",
+          "name": "Pierre Nadjombe",
           "position": "Abwehr"
         },
         {
@@ -1657,8 +1653,16 @@
           "position": "Abwehr"
         },
         {
-          "name": "Pierre Nadjombe",
+          "name": "Tobias Muller",
           "position": "Abwehr"
+        },
+        {
+          "name": "Herbert Bockhorn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moritz Kwarteng",
+          "position": "Mittelfeld"
         },
         {
           "name": "Luka Hyryläinen",
@@ -1669,19 +1673,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Emmanuel Iyoha",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Moritz Kwarteng",
-          "position": "Mittelfeld"
-        },
-        {
           "name": "Baris Atik",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
           "name": "Mateusz Zukowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emmanuel Iyoha",
           "position": "Angriff"
         }
       ]
@@ -1694,31 +1694,11 @@
       "phase": "8. Spieltag",
       "homeLineup": [
         {
-          "name": "Arne Sicker",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Leon Jensen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Marius Wörl",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Stefano Russo",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Isaiah Ahmad Young",
-          "position": "Angriff"
-        },
-        {
           "name": "Jonas Thomas Kersken",
           "position": "Torwart"
         },
         {
-          "name": "Felix Hagmann",
+          "name": "Arne Sicker",
           "position": "Abwehr"
         },
         {
@@ -1730,11 +1710,31 @@
           "position": "Abwehr"
         },
         {
-          "name": "Joel Grodowski",
-          "position": "Angriff"
+          "name": "Felix Hagmann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefano Russo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isaiah Ahmad Young",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Wörl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Jensen",
+          "position": "Mittelfeld"
         },
         {
           "name": "Benjamin Boakye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Grodowski",
           "position": "Angriff"
         }
       ],
@@ -1744,7 +1744,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Robin Fabinski",
+          "name": "Niklas Wiemann",
           "position": "Abwehr"
         },
         {
@@ -1752,15 +1752,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Niklas Wiemann",
+          "name": "Robin Fabinski",
           "position": "Abwehr"
         },
         {
-          "name": "Patrick Kammerbauer",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leon Flach",
+          "name": "Jonathan Gomez",
           "position": "Mittelfeld"
         },
         {
@@ -1768,15 +1764,19 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Jonathan Gomez",
+          "name": "Leon Flach",
           "position": "Mittelfeld"
         },
         {
-          "name": "Adrian Beck",
+          "name": "Patrick Kammerbauer",
           "position": "Mittelfeld"
         },
         {
           "name": "Ismail Badjie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
           "position": "Mittelfeld"
         },
         {
