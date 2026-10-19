@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-18T22:52:54Z",
+  "lastUpdated": "2026-10-19T10:00:01Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -1781,6 +1781,105 @@
         },
         {
           "name": "Mattia Zaccagni",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Monza",
+      "awayTeam": "Cagliari",
+      "dateTime": "2026-10-19T15:30:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Noel Törnqvist",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eddy Kouadio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saba Goglichidze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrea Carboni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samuele Birindelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Folorunsho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ebenezer Akinsanmiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ricardo Mangas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cyril Ngonge",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gustavo Miguel Pereira Sousa Varela",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dany Mota",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Elia Caprile",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zé Pedro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Winks",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Gianni Romano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanis Massolin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Maldini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Mendy",
           "position": "Angriff"
         }
       ]
