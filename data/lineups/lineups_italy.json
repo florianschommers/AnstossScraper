@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-19T11:30:01Z",
+  "lastUpdated": "2026-10-19T11:45:01Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -1880,6 +1880,105 @@
         },
         {
           "name": "Paul Mendy",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Parma",
+      "awayTeam": "Torino",
+      "dateTime": "2026-10-19T17:45:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Edoardo Corvi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sascha Britschgi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Carlos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enrico Del Prato",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Sierro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Bernabe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "El Bilal Touré",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Romero",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lucas Perri",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pietro Comuzzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saúl Coco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ricardo Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rolando Mandragora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Braganca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Cacciamani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Vlašić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Che Adams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Simeone",
           "position": "Angriff"
         }
       ]
