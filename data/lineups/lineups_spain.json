@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-18T22:52:53Z",
+  "lastUpdated": "2026-10-19T12:00:01Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -1880,6 +1880,105 @@
         },
         {
           "name": "Robbie Ure",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Getafe",
+      "awayTeam": "Rayo Vallecano",
+      "dateTime": "2026-10-19T18:00:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kiko Femenía",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Djené",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean Ives Valou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Cordón Mancha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Francho Serrano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Gudelj",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Martín",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alberto Risco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Satriano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Borja Mayoral",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Emil Audero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Iván Balliu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mujaid Sadick",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrià Pedrosa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Díaz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pathé Ciss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai López",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorge de Frutos",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sergio Camello",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alvaro Garcia",
           "position": "Angriff"
         }
       ]
