@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-18T22:52:52Z",
+  "lastUpdated": "2026-10-19T13:00:01Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -1880,6 +1880,105 @@
         },
         {
           "name": "Kai Havertz",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Tottenham Hotspur FC",
+      "awayTeam": "Coventry City",
+      "dateTime": "2026-10-19T19:00:00Z",
+      "matchday": 7,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Antonin Kinsky",
+          "position": "Torwart"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcos Senesi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Destiny Udogie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mateus Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Conor Gallagher",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathys Tel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominic Solanke",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Carl Rushworth",
+          "position": "Torwart"
+        },
+        {
+          "name": "Milan van Ewijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stephen Mfuni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ethan Pinnock",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bobby Thomas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Dasilva",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brandon Thomas-Asante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matt Grimes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Caleb Yirenkyi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ephron Mason-Clark",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Taiwo Awoniyi",
           "position": "Angriff"
         }
       ]
