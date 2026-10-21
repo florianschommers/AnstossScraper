@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-19T22:52:42Z",
+  "lastUpdated": "2026-10-21T11:00:01Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -1980,6 +1980,105 @@
         {
           "name": "Alvaro Garcia",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Levante",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-10-21T17:00:00Z",
+      "matchday": 6,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Adrian De La Fuente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ifeanyi Ndukwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manu Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brugue",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jose Requena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Olasagasti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petar Ratkov",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Unai Simón",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jesús Areso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yeray Álvarez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mikel Jauregizar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Peio Urtasan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñaki Williams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "Abwehr"
         }
       ]
     }
