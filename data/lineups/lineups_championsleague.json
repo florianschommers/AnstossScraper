@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-10-20T22:53:04Z",
+  "lastUpdated": "2026-10-21T15:30:31Z",
   "lineups": [
     {
       "homeTeam": "RC Lens",
@@ -2375,6 +2375,105 @@
         },
         {
           "name": "Marc Bernal",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lille OSC",
+      "awayTeam": "Galatasaray Istanbul",
+      "dateTime": "2026-10-21T16:45:00Z",
+      "matchday": 3,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Berke Özer",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexsandro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nabil Bentaleb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dilane Bakwa",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hákon Haraldsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ngal'Ayel Mukau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benjamin André",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Verdonk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Soriba Diaoune",
+          "position": "Angriff"
+        },
+        {
+          "name": "Maxima Goffi",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Uğurcan Çakır",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ismail Jakobs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roland Sallai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Sara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yunus Akgün",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Torreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdülkerim Bardakcı",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Osimhen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Barış Alper Yılmaz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksei Batrakov",
           "position": "Mittelfeld"
         }
       ]
