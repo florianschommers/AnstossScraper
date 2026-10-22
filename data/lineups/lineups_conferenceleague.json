@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2027",
-  "lastUpdated": "2026-10-22T17:30:46Z",
+  "lastUpdated": "2026-10-22T17:45:48Z",
   "lineups": [
     {
       "homeTeam": "Egnatia",
@@ -2772,6 +2772,105 @@
         {
           "name": "Hunor Németh",
           "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Midtjylland",
+      "awayTeam": "Sint-Truidense",
+      "dateTime": "2026-10-22T19:00:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Nordin Bakker",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ousmane Diao",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rasmus Kristensen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mileta Rajovic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pedro Bravo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hyun-Seok Hong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mads Bech",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sofus Johannesen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kjell Wätjen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julius Emefile",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Martínez",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Leo Kokubo",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kōta Takai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdoulaye Sissako",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilias Sebaoui",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nathanaël Mbuku",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ryan Merlen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nelson Ishiwatari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Frédéric Soèllé Soèllé",
+          "position": "Angriff"
+        },
+        {
+          "name": "Joedrick Pupe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Visar Musliu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert-Jan Vanwesemael",
+          "position": "Abwehr"
         }
       ]
     }
