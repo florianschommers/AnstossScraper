@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2027",
-  "lastUpdated": "2026-10-15T22:53:04Z",
+  "lastUpdated": "2026-10-22T13:30:11Z",
   "lineups": [
     {
       "homeTeam": "Egnatia",
@@ -1782,6 +1782,105 @@
         {
           "name": "Pêpê",
           "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Kairat Almaty",
+      "awayTeam": "Panathinaikos",
+      "dateTime": "2026-10-22T14:30:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Temirlan Anarbekov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Luís Mata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Olzhas Baibek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edmilson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jaakko Oksanen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandr Martynovich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Azamat Tuyakbayev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yerkin Tapalov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustavo Mendonça",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexandr Mrynskiy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Gual",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Iñaki Peña",
+          "position": "Torwart"
+        },
+        {
+          "name": "Stefan de Vrij",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrews Tetteh",
+          "position": "Angriff"
+        },
+        {
+          "name": "Cyriel Dessers",
+          "position": "Angriff"
+        },
+        {
+          "name": "Santino Andino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Erik Palmer-Brown",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Triantafyllos Tsapras",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vicente Taborda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Etienne Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Imran Louza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgos Kyriakopoulos",
+          "position": "Abwehr"
         }
       ]
     }
