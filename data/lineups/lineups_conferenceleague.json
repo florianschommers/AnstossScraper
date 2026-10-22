@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2027",
-  "lastUpdated": "2026-10-22T15:15:48Z",
+  "lastUpdated": "2026-10-22T15:30:54Z",
   "lineups": [
     {
       "homeTeam": "Egnatia",
@@ -1880,6 +1880,105 @@
         },
         {
           "name": "Giorgos Kyriakopoulos",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Getafe",
+      "awayTeam": "Lugano",
+      "dateTime": "2026-10-22T16:45:00Z",
+      "matchday": 2,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        },
+        {
+          "name": "Dakonam Djené",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davinchi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdel Abqar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Borja Mayoral",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francho Gracia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kiko Femenía",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ivan Monzón",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andrés García",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean Ives Valou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alberto Risco",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "David von Ballmoos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hannes Delcroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonios Papadopoulos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anto Grgic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albian Ajeti",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lukas Mai",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yanis Cimignani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Uran Bislimi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Dos Santos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dereck Moncada",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mattia Zanotti",
           "position": "Abwehr"
         }
       ]
