@@ -5663,7 +5663,7 @@
   {
     "matchID": 83212,
     "matchDateTime": "2026-10-23T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -5688,10 +5688,97 @@
       "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:25:29.707",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-23T22:26:35.347",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130195,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130196,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 3,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151012,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 5,
+        "goalGetterID": 18339,
+        "goalGetterName": "E. Demirovic",
+        "scoringTeamId": 16,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151022,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 38,
+        "goalGetterID": 19101,
+        "goalGetterName": "J. Scally",
+        "scoringTeamId": 87,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151036,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 51,
+        "goalGetterID": 21360,
+        "goalGetterName": "S. Machino",
+        "scoringTeamId": 87,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151044,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 66,
+        "goalGetterID": 24912,
+        "goalGetterName": "W. Mohya",
+        "scoringTeamId": 87,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151046,
+        "scoreTeam1": 2,
+        "scoreTeam2": 3,
+        "matchMinute": 83,
+        "goalGetterID": 18339,
+        "goalGetterName": "E. Demirovic",
+        "scoringTeamId": 16,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
