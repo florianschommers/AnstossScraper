@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-18T22:52:52Z",
+  "lastUpdated": "2026-10-23T12:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -1781,6 +1781,105 @@
         },
         {
           "name": "Tim Lemperle",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "Borussia Mönchengladbach",
+      "dateTime": "2026-10-23T18:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Dennis Seimen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lorenz Assignon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Finn Jeltsch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Chabot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ramon Hendriks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Atakan Karazor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Angelo Stiller",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jamie Leweling",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Deniz Undav",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bilal El Khannous",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ermedin Demirović",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Moritz Nicolas",
+          "position": "Torwart"
+        },
+        {
+          "name": "Philipp Sander",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Diks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Chiarodia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Ullrich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Scally",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zento Uno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Neuhaus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wael Mohya",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Bolin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Shuto Machino",
           "position": "Angriff"
         }
       ]
