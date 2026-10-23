@@ -3108,19 +3108,6 @@
         "comment": null
       },
       {
-        "goalID": 146876,
-        "scoreTeam1": 3,
-        "scoreTeam2": 1,
-        "matchMinute": 49,
-        "goalGetterID": 27362,
-        "goalGetterName": "Luca Erlein",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 146879,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -3131,6 +3118,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146876,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 27362,
+        "goalGetterName": "Luca Erlein",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       },
       {
@@ -7027,7 +7027,7 @@
   {
     "matchID": 83648,
     "matchDateTime": "2026-10-23T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7052,9 +7052,30 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:38:05.167",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-10-23T20:26:19.003",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130163,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130164,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -7062,7 +7083,7 @@
   {
     "matchID": 83655,
     "matchDateTime": "2026-10-23T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7087,10 +7108,58 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:38:14.463",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-23T20:26:11.96",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130165,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130166,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 150985,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 2,
+        "goalGetterID": 18525,
+        "goalGetterName": "F. Reese",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 150995,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 63,
+        "goalGetterID": 27988,
+        "goalGetterName": "Sean Klaiber",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
