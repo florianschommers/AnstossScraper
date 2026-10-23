@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-21T22:52:45Z",
+  "lastUpdated": "2026-10-23T12:00:02Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -2078,6 +2078,105 @@
         },
         {
           "name": "Maroan Sannadi",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Deportivo Alaves",
+      "awayTeam": "Malaga",
+      "dateTime": "2026-10-23T18:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ville Koski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolas Valentini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Facundo Tenaglia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibáñez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carles Aleñá",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toni Martínez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Boyé",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alfonso Herrero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Garrido",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Angel Recio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Salinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Larrubia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Izan Merino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Dotor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Martinez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrián Niño",
+          "position": "Angriff"
+        },
+        {
+          "name": "Carlos Ruiz Rubio",
           "position": "Angriff"
         }
       ]
