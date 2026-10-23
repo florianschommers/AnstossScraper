@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-19T22:52:42Z",
+  "lastUpdated": "2026-10-23T13:00:03Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -1979,6 +1979,105 @@
         },
         {
           "name": "Sidiki Cherif",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Ipswich Town",
+      "awayTeam": "Nottingham Forest",
+      "dateTime": "2026-10-23T19:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Christian Walton",
+          "position": "Torwart"
+        },
+        {
+          "name": "Dara O'Shea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Issa Diop",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacob Greaves",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leif Davis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florentino Luis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Exequiel Palacios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdoul Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daizen Maeda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emersonn Da Silva",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Matz Sels",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jair Cunha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Diomande",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolás Domínguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Xaver Schlager",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Neco Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Gibbs-White",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Liam Delap",
           "position": "Angriff"
         }
       ]
