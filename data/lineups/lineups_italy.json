@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-19T22:52:43Z",
+  "lastUpdated": "2026-10-23T11:45:02Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -1979,6 +1979,105 @@
         },
         {
           "name": "Giovanni Simeone",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Torino",
+      "awayTeam": "Monza",
+      "dateTime": "2026-10-23T17:45:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lucas Perri",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pietro Comuzzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ardian Ismajli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saúl Coco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rafik Belghali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rolando Mandragora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Braganca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Cacciamani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Vlašić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Che Adams",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giovanni Simeone",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Noel Törnqvist",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eddy Kouadio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saba Goglichidze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrea Carboni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samuele Birindelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manga Foe Ondoa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ebenezer Akinsanmiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ricardo Mangas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dany Mota",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jay Robinson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustavo Miguel Pereira Sousa Varela",
           "position": "Angriff"
         }
       ]

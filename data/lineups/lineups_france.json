@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-18T22:52:54Z",
+  "lastUpdated": "2026-10-23T11:45:02Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -1735,6 +1735,105 @@
         },
         {
           "name": "Pavel Šulc",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Yehvann Diouf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mohamed Abdelmonem",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youssouf Ndayishimiye",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Xavier Mandza",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Axel Witsel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hichem Boudaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niels Nkounkou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gauthier Hein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Amoura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elye Wahi",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brest",
+      "awayTeam": "Nice",
+      "dateTime": "2026-10-23T17:45:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Egil Selvik",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kenny Lala",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Tousart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gautier Lloris",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bradley Locko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joris Chotard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Magnetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mama Baldé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kamory Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pathe Mboup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovic Ajorque",
           "position": "Angriff"
         }
       ],
