@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-18T19:15:58Z",
+  "lastUpdated": "2026-10-23T15:30:34Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1781,6 +1781,105 @@
         },
         {
           "name": "Robin Meissner",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Bochum",
+      "awayTeam": "VfL Wolfsburg",
+      "dateTime": "2026-10-23T16:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Meyer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerrit Holtmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berkan Taz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koji Miyoshi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Hofmann",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Timon Wellenreuther",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joakim Mæhle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cleiton Santana dos Santos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hauke Wahl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sael Kumbedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vinicius Souza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yannick Gerhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabian Reese",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Muhammed Damar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Glatzel",
           "position": "Angriff"
         }
       ]
