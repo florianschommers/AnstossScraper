@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-23T15:30:34Z",
+  "lastUpdated": "2026-10-23T15:45:34Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1880,6 +1880,105 @@
         },
         {
           "name": "Robert Glatzel",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV Darmstadt 98",
+      "awayTeam": "FC St. Pauli",
+      "dateTime": "2026-10-23T16:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marcel Schuhen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Raoul Petretta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yannik Luhrs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patric Pfeiffer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Mikelbrencis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Richter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hiroki Akiyama",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Klefisch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Weisshaupt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milan Smit",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fynn Lakenmacher",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ben Voll",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lars Ritzka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Smith",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Nemeth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Louis Oppie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Chima Fujita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Rasmussen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arkadiusz Pyrka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Connor Metcalfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdoulie Ceesay",
+          "position": "Angriff"
+        },
+        {
+          "name": "Youssoupha Niang",
           "position": "Angriff"
         }
       ]
