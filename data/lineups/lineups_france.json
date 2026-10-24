@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-23T22:53:04Z",
+  "lastUpdated": "2026-10-24T11:45:05Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -1880,6 +1880,105 @@
         },
         {
           "name": "Elye Wahi",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-10-24T17:45:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samson Baidoo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Cuisance",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amadou Haidara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michał Skóraś",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Kadile",
+          "position": "Angriff"
+        },
+        {
+          "name": "Franjo Ivanović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        },
+        {
+          "name": "Adama Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Coppola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samir Chergui",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hamari Traoré",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxime Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre Lees-Melou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Pagis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Koleosho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassine Sinayoko",
           "position": "Angriff"
         }
       ]

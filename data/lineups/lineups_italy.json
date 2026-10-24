@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-24T11:30:04Z",
+  "lastUpdated": "2026-10-24T11:45:05Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -2375,6 +2375,105 @@
         },
         {
           "name": "Donyell Malen",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lazio",
+      "awayTeam": "Parma",
+      "dateTime": "2026-10-24T17:45:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Christos Mandas",
+          "position": "Torwart"
+        },
+        {
+          "name": "Romano Floriani Mussolini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josip Šutalo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oliver Provstgaard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nuno Tavares",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davide Frattesi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reda Belahyane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Galassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustav Isaksen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tijjani Noslin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mattia Zaccagni",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Edoardo Corvi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Diego Carlos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enrico Del Prato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sascha Britschgi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Bernabe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Fabbian",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "El Bilal Touré",
           "position": "Angriff"
         }
       ]
