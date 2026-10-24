@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-24T10:15:03Z",
+  "lastUpdated": "2026-10-24T10:30:03Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -2102,7 +2102,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Tyrone Mings",
+          "name": "Pau Torres",
           "position": "Abwehr"
         },
         {
@@ -2122,11 +2122,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Emiliano Buendía",
+          "name": "John McGinn",
           "position": "Mittelfeld"
         },
         {
-          "name": "Ibrahim Mbaye",
+          "name": "Johan Manzambi",
           "position": "Mittelfeld"
         },
         {
@@ -2144,11 +2144,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Marc Guéhi",
+          "name": "Rúben Dias",
           "position": "Abwehr"
         },
         {
-          "name": "Rúben Dias",
+          "name": "Marc Guéhi",
           "position": "Abwehr"
         },
         {
@@ -2160,7 +2160,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Ayyoub Bouaddi",
+          "name": "Enzo Fernández",
           "position": "Mittelfeld"
         },
         {
@@ -2375,6 +2375,105 @@
         },
         {
           "name": "Gonzalo García",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Chelsea FC",
+      "awayTeam": "Tottenham Hotspur FC",
+      "dateTime": "2026-10-24T16:30:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mike Penders",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joshua Acheampong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxence Lacroix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Levi Colwill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Neto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Henderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jorrel Hato",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cole Palmer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "João Pedro",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Antonin Kinsky",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ben Davies",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Conor Gallagher",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andy Robertson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Marmoush",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominic Solanke",
           "position": "Angriff"
         }
       ]

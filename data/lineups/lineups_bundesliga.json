@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-24T10:15:01Z",
+  "lastUpdated": "2026-10-24T10:30:02Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -2375,6 +2375,105 @@
         },
         {
           "name": "Yussuf Poulsen",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Eintracht Frankfurt",
+      "dateTime": "2026-10-24T16:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Gregor Kobel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kouakou Joane Gadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Waldemar Anton",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Ryerson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jobe Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Nmecha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Svensson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Nwaneri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Beier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Serhou Guirassy",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Noah Atubolu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Timothy Chandler",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Koch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Keita Kosugi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphael Onyedika",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Götze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fares Chaibi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "position": "Angriff"
+        },
+        {
+          "name": "Younes Ebnoutalib",
           "position": "Angriff"
         }
       ]
