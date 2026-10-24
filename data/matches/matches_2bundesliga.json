@@ -3108,19 +3108,6 @@
         "comment": null
       },
       {
-        "goalID": 146879,
-        "scoreTeam1": 3,
-        "scoreTeam2": 2,
-        "matchMinute": 49,
-        "goalGetterID": 24192,
-        "goalGetterName": "King Manu",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 146876,
         "scoreTeam1": 3,
         "scoreTeam2": 1,
@@ -3131,6 +3118,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 146879,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 49,
+        "goalGetterID": 24192,
+        "goalGetterName": "King Manu",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       },
       {
@@ -7166,7 +7166,7 @@
   {
     "matchID": 83645,
     "matchDateTime": "2026-10-24T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7191,17 +7191,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:38:31.343",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-24T14:55:28.027",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130243,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130244,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151121,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 40,
+        "goalGetterID": 27254,
+        "goalGetterName": "Lucas Copado",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151122,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 23757,
+        "goalGetterName": "O. Mhamdi",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83650,
     "matchDateTime": "2026-10-24T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7226,17 +7274,52 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:38:38.1",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-24T14:55:19.073",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130245,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130246,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151139,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 93,
+        "goalGetterID": 18341,
+        "goalGetterName": "J. Brekalo",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83659,
     "matchDateTime": "2026-10-24T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7261,17 +7344,130 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:38:45.663",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-24T14:57:34.043",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130247,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130248,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 6,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151120,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 39,
+        "goalGetterID": 24297,
+        "goalGetterName": "M. Zukowski",
+        "scoringTeamId": 78,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151124,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 51,
+        "goalGetterID": 24297,
+        "goalGetterName": "M. Zukowski",
+        "scoringTeamId": 78,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151126,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 54,
+        "goalGetterID": 28020,
+        "goalGetterName": "García MacNulty",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151127,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 59,
+        "goalGetterID": 19325,
+        "goalGetterName": "E. Iyoha",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151128,
+        "scoreTeam1": 5,
+        "scoreTeam2": 0,
+        "matchMinute": 66,
+        "goalGetterID": 20533,
+        "goalGetterName": "R. Simic",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151137,
+        "scoreTeam1": 5,
+        "scoreTeam2": 1,
+        "matchMinute": 82,
+        "goalGetterID": 28022,
+        "goalGetterName": "Deniz Ofli",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151143,
+        "scoreTeam1": 6,
+        "scoreTeam2": 1,
+        "matchMinute": 93,
+        "goalGetterID": 24479,
+        "goalGetterName": "Leon Mergner",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83652,
     "matchDateTime": "2026-10-24T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7296,10 +7492,45 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:39:00.5",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-24T22:32:01.14",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130296,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130297,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151209,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 58,
+        "goalGetterID": 23546,
+        "goalGetterName": "Erencan Yardimci",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
