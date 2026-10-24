@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-23T22:53:03Z",
+  "lastUpdated": "2026-10-24T10:00:04Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -2078,6 +2078,303 @@
         },
         {
           "name": "Gustavo Miguel Pereira Sousa Varela",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Cagliari",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-10-24T12:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Elia Caprile",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zé Pedro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yerry Mina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Rodriguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adam Obert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michel Adopo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Winks",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessandro Gianni Romano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Maldini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Mendy",
+          "position": "Angriff"
+        },
+        {
+          "name": "M'Bala Nzola",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Łukasz Skorupski",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matteo Darmian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolò Casale",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arthur Theate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nadir Zortea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Ferguson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Pobega",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Miranda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Bernardeschi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Cambiaghi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jay Enem",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Como 1907",
+      "awayTeam": "Sassuolo",
+      "dateTime": "2026-10-24T12:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jean Butez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Yan Couto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacobo Ramón",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Kempf",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Valle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luis Milla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Máximo Perrone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Da Cunha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Paz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Baturina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anastasios Douvikas",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Arijanet Muric",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ignace Van Der Brempt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cas Odenthal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kristian Thorstvedt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darryl Bakola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domenico Berardi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Armand Laurienté",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Napoli",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-10-24T15:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alex Meret",
+          "position": "Torwart"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benoît Badiashile",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rafa Marín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matteo Politano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "André-Frank Zambo Anguissa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Spinazzola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noa Lang",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Højlund",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Pierluigi Gollini",
+          "position": "Torwart"
+        },
+        {
+          "name": "Daniele Ghilardi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Hermoso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marten De Roon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niccolò Pisilli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wesley Franca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matías Soulé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Mora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Donyell Malen",
           "position": "Angriff"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-23T22:53:03Z",
+  "lastUpdated": "2026-10-24T10:00:03Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -2177,6 +2177,303 @@
         },
         {
           "name": "Adrián Niño",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Elche",
+      "dateTime": "2026-10-24T11:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Emil Audero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Iván Balliu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Lejeune",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mujaid Sadick",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrià Pedrosa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isi Palazón",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Díaz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Unai López",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Georgiy Tsitaishvili",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexandre Alemao",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alvaro Garcia",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Matias Dituro",
+          "position": "Torwart"
+        },
+        {
+          "name": "Buba Sangaré",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Víctor Chust",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Redondo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roy Revivo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Morcillo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonzalo Villar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Cepeda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thomas Lemar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "German Valera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fernando Nino",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Racing Santander",
+      "awayTeam": "Espanyol",
+      "dateTime": "2026-10-24T13:15:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Julen Agirrezabala",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alvaro Mantilla Perez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Ramon Parra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeanuel Belocian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jorge Salinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Iván Martín",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Prati",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Canales",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "André Almeida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Vicente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassir Zabiri",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Angel Fortuno",
+          "position": "Torwart"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roger Hinojo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Clemens Riedel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javier Hernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Zaragoza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Roberto Fernandez",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Valencia",
+      "awayTeam": "Villarreal",
+      "dateTime": "2026-10-24T15:30:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Stole Dimitrievski",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pablo Maffeo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cesar Tarrega",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mouctar Diakhaby",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José Gayà",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Guido Rodríguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Raba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Guerra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Rioja",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arnaut Danjuma",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Péter Gulácsi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alex Freeman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Foyth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Renato Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergi Cardona",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ilias Akhomach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Gueye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santi Comesaña",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alberto Moleiro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Moreno",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ayoze Pérez",
           "position": "Angriff"
         }
       ]

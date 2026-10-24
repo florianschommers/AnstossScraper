@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-23T22:53:01Z",
+  "lastUpdated": "2026-10-24T10:00:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1979,6 +1979,105 @@
         },
         {
           "name": "Youssoupha Niang",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "Karlsruher SC",
+      "dateTime": "2026-10-24T11:00:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Dominik Reimann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pierre Nadjombe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anselmo Garcia MacNulty",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexander Nollenberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moritz Kwarteng",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Hyryläinen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Torben Musel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emmanuel Iyoha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mateusz Zukowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Baris Atik",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hans Christian Bernat",
+          "position": "Torwart"
+        },
+        {
+          "name": "Christoph Kobald",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcel Franke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sandro Trémoulet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Jung",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Wiethaup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santeri Vaananen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Bergh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marvin Wanitzek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shio Fukuda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Noel Eichinger",
           "position": "Angriff"
         }
       ]
