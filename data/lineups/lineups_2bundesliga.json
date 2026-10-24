@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-24T17:45:28Z",
+  "lastUpdated": "2026-10-24T18:00:29Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -2276,6 +2276,105 @@
         },
         {
           "name": "Monju Momuluh",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "1. FC Kaiserslautern",
+      "dateTime": "2026-10-24T18:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jan-Marc Reichert",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eric Porstner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fynn Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexios Kalogeropoulos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Janisch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javier Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Markhiyev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Lubach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Justvan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Ghrieb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piet Scobel",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Julian Krahl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alex Murphy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxwell Gyamfi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mika Haas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Sauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Semih Sahin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Joly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Kanate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naatan Skyttä",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Lukovic",
           "position": "Angriff"
         }
       ]
