@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-24T10:00:02Z",
+  "lastUpdated": "2026-10-24T10:15:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -1995,11 +1995,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Pierre Nadjombe",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Tobias Muller",
+          "name": "Alexander Nollenberger",
           "position": "Abwehr"
         },
         {
@@ -2007,11 +2003,19 @@
           "position": "Abwehr"
         },
         {
-          "name": "Alexander Nollenberger",
+          "name": "Tobias Muller",
           "position": "Abwehr"
         },
         {
-          "name": "Moritz Kwarteng",
+          "name": "Pierre Nadjombe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Torben Musel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felipe Chavez",
           "position": "Mittelfeld"
         },
         {
@@ -2019,11 +2023,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Torben Musel",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emmanuel Iyoha",
+          "name": "Baris Atik",
           "position": "Angriff"
         },
         {
@@ -2031,7 +2031,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Baris Atik",
+          "name": "Emmanuel Iyoha",
           "position": "Angriff"
         }
       ],
@@ -2041,11 +2041,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Christoph Kobald",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Marcel Franke",
+          "name": "Viktor Bergh",
           "position": "Abwehr"
         },
         {
@@ -2053,7 +2049,15 @@
           "position": "Abwehr"
         },
         {
-          "name": "Sebastian Jung",
+          "name": "Marcel Franke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christoph Kobald",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Santeri Vaananen",
           "position": "Mittelfeld"
         },
         {
@@ -2061,11 +2065,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Santeri Vaananen",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Viktor Bergh",
+          "name": "Noel Eichinger",
           "position": "Mittelfeld"
         },
         {
@@ -2073,11 +2073,209 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Sebastian Jung",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Shio Fukuda",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Heidenheim 1846",
+      "awayTeam": "Energie Cottbus",
+      "dateTime": "2026-10-24T11:00:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Thomas Dähne",
+          "position": "Torwart"
+        },
+        {
+          "name": "Oualid Mhamdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Fohrenbach",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Hennrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Niehues",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Joe Conteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikkel Kaufmann",
           "position": "Angriff"
         },
         {
-          "name": "Noel Eichinger",
+          "name": "Budu Zivzivadze",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marcel Lotka",
+          "position": "Torwart"
+        },
+        {
+          "name": "Luca Erlein",
+          "position": "Abwehr"
+        },
+        {
+          "name": "King Samuel Manu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Campulka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leon Guwara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Michelbrink",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fousseny Max Doumbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Henry Rorig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tolcay Cigerci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Copado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dmytro Bogdanov",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "DSC Arminia Bielefeld",
+      "dateTime": "2026-10-24T11:00:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marius Gersbeck",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mads Pedersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niklas Kolbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Linus Jasper Gechter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Deyovaisio Zeefuik",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Sessa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Seguin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josip Brekalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwaseun Adewumi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jón Dagur Þorsteinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastian Gronning",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Thomas Kersken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Arne Sicker",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joel Felix",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Bauer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Felix Hagmann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Grosser",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefano Russo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Wörl",
+          "position": "Angriff"
+        },
+        {
+          "name": "Joel Grodowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Monju Momuluh",
           "position": "Angriff"
         }
       ]
