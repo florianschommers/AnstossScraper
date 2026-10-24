@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-24T11:45:04Z",
+  "lastUpdated": "2026-10-24T12:00:03Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -2474,6 +2474,105 @@
         },
         {
           "name": "Ayoze Pérez",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atletico Madrid",
+      "awayTeam": "Deportivo A Coruna",
+      "dateTime": "2026-10-24T18:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Pubill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dávid Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Álex Grimaldo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morten Hjulmand",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan David",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ademola Lookman",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Leo Román",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ximo Navarro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José María Giménez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Noubi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giacomo Quagliata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luismi Cruz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lorenzo Amatucci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Villares",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Riki Rodríguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Soriano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Bil Nsongo",
           "position": "Angriff"
         }
       ]
