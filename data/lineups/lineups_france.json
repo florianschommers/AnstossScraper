@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-24T22:52:54Z",
+  "lastUpdated": "2026-10-25T10:00:06Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -1979,6 +1979,105 @@
         },
         {
           "name": "Lassine Sinayoko",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lille",
+      "dateTime": "2026-10-25T14:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lukas Hradecky",
+          "position": "Torwart"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sadibou Sane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohammed Salisu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flávio Nazinho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthis Abline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ansu Fati",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paris Brunner",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Berke Ozer",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maxima Adeagan Goffi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tanguy Nianzou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Romain Perraud",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benjamin Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gaetan Perrin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakon Arnar Haraldsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dilane Bakwa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Olivier Giroud",
           "position": "Angriff"
         }
       ]
