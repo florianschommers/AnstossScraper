@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-25T10:15:04Z",
+  "lastUpdated": "2026-10-25T10:30:03Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -2870,6 +2870,105 @@
         },
         {
           "name": "Evanilson",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sunderland",
+      "awayTeam": "Leeds United",
+      "dateTime": "2026-10-25T16:30:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Robin Roefs",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nordi Mukiele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar Alderete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luke O'Nien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Reinildo Mandava",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Granit Xhaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Sadiki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Trai Hume",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Habib Diarra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Le Fée",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Timur Tuterov",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "James Trafford",
+          "position": "Torwart"
+        },
+        {
+          "name": "James Justin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tarik Muharemović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brenden Aaronson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Nmecha",
           "position": "Angriff"
         }
       ]

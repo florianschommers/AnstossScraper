@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-25T10:15:01Z",
+  "lastUpdated": "2026-10-25T10:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -2573,6 +2573,105 @@
         },
         {
           "name": "Patrik Schick",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "FC Bayern München",
+      "dateTime": "2026-10-25T16:30:00Z",
+      "matchday": 7,
+      "phase": "7. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Mio Backhaus",
+          "position": "Torwart"
+        },
+        {
+          "name": "Philipp Treu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthias Ginter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Lienhart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordy Makengo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Eggestein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Osterhage",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan-Niklas Beste",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuito Suzuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Derry Lionel Scherhant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Matanović",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Urbig",
+          "position": "Torwart"
+        },
+        {
+          "name": "Josip Stanišić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathaniel Brown",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Bischof",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Olise",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lennart Karl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Serge Gnabry",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Kane",
           "position": "Angriff"
         }
       ]
