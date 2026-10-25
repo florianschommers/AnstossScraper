@@ -3108,19 +3108,6 @@
         "comment": null
       },
       {
-        "goalID": 146876,
-        "scoreTeam1": 3,
-        "scoreTeam2": 1,
-        "matchMinute": 49,
-        "goalGetterID": 27362,
-        "goalGetterName": "Luca Erlein",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 146879,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -3131,6 +3118,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146876,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 27362,
+        "goalGetterName": "Luca Erlein",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       },
       {
@@ -7537,7 +7537,7 @@
   {
     "matchID": 83658,
     "matchDateTime": "2026-10-25T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7562,17 +7562,78 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:38:22.757",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-25T15:33:23.13",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130333,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130334,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151260,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 9,
+        "goalGetterID": 28041,
+        "goalGetterName": "Giorgi Kvilitaia",
+        "scoringTeamId": 104,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151272,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 73,
+        "goalGetterID": 23655,
+        "goalGetterName": "J. Therkelsen",
+        "scoringTeamId": 104,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151280,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 85,
+        "goalGetterID": 19870,
+        "goalGetterName": "Phil Harres",
+        "scoringTeamId": 104,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83660,
     "matchDateTime": "2026-10-25T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7597,17 +7658,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:38:45.133",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-25T15:37:02.933",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130335,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130336,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151261,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 17,
+        "goalGetterID": 24077,
+        "goalGetterName": "Max Marie",
+        "scoringTeamId": 74,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151283,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 92,
+        "goalGetterID": 23751,
+        "goalGetterName": "Y. Sturm",
+        "scoringTeamId": 74,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83661,
     "matchDateTime": "2026-10-25T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7632,10 +7741,71 @@
       "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:38:48.6",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-25T15:21:43.88",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130337,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130338,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151263,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 37,
+        "goalGetterID": 28042,
+        "goalGetterName": "Daniel Kofi Kyereh",
+        "scoringTeamId": 36,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151264,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 39,
+        "goalGetterID": 18758,
+        "goalGetterName": "R. Meißner",
+        "scoringTeamId": 36,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151273,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 75,
+        "goalGetterID": 23837,
+        "goalGetterName": "I. Badjie",
+        "scoringTeamId": 36,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
