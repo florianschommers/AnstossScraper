@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-25T10:45:05Z",
+  "lastUpdated": "2026-10-25T11:00:06Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -2771,6 +2771,105 @@
         },
         {
           "name": "Akor Adams",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lecce",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-10-25T17:00:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        },
+        {
+          "name": "Danilo Filipe Melo Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kialonda Gaspar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Kaba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oumar Ngom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssef Maleh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konan N’Dri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Willem Geubbels",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amar Abdirahman Ahmed",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        },
+        {
+          "name": "Federico Gatti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Douglas Luiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nick Woltemade",
           "position": "Angriff"
         }
       ]
