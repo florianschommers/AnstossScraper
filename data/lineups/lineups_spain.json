@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-25T13:45:36Z",
+  "lastUpdated": "2026-10-25T14:00:37Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -2870,6 +2870,105 @@
         },
         {
           "name": "Brugue",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Barcelona",
+      "awayTeam": "Real Madrid",
+      "dateTime": "2026-10-25T20:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        },
+        {
+          "name": "Xavi Espart Font",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gerard Martín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Cancelo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rodri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fermín López",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphinha",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Andriy Lunin",
+          "position": "Torwart"
+        },
+        {
+          "name": "Denzel Dumfries",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dean Huijsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Cucurella",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Valverde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aurélien Tchouaméni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arda Güler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jude Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yan Diomande",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kylian Mbappé",
           "position": "Angriff"
         }
       ]
