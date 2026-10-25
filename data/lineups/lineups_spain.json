@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-25T11:15:04Z",
+  "lastUpdated": "2026-10-25T11:30:04Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -2771,6 +2771,105 @@
         },
         {
           "name": "Troy Parrott",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Levante",
+      "dateTime": "2026-10-25T17:30:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Álex Remiro",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hector Fort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Gómez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Beñat Turrientes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ander Barrenetxea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Orri Óskarsson",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jeremy Toljan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aïssa Mandi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ifeanyi Ndukwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manu Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Olasagasti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Requena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Víctor García",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        },
+        {
+          "name": "Brugue",
           "position": "Angriff"
         }
       ]
