@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-25T13:30:06Z",
+  "lastUpdated": "2026-10-25T13:45:08Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -2870,6 +2870,105 @@
         },
         {
           "name": "Nick Woltemade",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Udinese",
+      "awayTeam": "AC Milan",
+      "dateTime": "2026-10-25T19:45:00Z",
+      "matchday": 8,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Maduka Okoye",
+          "position": "Torwart"
+        },
+        {
+          "name": "Christian Kabasele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matteo Palma",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Enzo Ebosse",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mergim Vojvoda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesper Karlstrom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jakub Piotrowski",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hassane Kamara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jurgen Ekkelenkamp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgi Chakvetadze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keinan Davis",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mike Maignan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Fikayo Tomori",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koni De Winter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Strahinja Pavlović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Filippo Terracciano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yunus Musah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Modrić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pervis Estupiñán",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alphadjo Cisse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Pulisic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonçalo Ramos",
           "position": "Angriff"
         }
       ]
