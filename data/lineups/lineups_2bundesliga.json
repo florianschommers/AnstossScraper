@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-24T22:52:51Z",
+  "lastUpdated": "2026-10-25T11:45:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -2375,6 +2375,303 @@
         },
         {
           "name": "Milos Lukovic",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "Dynamo Dresden",
+      "dateTime": "2026-10-25T12:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timon Weiner",
+          "position": "Torwart"
+        },
+        {
+          "name": "Leon Parduzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Zec",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Haubjerg Ellegaard Madsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hiroki Sekine",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gyan de Regt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kasper Davidsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Meffert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Kapralik",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phil Harres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Giorgi Kvilitaia",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lennart Grill",
+          "position": "Torwart"
+        },
+        {
+          "name": "Simon Straudi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Friedrich Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolai Rapp",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Sterner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Raschl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Wagner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ben Bobzien",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niklas Hauptmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrice Covic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Vermeij",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "Hannover 96",
+      "dateTime": "2026-10-25T12:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Ron-Thorben Hoffmann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mehmet-Can Aydin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Ehlers",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andi Hoti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Di Michele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Opoku",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arlet Ze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Flick",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Max Marie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yann Sturm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Urbich",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Leo Weinkauf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Virgil Ghita",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boris Tomiak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean Hugonet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maurice Neubauer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefán Teitur Thórdarson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Husseyn Chakroun",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Waniss Taibi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kolja Oudenne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benjamin Kallman",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marcel Hartel",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "dateTime": "2026-10-25T12:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Krumrey",
+          "position": "Torwart"
+        },
+        {
+          "name": "Niklas Wiemann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Müller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fabinski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bjarke Jacobsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonhard Munst",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Kammerbauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel-Kofi Kyereh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Meissner",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Florian Hellstern",
+          "position": "Torwart"
+        },
+        {
+          "name": "Gian-Luca Itter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hendry Blank",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannis Heuer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Dehm",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ole Pohlmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Will",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sacha Banse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shinta Karl Appelkamp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Siebatcheu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Felix Klaus",
           "position": "Angriff"
         }
       ]
