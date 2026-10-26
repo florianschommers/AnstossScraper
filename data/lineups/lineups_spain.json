@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-25T22:53:04Z",
+  "lastUpdated": "2026-10-26T14:00:30Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -2969,6 +2969,105 @@
         },
         {
           "name": "Kylian Mbappé",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sevilla",
+      "awayTeam": "Osasuna",
+      "dateTime": "2026-10-26T20:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andres Castrin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucien Agoumé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssouf Fofana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Vargas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerard Peque",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robbie Ure",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Aitor Fernández",
+          "position": "Torwart"
+        },
+        {
+          "name": "Valentin Rosier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flavien Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abel Bretones",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iker Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moi Gómez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rubén García",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jonathan Dubasin",
           "position": "Angriff"
         }
       ]
