@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-26T00:30:04Z",
+  "lastUpdated": "2026-10-27T01:32:38Z",
   "matches": [
     {
       "matchday": 1,
@@ -718,8 +718,8 @@
       "homeTeam": "Paris Saint-Germain",
       "awayTeam": "Lyon",
       "dateTime": "2026-10-26T19:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -748,16 +748,6 @@
       "homeTeam": "Nice",
       "awayTeam": "Rennes",
       "dateTime": "2026-10-31T16:15:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 9,
-      "homeTeam": "Lorient",
-      "awayTeam": "Brest",
-      "dateTime": "2026-10-31T19:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -808,6 +798,16 @@
       "homeTeam": "Marseille",
       "awayTeam": "Toulouse",
       "dateTime": "2026-11-01T19:45:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Lorient",
+      "awayTeam": "Brest",
+      "dateTime": "2026-11-02T19:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
