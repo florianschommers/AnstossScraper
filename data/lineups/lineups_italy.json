@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-25T22:53:05Z",
+  "lastUpdated": "2026-10-27T11:30:01Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -2969,6 +2969,105 @@
         },
         {
           "name": "Gonçalo Ramos",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Lazio",
+      "dateTime": "2026-10-27T17:30:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Arijanet Muric",
+          "position": "Torwart"
+        },
+        {
+          "name": "Simone Cinquegrano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cas Odenthal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vasilije Adzic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nemanja Matic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kristian Thorstvedt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domenico Berardi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Armand Laurienté",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Christos Mandas",
+          "position": "Torwart"
+        },
+        {
+          "name": "Romano Floriani Mussolini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josip Šutalo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oliver Provstgaard",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nuno Tavares",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davide Frattesi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reda Belahyane",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenneth Taylor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustav Isaksen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tijjani Noslin",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mattia Zaccagni",
           "position": "Angriff"
         }
       ]
