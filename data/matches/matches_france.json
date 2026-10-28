@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-27T01:32:38Z",
+  "lastUpdated": "2026-10-28T01:29:30Z",
   "matches": [
     {
       "matchday": 1,
@@ -735,29 +735,19 @@
     },
     {
       "matchday": 9,
+      "homeTeam": "Nice",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-10-30T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
       "homeTeam": "Lille",
       "awayTeam": "Lens",
       "dateTime": "2026-10-30T20:05:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 9,
-      "homeTeam": "Nice",
-      "awayTeam": "Rennes",
-      "dateTime": "2026-10-31T16:15:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 9,
-      "homeTeam": "Lyon",
-      "awayTeam": "Angers",
-      "dateTime": "2026-10-31T19:45:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -778,6 +768,16 @@
       "homeTeam": "Strasbourg",
       "awayTeam": "Auxerre",
       "dateTime": "2026-11-01T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 9,
+      "homeTeam": "Lyon",
+      "awayTeam": "Angers",
+      "dateTime": "2026-11-01T16:15:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
