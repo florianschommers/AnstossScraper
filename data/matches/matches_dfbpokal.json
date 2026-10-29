@@ -1046,6 +1046,19 @@
     ],
     "goals": [
       {
+        "goalID": 145817,
+        "scoreTeam1": 2,
+        "scoreTeam2": 4,
+        "matchMinute": null,
+        "goalGetterID": 19581,
+        "goalGetterName": "L. Schuler",
+        "scoringTeamId": 54,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
         "goalID": 145815,
         "scoreTeam1": 2,
         "scoreTeam2": 3,
@@ -1092,19 +1105,6 @@
         "goalGetterID": 19011,
         "goalGetterName": "C. Rizzuto",
         "scoringTeamId": 3078,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 145817,
-        "scoreTeam1": 2,
-        "scoreTeam2": 4,
-        "matchMinute": null,
-        "goalGetterID": 19581,
-        "goalGetterName": "L. Schuler",
-        "scoringTeamId": 54,
         "isPenalty": true,
         "isOwnGoal": false,
         "isOvertime": false,
@@ -1266,6 +1266,32 @@
         "comment": null
       },
       {
+        "goalID": 145826,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 24530,
+        "goalGetterName": "Alexander Prokopenko",
+        "scoringTeamId": 2199,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 145827,
+        "scoreTeam1": 3,
+        "scoreTeam2": 4,
+        "matchMinute": null,
+        "goalGetterID": 24949,
+        "goalGetterName": "A. Markhiev",
+        "scoringTeamId": 79,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
         "goalID": 145829,
         "scoreTeam1": 4,
         "scoreTeam2": 5,
@@ -1298,32 +1324,6 @@
         "matchMinute": null,
         "goalGetterID": 27216,
         "goalGetterName": "Kristian Mandic",
-        "scoringTeamId": 79,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 145826,
-        "scoreTeam1": 3,
-        "scoreTeam2": 3,
-        "matchMinute": null,
-        "goalGetterID": 24530,
-        "goalGetterName": "Alexander Prokopenko",
-        "scoringTeamId": 2199,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 145827,
-        "scoreTeam1": 3,
-        "scoreTeam2": 4,
-        "matchMinute": null,
-        "goalGetterID": 24949,
-        "goalGetterName": "A. Markhiev",
         "scoringTeamId": 79,
         "isPenalty": true,
         "isOwnGoal": false,
@@ -1787,19 +1787,6 @@
     ],
     "goals": [
       {
-        "goalID": 145855,
-        "scoreTeam1": 5,
-        "scoreTeam2": 2,
-        "matchMinute": null,
-        "goalGetterID": 27229,
-        "goalGetterName": "Franz Xaver Bleicher",
-        "scoringTeamId": 529,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 145853,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -1819,6 +1806,19 @@
         "matchMinute": null,
         "goalGetterID": 27228,
         "goalGetterName": "Luca Molinari",
+        "scoringTeamId": 529,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 145855,
+        "scoreTeam1": 5,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 27229,
+        "goalGetterName": "Franz Xaver Bleicher",
         "scoringTeamId": 529,
         "isPenalty": true,
         "isOwnGoal": false,
@@ -3502,71 +3502,6 @@
     ],
     "goals": [
       {
-        "goalID": 146031,
-        "scoreTeam1": 5,
-        "scoreTeam2": 5,
-        "matchMinute": null,
-        "goalGetterID": 23265,
-        "goalGetterName": "M. Damar",
-        "scoringTeamId": 131,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 146038,
-        "scoreTeam1": 8,
-        "scoreTeam2": 9,
-        "matchMinute": null,
-        "goalGetterID": 23361,
-        "goalGetterName": "Kilian Fischer",
-        "scoringTeamId": 131,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 146028,
-        "scoreTeam1": 4,
-        "scoreTeam2": 3,
-        "matchMinute": null,
-        "goalGetterID": 24517,
-        "goalGetterName": "Emeka Oduah",
-        "scoringTeamId": 4600,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 146035,
-        "scoreTeam1": 7,
-        "scoreTeam2": 7,
-        "matchMinute": null,
-        "goalGetterID": 23649,
-        "goalGetterName": "A. Besio",
-        "scoringTeamId": 131,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
-        "goalID": 146037,
-        "scoreTeam1": 8,
-        "scoreTeam2": 8,
-        "matchMinute": null,
-        "goalGetterID": 17242,
-        "goalGetterName": "Elvis Rexhbecaj",
-        "scoringTeamId": 131,
-        "isPenalty": true,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 146032,
         "scoreTeam1": 6,
         "scoreTeam2": 5,
@@ -3593,12 +3528,64 @@
         "comment": null
       },
       {
+        "goalID": 146037,
+        "scoreTeam1": 8,
+        "scoreTeam2": 8,
+        "matchMinute": null,
+        "goalGetterID": 17242,
+        "goalGetterName": "Elvis Rexhbecaj",
+        "scoringTeamId": 131,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
         "goalID": 146033,
         "scoreTeam1": 6,
         "scoreTeam2": 6,
         "matchMinute": null,
         "goalGetterID": 16180,
         "goalGetterName": "Maximilian Arnold",
+        "scoringTeamId": 131,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146035,
+        "scoreTeam1": 7,
+        "scoreTeam2": 7,
+        "matchMinute": null,
+        "goalGetterID": 23649,
+        "goalGetterName": "A. Besio",
+        "scoringTeamId": 131,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146031,
+        "scoreTeam1": 5,
+        "scoreTeam2": 5,
+        "matchMinute": null,
+        "goalGetterID": 23265,
+        "goalGetterName": "M. Damar",
+        "scoringTeamId": 131,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146038,
+        "scoreTeam1": 8,
+        "scoreTeam2": 9,
+        "matchMinute": null,
+        "goalGetterID": 23361,
+        "goalGetterName": "Kilian Fischer",
         "scoringTeamId": 131,
         "isPenalty": true,
         "isOwnGoal": false,
@@ -3638,6 +3625,19 @@
         "matchMinute": null,
         "goalGetterID": 27248,
         "goalGetterName": "N. Zografakis",
+        "scoringTeamId": 4600,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146028,
+        "scoreTeam1": 4,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 24517,
+        "goalGetterName": "Emeka Oduah",
         "scoringTeamId": 4600,
         "isPenalty": true,
         "isOwnGoal": false,
@@ -5060,7 +5060,7 @@
   {
     "matchID": 87619,
     "matchDateTime": "2026-10-28T18:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5085,17 +5085,65 @@
       "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:39:07.903",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T19:52:05.163",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130465,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130468,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151509,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 57,
+        "goalGetterID": 18341,
+        "goalGetterName": "J. Brekalo",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151510,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 63,
+        "goalGetterID": 23005,
+        "goalGetterName": "J. Eitschberger",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87622,
     "matchDateTime": "2026-10-28T18:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5120,17 +5168,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:39:28.303",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T19:55:42.393",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130461,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130462,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151511,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 53,
+        "goalGetterID": 27605,
+        "goalGetterName": "Patrice Covic",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151515,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 88,
+        "goalGetterID": 18937,
+        "goalGetterName": "C. Daferner",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87630,
     "matchDateTime": "2026-10-28T18:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5155,17 +5251,52 @@
       "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:39:43.267",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T19:56:26.427",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130464,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130466,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151514,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 90,
+        "goalGetterID": 16686,
+        "goalGetterName": "D. Undav",
+        "scoringTeamId": 16,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87631,
     "matchDateTime": "2026-10-28T18:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5190,17 +5321,104 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:40:01.09",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T19:57:07.563",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130463,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130467,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151506,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 6,
+        "goalGetterID": 18472,
+        "goalGetterName": "I. Matanovic",
+        "scoringTeamId": 112,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151507,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 8,
+        "goalGetterID": 24871,
+        "goalGetterName": "K. Shiogai",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151508,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 43,
+        "goalGetterID": 24871,
+        "goalGetterName": "K. Shiogai",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151512,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 75,
+        "goalGetterID": 27726,
+        "goalGetterName": "K. Goto",
+        "scoringTeamId": 112,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151513,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 92,
+        "goalGetterID": 27726,
+        "goalGetterName": "K. Goto",
+        "scoringTeamId": 112,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87627,
     "matchDateTime": "2026-10-28T20:45:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5225,17 +5443,176 @@
       "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:40:19.55",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T23:33:58.95",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130476,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130477,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 130480,
+        "resultName": "Verlängerung",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 3,
+        "resultTypeID": 4,
+        "resultTypeKind": "AfterExtraTime",
+        "resultDescription": "Ergebnis nach Verlängerung"
+      },
+      {
+        "resultID": 130481,
+        "resultName": "Elfmeterschießen",
+        "pointsTeam1": 5,
+        "pointsTeam2": 4,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultTypeKind": "AfterPenalties",
+        "resultDescription": "Ergebnis nach Elfmeterschießen"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151542,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 24303,
+        "goalGetterName": "I. Nekic",
+        "scoringTeamId": 104,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151544,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 27148,
+        "goalGetterName": "G. Balzi",
+        "scoringTeamId": 104,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151545,
+        "scoreTeam1": 4,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 28079,
+        "goalGetterName": "Gyan de Regt",
+        "scoringTeamId": 104,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151547,
+        "scoreTeam1": 5,
+        "scoreTeam2": 4,
+        "matchMinute": null,
+        "goalGetterID": 19870,
+        "goalGetterName": "Phil Harres",
+        "scoringTeamId": 104,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151546,
+        "scoreTeam1": 4,
+        "scoreTeam2": 4,
+        "matchMinute": null,
+        "goalGetterID": 20511,
+        "goalGetterName": "A. Prass",
+        "scoringTeamId": 175,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151543,
+        "scoreTeam1": 2,
+        "scoreTeam2": 3,
+        "matchMinute": null,
+        "goalGetterID": 20687,
+        "goalGetterName": "F. Asllani",
+        "scoringTeamId": 175,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151541,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": null,
+        "goalGetterID": 18327,
+        "goalGetterName": "A. Kramaric",
+        "scoringTeamId": 175,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151521,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 11,
+        "goalGetterID": 23151,
+        "goalGetterName": "A. Hložek",
+        "scoringTeamId": 175,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151527,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 23,
+        "goalGetterID": 23879,
+        "goalGetterName": "Adrián Kaprálik",
+        "scoringTeamId": 104,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87628,
     "matchDateTime": "2026-10-28T20:45:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5260,17 +5637,130 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:40:41.157",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T22:39:34.577",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130474,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130475,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 5,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151522,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 13,
+        "goalGetterID": 22912,
+        "goalGetterName": "R. Lubach",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151528,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 30,
+        "goalGetterID": 23565,
+        "goalGetterName": "S. Haugen",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151529,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 41,
+        "goalGetterID": 18414,
+        "goalGetterName": "E. Tapsoba",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151533,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 49,
+        "goalGetterID": 18414,
+        "goalGetterName": "E. Tapsoba",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151536,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 70,
+        "goalGetterID": 18331,
+        "goalGetterName": "P. Schick",
+        "scoringTeamId": 6,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151537,
+        "scoreTeam1": 4,
+        "scoreTeam2": 2,
+        "matchMinute": 78,
+        "goalGetterID": 18716,
+        "goalGetterName": "J. Hofmann",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151539,
+        "scoreTeam1": 5,
+        "scoreTeam2": 2,
+        "matchMinute": 89,
+        "goalGetterID": 24801,
+        "goalGetterName": "Lucas Vázquez",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87629,
     "matchDateTime": "2026-10-28T20:45:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5295,17 +5785,65 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:41:38.607",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T22:38:01.033",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130478,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130479,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151523,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 14,
+        "goalGetterID": 27922,
+        "goalGetterName": "Miloš Lukovic",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151538,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 86,
+        "goalGetterID": 20261,
+        "goalGetterName": "I. Prtajin",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 87633,
     "matchDateTime": "2026-10-28T20:45:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4945,
     "leagueName": "DFB Pokal 2026/2027",
     "leagueSeason": 2026,
@@ -5330,10 +5868,123 @@
       "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "teamGroupName": null
     },
-    "lastUpdateDateTime": "2026-09-10T18:41:22.167",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-28T22:38:06.823",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130472,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130473,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 6,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151520,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 10,
+        "goalGetterID": 23135,
+        "goalGetterName": "M. Olise",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151524,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 15,
+        "goalGetterID": 24297,
+        "goalGetterName": "M. Zukowski",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151525,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 21,
+        "goalGetterID": 23965,
+        "goalGetterName": "I. Saibari",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151532,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 23135,
+        "goalGetterName": "M. Olise",
+        "scoringTeamId": 40,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151534,
+        "scoreTeam1": 4,
+        "scoreTeam2": 1,
+        "matchMinute": 70,
+        "goalGetterID": 17769,
+        "goalGetterName": "Alphonso Davies",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151535,
+        "scoreTeam1": 5,
+        "scoreTeam2": 1,
+        "matchMinute": 73,
+        "goalGetterID": 826,
+        "goalGetterName": "N. Brown",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151540,
+        "scoreTeam1": 6,
+        "scoreTeam2": 1,
+        "matchMinute": 94,
+        "goalGetterID": 28078,
+        "goalGetterName": "D. Daiber",
+        "scoringTeamId": 40,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   }
