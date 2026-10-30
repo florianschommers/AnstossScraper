@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-25T20:16:04Z",
+  "lastUpdated": "2026-10-30T16:45:27Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -2672,6 +2672,204 @@
         },
         {
           "name": "Jordan Siebatcheu",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "DSC Arminia Bielefeld",
+      "awayTeam": "Eintracht Braunschweig",
+      "dateTime": "2026-10-30T17:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Thomas Kersken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Grosser",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Bauer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Henri Koudossou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Rochelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefano Russo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arne Sicker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Monju Momuluh",
+          "position": "Angriff"
+        },
+        {
+          "name": "Joel Grodowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marius Wörl",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Arlet Ze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Flick",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yann Sturm",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jan Urbich",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ron-Thorben Hoffmann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mehmet-Can Aydin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Ehlers",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andi Hoti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Di Michele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Max Marie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Opoku",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "VfL Bochum",
+      "dateTime": "2026-10-30T17:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marcel Lotka",
+          "position": "Torwart"
+        },
+        {
+          "name": "Leon Guwara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luca Erlein",
+          "position": "Abwehr"
+        },
+        {
+          "name": "King Samuel Manu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Henry Rorig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Michelbrink",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Bittencourt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moritz Hannemann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Copado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tolcay Cigerci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justin Butler",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Meyer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gerrit Holtmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berkan Taz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koji Miyoshi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Hofmann",
           "position": "Angriff"
         }
       ]
