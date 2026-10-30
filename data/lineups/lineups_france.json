@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-30T14:00:28Z",
+  "lastUpdated": "2026-10-30T14:15:28Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -2870,6 +2870,105 @@
         },
         {
           "name": "Mousa Tamari",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lille",
+      "awayTeam": "Lens",
+      "dateTime": "2026-10-30T20:05:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Berke Ozer",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maxima Adeagan Goffi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexsandro Ribeiro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Romain Perraud",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benjamin Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nabil Bentaleb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soriba Diaoune",
+          "position": "Angriff"
+        },
+        {
+          "name": "Olivier Giroud",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hakon Arnar Haraldsson",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samson Baidoo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean-Clair Todibo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Cuisance",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amadou Haidara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Sotoca",
+          "position": "Angriff"
+        },
+        {
+          "name": "Franjo Ivanović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Florian Thauvin",
           "position": "Angriff"
         }
       ]
