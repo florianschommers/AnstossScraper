@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-30T16:45:27Z",
+  "lastUpdated": "2026-10-30T17:00:27Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -2688,7 +2688,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Maximilian Grosser",
+          "name": "Henri Koudossou",
           "position": "Abwehr"
         },
         {
@@ -2696,15 +2696,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Henri Koudossou",
+          "name": "Maximilian Grosser",
           "position": "Abwehr"
         },
         {
-          "name": "Jannik Rochelt",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Leon Jensen",
+          "name": "Arne Sicker",
           "position": "Mittelfeld"
         },
         {
@@ -2712,11 +2708,15 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Arne Sicker",
+          "name": "Leon Jensen",
           "position": "Mittelfeld"
         },
         {
-          "name": "Monju Momuluh",
+          "name": "Jannik Rochelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Wörl",
           "position": "Angriff"
         },
         {
@@ -2724,37 +2724,17 @@
           "position": "Angriff"
         },
         {
-          "name": "Marius Wörl",
+          "name": "Monju Momuluh",
           "position": "Angriff"
         }
       ],
       "awayLineup": [
         {
-          "name": "Arlet Ze",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Florian Flick",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Yann Sturm",
-          "position": "Angriff"
-        },
-        {
-          "name": "Jan Urbich",
-          "position": "Angriff"
-        },
-        {
           "name": "Ron-Thorben Hoffmann",
           "position": "Torwart"
         },
         {
-          "name": "Mehmet-Can Aydin",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Kevin Ehlers",
+          "name": "Fabio Di Michele",
           "position": "Abwehr"
         },
         {
@@ -2762,16 +2742,36 @@
           "position": "Abwehr"
         },
         {
-          "name": "Fabio Di Michele",
+          "name": "Kevin Ehlers",
           "position": "Abwehr"
+        },
+        {
+          "name": "Mehmet-Can Aydin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aaron Opoku",
+          "position": "Mittelfeld"
         },
         {
           "name": "Max Marie",
           "position": "Mittelfeld"
         },
         {
-          "name": "Aaron Opoku",
+          "name": "Florian Flick",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Arlet Ze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Urbich",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yann Sturm",
+          "position": "Angriff"
         }
       ]
     },
