@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-25T22:53:02Z",
+  "lastUpdated": "2026-10-30T13:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -2672,6 +2672,105 @@
         },
         {
           "name": "Harry Kane",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV 07 Elversberg",
+      "awayTeam": "1. FSV Mainz 05",
+      "dateTime": "2026-10-30T19:30:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Nicolas Kristof",
+          "position": "Torwart"
+        },
+        {
+          "name": "Luca Sirch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Finn Pinckert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Le Joncour",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicholas Mickelson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amara Conde",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukasz Poreba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Petkov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Frederik Schmahl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cole Campbell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noel Futkeu",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alexander Schwolow",
+          "position": "Torwart"
+        },
+        {
+          "name": "Danny da Costa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefan Posch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kacper Potulski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Silvan Widmer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Nebel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lee Jae-sung",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phillipp Mwene",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sheraldo Becker",
+          "position": "Angriff"
+        },
+        {
+          "name": "Phillip Tietz",
           "position": "Angriff"
         }
       ]
