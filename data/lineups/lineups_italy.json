@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-29T22:52:47Z",
+  "lastUpdated": "2026-10-31T10:00:07Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -3959,6 +3959,105 @@
         },
         {
           "name": "Nikola Krstovic",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bologna",
+      "awayTeam": "Monza",
+      "dateTime": "2026-10-31T14:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Łukasz Skorupski",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matteo Darmian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolò Casale",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arthur Theate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nadir Zortea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Ferguson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Pobega",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdel Rahim Alhassane Bonkano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Bernardeschi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jens Odgaard",
+          "position": "Angriff"
+        },
+        {
+          "name": "Samuel Mbangula",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Noel Törnqvist",
+          "position": "Torwart"
+        },
+        {
+          "name": "Samuele Birindelli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saba Goglichidze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Lucchesi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adam Bakoune",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manga Foe Ondoa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonardo Colombo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ricardo Mangas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cyril Ngonge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jay Robinson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustavo Miguel Pereira Sousa Varela",
           "position": "Angriff"
         }
       ]
