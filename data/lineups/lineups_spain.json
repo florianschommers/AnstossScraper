@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-31T13:45:38Z",
+  "lastUpdated": "2026-10-31T14:00:38Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -3464,6 +3464,105 @@
         },
         {
           "name": "Adrián Niño",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Barcelona",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-10-31T20:00:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        },
+        {
+          "name": "João Cancelo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gerard Martín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Balde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fermín López",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphinha",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Facundo Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ville Koski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolas Valentini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ángel Pérez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibáñez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carles Aleñá",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Toni Martínez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Boyé",
           "position": "Angriff"
         }
       ]
