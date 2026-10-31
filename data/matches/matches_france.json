@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-30T02:02:12Z",
+  "lastUpdated": "2026-10-31T01:41:20Z",
   "matches": [
     {
       "matchday": 1,
@@ -728,8 +728,8 @@
       "homeTeam": "Le Havre",
       "awayTeam": "Paris Saint-Germain",
       "dateTime": "2026-10-30T18:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:5",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -738,8 +738,8 @@
       "homeTeam": "Nice",
       "awayTeam": "Rennes",
       "dateTime": "2026-10-30T18:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "5:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -748,8 +748,8 @@
       "homeTeam": "Lille",
       "awayTeam": "Lens",
       "dateTime": "2026-10-30T20:05:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
