@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-31T11:15:06Z",
+  "lastUpdated": "2026-10-31T11:30:06Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -3365,6 +3365,105 @@
         },
         {
           "name": "Hugo Álvarez",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Real Betis",
+      "awayTeam": "Malaga",
+      "dateTime": "2026-10-31T17:30:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Álvaro Valles",
+          "position": "Torwart"
+        },
+        {
+          "name": "Angel Ortiz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Natan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fran García",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Fornals",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marc Roca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Ezzalzouli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nelson Deossa",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alfonso Herrero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Carlos Puga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Einar Galilea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fernando Calero",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Garrido",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Larrubia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Dotor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ramon Enriquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Aznou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrián Niño",
           "position": "Angriff"
         }
       ]

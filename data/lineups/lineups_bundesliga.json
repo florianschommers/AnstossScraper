@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-31T11:15:03Z",
+  "lastUpdated": "2026-10-31T11:30:03Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -3266,6 +3266,105 @@
         },
         {
           "name": "Rômulo José Cardoso da Cruz",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "Borussia Dortmund",
+      "dateTime": "2026-10-31T17:30:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Urbig",
+          "position": "Torwart"
+        },
+        {
+          "name": "Josip Stanišić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alphonso Davies",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aleksandar Pavlović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Olise",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismael Saibari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Serge Gnabry",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Kane",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gregor Kobel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kouakou Joane Gadou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Waldemar Anton",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Ryerson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jobe Bellingham",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Nmecha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Svensson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Beier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Serhou Guirassy",
           "position": "Angriff"
         }
       ]
