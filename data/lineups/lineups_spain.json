@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-10-31T20:01:07Z",
+  "lastUpdated": "2026-10-31T20:16:07Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -3496,7 +3496,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "Pedri",
+          "name": "Fermín López",
           "position": "Mittelfeld"
         },
         {
@@ -3504,19 +3504,19 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Lamine Yamal",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Fermín López",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Karim Adeyemi",
-          "position": "Mittelfeld"
+          "position": "Angriff"
         },
         {
           "name": "Raphinha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Karim Adeyemi",
           "position": "Angriff"
         }
       ],
@@ -3526,15 +3526,19 @@
           "position": "Torwart"
         },
         {
-          "name": "Facundo Tenaglia",
-          "position": "Abwehr"
-        },
-        {
           "name": "Jonny Otto",
           "position": "Abwehr"
         },
         {
+          "name": "Facundo Tenaglia",
+          "position": "Abwehr"
+        },
+        {
           "name": "Ville Koski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youssef Enriquez",
           "position": "Abwehr"
         },
         {
@@ -3554,15 +3558,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Youssef Enriquez",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Abde Rebbach",
+          "name": "Lucas Boyé",
           "position": "Angriff"
         },
         {
-          "name": "Lucas Boyé",
+          "name": "Abde Rebbach",
           "position": "Angriff"
         }
       ]
