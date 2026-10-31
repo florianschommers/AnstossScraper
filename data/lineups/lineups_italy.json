@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-10-31T13:30:07Z",
+  "lastUpdated": "2026-10-31T13:45:07Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -4157,6 +4157,105 @@
         },
         {
           "name": "Donyell Malen",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "AC Milan",
+      "awayTeam": "Inter",
+      "dateTime": "2026-10-31T19:45:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mike Maignan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mario Gila",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koni De Winter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Strahinja Pavlović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pervis Estupiñán",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yunus Musah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Modrić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omari Hutchinson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Pulisic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Davide Bartesaghi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonçalo Ramos",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Josep Martínez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Yann Bisseck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andy Diouf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolò Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakan Çalhanoğlu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Augusto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francesco Pio Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marcus Thuram",
           "position": "Angriff"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-10-30T22:52:42Z",
+  "lastUpdated": "2026-10-31T13:45:08Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -2969,6 +2969,105 @@
         },
         {
           "name": "Thorgan Hazard",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Mans",
+      "dateTime": "2026-10-31T19:45:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hillel Konate",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lucas Maronnier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrien Monfray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michel Diaz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paolo Gozzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antoine Mille",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dermane Karim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mouhamed Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Merwan Ifnaoui",
+          "position": "Angriff"
+        },
+        {
+          "name": "Renaud Ripart",
+          "position": "Angriff"
+        },
+        {
+          "name": "Timothee Nkada",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Nicolas Kocik",
+          "position": "Torwart"
+        },
+        {
+          "name": "Raúl Torrente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samuel Yohou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noa Boisse",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Buades",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean Vercruysse",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexandre Lauray",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Bretelle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Calodat",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Louis Mafouta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Habib Diallo",
           "position": "Angriff"
         }
       ]
