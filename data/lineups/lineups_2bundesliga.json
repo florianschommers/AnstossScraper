@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-31T18:30:36Z",
+  "lastUpdated": "2026-10-31T18:45:35Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -3167,6 +3167,105 @@
         },
         {
           "name": "Sebastian Gronning",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "1. FC Heidenheim 1846",
+      "dateTime": "2026-10-31T19:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Hans Christian Bernat",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sandro Trémoulet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christoph Kobald",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Scholl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Deniz Emre Ofli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Wiethaup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marvin Wanitzek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santeri Vaananen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Pinto Pedrosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shio Fukuda",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tim Civeja",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Thomas Dähne",
+          "position": "Torwart"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Fohrenbach",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oualid Mhamdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christian Joe Conteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Hennrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Costly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikkel Kaufmann",
+          "position": "Angriff"
+        },
+        {
+          "name": "Budu Zivzivadze",
           "position": "Angriff"
         }
       ]
