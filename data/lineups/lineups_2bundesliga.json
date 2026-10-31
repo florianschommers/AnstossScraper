@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-30T22:52:41Z",
+  "lastUpdated": "2026-10-31T11:15:04Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -2870,6 +2870,303 @@
         },
         {
           "name": "Philipp Hofmann",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "VfL Osnabrück",
+      "dateTime": "2026-10-31T12:00:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timon Wellenreuther",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joakim Mæhle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cleiton Santana dos Santos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hauke Wahl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sael Kumbedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Muhammed Damar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vinicius Souza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Arnold",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabian Reese",
+          "position": "Angriff"
+        },
+        {
+          "name": "Robert Glatzel",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Bernhardsson",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Krumrey",
+          "position": "Torwart"
+        },
+        {
+          "name": "Niklas Wiemann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Müller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fabinski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bjarke Jacobsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leonhard Munst",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konrad Faber",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel-Kofi Kyereh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Meissner",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV Darmstadt 98",
+      "awayTeam": "1. FC Magdeburg",
+      "dateTime": "2026-10-31T12:00:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marcel Schuhen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Patric Pfeiffer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yannik Luhrs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raoul Petretta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "William Mikelbrencis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Klefisch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hiroki Akiyama",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Weisshaupt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Richter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fynn Lakenmacher",
+          "position": "Angriff"
+        },
+        {
+          "name": "Milan Smit",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dominik Reimann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pierre Nadjombe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anselmo Garcia MacNulty",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexander Nollenberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luka Hyryläinen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Falko Michel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Torben Musel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emmanuel Iyoha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roko Simic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Baris Atik",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Hertha BSC",
+      "dateTime": "2026-10-31T12:00:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Leon Robinson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Krahl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jan Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxwell Gyamfi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Murphy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Joly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mika Haas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Naatan Skyttä",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Sauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milos Lukovic",
+          "position": "Angriff"
+        },
+        {
+          "name": "Thierry Fidjeu-Tazemeta",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marius Gersbeck",
+          "position": "Torwart"
+        },
+        {
+          "name": "Julian Eitschberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Linus Jasper Gechter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niklas Kolbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mads Pedersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Seguin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Sessa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwaseun Adewumi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jón Dagur Þorsteinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josip Brekalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastian Gronning",
           "position": "Angriff"
         }
       ]
