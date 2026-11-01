@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-01T13:45:36Z",
+  "lastUpdated": "2026-11-01T14:00:36Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -3860,6 +3860,105 @@
         },
         {
           "name": "Arnaut Danjuma",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Real Sociedad",
+      "dateTime": "2026-11-01T20:00:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Unai Simón",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hugo Rincon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Beñat Prados",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benat Gerenabarrena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maroan Sannadi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñaki Williams",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Álex Remiro",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jon Aramburu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Martin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Sarr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergio Gómez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luka Sučić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Gorrotxategi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Soler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonçalo Guedes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        },
+        {
+          "name": "Orri Óskarsson",
           "position": "Angriff"
         }
       ]
