@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-01T10:45:05Z",
+  "lastUpdated": "2026-11-01T11:00:07Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -4553,6 +4553,105 @@
         },
         {
           "name": "Paul Mendy",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lecce",
+      "awayTeam": "Genoa",
+      "dateTime": "2026-11-01T17:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Wladimiro Falcone",
+          "position": "Torwart"
+        },
+        {
+          "name": "Danilo Filipe Melo Veiga",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tiago Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Corrie Ndaba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonino Gallo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Kaba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oumar Ngom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssef Maleh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konan N’Dri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Francisco Esteban Sánchez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Amar Abdirahman Ahmed",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Justin Bijlow",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alessandro Marcandalli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leo Østigård",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Johan Vásquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kingsley Ehizibue",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morten Frendrup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hamed Junior Traorè",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Mitaj",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Baldanzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stephan El Shaarawy",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milutin Osmajić",
           "position": "Angriff"
         }
       ]
