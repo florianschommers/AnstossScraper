@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-10-31T22:52:49Z",
+  "lastUpdated": "2026-11-01T10:00:00Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -3365,6 +3365,105 @@
         },
         {
           "name": "Serhou Guirassy",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "1. FC Köln",
+      "dateTime": "2026-11-01T14:30:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Matheo Raab",
+          "position": "Torwart"
+        },
+        {
+          "name": "Janik Haberer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zeno Van Den Bosch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leopold Querfeld",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Rothe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "András Schäfer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rani Khedira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jeong Woo-yeong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Skarke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emmanuel Latte Lath",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marvin Schwabe",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alessio Castro-Montes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joel Schmied",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Borna Sosa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Krauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Okon-Engstler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Linton Maina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikey Moore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Said El Mala",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Bulter",
           "position": "Angriff"
         }
       ]
