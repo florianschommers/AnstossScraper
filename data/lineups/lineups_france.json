@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-01T10:00:04Z",
+  "lastUpdated": "2026-11-01T10:15:04Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -3167,6 +3167,204 @@
         },
         {
           "name": "Cameron Archer",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lyon",
+      "awayTeam": "Angers",
+      "dateTime": "2026-11-01T16:15:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Dominik Greif",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zachary Athekame",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Felix Bacher",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moussa Niakhaté",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abner Vinícius",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tanner Tessmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Nartey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Corentin Tolisso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ernest Nuamah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Khalis Merah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Julien Duranville",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Anthony Lopes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lilian Raolisoa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlens Arcus",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ousmane Camara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Lefort",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joseph Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yassin Belkhdim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Branco Van den Boomen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amine Sbai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Peter Prosper",
+          "position": "Angriff"
+        },
+        {
+          "name": "Usman Simbakoli",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Paris FC",
+      "awayTeam": "AS Monaco",
+      "dateTime": "2026-11-01T16:15:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Obed Nkambadio",
+          "position": "Torwart"
+        },
+        {
+          "name": "Emmanuel Mbemba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moustapha Mbow",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Coppola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Otavio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxime Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre Lees-Melou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Pagis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moses Simon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassine Sinayoko",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lukas Hradecky",
+          "position": "Torwart"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sadibou Sane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flávio Nazinho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandr Golovin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Takumi Minamino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paris Brunner",
           "position": "Angriff"
         }
       ]
