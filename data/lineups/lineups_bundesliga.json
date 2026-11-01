@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-01T10:15:00Z",
+  "lastUpdated": "2026-11-01T10:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -3464,6 +3464,105 @@
         },
         {
           "name": "Marius Bulter",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "Hamburger SV",
+      "dateTime": "2026-11-01T16:30:00Z",
+      "matchday": 8,
+      "phase": "8. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Noah Atubolu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Elias Baum",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Koch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Otávio Manoel Galdino Fernandes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Keita Kosugi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphael Onyedika",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noël Aséko Nkili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fares Chaibi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Can Uzun",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jonathan Burkardt",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sander Tangvik",
+          "position": "Torwart"
+        },
+        {
+          "name": "Shafiq Nandja",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Warmed Omari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Miro Muheim",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Adeline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Sambi Lokonga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Louis Lemke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zakaria El Ouahdi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Grønbæk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Terem Moffi",
           "position": "Angriff"
         }
       ]

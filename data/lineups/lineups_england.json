@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-10-31T22:52:51Z",
+  "lastUpdated": "2026-11-01T10:30:02Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -3761,6 +3761,105 @@
         },
         {
           "name": "Gonzalo García",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Liverpool",
+      "awayTeam": "FC Arsenal",
+      "dateTime": "2026-11-01T16:30:00Z",
+      "matchday": 9,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ronald Araújo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ryan Gravenberch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christos Tzolis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Havertz",
           "position": "Angriff"
         }
       ]
