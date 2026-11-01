@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-01T13:30:05Z",
+  "lastUpdated": "2026-11-01T13:45:07Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -4652,6 +4652,105 @@
         },
         {
           "name": "Milutin Osmajić",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Juventus",
+      "awayTeam": "Napoli",
+      "dateTime": "2026-11-01T19:45:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        },
+        {
+          "name": "Federico Gatti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Weston McKennie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Douglas Luiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Cambiaso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nick Woltemade",
+          "position": "Angriff"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Vanja Milinković-Savić",
+          "position": "Torwart"
+        },
+        {
+          "name": "Giovanni Di Lorenzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Rrahmani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rafa Marín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathías Olivera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "André-Frank Zambo Anguissa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Politano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rasmus Højlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "Noa Lang",
           "position": "Angriff"
         }
       ]
