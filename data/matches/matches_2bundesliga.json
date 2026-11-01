@@ -3228,19 +3228,6 @@
         "comment": null
       },
       {
-        "goalID": 146876,
-        "scoreTeam1": 3,
-        "scoreTeam2": 1,
-        "matchMinute": 49,
-        "goalGetterID": 27362,
-        "goalGetterName": "Luca Erlein",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 146879,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -3251,6 +3238,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146876,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 27362,
+        "goalGetterName": "Luca Erlein",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       },
       {
@@ -8165,7 +8165,7 @@
       "tla": null,
       "wikidataId": "Q154053"
     },
-    "lastUpdateDateTime": "2026-10-30T20:22:43.73",
+    "lastUpdateDateTime": "2026-10-31T13:22:42.853",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -8349,7 +8349,7 @@
   {
     "matchID": 83663,
     "matchDateTime": "2026-10-31T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8378,17 +8378,65 @@
       "tla": null,
       "wikidataId": "Q160530"
     },
-    "lastUpdateDateTime": "2026-09-10T17:39:58.687",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-31T14:52:34.36",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130610,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130611,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151832,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 30,
+        "goalGetterID": 18525,
+        "goalGetterName": "F. Reese",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151840,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 50,
+        "goalGetterID": 23265,
+        "goalGetterName": "M. Damar",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83667,
     "matchDateTime": "2026-10-31T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8417,17 +8465,65 @@
       "tla": null,
       "wikidataId": "Q155730"
     },
-    "lastUpdateDateTime": "2026-09-10T17:40:06.62",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-31T14:56:27.487",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130612,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130613,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151830,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 14,
+        "goalGetterID": 15523,
+        "goalGetterName": " T. Müller",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151834,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 37,
+        "goalGetterID": 28061,
+        "goalGetterName": "M. Smit",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83668,
     "matchDateTime": "2026-10-31T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8456,17 +8552,78 @@
       "tla": null,
       "wikidataId": "Q102720"
     },
-    "lastUpdateDateTime": "2026-09-10T17:40:13.953",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-31T14:57:24.017",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130614,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130615,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 3,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151831,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 17,
+        "goalGetterID": 21338,
+        "goalGetterName": "S. Grønning",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151844,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 52,
+        "goalGetterID": 21338,
+        "goalGetterName": "S. Grønning",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151850,
+        "scoreTeam1": 0,
+        "scoreTeam2": 3,
+        "matchMinute": 60,
+        "goalGetterID": 27252,
+        "goalGetterName": "Oluwaseun Victor Adewumi",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83669,
     "matchDateTime": "2026-10-31T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8495,10 +8652,71 @@
       "tla": null,
       "wikidataId": "Q162251"
     },
-    "lastUpdateDateTime": "2026-09-10T17:40:32.183",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-10-31T22:26:17.637",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130667,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130668,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151902,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 19,
+        "goalGetterID": 20146,
+        "goalGetterName": "T. Civeja",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151903,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 80,
+        "goalGetterID": 18401,
+        "goalGetterName": "M. Wanitzek",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151904,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 88,
+        "goalGetterID": 24628,
+        "goalGetterName": "A. Vogt",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
