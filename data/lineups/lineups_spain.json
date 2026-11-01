@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-01T11:15:03Z",
+  "lastUpdated": "2026-11-01T11:30:03Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -3761,6 +3761,105 @@
         },
         {
           "name": "Kylian Mbappé",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Elche",
+      "awayTeam": "Valencia",
+      "dateTime": "2026-11-01T17:30:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Matias Dituro",
+          "position": "Torwart"
+        },
+        {
+          "name": "Buba Sangaré",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Federico Redondo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Víctor Chust",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roy Revivo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javi Morcillo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonzalo Villar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Cepeda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thomas Lemar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "German Valera",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ezequiel Ponce",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Stole Dimitrievski",
+          "position": "Torwart"
+        },
+        {
+          "name": "Arnau Martínez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cesar Tarrega",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pepelu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José Gayà",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pablo Maffeo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Guido Rodríguez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Mayol",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Rioja",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Guerra",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arnaut Danjuma",
           "position": "Angriff"
         }
       ]
