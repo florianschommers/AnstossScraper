@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-01T22:52:55Z",
+  "lastUpdated": "2026-11-02T11:30:01Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -4751,6 +4751,105 @@
         },
         {
           "name": "Noa Lang",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Fiorentina",
+      "dateTime": "2026-11-02T17:30:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Stefano Turati",
+          "position": "Torwart"
+        },
+        {
+          "name": "Simone Cinquegrano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cas Odenthal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Duje Caleta-Car",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josh Doig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vasilije Adzic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Lipani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darryl Bakola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domenico Berardi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sebastiano Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Armand Laurienté",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "David de Gea",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alejandro Jimenez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Radu Drăgușin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Viery Fernandes Santos Lopes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Mário",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cher Ndour",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolò Fagioli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Brescianini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franco Mastantuono",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mateo Pellegrino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alieu Eybi Njie",
           "position": "Angriff"
         }
       ]
