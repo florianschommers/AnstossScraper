@@ -7464,7 +7464,7 @@
   {
     "matchID": 83223,
     "matchDateTime": "2026-11-01T15:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7493,17 +7493,65 @@
       "tla": null,
       "wikidataId": "Q104770"
     },
-    "lastUpdateDateTime": "2026-09-10T17:27:28.627",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-01T17:21:37.07",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130696,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130697,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151938,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 10,
+        "goalGetterID": 19204,
+        "goalGetterName": "J. Haberer",
+        "scoringTeamId": 80,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151974,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 79,
+        "goalGetterID": 28091,
+        "goalGetterName": "Malek El Mala",
+        "scoringTeamId": 65,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83221,
     "matchDateTime": "2026-11-01T17:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7532,10 +7580,84 @@
       "tla": null,
       "wikidataId": "Q51974"
     },
-    "lastUpdateDateTime": "2026-09-10T17:27:43.877",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-01T19:29:27.607",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130712,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130713,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151979,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 10,
+        "goalGetterID": 28092,
+        "goalGetterName": "W. Omari",
+        "scoringTeamId": 91,
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151980,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 14,
+        "goalGetterID": 27712,
+        "goalGetterName": "T. Moffi",
+        "scoringTeamId": 100,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151986,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 47,
+        "goalGetterID": 23792,
+        "goalGetterName": "R. Onyedika",
+        "scoringTeamId": 91,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151992,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 69,
+        "goalGetterID": 23685,
+        "goalGetterName": "Younes Ebnoutalib",
+        "scoringTeamId": 91,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
