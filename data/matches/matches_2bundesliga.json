@@ -8723,7 +8723,7 @@
   {
     "matchID": 83664,
     "matchDateTime": "2026-11-01T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8752,17 +8752,91 @@
       "tla": null,
       "wikidataId": "Q15786"
     },
-    "lastUpdateDateTime": "2026-07-03T15:39:33.403",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-01T15:23:09.253",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130669,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130670,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 3,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151905,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 8,
+        "goalGetterID": 19425,
+        "goalGetterName": "E. Smith",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151925,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 58,
+        "goalGetterID": 24175,
+        "goalGetterName": "A. Ceesay",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151929,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 71,
+        "goalGetterID": 23565,
+        "goalGetterName": "S. Haugen",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151936,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 90,
+        "goalGetterID": 28089,
+        "goalGetterName": "Marc Kornwachs Barjuan",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83665,
     "matchDateTime": "2026-11-01T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8791,17 +8865,78 @@
       "tla": null,
       "wikidataId": "Q141931"
     },
-    "lastUpdateDateTime": "2026-07-03T15:39:42.303",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-01T15:22:58.937",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130671,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130672,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151906,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 11,
+        "goalGetterID": 18562,
+        "goalGetterName": "N. Rapp",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151923,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 54,
+        "goalGetterID": 23939,
+        "goalGetterName": "Husseyn Chakroun",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 151926,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 61,
+        "goalGetterID": 19194,
+        "goalGetterName": "M. Hartel",
+        "scoringTeamId": 55,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83673,
     "matchDateTime": "2026-11-01T13:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -8830,10 +8965,45 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-07-03T15:40:33.94",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-01T15:21:09.11",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130673,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130674,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 151932,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 87,
+        "goalGetterID": 20138,
+        "goalGetterName": "Aaron Keller",
+        "scoringTeamId": 115,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
