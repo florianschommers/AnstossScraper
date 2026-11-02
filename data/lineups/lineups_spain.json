@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-01T22:52:54Z",
+  "lastUpdated": "2026-11-02T14:00:37Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -3959,6 +3959,105 @@
         },
         {
           "name": "Mikel Oyarzabal",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Deportivo A Coruna",
+      "awayTeam": "Osasuna",
+      "dateTime": "2026-11-02T20:00:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Leo Román",
+          "position": "Torwart"
+        },
+        {
+          "name": "Adrià Altimira",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Miguel Loureiro Ameijenda",
+          "position": "Abwehr"
+        },
+        {
+          "name": "José María Giménez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giacomo Quagliata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Amatucci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Soriano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Mella Boullon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luismi Cruz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yeremay Hernandez Cubas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bil Nsongo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sergio Herrera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Valentin Rosier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flavien Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abel Bretones",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Torró",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iker Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rubén García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Dubasin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ante Budimir",
           "position": "Angriff"
         }
       ]
