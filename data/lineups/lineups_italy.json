@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-02T13:30:01Z",
+  "lastUpdated": "2026-11-02T13:45:01Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -4850,6 +4850,105 @@
         },
         {
           "name": "Alieu Eybi Njie",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atalanta",
+      "awayTeam": "Parma",
+      "dateTime": "2026-11-02T19:45:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Marco Carnesecchi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Davide Zappacosta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giorgio Scalvini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Relja Obric",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenzo Bernasconi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Pašalić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Éderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eljif Elmas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Rowe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Krstovic",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Giovanni Daffara",
+          "position": "Torwart"
+        },
+        {
+          "name": "Enrico Del Prato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Carlos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sascha Britschgi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Bernabe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Sierro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franco Carboni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "El Bilal Touré",
+          "position": "Angriff"
+        },
+        {
+          "name": "David Romero",
           "position": "Angriff"
         }
       ]
