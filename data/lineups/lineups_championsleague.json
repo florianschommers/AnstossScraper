@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-04T18:45:30Z",
+  "lastUpdated": "2026-11-04T18:46:01Z",
   "lineups": [
     {
       "homeTeam": "RC Lens",
@@ -4653,6 +4653,105 @@
         {
           "name": "Orphé Mbina",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Slavia Prag",
+      "awayTeam": "FC Arsenal",
+      "dateTime": "2026-11-04T20:00:00Z",
+      "matchday": 4,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Nazar Domchak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tomáš Holeš",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Zima",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oskar Kubiak",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Danijel Šturm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mubarak Suleiman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Moses",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emmanuel Ayaosi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michal Sadílek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tomáš Vlček",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wiktor Nowak",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ben White",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Piero Hincapié",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eberechi Eze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Viktor Gyökeres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikel Merino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martín Zubimendi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
         }
       ]
     }
