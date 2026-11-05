@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2027",
-  "lastUpdated": "2026-11-05T18:30:40Z",
+  "lastUpdated": "2026-11-05T18:45:37Z",
   "lineups": [
     {
       "homeTeam": "Lech Poznan",
@@ -3267,6 +3267,105 @@
         {
           "name": "Nik Prelec",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "Olympique Marseille",
+      "dateTime": "2026-11-05T20:00:00Z",
+      "matchday": 4,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Mark Flekken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Miguel Gutiérrez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jarell Quansah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Hofmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Andrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrik Schick",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Vázquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aleix García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jeffrey de Lange",
+          "position": "Torwart"
+        },
+        {
+          "name": "CJ Egan-Riley",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Himad Abdelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amine Gouiri",
+          "position": "Angriff"
+        },
+        {
+          "name": "Igor Paixão",
+          "position": "Angriff"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre-Emile Højbjerg",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ulisses Garcia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kelyann Bezahaf",
+          "position": "Abwehr"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2027",
-  "lastUpdated": "2026-11-05T18:30:51Z",
+  "lastUpdated": "2026-11-05T18:45:44Z",
   "lineups": [
     {
       "homeTeam": "Egnatia",
@@ -4455,6 +4455,105 @@
         {
           "name": "Marc Gual",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Riga",
+      "awayTeam": "Jablonec",
+      "dateTime": "2026-11-05T20:00:00Z",
+      "matchday": 3,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Kenan Pirić",
+          "position": "Torwart"
+        },
+        {
+          "name": "Karl Wassom",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raki Aouani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iago Siqueira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Reginaldo Ramires",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raivis Jurkovskis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Salah Oulad",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Baba Musah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Meissa Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maksims Toņiševs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ahmed Ankrah",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Klemen Mihelak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Vakhtang Tchanturishvili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonín Růsek",
+          "position": "Angriff"
+        },
+        {
+          "name": "Richard Sedláček",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dušan Pavlović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saidou Alioum",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martin Cedidla",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jiří Sláma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matěj Polidar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Hollý",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastián Nebyla",
+          "position": "Mittelfeld"
         }
       ]
     }
