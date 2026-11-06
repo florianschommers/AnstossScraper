@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-02T22:52:50Z",
+  "lastUpdated": "2026-11-06T14:00:33Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -4058,6 +4058,105 @@
         },
         {
           "name": "Ante Budimir",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sevilla",
+      "awayTeam": "Deportivo Alaves",
+      "dateTime": "2026-11-06T20:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andres Castrin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucien Agoumé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Guridi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chidera Ejuke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Stassin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgi Kochorashvili",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Antonio Sivera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Facundo Tenaglia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonny Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ville Koski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youssef Enriquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ángel Pérez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antonio Blanco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Ibáñez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Rebbach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Boyé",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mariano Díaz",
           "position": "Angriff"
         }
       ]

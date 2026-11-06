@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-02T22:52:49Z",
+  "lastUpdated": "2026-11-06T14:00:33Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -3959,6 +3959,105 @@
         },
         {
           "name": "Thierno Barry",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Everton FC",
+      "awayTeam": "Coventry City",
+      "dateTime": "2026-11-06T20:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jordan Pickford",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jake O'Brien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Tarkowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Keane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitaliy Mykolenko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Garner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harrison Armstrong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Merlin Rohl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kiernan Dewsbury-Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrique George",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thierno Barry",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Carl Rushworth",
+          "position": "Torwart"
+        },
+        {
+          "name": "Milan van Ewijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stephen Mfuni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ethan Pinnock",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jay Dasilva",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Caleb Yirenkyi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Victor Torp",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tatsuhiro Sakamoto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jack Rudoni",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yann Gboho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Taiwo Awoniyi",
           "position": "Angriff"
         }
       ]
