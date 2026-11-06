@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-06T18:30:30Z",
+  "lastUpdated": "2026-11-06T18:45:31Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -3575,10 +3575,6 @@
       "phase": "9. Spieltag",
       "homeLineup": [
         {
-          "name": "Patson Daka",
-          "position": "Angriff"
-        },
-        {
           "name": "Daniel Fernandes",
           "position": "Torwart"
         },
@@ -3587,7 +3583,7 @@
           "position": "Abwehr"
         },
         {
-          "name": "David Møller Wolfe",
+          "name": "Sebastiaan Bornauw",
           "position": "Abwehr"
         },
         {
@@ -3596,27 +3592,31 @@
         },
         {
           "name": "Zakaria El Ouahdi",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Martin Adeline",
           "position": "Mittelfeld"
         },
         {
-          "name": "Albert Grønbæk",
-          "position": "Angriff"
-        },
-        {
           "name": "Albert Sambi Lokonga",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Sebastiaan Bornauw",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
         },
         {
           "name": "Miro Muheim",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patson Daka",
+          "position": "Angriff"
+        },
+        {
+          "name": "Albert Grønbæk",
+          "position": "Angriff"
         }
       ],
       "awayLineup": [
@@ -3625,7 +3625,27 @@
           "position": "Torwart"
         },
         {
-          "name": "Wael Mohya",
+          "name": "Philipp Sander",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kou Itakura",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Chiarodia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Scally",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zento Uno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Neuhaus",
           "position": "Mittelfeld"
         },
         {
@@ -3633,36 +3653,16 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Joe Scally",
+          "name": "Robin Hack",
           "position": "Mittelfeld"
         },
         {
-          "name": "Fabio Chiarodia",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Zento Uno",
+          "name": "Wael Mohya",
           "position": "Mittelfeld"
         },
         {
           "name": "Shuto Machino",
           "position": "Angriff"
-        },
-        {
-          "name": "Philipp Sander",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Florian Neuhaus",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Robin Hack",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Kou Itakura",
-          "position": "Abwehr"
         }
       ]
     }
