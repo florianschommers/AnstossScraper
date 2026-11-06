@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-01T22:52:52Z",
+  "lastUpdated": "2026-11-06T13:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -3563,6 +3563,105 @@
         },
         {
           "name": "Terem Moffi",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "Borussia Mönchengladbach",
+      "dateTime": "2026-11-06T19:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Daniel Fernandes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Shafiq Nandja",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordan Torunarigha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Warmed Omari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zakaria El Ouahdi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Sambi Lokonga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miro Muheim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Adeline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Grønbæk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Terem Moffi",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Daniel Batz",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zento Uno",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kou Itakura",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Chiarodia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Scally",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Stöger",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Neuhaus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Ullrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Hack",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wael Mohya",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shuto Machino",
           "position": "Angriff"
         }
       ]
