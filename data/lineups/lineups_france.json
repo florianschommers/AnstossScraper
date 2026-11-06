@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-02T22:52:51Z",
+  "lastUpdated": "2026-11-06T13:45:02Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -3563,6 +3563,105 @@
         },
         {
           "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Toulouse",
+      "awayTeam": "Strasbourg",
+      "dateTime": "2026-11-06T19:45:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Guillaume Restes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ismaïl Diallo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mark McKenzie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rasmus Nicolaisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christ Tapé",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thomas Jorgensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cristian Cásseres Jr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niko Sigur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilyas Azizi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Casper Tengstedt",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jacen Russell-Rowe",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Filip Jörgensen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lucas Hogsberg",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismael Doukoure",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karim Coulibaly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dario Essugo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samir El Mourabet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gio Reyna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gessime Yassine",
+          "position": "Angriff"
+        },
+        {
+          "name": "Conrad Harder",
+          "position": "Angriff"
+        },
+        {
+          "name": "Martial Godo",
           "position": "Angriff"
         }
       ]
