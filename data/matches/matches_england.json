@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-05T02:37:00Z",
+  "lastUpdated": "2026-11-06T02:37:09Z",
   "matches": [
     {
       "matchday": 1,
@@ -608,8 +608,8 @@
       "homeTeam": "Everton FC",
       "awayTeam": "Chelsea FC",
       "dateTime": "2026-10-17T11:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -618,8 +618,8 @@
       "homeTeam": "Brentford F.C.",
       "awayTeam": "FC Liverpool",
       "dateTime": "2026-10-17T14:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -628,8 +628,8 @@
       "homeTeam": "Fulham FC",
       "awayTeam": "Hull City",
       "dateTime": "2026-10-17T14:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -638,8 +638,8 @@
       "homeTeam": "Manchester City",
       "awayTeam": "Ipswich Town",
       "dateTime": "2026-10-17T14:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -648,8 +648,8 @@
       "homeTeam": "Newcastle United FC",
       "awayTeam": "Aston Villa",
       "dateTime": "2026-10-17T16:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -658,8 +658,8 @@
       "homeTeam": "AFC Bournemouth",
       "awayTeam": "Sunderland",
       "dateTime": "2026-10-18T13:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -668,8 +668,8 @@
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Crystal Palace FC",
       "dateTime": "2026-10-18T13:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "5:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -678,8 +678,8 @@
       "homeTeam": "Leeds United",
       "awayTeam": "Manchester United FC",
       "dateTime": "2026-10-18T13:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -688,8 +688,8 @@
       "homeTeam": "Nottingham Forest",
       "awayTeam": "FC Arsenal",
       "dateTime": "2026-10-18T15:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -698,8 +698,8 @@
       "homeTeam": "Tottenham Hotspur FC",
       "awayTeam": "Coventry City",
       "dateTime": "2026-10-19T19:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1545,16 +1545,6 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Nottingham Forest",
-      "awayTeam": "Everton FC",
-      "dateTime": "2026-12-19T15:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
       "homeTeam": "FC Liverpool",
       "awayTeam": "Tottenham Hotspur FC",
       "dateTime": "2026-12-19T17:30:00Z",
@@ -1567,6 +1557,16 @@
       "matchday": 16,
       "homeTeam": "Brighton & Hove Albion",
       "awayTeam": "Ipswich Town",
+      "dateTime": "2026-12-20T14:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Everton FC",
       "dateTime": "2026-12-20T14:00:00Z",
       "score": null,
       "isFinished": false,
