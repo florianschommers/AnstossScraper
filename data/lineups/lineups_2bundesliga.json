@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-06T22:52:38Z",
+  "lastUpdated": "2026-11-07T11:00:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -3761,6 +3761,105 @@
         },
         {
           "name": "Justin Butler",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "SV Darmstadt 98",
+      "dateTime": "2026-11-07T12:00:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jan-Marc Reichert",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eric Porstner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Styopa Mkrtchyan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexios Kalogeropoulos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Janisch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javier Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Markhiyev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Lubach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Bøving",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Justvan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piet Scobel",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alexander Brunst",
+          "position": "Torwart"
+        },
+        {
+          "name": "William Mikelbrencis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aleksandar Vukotic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yannik Luhrs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raoul Petretta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kai Klefisch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hiroki Akiyama",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Weisshaupt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milan Smit",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Richter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ho-Jae Lee",
           "position": "Angriff"
         }
       ]

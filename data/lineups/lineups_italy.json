@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-07T10:45:05Z",
+  "lastUpdated": "2026-11-07T11:00:05Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -5246,6 +5246,105 @@
         },
         {
           "name": "Amar Abdirahman Ahmed",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Parma",
+      "awayTeam": "Bologna",
+      "dateTime": "2026-11-07T17:00:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Giovanni Daffara",
+          "position": "Torwart"
+        },
+        {
+          "name": "Enrico Del Prato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdoulaye Ndiaye",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sascha Britschgi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Fabbian",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Sierro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simone Lontani",
+          "position": "Angriff"
+        },
+        {
+          "name": "El Bilal Touré",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Łukasz Skorupski",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matteo Darmian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolò Casale",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arthur Theate",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nadir Zortea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tommaso Pobega",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lewis Ferguson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Juan Miranda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Federico Bernardeschi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolo Cambiaghi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jens Odgaard",
           "position": "Angriff"
         }
       ]
