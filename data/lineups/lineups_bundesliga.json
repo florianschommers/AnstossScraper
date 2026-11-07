@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-07T11:15:02Z",
+  "lastUpdated": "2026-11-07T11:30:02Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -4058,6 +4058,105 @@
         },
         {
           "name": "Younes Ebnoutalib",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "SV Werder Bremen",
+      "dateTime": "2026-11-07T17:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Fabian Bredlow",
+          "position": "Torwart"
+        },
+        {
+          "name": "Finn Jeltsch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Chabot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ramon Hendriks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lorenz Assignon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Grischa Prömel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikolas Nartey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Mittelstädt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bilal El Khannous",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chris Führich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ermedin Demirović",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Karl Hein",
+          "position": "Torwart"
+        },
+        {
+          "name": "Arthur",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amos Pieper",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Friedl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Olivier Deman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ludovit Reis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youri Regeer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eren Dinkçi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Grüll",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niclas Füllkrug",
           "position": "Angriff"
         }
       ]

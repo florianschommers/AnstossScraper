@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-07T11:15:04Z",
+  "lastUpdated": "2026-11-07T11:30:05Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -4090,6 +4090,10 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Sean Longstaff",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Ethan Ampadu",
           "position": "Mittelfeld"
         },
@@ -4102,12 +4106,8 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Daniel James",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Harry Wilson",
-          "position": "Mittelfeld"
+          "name": "Lukas Nmecha",
+          "position": "Angriff"
         },
         {
           "name": "Dominic Calvert-Lewin",
@@ -4120,7 +4120,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Archie Gray",
+          "name": "Pedro Porro",
           "position": "Abwehr"
         },
         {
@@ -4140,7 +4140,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Mateus Fernandes",
+          "name": "Archie Gray",
           "position": "Mittelfeld"
         },
         {
@@ -4148,7 +4148,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "James Maddison",
+          "name": "Mateus Fernandes",
           "position": "Mittelfeld"
         },
         {
@@ -4355,6 +4355,105 @@
         },
         {
           "name": "William Osula",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Manchester City",
+      "dateTime": "2026-11-07T17:30:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Matz Sels",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jair Cunha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Milenković",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ola Aina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Sangaré",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Xaver Schlager",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Neco Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Gibbs-White",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James McAtee",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Liam Delap",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Gianluigi Donnarumma",
+          "position": "Torwart"
+        },
+        {
+          "name": "Abdukodir Khusanov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Guéhi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rúben Dias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joško Gvardiol",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elliot Anderson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phil Foden",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rayan Cherki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jérémy Doku",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Erling Haaland",
           "position": "Angriff"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-07T11:15:05Z",
+  "lastUpdated": "2026-11-07T11:30:06Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -4355,6 +4355,105 @@
         },
         {
           "name": "Bil Nsongo",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Osasuna",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-11-07T17:30:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sergio Herrera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Valentin Rosier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flavien Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abel Bretones",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Iker Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moi Gómez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Dubasin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rubén García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Unai Simón",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hugo Rincon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dani Vivian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Peio Urtasan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benat Gerenabarrena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Navarro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñaki Williams",
           "position": "Angriff"
         }
       ]
