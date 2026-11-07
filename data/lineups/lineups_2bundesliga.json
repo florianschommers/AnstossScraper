@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-07T11:00:02Z",
+  "lastUpdated": "2026-11-07T11:15:03Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -3860,6 +3860,204 @@
         },
         {
           "name": "Ho-Jae Lee",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "DSC Arminia Bielefeld",
+      "dateTime": "2026-11-07T12:00:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timon Weiner",
+          "position": "Torwart"
+        },
+        {
+          "name": "Leon Parduzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Schonlau",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Noah Haubjerg Ellegaard Madsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hiroki Sekine",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Guillermo Balzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Meffert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kasper Davidsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonas Therkelsen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Phil Harres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gyan de Regt",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Thomas Kersken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Grosser",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefano Russo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Bauer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arne Sicker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Wörl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Henri Koudossou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jannik Rochelt",
+          "position": "Angriff"
+        },
+        {
+          "name": "Joel Grodowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Monju Momuluh",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "1. FC Kaiserslautern",
+      "dateTime": "2026-11-07T12:00:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Krumrey",
+          "position": "Torwart"
+        },
+        {
+          "name": "Niklas Wiemann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Müller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fabinski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bjarke Jacobsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Flach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Konrad Faber",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Meissner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel-Kofi Kyereh",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Julian Krahl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alex Murphy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jacob Rasmussen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mika Haas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Semih Sahin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabian Kunze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Joly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Sauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naatan Skyttä",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Prtajin",
           "position": "Angriff"
         }
       ]
