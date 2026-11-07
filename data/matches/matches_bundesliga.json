@@ -7664,7 +7664,7 @@
   {
     "matchID": 83234,
     "matchDateTime": "2026-11-06T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4937,
     "leagueName": "1. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -7693,10 +7693,84 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:28:06.667",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-06T22:22:39.14",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130907,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130908,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152301,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 11,
+        "goalGetterID": 19315,
+        "goalGetterName": "M. Muheim",
+        "scoringTeamId": 100,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152304,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 44,
+        "goalGetterID": 19101,
+        "goalGetterName": "J. Scally",
+        "scoringTeamId": 87,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152305,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 60,
+        "goalGetterID": 28144,
+        "goalGetterName": "Shafiq Nandja",
+        "scoringTeamId": 100,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152308,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 70,
+        "goalGetterID": 23262,
+        "goalGetterName": "A. Grønbæk",
+        "scoringTeamId": 100,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
