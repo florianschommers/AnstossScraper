@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-07T17:00:41Z",
+  "lastUpdated": "2026-11-07T17:15:41Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -3761,6 +3761,105 @@
         },
         {
           "name": "Timothee Nkada",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Auxerre",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-11-07T18:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Paul Nardi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Telli Siwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sinaly Diomande",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fredrik Oppegård",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre Ekwah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naouirou Ahamada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Danny Namaso",
+          "position": "Angriff"
+        },
+        {
+          "name": "Cameron Archer",
+          "position": "Angriff"
+        },
+        {
+          "name": "Romain Faivre",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        },
+        {
+          "name": "Moses Simon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Otavio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Coppola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hamari Traoré",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Lees-Melou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rudy Matondo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Pagis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lassine Sinayoko",
           "position": "Angriff"
         }
       ]
