@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-06T22:52:38Z",
+  "lastUpdated": "2026-11-07T10:00:03Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -4058,6 +4058,303 @@
         },
         {
           "name": "Taiwo Awoniyi",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Leeds United",
+      "awayTeam": "Tottenham Hotspur FC",
+      "dateTime": "2026-11-07T12:30:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "James Trafford",
+          "position": "Torwart"
+        },
+        {
+          "name": "James Justin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tarik Muharemović",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jayden Bogle",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Ampadu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ao Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Gudmundsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel James",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Wilson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominic Calvert-Lewin",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Antonin Kinsky",
+          "position": "Torwart"
+        },
+        {
+          "name": "Archie Gray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Micky van de Ven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andy Robertson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sandro Tonali",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mateus Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohammed Kudus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James Maddison",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathys Tel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Omar Marmoush",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Arsenal",
+      "awayTeam": "Hull City",
+      "dateTime": "2026-11-07T15:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "David Raya",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jurrien Timber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ezri Konsa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Magalhães",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Riccardo Calafiori",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Declan Rice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Guimarães",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noni Madueke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Ødegaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christos Tzolis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Havertz",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Konstantinos Tzolakis",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lewie Coyle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Semi Ajayi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John Egan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ryan Giles",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Belloumi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Iroegbunam",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Regan Slater",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elliot Stroud",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oli McBurnie",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fulham FC",
+      "awayTeam": "Newcastle United FC",
+      "dateTime": "2026-11-07T15:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Bernd Leno",
+          "position": "Torwart"
+        },
+        {
+          "name": "Timothy Castagne",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Affengruber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Calvin Bassey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonee Robinson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sander Berge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shea Charles",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Bobb",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joshua King",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Iwobi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gonzalo García",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lukas Hornicek",
+          "position": "Torwart"
+        },
+        {
+          "name": "Amar Dedić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabian Schär",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dan Burn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lewis Hall",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nico González",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aladji Bamba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anthony Elanga",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joe Willock",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harvey Barnes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Osula",
           "position": "Angriff"
         }
       ]
