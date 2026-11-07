@@ -9010,7 +9010,7 @@
   {
     "matchID": 83684,
     "matchDateTime": "2026-11-06T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -9039,17 +9039,78 @@
       "tla": null,
       "wikidataId": "Q153539"
     },
-    "lastUpdateDateTime": "2026-09-10T17:41:04.17",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-06T20:23:19.807",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130897,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130898,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152284,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 31,
+        "goalGetterID": 21476,
+        "goalGetterName": "R. Wagner",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152285,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 41,
+        "goalGetterID": 21266,
+        "goalGetterName": "Ben Bobzien",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152292,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 55,
+        "goalGetterID": 20892,
+        "goalGetterName": "V. Vermeij",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83687,
     "matchDateTime": "2026-11-06T18:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -9078,9 +9139,30 @@
       "tla": null,
       "wikidataId": "Q107818"
     },
-    "lastUpdateDateTime": "2026-09-10T17:41:12.903",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-11-06T20:19:51.78",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130899,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130900,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
