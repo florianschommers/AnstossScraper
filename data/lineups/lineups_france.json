@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-06T22:52:40Z",
+  "lastUpdated": "2026-11-07T14:15:40Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -3662,6 +3662,105 @@
         },
         {
           "name": "Martial Godo",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Troyes",
+      "dateTime": "2026-11-07T20:05:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Matvey Safonov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Achraf Hakimi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Illia Zabarnyi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Hernández",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Warren Zaïre-Emery",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "João Neves",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maghnes Akliouche",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Désiré Doué",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hillel Konate",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lucas Maronnier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrien Monfray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michel Diaz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paolo Gozzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antoine Mille",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dermane Karim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mouhamed Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Merwan Ifnaoui",
+          "position": "Angriff"
+        },
+        {
+          "name": "Renaud Ripart",
+          "position": "Angriff"
+        },
+        {
+          "name": "Timothee Nkada",
           "position": "Angriff"
         }
       ]
