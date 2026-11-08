@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-08T13:45:35Z",
+  "lastUpdated": "2026-11-08T14:00:35Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -4949,6 +4949,105 @@
         },
         {
           "name": "Enes Ünal",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atletico Madrid",
+      "awayTeam": "Barcelona",
+      "dateTime": "2026-11-08T20:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Pubill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dávid Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Álex Grimaldo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Le Normand",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Mendoza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joan Garcia",
+          "position": "Torwart"
+        },
+        {
+          "name": "Brian Fariñas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Cubarsí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gerard Martín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Cancelo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Bernal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Yamal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fermín López",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anthony Gordon",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphinha",
           "position": "Angriff"
         }
       ]
