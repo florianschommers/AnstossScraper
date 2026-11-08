@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-07T22:52:53Z",
+  "lastUpdated": "2026-11-08T11:45:02Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -4157,6 +4157,303 @@
         },
         {
           "name": "Robert Glatzel",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Heidenheim 1846",
+      "awayTeam": "Hannover 96",
+      "dateTime": "2026-11-08T12:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Thomas Dähne",
+          "position": "Torwart"
+        },
+        {
+          "name": "Marnon Busch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Fohrenbach",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcel Costly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Siersleben",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Hennrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikkel Kaufmann",
+          "position": "Angriff"
+        },
+        {
+          "name": "Budu Zivzivadze",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Leo Weinkauf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Virgil Ghita",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boris Tomiak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean Hugonet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hayate Matsuda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefán Teitur Thórdarson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franz Roggow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Husseyn Chakroun",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Waniss Taibi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Hartel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Benjamin Kallman",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Bochum",
+      "awayTeam": "Karlsruher SC",
+      "dateTime": "2026-11-08T12:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Berkan Taz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Meyer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jarne Steuckers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Rasmussen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Philipp Hofmann",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Hans Christian Bernat",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sandro Trémoulet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Scholl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christoph Kobald",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Deniz Emre Ofli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Civeja",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santeri Vaananen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Pinto Pedrosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marvin Wanitzek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Wiethaup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shio Fukuda",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "FC St. Pauli",
+      "dateTime": "2026-11-08T12:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Dominik Reimann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alexander Nollenberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anselmo Garcia MacNulty",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Nadjombe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leon Mergner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Hyryläinen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Torben Musel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Baris Atik",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mateusz Zukowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emmanuel Iyoha",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ben Voll",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lars Ritzka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Smith",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Nemeth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Louis Oppie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Chima Fujita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Rasmussen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arkadiusz Pyrka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Branimir Hrgota",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdoulie Ceesay",
+          "position": "Angriff"
+        },
+        {
+          "name": "Connor Metcalfe",
           "position": "Angriff"
         }
       ]
