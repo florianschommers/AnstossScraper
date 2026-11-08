@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-08T10:15:01Z",
+  "lastUpdated": "2026-11-08T10:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -4256,6 +4256,105 @@
         },
         {
           "name": "Patrik Schick",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "1. FC Union Berlin",
+      "dateTime": "2026-11-08T16:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Mio Backhaus",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lukas Kubler",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthias Ginter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Lienhart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jordy Makengo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Eggestein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yannick Engelhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan-Niklas Beste",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuito Suzuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Derry Lionel Scherhant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Holer",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Frederik Rønnow",
+          "position": "Torwart"
+        },
+        {
+          "name": "Janik Haberer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zeno Van Den Bosch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marvin Friedrich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Derrick Kohn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "András Schäfer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rani Khedira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kastriot Imeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Livan Burcu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Skarke",
           "position": "Angriff"
         }
       ]

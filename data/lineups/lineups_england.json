@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-08T10:15:03Z",
+  "lastUpdated": "2026-11-08T10:30:04Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -4850,6 +4850,105 @@
         },
         {
           "name": "Pedro Neto",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Manchester United FC",
+      "awayTeam": "Aston Villa",
+      "dateTime": "2026-11-08T16:30:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Senne Lammens",
+          "position": "Torwart"
+        },
+        {
+          "name": "Leny Yoro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Harry Maguire",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayden Heaven",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diogo Dalot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kobbie Mainoo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matheus Cunha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Zion Suzuki",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lamare Bogarde",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Lindelöf",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Torres",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ian Maatsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boubacar Kamara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Goretzka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alysson Edward",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Manzambi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "John McGinn",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Jackson",
           "position": "Angriff"
         }
       ]
