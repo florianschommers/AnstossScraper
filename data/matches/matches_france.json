@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-07T02:04:02Z",
+  "lastUpdated": "2026-11-08T01:35:23Z",
   "matches": [
     {
       "matchday": 1,
@@ -828,8 +828,8 @@
       "homeTeam": "Auxerre",
       "awayTeam": "Paris FC",
       "dateTime": "2026-11-07T18:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -838,8 +838,8 @@
       "homeTeam": "Paris Saint-Germain",
       "awayTeam": "Troyes",
       "dateTime": "2026-11-07T20:05:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
