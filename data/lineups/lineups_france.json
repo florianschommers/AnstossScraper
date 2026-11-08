@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-08T13:30:07Z",
+  "lastUpdated": "2026-11-08T13:45:08Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -4355,6 +4355,105 @@
         },
         {
           "name": "Paris Brunner",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Marseille",
+      "dateTime": "2026-11-08T19:45:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Robin Risser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ruben Aguilar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samson Baidoo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jean-Clair Todibo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saud Abdulhamid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Cuisance",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amadou Haidara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthieu Udol",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Thauvin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Sotoca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thorgan Hazard",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jeffrey De Lange",
+          "position": "Torwart"
+        },
+        {
+          "name": "Timothy Weah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "CJ Egan-Riley",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nayef Aguerd",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ulisses Garcia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tochukwu Nnadi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Geoffrey Kondogbia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amine Harit",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Himad Abdelli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Igor Paixão",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amine Gouiri",
           "position": "Angriff"
         }
       ]

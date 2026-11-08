@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-08T13:30:06Z",
+  "lastUpdated": "2026-11-08T13:45:07Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -5840,6 +5840,105 @@
         },
         {
           "name": "Anastasios Douvikas",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Juventus",
+      "dateTime": "2026-11-08T19:45:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "David de Gea",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alejandro Jimenez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Radu Drăgușin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Viery Fernandes Santos Lopes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Mário",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cher Ndour",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolò Fagioli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christ Ravynel Inao Oulai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Franco Mastantuono",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mateo Pellegrino",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alieu Eybi Njie",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Guglielmo Vicario",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pierre Kalulu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bremer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jhon Lucumí",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Cabal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pape Matar Sarr",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Teun Koopmeiners",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Douglas Luiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kerim Alajbegovic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Randal Kolo Muani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Nick Woltemade",
           "position": "Angriff"
         }
       ]
