@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-07T22:52:53Z",
+  "lastUpdated": "2026-11-08T10:00:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -4157,6 +4157,105 @@
         },
         {
           "name": "Niclas Füllkrug",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "dateTime": "2026-11-08T14:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marvin Schwabe",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sebastian Sebulonsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joel Schmied",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Borna Sosa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Linton Maina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Okon-Engstler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Krauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ísak Bergmann Jóhannesson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Bulter",
+          "position": "Angriff"
+        },
+        {
+          "name": "Said El Mala",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Mark Flekken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jarell Quansah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edmond Tapsoba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Miguel Gutiérrez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robert Andrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleix García",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Vázquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Maza",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Afonso Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrik Schick",
           "position": "Angriff"
         }
       ]

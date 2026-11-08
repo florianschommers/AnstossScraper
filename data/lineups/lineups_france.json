@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-07T22:52:57Z",
+  "lastUpdated": "2026-11-08T10:00:06Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -3860,6 +3860,105 @@
         },
         {
           "name": "Lassine Sinayoko",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Rennes",
+      "awayTeam": "Lille",
+      "dateTime": "2026-11-08T14:00:00Z",
+      "matchday": 10,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Brice Samba",
+          "position": "Torwart"
+        },
+        {
+          "name": "Anthony Rouault",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdelhamid Ait Boudlal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastian Szymański",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahdi Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahamadou Nagida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boulaye Dia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mousa Tamari",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Berke Ozer",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maxima Adeagan Goffi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nathan Ngoy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Isaac Cossier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Romain Perraud",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Benjamin Andre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maurits Kjærgaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethan Mbappé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ngal'ayel Mukau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hakon Arnar Haraldsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soriba Diaoune",
           "position": "Angriff"
         }
       ]
