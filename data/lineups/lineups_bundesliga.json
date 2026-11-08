@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-08T12:15:01Z",
+  "lastUpdated": "2026-11-08T12:30:02Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -4355,6 +4355,105 @@
         },
         {
           "name": "Tim Skarke",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "FC Schalke 04",
+      "dateTime": "2026-11-08T18:30:00Z",
+      "matchday": 9,
+      "phase": "9. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Oliver Baumann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Natnael Abraha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ozan Kabak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Koki Machida",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Rots",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adam Daghim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wouter Burger",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Avdullahu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Prass",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fisnik Asllani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tim Lemperle",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Loris Karius",
+          "position": "Torwart"
+        },
+        {
+          "name": "Timo Becker",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Katić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hasan Kurucay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitalie Becker",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenan Karaman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Satoshi Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adil Aouchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mertcan Ayhan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Adamu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Edin Džeko",
           "position": "Angriff"
         }
       ]
