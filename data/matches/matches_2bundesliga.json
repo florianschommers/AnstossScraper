@@ -9170,7 +9170,7 @@
   {
     "matchID": 83682,
     "matchDateTime": "2026-11-07T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -9199,17 +9199,65 @@
       "tla": null,
       "wikidataId": "Q479351"
     },
-    "lastUpdateDateTime": "2026-09-10T17:41:29.167",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-07T14:56:20.01",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130940,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130941,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152333,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 50,
+        "goalGetterID": 27177,
+        "goalGetterName": "P. Scobel",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152346,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 88,
+        "goalGetterID": 27240,
+        "goalGetterName": "William Bøving",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83685,
     "matchDateTime": "2026-11-07T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -9238,17 +9286,78 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:41:36.737",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-07T14:56:26.88",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130932,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130933,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152331,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 14,
+        "goalGetterID": 0,
+        "goalGetterName": "",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152340,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 76,
+        "goalGetterID": 27604,
+        "goalGetterName": "Hiroki Sekine",
+        "scoringTeamId": 104,
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152342,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 80,
+        "goalGetterID": 20135,
+        "goalGetterName": "Isaiah Young",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83688,
     "matchDateTime": "2026-11-07T13:00:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -9277,17 +9386,52 @@
       "tla": null,
       "wikidataId": "Q8466"
     },
-    "lastUpdateDateTime": "2026-09-10T17:41:43.617",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-07T14:56:30.943",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130938,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130939,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152334,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 55,
+        "goalGetterID": 27288,
+        "goalGetterName": "Thierry Tazemeta",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
   {
     "matchID": 83681,
     "matchDateTime": "2026-11-07T20:30:00",
-    "timeZoneID": "W. Europe Standard Time",
+    "timeZoneID": null,
     "leagueId": 4938,
     "leagueName": "2. Fußball-Bundesliga 2026/2027",
     "leagueSeason": 2026,
@@ -9316,10 +9460,71 @@
       "tla": null,
       "wikidataId": "Q101859"
     },
-    "lastUpdateDateTime": "2026-09-10T17:41:58.847",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-07T22:33:08.233",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130969,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130970,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152390,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 44,
+        "goalGetterID": 27252,
+        "goalGetterName": "Oluwaseun Victor Adewumi",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152391,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 47,
+        "goalGetterID": 18678,
+        "goalGetterName": "D. Zeefuik",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 152392,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 47,
+        "goalGetterID": 24871,
+        "goalGetterName": "K. Shiogai",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
