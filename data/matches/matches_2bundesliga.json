@@ -3228,19 +3228,6 @@
         "comment": null
       },
       {
-        "goalID": 146879,
-        "scoreTeam1": 3,
-        "scoreTeam2": 2,
-        "matchMinute": 49,
-        "goalGetterID": 24192,
-        "goalGetterName": "King Manu",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 146876,
         "scoreTeam1": 3,
         "scoreTeam2": 1,
@@ -3251,6 +3238,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 146879,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 49,
+        "goalGetterID": 24192,
+        "goalGetterName": "King Manu",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       },
       {
@@ -9286,7 +9286,7 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-07T14:56:26.88",
+    "lastUpdateDateTime": "2026-11-08T17:34:28.67",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -9316,11 +9316,11 @@
         "scoreTeam1": 0,
         "scoreTeam2": 1,
         "matchMinute": 14,
-        "goalGetterID": 0,
-        "goalGetterName": "",
+        "goalGetterID": 27604,
+        "goalGetterName": "Hiroki Sekine",
         "scoringTeamId": 83,
         "isPenalty": false,
-        "isOwnGoal": false,
+        "isOwnGoal": true,
         "isOvertime": false,
         "comment": null
       },
@@ -9333,7 +9333,7 @@
         "goalGetterName": "Hiroki Sekine",
         "scoringTeamId": 104,
         "isPenalty": false,
-        "isOwnGoal": true,
+        "isOwnGoal": false,
         "isOvertime": false,
         "comment": null
       },
@@ -9560,10 +9560,84 @@
       "tla": null,
       "wikidataId": "Q33748"
     },
-    "lastUpdateDateTime": "2026-07-03T15:41:18.867",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-08T15:24:06.67",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130971,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130972,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152397,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 43,
+        "goalGetterID": 19616,
+        "goalGetterName": "T. Siersleben",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152402,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 55,
+        "goalGetterID": 25013,
+        "goalGetterName": "S. Teitur Thórdarson",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152404,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 63,
+        "goalGetterID": 20217,
+        "goalGetterName": "J. Hugonet",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152405,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 66,
+        "goalGetterID": 20084,
+        "goalGetterName": "B. Zivzivadze",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -9599,10 +9673,97 @@
       "tla": null,
       "wikidataId": "Q105853"
     },
-    "lastUpdateDateTime": "2026-07-03T15:41:47.92",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-08T15:24:09.833",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130973,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130974,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152393,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 6,
+        "goalGetterID": 23988,
+        "goalGetterName": "C. Rasmussen",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152394,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 8,
+        "goalGetterID": 27949,
+        "goalGetterName": "Kevin Wiethaup",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152399,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 50,
+        "goalGetterID": 20146,
+        "goalGetterName": "T. Civeja",
+        "scoringTeamId": 105,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152401,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 53,
+        "goalGetterID": 17664,
+        "goalGetterName": "P. Hofmann",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152409,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 92,
+        "goalGetterID": 17664,
+        "goalGetterName": "P. Hofmann",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -9638,10 +9799,97 @@
       "tla": null,
       "wikidataId": "Q6463"
     },
-    "lastUpdateDateTime": "2026-07-03T15:42:15.113",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-08T15:23:57.18",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130975,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130976,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 4,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152396,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 27,
+        "goalGetterID": 24297,
+        "goalGetterName": "M. Zukowski",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152398,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 48,
+        "goalGetterID": 28149,
+        "goalGetterName": "Anselmo García MacNulty",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152403,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 58,
+        "goalGetterID": 19425,
+        "goalGetterName": "E. Smith",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152407,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 89,
+        "goalGetterID": 18723,
+        "goalGetterName": "H. Bockhorn",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152408,
+        "scoreTeam1": 4,
+        "scoreTeam2": 1,
+        "matchMinute": 91,
+        "goalGetterID": 20533,
+        "goalGetterName": "R. Simic",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
