@@ -7693,7 +7693,7 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-07T13:20:22.493",
+    "lastUpdateDateTime": "2026-11-08T11:47:20.103",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -7771,8 +7771,12 @@
         "comment": null
       }
     ],
-    "location": null,
-    "numberOfViewers": null
+    "location": {
+      "locationID": 1030,
+      "locationCity": "Hamburg",
+      "locationStadium": "Volksparkstadion"
+    },
+    "numberOfViewers": 57000
   },
   {
     "matchID": 83228,
@@ -7806,7 +7810,7 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-07T23:17:21.11",
+    "lastUpdateDateTime": "2026-11-08T11:47:57.05",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -7876,7 +7880,7 @@
       "locationCity": "Dortmund",
       "locationStadium": "Signal Iduna Park"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 81365
   },
   {
     "matchID": 83229,
@@ -7910,7 +7914,7 @@
       "tla": null,
       "wikidataId": "Q15755"
     },
-    "lastUpdateDateTime": "2026-11-07T17:55:34.02",
+    "lastUpdateDateTime": "2026-11-08T11:50:15.6",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -8027,8 +8031,12 @@
         "comment": null
       }
     ],
-    "location": null,
-    "numberOfViewers": null
+    "location": {
+      "locationID": 478,
+      "locationCity": "Leipzig",
+      "locationStadium": "Red Bull Arena"
+    },
+    "numberOfViewers": 38292
   },
   {
     "matchID": 83233,
@@ -8062,7 +8070,7 @@
       "tla": null,
       "wikidataId": "Q15789"
     },
-    "lastUpdateDateTime": "2026-11-07T17:53:06.043",
+    "lastUpdateDateTime": "2026-11-08T11:50:41.493",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -8127,8 +8135,12 @@
         "comment": null
       }
     ],
-    "location": null,
-    "numberOfViewers": null
+    "location": {
+      "locationID": 1533,
+      "locationCity": "Mainz",
+      "locationStadium": "Mewa Arena"
+    },
+    "numberOfViewers": 33305
   },
   {
     "matchID": 83236,
@@ -8162,7 +8174,7 @@
       "tla": null,
       "wikidataId": "Q38245"
     },
-    "lastUpdateDateTime": "2026-11-07T17:50:05.49",
+    "lastUpdateDateTime": "2026-11-08T11:51:02.157",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -8240,8 +8252,12 @@
         "comment": null
       }
     ],
-    "location": null,
-    "numberOfViewers": null
+    "location": {
+      "locationID": 1482,
+      "locationCity": "Paderborn",
+      "locationStadium": "Home Deluxe Arena"
+    },
+    "numberOfViewers": 15000
   },
   {
     "matchID": 83230,
@@ -8275,7 +8291,7 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-07T20:27:05.163",
+    "lastUpdateDateTime": "2026-11-08T11:52:08.923",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -8314,8 +8330,12 @@
         "comment": null
       }
     ],
-    "location": null,
-    "numberOfViewers": null
+    "location": {
+      "locationID": 1493,
+      "locationCity": "Stuttgart",
+      "locationStadium": "MHP-Arena"
+    },
+    "numberOfViewers": 60058
   },
   {
     "matchID": 83235,
@@ -8349,12 +8369,77 @@
       "tla": null,
       "wikidataId": "Q104761"
     },
-    "lastUpdateDateTime": "2026-09-10T17:28:40.24",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
-    "location": null,
-    "numberOfViewers": null
+    "lastUpdateDateTime": "2026-11-08T21:20:15.487",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130983,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130984,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152422,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 7,
+        "goalGetterID": 27187,
+        "goalGetterName": "A. Garcia",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152427,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 85,
+        "goalGetterID": 18331,
+        "goalGetterName": "P. Schick",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152428,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 92,
+        "goalGetterID": 21344,
+        "goalGetterName": "S. El Mala",
+        "scoringTeamId": 65,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
+    "location": {
+      "locationID": 509,
+      "locationCity": "Köln",
+      "locationStadium": "RheinEnergieStadion "
+    },
+    "numberOfViewers": 50000
   },
   {
     "matchID": 83232,
@@ -8388,12 +8473,64 @@
       "tla": null,
       "wikidataId": "Q141971"
     },
-    "lastUpdateDateTime": "2026-09-10T17:28:56.027",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
-    "location": null,
-    "numberOfViewers": null
+    "lastUpdateDateTime": "2026-11-08T21:20:27.223",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130993,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130994,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152430,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 55,
+        "goalGetterID": 785,
+        "goalGetterName": "R. Khedira",
+        "scoringTeamId": 112,
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152431,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 67,
+        "goalGetterID": 24246,
+        "goalGetterName": "Y. Suzuki",
+        "scoringTeamId": 112,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
+    "location": {
+      "locationID": 1484,
+      "locationCity": "Freiburg",
+      "locationStadium": "Europa-Park Stadion"
+    },
+    "numberOfViewers": 33400
   },
   {
     "matchID": 83231,
@@ -8427,12 +8564,77 @@
       "tla": null,
       "wikidataId": "Q32494"
     },
-    "lastUpdateDateTime": "2026-09-10T17:29:08.703",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
-    "location": null,
-    "numberOfViewers": null
+    "lastUpdateDateTime": "2026-11-08T21:42:05.193",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 130997,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 130998,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 152435,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 10,
+        "goalGetterID": 20687,
+        "goalGetterName": "F. Asllani",
+        "scoringTeamId": 175,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152462,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 26,
+        "goalGetterID": 19004,
+        "goalGetterName": "T. Lemperle",
+        "scoringTeamId": 175,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152468,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 81,
+        "goalGetterID": 22890,
+        "goalGetterName": "J. Adamu",
+        "scoringTeamId": 9,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
+    "location": {
+      "locationID": 1905,
+      "locationCity": "Sinsheim",
+      "locationStadium": "SNP Arena"
+    },
+    "numberOfViewers": 28369
   },
   {
     "matchID": 83237,
