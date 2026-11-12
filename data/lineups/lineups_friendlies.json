@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-10-07T01:13:38Z",
+  "lastUpdated": "2026-11-12T16:15:30Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -1088,6 +1088,105 @@
         },
         {
           "name": "Jonathan David",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Litauen",
+      "awayTeam": "Suriname",
+      "dateTime": "2026-11-12T17:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Arnas Voitinovicius",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pijus Sirvys",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kipras Kažukolovas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Artemijus Tutyskinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Justas Lasickas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Artur Dolznikov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paulius Golubickas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domantas Sluta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gvidas Gineitis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Armandas Kucys",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eligijus Jankauskas",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jahnilo Wiegel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Navajo Bakboord",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Myenty Abena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Liam Van Gelderen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ridgeciano Haps",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dhoraso Moreo Klas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denilho Cleonise",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Immanuel Pherai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Denzel Jubitana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jade Sean Montnor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joël Piroe",
           "position": "Angriff"
         }
       ]
