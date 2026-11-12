@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-12T17:15:29Z",
+  "lastUpdated": "2026-11-12T17:30:29Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -1188,6 +1188,105 @@
         {
           "name": "Joël Piroe",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Malta",
+      "awayTeam": "Swasiland",
+      "dateTime": "2026-11-12T17:30:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "James Sissons",
+          "position": "Torwart"
+        },
+        {
+          "name": "Zach Muscat",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kurt Shaw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Mentz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Myles Beerman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthew Guillaumier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Satariano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Cannavo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keyon Ewurum",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Mbong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrea Zammit",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Philiso Newman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nkosingiphile Shongwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simanga Masangane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gift Gamedze",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kwakhe Thwala",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Neliswa Dlamini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thubelihle Mavuso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sizwe Khumalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philani Mkhontfo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justice Figuareido",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sibusiso Dlamini",
+          "position": "Torwart"
         }
       ]
     }
