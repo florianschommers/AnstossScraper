@@ -3228,19 +3228,6 @@
         "comment": null
       },
       {
-        "goalID": 146876,
-        "scoreTeam1": 3,
-        "scoreTeam2": 1,
-        "matchMinute": 49,
-        "goalGetterID": 27362,
-        "goalGetterName": "Luca Erlein",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 146879,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -3251,6 +3238,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146876,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 27362,
+        "goalGetterName": "Luca Erlein",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       },
       {
@@ -9499,19 +9499,6 @@
         "comment": null
       },
       {
-        "goalID": 152391,
-        "scoreTeam1": 2,
-        "scoreTeam2": 0,
-        "matchMinute": 47,
-        "goalGetterID": 18678,
-        "goalGetterName": "D. Zeefuik",
-        "scoringTeamId": 54,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 152392,
         "scoreTeam1": 2,
         "scoreTeam2": 1,
@@ -9522,6 +9509,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 152391,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 47,
+        "goalGetterID": 18678,
+        "goalGetterName": "D. Zeefuik",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       }
     ],
