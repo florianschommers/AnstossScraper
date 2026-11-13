@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-12T03:10:20Z",
+  "lastUpdated": "2026-11-13T02:43:39Z",
   "matches": [
     {
       "matchday": 1,
@@ -3297,9 +3297,9 @@
       "matchday": 1,
       "homeTeam": "Neuseeland",
       "awayTeam": "Indien",
-      "dateTime": "2026-11-12T06:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "dateTime": "2026-11-12T06:10:00Z",
+      "score": "5:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3308,8 +3308,8 @@
       "homeTeam": "Litauen",
       "awayTeam": "Suriname",
       "dateTime": "2026-11-12T17:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3318,8 +3318,8 @@
       "homeTeam": "Malta",
       "awayTeam": "Swasiland",
       "dateTime": "2026-11-12T17:30:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3365,6 +3365,16 @@
     },
     {
       "matchday": 1,
+      "homeTeam": "Irak",
+      "awayTeam": "Libanon",
+      "dateTime": "2026-11-13T15:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
       "homeTeam": "Vereinigte Arabische Emirate",
       "awayTeam": "Honduras",
       "dateTime": "2026-11-13T16:10:00Z",
@@ -3390,7 +3400,7 @@
       "dateTime": "2026-11-13T18:00:00Z",
       "score": null,
       "isFinished": false,
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -3435,9 +3445,29 @@
     },
     {
       "matchday": 1,
+      "homeTeam": "Tahiti",
+      "awayTeam": "Cookinseln",
+      "dateTime": "2026-11-14T04:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
       "homeTeam": "Bahrain",
       "awayTeam": "Jemen",
       "dateTime": "2026-11-14T06:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Oman",
+      "awayTeam": "Tadschikistan",
+      "dateTime": "2026-11-14T09:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -3465,6 +3495,16 @@
     },
     {
       "matchday": 1,
+      "homeTeam": "Thailand",
+      "awayTeam": "Brunei",
+      "dateTime": "2026-11-14T12:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
       "homeTeam": "Palästina",
       "awayTeam": "Iran",
       "dateTime": "2026-11-14T15:00:00Z",
@@ -3485,9 +3525,9 @@
     },
     {
       "matchday": 1,
-      "homeTeam": "Kirgisistan",
-      "awayTeam": "Vietnam",
-      "dateTime": "2026-11-15T12:00:00Z",
+      "homeTeam": "Suriname",
+      "awayTeam": "Swasiland",
+      "dateTime": "2026-11-15T17:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -3498,6 +3538,16 @@
       "homeTeam": "Andorra",
       "awayTeam": "Aserbaidschan",
       "dateTime": "2026-11-16T18:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Tahiti",
+      "awayTeam": "Cookinseln",
+      "dateTime": "2026-11-17T04:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -3535,8 +3585,28 @@
     },
     {
       "matchday": 1,
+      "homeTeam": "Kirgisistan",
+      "awayTeam": "Vietnam",
+      "dateTime": "2026-11-17T12:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
       "homeTeam": "Kuwait",
       "awayTeam": "Honduras",
+      "dateTime": "2026-11-17T13:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Libanon",
+      "awayTeam": "Palästina",
       "dateTime": "2026-11-17T13:00:00Z",
       "score": null,
       "isFinished": false,
@@ -3588,6 +3658,16 @@
       "homeTeam": "Vereinigte Arabische Emirate",
       "awayTeam": "Syrien",
       "dateTime": "2026-11-17T16:10:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Irak",
+      "awayTeam": "Iran",
+      "dateTime": "2026-11-17T16:15:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
