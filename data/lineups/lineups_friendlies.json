@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-13T14:00:37Z",
+  "lastUpdated": "2026-11-13T14:15:37Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -1484,6 +1484,204 @@
         },
         {
           "name": "Oh Hyeon-gyu",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Katar",
+      "awayTeam": "Australien",
+      "dateTime": "2026-11-13T14:45:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mahmud Ibrahim Abunada",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sultan Al-Brake",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boualem Khoukhi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gueye Seydinaissa Laye",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayoub Mohamed Al Oui",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karim Boudiaf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Assim Madibo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ahmed Fathy Abdoulla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Akram Afif",
+          "position": "Angriff"
+        },
+        {
+          "name": "Almoez Ali",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hasan Al Haydos",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Patrick Beach",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lucas Herrington",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Harry Souttar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alessandro Circati",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aziz Behich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacob Italiano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Riley McGree",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Okon-Engstler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Connor Metcalfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nestory Irankunda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tete Yengi",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Vereinigte Arabische Emirate",
+      "awayTeam": "Honduras",
+      "dateTime": "2026-11-13T16:10:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Khalid Eissa Mohammed Bilal Saeed Al Mesmari",
+          "position": "Torwart"
+        },
+        {
+          "name": "Khalifa Mubarak Khalfan Khairi Al Hammadi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Issam Faiz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Coulibaly",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcus Vinicius Barbosa Meloni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruben Amaral",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luan Martins Pereira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ala Eddine Ben Ajmi Zouhir",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ousmane Nana Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Conceição de Oliveira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ali Saleh",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Edrick Menjivar",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joseph Rosales",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Martinez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Denil Maldonado",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rigoberto Rivas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Reyes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Ruiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Palma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonathan Toro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dereck Alessandro Moncada Arguijo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keyrol Figueroa Norales",
           "position": "Angriff"
         }
       ]
