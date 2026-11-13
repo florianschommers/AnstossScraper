@@ -1,7 +1,7 @@
 {
   "league": "nationsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-12T22:52:47Z",
+  "lastUpdated": "2026-11-13T16:00:35Z",
   "lineups": [
     {
       "homeTeam": "Georgien",
@@ -4751,6 +4751,105 @@
         },
         {
           "name": "Marc Cucurella",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Moldau",
+      "awayTeam": "Kasachstan",
+      "dateTime": "2026-11-13T17:00:00Z",
+      "matchday": 5,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Dumitru Celeadnic",
+          "position": "Torwart"
+        },
+        {
+          "name": "Oleg Reabciuk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vladislav Baboglo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mihail Gherasimencov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sergiu Perciun",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vladimir Fratea",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Petru Popescu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Iurie Iovu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicky Clescenco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ioan-Călin Revenco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vadim Raţă",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Stas Pokatilov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nuraly Alip",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alibek Kassym",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxim Samorodov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexandr Mrynskiy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nauryzbek Zhagorov",
+          "position": "Angriff"
+        },
+        {
+          "name": "Zhassulan Amir",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Islam Chesnokov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dinmukhamed Karaman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ramazan Orazov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Temirlan Yerlanov",
           "position": "Abwehr"
         }
       ]
