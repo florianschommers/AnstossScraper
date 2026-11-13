@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-13T13:45:37Z",
+  "lastUpdated": "2026-11-13T14:00:37Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -1385,6 +1385,105 @@
         },
         {
           "name": "Mauricio",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Saudi Arabien",
+      "awayTeam": "Südkorea",
+      "dateTime": "2026-11-13T14:30:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mohammed Al-Owais",
+          "position": "Torwart"
+        },
+        {
+          "name": "Moteb Al-Harbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hassan Al-Tombakti",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdulelah Al-Amri",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saleh Abu Al-Shamat",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohammed Al-Qahtani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nasser Al Dawsari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdullah Al Khaibari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marwan Al-Sahafi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Kanno",
+          "position": "Angriff"
+        },
+        {
+          "name": "Abdullah Al-Hamddan",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kim Seung-gyu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hyun-Taek Cho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kim Min-jae",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lee Hanbeom",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Seol Young-woo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hwang Hee-chan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hwang In-beom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Park Jin-seob",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lee Kang-in",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Son Heung-min",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oh Hyeon-gyu",
           "position": "Angriff"
         }
       ]
