@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-13T22:01:08Z",
+  "lastUpdated": "2026-11-13T22:16:08Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -1682,6 +1682,105 @@
         },
         {
           "name": "Keyrol Figueroa Norales",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Argentinien",
+      "awayTeam": "Uruguay",
+      "dateTime": "2026-11-13T23:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Gerónimo Rulli",
+          "position": "Torwart"
+        },
+        {
+          "name": "Agustin Giay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lisandro Martínez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Facundo Medina",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Exequiel Palacios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Fernández",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Paz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gianluca Prestianni",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Cristopher Fiermarin",
+          "position": "Torwart"
+        },
+        {
+          "name": "Guillermo Varela",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ronald Araújo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathías Olivera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joaquin Piquerez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Torreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Bentancur",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Agustín Canobbio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgian de Arrascaeta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximiliano Araújo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darwin Núñez",
           "position": "Angriff"
         }
       ]
