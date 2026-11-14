@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-14T11:00:05Z",
+  "lastUpdated": "2026-11-14T11:15:04Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -1908,8 +1908,8 @@
           "position": "Abwehr"
         },
         {
-          "name": "Keito Nakamura",
-          "position": "Mittelfeld"
+          "name": "Shuto Nakano",
+          "position": "Abwehr"
         },
         {
           "name": "Daichi Kamada",
@@ -1920,16 +1920,16 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Shuto Nakano",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Takefusa Kubo",
+          "name": "Keito Nakamura",
           "position": "Mittelfeld"
         },
         {
           "name": "Ritsu Doan",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Takefusa Kubo",
+          "position": "Angriff"
         },
         {
           "name": "Daizen Maeda",
@@ -1979,6 +1979,105 @@
         },
         {
           "name": "Estêvão",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "China",
+      "awayTeam": "Malaysia",
+      "dateTime": "2026-11-14T12:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hao Li",
+          "position": "Torwart"
+        },
+        {
+          "name": "Yang Liu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Haofan Liu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pengfei Han",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Xi Yang",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lin Liangming",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sérgio Antônio Soler de Oliveira Júnior",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bin Xu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wang Shangyuan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zhang Yuning",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yudong Wang",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Haziq Nadzli",
+          "position": "Torwart"
+        },
+        {
+          "name": "Daniel Sang Ting",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Muhammad Ubaidullah Shamsul Fazili",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominic Tan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dion Cools",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ryan Edward Kit Seng Lee Lambert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Quentin Cheng",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodney Celvin Akwensivie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romel Morales",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Muhammad Ramadhan Saifullah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fergus Tierney",
           "position": "Angriff"
         }
       ]
