@@ -1,7 +1,7 @@
 {
   "league": "nationsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-13T22:52:57Z",
+  "lastUpdated": "2026-11-14T13:00:03Z",
   "lineups": [
     {
       "homeTeam": "Georgien",
@@ -5742,6 +5742,105 @@
         {
           "name": "Jákup Andreasen",
           "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Kosovo",
+      "awayTeam": "Israel",
+      "dateTime": "2026-11-14T14:00:00Z",
+      "matchday": 5,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Amir Saipi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lindrit Kamberi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kreshnik Hajrizi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ilir Krasniqi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milot Rashica",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edon Zhegrova",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dion Gallapeni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mërgim Vojvoda",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vedat Muriqi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Veldin Hodža",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Avdullahu",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Daniel Peretz",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eli Dasa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raz Shlomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Idan Nachmias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dor Peretz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oscar Gloukh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikita Stoinov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niv Yehoshuha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ethane Azoulay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Liel Abada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Idan Toclomiti",
+          "position": "Angriff"
         }
       ]
     }
