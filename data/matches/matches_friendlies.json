@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-15T01:59:55Z",
+  "lastUpdated": "2026-11-15T11:37:25Z",
   "matches": [
     {
       "matchday": 1,
@@ -3517,9 +3517,9 @@
       "matchday": 1,
       "homeTeam": "Neuseeland",
       "awayTeam": "Indien",
-      "dateTime": "2026-11-15T03:10:00Z",
-      "score": null,
-      "isFinished": false,
+      "dateTime": "2026-11-15T03:00:00Z",
+      "score": "3:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -3538,16 +3538,6 @@
       "homeTeam": "Andorra",
       "awayTeam": "Aserbaidschan",
       "dateTime": "2026-11-16T18:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 1,
-      "homeTeam": "Kuwait",
-      "awayTeam": "Honduras",
-      "dateTime": "2026-11-17T00:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -3668,6 +3658,16 @@
       "homeTeam": "Irak",
       "awayTeam": "Iran",
       "dateTime": "2026-11-17T16:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 1,
+      "homeTeam": "Kuwait",
+      "awayTeam": "Honduras",
+      "dateTime": "2026-11-17T16:30:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
