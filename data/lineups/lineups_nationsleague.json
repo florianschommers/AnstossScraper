@@ -1,7 +1,7 @@
 {
   "league": "nationsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-16T15:45:30Z",
+  "lastUpdated": "2026-11-16T16:00:30Z",
   "lineups": [
     {
       "homeTeam": "Georgien",
@@ -7722,6 +7722,105 @@
         {
           "name": "Mathias Olesen",
           "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Litauen",
+      "awayTeam": "Liechtenstein",
+      "dateTime": "2026-11-16T17:00:00Z",
+      "matchday": 6,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Arnas Voitinovičius",
+          "position": "Torwart"
+        },
+        {
+          "name": "Artemijus Tutyškinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kipras Kažukolovas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Artūr Dolžnikov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Domantas Šluta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manfredas Ruzgis",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eligijus Jankauskas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Justas Lasickas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gvidas Gineitis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pijus Širvys",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Motiejus Burba",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Benjamin Büchel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Max Göppel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andreas Malin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aron Sele",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Büchel",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alessandro Lo Russo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Livio Meier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Poitner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuel Zünd",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alessio Hasler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jens Hofer",
+          "position": "Abwehr"
         }
       ]
     }
