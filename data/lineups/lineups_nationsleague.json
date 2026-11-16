@@ -1,7 +1,7 @@
 {
   "league": "nationsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-16T15:30:34Z",
+  "lastUpdated": "2026-11-16T15:45:30Z",
   "lineups": [
     {
       "homeTeam": "Georgien",
@@ -7524,6 +7524,204 @@
         {
           "name": "Ioan-Călin Revenco",
           "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Estland",
+      "awayTeam": "Bulgarien",
+      "dateTime": "2026-11-16T17:00:00Z",
+      "matchday": 6,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Karl Hein",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maksim Paskotši",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mattias Käit",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rocco Robert Shein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rasmus Peetson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marten-Chris Paalberg",
+          "position": "Angriff"
+        },
+        {
+          "name": "Patrik Kristal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Erko Tõugjas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Schjønning-Larsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Markus Poom",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Plamen Andreev",
+          "position": "Torwart"
+        },
+        {
+          "name": "Rosen Bozhinov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ilia Gruev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Antov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andrian Kraev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefan Velkov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Georgi Lazarov",
+          "position": "Angriff"
+        },
+        {
+          "name": "Svetoslav Kovachev",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lukas Petkov",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dimitar Velkovski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yoan Stoyanov",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Island",
+      "awayTeam": "Luxemburg",
+      "dateTime": "2026-11-16T17:00:00Z",
+      "matchday": 6,
+      "phase": "Ligaphase",
+      "homeLineup": [
+        {
+          "name": "Hákon Valdimarsson",
+          "position": "Torwart"
+        },
+        {
+          "name": "Logi Tómasson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daníel Leó Grétarsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Victor Pálsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hákon Haraldsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ísak Bergmann Johannesson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Orri Óskarsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hjörtur Hermannsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Brynjolfur Willumsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mikael Egill Ellertsson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andri Gudjohnsen",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Anthony Moris",
+          "position": "Torwart"
+        },
+        {
+          "name": "Enes Mahmutovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Bohnert",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vahid Selimovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tomas Moreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Dos Santos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jayson Videira",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vincent Thill",
+          "position": "Angriff"
+        },
+        {
+          "name": "Dirk Carlson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Laurent Jans",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mathias Olesen",
+          "position": "Mittelfeld"
         }
       ]
     }
