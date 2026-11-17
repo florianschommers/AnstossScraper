@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-17T13:30:02Z",
+  "lastUpdated": "2026-11-17T13:45:06Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -2672,6 +2672,105 @@
         },
         {
           "name": "Allan Wlk",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Katar",
+      "awayTeam": "Südkorea",
+      "dateTime": "2026-11-17T14:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Salah Zakaria",
+          "position": "Torwart"
+        },
+        {
+          "name": "Homam Al-Amin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bassam Al-Rawi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tarek Salman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jassem Gaber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karim Boudiaf",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Assim Madibo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Akram Afif",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Al-Mannai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yusuf Abdurisag",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ahmed Alaaeldin",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Song Bum-keun",
+          "position": "Torwart"
+        },
+        {
+          "name": "Myung-Jae Lee",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kim Ji-soo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kim Min-jae",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jun Choi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hwang In-beom",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bong-Soo Kim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Min-Kyu Song",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Son Heung-min",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lee Kang-in",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Se-Hun Oh",
           "position": "Angriff"
         }
       ]
