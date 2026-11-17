@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-17T22:16:01Z",
+  "lastUpdated": "2026-11-17T22:31:01Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -3282,11 +3282,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Agustin Giay",
-          "position": "Abwehr"
-        },
-        {
-          "name": "Lisandro Martínez",
+          "name": "Román Vega",
           "position": "Abwehr"
         },
         {
@@ -3294,11 +3290,15 @@
           "position": "Abwehr"
         },
         {
-          "name": "Roman Vega",
+          "name": "Lisandro Martínez",
           "position": "Abwehr"
         },
         {
-          "name": "Enzo Fernández",
+          "name": "Agustin Giay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexis Mac Allister",
           "position": "Mittelfeld"
         },
         {
@@ -3306,11 +3306,11 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Alexis Mac Allister",
+          "name": "Enzo Fernández",
           "position": "Mittelfeld"
         },
         {
-          "name": "Nico Paz",
+          "name": "Gianluca Prestianni",
           "position": "Angriff"
         },
         {
@@ -3318,7 +3318,7 @@
           "position": "Angriff"
         },
         {
-          "name": "Gianluca Prestianni",
+          "name": "Nico Paz",
           "position": "Angriff"
         }
       ],
@@ -3328,7 +3328,7 @@
           "position": "Torwart"
         },
         {
-          "name": "Juan Pablo Vargas",
+          "name": "Gerald Taylor",
           "position": "Abwehr"
         },
         {
@@ -3336,7 +3336,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Aaron Salazar",
+          "name": "Juan Pablo Vargas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kenyel Michel",
           "position": "Abwehr"
         },
         {
@@ -3344,7 +3348,7 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Carlos Mora",
+          "name": "Josimar Méndez",
           "position": "Mittelfeld"
         },
         {
@@ -3352,20 +3356,115 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Kenyel Michel",
+          "name": "Aarón Salazar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Mora",
           "position": "Mittelfeld"
         },
         {
           "name": "Manfred Ugalde",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Chile",
+      "awayTeam": "Kolumbien",
+      "dateTime": "2026-11-17T23:00:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lawrence Vigouroux",
+          "position": "Torwart"
         },
         {
-          "name": "Gerald Taylor",
+          "name": "Gabriel Suazo",
           "position": "Abwehr"
         },
         {
-          "name": "Josimar Mendez",
+          "name": "Ivan Roman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Villagra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vicente Pizarro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "César Pérez",
           "position": "Mittelfeld"
+        },
+        {
+          "name": "Nils Reichmuth",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felipe Loyola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Darío Osorio",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ben Brereton Díaz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lucas Cepeda",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Aldair Quintana",
+          "position": "Torwart"
+        },
+        {
+          "name": "Juan Cabal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Andrade",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jefferson Lerma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustavo Puerta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matías Orozco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Arcila",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Camilo Mena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Suárez",
+          "position": "Angriff"
         }
       ]
     }
