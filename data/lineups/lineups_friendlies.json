@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-17T12:15:03Z",
+  "lastUpdated": "2026-11-17T12:30:03Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -2573,6 +2573,105 @@
         },
         {
           "name": "Husain Abdulaziz",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Paraguay",
+      "dateTime": "2026-11-17T13:10:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Zion Suzuki",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kou Itakura",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tsuyoshi Watanabe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Junnosuke Suzuki",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tatsuhiro Sakamoto",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kodai Sano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yukinari Sugawara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuki Soma",
+          "position": "Angriff"
+        },
+        {
+          "name": "Keisuke Goto",
+          "position": "Angriff"
+        },
+        {
+          "name": "Yuito Suzuki",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Orlando Gill",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mateo Gamarra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gustavo Gómez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Omar Alderete",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Juan Jose Caceres",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Cuenca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Damián Bobadilla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Almirón",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Allan Wlk",
           "position": "Angriff"
         }
       ]
