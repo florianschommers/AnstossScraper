@@ -1,7 +1,7 @@
 {
   "league": "friendlies",
   "season": "2027",
-  "lastUpdated": "2026-11-17T22:49:31Z",
+  "lastUpdated": "2026-11-17T22:50:01Z",
   "lineups": [
     {
       "homeTeam": "Japan",
@@ -3464,6 +3464,105 @@
         },
         {
           "name": "Luis Suárez",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Ecuador",
+      "awayTeam": "Bolivien",
+      "dateTime": "2026-11-17T23:30:00Z",
+      "matchday": 1,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hernán Galíndez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Piero Hincapié",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jackson Porozo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ángelo Preciado",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John Mercado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Vite",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Keny Arroyo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "John Yeboah",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jordy Caicedo",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Carlos Lampe",
+          "position": "Torwart"
+        },
+        {
+          "name": "Roberto Fernández",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Arroyo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Efrain Morales",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yomar Rocha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Héctor Cuéllar",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabricio Quaglio",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ramiro Vaca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Óscar López",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moises Paniagua",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miguel Terceros",
           "position": "Angriff"
         }
       ]
