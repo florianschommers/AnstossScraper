@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-08T22:52:50Z",
+  "lastUpdated": "2026-11-20T14:00:25Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -5048,6 +5048,105 @@
         },
         {
           "name": "Raphinha",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Espanyol",
+      "dateTime": "2026-11-20T20:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Unai Simón",
+          "position": "Torwart"
+        },
+        {
+          "name": "Hugo Rincon",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yeray Álvarez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aymeric Laporte",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yuri Berchiche",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Peio Urtasan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñigo Ruiz de Galarreta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Berenguer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oihan Sancet",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nico Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iñaki Williams",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Angel Fortuno",
+          "position": "Torwart"
+        },
+        {
+          "name": "Omar El Hilali",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leandro Cabrera",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Quilindschy Hartman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Santiago Vargas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Edu Exposito",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pol Lozano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrhys Dolan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javi Puado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pere Milla",
+          "position": "Angriff"
+        },
+        {
+          "name": "Roberto Fernandez",
           "position": "Angriff"
         }
       ]
