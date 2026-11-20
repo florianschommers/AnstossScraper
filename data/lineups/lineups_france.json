@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-08T22:52:52Z",
+  "lastUpdated": "2026-11-20T13:45:01Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -4454,6 +4454,105 @@
         },
         {
           "name": "Amine Gouiri",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Havre",
+      "dateTime": "2026-11-20T19:45:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Hillel Konate",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lucas Maronnier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrien Monfray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paolo Gozzi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismael Boura",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dermane Karim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mouhamed Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Merwan Ifnaoui",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antoine Mille",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kandet Diawara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Renaud Ripart",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Arnaud Bodart",
+          "position": "Torwart"
+        },
+        {
+          "name": "Vincent Sasso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayumu Seko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ahmed Touba",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Djibril Ouziad",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simon Ebonog",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaito Mizuta",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amir Richardson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Koffi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josh Maja",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ally Samatta",
           "position": "Angriff"
         }
       ]
