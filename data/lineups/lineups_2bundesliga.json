@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-20T16:45:24Z",
+  "lastUpdated": "2026-11-20T17:00:25Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -4553,6 +4553,105 @@
         },
         {
           "name": "Mikkel Kaufmann",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "DSC Arminia Bielefeld",
+      "awayTeam": "1. FC Magdeburg",
+      "dateTime": "2026-11-20T17:30:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Thomas Kersken",
+          "position": "Torwart"
+        },
+        {
+          "name": "Arne Sicker",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Grosser",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Bauer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Felix Hagmann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefano Russo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jannik Rochelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marius Wörl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Monju Momuluh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Grodowski",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dominik Reimann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alexander Nollenberger",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daniel Heber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pierre Nadjombe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Moritz Kwarteng",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felipe Chavez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luka Hyryläinen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Baris Atik",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mateusz Zukowski",
+          "position": "Angriff"
+        },
+        {
+          "name": "Emmanuel Iyoha",
           "position": "Angriff"
         }
       ]
