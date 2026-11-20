@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-08T22:52:48Z",
+  "lastUpdated": "2026-11-20T13:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -4454,6 +4454,105 @@
         },
         {
           "name": "Hwang Hee-chan",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "1. FC Köln",
+      "dateTime": "2026-11-20T19:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Urbig",
+          "position": "Torwart"
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kim Min-jae",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josip Stanišić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandar Pavlović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Olise",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lennart Karl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathaniel Brown",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harry Kane",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marvin Schwabe",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joel Schmied",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tom Krauss",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Sebulonsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Linton Maina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Okon-Engstler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikey Moore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Borna Sosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Said El Mala",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marius Bulter",
           "position": "Angriff"
         }
       ]
