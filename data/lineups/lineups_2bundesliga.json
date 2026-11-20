@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-08T20:16:03Z",
+  "lastUpdated": "2026-11-20T16:45:24Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -4454,6 +4454,105 @@
         },
         {
           "name": "Branimir Hrgota",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV Darmstadt 98",
+      "awayTeam": "1. FC Heidenheim 1846",
+      "dateTime": "2026-11-20T17:30:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Alexander Brunst",
+          "position": "Torwart"
+        },
+        {
+          "name": "Raoul Petretta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aleksandar Vukotic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yannik Luhrs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthias Bader",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hiroki Akiyama",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Klefisch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Weisshaupt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lars Kehl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Richter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milan Smit",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Frank Feller",
+          "position": "Torwart"
+        },
+        {
+          "name": "Oualid Mhamdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Siersleben",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcel Costly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marko Zrilic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Joe Conteh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Budu Zivzivadze",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mikkel Kaufmann",
           "position": "Angriff"
         }
       ]
