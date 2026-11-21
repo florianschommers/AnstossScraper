@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-21T18:46:22Z",
+  "lastUpdated": "2026-11-21T19:01:21Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -4949,6 +4949,105 @@
         },
         {
           "name": "Jan Urbich",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "VfL Bochum",
+      "dateTime": "2026-11-21T19:30:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Ben Voll",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tomoya Ando",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcus Mathisen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "David Nemeth",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lars Ritzka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joel Chima Fujita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eric Smith",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arkadiusz Pyrka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Branimir Hrgota",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdoulie Ceesay",
+          "position": "Angriff"
+        },
+        {
+          "name": "Youssoupha Niang",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Meyer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Rasmussen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Berkan Taz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jarne Steuckers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Hofmann",
           "position": "Angriff"
         }
       ]
