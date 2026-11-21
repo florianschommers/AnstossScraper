@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-21T11:15:02Z",
+  "lastUpdated": "2026-11-21T11:30:02Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -5048,6 +5048,105 @@
         },
         {
           "name": "Igor Matanović",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "VfB Stuttgart",
+      "dateTime": "2026-11-21T17:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Loris Karius",
+          "position": "Torwart"
+        },
+        {
+          "name": "Mertcan Ayhan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Katić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hasan Kurucay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitalie Becker",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Satoshi Tanaka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soufiane El-Faouzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dejan Ljubicic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenan Karaman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adil Aouchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Adamu",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dennis Seimen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Finn Jeltsch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Chabot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ramon Hendriks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jamie Leweling",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yanik Spalt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Grischa Prömel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Mittelstädt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bilal El Khannous",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Deniz Undav",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ermedin Demirović",
           "position": "Angriff"
         }
       ]

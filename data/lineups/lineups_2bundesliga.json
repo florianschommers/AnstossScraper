@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-21T11:15:02Z",
+  "lastUpdated": "2026-11-21T11:30:03Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -4850,6 +4850,105 @@
         },
         {
           "name": "Omar Sillah",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "Eintracht Braunschweig",
+      "dateTime": "2026-11-21T12:00:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jan-Marc Reichert",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tim Janisch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexios Kalogeropoulos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Styopa Mkrtchyan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Porstner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adam Markhiev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Javier Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Justvan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Bøving",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Lubach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piet Scobel",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ron-Thorben Hoffmann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Tristan Wagner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kevin Ehlers",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Frenkert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Di Michele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Flick",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Max Marie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aaron Opoku",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Heusser",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yann Sturm",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Urbich",
           "position": "Angriff"
         }
       ]

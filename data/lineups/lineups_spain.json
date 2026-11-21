@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-21T11:15:05Z",
+  "lastUpdated": "2026-11-21T11:30:05Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -5345,6 +5345,105 @@
         },
         {
           "name": "Hugo Duro",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sevilla",
+      "awayTeam": "Real Betis",
+      "dateTime": "2026-11-21T17:30:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Odysseas Vlachodimos",
+          "position": "Torwart"
+        },
+        {
+          "name": "Juan Iglesias",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Arouna Sangante",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kike Salas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriel Suazo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucien Agoumé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youssouf Fofana",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chidera Ejuke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isaac Romero",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Felix Correia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Stassin",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Diego Conde",
+          "position": "Torwart"
+        },
+        {
+          "name": "Héctor Bellerín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Natan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Bartra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fran García",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Roca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Fornals",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Antony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Isco",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abde Ezzalzouli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Troy Parrott",
           "position": "Angriff"
         }
       ]
