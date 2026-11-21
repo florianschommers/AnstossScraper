@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-21T16:15:45Z",
+  "lastUpdated": "2026-11-21T16:30:45Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -6157,27 +6157,11 @@
           "position": "Abwehr"
         },
         {
-          "name": "Mandela Keita",
-          "position": "Mittelfeld"
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
         },
         {
           "name": "Giovanni Fabbian",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Emanuele Valeri",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Vincent Sierro",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "El Bilal Touré",
-          "position": "Angriff"
-        },
-        {
-          "name": "Mariano Troilo",
           "position": "Abwehr"
         },
         {
@@ -6185,15 +6169,35 @@
           "position": "Mittelfeld"
         },
         {
+          "name": "Vincent Sierro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
           "name": "Nesta Elphege",
-          "position": "Angriff"
+          "position": "Mittelfeld"
         },
         {
           "name": "Franco Carboni",
-          "position": "Abwehr"
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "El Bilal Touré",
+          "position": "Angriff"
         }
       ],
       "awayLineup": [
+        {
+          "name": "Mile Svilar",
+          "position": "Torwart"
+        },
         {
           "name": "Gianluca Mancini",
           "position": "Abwehr"
@@ -6207,19 +6211,19 @@
           "position": "Abwehr"
         },
         {
-          "name": "Donyell Malen",
-          "position": "Angriff"
+          "name": "Emanuele Lulli",
+          "position": "Mittelfeld"
         },
         {
           "name": "Bryan Cristante",
           "position": "Mittelfeld"
         },
         {
-          "name": "Emanuele Lulli",
+          "name": "Manu Koné",
           "position": "Mittelfeld"
         },
         {
-          "name": "Manu Koné",
+          "name": "Nahuel Molina",
           "position": "Mittelfeld"
         },
         {
@@ -6231,12 +6235,8 @@
           "position": "Mittelfeld"
         },
         {
-          "name": "Nahuel Molina",
-          "position": "Mittelfeld"
-        },
-        {
-          "name": "Mile Svilar",
-          "position": "Torwart"
+          "name": "Donyell Malen",
+          "position": "Angriff"
         }
       ]
     },
