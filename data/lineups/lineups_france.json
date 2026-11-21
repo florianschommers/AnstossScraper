@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-21T19:01:24Z",
+  "lastUpdated": "2026-11-21T19:16:25Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -4949,6 +4949,105 @@
         },
         {
           "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Auxerre",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lukas Hradecky",
+          "position": "Torwart"
+        },
+        {
+          "name": "Flávio Nazinho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Eric Dier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sadibou Sane",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vanderson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Denis Zakaria",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lamine Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matthis Abline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Takumi Minamino",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordan Teze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paris Brunner",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Paul Nardi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Telli Siwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Tuanzebe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sinaly Diomande",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fredrik Oppegård",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre Ekwah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naouirou Ahamada",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marvin Senaya",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Remy Labeau Lascary",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romain Faivre",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cameron Archer",
           "position": "Angriff"
         }
       ]
