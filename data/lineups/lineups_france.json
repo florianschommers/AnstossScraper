@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-20T22:52:57Z",
+  "lastUpdated": "2026-11-21T10:15:05Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -4553,6 +4553,105 @@
         },
         {
           "name": "Josh Maja",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nice",
+      "awayTeam": "Paris Saint-Germain",
+      "dateTime": "2026-11-21T16:15:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Yehvann Diouf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Alidu Seidu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youssouf Ndayishimiye",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Xavier Mandza",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Clauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djibril Coulibaly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Sanson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niels Nkounkou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sofiane Diop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Amoura",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Elye Wahi",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Matvey Safonov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Warren Zaïre-Emery",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Illia Zabarnyi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Willian Pacho",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Hernández",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Senny Mayulu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitinha",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabián Ruiz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Désiré Doué",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ferran Torres",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mika Godts",
           "position": "Angriff"
         }
       ]
