@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-21T10:45:06Z",
+  "lastUpdated": "2026-11-21T11:00:06Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -6137,6 +6137,105 @@
         },
         {
           "name": "Amar Abdirahman Ahmed",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Parma",
+      "awayTeam": "AS Roma",
+      "dateTime": "2026-11-21T17:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Giovanni Daffara",
+          "position": "Torwart"
+        },
+        {
+          "name": "Enrico Del Prato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Franco Carboni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sascha Britschgi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Fabbian",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Sierro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Simone Lontani",
+          "position": "Angriff"
+        },
+        {
+          "name": "El Bilal Touré",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Giorgio De Marzi",
+          "position": "Torwart"
+        },
+        {
+          "name": "Leonardo Balerdi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Evan Ndicka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Hermoso",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nahuel Molina",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Cristante",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Koné",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wesley Franca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matías Soulé",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Mora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Donyell Malen",
           "position": "Angriff"
         }
       ]
