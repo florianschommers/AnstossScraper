@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-21T13:30:07Z",
+  "lastUpdated": "2026-11-21T13:45:06Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -6236,6 +6236,105 @@
         },
         {
           "name": "Donyell Malen",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Napoli",
+      "awayTeam": "Torino",
+      "dateTime": "2026-11-21T19:45:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Vanja Milinković-Savić",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sam Beukema",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amir Rrahmani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rafa Marín",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Antonio Vergara",
+          "position": "Abwehr"
+        },
+        {
+          "name": "André-Frank Zambo Anguissa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Scott McTominay",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Matteo Politano",
+          "position": "Angriff"
+        },
+        {
+          "name": "Rasmus Højlund",
+          "position": "Angriff"
+        },
+        {
+          "name": "Noa Lang",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lucas Perri",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pietro Comuzzo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Saúl Coco",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ardian Ismajli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Rolando Mandragora",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alessio Cacciamani",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nikola Vlašić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kian Fitz-Jim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Braganca",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Simeone",
+          "position": "Angriff"
+        },
+        {
+          "name": "Che Adams",
           "position": "Angriff"
         }
       ]
