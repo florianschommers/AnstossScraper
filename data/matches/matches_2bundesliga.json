@@ -3228,19 +3228,6 @@
         "comment": null
       },
       {
-        "goalID": 146879,
-        "scoreTeam1": 3,
-        "scoreTeam2": 2,
-        "matchMinute": 49,
-        "goalGetterID": 24192,
-        "goalGetterName": "King Manu",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": false,
-        "comment": null
-      },
-      {
         "goalID": 146876,
         "scoreTeam1": 3,
         "scoreTeam2": 1,
@@ -3251,6 +3238,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 146879,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 49,
+        "goalGetterID": 24192,
+        "goalGetterName": "King Manu",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
         "comment": null
       },
       {
@@ -9925,10 +9925,84 @@
       "tla": null,
       "wikidataId": "Q162251"
     },
-    "lastUpdateDateTime": "2026-09-10T17:42:25.28",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-20T20:22:51.783",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131508,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131509,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153556,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 5,
+        "goalGetterID": 20084,
+        "goalGetterName": "B. Zivzivadze",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153558,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 22,
+        "goalGetterID": 23789,
+        "goalGetterName": "L.Kehl",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153559,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 27,
+        "goalGetterID": 20651,
+        "goalGetterName": "A. Vukotic",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153574,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 62,
+        "goalGetterID": 23789,
+        "goalGetterName": "L.Kehl",
+        "scoringTeamId": 118,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -9964,10 +10038,71 @@
       "tla": null,
       "wikidataId": "Q155730"
     },
-    "lastUpdateDateTime": "2026-09-10T17:43:04.833",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-20T20:26:39.37",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131506,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 2,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131507,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153557,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 12,
+        "goalGetterID": 28258,
+        "goalGetterName": "Felipe Chávez",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153560,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 46,
+        "goalGetterID": 19325,
+        "goalGetterName": "E. Iyoha",
+        "scoringTeamId": 78,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      },
+      {
+        "goalID": 153573,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 62,
+        "goalGetterID": 24974,
+        "goalGetterName": "Henri Koudossou",
+        "scoringTeamId": 83,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
