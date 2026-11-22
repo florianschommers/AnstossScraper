@@ -3228,19 +3228,6 @@
         "comment": null
       },
       {
-        "goalID": 146876,
-        "scoreTeam1": 3,
-        "scoreTeam2": 1,
-        "matchMinute": 49,
-        "goalGetterID": 27362,
-        "goalGetterName": "Luca Erlein",
-        "scoringTeamId": 93,
-        "isPenalty": false,
-        "isOwnGoal": false,
-        "isOvertime": true,
-        "comment": null
-      },
-      {
         "goalID": 146879,
         "scoreTeam1": 3,
         "scoreTeam2": 2,
@@ -3251,6 +3238,19 @@
         "isPenalty": false,
         "isOwnGoal": false,
         "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 146876,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 49,
+        "goalGetterID": 27362,
+        "goalGetterName": "Luca Erlein",
+        "scoringTeamId": 93,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
         "comment": null
       },
       {
@@ -10138,10 +10138,71 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-09-10T17:44:26.583",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T14:56:36.067",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131540,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131541,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153630,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 50,
+        "goalGetterID": 28261,
+        "goalGetterName": "Timon Weiner",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153634,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 67,
+        "goalGetterID": 22970,
+        "goalGetterName": "Fraser Hornby",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153636,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 76,
+        "goalGetterID": 18525,
+        "goalGetterName": "F. Reese",
+        "scoringTeamId": 131,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -10177,10 +10238,71 @@
       "tla": null,
       "wikidataId": "Q153539"
     },
-    "lastUpdateDateTime": "2026-09-10T17:44:33.233",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T14:56:31.15",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131542,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131543,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153627,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 34,
+        "goalGetterID": 21342,
+        "goalGetterName": "O. Pohlmann",
+        "scoringTeamId": 115,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153631,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 57,
+        "goalGetterID": 25013,
+        "goalGetterName": "S. Teitur Thórdarson",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153638,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 91,
+        "goalGetterID": 25012,
+        "goalGetterName": "W. Taibi",
+        "scoringTeamId": 55,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -10216,10 +10338,71 @@
       "tla": null,
       "wikidataId": "Q154053"
     },
-    "lastUpdateDateTime": "2026-09-10T17:44:40.803",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T14:56:33.913",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131544,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131545,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153625,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 10,
+        "goalGetterID": 18451,
+        "goalGetterName": "J. Justvan",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153633,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 61,
+        "goalGetterID": 28262,
+        "goalGetterName": "Javier Fernández",
+        "scoringTeamId": 74,
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153637,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 83,
+        "goalGetterID": 23751,
+        "goalGetterName": "Y. Sturm",
+        "scoringTeamId": 74,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -10255,10 +10438,58 @@
       "tla": null,
       "wikidataId": "Q105861"
     },
-    "lastUpdateDateTime": "2026-09-10T17:44:54.833",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T22:25:37.713",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131579,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131580,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153689,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 3,
+        "goalGetterID": 16782,
+        "goalGetterName": "Niang",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153690,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 47,
+        "goalGetterID": 28271,
+        "goalGetterName": "T. Ando",
+        "scoringTeamId": 98,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
