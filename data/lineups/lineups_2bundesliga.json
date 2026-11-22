@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-21T22:52:42Z",
+  "lastUpdated": "2026-11-22T11:45:01Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -5048,6 +5048,303 @@
         },
         {
           "name": "Philipp Hofmann",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Dynamo Dresden",
+      "dateTime": "2026-11-22T12:30:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Julian Krahl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jacob Rasmussen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxwell Gyamfi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jan Elvedi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mika Haas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Sauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Semih Sahin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Joly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ibrahim Kanate",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Naatan Skyttä",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thierry Tazemeta",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Lennart Grill",
+          "position": "Torwart"
+        },
+        {
+          "name": "Simon Straudi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Friedrich Muller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nicolai Rapp",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonas Sterner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tobias Raschl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robert Wagner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ben Bobzien",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niklas Hauptmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrice Covic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Vermeij",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "VfL Osnabrück",
+      "dateTime": "2026-11-22T12:30:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Hans Christian Bernat",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sandro Trémoulet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcel Franke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Scholl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Deniz Emre Ofli",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tim Civeja",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santeri Vaananen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Wiethaup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Pinto Pedrosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marvin Wanitzek",
+          "position": "Angriff"
+        },
+        {
+          "name": "Shio Fukuda",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Krumrey",
+          "position": "Torwart"
+        },
+        {
+          "name": "Niklas Wiemann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Müller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fabinski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ismail Badjie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bjarke Jacobsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fridolin Wagner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Kammerbauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel-Kofi Kyereh",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Robin Meissner",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "Hertha BSC",
+      "dateTime": "2026-11-22T12:30:00Z",
+      "matchday": 12,
+      "phase": "12. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Marcel Lotka",
+          "position": "Torwart"
+        },
+        {
+          "name": "Henry Rorig",
+          "position": "Abwehr"
+        },
+        {
+          "name": "King Samuel Manu",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luca Erlein",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fousseny Max Doumbia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leonardo Bittencourt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Michelbrink",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Kinsombi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Copado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Guwara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justin Butler",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marius Gersbeck",
+          "position": "Torwart"
+        },
+        {
+          "name": "Deyovaisio Zeefuik",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Linus Jasper Gechter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Niklas Kolbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mads Pedersen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paul Seguin",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Sessa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oluwaseun Adewumi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jón Dagur Þorsteinsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Josip Brekalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sebastian Gronning",
           "position": "Angriff"
         }
       ]
