@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-22T15:15:30Z",
+  "lastUpdated": "2026-11-22T15:30:29Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -5246,6 +5246,105 @@
         },
         {
           "name": "Phillip Tietz",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "Hamburger SV",
+      "dateTime": "2026-11-22T16:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Karl Hein",
+          "position": "Torwart"
+        },
+        {
+          "name": "Arthur",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amos Pieper",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Friedl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Olivier Deman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ludovit Reis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Youri Regeer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenny Quetant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Justin Njinmah",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niclas Füllkrug",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Daniel Fernandes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Sebastiaan Bornauw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Louis Lemke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Warmed Omari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zakaria El Ouahdi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Miro Muheim",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kofi Amoako",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Adeline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Grønbæk",
+          "position": "Angriff"
+        },
+        {
+          "name": "Patson Daka",
           "position": "Angriff"
         }
       ]
