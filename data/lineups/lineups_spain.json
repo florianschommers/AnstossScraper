@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-22T11:15:04Z",
+  "lastUpdated": "2026-11-22T11:30:03Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -5741,6 +5741,105 @@
         },
         {
           "name": "Orri Óskarsson",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Osasuna",
+      "awayTeam": "Malaga",
+      "dateTime": "2026-11-22T17:30:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Sergio Herrera",
+          "position": "Torwart"
+        },
+        {
+          "name": "Valentin Rosier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Flavien Boyomo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alejandro Catena",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Rico",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Moncayola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Torró",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moi Gómez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rubén García",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ante Budimir",
+          "position": "Angriff"
+        },
+        {
+          "name": "Raul Moro",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alfonso Herrero",
+          "position": "Torwart"
+        },
+        {
+          "name": "Angel Recio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Einar Galilea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alex Pastor",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jose Salinas",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ramon Enriquez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Dotor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dani Lorenzo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joaquin Munoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrián Niño",
+          "position": "Angriff"
+        },
+        {
+          "name": "Chupete",
           "position": "Angriff"
         }
       ]
