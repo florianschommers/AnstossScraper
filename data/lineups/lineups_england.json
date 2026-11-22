@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-22T10:15:02Z",
+  "lastUpdated": "2026-11-22T10:30:02Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -5741,6 +5741,105 @@
         },
         {
           "name": "Charalampos Kostoulas",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Liverpool",
+      "awayTeam": "Manchester United FC",
+      "dateTime": "2026-11-22T16:30:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Alisson",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ronald Araújo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeremy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Virgil van Dijk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cody Gakpo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Senne Lammens",
+          "position": "Torwart"
+        },
+        {
+          "name": "Noussair Mazraoui",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leny Yoro",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matthijs de Ligt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diogo Dalot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youri Tielemans",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kobbie Mainoo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Amad Diallo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bruno Fernandes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bryan Mbeumo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joshua Zirkzee",
           "position": "Angriff"
         }
       ]
