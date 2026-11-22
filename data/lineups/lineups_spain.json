@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-22T13:45:32Z",
+  "lastUpdated": "2026-11-22T14:00:32Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -5840,6 +5840,105 @@
         },
         {
           "name": "Chupete",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Getafe",
+      "awayTeam": "Atletico Madrid",
+      "dateTime": "2026-11-22T20:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "David Soria",
+          "position": "Torwart"
+        },
+        {
+          "name": "Dani Carvajal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastián Boselli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdel Abqar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Johan Mojica",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Orel Mangala",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Djené",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andres Garcia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ramon Terrats",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mario Martín",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Satriano",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Le Normand",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jorge Domínguez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dávid Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giuliano Simeone",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Barrios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Álex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julián Álvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lee Kang-in",
           "position": "Angriff"
         }
       ]
