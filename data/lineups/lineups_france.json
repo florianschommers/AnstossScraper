@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-21T22:52:46Z",
+  "lastUpdated": "2026-11-22T10:15:05Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -5048,6 +5048,105 @@
         },
         {
           "name": "Cameron Archer",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Lorient",
+      "awayTeam": "Rennes",
+      "dateTime": "2026-11-22T16:15:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Yvon Mvogo",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nathaniel Adjei",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Montassar Talbi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nosa Edward Obaretin",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dembo Sylla",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Cadiou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arthur Avom Ebong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Arsene Kouassi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean-Victor Makengo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabin Bernardeau",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tosin Aiyegun",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Brice Samba",
+          "position": "Torwart"
+        },
+        {
+          "name": "Abdelhamid Ait Boudlal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Charlie Cresswell",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gonçalo Calisto de Oliveira",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrien Thomasson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Rongier",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahdi Camara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mahamadou Nagida",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boulaye Dia",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eliezer Mayenda",
           "position": "Angriff"
         }
       ]
