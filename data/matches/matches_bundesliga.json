@@ -8668,7 +8668,7 @@
       "tla": null,
       "wikidataId": "Q104770"
     },
-    "lastUpdateDateTime": "2026-11-20T22:23:56.397",
+    "lastUpdateDateTime": "2026-11-21T18:21:38.077",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -8725,7 +8725,7 @@
       "locationCity": "München",
       "locationStadium": "Allianz Arena"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 75024
   },
   {
     "matchID": 83238,
@@ -8759,16 +8759,90 @@
       "tla": null,
       "wikidataId": "Q160532"
     },
-    "lastUpdateDateTime": "2026-11-20T11:50:53.58",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T17:22:45.207",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131562,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131563,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 4,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153657,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 14,
+        "goalGetterID": 28268,
+        "goalGetterName": "A. Moreira",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153675,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 47,
+        "goalGetterID": 28268,
+        "goalGetterName": "A. Moreira",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153676,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 51,
+        "goalGetterID": 18331,
+        "goalGetterName": "P. Schick",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153678,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 59,
+        "goalGetterID": 19677,
+        "goalGetterName": "E. Fernández",
+        "scoringTeamId": 6,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 28,
       "locationCity": "Leverkusen",
       "locationStadium": "BayArena"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 29873
   },
   {
     "matchID": 83239,
@@ -8802,16 +8876,51 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-20T11:51:14.787",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T17:24:50.76",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131560,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131561,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153661,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 25,
+        "goalGetterID": 19126,
+        "goalGetterName": "J. Burkardt",
+        "scoringTeamId": 91,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1346,
       "locationCity": "Frankfurt",
       "locationStadium": "Deutsche Bank Park"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 59100
   },
   {
     "matchID": 83241,
@@ -8845,16 +8954,116 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-20T11:51:50.597",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T17:25:48.093",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131564,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131565,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 5,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153660,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 18,
+        "goalGetterID": 22891,
+        "goalGetterName": "A. Nusa",
+        "scoringTeamId": 1635,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153662,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 41,
+        "goalGetterID": 22667,
+        "goalGetterName": "M. Aebischer",
+        "scoringTeamId": 80,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153677,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 50,
+        "goalGetterID": 7906,
+        "goalGetterName": "Romulo",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153680,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 72,
+        "goalGetterID": 20646,
+        "goalGetterName": "B. Gruda",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153681,
+        "scoreTeam1": 1,
+        "scoreTeam2": 4,
+        "matchMinute": 76,
+        "goalGetterID": 20828,
+        "goalGetterName": "R. Reitz",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153683,
+        "scoreTeam1": 1,
+        "scoreTeam2": 5,
+        "matchMinute": 89,
+        "goalGetterID": 18516,
+        "goalGetterName": "R. Baku",
+        "scoringTeamId": 1635,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 82,
       "locationCity": "Berlin",
       "locationStadium": "Alte Försterei"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 22012
   },
   {
     "matchID": 83242,
@@ -8888,16 +9097,51 @@
       "tla": null,
       "wikidataId": "Q41420"
     },
-    "lastUpdateDateTime": "2026-11-20T11:52:27.313",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T17:22:13.223",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131566,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131567,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153682,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 80,
+        "goalGetterID": 19605,
+        "goalGetterName": "F. Nmecha",
+        "scoringTeamId": 7,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 32,
       "locationCity": "Mönchengladbach",
       "locationStadium": "Borussia Park"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 54546
   },
   {
     "matchID": 83245,
@@ -8931,16 +9175,51 @@
       "tla": null,
       "wikidataId": "Q106394"
     },
-    "lastUpdateDateTime": "2026-11-20T11:52:52.843",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-21T17:21:32.747",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131568,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131569,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153679,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 68,
+        "goalGetterID": 18472,
+        "goalGetterName": "I. Matanovic",
+        "scoringTeamId": 112,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1002,
       "locationCity": "Elversberg",
       "locationStadium": "Ursapharm-Arena an der Kaiserlinde"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 9307
   },
   {
     "matchID": 83244,
@@ -8974,16 +9253,37 @@
       "tla": null,
       "wikidataId": "Q4512"
     },
-    "lastUpdateDateTime": "2026-11-20T11:53:22.503",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-11-21T20:22:10.937",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131576,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131577,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": {
       "locationID": 33,
       "locationCity": "Gelsenkirchen",
       "locationStadium": "Veltins Arena"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 62094
   },
   {
     "matchID": 83240,
