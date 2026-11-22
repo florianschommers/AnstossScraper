@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-21T22:52:42Z",
+  "lastUpdated": "2026-11-22T10:00:00Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -5147,6 +5147,105 @@
         },
         {
           "name": "Ermedin Demirović",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "1. FSV Mainz 05",
+      "dateTime": "2026-11-22T14:30:00Z",
+      "matchday": 10,
+      "phase": "10. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Finn Dahmen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Yannik Keitel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeffrey Gouweleeuw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marius Wolf",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fellhauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexis Claude-Maurice",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fabian Rieder",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hennes Behrens",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Anton Kade",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michael Gregoritsch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rodrigo Ribeiro",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Robin Zentner",
+          "position": "Torwart"
+        },
+        {
+          "name": "Danny da Costa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Gruber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kacper Potulski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Caci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lee Jae-sung",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nadiem Amiri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Silvan Widmer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ransford Konigsdorffer",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sheraldo Becker",
           "position": "Angriff"
         }
       ]

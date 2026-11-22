@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-21T22:52:44Z",
+  "lastUpdated": "2026-11-22T10:00:02Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -5642,6 +5642,105 @@
         },
         {
           "name": "Kai Havertz",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Hull City",
+      "awayTeam": "Brighton & Hove Albion",
+      "dateTime": "2026-11-22T14:00:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Konstantinos Tzolakis",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lewie Coyle",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Paddy McNair",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John Egan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nobel Mendy",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Elliot Stroud",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Iroegbunam",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lucas Gourna-Douath",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Regan Slater",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mohamed Belloumi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Oli McBurnie",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Bart Verbruggen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Costinha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luka Vuskovic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lewis Dunk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Olivier Boscagli",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pascal Groß",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chema Andres",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Diego Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yasin Ayari",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maxime De Cuyper",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Charalampos Kostoulas",
           "position": "Angriff"
         }
       ]
