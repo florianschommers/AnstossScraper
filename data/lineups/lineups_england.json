@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-22T22:53:00Z",
+  "lastUpdated": "2026-11-23T14:00:26Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -5840,6 +5840,105 @@
         },
         {
           "name": "Matheus Cunha",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brentford F.C.",
+      "awayTeam": "Everton FC",
+      "dateTime": "2026-11-23T20:00:00Z",
+      "matchday": 11,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Caoimhin Kelleher",
+          "position": "Torwart"
+        },
+        {
+          "name": "Michael Kayode",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kristoffer Ajer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sepp van den Berg",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Keane Lewis-Potter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mamadou Sangare",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vitaly Janelt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jaidon Anthony",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mathias Jensen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Schade",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Callum Wilson",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jordan Pickford",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jake O'Brien",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Tarkowski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jarrad Branthwaite",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitaliy Mykolenko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "James Garner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Harrison Armstrong",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Merlin Rohl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kiernan Dewsbury-Hall",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tyrique George",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thierno Barry",
           "position": "Angriff"
         }
       ]
