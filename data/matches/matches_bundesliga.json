@@ -9317,16 +9317,90 @@
       "tla": null,
       "wikidataId": "Q105254"
     },
-    "lastUpdateDateTime": "2026-11-20T11:53:53.98",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-22T17:25:18.087",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131593,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131594,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153709,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 19,
+        "goalGetterID": 18815,
+        "goalGetterName": "M. Gregoritsch",
+        "scoringTeamId": 95,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153711,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 35,
+        "goalGetterID": 28272,
+        "goalGetterName": "J. Bah",
+        "scoringTeamId": 95,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153713,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 48,
+        "goalGetterID": 18815,
+        "goalGetterName": "M. Gregoritsch",
+        "scoringTeamId": 95,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153714,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 51,
+        "goalGetterID": 19187,
+        "goalGetterName": "R. Königsdörffer",
+        "scoringTeamId": 81,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 1029,
       "locationCity": "Augsburg",
       "locationStadium": "WWK Arena"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 29680
   },
   {
     "matchID": 83243,
@@ -9360,16 +9434,90 @@
       "tla": null,
       "wikidataId": "Q51974"
     },
-    "lastUpdateDateTime": "2026-11-20T11:54:16.897",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-22T19:30:39.223",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131620,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131621,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 4,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153785,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 55,
+        "goalGetterID": 19203,
+        "goalGetterName": "M. Friedl",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153788,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 66,
+        "goalGetterID": 22922,
+        "goalGetterName": "J. Njinmah",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153790,
+        "scoreTeam1": 3,
+        "scoreTeam2": 0,
+        "matchMinute": 70,
+        "goalGetterID": 22922,
+        "goalGetterName": "J. Njinmah",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153794,
+        "scoreTeam1": 4,
+        "scoreTeam2": 0,
+        "matchMinute": 92,
+        "goalGetterID": 18661,
+        "goalGetterName": "N. Füllkrug",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 36,
       "locationCity": "Bremen",
       "locationStadium": "Weserstadion"
     },
-    "numberOfViewers": null
+    "numberOfViewers": 42100
   },
   {
     "matchID": 83253,
