@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-22T12:07:36Z",
+  "lastUpdated": "2026-11-23T02:55:08Z",
   "matches": [
     {
       "matchday": 1,
@@ -1148,18 +1148,18 @@
       "homeTeam": "Juventus",
       "awayTeam": "Venezia",
       "dateTime": "2026-11-22T11:30:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": true,
-      "liveScore": "0:0"
+      "score": "4:0",
+      "isFinished": true,
+      "isLive": false,
+      "liveScore": null
     },
     {
       "matchday": 12,
       "homeTeam": "Bologna",
       "awayTeam": "Udinese",
       "dateTime": "2026-11-22T14:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1168,8 +1168,8 @@
       "homeTeam": "Sassuolo",
       "awayTeam": "Genoa",
       "dateTime": "2026-11-22T14:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1178,8 +1178,8 @@
       "homeTeam": "AC Milan",
       "awayTeam": "Frosinone",
       "dateTime": "2026-11-22T17:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "5:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1188,8 +1188,8 @@
       "homeTeam": "Atalanta",
       "awayTeam": "Inter",
       "dateTime": "2026-11-22T19:45:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "4:4",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
