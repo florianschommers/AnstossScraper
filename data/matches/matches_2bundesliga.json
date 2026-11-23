@@ -10438,7 +10438,7 @@
       "tla": null,
       "wikidataId": "Q105861"
     },
-    "lastUpdateDateTime": "2026-11-21T22:25:37.713",
+    "lastUpdateDateTime": "2026-11-22T14:23:57.617",
     "matchIsFinished": true,
     "matchResults": [
       {
@@ -10525,10 +10525,84 @@
       "tla": null,
       "wikidataId": "Q141931"
     },
-    "lastUpdateDateTime": "2026-07-03T15:43:40.007",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-22T15:27:41.037",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131582,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 2,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131583,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 2,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153693,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 6,
+        "goalGetterID": 27361,
+        "goalGetterName": "Mário Sauer",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153694,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 14,
+        "goalGetterID": 21266,
+        "goalGetterName": "Ben Bobzien",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153695,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 16,
+        "goalGetterID": 27605,
+        "goalGetterName": "Patrice Covic",
+        "scoringTeamId": 177,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153702,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 84,
+        "goalGetterID": 23991,
+        "goalGetterName": "Paul Joly",
+        "scoringTeamId": 76,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -10564,9 +10638,30 @@
       "tla": null,
       "wikidataId": "Q160530"
     },
-    "lastUpdateDateTime": "2026-07-03T15:43:57.433",
-    "matchIsFinished": false,
-    "matchResults": [],
+    "lastUpdateDateTime": "2026-11-22T15:23:26.597",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131584,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131585,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
     "goals": [],
     "location": null,
     "numberOfViewers": null
@@ -10603,10 +10698,84 @@
       "tla": null,
       "wikidataId": "Q102720"
     },
-    "lastUpdateDateTime": "2026-07-03T15:44:11.317",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-22T15:27:42.653",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131588,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131589,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 4,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 153692,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 6,
+        "goalGetterID": 23532,
+        "goalGetterName": "Sebastian Grönning",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153698,
+        "scoreTeam1": 0,
+        "scoreTeam2": 2,
+        "matchMinute": 48,
+        "goalGetterID": 18367,
+        "goalGetterName": "P. Seguin",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153704,
+        "scoreTeam1": 0,
+        "scoreTeam2": 3,
+        "matchMinute": 89,
+        "goalGetterID": 18678,
+        "goalGetterName": "D. Zeefuik",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 153706,
+        "scoreTeam1": 0,
+        "scoreTeam2": 4,
+        "matchMinute": 90,
+        "goalGetterID": 19421,
+        "goalGetterName": "G. Nilsson",
+        "scoringTeamId": 54,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
