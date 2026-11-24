@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-23T02:55:08Z",
+  "lastUpdated": "2026-11-24T06:10:41Z",
   "matches": [
     {
       "matchday": 1,
@@ -1288,8 +1288,8 @@
       "homeTeam": "Levante",
       "awayTeam": "Elche",
       "dateTime": "2026-11-23T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null
     },
@@ -1525,39 +1525,9 @@
     },
     {
       "matchday": 16,
-      "homeTeam": "Atletico Madrid",
-      "awayTeam": "Valencia",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Deportivo A Coruna",
-      "awayTeam": "Athletic Club",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
       "homeTeam": "Elche",
       "awayTeam": "Sevilla",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Espanyol",
-      "awayTeam": "Celta Vigo",
-      "dateTime": "2026-12-13T00:00:00Z",
+      "dateTime": "2026-12-11T20:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1567,47 +1537,7 @@
       "matchday": 16,
       "homeTeam": "Levante",
       "awayTeam": "Deportivo Alaves",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Malaga",
-      "awayTeam": "Barcelona",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Real Betis",
-      "awayTeam": "Racing Santander",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Real Madrid",
-      "awayTeam": "Osasuna",
-      "dateTime": "2026-12-13T00:00:00Z",
-      "score": null,
-      "isFinished": false,
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "matchday": 16,
-      "homeTeam": "Real Sociedad",
-      "awayTeam": "Getafe",
-      "dateTime": "2026-12-13T00:00:00Z",
+      "dateTime": "2026-12-12T13:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
@@ -1617,7 +1547,77 @@
       "matchday": 16,
       "homeTeam": "Villarreal",
       "awayTeam": "Rayo Vallecano",
-      "dateTime": "2026-12-13T00:00:00Z",
+      "dateTime": "2026-12-12T15:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Malaga",
+      "awayTeam": "Barcelona",
+      "dateTime": "2026-12-12T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Real Betis",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-12-12T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Atletico Madrid",
+      "awayTeam": "Valencia",
+      "dateTime": "2026-12-13T13:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Deportivo A Coruna",
+      "awayTeam": "Athletic Club",
+      "dateTime": "2026-12-13T15:15:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Getafe",
+      "dateTime": "2026-12-13T17:30:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Osasuna",
+      "dateTime": "2026-12-13T20:00:00Z",
+      "score": null,
+      "isFinished": false,
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "matchday": 16,
+      "homeTeam": "Espanyol",
+      "awayTeam": "Celta Vigo",
+      "dateTime": "2026-12-14T20:00:00Z",
       "score": null,
       "isFinished": false,
       "isLive": false,
