@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-04T22:52:55Z",
+  "lastUpdated": "2026-11-24T16:45:26Z",
   "lineups": [
     {
       "homeTeam": "RC Lens",
@@ -4752,6 +4752,105 @@
         {
           "name": "Declan Rice",
           "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Galatasaray Istanbul",
+      "awayTeam": "Aston Villa",
+      "dateTime": "2026-11-24T17:45:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Uğurcan Çakır",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ismail Jakobs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Davinson Sánchez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yunus Akgün",
+          "position": "Angriff"
+        },
+        {
+          "name": "Eren Elmalı",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Torreira",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdülkerim Bardakcı",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Barış Alper Yılmaz",
+          "position": "Angriff"
+        },
+        {
+          "name": "Aleksei Batrakov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wilfried Singo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Lemina",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Zion Suzuki",
+          "position": "Torwart"
+        },
+        {
+          "name": "Victor Lindelöf",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Taylor Harwood-Bellis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tyrone Mings",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John McGinn",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Boubacar Kamara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Jackson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Ian Maatsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Manzambi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alysson",
+          "position": "Angriff"
         }
       ]
     }
