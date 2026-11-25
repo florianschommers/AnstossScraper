@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-25T18:45:29Z",
+  "lastUpdated": "2026-11-25T18:45:55Z",
   "lineups": [
     {
       "homeTeam": "RC Lens",
@@ -5840,6 +5840,402 @@
         },
         {
           "name": "Aleksandar Pavlović",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Inter Mailand",
+      "awayTeam": "VfB Stuttgart",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Josep Martínez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Petar Sučić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcus Thuram",
+          "position": "Angriff"
+        },
+        {
+          "name": "Henrikh Mkhitaryan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolò Barella",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manuel Akanji",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Carlos Augusto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yann Bisseck",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pio Esposito",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alessandro Bastoni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Djed Spence",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Dennis Seimen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ramon Hendriks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josha Vagnoman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Mittelstädt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ermedin Demirović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Chris Führich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bilal El Khannouss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jeff Chabot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikolas Nartey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Finn Jeltsch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yanik Spalt",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Atletico Madrid",
+      "awayTeam": "Viking",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Jan Oblak",
+          "position": "Torwart"
+        },
+        {
+          "name": "Johnny Cardoso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koke",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kang-in Lee",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Sørloth",
+          "position": "Angriff"
+        },
+        {
+          "name": "Álex Baena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcos Llorente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dávid Hancko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julián Alvarez",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alejandro Grimaldo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Le Normand",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ľubomír Belko",
+          "position": "Torwart"
+        },
+        {
+          "name": "Herman Haugen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Henrik Heggheim",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gianni Stensness",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kristoffer Askildsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zlatko Tripić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Henrik Bjørdal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Erik Botheim",
+          "position": "Angriff"
+        },
+        {
+          "name": "Henrik Falchener",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Simen Kvia-Egeskog",
+          "position": "Angriff"
+        },
+        {
+          "name": "Tobias Moi",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "FC Brügge",
+      "awayTeam": "FC Liverpool",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Yann Sommer",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nicolò Tresoldi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Freddie Potts",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Carlos Forbs",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hugo Vetlesen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hans Vanaken",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brandon Mechele",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jorne Spileers",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kyriani Sabbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joaquin Seys",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Félix Lemaréchal",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alisson Becker",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jérémy Jacquet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milos Kerkez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Florian Wirtz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dominik Szoboszlai",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Isak",
+          "position": "Angriff"
+        },
+        {
+          "name": "Víctor Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bradley Barcola",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jeremie Frimpong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ronald Araújo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Trey Nyoni",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Shakhtar Donetsk",
+      "awayTeam": "Fenerbahçe SK",
+      "dateTime": "2026-11-25T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Dmytro Riznyk",
+          "position": "Torwart"
+        },
+        {
+          "name": "Lassina Traoré",
+          "position": "Angriff"
+        },
+        {
+          "name": "Valeriy Bondar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marlon Gomes",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Newertton",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pedro Henrique",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vinícius Tobías",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mykola Matviyenko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oleh Ocheretko",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yehor Nazaryna",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alisson Santana",
+          "position": "Mittelfeld"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Ederson",
+          "position": "Torwart"
+        },
+        {
+          "name": "Archie Brown",
+          "position": "Abwehr"
+        },
+        {
+          "name": "İsmail Yüksek",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kerem Aktürkoğlu",
+          "position": "Angriff"
+        },
+        {
+          "name": "Mason Greenwood",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vedat Muriqi",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kojo Peprah Oppong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nélson Semedo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Milan Škriniar",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oğuz Aydın",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "N'Golo Kanté",
           "position": "Mittelfeld"
         }
       ]
