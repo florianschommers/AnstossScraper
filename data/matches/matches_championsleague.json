@@ -1,7 +1,7 @@
 {
   "league": "championsleague",
   "season": "2027",
-  "lastUpdated": "2026-11-24T06:10:43Z",
+  "lastUpdated": "2026-11-25T04:57:07Z",
   "matches": [
     {
       "matchday": 1,
@@ -71,7 +71,7 @@
     },
     {
       "matchday": 1,
-      "homeTeam": "Excelsior Rotterdam",
+      "homeTeam": "FC Barcelona",
       "awayTeam": "Feyenoord Rotterdam",
       "dateTime": "2026-09-09T16:45:00Z",
       "score": "5:1",
@@ -237,7 +237,7 @@
     {
       "matchday": 2,
       "homeTeam": "Galatasaray Istanbul",
-      "awayTeam": "Excelsior Rotterdam",
+      "awayTeam": "FC Barcelona",
       "dateTime": "2026-10-13T19:00:00Z",
       "score": "1:4",
       "isFinished": true,
@@ -490,7 +490,7 @@
     {
       "matchday": 3,
       "homeTeam": "Paris St. Germain",
-      "awayTeam": "Excelsior Rotterdam",
+      "awayTeam": "FC Barcelona",
       "dateTime": "2026-10-20T19:00:00Z",
       "score": "4:2",
       "isFinished": true,
@@ -632,7 +632,7 @@
     },
     {
       "matchday": 4,
-      "homeTeam": "Excelsior Rotterdam",
+      "homeTeam": "FC Barcelona",
       "awayTeam": "Aston Villa",
       "dateTime": "2026-11-03T20:00:00Z",
       "score": "3:0",
@@ -800,8 +800,8 @@
       "homeTeam": "Galatasaray Istanbul",
       "awayTeam": "Aston Villa",
       "dateTime": "2026-11-24T17:45:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -811,8 +811,8 @@
       "homeTeam": "FK Bodö/Glimt",
       "awayTeam": "LASK",
       "dateTime": "2026-11-24T17:45:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -822,8 +822,8 @@
       "homeTeam": "Real Madrid",
       "awayTeam": "PSV Eindhoven",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "5:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -833,8 +833,8 @@
       "homeTeam": "Manchester City",
       "awayTeam": "SSC Napoli ",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "2:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -844,8 +844,8 @@
       "homeTeam": "FC Arsenal",
       "awayTeam": "Borussia Dortmund",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -855,8 +855,8 @@
       "homeTeam": "Feyenoord Rotterdam",
       "awayTeam": "FC Porto",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -866,8 +866,8 @@
       "homeTeam": "Slovan Bratislava",
       "awayTeam": "Real Betis",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "0:2",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -877,8 +877,8 @@
       "homeTeam": "RB Leipzig",
       "awayTeam": "RC Lens",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "3:1",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -888,8 +888,8 @@
       "homeTeam": "Como 1907",
       "awayTeam": "AEK Athen",
       "dateTime": "2026-11-24T20:00:00Z",
-      "score": null,
-      "isFinished": false,
+      "score": "1:0",
+      "isFinished": true,
       "isLive": false,
       "liveScore": null,
       "phase": "gruppenphase"
@@ -897,7 +897,7 @@
     {
       "matchday": 5,
       "homeTeam": "Sabah",
-      "awayTeam": "Excelsior Rotterdam",
+      "awayTeam": "FC Barcelona",
       "dateTime": "2026-11-25T17:45:00Z",
       "score": null,
       "isFinished": false,
@@ -1017,7 +1017,7 @@
     },
     {
       "matchday": 6,
-      "homeTeam": "Excelsior Rotterdam",
+      "homeTeam": "FC Barcelona",
       "awayTeam": "Manchester City",
       "dateTime": "2026-12-08T20:00:00Z",
       "score": null,
@@ -1326,7 +1326,7 @@
     {
       "matchday": 7,
       "homeTeam": "Sporting CP",
-      "awayTeam": "Excelsior Rotterdam",
+      "awayTeam": "FC Barcelona",
       "dateTime": "2027-01-20T20:00:00Z",
       "score": null,
       "isFinished": false,
@@ -1424,7 +1424,7 @@
     },
     {
       "matchday": 8,
-      "homeTeam": "Excelsior Rotterdam",
+      "homeTeam": "FC Barcelona",
       "awayTeam": "Como 1907",
       "dateTime": "2027-01-27T20:00:00Z",
       "score": null,
