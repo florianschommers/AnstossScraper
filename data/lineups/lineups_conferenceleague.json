@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2027",
-  "lastUpdated": "2026-11-05T22:52:57Z",
+  "lastUpdated": "2026-11-26T14:30:47Z",
   "lineups": [
     {
       "homeTeam": "Egnatia",
@@ -5346,6 +5346,105 @@
         {
           "name": "Lamine Sadio",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Kairat Almaty",
+      "awayTeam": "Mjällby",
+      "dateTime": "2026-11-26T15:30:00Z",
+      "matchday": 4,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Temirlan Anarbekov",
+          "position": "Torwart"
+        },
+        {
+          "name": "Luís Mata",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Damir Kassabulat",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Edmilson",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jaakko Oksanen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandr Martynovich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oiva Jukkola",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yerkin Tapalov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gustavo Mendonça",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexandr Shirobokov",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marc Gual",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Alexander Lundin",
+          "position": "Torwart"
+        },
+        {
+          "name": "Martin Agnarsson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Axel Norén",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Abdullah Iqbal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Viktor Gustafson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ali Youssef",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jeppe Kjær",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Villiam Granath",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jesper Gustavsson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Pettersson",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Romeo Leandersson",
+          "position": "Mittelfeld"
         }
       ]
     }
