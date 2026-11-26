@@ -1,7 +1,7 @@
 {
   "league": "europaleague",
   "season": "2027",
-  "lastUpdated": "2026-11-26T18:46:25Z",
+  "lastUpdated": "2026-11-26T19:01:22Z",
   "lineups": [
     {
       "homeTeam": "Lech Poznan",
@@ -4950,6 +4950,402 @@
         {
           "name": "Nik Prelec",
           "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "SK Puntigamer Sturm Graz",
+      "dateTime": "2026-11-26T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Oliver Baumann",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ozan Kabak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leon Avdullahu",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Hložek",
+          "position": "Angriff"
+        },
+        {
+          "name": "Fisnik Asllani",
+          "position": "Angriff"
+        },
+        {
+          "name": "Adam Daghim",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wouter Burger",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alexander Prass",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koki Machida",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vladimír Coufal",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Rots",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Adam Stejskal",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joshua Quarshie",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jon Gorenc Stanković",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Vallci",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oumar Diakité",
+          "position": "Angriff"
+        },
+        {
+          "name": "Seedy Jatta",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arjan Malić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luís Balbo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Luca Weinhandl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jacob Hödl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valmir Matoshi",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Sparta Prag",
+      "awayTeam": "AZ Alkmaar",
+      "dateTime": "2026-11-26T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Jakub Surovčík",
+          "position": "Torwart"
+        },
+        {
+          "name": "Josimar Alcócer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jonatan Braut Brunes",
+          "position": "Angriff"
+        },
+        {
+          "name": "Viktor Vitályos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "John Mercado",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Andrew Irving",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sivert Mannsverk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Loïc Mbe Soh",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ki-Jana Hoever",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrik Vydra",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jaroslav Zelený",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jari De Busser",
+          "position": "Torwart"
+        },
+        {
+          "name": "Wouter Goes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Peer Koopmeiners",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jordy Clasie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Calvin Stengs",
+          "position": "Angriff"
+        },
+        {
+          "name": "Valdemar Byskov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bendegúz Kovács",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wassim Bouziane",
+          "position": "Angriff"
+        },
+        {
+          "name": "Wesley Hoedt",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Denso Kasius",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mees de Wit",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "OFI Kreta",
+      "awayTeam": "RSC Anderlecht",
+      "dateTime": "2026-11-26T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Klidman Lilo",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nikolaos Athanasiou",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Konstantinos Kostoulas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aitor Cantalapiedra",
+          "position": "Angriff"
+        },
+        {
+          "name": "Taxiarchis Fountas",
+          "position": "Angriff"
+        },
+        {
+          "name": "Thanasis Androutsos",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christos Shelis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Thiago Nuss",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lorenzo Dickmann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Andreas Bouchalakis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dimitris Nikolaou",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Colin Coosemans",
+          "position": "Torwart"
+        },
+        {
+          "name": "Giulian Biancone",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oleg Reabciuk",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mihajlo Cvetković",
+          "position": "Angriff"
+        },
+        {
+          "name": "Marten Winkler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukáš Ambros",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thelo Aasgaard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tawfik Bentayeb",
+          "position": "Angriff"
+        },
+        {
+          "name": "Leo Petrot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Stroeykens",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ali Maamar",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SC União Torreense",
+      "awayTeam": "Celtic Glasgow",
+      "dateTime": "2026-11-26T20:00:00Z",
+      "matchday": 5,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Adriel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Stopira",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Volnei Feltes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mohamed Ali Diadié",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dany Jean",
+          "position": "Angriff"
+        },
+        {
+          "name": "Álex Alfaro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Manu Pozo",
+          "position": "Angriff"
+        },
+        {
+          "name": "Musa Drammeh",
+          "position": "Angriff"
+        },
+        {
+          "name": "Javi Vázquez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Marques",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jonathan Mutombo",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Sam Johnstone",
+          "position": "Torwart"
+        },
+        {
+          "name": "Liam Scales",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jota",
+          "position": "Angriff"
+        },
+        {
+          "name": "Kasper Høgh",
+          "position": "Angriff"
+        },
+        {
+          "name": "Hyunjun Yang",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luke McCowan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alex Oxlade-Chamberlain",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Callum McGregor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dane Murray",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Colby Donovan",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kieran Tierney",
+          "position": "Abwehr"
         }
       ]
     }

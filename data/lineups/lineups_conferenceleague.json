@@ -1,7 +1,7 @@
 {
   "league": "conferenceleague",
   "season": "2027",
-  "lastUpdated": "2026-11-26T18:46:33Z",
+  "lastUpdated": "2026-11-26T19:01:31Z",
   "lineups": [
     {
       "homeTeam": "Egnatia",
@@ -6929,6 +6929,204 @@
         },
         {
           "name": "Matej Gashtarov",
+          "position": "Mittelfeld"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Freiburg",
+      "awayTeam": "Twente",
+      "dateTime": "2026-11-26T20:00:00Z",
+      "matchday": 4,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Mio Backhaus",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Eggestein",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yuito Suzuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yannik Engelhardt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Kübler",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Cyriaque Irié",
+          "position": "Angriff"
+        },
+        {
+          "name": "Matthias Ginter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Christian Günter",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Igor Matanović",
+          "position": "Angriff"
+        },
+        {
+          "name": "Vincenzo Grifo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Max Rosenfelder",
+          "position": "Abwehr"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Joël Drommel",
+          "position": "Torwart"
+        },
+        {
+          "name": "Robin Pröpper",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ruud Nijstad",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ramiz Zerrouki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daouda Weidmann",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wout Weghorst",
+          "position": "Angriff"
+        },
+        {
+          "name": "Younes Taha",
+          "position": "Angriff"
+        },
+        {
+          "name": "Daan Rots",
+          "position": "Angriff"
+        },
+        {
+          "name": "Sondre Ørjasæter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Bart Van Rooij",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aske Adelgaard",
+          "position": "Abwehr"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Braga",
+      "awayTeam": "KuPS Kuopio",
+      "dateTime": "2026-11-26T20:00:00Z",
+      "matchday": 4,
+      "phase": "gruppenphase",
+      "homeLineup": [
+        {
+          "name": "Bernardo Fontes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Victor Gómez",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diogo Travassos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "João Moutinho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fran Navarro",
+          "position": "Angriff"
+        },
+        {
+          "name": "Pau Víctor",
+          "position": "Angriff"
+        },
+        {
+          "name": "Gustaf Lagerbielke",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mario Dorgeles",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jean-Baptiste Gorby",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Barišić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabri Martínez",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Johannes Kreidl",
+          "position": "Torwart"
+        },
+        {
+          "name": "Saku Savolainen",
+          "position": "Angriff"
+        },
+        {
+          "name": "Petteri Pennanen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Valentin Gasc",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jaime Moreno",
+          "position": "Angriff"
+        },
+        {
+          "name": "Niilo Kujasalo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Samuel Pasanen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ayman Aiki",
+          "position": "Angriff"
+        },
+        {
+          "name": "Arttu Lötjönen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Taneli Hämäläinen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julius Eskesen",
           "position": "Mittelfeld"
         }
       ]
