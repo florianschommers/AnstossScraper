@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-22T22:52:59Z",
+  "lastUpdated": "2026-11-27T13:30:00Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -5345,6 +5345,105 @@
         },
         {
           "name": "Alexander Rossing Lelesiit",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "Borussia Mönchengladbach",
+      "dateTime": "2026-11-27T19:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Karl Hein",
+          "position": "Torwart"
+        },
+        {
+          "name": "Arthur",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Amos Pieper",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marco Friedl",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Olivier Deman",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Youri Regeer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovit Reis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Eren Dinkçi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chuki",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenny Quetant",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Niclas Füllkrug",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Daniel Batz",
+          "position": "Torwart"
+        },
+        {
+          "name": "Kevin Diks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Philipp Sander",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fabio Chiarodia",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joe Scally",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zento Uno",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Florian Neuhaus",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jens Castrop",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kevin Stöger",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Wael Mohya",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Shuto Machino",
           "position": "Angriff"
         }
       ]
