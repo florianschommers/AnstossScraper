@@ -1,7 +1,7 @@
 {
   "league": "france",
   "season": "2027",
-  "lastUpdated": "2026-11-22T22:53:01Z",
+  "lastUpdated": "2026-11-27T13:45:02Z",
   "lineups": [
     {
       "homeTeam": "Lens",
@@ -5345,6 +5345,105 @@
         },
         {
           "name": "Louis Mafouta",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Brest",
+      "awayTeam": "Paris FC",
+      "dateTime": "2026-11-27T19:45:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Egil Selvik",
+          "position": "Torwart"
+        },
+        {
+          "name": "Luck Zogbé",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lucas Tousart",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gautier Lloris",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bradley Locko",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joris Chotard",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hugo Magnetti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noah Edjouma",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Joseph Nonge",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pathe Mboup",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ludovic Ajorque",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Kevin Trapp",
+          "position": "Torwart"
+        },
+        {
+          "name": "Rudy Matondo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Samir Chergui",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Diego Coppola",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Otavio",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maxime Lopez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pierre Lees-Melou",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ilan Kebbal",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Pablo Pagis",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luca Koleosho",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Zabi",
           "position": "Angriff"
         }
       ]
