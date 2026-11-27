@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-22T20:15:54Z",
+  "lastUpdated": "2026-11-27T16:45:28Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -5345,6 +5345,204 @@
         },
         {
           "name": "Sebastian Gronning",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Heidenheim 1846",
+      "awayTeam": "1. FC Nürnberg",
+      "dateTime": "2026-11-27T17:30:00Z",
+      "matchday": 13,
+      "phase": "13. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Frank Feller",
+          "position": "Torwart"
+        },
+        {
+          "name": "Michael Heule",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Siersleben",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Patrick Mainka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marnon Busch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marcel Costly",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jan Schoppner",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marko Zrilic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Hennrich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Christian Joe Conteh",
+          "position": "Angriff"
+        },
+        {
+          "name": "Budu Zivzivadze",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jan-Marc Reichert",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eric Porstner",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Fynn Otto",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Alexios Kalogeropoulos",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tim Janisch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Javier Fernandez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adam Markhiyev",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Rafael Lubach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "William Bøving",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julian Justvan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Piet Scobel",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Bochum",
+      "awayTeam": "SV Darmstadt 98",
+      "dateTime": "2026-11-27T17:30:00Z",
+      "matchday": 13,
+      "phase": "13. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Timo Horn",
+          "position": "Torwart"
+        },
+        {
+          "name": "Maximilian Wittek",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Michael Steinwender",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Karol Mets",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sean Klaiber",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mats Pannewig",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Koji Miyoshi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enis Cokaj",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Philipp Hofmann",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jarne Steuckers",
+          "position": "Angriff"
+        },
+        {
+          "name": "Christian Rasmussen",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Marcel Schuhen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Matthias Bader",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Yannik Luhrs",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aleksandar Vukotic",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Raoul Petretta",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lars Kehl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kai Klefisch",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hiroki Akiyama",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marco Richter",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Milan Smit",
+          "position": "Angriff"
+        },
+        {
+          "name": "Noah Weisshaupt",
           "position": "Angriff"
         }
       ]
