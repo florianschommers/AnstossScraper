@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-23T22:52:50Z",
+  "lastUpdated": "2026-11-27T14:00:29Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -5939,6 +5939,105 @@
         },
         {
           "name": "Thierno Barry",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Chelsea FC",
+      "dateTime": "2026-11-27T20:00:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Matz Sels",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jair Cunha",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Milenković",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Murillo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Daniel Muñoz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "James McAtee",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Xaver Schlager",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Neco Williams",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dan Ndoye",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Gibbs-White",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Liam Delap",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Emiliano Martínez",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joshua Acheampong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Wesley Fofana",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Levi Colwill",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pep Chavarría",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Roméo Lavia",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Moisés Caicedo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Estêvão",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cole Palmer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Morgan Rogers",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuel Emegha",
           "position": "Angriff"
         }
       ]

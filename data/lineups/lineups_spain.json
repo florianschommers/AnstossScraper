@@ -1,7 +1,7 @@
 {
   "league": "spain",
   "season": "2027",
-  "lastUpdated": "2026-11-23T22:52:51Z",
+  "lastUpdated": "2026-11-27T14:00:29Z",
   "lineups": [
     {
       "homeTeam": "Malaga",
@@ -6038,6 +6038,105 @@
         },
         {
           "name": "Fernando Nino",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Levante",
+      "awayTeam": "Racing Santander",
+      "dateTime": "2026-11-27T20:00:00Z",
+      "matchday": 14,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Mathew Ryan",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ifeanyi Ndukwe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Aïssa Mandi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adrian De La Fuente",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jorge Cabello",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Oriol Rey",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Jon Olasagasti",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Brugue",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel Requena",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Thiago Fernández",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ivan Romero",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Julen Agirrezabala",
+          "position": "Torwart"
+        },
+        {
+          "name": "Pablo Ramon Parra",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pedro Felipe de Jesus Gomes",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jeanuel Belocian",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jorge Salinas",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matteo Prati",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iván Martín",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Iker Luque",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sergio Canales",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Inigo Vicente",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Yassir Zabiri",
           "position": "Angriff"
         }
       ]
