@@ -1,7 +1,7 @@
 {
   "league": "2bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-28T18:45:58Z",
+  "lastUpdated": "2026-11-28T19:00:58Z",
   "lineups": [
     {
       "homeTeam": "1. FC Heidenheim 1846",
@@ -5840,6 +5840,105 @@
         },
         {
           "name": "Erencan Yardımcı",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "Hannover 96",
+      "dateTime": "2026-11-28T19:30:00Z",
+      "matchday": 13,
+      "phase": "13. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Jonas Krumrey",
+          "position": "Torwart"
+        },
+        {
+          "name": "Niklas Wiemann",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jannik Müller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Fabinski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Gomez",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Adrian Beck",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Flach",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrick Kammerbauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ismail Badjie",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Opitz",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daniel-Kofi Kyereh",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Leo Weinkauf",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jean Hugonet",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boris Tomiak",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Bastian Allgeier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Franz Roggow",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Waniss Taibi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maurice Neubauer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Marcel Hartel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Stefán Teitur Thórdarson",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Husseyn Chakroun",
+          "position": "Angriff"
+        },
+        {
+          "name": "Lars Gindorf",
           "position": "Angriff"
         }
       ]
