@@ -9551,10 +9551,110 @@
       "tla": null,
       "wikidataId": null
     },
-    "lastUpdateDateTime": "2026-11-20T11:56:25.813",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-27T22:27:06.373",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131823,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131824,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 3,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 154072,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 27,
+        "goalGetterID": 24242,
+        "goalGetterName": "K. Diks",
+        "scoringTeamId": 87,
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154074,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 38,
+        "goalGetterID": 23615,
+        "goalGetterName": "E. Dinkçi",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154081,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 46,
+        "goalGetterID": 20147,
+        "goalGetterName": "F. Honorat",
+        "scoringTeamId": 87,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154091,
+        "scoreTeam1": 1,
+        "scoreTeam2": 3,
+        "matchMinute": 78,
+        "goalGetterID": 20147,
+        "goalGetterName": "F. Honorat",
+        "scoringTeamId": 87,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154092,
+        "scoreTeam1": 2,
+        "scoreTeam2": 3,
+        "matchMinute": 85,
+        "goalGetterID": 23615,
+        "goalGetterName": "E. Dinkçi",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154093,
+        "scoreTeam1": 3,
+        "scoreTeam2": 3,
+        "matchMinute": 92,
+        "goalGetterID": 18661,
+        "goalGetterName": "N. Füllkrug",
+        "scoringTeamId": 134,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": {
       "locationID": 36,
       "locationCity": "Bremen",
