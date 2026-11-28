@@ -1,7 +1,7 @@
 {
   "league": "england",
   "season": "2027",
-  "lastUpdated": "2026-11-28T11:15:04Z",
+  "lastUpdated": "2026-11-28T11:30:03Z",
   "lineups": [
     {
       "homeTeam": "FC Arsenal",
@@ -6236,6 +6236,105 @@
         },
         {
           "name": "Callum Wilson",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Ipswich Town",
+      "awayTeam": "Aston Villa",
+      "dateTime": "2026-11-28T17:30:00Z",
+      "matchday": 12,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Christian Walton",
+          "position": "Torwart"
+        },
+        {
+          "name": "Darnell Furlong",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Issa Diop",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dara O'Shea",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leif Davis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Exequiel Palacios",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Saša Lukić",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Abdoul Ouattara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Julio Enciso",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Daizen Maeda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Zian Flemming",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Zion Suzuki",
+          "position": "Torwart"
+        },
+        {
+          "name": "Aaron Wan-Bissaka",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Taylor Harwood-Bellis",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Pau Torres",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ian Maatsen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Boubacar Kamara",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Leon Goretzka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Alysson Edward",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "John McGinn",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Johan Manzambi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nicolas Jackson",
           "position": "Angriff"
         }
       ]

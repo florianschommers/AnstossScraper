@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-28T11:15:02Z",
+  "lastUpdated": "2026-11-28T11:30:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -5840,6 +5840,105 @@
         },
         {
           "name": "Junior Adamu",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "Eintracht Frankfurt",
+      "dateTime": "2026-11-28T17:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Dennis Seimen",
+          "position": "Torwart"
+        },
+        {
+          "name": "Finn Jeltsch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Julian Chabot",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ramon Hendriks",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jamie Leweling",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Grischa Prömel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Atakan Karazor",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Maximilian Mittelstädt",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Deniz Undav",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Chris Führich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ermedin Demirović",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Noah Atubolu",
+          "position": "Torwart"
+        },
+        {
+          "name": "Ansgar Knauff",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Robin Koch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lilian Brassier",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Keita Kosugi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ritsu Doan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphael Onyedika",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Noël Aséko Nkili",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fares Chaibi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Younes Ebnoutalib",
+          "position": "Angriff"
+        },
+        {
+          "name": "Jonathan Burkardt",
           "position": "Angriff"
         }
       ]
