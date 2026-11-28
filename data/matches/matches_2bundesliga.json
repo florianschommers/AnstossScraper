@@ -10811,10 +10811,84 @@
       "tla": null,
       "wikidataId": "Q15786"
     },
-    "lastUpdateDateTime": "2026-09-10T17:45:41.86",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-27T20:31:18.947",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131797,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131798,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 3,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 154040,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 13,
+        "goalGetterID": 18405,
+        "goalGetterName": "P. Mainka",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154041,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 39,
+        "goalGetterID": 23994,
+        "goalGetterName": "M. Costly",
+        "scoringTeamId": 79,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154043,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 61,
+        "goalGetterID": 20084,
+        "goalGetterName": "B. Zivzivadze",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154044,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 65,
+        "goalGetterID": 19780,
+        "goalGetterName": "J. Schöppner",
+        "scoringTeamId": 199,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
@@ -10850,10 +10924,58 @@
       "tla": null,
       "wikidataId": "Q479351"
     },
-    "lastUpdateDateTime": "2026-09-10T17:45:53.413",
-    "matchIsFinished": false,
-    "matchResults": [],
-    "goals": [],
+    "lastUpdateDateTime": "2026-11-27T20:31:20.177",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 131799,
+        "resultName": "Halbzeit",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultTypeKind": "HalfTime",
+        "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+      },
+      {
+        "resultID": 131800,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultTypeKind": "After90Minutes",
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 154048,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 81,
+        "goalGetterID": 17664,
+        "goalGetterName": "P. Hofmann",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 154059,
+        "scoreTeam1": 2,
+        "scoreTeam2": 0,
+        "matchMinute": 94,
+        "goalGetterID": 21348,
+        "goalGetterName": "B. Taz",
+        "scoringTeamId": 129,
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": true,
+        "comment": null
+      }
+    ],
     "location": null,
     "numberOfViewers": null
   },
