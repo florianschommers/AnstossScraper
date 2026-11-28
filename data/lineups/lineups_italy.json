@@ -1,7 +1,7 @@
 {
   "league": "italy",
   "season": "2027",
-  "lastUpdated": "2026-11-27T22:52:49Z",
+  "lastUpdated": "2026-11-28T10:00:05Z",
   "lineups": [
     {
       "homeTeam": "Genoa",
@@ -7028,6 +7028,105 @@
         },
         {
           "name": "Jens Odgaard",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Frosinone",
+      "awayTeam": "Parma",
+      "dateTime": "2026-11-28T14:00:00Z",
+      "matchday": 13,
+      "phase": "",
+      "homeLineup": [
+        {
+          "name": "Lorenzo Palmisani",
+          "position": "Torwart"
+        },
+        {
+          "name": "Anthony Oyono",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gabriele Calvani",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giorgio Cittadini",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Ilario Monterisi",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Giacomo Calo",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patrizio Masini",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Enzo Tchato",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Romano Schmid",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giorgi Kvernadze",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Fares Ghedjemis",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Giovanni Daffara",
+          "position": "Torwart"
+        },
+        {
+          "name": "Enrico Del Prato",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Mariano Troilo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Franco Carboni",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sascha Britschgi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Vincent Sierro",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mandela Keita",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Emanuele Valeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Giovanni Fabbian",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nesta Elphege",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "El Bilal Touré",
           "position": "Angriff"
         }
       ]

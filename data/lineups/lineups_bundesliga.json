@@ -1,7 +1,7 @@
 {
   "league": "bundesliga",
   "season": "2027",
-  "lastUpdated": "2026-11-27T22:52:47Z",
+  "lastUpdated": "2026-11-28T10:00:01Z",
   "lineups": [
     {
       "homeTeam": "Borussia Dortmund",
@@ -5444,6 +5444,402 @@
         },
         {
           "name": "Shuto Machino",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "1. FC Union Berlin",
+      "dateTime": "2026-11-28T14:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Robin Zentner",
+          "position": "Torwart"
+        },
+        {
+          "name": "Danny da Costa",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Stefan Posch",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kacper Potulski",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Anthony Caci",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Nebel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kaishu Sano",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nadiem Amiri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Phillipp Mwene",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Sheraldo Becker",
+          "position": "Angriff"
+        },
+        {
+          "name": "Phillip Tietz",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Frederik Rønnow",
+          "position": "Torwart"
+        },
+        {
+          "name": "Christopher Trimmel",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Leopold Querfeld",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Marvin Friedrich",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Derrick Kohn",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Kastriot Imeri",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Janik Haberer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "András Schäfer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Michel Aebischer",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Oliver Burke",
+          "position": "Angriff"
+        },
+        {
+          "name": "Andrej Ilic",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "FC Bayern München",
+      "dateTime": "2026-11-28T14:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Daniel Fernandes",
+          "position": "Torwart"
+        },
+        {
+          "name": "Nicolas Capaldo",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastiaan Bornauw",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Warmed Omari",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Zakaria El Ouahdi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Martin Adeline",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kofi Amoako",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Albert Grønbæk",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Møller Wolfe",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Patson Daka",
+          "position": "Angriff"
+        },
+        {
+          "name": "Alexander Rossing Lelesiit",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Jonas Urbig",
+          "position": "Torwart"
+        },
+        {
+          "name": "Konrad Laimer",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Dayot Upamecano",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jonathan Tah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Josip Stanišić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Joshua Kimmich",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Aleksandar Pavlović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lennart Karl",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Bischof",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Nathaniel Brown",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Luis Díaz",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "SV 07 Elversberg",
+      "dateTime": "2026-11-28T14:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Ron-Robert Zieler",
+          "position": "Torwart"
+        },
+        {
+          "name": "Joel Schmied",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Jahmai Simpson-Pusey",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Gideon Mensah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Sebastian Sebulonsen",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Paul Okon-Engstler",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Krauss",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Mikey Moore",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Borna Sosa",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Said El Mala",
+          "position": "Angriff"
+        },
+        {
+          "name": "Linton Maina",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Nicolas Kristof",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jan Gyamerah",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lukas Finn Pinckert",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Maximilian Rohr",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Lasse Gunther",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Felix Keidel",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukasz Poreba",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Lukas Petkov",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Francis Onyeka",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Cole Campbell",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "David Mokwa",
+          "position": "Angriff"
+        }
+      ]
+    },
+    {
+      "homeTeam": "SC Paderborn 07",
+      "awayTeam": "FC Schalke 04",
+      "dateTime": "2026-11-28T14:30:00Z",
+      "matchday": 11,
+      "phase": "11. Spieltag",
+      "homeLineup": [
+        {
+          "name": "Nahuel Noll",
+          "position": "Torwart"
+        },
+        {
+          "name": "Jano ter Horst",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Tjark Lasse Scheller",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Matt Hansen",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Laurin Curda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Tom Baack",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Santiago Castaneda",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Raphael Obermair",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Ruben Muller",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Gabriel Vidović",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Steffen Tigges",
+          "position": "Angriff"
+        }
+      ],
+      "awayLineup": [
+        {
+          "name": "Loris Karius",
+          "position": "Torwart"
+        },
+        {
+          "name": "Eric Ebimbe",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Nikola Katić",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Hasan Kurucay",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Vitalie Becker",
+          "position": "Abwehr"
+        },
+        {
+          "name": "Adil Aouchiche",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Soufiane El-Faouzi",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Dejan Ljubicic",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Hwang Hee-chan",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Kenan Karaman",
+          "position": "Mittelfeld"
+        },
+        {
+          "name": "Junior Adamu",
           "position": "Angriff"
         }
       ]
